@@ -114,3 +114,29 @@ chs_major_decisions.0004 = {
 }
 
 ##############################################################  Magna Germania
+
+chs_major_decisions.0005 = {
+	type = character_event
+	title = chs_major_decisions.0005.t
+
+	desc = {
+		desc = chs_major_decisions.0005.desc
+	}
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+		unite_the_germans_effect = yes
+	}
+
+	option = {
+		name = chs_major_decisions.0005.a
+	}
+}

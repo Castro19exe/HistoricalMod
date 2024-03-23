@@ -319,3 +319,44 @@ create_portuguese_empire_effect = {
 }
 
 ######################################################################################################
+
+unite_the_germans_effect = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Create the title
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = yes
+	}
+	title:e_portugal = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+		save_scope_as = title_e_portugal
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	#Make the title primary
+	set_primary_title_to = title:e_portugal
+
+	#Tooltips
+	custom_tooltip = create_portuguese_empire.preview.titles
+
+	hidden_effect = {
+		title:k_canarias = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = k_canarias
+		}
+
+		title:d_canarias = { set_de_jure_liege_title = title:k_canarias }
+
+		title:k_canarias = { set_de_jure_liege_title = title:e_portugal }
+		title:k_portugal = { set_de_jure_liege_title = title:e_portugal }
+	}
+}
