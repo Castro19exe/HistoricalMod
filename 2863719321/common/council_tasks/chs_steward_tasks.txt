@@ -773,6 +773,19 @@ task_promote_culture = {
 				desc = fp2_struggle_hostility_culture_conversion_task_desc
 			}
 		}
+		# Faster conversion for forming the kingdom of Dalmatia
+		if = {
+			limit = {
+				scope:county.title_province = { geographical_region = custom_roman_illyricum }
+				scope:councillor.liege.character = {
+					has_character_modifier = dalmatian_culture_promote_modifier
+				}
+			}
+			multiply = {
+				value = 1.25
+				desc = dalmatian_culture_conversion_task_desc
+			}
+		}
 		if = {
 			limit = {
 				scope:councillor_liege = {
@@ -851,6 +864,14 @@ task_promote_culture = {
 						scope:county.culture = culture:norman
 					}
 				}
+				AND = {
+					# Saxon rulers should convert counties of Polabian and Pommeranian cultures.
+					scope:councillor_liege.culture = culture:saxon
+					OR = {
+						scope:county.culture = culture:polabian
+						scope:county.culture = culture:pommeranian
+					}
+				}
 			}
 			OR = {
 				is_independent_ruler = yes
@@ -880,6 +901,14 @@ task_promote_culture = {
 					OR = {
 						scope:county.culture = culture:anglo_saxon
 						scope:county.culture = culture:norman
+					}
+				}
+				AND = {
+					# Saxon rulers should convert counties of Polabian and Pommeranian cultures.
+					scope:councillor_liege.culture = culture:saxon
+					OR = {
+						scope:county.culture = culture:polabian
+						scope:county.culture = culture:pommeranian
 					}
 				}
 			}
@@ -965,15 +994,26 @@ task_promote_culture = {
 						#		scope:county.culture = { has_cultural_pillar = heritage_brythonic }
 						#	}
 						#}
-						AND = { # The Portuguese should want to convert Suebi
-							scope:councillor_liege.culture = culture:portuguese
-							scope:county.culture = culture:suebi
-						}
-						AND = { # The Iberians want to convert Visigothic
-							scope:councillor_liege.culture = { has_cultural_pillar = heritage_iberian }
-							NOT = { scope:councillor_liege.culture = culture:portuguese }
-							scope:county.culture = culture:visigothic
-						}
+						#AND = { # The Portuguese should want to convert Suebi
+						#	scope:councillor_liege.culture = culture:portuguese
+						#	scope:county.culture = culture:suebi
+						#}
+						#AND = { # The Iberians want to convert Visigothic
+						#	scope:councillor_liege.culture = { has_cultural_pillar = heritage_iberian }
+						#	NOT = { scope:councillor_liege.culture = culture:portuguese }
+						#	scope:county.culture = culture:visigothic
+						#}
+						AND = { # Thuringian rulers should convert counties of Sorbian culture.
+                            scope:councillor_liege.culture = culture:thuringian
+                            scope:county.culture = culture:sorbian
+                        }
+                        AND = { # Saxon rulers should convert counties of Polabian/Pommeranian culture.
+                            scope:councillor_liege.culture = culture:saxon
+                            OR = {
+                                scope:county.culture = culture:polabian
+                                scope:county.culture = culture:pommeranian
+                            }
+                        }
 					}
 				}
 			}
