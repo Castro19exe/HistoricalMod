@@ -325,4 +325,52 @@ create_portuguese_empire_decision = {
 	}
 }
 
-############################################################## 
+##############################################################
+
+unite_the_germans_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = unite_the_germans_decision_desc
+	selection_tooltip = unite_the_germans_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			culture = { has_cultural_pillar = heritage_north_sea_germanic }
+			}
+		NOR = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_germans_decision
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_north_germanic }
+			culture = { has_cultural_pillar = heritage_north_sea_germanic }
+		}
+		completely_controls_region = custom_magna_germania
+	}
+
+	effect = {
+		
+	}
+
+
+	cost = { gold = 600 }
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
