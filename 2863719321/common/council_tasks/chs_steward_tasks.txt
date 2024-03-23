@@ -1014,6 +1014,17 @@ task_promote_culture = {
                                 scope:county.culture = culture:pommeranian
                             }
                         }
+						AND = { # Latin Iberians want to convert Andalusians.
+                            OR = {
+                                scope:county.culture = culture:castilian
+								scope:county.culture = culture:asturleonese
+								scope:county.culture = culture:galician
+								scope:county.culture = culture:basque
+								scope:county.culture = culture:aragonese
+                                scope:county.culture = culture:portuguese
+                            }
+                            scope:county.culture = culture:andalusian
+                        }
 					}
 				}
 			}
