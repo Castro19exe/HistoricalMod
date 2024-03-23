@@ -1,0 +1,1233 @@
+﻿@byz_innovation_army = "gfx/interface/icons/culture_innovations/innovation_Byz_army.dds"
+@Rus_innovation_army = "gfx/interface/icons/culture_innovations/innovation_Rus_army.dds"
+@fin_innovation_army = "gfx/interface/icons/culture_innovations/innovation_fin_army.dds"
+@balt_innovation_army = "gfx/interface/icons/culture_innovations/innovation_balt_army.dds"
+@Nomad_innovation_army = "gfx/interface/icons/culture_innovations/innovation_Nomad_army.dds"
+@pol_innovation_army = "gfx/interface/icons/culture_innovations/innovation_pol_army.dds"
+@west_slav_innovation_army = "gfx/interface/icons/culture_innovations/innovation_west_slav_army.dds"
+@czech_innovation_army = "gfx/interface/icons/culture_innovations/innovation_czech_army.dds"
+@hung_innovation_army = "gfx/interface/icons/culture_innovations/innovation_hung_army.dds"
+@hung_hev_innovation_army = "gfx/interface/icons/culture_innovations/innovation_hung_hev_army.dds"
+@bulg_innovation_army = "gfx/interface/icons/culture_innovations/innovation_bulg_army.dds"
+@vlach_innovation_army = "gfx/interface/icons/culture_innovations/innovation_vlach_army.dds"
+@serb_innovation_army = "gfx/interface/icons/culture_innovations/innovation_serb_army.dds"
+@south_slav_innovation_army = "gfx/interface/icons/culture_innovations/innovation_south_slav_army.dds"
+@frank_innovation_army = "gfx/interface/icons/culture_innovations/innovation_frank_army.dds"
+@norse_innovation_army = "gfx/interface/icons/culture_innovations/innovation_norse_army.dds"
+@anglo_saxon_innovation_army = "gfx/interface/icons/culture_innovations/innovation_anglo_saxon_army.dds"
+@breton_innovation_army = "gfx/interface/icons/culture_innovations/innovation_south_slav_army.dds"
+@english_innovation_army = "gfx/interface/icons/culture_innovations/innovation_english_army.dds"
+@iberia_innovation_army = "gfx/interface/icons/culture_innovations/innovation_vlach_army.dds"
+@arab_innovation_army = "gfx/interface/icons/culture_innovations/innovation_arab_army.dds"
+@spain_hev_innovation_army = "gfx/interface/icons/culture_innovations/innovation_spain_hev_army.dds"
+@themata_innovation_system = "gfx/interface/icons/culture_innovations/innovation_themata_system.dds"
+@pronoia_innovation_system = "gfx/interface/icons/culture_innovations/innovation_pronoia_system.dds"
+@varangian_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_varangian_guard.dds"
+
+
+innovation_roman_legacy = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @byz_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:greek
+			this = culture:copt
+			this = culture:roman
+			this = culture:hispano_roman
+			this = culture:daco_roman
+			this = culture:afro_roman
+			this = culture:north_gallo_roman
+			this = culture:south_gallo_roman
+		}
+	}
+
+	character_modifier = {
+		levy_size = -0.25
+		levy_reinforcement_rate = -0.5
+		heavy_infantry_max_size_add = 4
+		light_cavalry_max_size_add = 2
+		men_at_arms_cap = 2
+	}
+
+	flag = global_maa
+}
+
+innovation_themata_system = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @themata_innovation_system
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_byzantine
+			OR = {
+				this = culture:greek
+				this = culture:copt
+				this = culture:assyrian
+				this = culture:arberian
+				this = culture:crimean_gothic
+				this = culture:armenian
+			}
+		}	
+	}
+
+	custom = imperial_army_inovation
+
+	custom = provincial_army_inovation
+
+	custom = border_army_inovation
+
+	custom = non_imperial_army
+
+	custom = disables_normal_maa
+
+	character_modifier = {
+		vassal_levy_contribution_mult = -0.25
+		men_at_arms_maintenance = -0.15
+	}
+
+	flag = global_maa
+	flag = tagmata_army
+}
+
+innovation_varangian_guard = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	icon = @varangian_innovation_guard
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_byzantine
+			OR = {
+				this = culture:greek
+				this = culture:arberian
+			}
+		}	
+	}
+
+	custom = varangoi_troops
+
+	character_modifier = {
+		mercenary_hire_cost_mult = -0.15
+	}
+
+	flag = global_maa
+	flag = varangoi_army
+}
+
+innovation_pronoia_system = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @pronoia_innovation_system
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_byzantine
+			OR = {
+				this = culture:greek
+				this = culture:arberian 
+				this = culture:crimean_gothic 
+				this = culture:pontic
+				this = culture:tsakonian
+			}
+		}	
+	}
+
+	custom = imperial_army_reformed
+
+	custom = provincial_army_reformed
+
+	custom = pelekyphoroi_troops
+
+	character_modifier = {
+		mercenary_hire_cost_mult = -0.25
+		vassal_levy_contribution_mult = -0.15
+		men_at_arms_cap = 1
+	}
+
+	flag = global_maa
+	flag = pronoian_army
+}
+
+
+innovation_Rus_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @Rus_innovation_army
+
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_east_slavic
+			this = culture:russian
+			this = culture:novgorodian 
+		}	
+	}
+
+	unlock_maa = Rus_voi
+	unlock_maa = Rus_strelki
+	unlock_maa = Rus_polki
+	unlock_maa = Rus_mlada_druzina
+	custom = rus_varagi_gl
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = Rus_army
+}
+
+innovation_Rus_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @Rus_innovation_army
+
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_east_slavic
+			this = culture:russian
+			this = culture:novgorodian 
+		}	
+	}
+
+	unlock_maa = Rus_starsha_druzina
+
+	flag = global_regional
+	flag = Rus_hev_army
+}
+
+innovation_fin_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @fin_innovation_army
+
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_balto_finnic 
+			has_cultural_pillar = heritage_ugro_permian
+			has_cultural_pillar = heritage_volga_finnic 
+		}	
+	}
+
+	unlock_maa = fin_kahaaja
+	unlock_maa = fin_ratsuvaki
+	unlock_maa = fin_henkivartijat
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = fin_army
+}
+
+innovation_fin_hev_armies = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @fin_innovation_army
+
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_balto_finnic 
+			has_cultural_pillar = heritage_ugro_permian
+			has_cultural_pillar = heritage_volga_finnic 
+		}	
+	}
+
+	unlock_maa = fin_ritarit
+
+	flag = global_regional
+	flag = fin_hev_armies
+}
+
+innovation_balt_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @balt_innovation_army
+
+	potential = {
+		has_cultural_pillar = heritage_baltic	
+	}
+
+	unlock_maa = balt_kovotojas
+	unlock_maa = balt_kavalerija
+	unlock_maa = balt_sargybiniai
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = balt_army
+}
+
+innovation_balt_hev_armies = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @balt_innovation_army
+
+	potential = {
+		has_cultural_pillar = heritage_baltic
+	}
+
+	unlock_maa = balt_riteriai
+
+	flag = global_regional
+	flag = balt_hev_army
+}
+
+innovation_turk_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_steppe
+	icon = @Nomad_innovation_army
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_turkic		
+			has_cultural_tradition = tradition_horse_lords
+		}	
+	}
+
+	unlock_maa = turk_akinji 
+	#unlock_maa = turk_qapikulu
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = turk_army
+}
+
+innovation_turk_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_steppe
+	icon = @Nomad_innovation_army
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_turkic		
+			has_cultural_tradition = tradition_horse_lords
+		}	
+	}
+
+	unlock_maa = turk_sipahi
+	unlock_maa = turk_timariot
+
+	flag = global_regional
+	flag = turk_hev_army
+}
+
+innovation_mong_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_steppe
+	icon = @Nomad_innovation_army
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_mongolic			
+			has_cultural_tradition = tradition_horse_lords
+		}	
+	}
+
+	unlock_maa = mong_cherbi 
+	unlock_maa = mong_skirmishers	
+	#unlock_maa = mong_Khevtuul
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = mong_army
+}
+
+innovation_mong_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_steppe
+	icon = @Nomad_innovation_army
+
+	potential = {
+		AND = {
+			has_cultural_pillar = heritage_mongolic			
+			has_cultural_tradition = tradition_horse_lords
+		}	
+	}
+
+	unlock_maa = mong_keshik
+	unlock_maa = mong_torguud
+
+	flag = global_regional
+	flag = mong_hev_army
+}
+
+innovation_pol_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @pol_innovation_army
+
+	potential = {
+		this = culture:polish 
+		this = culture:silesian 
+		this = culture:opolan 
+		this = culture:golensizi 
+		this = culture:vistulan 
+		this = culture:lendian 
+		this = culture:masovian 
+		this = culture:polans 
+	}
+
+	custom = army_evo
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = pol_army
+}
+
+innovation_pol_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @pol_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:polish
+			any_parent_culture_or_above = {
+				this = culture:polish
+			}
+		} 
+	}
+
+	unlock_maa = pol_szlachta
+
+	flag = global_regional
+	flag = pol_hev_army
+}
+
+innovation_west_slav_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_germania
+	icon = @west_slav_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:pommeranian 
+			this = culture:polabian
+			this = culture:sorbian 
+			this = culture:obotrite 
+			this = culture:ranian 
+			this = culture:lutici 
+			this = culture:kashubian
+		}	
+	}
+
+	unlock_maa = west_slav_lekhota
+	unlock_maa = west_slav_druzyna
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = west_slav_army
+}
+
+innovation_west_slav_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_germania
+	icon = @west_slav_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:pommeranian
+			this = culture:polabian
+			this = culture:sorbian
+			this = culture:obotrite
+			this = culture:ranian
+			this = culture:lutici
+			this = culture:kashubian
+		}
+	}
+
+	unlock_maa = west_slav_rycerze
+
+	flag = global_regional
+	flag = west_slav_hev_army
+}
+
+innovation_czech_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_germania
+	icon = @czech_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:czech  
+			this = culture:slovien  
+		}	
+	}
+
+	unlock_maa = czech_rez
+	unlock_maa = czech_jezdectvo 
+	unlock_maa = czech_lukostrelci 
+	unlock_maa = czech_pikenyri 
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = czech_army
+}
+
+innovation_czech_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_germania
+	icon = @czech_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:czech  
+			this = culture:slovien  
+		}
+	}
+
+	unlock_maa = czech_rytiri
+
+	flag = global_regional
+	flag = czech_hev_army
+}
+
+innovation_hung_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @hung_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:mogyer
+			any_parent_culture_or_above = {
+				this = culture:mogyer
+			}
+		}	
+	}
+
+	custom = hung_fos_gl
+	custom = hung_torz_gl
+	custom = army_evo
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = hung_army
+}
+
+innovation_hung_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @hung_hev_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:mogyer
+			any_parent_culture_or_above = {
+				this = culture:mogyer
+			}
+		} 
+	}
+
+	unlock_maa = hung_nem
+
+	flag = global_regional
+	flag = hung_hev_army
+}
+
+innovation_bulg_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_south_east
+	icon = @bulg_innovation_army
+
+	potential = {
+		this = culture:bulgarian	
+	}
+
+	unlock_maa = bulg_prestrelkachi
+	unlock_maa = bulg_streltsi
+	unlock_maa = bulg_pikeli
+	unlock_maa = bulg_vuoruzheni_muzhe
+	unlock_maa = bulg_bulgarski_konnitsi
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = bulg_army
+}
+
+innovation_vlach_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @vlach_innovation_army
+
+	potential = {
+		this = culture:vlach	
+	}
+
+	unlock_maa = vlach_spartitor
+	unlock_maa = vlach_stiucari
+	unlock_maa = vlach_barbati_la_arme
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = vlach_army
+}
+
+innovation_vlach_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_east
+	icon = @hung_hev_innovation_army
+
+	potential = {
+		this = culture:vlach	
+	}
+
+	unlock_maa = vlach_calareti
+
+	flag = global_regional
+	flag = vlach_hev_army
+}
+
+innovation_serb_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_south_east
+	icon = @serb_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:serbian
+			any_parent_culture_or_above = {
+				this = culture:serbian
+			}
+		}	
+	}
+
+	custom = army_evo
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = serb_army
+}
+
+innovation_south_slav_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_south_east
+	icon = @south_slav_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:croatian 
+			this = culture:bosnian 
+			this = culture:carantanian
+			this = culture:blatno_slavic 
+			this = culture:dudlebian 
+			this = culture:slavonian 
+			this = culture:neretljanian 
+			this = culture:abotrite 
+			this = culture:branichian 
+			this = culture:doclean 
+			this = culture:travunian 
+			this = culture:zachlumian 
+			this = culture:pannonian 
+			this = culture:illyrian_slavic 
+			this = culture:berzite
+		}	
+	}
+
+	unlock_maa = s_slavs_skakasi
+	unlock_maa = s_slavs_strijelcima
+	unlock_maa = s_slavs_kopljanici
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = south_slav_army
+}
+
+innovation_south_slav_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_south_east
+	icon = @hung_hev_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:croatian 
+			this = culture:bosnian 
+			this = culture:carantanian
+			this = culture:blatno_slavic 
+			this = culture:dudlebian 
+			this = culture:slavonian 
+			this = culture:neretljanian 
+			this = culture:abotrite 
+			this = culture:branichian 
+			this = culture:doclean 
+			this = culture:travunian 
+			this = culture:zachlumian 
+			this = culture:pannonian 
+			this = culture:illyrian_slavic 
+			this = culture:berzite
+		}	
+	}
+
+	unlock_maa = s_slavs_vitezova
+
+	flag = global_regional
+	flag = south_slav_hev_army
+}
+
+innovation_frank_g_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_germania
+	icon = @frank_innovation_army
+
+	potential = {
+		OR = { 
+		    this = culture:saxon
+			this = culture:franconian
+			this = culture:swabian
+			this = culture:bavarian
+			this = culture:dutch
+			this = culture:thuringian 
+			this = culture:low_frankish 
+			this = culture:brabantian 
+			this = culture:flemish 
+			this = culture:ripuarian 
+			this = culture:westphalian 
+			this = culture:east_elbian 
+			this = culture:german_pommeranian 
+			this = culture:german_silesian 
+			this = culture:high_alemannic 
+			this = culture:alsatian
+			this = culture:frisian  
+		}	
+	}
+
+	custom = army_evo
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = frank_g_army
+}
+
+innovation_frank_f_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_francia
+	icon = @frank_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:french
+			this = culture:occitan
+			this = culture:arpitan_ce 
+			this = culture:arpitan 
+			this = culture:gascon 
+			this = culture:provencal 
+			this = culture:poitevin 
+			this = culture:angevin 
+			this = culture:burgundian_oil 
+			this = culture:lorrainian 
+			this = culture:picard
+            this = culture:walloon
+		}	
+	}
+
+	custom = army_evo
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = frank_f_army
+}
+
+innovation_norse_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_north
+	icon = @norse_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:norse
+			this = culture:swedish
+			this = culture:norwegian
+			this = culture:danish
+			this = culture:jute 
+			this = culture:dane 
+			this = culture:geat 
+			this = culture:got 
+			this = culture:svear 
+			this = culture:icelandic 
+			this = culture:scanian 
+			this = culture:greenlandic
+		}	
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = norse_army
+}
+
+innovation_anglo_saxon_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_britannia
+	icon = @anglo_saxon_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:anglo_saxon
+			this = culture:anglo_norse
+			this = culture:east_saxon
+			this = culture:west_saxon
+			this = culture:mercian
+			this = culture:hwiccians
+			this = culture:northumbrian
+			this = culture:kentish
+			this = culture:east_anglian
+		} 		 
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = anglo_saxon_army
+}
+
+innovation_breton_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_britannia
+	icon = @breton_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:breton
+			this = culture:cornish
+			this = culture:welsh
+		}	
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = breton_army
+}
+
+innovation_breton_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_britannia
+	icon = @hung_hev_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:cornish
+			this = culture:welsh
+		}	
+	}
+
+	unlock_maa = breton_uchelwr
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = breton_hev_army
+}
+
+innovation_irish_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_britannia
+	icon = @breton_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:manx 
+			this = culture:irish
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = irish_army
+}
+
+innovation_scot_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_britannia
+	icon = @breton_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:gaelic
+			this = culture:pictish
+			this = culture:cumbrian
+			this = culture:scottish
+		}	
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = scot_army
+}
+
+innovation_english_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_britannia
+	icon = @english_innovation_army
+
+	potential = { 
+		this = culture:english 
+		this = culture:northerner
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = english_army
+}
+
+innovation_iberia_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_iberia
+	icon = @iberia_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:andalusian
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:galician
+			this = culture:asturleonese
+			this = culture:aragonese
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = iberia_army
+}
+
+innovation_spain_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_iberia
+	icon = @spain_hev_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:castilian
+			this = culture:asturleonese
+			this = culture:galician
+			this = culture:aragonese
+			this = culture:catalan
+			this = culture:basque
+			AND = {
+				any_parent_culture_or_above = {
+					OR = {
+						this = culture:castilian
+						this = culture:asturleonese
+						this = culture:galician
+						this = culture:aragonese
+						this = culture:catalan
+						this = culture:basque
+					}
+				}
+				NOT = {
+					OR = {
+						this = culture:andalusian
+						this = culture:portuguese
+						any_parent_culture_or_above = {
+				            this = culture:andalusian
+							this = culture:portuguese
+			            }
+					}
+				}
+			}
+		}
+	}
+
+	unlock_maa = spain_knight
+
+	flag = global_regional
+	flag = spain_hev_army
+}
+
+innovation_andalus_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_iberia
+	icon = @hung_hev_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:andalusian
+			this = culture:mozarab
+			AND = {
+				any_parent_culture_or_above = {
+					OR = {
+						this = culture:andalusian 
+						this = culture:mozarab
+					}
+				}
+				NOT = {
+					OR = {
+						this = culture:navarro_aragonese
+						any_parent_culture_or_above = {
+				            this = culture:navarro_aragonese
+			            }
+						any_parent_culture_or_above = {
+							this = culture:basque
+						}
+						any_parent_culture_or_above = {
+							this = culture:castilian
+						}
+						any_parent_culture_or_above = {
+							this = culture:catalan
+						}
+						any_parent_culture_or_above = {
+							this = culture:portuguese
+						}
+						any_parent_culture_or_above = {
+							this = culture:galician
+						}
+						any_parent_culture_or_above = {
+							this = culture:asturleonese
+						}
+						any_parent_culture_or_above = {
+							this = culture:aragonese
+						}
+					}
+				}
+			}
+		}
+	}
+
+	unlock_maa = andalus_knight
+
+	flag = global_regional
+	flag = andalus_hev_army
+}
+
+innovation_portuguese_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_west_iberia
+	icon = @iberia_innovation_army
+
+	potential = {
+		this = culture:portuguese
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = iberia_army
+}
+
+innovation_portugal_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_iberia
+	icon = @spain_hev_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:portuguese
+			any_parent_culture_or_above = {
+				this = culture:portuguese
+			}
+		}
+	}
+
+	unlock_maa = portugal_knight
+
+	flag = global_regional
+	flag = spain_hev_army
+}
+
+innovation_italia_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_south_italy
+	icon = @iberia_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:italian
+			this = culture:cisalpine
+			this = culture:sardinian
+			this = culture:sicilian
+			this = culture:lombard
+			this = culture:maltese
+			this = culture:langobard
+			this = culture:neapolitan
+			this = culture:tuscan_ce
+			this = culture:dalmatian_ce
+			this = culture:venetian_ce
+			this = culture:ligurian
+			this = culture:piedmontese
+			this = culture:romagnol
+			this = culture:emilian
+			this = culture:romansh
+			this = culture:corsican
+			this = culture:friulian
+			this = culture:sardinian
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = italia_army
+}
+
+innovation_arab_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_middle_east_arabia
+	icon = @arab_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:bedouin 
+			this = culture:omani 
+			this = culture:hejazi 
+			this = culture:madan 
+			this = culture:bahraini
+			this = culture:levantine 
+			this = culture:iraqi
+			this = culture:maghrebi
+			this = culture:yemeni 
+			this = culture:himyarite 
+			this = culture:south_arabian 
+			this = culture:hadhrami 
+			this = culture:sicilian_arabic 
+			this = culture:siqilli
+			this = culture:libyan
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = arab_army
+}
+
+innovation_persian_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_middle_east_persia
+	icon = @iberia_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:persian 
+			this = culture:azeri 
+			this = culture:adhari
+			this = culture:luri 
+			this = culture:aschomi 
+			this = culture:khuzi 
+			this = culture:qufs
+			this = culture:kurdish
+			this = culture:baloch  
+			this = culture:daylamite 
+			this = culture:mazandarani 
+			this = culture:gilani 
+			this = culture:tajik 
+			this = culture:semnani  
+			this = culture:afghan
+			this = culture:sogdian
+			this = culture:khwarezmian
+			 
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = persian_army
+}
+
+innovation_egypt_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_africa_north_east
+	icon = @arab_innovation_army
+
+	potential = {
+		this = culture:egyptian
+		this = culture:saidi 
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = egypt_army
+}
+
+innovation_egypt_hev_army = {
+	group = culture_group_regional
+	culture_era = culture_era_early_medieval
+	region = world_africa_north_east
+	icon = @arab_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:egyptian
+			any_parent_culture_or_above = {
+				this = culture:egyptian
+			}
+		}
+	}
+
+	unlock_maa = egy_mam
+	unlock_maa = egy_mam_arch
+
+	flag = global_regional
+	flag = egypt_hev_army
+}
+
+innovation_berber_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_africa_north_west
+	icon = @iberia_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:butr
+			this = culture:baranis
+			this = culture:guanches
+			this = culture:zaghawa
+			this = culture:masmuda
+			this = culture:tagelmust
+			this = culture:tuareg
+			this = culture:haratin
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = berber_army
+}

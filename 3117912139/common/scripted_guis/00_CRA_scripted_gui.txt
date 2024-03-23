@@ -1,0 +1,42 @@
+﻿has_reformed_army = {
+	scope = character.culture
+
+	is_valid = {
+		OR = {
+			has_innovation = innovation_turk_army
+			has_innovation = innovation_mong_army
+			has_innovation = innovation_Rus_army
+			has_innovation = innovation_fin_army
+			has_innovation = innovation_balt_army
+			has_innovation = innovation_pol_army
+			has_innovation = innovation_west_slav_army
+			has_innovation = innovation_czech_army
+			has_innovation = innovation_hung_army
+			has_innovation = innovation_bulg_army
+			has_innovation = innovation_vlach_army
+			has_innovation = innovation_serb_army
+			has_innovation = innovation_south_slav_army
+			has_innovation = innovation_frank_g_army
+			has_innovation = innovation_frank_f_army
+			has_innovation = innovation_norse_army
+			has_innovation = innovation_anglo_saxon_army
+			has_innovation = innovation_breton_army
+			has_innovation = innovation_irish_army
+			has_innovation = innovation_scot_army
+			has_innovation = innovation_english_army
+			has_innovation = innovation_iberia_army
+			has_innovation = innovation_italia_army
+			has_innovation = innovation_arab_army
+			has_innovation = innovation_persian_army
+			has_innovation = innovation_egypt_army
+			has_innovation = innovation_berber_army
+			has_innovation = innovation_themata_system
+
+			has_innovation = innovation_portuguese_army
+			has_innovation = innovation_cavalleiros
+		}		
+	}
+
+	effect = {
+	}
+}

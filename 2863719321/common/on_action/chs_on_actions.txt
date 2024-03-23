@@ -1,0 +1,635 @@
+﻿### On actions related to religion
+
+# Code on-action: character converts faith. Only fired when using the convert window, or the script effect that uses the same logic
+# Root is the converter
+# scope:old_faith is the faith they used to have
+
+on_faith_conversion = {
+	on_actions = {
+		chs_ethnoreligious_identity_character
+	}
+}
+
+# Code on-action: character changes faith. Not called when a character gets a faith on birth, creation, and similar
+# Root is the character
+# scope:old_faith is the faith they used to have
+
+on_character_faith_change = {
+	on_actions = {
+		chs_ethnoreligious_identity_character
+	}
+}
+
+chs_ethnoreligious_identity_character = {
+	trigger = {
+		root.culture = {
+			has_cultural_parameter = convert_culture_on_religion_change
+		}
+	}
+	effect = {
+		root = {	
+			# Assyrians
+			if = {
+				limit = {
+					has_culture = culture:assyrian
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_culture = culture:levantine
+				}
+			}
+			# Copts
+			else_if = {
+				limit = {
+					has_culture = culture:copt
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_culture = culture:egyptian
+				}
+			}					
+			# Afro-Romans
+			else_if = {
+				limit = {
+					has_culture = culture:afro_roman
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_culture = culture:baranis
+				}
+			}					
+			# Ashkenazi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:ashkenazi
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_culture = culture:franconian
+				}
+			}					
+			# Sephardi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:sephardi
+				}
+				if = {
+					limit = {
+						has_religion = religion:islam_religion
+					}
+					set_culture = culture:andalusian
+				}
+				else_if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_culture = culture:castilian
+				}
+			}				
+			# Radhanite Jews
+			else_if = {
+				limit = {
+					has_culture = culture:radhanite
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_culture = culture:khazar
+				}
+			}
+			# Kochinim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:kochinim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_culture = culture:tamil
+				}
+			}
+			# Bavlim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:bavlim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_culture = culture:levantine
+				}
+			}
+		}
+	}
+}
+
+# County changes faith.
+# Root is the county title
+# scope:old_faith is the faith it used to have
+
+on_county_faith_change = {
+	on_actions = {
+		chs_ethnoreligious_identity_county
+	}
+}
+
+chs_ethnoreligious_identity_county = {
+	trigger = {
+		root.culture = {
+			has_cultural_parameter = convert_culture_on_religion_change
+		}
+	}
+	effect = {
+		root = {	
+			# Assyrians
+			if = {
+				limit = {
+					title_province.culture = culture:assyrian
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_culture = culture:levantine
+				}
+			}
+			# Copts
+			else_if = {
+				limit = {
+					title_province.culture = culture:copt
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_culture = culture:egyptian
+				}
+			}					
+			# Afro-Romans
+			else_if = {
+				limit = {
+					title_province.culture = culture:afro_roman
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_culture = culture:baranis
+				}
+			}					
+			# Ashkenazi Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:ashkenazi
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_culture = culture:franconian
+				}
+			}					
+			# Sephardi Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:sephardi
+				}
+				if = {
+					limit = {
+						title_province.religion = religion:islam_religion
+					}
+					set_county_culture = culture:andalusian
+				}
+				else_if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_culture = culture:castilian
+				}
+			}				
+			# Radhanite Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:radhanite
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_culture = culture:khazar
+				}
+			}
+			# Kochinim Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:kochinim
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_culture = culture:tamil
+				}
+			}
+			# Bavlim Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:bavlim
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_culture = culture:levantine
+				}
+			}
+		}
+	}
+}
+
+### On actions related to culture
+
+# Happens when a culture is created through hybridization or divergence
+# Root = The new culture
+# scope:founder = The founder of the new culture
+on_culture_created = {
+	on_actions = {
+		chs_ethnoreligious_identity_tradition_check
+	}
+}
+
+chs_ethnoreligious_identity_tradition_check = {
+	trigger = {
+		root = {
+			has_cultural_tradition = tradition_ethnoreligious_identity
+		}
+	}	
+	effect = {
+		root = {
+			remove_culture_tradition = tradition_ethnoreligious_identity
+		}
+	}
+}
+
+# Happens when a character changes culture
+# Root = character
+
+on_character_culture_change = {
+	on_actions = {
+		chs_ethnoreligious_identity_character_culture
+	}
+}
+
+chs_ethnoreligious_identity_character_culture = {
+	trigger = {
+		root.culture = {
+			has_cultural_parameter = require_correct_religion_to_convert
+		}
+	}	
+	effect = {
+		root = {	
+			# Assyrians
+			if = {
+				limit = {
+					has_culture = culture:assyrian
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:nestorian
+				}
+			}
+			# Copts
+			else_if = {
+				limit = {
+					has_culture = culture:copt
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:coptic
+				}
+			}					
+			# Afro-Romans
+			else_if = {
+				limit = {
+					has_culture = culture:afro_roman
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:catholic
+				}
+			}					
+			# Ashkenazi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:ashkenazi
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}					
+			# Sephardi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:sephardi
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}				
+			# Radhanite Jews
+			else_if = {
+				limit = {
+					has_culture = culture:radhanite
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}
+			# Kochinim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:kochinim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:malabarism
+				}
+			}
+			# Bavlim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:bavlim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}
+		}		
+	}
+}
+
+# Root = County title
+# scope:old_culture = old culture
+
+on_county_culture_change = {
+	on_actions = {
+		chs_ethnoreligious_identity_county_culture
+	}
+}
+
+chs_ethnoreligious_identity_county_culture = {
+	trigger = {
+		root.culture = {
+			has_cultural_parameter = require_correct_religion_to_convert
+		}
+	}
+	effect = {
+		root = {	
+			# Assyrians
+			if = {
+				limit = {
+					title_province.culture = culture:assyrian
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_faith = faith:nestorian
+				}
+			}
+			# Copts
+			else_if = {
+				limit = {
+					title_province.culture = culture:copt
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_faith = faith:coptic
+				}
+			}					
+			# Afro-Romans
+			else_if = {
+				limit = {
+					title_province.culture = culture:afro_roman
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:christianity_religion }
+					}
+					set_county_faith = faith:catholic
+				}
+			}					
+			# Ashkenazi Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:ashkenazi
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_faith = faith:rabbinism
+				}
+			}					
+			# Sephardi Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:sephardi
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_faith = faith:rabbinism
+				}
+			}				
+			# Radhanite Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:radhanite
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_faith = faith:rabbinism
+				}
+			}
+			# Kochinim Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:kochinim
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:malabarism
+				}
+			}
+			# Bavlim Jews
+			else_if = {
+				limit = {
+					title_province.culture = culture:bavlim
+				}
+				if = {
+					limit = {
+						NOT = { title_province.religion = religion:judaism_religion }
+					}
+					set_county_faith = faith:rabbinism
+				}
+			}
+		}
+	}
+}
+
+# Yearly check of wrong religion characters 
+
+# Called from code once a year for all characters, at a random point that year (individually for each character)
+# Root is the character
+random_yearly_everyone_pulse = {
+	on_actions = {
+		chs_ethnoreligious_identity_check
+	}
+}
+
+chs_ethnoreligious_identity_check = {
+	trigger = {
+		root.culture = {
+			has_cultural_tradition = tradition_ethnoreligious_identity
+		}
+	}
+	effect = {
+		root = {	
+			# Assyrians
+			if = {
+				limit = {
+					has_culture = culture:assyrian
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:nestorian
+				}
+			}
+			# Copts
+			else_if = {
+				limit = {
+					has_culture = culture:copt
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:coptic
+				}
+			}					
+			# Afro-Romans
+			else_if = {
+				limit = {
+					has_culture = culture:afro_roman
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:christianity_religion }
+					}
+					set_character_faith = faith:catholic
+				}
+			}					
+			# Ashkenazi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:ashkenazi
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}					
+			# Sephardi Jews
+			else_if = {
+				limit = {
+					has_culture = culture:sephardi
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}				
+			# Radhanite Jews
+			else_if = {
+				limit = {
+					has_culture = culture:radhanite
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}
+			# Kochinim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:kochinim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:malabarism
+				}
+			}
+			# Bavlim Jews
+			else_if = {
+				limit = {
+					has_culture = culture:bavlim
+				}
+				if = {
+					limit = {
+						NOT = { has_religion = religion:judaism_religion }
+					}
+					set_character_faith = faith:rabbinism
+				}
+			}
+		}				
+	}
+}

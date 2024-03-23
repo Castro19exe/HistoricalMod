@@ -1,0 +1,178 @@
+﻿visigothic = {
+	color = { 0.55 0.55 0.15 }
+	created = 418.1.1
+	parents = { gothic }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_east_germanic 						#to emphasise its gothic heritige, but probably iberian in 867
+	language = language_east_germanic						#likewise probably iberian vulgar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+gothic = {
+	color = { 0.47 0.47 0.27 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic 
+	language = language_east_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_old_germanic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+ostrogothic = {
+	color = { 0.65 0.65 0.25 }
+	created = 400.1.1
+	parents = { gothic }
+
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic
+	language = language_east_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending			#lived alongside romans, huns, other germanic tribes...
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_old_germanic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+crimean_gothic = {
+	color = { 0.8 0.65 0.8 }
+	created = 600.1.1
+	parents = { ostrogothic }
+
+	ethos = ethos_stoic
+	heritage = heritage_byzantine					#either this or east germanic
+	language = language_east_germanic					
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders				#fought off hordes of Huns
+		tradition_loyal_soldiers					#typically spoke greek, tatar, hungarian etc.
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists	#these dudes hung about for hundreds of years
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_crimean_gothic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+vandalic = {
+	color = { 0.47 0.47 0.27 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic 
+	language = language_east_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_martial_admiration
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_old_germanic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+burgundian = {
+	color = { 0.57 0.57 0.37 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_east_germanic 
+	language = language_east_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_old_germanic
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

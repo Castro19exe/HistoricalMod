@@ -1,0 +1,77 @@
+﻿name_list_afro_roman = {
+#from historical romans with an african origin and historical christian berbers. likely different to the names used during the middle ages but hey, its the only stuff i got
+#female names have some traditional berber pre-islamic names mixed in
+#dynasty names from terms in the roman province and tribes/surnames
+	cadet_dynasty_names = {
+		"dynn_Florens"
+		"dynn_Hipponesis"
+		"dynn_Madaurensis"
+		"dynn_Frexenses"
+		"dynn_Mastraciani"
+		{ "dynnp_de" "dynn_Carthago" }
+		{ "dynnp_de" "dynn_Thagaste" }
+		{ "dynnp_de" "dynn_Hippo_Regius" }
+		{ "dynnp_de" "dynn_Theveste" }
+		{ "dynnp_de" "dynn_Capsa" }
+		{ "dynnp_de" "dynn_Bagai" }
+		{ "dynnp_de" "dynn_Cirta" }
+		{ "dynnp_de" "dynn_Milevum" }
+		{ "dynnp_de" "dynn_Sitifis" }
+		{ "dynnp_de" "dynn_Zarai" }
+		{ "dynnp_de" "dynn_Tubunae" }
+		{ "dynnp_de" "dynn_Mesarfelta" }
+		{ "dynnp_de" "dynn_Altava" }
+		{ "dynnp_de" "dynn_Castra_Severiana" }
+		{ "dynnp_de" "dynn_Safar" }
+		{ "dynnp_de" "dynn_Arris" }
+		{ "dynnp_de" "dynn_Khenchela" }
+	}
+
+	dynasty_names = {
+		"dynn_Florens"
+		"dynn_Hipponesis"
+		"dynn_Madaurensis"
+		"dynn_Frexenses"
+		"dynn_Mastraciani"
+		{ "dynnp_de" "dynn_Carthago" }
+		{ "dynnp_de" "dynn_Thagaste" }
+		{ "dynnp_de" "dynn_Hippo_Regius" }
+		{ "dynnp_de" "dynn_Theveste" }
+		{ "dynnp_de" "dynn_Capsa" }
+		{ "dynnp_de" "dynn_Bagai" }
+		{ "dynnp_de" "dynn_Cirta" }
+		{ "dynnp_de" "dynn_Milevum" }
+		{ "dynnp_de" "dynn_Sitifis" }
+		{ "dynnp_de" "dynn_Zarai" }
+		{ "dynnp_de" "dynn_Tubunae" }
+		{ "dynnp_de" "dynn_Mesarfelta" }
+		{ "dynnp_de" "dynn_Altava" }
+		{ "dynnp_de" "dynn_Castra_Severiana" }
+		{ "dynnp_de" "dynn_Safar" }
+		{ "dynnp_de" "dynn_Arris" }
+		{ "dynnp_de" "dynn_Khenchela" }
+	}
+
+	male_names = {
+		Aemilianus Albinus Antalas Apuleius Arnobius Augustinus Aurelius Caecilius Carcasan Carpophorus Cecilian Clodius Constantine 
+		Constantinus Corippus Cornelius Cutzinas Cyprianus Decimus Donatus Dracontius Esdilasas Garmul Gelasius Guarizila Guenfan Herennius 
+		Iaudas Ifisdaias Iourphouthes Julianus Kusaila Lactanius Lucius Luxorius Marcus Massonas Masties Mastinas Medisinissas Mephanias 
+		Miltiades Ortaias Patricius Pontianus Quintus Rufinus Salvius Septimius Severus Sicinius Suetonius Terentius Tertullianus Thaschus
+	}
+	female_names = {
+		Aurelia Baya Damya Dihya Dontilla Felicitas Kella Marciana Massa Maxima Messallina Monica Octavilla Paccia Perpetua Polla Pudentilla 
+		Secunda Septimia Silina Tasa Tinhinan Tiyya Tiziri Ultasila Vibia Zira
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de" 
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
