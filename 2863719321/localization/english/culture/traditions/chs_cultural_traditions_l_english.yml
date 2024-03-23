@@ -1,0 +1,11 @@
+﻿l_english:
+ # Traditions
+ tradition_ethnoreligious_identity_name:0 "Ethnoreligious Identity"
+ tradition_ethnoreligious_identity_desc:1 "For people of this culture, faith and ethnic identity are one and the same."
+ 
+
+ # Tradition effects
+ culture_parameter_convert_culture_on_religion_change:0 "[characters|E] and [counties|E] will convert from this [culture|E] if they follow the incorrect [religion|E]"
+ culture_parameter_require_correct_religion_to_convert:0 "[characters|E] and [counties|E] will only be able to convert to this [culture|E] if they follow the correct [religion|E]"
+ 
+ ETHNORELIGIOUS_IDENTITY_MODIFIER:0 "[county|E] follows the incorrect [religion|E]"

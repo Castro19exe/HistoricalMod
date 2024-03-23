@@ -1,0 +1,29 @@
+﻿sub_ostrogothic = {
+	name = "dynn_Ostrogothi"
+	culture = "ostrogothic"
+}
+royal_suebi = {
+	name = "dynn_Hermericing"
+	culture = "suebi"
+}
+sub_suebi = {
+	name = "dynn_Maldrasing"
+	culture = "suebi"
+}
+sub_suebi_02 = {
+	name = "dynn_Chararicing"
+	culture = "suebi"
+}
+sub_suebi_03 = {
+	name = "dynn_Miroing"
+	culture = "suebi"
+}
+9616 = {
+	prefix = "dynnp_af"
+	name = "dynn_Burgundy"
+	culture = "burgundian"
+}
+12284 = {
+	name = "dynn_Belyykhorvatsky"
+	culture = "chrobatian"
+}

@@ -1,0 +1,116 @@
+
+namespace = chs_major_decisions
+
+##############################################################  Found Kingdom of Dalmatia
+
+chs_major_decisions.0001 = {
+	type = character_event
+	title = chs_major_decisions.0001.t
+
+	desc = {
+		desc = chs_major_decisions.0001.desc
+	}
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scoped_king
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_king
+		create_dalmatian_kingdom_effect = yes
+	}
+
+	option = {
+		name = chs_major_decisions.0001.a
+	}
+}
+
+##############################################################  Unify Illyria
+
+chs_major_decisions.0002 = {
+	type = character_event
+	title = chs_major_decisions.0002.t
+
+	desc = {
+		desc = chs_major_decisions.0002.desc
+	}
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+		create_illyrian_empire_effect = yes
+	}
+
+	option = {
+		name = chs_major_decisions.0002.a
+	}
+}
+
+##############################################################  Found the Serbian Empire
+
+chs_major_decisions.0003 = {
+    type = character_event
+	title = chs_major_decisions.0003.t
+
+	desc = {
+		desc = chs_major_decisions.0003.desc
+	}
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+		create_serbian_empire_effect = yes
+	}
+
+	option = {
+		name = chs_major_decisions.0003.a
+	}
+}
+
+##############################################################  Establish the Portuguese Empire
+
+chs_major_decisions.0004 = {
+	type = character_event
+	title = chs_major_decisions.0004.t
+
+	desc = {
+		desc = chs_major_decisions.0004.desc
+	}
+
+	theme = realm
+
+	left_portrait = {
+		character = scope:scoped_emperor
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		save_scope_as = scoped_emperor
+		create_portuguese_empire_effect = yes
+	}
+
+	option = {
+		name = chs_major_decisions.0004.a
+	}
+}
+
+##############################################################  Magna Germania

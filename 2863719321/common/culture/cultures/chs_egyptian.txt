@@ -1,0 +1,56 @@
+﻿copt = {
+	color = { 0.6 0.4 0.6 }
+	created = 300.1.1
+	parents = { ancient_egyptian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_byzantine 							#under greek/roman occupation for many hundreds of years but also could be its own, e.g. kemetic
+	language = language_coptic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_monastic_communities						#origin of monasticism for christianity
+		tradition_agrarian									#lived around the nile, military-wise somewhat incapable
+		tradition_zealous_people							#ethno-religious group
+		tradition_ethnoreligious_identity
+	}
+	
+	name_list = name_list_copt
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		2 = arab
+		2 = mediterranean
+	}
+}
+
+egyptian = {
+	color = { 0.1 0.6 0.1 }
+	created = 800.1.1
+	parents = { copt bedouin }	
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
+	}
+}

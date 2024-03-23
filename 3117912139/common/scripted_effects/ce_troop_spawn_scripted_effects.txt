@@ -1,0 +1,63 @@
+﻿spawn_hafsid_troops_effect = {
+
+
+	# Have a medium, terrifying event army.
+	spawn_army = {
+		levies = 1000
+		men_at_arms = {
+			type = barbary_corsairs
+			stacks = 5
+		}
+		men_at_arms = {
+			type = barbary_corsairs
+			stacks = 5
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 5
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 5
+		}
+		uses_supply = no
+		location = title:c_chandax.title_province
+		name = fp1_mann_event_troops
+	}
+}
+
+spawn_norman_merc_troops_effect = {
+	# Have a medium, terrifying event army.
+	spawn_army = {
+		levies = 1000
+		men_at_arms = {
+			type = huscarl
+			stacks = 5
+		}
+		men_at_arms = {
+			type = norman_knight #was norman_knights
+			stacks = 5
+		}
+		uses_supply = no
+		location = capital_province
+		name = ce_norman_merc_event_troops
+	}
+}
+
+spawn_norman_merc_troops_v2_effect = {
+	# Have a medium, terrifying event army.
+	spawn_army = {
+		levies = 500
+		men_at_arms = {
+			type = huscarl
+			stacks = 3
+		}
+		men_at_arms = {
+			type = norman_knight #was norman_knights
+			stacks = 4
+		}
+		uses_supply = no
+		location = capital_province
+		name = ce_norman_merc_event_troops
+	}
+}

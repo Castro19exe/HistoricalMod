@@ -1,0 +1,574 @@
+﻿Rus_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = Rus_army_desc
+	selection_tooltip = Rus_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_Rus_army }
+				has_cultural_pillar = heritage_east_slavic
+				has_cultural_tradition = tradition_druzhina
+			}            			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_Rus_army }
+				has_cultural_pillar = heritage_east_slavic
+				has_cultural_tradition = tradition_druzhina
+			}            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_Rus_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+fin_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = fin_army_desc
+	selection_tooltip = fin_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_fin_army }
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic 
+			        has_cultural_pillar = heritage_ugro_permian
+			        has_cultural_pillar = heritage_volga_finnic 
+				}
+			}            			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_fin_army }
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic 
+			        has_cultural_pillar = heritage_ugro_permian
+			        has_cultural_pillar = heritage_volga_finnic 
+				}
+			}            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_fin_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+balt_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = balt_army_desc
+	selection_tooltip = balt_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_balt_army }
+				has_cultural_pillar = heritage_baltic
+			}            			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_balt_army }
+				has_cultural_pillar = heritage_baltic
+			}            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_balt_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+turk_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = turk_army_desc
+	selection_tooltip = turk_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_turk_army }
+				has_cultural_pillar = heritage_turkic
+				has_cultural_tradition = tradition_horse_lords
+			} 
+            			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_turk_army }
+				has_cultural_pillar = heritage_turkic
+				has_cultural_tradition = tradition_horse_lords
+			} 
+            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_turk_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+mong_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = mong_army_desc
+	selection_tooltip = mong_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = { 
+			AND = {
+				NOT = { has_innovation = innovation_mong_army }
+				has_cultural_pillar = heritage_mongolic	
+				has_cultural_tradition = tradition_horse_lords	
+			}
+            	
+		}     			
+	}
+
+	is_valid = {
+		culture = { 
+            AND = {
+				NOT = { has_innovation = innovation_mong_army }
+				has_cultural_pillar = heritage_mongolic
+				has_cultural_tradition = tradition_horse_lords		
+			}		
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_mong_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+turk_hev_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = turk_army_desc
+	selection_tooltip = turk_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			OR = {
+				AND = {
+				    NOT = { has_innovation = innovation_turk_hev_army }
+				    has_cultural_pillar = heritage_turkic
+				    has_cultural_tradition = tradition_horse_lords
+					current_year >= 1010
+					this = culture:turkish
+			    }
+				AND = {
+				    NOT = { has_innovation = innovation_turk_hev_army }
+				    has_cultural_pillar = heritage_turkic
+				    has_cultural_tradition = tradition_horse_lords
+					current_year >= 1100
+			    }
+			}           			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_turk_hev_army }
+				has_cultural_pillar = heritage_turkic
+				has_cultural_tradition = tradition_horse_lords
+			} 
+            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_turk_hev_army
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+turk_back_army = { #Back up decision
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = turk_army_desc
+	selection_tooltip = turk_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_turk_army }
+				has_cultural_pillar = heritage_turkic
+				has_cultural_tradition = tradition_horse_lords
+			}           			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_turk_army }
+				has_cultural_pillar = heritage_turkic
+				has_cultural_tradition = tradition_horse_lords
+			} 
+            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_turk_army
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+mong_hev_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = mong_army_desc
+	selection_tooltip = mong_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_mong_hev_army }
+				has_cultural_pillar = heritage_mongolic
+				has_cultural_tradition = tradition_horse_lords
+				current_year >= 1100
+			}          			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_mong_hev_army }
+				has_cultural_pillar = heritage_mongolic
+				has_cultural_tradition = tradition_horse_lords
+			} 
+            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_mong_hev_army
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+mong_back_army = { #Back up decision
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = mong_army_desc
+	selection_tooltip = mong_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_mong_army }
+				has_cultural_pillar = heritage_mongolic
+				has_cultural_tradition = tradition_horse_lords
+			}          			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_mong_army }
+				has_cultural_pillar = heritage_mongolic
+				has_cultural_tradition = tradition_horse_lords
+			}            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 1
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_mong_army
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+eng_army = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+
+	desc = eng_army_desc
+	selection_tooltip = eng_army_tooltip
+	major = yes
+
+	ai_check_interval = 1
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_english_army }
+				this = culture:english
+			}            			
+		}     			
+	}
+
+	is_valid = {
+		culture = {
+			AND = {
+				NOT = { has_innovation = innovation_english_army }
+				this = culture:english
+			}            			
+		} 
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+	}
+
+	cost = {
+		prestige = 50
+	}
+
+	effect = {
+		culture ={
+			add_innovation = innovation_english_army
+		}
+		custom_tooltip = disables_normal_maa
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

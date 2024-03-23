@@ -1,0 +1,321 @@
+form_portugal_decision_effects = {
+	#Create the title and set proper de jure
+	hidden_effect = {
+		title:d_porto = {
+			save_scope_as = title_d_porto
+			set_de_jure_liege_title = title:k_portugal
+		}
+		title:d_coimbra = {
+			save_scope_as = title_d_coimbra
+			set_de_jure_liege_title = title:k_portugal
+		}
+		title:d_beja = {
+			save_scope_as = title_d_beja
+			set_de_jure_liege_title = title:k_portugal
+		}
+		title:d_algarve = {
+			save_scope_as = title_d_algarve
+			set_de_jure_liege_title = title:k_portugal
+		}
+		title:k_portugal = {
+			save_scope_as = title_k_portugal
+		}
+	}
+	custom_tooltip = form_portugal_decision_effects_de_jure_tt
+
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:k_portugal = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+		save_scope_as = title_k_portugal
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	if = {
+		limit = {
+			NOR = {
+				primary_title = { this = title:k_portugal }
+				highest_held_title_tier = tier_empire
+			}
+		}
+		set_primary_title_to = title:k_portugal
+	}
+
+	hidden_effect = {
+		if = {
+			limit = { has_global_variable = fp2_struggle_compromise_ending }
+			title:k_portugal = { fp2_struggle_compromise_create_new_empire_effect = yes }
+		}
+	}
+
+	#Covert self & court to portuguese culture
+	if = {
+		limit = { NOT = { has_culture = culture:portuguese } }
+
+		every_courtier = {
+			limit = { has_same_culture_as = scope:portugal_former }
+			add_to_list = convert_list
+		}
+		#Reset date. 
+		culture:portuguese = {
+			hidden_effect = { reset_culture_creation_date = yes }
+		}
+		set_culture = culture:portuguese
+
+		every_in_list = {
+			list = convert_list
+			custom = portguese_convert_list #This says "every subject in the realm" even though vassals and their courts only covert later, through event
+			set_culture = culture:portuguese
+		}
+	}
+
+	# Convert Iberian counties to Portugese culture
+	every_sub_realm_county = {
+		limit = {
+			tier = tier_county
+			culture = { has_cultural_pillar = heritage_iberian }
+			OR = {
+				de_jure_liege = title:d_porto
+				de_jure_liege = title:d_coimbra
+				de_jure_liege = title:d_beja
+				de_jure_liege = title:d_algarve
+			}
+		}
+		custom = portugese_convert_iberian_counties
+		set_county_culture = culture:portuguese
+	}
+	every_sub_realm_county = {
+		limit = {
+			tier = tier_county
+			NOT = { culture = { has_cultural_pillar = heritage_iberian } }
+			OR = {
+				de_jure_liege = title:d_porto
+				de_jure_liege = title:d_coimbra
+				de_jure_liege = title:d_beja
+				de_jure_liege = title:d_algarve
+			}
+		}
+		custom = portugese_convert_non_iberian_counties
+		random = {
+			chance = 50
+			set_county_culture = culture:portuguese
+		}
+	}
+
+	#Innovations
+	culture:portuguese = {
+		add_random_innovation = culture_group_military
+		add_random_innovation = culture_group_civic
+	}
+
+	#Prestige
+	add_prestige = massive_prestige_gain	
+}
+
+######################################################################################################
+
+create_dalmatian_kingdom_effect = {
+	#Prestige
+	add_prestige = major_prestige_gain
+
+	#Create the title and make it primary
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = yes
+	}
+	title:k_dalmatia = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	set_primary_title_to = title:k_dalmatia
+	title:k_dalmatia = { save_scope_as = dalmatia }
+
+	#Tooltip
+	custom_tooltip = create_dalmatian_kingdom.preview.titles
+	custom_tooltip = create_dalmatian_kingdom.conversion_boost
+
+	#Modifier(s)
+	add_character_modifier = {
+		modifier = dalmatian_culture_promote_modifier
+		years = 35
+	}
+
+	hidden_effect = {		
+		title:d_dalmatia = { set_de_jure_liege_title = title:k_dalmatia }
+		title:d_ragusa = { set_de_jure_liege_title = title:k_dalmatia }
+		title:d_usora = { set_de_jure_liege_title = title:k_dalmatia }
+	}
+}
+
+######################################################################################################
+
+create_illyrian_empire_effect = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Create the title 
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = yes
+	}
+	title:e_illyria = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+		save_scope_as = title_e_illyria
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	#Make the title your primary
+	set_primary_title_to = title:e_illyria
+
+	#Tooltips
+	custom_tooltip = create_illyrian_empire.preview.titles
+
+	#Innovations
+	culture = {
+		add_random_innovation = culture_group_military
+		add_random_innovation = culture_group_civic
+	}
+
+	hidden_effect = {
+		every_held_title = {
+			limit = {
+				tier = tier_kingdom
+			}
+			if = {
+				limit = {
+					#Check if you need to notify a player
+					exists = empire
+					empire = {
+						exists = holder
+						holder = {
+							NOT = { this = root }
+							is_ai = no
+						}
+					}
+				}
+				add_to_temporary_list = kingdoms_for_notification
+				root = {
+					save_temporary_scope_value_as = {
+						name = send_notifications
+						value = yes
+					}
+				}
+			}
+			set_de_jure_liege_title = title:e_illyria
+		}
+
+		every_sub_realm_county = {
+			limit = {
+				exists = kingdom
+				NOT = { exists = kingdom.holder }
+				holder.top_liege = root
+				kingdom = {
+					save_temporary_scope_as = test_kingdom
+				}
+				holder.top_liege = {
+					completely_controls = scope:test_kingdom
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						kingdom = {
+							is_in_list = additional_de_jure_kingdoms
+						}
+					}
+				}
+				kingdom = {
+					set_de_jure_liege_title = title:e_illyria
+					add_to_list = additional_de_jure_kingdoms
+				}
+			}
+		}
+	}
+}
+
+######################################################################################################
+
+create_serbian_empire_effect = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Create the title and make it primary
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = yes
+	}
+	title:e_serbia = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+		save_scope_as = title_e_serbia
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	set_primary_title_to = title:e_serbia
+
+	#Nickname
+	set_nickname_effect = { NICKNAME = nick_the_great }
+}
+
+######################################################################################################
+
+create_portuguese_empire_effect = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Create the title
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = yes
+	}
+	title:e_portugal = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+		save_scope_as = title_e_portugal
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	#Make the title primary
+	set_primary_title_to = title:e_portugal
+
+	#Tooltips
+	custom_tooltip = create_portuguese_empire.preview.titles
+
+	hidden_effect = {
+		title:k_canarias = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+			save_scope_as = k_canarias
+		}
+
+		title:d_canarias = { set_de_jure_liege_title = title:k_canarias }
+
+		title:k_canarias = { set_de_jure_liege_title = title:e_portugal }
+		title:k_portugal = { set_de_jure_liege_title = title:e_portugal }
+	}
+}
+
+######################################################################################################

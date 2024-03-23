@@ -1,0 +1,54 @@
+﻿chs_cultural_conversion_ethnoreligious_trigger = {
+	trigger_if = {
+		limit = {
+			capital_province.culture = {
+				has_cultural_parameter = require_correct_religion_to_convert
+			}
+		}
+		trigger_if = {
+			limit = {
+				OR = {
+					capital_province.culture = culture:assyrian
+					capital_province.culture = culture:copt
+					capital_province.culture = culture:afro_roman
+				}
+			}
+			has_religion = religion:christianity_religion 
+		}
+		trigger_if = {
+			limit = {
+				OR = {
+					capital_province.culture = culture:ashkenazi
+					capital_province.culture = culture:sephardi
+					capital_province.culture = culture:radhanite
+					capital_province.culture = culture:kochinim
+					capital_province.culture = culture:bavlim
+				}
+			}
+			has_religion = religion:judaism_religion 
+		}
+	}
+}
+
+chs_religious_conversion_ethnoreligious_trigger = {
+	OR = {
+		AND = {
+			scope:county.religion = religion:christianity_religion
+			OR = {
+				scope:councillor_liege.culture = culture:assyrian
+				scope:councillor_liege.culture = culture:copt
+				scope:councillor_liege.culture = culture:afro_roman
+			}
+		}
+		AND = {
+			scope:county.religion = religion:judaism_religion
+			OR = {
+				scope:councillor_liege.culture = culture:ashkenazi
+				scope:councillor_liege.culture = culture:sephardi
+				scope:councillor_liege.culture = culture:radhanite
+				scope:councillor_liege.culture = culture:kochinim
+				scope:councillor_liege.culture = culture:bavlim
+			}			
+		}
+	}
+}

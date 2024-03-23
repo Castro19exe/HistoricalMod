@@ -1,0 +1,23 @@
+varrangoi = {
+	texture = "gfx/interface/icons/regimenttypes/byz_varrangoi.dds"
+}
+
+imperial_army = {
+	texture = "gfx/interface/icons/regimenttypes/byz_scholarii.dds"
+}
+
+provincial_army = {
+	texture = "gfx/interface/icons/regimenttypes/byz_skoutatoi.dds"
+}
+
+border_army = {
+	texture = "gfx/interface/icons/regimenttypes/byz_akritai.dds"
+}
+
+degraded_army = {
+	texture = "gfx/interface/icons/regimenttypes/byz_kontaratoi.dds"
+}
+
+pelekyphoroi = {
+	texture = "gfx/interface/icons/regimenttypes/byz_pelekyphoroi.dds"
+}

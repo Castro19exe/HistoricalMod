@@ -1,0 +1,59 @@
+﻿heritage_gaulish = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_gaulish
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_east_germanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_germanic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_illyrian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_illyrian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_thracian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_thracian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_caucasian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_caucasian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_north_sea_germanic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_north_sea_germanic
+		}
+	}
+	audio_parameter = european
+}
