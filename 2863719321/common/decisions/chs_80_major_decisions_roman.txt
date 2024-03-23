@@ -360,9 +360,26 @@ unite_the_germans_decision = {
 	}
 
 	effect = {
-		
-	}
+		show_as_tooltip = {
+			unite_the_germans_effect = yes
+		}
 
+		trigger_event = {
+			id = chs_major_decisions.0005
+		}
+
+		hidden_effect = {
+			#Declare flag
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:unite_the_germans_decision
+			}
+			set_global_variable = {
+				name = unite_the_germans_decision
+				value = root
+			}
+		}
+	}
 
 	cost = { gold = 600 }
 
