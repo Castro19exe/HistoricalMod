@@ -1,0 +1,69 @@
+﻿name_list_circassian = {
+	# Given names from Amjad Jaimoukha, dynasty names from their tribes
+	cadet_dynasty_names = {
+		"dynn_Abzakh"
+		"dynn_Besleney"
+		"dynn_Bzhedug"
+		"dynn_Hatuqwai"
+		"dynn_Kabardian"
+		"dynn_Mamkhegh"
+		"dynn_Natukhai"
+		"dynn_Shapsug"
+		"dynn_Temirgoy"
+		"dynn_Ubykh"
+		"dynn_Yegeruqwai"
+		"dynn_Zhaney"
+	}
+
+	dynasty_names = {
+		"dynn_Abzakh"
+		"dynn_Besleney"
+		"dynn_Bzhedug"
+		"dynn_Hatuqwai"
+		"dynn_Kabardian"
+		"dynn_Mamkhegh"
+		"dynn_Natukhai"
+		"dynn_Shapsug"
+		"dynn_Temirgoy"
+		"dynn_Ubykh"
+		"dynn_Yegeruqwai"
+		"dynn_Zhaney"
+	}
+
+	male_names = {
+		Abatiy Albek Albot Alhkh_es Alhkh_o Alijiqwe Amisch Andeimir Andeimirqan Anzawir Anzoriqwe Areqshu Ashemez Akhwemghwet Bagh 
+		Bala Bata Batiy Bat_e Bedin Bediniqwe Belatse Beletoqwe Beroqwe Betey Betoqwe Beizriqwe Beiqan Beird Biybeird Biybolet Biylhosten 
+		Blaneshu Bobe Bolet Bore Bot Bube Bubeird Bile Bilu Chawis Chetsu Ch_ischiqwe Dat Dawe Dariqwe Debaghwe Degwzchey Diyde Dokh_wshiqwe 
+		Dizchin Discheshu Dzedzu Dzeghaschte Dzepsch Dzeshu Dzu Dzudze Dzune Dzidzu Foqwe Ghwaze Ghuch_e Ghuch_el_ Ghuch_eschawe Ghusch_ine 
+		Ghusch_ipse Hebale Hebashe Hebekhu Hebizh Hech_ashe Hegutsire Hemash Hemashe Hemat_ Hemat_e Hemats Hemit_e Hemt_ut_ Henasch_e 
+		Henaschkh_we Henakh_we Hepasch_e Hep_at_ Hep_ot_ Hesane Hesansh Heschawe Hesch_emakhwe Heshir Heshora Hetal Hetaliy Hetaw Hetezchiqwa 
+		Hetiqa Hetiza Het_okh_wschiqwa Hetschiqwa Hetsile Hetsiqe Hetsiqwe Hetsu Hetu Het_ut_e Hewtiy Hezeishe Janchate Jatawe Jilakh_sten 
+		Jirandiqwe Kitsu Kurghwoqwa Kush Kushmez Kushiku Lashe Lawirsen Lemashe Lhepsch Lhosten Lhostenasch L_if_ L_imakhwe Mamish Mamishe 
+		Mamsir Mamsriqwe Mariqwe Mash Mashe Mat_e Mat_u Makhwe Med Men Menshaq Meshiqwe Mile Miqe Misost Mize Mudar Mut_e Nal Nali Napts_e 
+		Narich Nart Nartschawe Nartshu Nasch Naschkh_we Natrib Nawriz  Nakh_we Nedighe Neghwey Nep_it_ Nerzan Nesren Nekh_wat_e Nekh_upsch 
+		Pagwe Paq Pariyqe Pashe P_at_ P_it_u Pschimakhwe Pschimide Pschiqan Psebide Qaniqwe Qanschawe Qaschkh_we Qeit Qeitiqwe Qekh_un 
+		Qideghaze Qubatiy Qulhshiqwe Qush Schad Schaqmen Scherel_oqwe Schewey Schihbolet Schihim Scholekh_u Schoqal Senjeley Sha Shabiyikh_u 
+		Shaghir Shaps Shat_ Shiys Shore Shu Shumaf_e Shumakhwe Shume Shupagwe Shupashe Shuqe Shuwey Sirikhu Sosriqwe Takwu Tawqan Teimbolet 
+		Teimbore Teimbot Teipsiriqwe Teirchiqwe Teiwvezh T_emashe Tighwen T_igwe Tiqe Tiqire Tolhesten Toqwe Tsane Tsats Tsatsu Tsiqire Tsu 
+		Tsumash Tsut_e T_ut_ Werdeschawe Werdeschiqwe Wezirmes Wezirmej Wezrej Wezroqwe Wighurli Wivzhiqwe Kh_imisch Kh_wat_e Khwemghwet Kh_wet 
+		Yamdezh Yapenes Yedij Yelbizdiqwe Yelhqan Yeljiriqwe Yelhikh_u Yemish Yeristam Yerzhib Yetech Yekh_ul_e Yinaliqwe Yinarmes Zeik_we 
+		Zeik_weshu Zhaniqwe Zhanqeit Zhansekh_u Zhansiyt Zhanteimir Zhantighwen Zhankh_wet Zhantiy Zhebaghi Zhembolet Zhembore Zhembot Zheriqwe 
+		Zhileghwet Zhiqwe Zhore Ziramiku
+		# Famous figures
+		Inal Parsabok Temruk Tabulda Berslan Jankhot Minbolat Wunarmas Xhurifel_ Kabard Khurfatal Kess
+	}
+	
+	female_names = {
+		Abexw Adiyixw Babine Babire Babishe Babitse Babixw Babliyne Bariyne Bedexw Bitse Bixwe Biybe Bzcho Dadiy Daduqan Dadusha Dane Daniyzet 
+		Daxe Daxeliyne Daxenaghwe Daxewes Dische Diyne Dumesare Dune Ediyixw Gwasche Gwascheghagh Gwascheliyne Gwaschenise Gwaschemasch_e 
+		Gwaschepagwe Gwaschexwzch Gweschene Gweschenexw Gwlez Gwne Gwnes Hetsatsa K_wak_we K_wat_e K_watse Kwez K_wk_we K_wlat_e K_wlatse 
+		Kwle K_wle Kwl_edem Kwliyzhan Kwne K_wne Kwral K_wratse K_wt_e Lalixw Laliyne Laliytse Lane Lawitse Lixwe Liyne Naghwe Naschx_we 
+		Negwresh  Nedaxe Nex_daxe Niyne Pagwe Pizchine Qandische Qan_ef_ Qanexw Qants_ik_w Qeral Qerelzhan Qwdas Sase Sat_ Sawise Sete 
+		Seteney Susane Tewzhan Tsatse Tsatsune Wes Wile Witse Wizche X_imsad Xwemey Xwniyne Xwriyret Xwske Xwzch Xwzchpagwe Zaliyne Zhan 
+		Zhangwasche Zhanpagwe Zhanqwdas Zhanshir Zhanwes Zhanwise Zhanxwzch Zhanziyle Zheine Zuliy Zuliyzhan
+	}
+
+	dynasty_of_location_prefix = "dynnp_ve"
+
+}
+

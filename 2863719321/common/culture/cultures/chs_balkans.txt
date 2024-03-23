@@ -1,0 +1,407 @@
+﻿vlach = {
+	color = vlach
+
+	parents = { daco_roman }
+
+	created = 600.1.1
+
+	history_loc_override = vlach_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_zealous_people
+		tradition_hussar
+		tradition_xenophilic
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+daco_roman = {
+	color = { 0.75 0.2 0.2 }
+
+	parents = { dacian roman }
+
+	created = 212.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_poetry
+		tradition_hereditary_hierarchy
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_daco_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+dacian = {
+	color = { 0.45 0.45 0.65 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_thracian
+	language = language_dacian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ancient_miners
+		tradition_stand_and_fight
+
+	}
+	dlc_tradition = {
+		trait = tradition_artisans					#culture left behind many artifacts of great quality
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_dacian
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+illyrian = {
+	color = { 0.35 0.35 0.75 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_illyrian
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists						#delmatae literally means sheep shephards 
+		tradition_seafaring							#a notorious seafaring people 
+		tradition_martial_admiration				#martial people
+	}
+	
+	name_list = name_list_illyrian
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+dalmatian = {
+	color = { 0.75 0.75 0.65 }
+	created = 212.1.1
+	parents = { illyrian roman }
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_dalmatian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_mountain_homes
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_dalmatian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+arberian = {
+	color = { 0.5 0.3 0.7 }
+	created = 600.1.1							
+	parents = { illyrian }
+	
+	ethos = ethos_stoic
+	heritage = heritage_byzantine
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes					#would be hill experts but terrain is mountainous in game
+		tradition_tribe_unity						#family very important, even today
+		tradition_hit_and_run						#stratioti
+		
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists	#culture stuck around after multiple empires and rulers
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_arberian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+croatian = {
+	color = { 0.4 0.2 0.2 }
+	created = 650.1.1
+	parents = { chrobatian }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_astute_diplomats
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}	
+}
+
+serbian = {
+	color = {  0.36 0.1 0.04 }
+	created = 650.1.1
+	parents = { sorbian }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_religious_patronage
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}
+
+bosnian = {
+	color = bosnian
+
+	# *Definitely* a bit early; should likely be more between 900 & 1000.
+	created = 900.1.1
+	parents = { croatian serbian }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mendicant_mystics
+		tradition_monastic_communities
+		tradition_isolationist
+	}
+	
+	name_list = name_list_bosnian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}
+
+narentian = {
+	color = { 213 79 45 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_zealous_people
+		tradition_stalwart_defenders
+		tradition_practiced_pirates
+	}
+
+	name_list = name_list_narentian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}
+
+zachlumian = {
+	color = { 0.5 0.3 0.3 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_mountain_homes
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_zachlumian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}
+
+travunian = {
+	color = { 0.39 0.041 0.03 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_zealous_people
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_travunian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}
+
+dioclean = {
+	color = { 0.30 0.04 0.00 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_adaptive_skirmishing
+		tradition_practiced_pirates
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_dioclean
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		35 = slavic_northern_blond
+		35 = slavic_northern_brown_hair
+		20 = slavic_northern_dark_hair
+	}
+}

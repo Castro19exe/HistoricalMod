@@ -1,0 +1,6 @@
+﻿house_british_isles_wessex = {
+	prefix = "dynnp_of"
+	name = "dynn_Wessex" # (100072)
+	motto = dynn_Wessex_motto
+	dynasty = 1047006
+}

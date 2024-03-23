@@ -1,0 +1,37 @@
+﻿afro_roman = {
+	color = { 209 48 33 }
+
+	parents = { roman }
+
+	created = 212.1.1
+
+	history_loc_override = afro_roman_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_african_vulgar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_african_tolerance
+		tradition_family_entrepreneurship
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_afro_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = arab
+		10 = african
+		5 = mediterranean_byzantine
+	}
+}

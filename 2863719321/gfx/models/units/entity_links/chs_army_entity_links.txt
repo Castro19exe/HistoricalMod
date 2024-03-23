@@ -1,0 +1,503 @@
+﻿@tier2_quality = 2
+@tier3_quality = 4
+
+fallback_army_01 = {
+	type = army
+	entity = unit_western_infantry_01_entity
+}
+
+fallback_army_02 = {
+	type = army
+	entity = unit_western_infantry_02_entity
+	quality_fallback = @tier2_quality
+}
+
+fallback_army_03 = {
+	type = army
+	entity = unit_western_infantry_03_entity
+	quality_fallback = @tier3_quality
+}
+
+
+# Western
+western_army_01 = {
+	type = army
+	graphical_cultures = { western_unit_gfx }
+	entity = unit_western_infantry_01_entity
+}
+
+western_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { western_unit_gfx }
+	entity = unit_western_infantry_02_entity
+}
+
+western_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { western_unit_gfx }
+	entity = unit_western_infantry_03_entity
+}
+
+
+# MENA Middle East, North Africa
+mena_army_01 = {
+	type = army
+	graphical_cultures = { mena_unit_gfx }
+	entity = unit_mena_infantry_01_entity
+}
+
+mena_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { mena_unit_gfx }
+	entity = unit_mena_infantry_02_entity
+}
+
+mena_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { mena_unit_gfx }
+	entity = unit_mena_infantry_03_entity
+}
+
+
+# Eastern
+eastern_army_01 = {
+	type = army
+	graphical_cultures = { eastern_unit_gfx }
+	entity = unit_byzantine_infantry_01_entity
+}
+
+eastern_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { eastern_unit_gfx }
+	entity = unit_byzantine_infantry_02_entity
+}
+
+eastern_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { eastern_unit_gfx }
+	entity = unit_byzantine_infantry_03_entity
+}
+
+# Northern
+northern_army_01 = {
+	type = army
+	graphical_cultures = { northern_unit_gfx }
+	entity = unit_northern_pagan_infantry_01_entity
+}
+
+northern_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { northern_unit_gfx }
+	entity = unit_northern_pagan_infantry_02_entity
+}
+
+northern_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { northern_unit_gfx }
+	entity = unit_northern_pagan_infantry_03_entity
+}
+
+# Tribal Germanic
+germanic_army_01 = {
+	type = army
+	graphical_cultures = { germanic_unit_gfx }
+	entity = unit_northern_pagan_infantry_01_entity
+}
+
+germanic_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { germanic_unit_gfx }
+	entity = unit_scottish_infantry_02_entity
+}
+
+germanic_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { germanic_unit_gfx }
+	entity = unit_irish_infantry_03_entity
+}
+
+# Holy Roman Empire
+hre_army_01 = {
+	type = army
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_01_entity
+}
+
+hre_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_02_entity
+}
+
+hre_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_03_entity
+}
+
+# Indian
+indian_army_01 = {
+	type = army
+	graphical_cultures = { indian_unit_gfx }
+	entity = unit_indian_infantry_01_entity
+}
+
+indian_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { indian_unit_gfx }
+	entity = unit_indian_infantry_02_entity
+}
+
+indian_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { indian_unit_gfx }
+	entity = unit_indian_infantry_03_entity
+}
+
+# Mongol
+turkomongol_army_01 = {
+	type = army
+	graphical_cultures = { mongol_unit_gfx }
+	entity = unit_turko_mongol_infantry_01_entity
+}
+
+turkomongol_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { mongol_unit_gfx }
+	entity = unit_turko_mongol_infantry_02_entity
+}
+
+turkomongol_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { mongol_unit_gfx }
+	entity = unit_turko_mongol_infantry_03_entity
+}
+
+# Turko/Oghuz
+seljuk_army_01 = {
+	type = army
+	graphical_cultures = { oghuz_unit_gfx }
+	entity = unit_seljuks_infantry_01_entity
+}
+
+seljuk_army_03 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { oghuz_unit_gfx }
+	entity = unit_seljuks_infantry_02_entity
+}
+
+seljuk_army_05 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { oghuz_unit_gfx }
+	entity = unit_seljuks_infantry_03_entity
+}
+
+# Turko/Cuman
+cuman_army_01 = {
+	type = army
+	graphical_cultures = { cuman_unit_gfx }
+	entity = unit_cuman_infantry_01_entity
+}
+
+cuman_army_03 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { cuman_unit_gfx }
+	entity = unit_cuman_infantry_02_entity
+}
+
+cuman_army_05 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { cuman_unit_gfx }
+	entity = unit_cuman_infantry_03_entity
+}
+
+# West African
+west_african_army_01 = {
+	type = army
+	graphical_cultures = { west_african_unit_gfx }
+	entity = unit_west_african_infantry_01_entity
+}
+
+west_african_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { west_african_unit_gfx }
+	entity = unit_west_african_infantry_02_entity
+}
+
+west_african_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { west_african_unit_gfx }
+	entity = unit_west_african_infantry_03_entity
+}
+
+# East African
+east_african_army_01 = {
+	type = army
+	graphical_cultures = { east_african_unit_gfx }
+	entity = unit_east_african_infantry_01_entity
+}
+
+east_african_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { east_african_unit_gfx }
+	entity = unit_east_african_infantry_02_entity
+}
+
+east_african_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { east_african_unit_gfx }
+	entity = unit_east_african_infantry_03_entity
+}
+
+# Berber
+berber_army_01 = {
+	type = army
+	graphical_cultures = { berber_unit_gfx }
+	entity = unit_berber_infantry_01_entity
+}
+
+berber_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { berber_unit_gfx }
+	entity = unit_berber_infantry_02_entity
+}
+
+berber_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { berber_unit_gfx }
+	entity = unit_berber_infantry_03_entity
+}
+
+# African Tribal
+af_army_01 = {
+	type = army
+	graphical_cultures = { af_unit_gfx }
+	entity = unit_tribal_african_infantry_01_entity
+}
+
+# Sub Saharab
+sub_saharan_army_01 = {
+	type = army
+	graphical_cultures = { sub_sahran_unit_gfx }
+	entity = unit_sub_saharan_infantry_01_entity
+}
+
+sub_saharan_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { sub_sahran_unit_gfx }
+	entity = unit_sub_saharan_infantry_02_entity
+}
+
+sub_saharan_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { sub_sahran_unit_gfx }
+	entity = unit_sub_saharan_infantry_03_entity
+}
+
+# West Iranian
+west_iranian_army_01 = {
+	type = army
+	graphical_cultures = { west_iranian_unit_gfx }
+	entity = unit_west_iranian_infantry_01_entity
+}
+
+west_iranian_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { west_iranian_unit_gfx }
+	entity = unit_west_iranian_infantry_02_entity
+}
+
+west_iranian_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { west_iranian_unit_gfx }
+	entity = unit_west_iranian_infantry_03_entity
+}
+
+# Ruthenian
+ruthenian_army_01 = {
+	type = army
+	graphical_cultures = { ruthenian_unit_gfx }
+	entity = unit_ruthenian_infantry_01_entity
+}
+
+ruthenian_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { ruthenian_unit_gfx }
+	entity = unit_ruthenian_infantry_02_entity
+}
+
+ruthenian_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { ruthenian_unit_gfx }
+	entity = unit_ruthenian_infantry_03_entity
+}
+
+# Irish
+irish_army_01 = {
+	type = army
+	graphical_cultures = { irish_unit_gfx }
+	entity = unit_irish_infantry_01_entity
+}
+
+irish_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { irish_unit_gfx }
+	entity = unit_irish_infantry_02_entity
+}
+
+irish_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { irish_unit_gfx }
+	entity = unit_irish_infantry_03_entity
+}
+
+# Polish
+polish_army_01 = {
+	type = army
+	graphical_cultures = { polish_unit_gfx }
+	entity = unit_polish_infantry_01_entity
+}
+
+polish_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { polish_unit_gfx }
+	entity = unit_polish_infantry_02_entity
+}
+
+polish_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { polish_unit_gfx }
+	entity = unit_polish_infantry_03_entity
+}
+
+# fp1
+fp1_army_01 = {
+	type = army
+	requires_dlc_flag = the_northern_lords
+	graphical_cultures = { norse_unit_gfx }
+	entity = unit_fp1_infantry_01_entity
+}
+
+fp1_army_02 = {
+	type = army
+	requires_dlc_flag = the_northern_lords
+	quality = @tier2_quality
+	graphical_cultures = { norse_unit_gfx }
+	entity = unit_fp1_infantry_02_entity
+}
+
+fp1_army_03 = {
+	type = army
+	requires_dlc_flag = the_northern_lords
+	quality = @tier3_quality
+	graphical_cultures = { norse_unit_gfx }
+	entity = unit_fp1_infantry_03_entity
+}
+
+# fp2
+fp2_army_christian_01 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	graphical_cultures = { iberian_christian_unit_gfx }
+	entity = unit_fp2_iberian_christian_infantry_01_entity
+}
+
+fp2_army_christian_02 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	quality = @tier2_quality
+	graphical_cultures = { iberian_christian_unit_gfx }
+	entity = unit_fp2_iberian_christian_infantry_02_entity
+}
+
+fp2_army_christian_03 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	quality = @tier3_quality
+	graphical_cultures = { iberian_christian_unit_gfx }
+	entity = unit_fp2_iberian_christian_infantry_03_entity
+}
+
+fp2_army_muslim_01 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	graphical_cultures = { iberian_muslim_unit_gfx }
+	entity = unit_fp2_iberian_muslim_infantry_01_entity
+}
+
+fp2_army_muslim_02 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	quality = @tier2_quality
+	graphical_cultures = { iberian_muslim_unit_gfx }
+	entity = unit_fp2_iberian_muslim_infantry_02_entity
+}
+
+fp2_army_muslim_03 = {
+	type = army
+	requires_dlc_flag = the_fate_of_iberia
+	quality = @tier3_quality
+	graphical_cultures = { iberian_muslim_unit_gfx }
+	entity = unit_fp2_iberian_muslim_infantry_03_entity
+}
+
+# FP3
+
+fp3_army_01 = {
+	type = army
+	#TODO requires_dlc_flag = sands_of_time
+	graphical_cultures = { iranian_unit_gfx }
+	entity = unit_fp3_iranian_infantry_01_entity
+}
+
+fp3_army_02 = {
+	type = army
+	#TODO requires_dlc_flag = sands_of_time
+	quality = @tier2_quality
+	graphical_cultures = { iranian_unit_gfx }
+	entity = unit_fp3_iranian_infantry_02_entity
+}
+
+fp3_army_03 = {
+	type = army
+	#TODO requires_dlc_flag = sands_of_time
+	quality = @tier3_quality
+	graphical_cultures = { iranian_unit_gfx }
+	entity = unit_fp3_iranian_infantry_03_entity
+}
