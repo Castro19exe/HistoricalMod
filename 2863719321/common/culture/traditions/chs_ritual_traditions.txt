@@ -1,0 +1,34 @@
+﻿##############################
+# RITUAL CULTURAL TRADITIONS #
+##############################
+
+tradition_ethnoreligious_identity = {
+	category = ritual
+
+	layers = {
+		0 = learning
+		1 = mena
+		4 = speech.dds
+	}
+
+	is_shown = { always = no }
+	can_pick = { always = no }
+	can_pick_for_hybridization = { always = no }
+	
+	parameters = {
+		dislikes_marrying_outside_of_culture = yes
+		ai_doesnt_marry_outside_culture = yes
+		expensive_convert_to_local_culture = yes
+		harder_to_hybridize = yes
+		harder_to_convert_character_faith = yes
+		harder_to_convert_county_faith = yes
+		
+		# New parameters
+		convert_culture_on_religion_change = yes
+		require_correct_religion_to_convert = yes
+	}
+	
+	cost = { prestige = 300000 }	
+	
+	ai_will_do = { value = 0 }
+}

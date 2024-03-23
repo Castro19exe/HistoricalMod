@@ -1,0 +1,332 @@
+﻿######################
+# Men-at-Arms Values #
+######################
+
+#########
+# Costs #
+#########
+
+@high_maint_mult = 3
+
+### Base Cost Values
+@skirmisher_recruitment_cost = 45
+@skirmisher_low_maint_cost = 0.15
+@skirmisher_high_maint_cost = @[skirmisher_low_maint_cost * high_maint_mult]
+
+@archers_recruitment_cost = 55
+@archers_low_maint_cost = 0.2
+@archers_high_maint_cost = @[archers_low_maint_cost * high_maint_mult]
+
+@pikemen_recruitment_cost = 75
+@pikemen_low_maint_cost = 0.3
+@pikemen_high_maint_cost = @[pikemen_low_maint_cost * high_maint_mult]
+
+@heavy_infantry_recruitment_cost = 90
+@heavy_infantry_low_maint_cost = 0.4
+@heavy_infantry_high_maint_cost = @[heavy_infantry_low_maint_cost * high_maint_mult]
+
+@light_cavalry_recruitment_cost = 85
+@light_cavalry_low_maint_cost = 0.35
+@light_cavalry_high_maint_cost = @[light_cavalry_low_maint_cost * high_maint_mult]
+
+@heavy_cavalry_recruitment_cost = 200
+@heavy_cavalry_low_maint_cost = 0.7
+@heavy_cavalry_high_maint_cost = @[heavy_cavalry_low_maint_cost * high_maint_mult]
+
+
+### Cultural MAA
+scholarii_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.5]
+scholarii_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.5]
+scholarii_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.5]
+
+excubitors_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.6]
+excubitors_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.6]
+excubitors_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.6]
+
+varrangoi_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.7]
+varrangoi_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.7]
+varrangoi_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.7]
+
+menavlatoi_recruitment_cost = @[pikemen_recruitment_cost * 1.6]
+menavlatoi_low_maint_cost = @[pikemen_low_maint_cost * 1.6]
+menavlatoi_high_maint_cost = @[pikemen_high_maint_cost * 1.6]
+
+ippotoxotai_recruitment_cost = @[light_cavalry_recruitment_cost * 1.8]
+ippotoxotai_low_maint_cost = @[light_cavalry_low_maint_cost * 1.6]
+ippotoxotai_high_maint_cost = @[light_cavalry_high_maint_cost * 1.6]
+
+prokousatores_recruitment_cost = @[light_cavalry_recruitment_cost * 1.2]
+prokousatores_low_maint_cost = @[light_cavalry_low_maint_cost * 1.2]
+prokousatores_high_maint_cost = @[light_cavalry_high_maint_cost * 1.2]
+
+picchieri_recruitment_cost = @[pikemen_recruitment_cost * 1.3]
+picchieri_low_maint_cost = @[pikemen_low_maint_cost * 1.3]
+picchieri_high_maint_cost = @[pikemen_high_maint_cost * 1.3]
+
+skoutatoi_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.2]
+skoutatoi_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.2]
+skoutatoi_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.2]
+
+kastrophylakes_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.25]
+kastrophylakes_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.25]
+kastrophylakes_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.25]
+
+akritai_recruitment_cost = @[skirmisher_recruitment_cost * 1.5]
+akritai_low_maint_cost = @[skirmisher_low_maint_cost * 1.1]
+akritai_high_maint_cost = @[skirmisher_high_maint_cost * 1.1]
+
+kontaratoi_recruitment_cost = @[heavy_infantry_recruitment_cost * 0.9]
+kontaratoi_low_maint_cost = @[heavy_infantry_low_maint_cost * 0.9]
+kontaratoi_high_maint_cost = @[heavy_infantry_high_maint_cost * 0.9]
+
+clivanophoroi_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.1]
+clivanophoroi_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.1]
+clivanophoroi_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.1]
+
+ippoakritai_recruitment_cost = @[light_cavalry_recruitment_cost * 0.9]
+ippoakritai_low_maint_cost = @[light_cavalry_low_maint_cost * 0.9]
+ippoakritai_high_maint_cost = @[light_cavalry_high_maint_cost * 0.9]
+
+kataphraktoi_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.3]
+kataphraktoi_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.6]
+kataphraktoi_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.6]
+
+optimatoi_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.25]
+optimatoi_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.25]
+optimatoi_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.25]
+
+koursores_recruitment_cost = @[light_cavalry_recruitment_cost * 1.4]
+koursores_low_maint_cost = @[light_cavalry_low_maint_cost * 1.2]
+koursores_high_maint_cost = @[light_cavalry_high_maint_cost * 1.2]
+
+pelekyphoroi_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.7]
+pelekyphoroi_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.5]
+pelekyphoroi_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.5]
+
+archon_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.4]
+archon_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.2]
+archon_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.2]
+
+turkopouloi_recruitment_cost = @[light_cavalry_recruitment_cost * 2]
+turkopouloi_low_maint_cost = @[light_cavalry_low_maint_cost * 1.5]
+turkopouloi_high_maint_cost = @[light_cavalry_high_maint_cost * 1.5]
+
+latinikon_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.1]
+latinikon_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.4]
+latinikon_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.4]
+
+mourta_recruitment_cost = @[archers_recruitment_cost * 1.3]
+mourta_low_maint_cost = @[archers_low_maint_cost * 1.2]
+mourta_high_maint_cost = @[archers_high_maint_cost * 1.2]
+
+pronoiarii_recruitment_cost = @[heavy_cavalry_recruitment_cost * 1.1]
+pronoiarii_low_maint_cost = @[heavy_cavalry_low_maint_cost * 1.1]
+pronoiarii_high_maint_cost = @[heavy_cavalry_high_maint_cost * 1.1]
+
+##############
+# AI Weights #
+##############
+
+CRA_culture_ai_weight_skirmishers = {
+	value = -10
+	
+	if = { # Cultures that favours skirmishers
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_baltic
+					has_cultural_pillar = heritage_ugro_permian
+					has_cultural_pillar = heritage_balto_finnic
+				}
+			}
+		}
+		add = 20
+	}
+	if = { # Cultures that dislike skirmishers
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_central_germanic
+					has_cultural_pillar = heritage_frankish
+					has_cultural_pillar = heritage_iberian
+					has_cultural_pillar = heritage_latin
+					has_cultural_pillar = heritage_byzantine
+				}
+			}
+		}
+		add = -60
+	}
+}
+
+CRA_culture_ai_weight_archers = {
+	value = 0
+	
+	if = { # Cultures that favours archers
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_west_germanic
+					has_cultural_pillar = heritage_brythonic
+					has_cultural_pillar = heritage_east_african
+					has_cultural_pillar = heritage_indo_aryan
+					has_cultural_pillar = heritage_dravidian
+					has_cultural_pillar = heritage_burman
+					has_cultural_pillar = heritage_chinese
+				}
+			}
+		}
+		add = 40
+	}
+	if = { # Cultures that dislike archers
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_frankish }
+			}
+		}
+		add = -60
+	}
+}
+
+CRA_culture_ai_weight_heavy_infantry = {
+	value = 0
+	
+	if = { # Cultures that favours heavy infantry
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_central_germanic
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = heritage_west_germanic
+					has_cultural_pillar = heritage_east_slavic
+				}
+			}
+		}
+		add = 40
+	}
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_byzantine
+			}
+		}
+		add = 20
+	}
+}
+
+CRA_culture_ai_weight_pikemen = {
+	value = 0
+	
+	if = { # Cultures that favours spearmen
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_latin }
+			}
+		}
+		add = 40
+	}
+}
+
+CRA_culture_ai_weight_light_cavalry = {
+	value = 20
+	
+	if = { # Cultures that REALLY like light cavalry
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_iranian }
+				
+				# Steppe cultures
+				culture = { has_cultural_pillar = heritage_turkic }
+				culture = { has_cultural_pillar = heritage_mongolic }
+			}
+		}
+		add = 80
+	}
+	if = { # Cultures that favours light cavalry
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_arabic
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_berber
+					has_cultural_pillar = heritage_iberian
+					has_cultural_pillar = heritage_indo_aryan
+				}
+			}
+		}
+		add = 40
+	}
+	if = { # Cultures that dislike light cavalry
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_tibetan }
+				culture = { has_cultural_pillar = heritage_baltic }
+				culture = { has_cultural_pillar = heritage_burman }
+				culture = { has_cultural_pillar = heritage_somalian }
+			}
+		}
+		add = -60
+	}
+	
+	if = { # Cultures with a preference for Camel Riders should buy those over normal light cavalry
+		limit = {
+			culture = {
+				has_innovation = innovation_war_camels
+			}
+			OR = {
+				culture = { has_cultural_pillar = heritage_arabic }
+				culture = { has_cultural_pillar = heritage_berber }
+			}
+		}
+		add = -80
+	}
+}
+
+CRA_culture_ai_weight_heavy_cavalry = {
+	value = 0
+	
+	if = { # Cultures that REALLY like heavy cavalry
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_iranian }
+				
+				# Steppe cultures
+				culture = { has_cultural_pillar = heritage_turkic }
+				culture = { has_cultural_pillar = heritage_mongolic }
+			}
+		}
+		add = 80
+	}
+	if = { # Cultures that favours heavy cavalry
+		limit = {
+			OR = {
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_frankish }
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+				culture = { has_cultural_pillar = heritage_byzantine }
+			}
+		}
+		add = 40
+	}
+	if = { # Cultures that dislike heavy cavalry
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_tibetan
+					has_cultural_pillar = heritage_baltic
+					has_cultural_pillar = heritage_south_slavic
+					has_cultural_pillar = heritage_sahelian
+					has_cultural_pillar = heritage_senegambian
+					has_cultural_pillar = heritage_west_african
+					has_cultural_pillar = heritage_yoruba
+					has_cultural_pillar = heritage_somalian
+					has_cultural_pillar = heritage_east_african
+					has_cultural_pillar = heritage_burman
+				}
+			}
+		}
+		add = -60
+	}
+}

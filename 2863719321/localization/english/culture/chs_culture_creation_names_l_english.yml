@@ -1,0 +1,15 @@
+﻿l_english:
+ #Prussian
+ germanic_prussian_name:0 "Prussian"
+ germanic_prussian_collective_noun:0 "Prussians"
+ germanic_prussian_prefix:0 "Prusso"
+ germanic_prussian_hybrid_name:0 "$germanic_prussian_name$"
+ germanic_prussian_hybrid_collective_noun:0 "$germanic_prussian_collective_noun$"
+ germanic_prussian_hybrid_prefix:0 "$germanic_prussian_prefix$"
+ #Bohemian
+ germanic_czech_name:0 "Bohemian"
+ germanic_czech_collective_noun:0 "Bohemians"
+ germanic_czech_prefix:0 "Bohemo"
+ germanic_czech_hybrid_name:0 "$germanic_czech_name$"
+ germanic_czech_hybrid_collective_noun:0 "$germanic_czech_collective_noun$"
+ germanic_czech_hybrid_prefix:0 "$germanic_czech_prefix$"

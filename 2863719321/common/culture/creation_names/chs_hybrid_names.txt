@@ -1,0 +1,31 @@
+﻿germanic_prussian_hybrid = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = culture:prussian
+				scope:other_culture = { has_cultural_pillar = heritage_central_germanic }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_central_germanic }
+				scope:other_culture = culture:prussian
+			}
+		}
+	}
+	hybrid = yes
+}
+
+germanic_czech_hybrid = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = culture:czech
+				scope:other_culture = { has_cultural_pillar = heritage_central_germanic }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_central_germanic }
+				scope:other_culture = culture:czech
+			}
+		}
+	}
+	hybrid = yes
+}

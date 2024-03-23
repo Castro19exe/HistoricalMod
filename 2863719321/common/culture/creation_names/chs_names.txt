@@ -1,0 +1,45 @@
+﻿germanic_prussian = {
+	trigger = {
+		OR = {
+			capital_county = {
+				title:d_prussia = {
+					is_de_jure_liege_or_above_target = prev
+				}
+			}
+			has_primary_title = title:d_prussia
+		}
+		culture = { has_cultural_pillar = heritage_central_germanic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			duchy = title:d_prussia
+		}
+	}
+}
+
+germanic_czech = {
+	trigger = {
+		OR = {
+			AND = {
+				capital_county = {
+					title:d_bohemia = {
+						is_de_jure_liege_or_above_target = prev
+					}
+				}
+				has_primary_title = title:d_bohemia
+			}
+			AND = {
+				capital_county = {
+					title:k_bohemia = {
+						is_de_jure_liege_or_above_target = prev
+					}
+				}
+				has_primary_title = title:k_bohemia
+			}
+		}
+		culture = { has_cultural_pillar = heritage_central_germanic }
+		any_sub_realm_county = {
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			duchy = title:d_bohemia
+		}
+	}
+}

@@ -1,0 +1,122 @@
+﻿old_saxon = {
+	color = { 0.6 0.2 0.1 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_sea_germanic
+	language = language_north_sea_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_seafaring
+		tradition_hird
+		tradition_stalwart_defenders
+		tradition_swords_for_hire
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { norse_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+
+	ethnicities = {
+		50 = caucasian_northern_blond
+		10 = caucasian_northern_ginger
+		25 = caucasian_northern_brown_hair
+		15 = caucasian_northern_dark_hair
+	}
+}
+
+angle = {
+	color = { 0.6 0.25 0.15 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_sea_germanic
+	language = language_north_sea_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_agrarian
+		tradition_hird
+		tradition_seafaring
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { norse_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx }
+	unit_gfx = { norse_unit_gfx } 
+	
+	ethnicities = {
+		50 = caucasian_northern_blond
+		10 = caucasian_northern_ginger
+		25 = caucasian_northern_brown_hair
+		15 = caucasian_northern_dark_hair
+	}
+}
+
+jute = {
+	color = { 0.2 0.3 0.5 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_sea_germanic
+	language = language_north_sea_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_eye_for_an_eye
+		tradition_hereditary_hierarchy
+		tradition_hird
+		tradition_seafaring
+	}
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { norse_coa_gfx } 
+	building_gfx = { norse_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }  	
+
+	ethnicities = {
+		50 = caucasian_northern_blond
+		10 = caucasian_northern_ginger
+		25 = caucasian_northern_brown_hair
+		15 = caucasian_northern_dark_hair
+	}
+}
+
+anglo_saxon = {
+	color = { 0.8 0.3 0.3 }
+	created = 750.1.1
+	parents = { angle old_saxon }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		50 = caucasian_northern_blond
+		10 = caucasian_northern_ginger
+		25 = caucasian_northern_brown_hair
+		15 = caucasian_northern_dark_hair
+	}
+}
