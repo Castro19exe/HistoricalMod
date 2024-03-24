@@ -1,5 +1,4 @@
 k_visigoths = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=brown
 	color2=yellow
