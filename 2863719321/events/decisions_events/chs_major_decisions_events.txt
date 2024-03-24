@@ -113,7 +113,7 @@ chs_major_decisions.0004 = {
 	}
 }
 
-##############################################################  Magna Germania
+##############################################################  Unify All Germanic Lands
 
 chs_major_decisions.0005 = {
 	type = character_event
