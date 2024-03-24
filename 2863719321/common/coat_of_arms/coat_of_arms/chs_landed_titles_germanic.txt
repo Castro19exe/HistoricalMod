@@ -1,4 +1,55 @@
-coa_title_90 = {
+e_hre = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=black
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=white
+		texture="ce_eagle_double.dds"
+		instance={
+			scale={ 0.900000 1.000000 }
+		}
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.580000 0.155000 }
+			scale={ 0.256000 0.256000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.420000 0.155000 }
+			scale={ 0.256000 0.256000 }
+			depth=4.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 193 162 120 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.580000 0.155000 }
+			scale={ 0.240000 0.240000 }
+			depth=1.010000
+		}
+	}
+
+	colored_emblem={
+		color1=rgb { 198 166 120 }
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.420000 0.155000 }
+			scale={ 0.240000 0.240000 }
+			depth=2.010000
+		}
+	}
+}
+
+e_pan_germany = {
 	pattern="pattern_solid.dds"
 	color1=yellow
 	color2=black
