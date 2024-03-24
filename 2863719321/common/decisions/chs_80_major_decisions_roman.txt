@@ -21,16 +21,16 @@ create_dalmatian_kingdom_decision = {
 	}
 
 	is_valid = {
-		prestige_level >= 3
+		prestige_level >= 1
 		is_independent_ruler = yes
 		OR = {
 			has_title = title:d_dalmatia
 			has_title = title:d_ragusa
 			has_title = title:d_usora
 		}
-		completely_controls = title:d_dalmatia
-        completely_controls = title:d_ragusa
-        completely_controls = title:d_usora
+		#completely_controls = title:d_dalmatia
+        #completely_controls = title:d_ragusa
+        #completely_controls = title:d_usora
 	}
 
 	is_valid_showing_failures_only = {
@@ -39,7 +39,7 @@ create_dalmatian_kingdom_decision = {
 	}
 
 	cost = {
-		gold = 300
+		gold = 3#00
 	}
 
 	effect = {
