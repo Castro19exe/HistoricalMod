@@ -1,0 +1,8 @@
+c_toledo = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = c_toledo_christian
+	}
+}

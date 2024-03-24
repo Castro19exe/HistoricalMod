@@ -52,3 +52,21 @@ chs_religious_conversion_ethnoreligious_trigger = {
 		}
 	}
 }
+
+coa_switch_to_iberian_christian_trigger = {
+	holder = {
+		NOT = {
+			faith.religion = religion:islam_religion
+		}
+		OR = {
+			faith.religion = religion:christianity_religion
+			culture = { 
+				OR = {
+					has_coa_gfx = castilian_coa_gfx
+					has_coa_gfx = leonese_coa_gfx
+					has_coa_gfx = iberian_group_coa_gfx
+				}
+			}
+		}
+	}
+}
