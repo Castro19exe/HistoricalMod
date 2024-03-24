@@ -1394,7 +1394,7 @@ custom_magna_germania = {
 		#Germany
 		d_holstein d_ostfalen d_angria d_westfalen d_anhalt d_thuringia d_hesse d_lower_lorraine d_upper_lorraine d_julich d_west_franconia d_east_franconia d_swabia d_alsace d_currezia d_luxembourg d_brabant d_meissen d_lausitz d_bar
 		#Bavaria
-		d_nordgau d_bavaria d_augsburg d_salzburg d_osterreich d_carinthia d_steyermark d_tyrol d_krain d_istria
+		k_bavaria
 		#Pomerania
 		d_pommerania d_nordmark d_pomerelia d_ostmark
 		#Bohemia
