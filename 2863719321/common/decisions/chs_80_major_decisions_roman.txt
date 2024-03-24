@@ -21,16 +21,16 @@ create_dalmatian_kingdom_decision = {
 	}
 
 	is_valid = {
-		prestige_level >= 1
+		prestige_level >= 3
 		is_independent_ruler = yes
 		OR = {
 			has_title = title:d_dalmatia
 			has_title = title:d_ragusa
 			has_title = title:d_usora
 		}
-		#completely_controls = title:d_dalmatia
-        #completely_controls = title:d_ragusa
-        #completely_controls = title:d_usora
+		completely_controls = title:d_dalmatia
+        completely_controls = title:d_ragusa
+        completely_controls = title:d_usora
 	}
 
 	is_valid_showing_failures_only = {
@@ -39,7 +39,7 @@ create_dalmatian_kingdom_decision = {
 	}
 
 	cost = {
-		gold = 3#00
+		gold = 300
 	}
 
 	effect = {
@@ -341,7 +341,7 @@ unite_the_germans_decision = {
 			culture = { has_cultural_pillar = heritage_central_germanic }
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			culture = { has_cultural_pillar = heritage_north_sea_germanic }
-			}
+		}
 		NOR = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -356,7 +356,11 @@ unite_the_germans_decision = {
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			culture = { has_cultural_pillar = heritage_north_sea_germanic }
 		}
-		completely_controls_region = custom_magna_germania
+		completely_controls_region = custom_roman_magna_germania
+		completely_controls_region = custom_pan_germania
+		NOT = {
+			exists = title:e_hre
+		}
 	}
 
 	effect = {
