@@ -1379,22 +1379,14 @@ custom_northern_england = {
 	}
 }
 
-custom_magna_germania = {
+custom_roman_magna_germania = {
 	duchies = {
-		#Norway
-		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_jamtland d_northern_isles d_iceland
-		#Sweden
-		d_svealand d_vastergotland d_ostergotland d_smaland d_norrland d_gotland d_bergslagen
-		#Denmark
-		d_jylland d_slesvig d_sjaelland d_skane
-		#England
-		#d_bedford d_northumberland d_lancaster d_york d_norfolk d_hereford d_gloucester d_canterbury d_somerset d_cornwall
 		#Frisia
 		d_holland d_frisia d_utrecht d_gelre
 		#Germany
-		d_holstein d_ostfalen d_angria d_westfalen d_anhalt d_thuringia d_hesse d_lower_lorraine d_upper_lorraine d_julich d_west_franconia d_east_franconia d_swabia d_alsace d_currezia d_luxembourg d_brabant d_meissen d_lausitz d_bar
+		d_holstein d_ostfalen d_angria d_westfalen d_anhalt d_thuringia d_hesse d_lower_lorraine d_julich d_west_franconia d_east_franconia d_swabia d_currezia d_meissen d_lausitz
 		#Bavaria
-		k_bavaria
+		d_nordgau
 		#Pomerania
 		d_pommerania d_nordmark d_pomerelia d_ostmark
 		#Bohemia
@@ -1403,6 +1395,23 @@ custom_magna_germania = {
 		d_lesser_poland d_wielkopolska d_mazovia d_upper_silesia d_lower_silesia d_kuyavia
 		#Prussia
 		d_prussia d_masuria
+	}
+}
+
+custom_pan_germania = {
+	regions = {
+		custom_roman_magna_germania
+	}
+
+	duchies = {
+		#Iceland
+		d_iceland
+		#Norway
+		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_jamtland d_northern_isles
+		#Sweden
+		d_svealand d_vastergotland d_ostergotland d_smaland d_norrland d_gotland d_bergslagen
+		#Denmark
+		d_jylland d_slesvig d_sjaelland d_skane
 	}
 }
 
