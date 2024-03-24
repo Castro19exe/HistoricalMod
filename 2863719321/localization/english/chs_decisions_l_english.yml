@@ -448,9 +448,9 @@
  chs_major_decisions.0004.desc:0 ""
  chs_major_decisions.0004.a:0 ""
 
- unite_the_germans_decision:0 "Unite Magna Germania"
- unite_the_germans_decision_confirm:0 "Magna Germania"
- unite_the_germans_decision_desc:0 "In order to consolidate our strength and ensure the prosperity of our people, it is time to unite the Germanic peoples under a single banner. By setting aside our differences and forging a common purpose, we can establish a stable and powerful realm that will safeguard our interests and secure our future."
+ unite_the_germans_decision:0 "Establish The Pan-Germania"
+ unite_the_germans_decision_confirm:0 "Masters of Europe"
+ unite_the_germans_decision_desc:0 "In order to consolidate our strength and ensure the prosperity of our people, it's time to be united under a single banner. By setting aside our differences and forging a common purpose, we can establish a stable and powerful realm that will safeguard our interests and secure our future."
  unite_the_germans_decision_tooltip:0 "Unite the lands that Rome never conquered"
 
  #Should not be here
