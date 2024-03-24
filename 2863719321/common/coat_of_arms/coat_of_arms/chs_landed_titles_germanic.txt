@@ -54,13 +54,110 @@ e_pan_germany = {
 	color1=yellow
 	color2=black
 	colored_emblem={
-		color1=white
-		color2=white
-		texture="ce_shield_portugal.dds"
+		color1=red
+		color2=red
+		texture="ce_shield_02.dds"
 		instance={
-			position={ 0.500000 0.420000 }
-			scale={ 0.530000 0.530000 }
-			depth=1.010000
+			position={ 0.350000 0.540000 }
+			scale={ 0.170000 0.170000 }
+			depth=20.010000
+			rotation=15
+		}
+
+		instance={
+			position={ 0.580000 0.390000 }
+			scale={ 0.170000 0.170000 }
+			depth=25.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_crown_small.dds"
+		instance={
+			position={ 0.640000 0.500000 }
+			scale={ 0.040000 0.040000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=yellow
+		color3=red
+		texture="ce_lion_rampant_crown_forked.dds"
+		instance={
+			position={ 0.580000 0.390000 }
+			scale={ 0.180000 0.180000 }
+			depth=24.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_shield_02.dds"
+		instance={
+			position={ 0.210000 0.490000 }
+			scale={ 0.150000 0.150000 }
+			depth=7.010000
+			rotation=25
+		}
+
+		instance={
+			position={ 0.500000 0.560000 }
+			scale={ 0.170000 0.170000 }
+			depth=23.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=blue
+		texture="ce_shield_02.dds"
+		instance={
+			position={ 0.730000 0.360000 }
+			scale={ 0.160000 0.160000 }
+			depth=14.010000
+			rotation=343
+		}
+
+		instance={
+			position={ 0.280000 0.350000 }
+			scale={ 0.160000 0.160000 }
+			depth=18.010000
+			rotation=16
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=red
+		color3=red
+		texture="ce_panther.dds"
+		instance={
+			position={ 0.650000 0.560000 }
+			scale={ 0.140000 0.140000 }
+			depth=9.010000
+			rotation=350
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=red
+		texture="ce_eagle_small.dds"
+		instance={
+			position={ 0.500000 0.560000 }
+			scale={ 0.160000 0.160000 }
+			depth=21.010000
 		}
 
 	}
@@ -72,7 +169,18 @@ e_pan_germany = {
 		texture="ce_eagle_double.dds"
 		instance={
 			scale={ 0.900000 1.000000 }
-			depth=2.010000
+			depth=28.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 213 194 167 }
+		color2=blue_light
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.500000 0.060000 }
+			scale={ 0.140000 0.140000 }
 		}
 
 	}
@@ -83,13 +191,13 @@ e_pan_germany = {
 		instance={
 			position={ 0.580000 0.155000 }
 			scale={ 0.256000 0.256000 }
-			depth=5.010000
+			depth=31.010000
 		}
 
 		instance={
 			position={ 0.420000 0.155000 }
 			scale={ 0.256000 0.256000 }
-			depth=6.010000
+			depth=32.009998
 		}
 
 	}
@@ -100,7 +208,92 @@ e_pan_germany = {
 		instance={
 			position={ 0.580000 0.155000 }
 			scale={ 0.240000 0.240000 }
+			depth=29.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_crown.dds"
+		instance={
+			position={ 0.280000 0.370000 }
+			scale={ 0.070000 0.070000 }
+			depth=15.010000
+			rotation=22
+		}
+
+		instance={
+			position={ 0.320000 0.330000 }
+			scale={ 0.060000 0.060000 }
+			depth=16.010000
+			rotation=17
+		}
+
+		instance={
+			position={ 0.270000 0.310000 }
+			scale={ 0.060000 0.060000 }
+			depth=17.010000
+			rotation=33
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=red
+		color3=red
+		texture="ce_leopard_passant_guardant.dds"
+		instance={
+			position={ 0.210000 0.510000 }
+			scale={ 0.090000 0.090000 }
 			depth=3.010000
+			rotation=24
+		}
+
+		instance={
+			position={ 0.220000 0.480000 }
+			scale={ 0.090000 0.090000 }
+			depth=4.010000
+			rotation=21
+		}
+
+		instance={
+			position={ 0.230000 0.450000 }
+			scale={ 0.100000 0.100000 }
+			depth=5.010000
+			rotation=23
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_shield_02.dds"
+		instance={
+			position={ 0.210000 0.490000 }
+			scale={ 0.130000 0.130000 }
+			depth=6.010000
+			rotation=26
+		}
+
+		instance={
+			position={ 0.500000 0.560000 }
+			scale={ 0.150000 0.150000 }
+			depth=22.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		texture="ce_cross_faceted.dds"
+		instance={
+			position={ 0.430000 0.380000 }
+			scale={ 0.140000 0.150000 }
+			depth=26.010000
 		}
 
 	}
@@ -111,20 +304,89 @@ e_pan_germany = {
 		instance={
 			position={ 0.420000 0.155000 }
 			scale={ 0.240000 0.240000 }
-			depth=4.010000
+			depth=30.010000
 		}
 
 	}
 
 	colored_emblem={
 		color1=black
-		color2=yellow
-		color3=orange
-		texture="ce_eagle_crown_boned.dds"
+		color2=red
+		color3=white
+		texture="ce_eagle_small.dds"
 		instance={
-			position={ 0.500000 0.430000 }
-			scale={ 0.300000 0.300000 }
+			position={ 0.780000 0.510000 }
+			scale={ 0.160000 0.160000 }
+			depth=1.010000
+			rotation=342
 		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=white
+		color3=yellow
+		texture="ce_lion_rampant_axe.dds"
+		instance={
+			position={ 0.350000 0.540000 }
+			scale={ 0.140000 0.140000 }
+			depth=19.010000
+			rotation=16
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_shield_02.dds"
+		instance={
+			position={ 0.780000 0.510000 }
+			scale={ 0.150000 0.150000 }
+			depth=2.010000
+			rotation=342
+		}
+
+		instance={
+			position={ 0.650000 0.550000 }
+			scale={ 0.160000 0.160000 }
+			depth=10.010000
+			rotation=350
+		}
+
+		instance={
+			position={ 0.430000 0.380000 }
+			scale={ 0.160000 0.160000 }
+			depth=27.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_waterlily.dds"
+		instance={
+			position={ 0.740000 0.390000 }
+			scale={ 0.080000 0.080000 }
+			depth=11.010000
+			rotation=341
+		}
+
+		instance={
+			position={ 0.750000 0.320000 }
+			scale={ 0.070000 0.070000 }
+			depth=12.010000
+			rotation=341
+		}
+
+		instance={
+			position={ 0.690000 0.340000 }
+			scale={ 0.070000 0.070000 }
+			depth=13.010000
+			rotation=342
+		}
+
 	}
 }
 
