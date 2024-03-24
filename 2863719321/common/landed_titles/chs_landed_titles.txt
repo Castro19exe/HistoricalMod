@@ -340,12 +340,12 @@ e_portugal = {
 }
 
 e_pan_germany = {
-	color = { 206 90 210 }
+	color = { 80 90 90 }
 	can_be_named_after_dynasty = no
 
 	definite_form = yes
 
-	capital = c_lisboa
+	capital = c_dessau
 }
 
 e_golden_horde = {

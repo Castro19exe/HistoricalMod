@@ -1,7 +1,0 @@
-k_visigoths = {
-	custom=yes
-	pattern="pattern_horizontal_split_01.dds"
-	color1=white
-	color2=white
-	color3=white
-}
