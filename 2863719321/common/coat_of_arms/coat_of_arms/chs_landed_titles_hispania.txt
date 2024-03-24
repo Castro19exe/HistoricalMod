@@ -1,10 +1,11 @@
 k_visigoths = {
-	pattern="pattern__solid_designer.dds"
-	color1=rgb { 127 95 79 }
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=brown
 	color2=yellow
 	color3=black
 	colored_emblem={
-		color1=rgb { 127 95 79 }
+		color1=brown
 		texture="ce_block_02.dds"
 		instance={
 			position={ 0.680000 0.620000 }
@@ -29,7 +30,7 @@ k_visigoths = {
 		color1=red
 		texture="ce_diamond_01.dds"
 		instance={
-			position={ 0.320000 0.380000 }
+			position={ 0.320000 0.390000 }
 			scale={ 0.120000 0.120000 }
 			rotation=159
 		}
@@ -44,7 +45,29 @@ k_visigoths = {
 	}
 
 	colored_emblem={
-		color1=rgb { 127 95 79 }
+		color1=brown
+		color2=brown
+		texture="ce_shield_02.dds"
+		instance={
+			position={ 0.160000 0.800000 }
+			scale={ 0.320000 0.320000 }
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_norse_odins_raven.dds"
+		instance={
+			depth=14.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=brown
 		color2=white
 		color3=red
 		texture="ce_block_02.dds"
@@ -58,15 +81,20 @@ k_visigoths = {
 	}
 
 	colored_emblem={
-		color1=rgb { 127 95 79 }
-		color2=rgb { 127 95 79 }
-		texture="ce_shield_02.dds"
+		color1=red
+		texture="ce_african_kile.dds"
 		instance={
-			position={ 0.160000 0.800000 }
-			scale={ 0.320000 0.320000 }
-			depth=9.010000
+			position={ 0.500000 0.470000 }
+			scale={ 0.390000 0.390000 }
+			depth=2.010000
 		}
 
+	}
+
+	colored_emblem={
+		color1=brown
+		color2=brown
+		texture="ce_shield_02.dds"
 		instance={
 			position={ 0.270000 0.460000 }
 			scale={ 0.350000 0.670000 }
@@ -84,26 +112,6 @@ k_visigoths = {
 	}
 
 	colored_emblem={
-		color1=red
-		color2=yellow
-		texture="ce_norse_odins_raven.dds"
-		instance={
-			depth=14.010000
-		}
-	}
-
-	colored_emblem={
-		color1=red
-		texture="ce_african_kile.dds"
-		instance={
-			position={ 0.500000 0.470000 }
-			scale={ 0.390000 0.390000 }
-			depth=2.010000
-		}
-
-	}
-
-	colored_emblem={
 		color1=yellow
 		color2=green_light
 		color3=green_light
@@ -113,6 +121,7 @@ k_visigoths = {
 			scale={ 0.260000 0.260000 }
 			depth=3.010000
 		}
+
 	}
 
 	colored_emblem={
@@ -132,6 +141,7 @@ k_visigoths = {
 			depth=6.010000
 			rotation=197
 		}
+
 	}
 
 	colored_emblem={
@@ -150,6 +160,118 @@ k_visigoths = {
 			depth=8.010000
 			rotation=22
 		}
+	}
+}
+
+e_portugal = {
+	custom=yes
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=red
+		texture="ce_block_02.dds"
+		instance={
+			depth=13.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue
+		color2=white
+		texture="ce_shield_portugal.dds"
+		instance={
+			position={ 0.640000 0.490000 }
+			scale={ 0.290000 0.290000 }
+		}
+
+		instance={
+			position={ 0.360000 0.490000 }
+			scale={ 0.270000 0.270000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.670000 }
+			scale={ 0.290000 0.290000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.490000 }
+			scale={ 0.280000 0.280000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.500000 0.320000 }
+			scale={ 0.270000 0.270000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=blue
+		texture="ce_castle.dds"
+		instance={
+			position={ 0.780000 0.730000 }
+			scale={ 0.220000 0.220000 }
+			depth=5.010000
+			rotation=40
+		}
+
+		instance={
+			position={ 0.230000 0.730000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+			rotation=327
+		}
+
+		instance={
+			position={ 0.820000 0.460000 }
+			scale={ 0.210000 0.210000 }
+			depth=7.010000
+		}
+
+		instance={
+			position={ 0.190000 0.460000 }
+			scale={ 0.200000 0.200000 }
+			depth=8.010000
+		}
+
+		instance={
+			position={ 0.810000 0.130000 }
+			scale={ 0.200000 0.200000 }
+			depth=9.010000
+		}
+
+		instance={
+			position={ 0.190000 0.130000 }
+			scale={ 0.200000 0.200000 }
+			depth=10.010000
+		}
+
+		instance={
+			position={ 0.500000 0.130000 }
+			scale={ 0.200000 0.200000 }
+			depth=11.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_shield_02.dds"
+		instance={
+			scale={ 0.580000 0.580000 }
+			depth=12.010000
+		}
+
 	}
 }
 
