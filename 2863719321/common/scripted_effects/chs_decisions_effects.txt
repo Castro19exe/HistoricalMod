@@ -343,20 +343,9 @@ unite_the_germans_effect = {
 	set_primary_title_to = title:e_portugal
 
 	#Tooltips
-	custom_tooltip = create_portuguese_empire.preview.titles
+	
 
 	hidden_effect = {
-		title:k_canarias = {
-			change_title_holder = {
-				holder = root
-				change = scope:title_change
-			}
-			save_scope_as = k_canarias
-		}
-
-		title:d_canarias = { set_de_jure_liege_title = title:k_canarias }
-
-		title:k_canarias = { set_de_jure_liege_title = title:e_portugal }
-		title:k_portugal = { set_de_jure_liege_title = title:e_portugal }
+		
 	}
 }

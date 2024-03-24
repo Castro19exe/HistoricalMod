@@ -21691,6 +21691,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_posen
 					name_list_swabian = cn_posen
 					name_list_bavarian = cn_posen
+					name_list_thuringian = cn_posen
 				}
 
 				b_poznan = {
@@ -21703,6 +21704,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_posen
 						name_list_swabian = cn_posen
 						name_list_bavarian = cn_posen
+						name_list_thuringian = cn_posen
 					}
 				}
 				b_miedzyrzecz = {
@@ -21715,6 +21717,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_meseritz
 						name_list_swabian = cn_meseritz
 						name_list_bavarian = cn_meseritz
+						name_list_thuringian = cn_meseritz
 					}
 				}
 				b_czarnkow = {
@@ -21727,6 +21730,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_scharnikau
 						name_list_swabian = cn_scharnikau
 						name_list_bavarian = cn_scharnikau
+						name_list_thuringian = cn_scharnikau
 					}
 				}
 				b_wronki = {
@@ -21739,6 +21743,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_wronke
 						name_list_swabian = cn_wronke
 						name_list_bavarian = cn_wronke
+						name_list_thuringian = cn_wronke
 					}
 				}
 				b_wolsztyn = {
@@ -21751,6 +21756,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_wollstein
 						name_list_swabian = cn_wollstein
 						name_list_bavarian = cn_wollstein
+						name_list_thuringian = cn_wollstein
 					}
 				}
 			}
@@ -21762,6 +21768,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_gnesen
 					name_list_swabian = cn_gnesen
 					name_list_bavarian = cn_gnesen
+					name_list_thuringian = cn_gnesen
 				}
 
 				b_gniezno = {
@@ -21774,6 +21781,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_gnesen
 						name_list_swabian = cn_gnesen
 						name_list_bavarian = cn_gnesen
+						name_list_thuringian = cn_gnesen
 					}
 				}
 				b_sroda = {
@@ -21786,6 +21794,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_schroda
 						name_list_swabian = cn_schroda
 						name_list_bavarian = cn_schroda
+						name_list_thuringian = cn_schroda
 					}
 				}
 				b_pyzdry = {
@@ -21798,6 +21807,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_peisern
 						name_list_swabian = cn_peisern
 						name_list_bavarian = cn_peisern
+						name_list_thuringian = cn_peisern
 					}
 				}
 				b_konin = {
@@ -21814,6 +21824,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_kalisch
 					name_list_swabian = cn_kalisch
 					name_list_bavarian = cn_kalisch
+					name_list_thuringian = cn_kalisch
 				}
 
 				b_kalisz = {
@@ -21826,6 +21837,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_kalisch
 						name_list_swabian = cn_kalisch
 						name_list_bavarian = cn_kalisch
+						name_list_thuringian = cn_kalisch
 					}
 				}
 				b_kozmin = {
@@ -21838,6 +21850,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_koschmin
 						name_list_swabian = cn_koschmin
 						name_list_bavarian = cn_koschmin
+						name_list_thuringian = cn_koschmin
 					}
 				}
 				b_turek = {
@@ -21854,6 +21867,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_fraustadt
 					name_list_swabian = cn_fraustadt
 					name_list_bavarian = cn_fraustadt
+					name_list_thuringian = cn_fraustadt
 				}
 
 				b_wschowa = {
@@ -21866,6 +21880,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_fraustadt
 						name_list_swabian = cn_fraustadt
 						name_list_bavarian = cn_fraustadt
+						name_list_thuringian = cn_fraustadt
 					}
 				}
 				b_koscian = {
@@ -21878,6 +21893,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_kosten
 						name_list_swabian = cn_kosten
 						name_list_bavarian = cn_kosten
+						name_list_thuringian = cn_kosten
 					}
 				}
 				b_srem = {
@@ -21890,6 +21906,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_schrimm
 						name_list_swabian = cn_schrimm
 						name_list_bavarian = cn_schrimm
+						name_list_thuringian = cn_schrimm
 					}
 				}
 			}
@@ -21906,6 +21923,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_nakel
 						name_list_swabian = cn_nakel
 						name_list_bavarian = cn_nakel
+						name_list_thuringian = cn_nakel
 					}
 				}
 				b_zlotow = {
@@ -21918,6 +21936,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_flatow
 						name_list_swabian = cn_flatow
 						name_list_bavarian = cn_flatow
+						name_list_thuringian = cn_flatow
 					}
 				}
 				b_znin = {
@@ -21931,6 +21950,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_swabian = cn_znin
 						name_list_bavarian = cn_znin
 						name_list_thuringian = cn_znin
+						name_list_thuringian = cn_znin
 					}
 				}
 			}
@@ -21942,6 +21962,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_lebus
 					name_list_swabian = cn_lebus
 					name_list_bavarian = cn_lebus
+					name_list_thuringian = cn_lebus
 					name_list_thuringian = cn_lebus
 				}
 
@@ -21955,6 +21976,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_lebus
 						name_list_swabian = cn_lebus
 						name_list_bavarian = cn_lebus
+						name_list_thuringian = cn_lebus
 						name_list_thuringian = cn_lebus
 					}
 				}
@@ -21970,6 +21992,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_swabian = cn_oderfrankfurt
 						name_list_bavarian = cn_oderfrankfurt
 						name_list_thuringian = cn_oderfrankfurt
+						name_list_thuringian = cn_oderfrankfurt
 					}
 				}
 
@@ -21983,6 +22006,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_zielenzig
 						name_list_swabian = cn_zielenzig
 						name_list_bavarian = cn_zielenzig
+						name_list_thuringian = cn_zielenzig
 					}
 				}
 				b_rzepin = {
@@ -21995,6 +22019,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_reppen
 						name_list_swabian = cn_reppen
 						name_list_bavarian = cn_reppen
+						name_list_thuringian = cn_reppen
 					}
 				}
 			}
