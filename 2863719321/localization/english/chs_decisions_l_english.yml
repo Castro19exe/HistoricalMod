@@ -454,7 +454,8 @@
  unite_the_germans_decision_tooltip:0 "Unite the lands that Rome never conquered"
 
  #Should not be here
- custom_magna_germania:0 "Magna Germania"
+ custom_roman_magna_germania:0 "Magna Germania"
+ custom_pan_germania:0 "Germanic Lands"
 
  convert_to_feudalism_decision:0 "Adopt Feudalism"
  convert_to_feudalism_decision_desc:0 "As my realm grows, so does the challenge to control it. If [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] is to keep expanding, we must leave the old ways behind and convert to feudalism."

@@ -342,7 +342,10 @@ unite_the_germans_decision = {
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			culture = { has_cultural_pillar = heritage_north_sea_germanic }
 		}
-		NOR = {
+		NOT = {
+			exists = title:e_hre.holder
+		}
+		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:unite_the_germans_decision
@@ -358,9 +361,6 @@ unite_the_germans_decision = {
 		}
 		completely_controls_region = custom_roman_magna_germania
 		completely_controls_region = custom_pan_germania
-		NOT = {
-			exists = title:e_hre
-		}
 	}
 
 	effect = {

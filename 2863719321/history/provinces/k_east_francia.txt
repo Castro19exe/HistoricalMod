@@ -95,11 +95,9 @@
 	religion = catholic
 	holding = castle_holding
 	1066.1.1 = {
-		culture = thuringian
 		buildings = {
 			cereal_fields_01
 			barracks_01
-			#hunting_grounds_01
 		}
 	}
 }
