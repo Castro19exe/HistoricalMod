@@ -1403,6 +1403,10 @@ custom_pan_germania = {
 		custom_roman_magna_germania
 	}
 
+	kingdoms = {
+		k_england
+	}
+
 	duchies = {
 		#Iceland
 		d_iceland
@@ -1413,7 +1417,7 @@ custom_pan_germania = {
 		#Denmark
 		d_jylland d_slesvig d_sjaelland d_skane
 		#Lotharingia
-		d_brabant d_luxembourg d_upper_lorraine d_alsace
+		d_brabant d_luxembourg d_upper_lorraine d_alsace d_bar
 		#Germany
 		d_currezia
 		#Bavaria
