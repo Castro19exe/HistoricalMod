@@ -18,7 +18,6 @@ fallback_army_03 = {
 	quality_fallback = @tier3_quality
 }
 
-
 # Western
 western_army_01 = {
 	type = army
@@ -62,7 +61,6 @@ mena_army_03 = {
 	entity = unit_mena_infantry_03_entity
 }
 
-
 # Eastern
 eastern_army_01 = {
 	type = army
@@ -82,6 +80,27 @@ eastern_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { eastern_unit_gfx }
 	entity = unit_byzantine_infantry_03_entity
+}
+
+# Roman
+roman_army_01 = {
+	type = army
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_kolyvan_infantry_01_entity
+}
+
+roman_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_kolyvan_infantry_01_entity
+}
+
+roman_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_kolyvan_infantry_01_entity
 }
 
 # Northern

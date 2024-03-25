@@ -8,22 +8,28 @@ c_toledo = {
 }
 
 b_maqueda = {
-	trigger = {
-		coa_switch_to_iberian_christian_trigger = yes
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = b_maqueda_christian
 	}
-	coat_of_arms = b_maqueda_christian
 }
 
-b_talavera_christian = {
-	trigger = {
-		coa_switch_to_iberian_christian_trigger = yes
+b_talavera = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = b_talavera_christian
 	}
-	coat_of_arms = b_talavera_christian
 }
 
 c_madrid = {
-	trigger = {
-		coa_switch_to_iberian_christian_trigger = yes
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = c_madrid_christian
 	}
-	coat_of_arms = c_madrid_christian
 }
