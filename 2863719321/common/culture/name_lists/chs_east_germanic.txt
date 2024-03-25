@@ -47,20 +47,16 @@
 	}
 
 	male_names = {
-		Adelfonso Adelgaster Agila Airmanagildo Alaricho Alatheo Aloito Amalaricho Amalmondo Ambroz
-		Aoricho Ardo Arias Assur Atawulfo Athanagildo Athanaricho Aurelio Bego Bera
-		Berengario Diaco Egica Ermengar Erwigio Euricho Fafila Fredol Friedenando Friednand
-		Fruella GarC_i Gaton Gauzberto Geila Gesalecho GonC_alo Gundemar Guttier Johan
-		Julian Khindaswintho Khintila Leovigildo Liuva Liuvericho Lucidio Lupo Madrubal Matheo
+		Adelfonso Adelgaster Agila Airmanagild Alaric Alatheo Aloito Amalaric Amalmondo Ambroz
+		Aoric Ardo Arias Assur Atawulf Athanagild Athanaric Aurelio Bego Bera
+		Berengario Diaco Egica Ermengar Erwigio Euric Fafila Fredol Friednand
+		Fruella GarC_i Gaton Gauzberto Geila Gesalec GonC_alo Gundemar Guttier Johan
+		Julian Khindaswintho Khintila Leovigild Liuva Liuvigild Lucidio Lupo Madrubal Matheo
 		Mauregato Miron Monnio Nunno Obada Oddilon Odoario Oliba Olmondo Oppas
 		Ordonno Pelagio Petro Radulfo Ranimiro Rekkaredo Rekkeswintho Ricimero Riculfo Rocesthes
-		Rodericho Rostan Sans Savarico Silo Sisebuto Sisenando Suinthila Suneario Suniefredo
-		Tello Theodefredo Theodemiro Theodoricho Theudigislo Theudis Thorismondo Tulga Veremondo Wifredo
-		Wimarano Witiza Wittericho
-
-#			Abdela AbdelaC_iC_ Abdelmelic Abdeluahid Abderrabmen Abrafim Ambroz Amet Ayyub C_acharya
-#			C_elim C_ulema Hacan Hamdan Harun IC_ag Mahomat Maruan MuC_a Omar
-#			Xabrit Yabya Yafar YuC_uf Yunus
+		Rodericho Rostan Sans Savarico Silo Sisebuto Sisenand Suinthila Suneario Suniefredo
+		Tello Theodefredo Theodemiro Theodoric Theudigislo Theudis Thorismund Tulga Veremondo Wifred
+		Wimarano Witiza Witteric
 	}
 	female_names = {
 		Adelgundis Adosinda Agnes Aragonte Argilo Ariberga Ava Baddo Brunechildis Cixillo
@@ -68,9 +64,6 @@
 		Fafinia Flamula Froiliuva Fronilde Gado Gaudiosa Gonterote Gothina Gudilona Iberia
 		Ingundis Leodegundis Liuvigothona Menenda Monnia Monniadomna Onecca Paterna Patruina Ralindis
 		Riciberga Ricilo Sibilia Sisenanda Theodora Urraca Winidilda
-
-#			Abda Ayab AyC_a C_ayida C_eida Emira Isra Leyla Melica Nadia
-#			Nadira Neyla Nur Tarifa YaC_mina
 	}
 	dynasty_of_location_prefix = "dynnp_af" 	 #from gothic dictionary
 	#patronym_suffix_male = "dynnpat_suf_icI_"	 #according to history of spanish naming practices

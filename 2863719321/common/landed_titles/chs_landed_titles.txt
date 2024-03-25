@@ -46373,6 +46373,18 @@ e_spain = {
 					province = 1923
 
 					color = { 230 185 15 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_magrit
+						name_list_baranis = cn_al_magrit
+						name_list_butr = cn_al_magrit
+						name_list_zaghawa = cn_al_magrit
+						name_list_levantine = cn_al_magrit
+						name_list_egyptian = cn_al_magrit
+						name_list_maghrebi = cn_al_magrit
+						name_list_andalusian = cn_al_magrit
+						name_list_yemeni = cn_al_magrit
+					}
 				}
 				b_gudalajara = {
 					province = 1927
