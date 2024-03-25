@@ -89,18 +89,18 @@ roman_army_01 = {
 	entity = unit_kolyvan_infantry_01_entity
 }
 
-roman_army_02 = {
+roman_army_03 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { roman_unit_gfx }
 	entity = unit_kolyvan_infantry_01_entity
 }
 
-roman_army_03 = {
+roman_army_05 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { roman_unit_gfx }
-	entity = unit_kolyvan_infantry_01_entity
+	entity = unit_imperec_infantry_03_entity
 }
 
 # Northern
