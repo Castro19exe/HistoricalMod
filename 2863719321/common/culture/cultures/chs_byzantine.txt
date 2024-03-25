@@ -1,8 +1,6 @@
 ﻿copt = {
 	color = { 0.6 0.4 0.6 }
-	created = 300.1.1
-	parents = { ancient_egyptian }
-	
+
 	ethos = ethos_spiritual
 	heritage = heritage_byzantine 							#under greek/roman occupation for many hundreds of years but also could be its own, e.g. kemetic
 	language = language_coptic
