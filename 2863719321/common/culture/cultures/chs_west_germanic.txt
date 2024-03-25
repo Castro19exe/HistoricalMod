@@ -120,3 +120,34 @@ anglo_saxon = {
 		15 = caucasian_northern_dark_hair
 	}
 }
+
+english = {
+	color = english
+	created = 1070.1.1
+	parents = { norman anglo_saxon }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+		tradition_castle_keepers
+		tradition_longbow_competitions
+	}
+	
+	name_list = name_list_english
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { english_coa_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

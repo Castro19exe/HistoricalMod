@@ -39,6 +39,68 @@ western_army_03 = {
 	entity = unit_western_infantry_03_entity
 }
 
+# Holy Roman Empire
+hre_army_01 = {
+	type = army
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_01_entity
+}
+
+hre_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_02_entity
+}
+
+hre_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { hre_unit_gfx }
+	entity = unit_hre_infantry_03_entity
+}
+
+# English
+english_army_01 = {
+	type = army
+	graphical_cultures = { english_unit_gfx }
+	entity = unit_english_infantry_01_entity
+}
+
+english_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { english_unit_gfx }
+	entity = unit_english_infantry_02_entity
+}
+
+english_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { english_unit_gfx }
+	entity = unit_english_infantry_03_entity
+}
+
+# French
+french_army_01 = {
+	type = army
+	graphical_cultures = { french_unit_gfx }
+	entity = unit_french_infantry_01_entity
+}
+
+french_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { french_unit_gfx }
+	entity = unit_french_infantry_02_entity
+}
+
+french_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { french_unit_gfx }
+	entity = unit_french_infantry_03_entity
+}
 
 # MENA Middle East, North Africa
 mena_army_01 = {
@@ -82,25 +144,46 @@ eastern_army_03 = {
 	entity = unit_byzantine_infantry_03_entity
 }
 
-# Roman
-roman_army_01 = {
+# Chinese
+chinese_army_01 = {
 	type = army
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_kolyvan_infantry_01_entity
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_chinese_infantry_01_entity
 }
 
-roman_army_03 = {
+chinese_army_02 = {
 	type = army
 	quality = @tier2_quality
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_kolyvan_infantry_01_entity
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_chinese_infantry_01_entity
 }
 
-roman_army_05 = {
+chinese_army_03 = {
 	type = army
 	quality = @tier3_quality
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_imperec_infantry_03_entity
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_chinese_infantry_03_entity
+}
+
+# Burman
+burman_army_01 = {
+	type = army
+	graphical_cultures = { burman_unit_gfx }
+	entity = unit_burmese_infantry_01_entity
+}
+
+burman_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { burman_unit_gfx }
+	entity = unit_burmese_infantry_01_entity
+}
+
+burman_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { burman_unit_gfx }
+	entity = unit_burmese_infantry_03_entity
 }
 
 # Northern
@@ -143,27 +226,6 @@ germanic_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { germanic_unit_gfx }
 	entity = unit_irish_infantry_03_entity
-}
-
-# Holy Roman Empire
-hre_army_01 = {
-	type = army
-	graphical_cultures = { hre_unit_gfx }
-	entity = unit_hre_infantry_01_entity
-}
-
-hre_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { hre_unit_gfx }
-	entity = unit_hre_infantry_02_entity
-}
-
-hre_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { hre_unit_gfx }
-	entity = unit_hre_infantry_03_entity
 }
 
 # Indian
