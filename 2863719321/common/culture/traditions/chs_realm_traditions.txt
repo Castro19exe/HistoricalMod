@@ -1,14 +1,15 @@
+#############################
+# REALM CULTURAL TRADITIONS #
+#############################
+
 tradition_imperial_might = {
 	category = realm
 
 	layers = {
-		0 = steward
-		1 = mena
+		0 = martial
+		1 = mediterranean
+        3 = 6.dss
 		4 = glaurel.dds
-	}
-
-	is_shown = {
-		sub_realm_size >= 30
 	}
 
 	can_pick = {
@@ -51,9 +52,10 @@ tradition_imperial_might = {
 			if = {
 				limit = {
 					NOR = {
-						culture_pillar:ethos_bellicose = { is_in_list = traits }
-						culture_pillar:ethos_egalitarian = { is_in_list = traits }
-						culture_pillar:ethos_courtly = { is_in_list = traits }
+						#culture_pillar:ethos_bellicose = { is_in_list = traits }
+						#culture_pillar:ethos_egalitarian = { is_in_list = traits }
+						#culture_pillar:ethos_courtly = { is_in_list = traits }
+                        culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
 				add = {
