@@ -1,14 +1,14 @@
-﻿tradition_roman_legacy = { #Overwritten to "Basic" Byz Soliders
+tradition_imperial_might = {
 	category = realm
 
 	layers = {
-		0 = martial
-		1 = mediterranean
-		4 = laurel.dds
+		0 = steward
+		1 = mena
+		4 = glaurel.dds
 	}
 
 	is_shown = {
-		has_cultural_pillar = heritage_byzantine
+		sub_realm_size >= 30
 	}
 
 	can_pick = {
@@ -30,27 +30,15 @@
 	}
 	
 	parameters = {
-		unlock_maa_cataphract = yes
-		unlock_maa_byzantine_skoutatoi = yes
-		unlock_maa_byzantine_menaulatoi = yes
-		unlock_maa_byzantine_toxotai = yes
-		unlock_maa_byzantine_akontistai = yes
-		unlock_maa_byzantine_hippotoxotai = yes
-		unlock_maa_byzantine_klibanophoroi = yes
-		unlock_maa_byzantine_trebuchet = yes
+
 	}
 	
 	province_modifier = {
+
 	}
 	
 	character_modifier = {
-		levy_size = -0.25
-		levy_reinforcement_rate = -0.25
-		vassal_levy_contribution_mult = -0.25
-		men_at_arms_recruitment_cost = -0.15
-		men_at_arms_maintenance = -0.15
 		men_at_arms_limit = 3
-		men_at_arms_cap = 2
 	}
 	
 	cost = {

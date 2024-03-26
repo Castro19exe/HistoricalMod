@@ -6,12 +6,14 @@
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_imperial_might
 		tradition_formation_fighting
+		#tradition_roman_legacy
 		tradition_legalistic
-		tradition_roman_legacy
 		tradition_poetry
-		tradition_hereditary_hierarchy
 		tradition_noble_adoption
+		tradition_hereditary_hierarchy
+		
 	}
 	
 	name_list = name_list_roman
