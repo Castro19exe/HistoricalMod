@@ -8,21 +8,10 @@ tradition_imperial_might = {
 	layers = {
 		0 = martial
 		1 = mediterranean
-        3 = 6.dss
 		4 = glaurel.dds
 	}
 
 	can_pick = {
-		NOR = { #Cant be taken by Cultures who favor massed troops or a variant
-			has_cultural_tradition = tradition_professional_army
-			has_cultural_tradition = tradition_strength_in_numbers
-			has_cultural_tradition = tradition_rashidun_army
-			has_cultural_tradition = tradition_mamluk_military
-			has_cultural_tradition = tradition_sasanian_army
-			has_cultural_tradition = tradition_outremer_armies
-			has_cultural_tradition = tradition_merc_armies
-		}
-		
 		NOT = { # Can not be picked by tribals
 			scope:character = {
 				has_government = tribal_government
@@ -39,7 +28,7 @@ tradition_imperial_might = {
 	}
 	
 	character_modifier = {
-		men_at_arms_limit = 3
+		#men_at_arms_limit = 3
 	}
 	
 	cost = {
