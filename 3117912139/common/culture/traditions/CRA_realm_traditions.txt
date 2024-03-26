@@ -30,14 +30,14 @@
 	}
 	
 	parameters = {
-		unlock_maa_cataphract = yes
-		unlock_maa_byzantine_skoutatoi = yes
-		unlock_maa_byzantine_menaulatoi = yes
-		unlock_maa_byzantine_toxotai = yes
-		unlock_maa_byzantine_akontistai = yes
-		unlock_maa_byzantine_hippotoxotai = yes
-		unlock_maa_byzantine_klibanophoroi = yes
-		unlock_maa_byzantine_trebuchet = yes
+		#unlock_maa_cataphract = yes
+		#unlock_maa_byzantine_skoutatoi = yes
+		#unlock_maa_byzantine_menaulatoi = yes
+		#unlock_maa_byzantine_toxotai = yes
+		#unlock_maa_byzantine_akontistai = yes
+		#unlock_maa_byzantine_hippotoxotai = yes
+		#unlock_maa_byzantine_klibanophoroi = yes
+		#unlock_maa_byzantine_trebuchet = yes
 	}
 	
 	province_modifier = {

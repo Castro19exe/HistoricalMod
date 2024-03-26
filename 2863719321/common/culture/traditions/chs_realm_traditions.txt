@@ -8,7 +8,7 @@ tradition_imperial_might = {
 	layers = {
 		0 = martial
 		1 = mediterranean
-		4 = glaurel.dds
+		4 = laurel.dds
 	}
 
 	can_pick = {
