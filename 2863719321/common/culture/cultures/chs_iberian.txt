@@ -11,9 +11,9 @@
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_imperial_might
+		tradition_hereditary_hierarchy
 		tradition_legalistic
 		tradition_metal_craftsmanship
-		tradition_hereditary_hierarchy
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending	
