@@ -7,8 +7,10 @@ tradition_imperial_might = {
 
 	layers = {
 		0 = martial
-		1 = mediterranean
-		4 = laurel.dds
+		1 = mena\mena1.dds
+		2 = rec5 copy 2.dds
+		3 = 6.dds
+		4 = glaurel.dds
 	}
 
 	can_pick = {
@@ -20,7 +22,12 @@ tradition_imperial_might = {
 	}
 	
 	parameters = {
-
+		levy_size = -1.00
+		levy_reinforcement_rate = -1.00
+		vassal_levy_contribution_mult = -1.00
+		men_at_arms_maintenance = -0.20
+		men_at_arms_limit = 5
+		men_at_arms_cap = 10
 	}
 	
 	province_modifier = {
@@ -41,9 +48,6 @@ tradition_imperial_might = {
 			if = {
 				limit = {
 					NOR = {
-						#culture_pillar:ethos_bellicose = { is_in_list = traits }
-						#culture_pillar:ethos_egalitarian = { is_in_list = traits }
-						#culture_pillar:ethos_courtly = { is_in_list = traits }
                         culture_pillar:ethos_stoic = { is_in_list = traits }
 					}
 				}
@@ -57,9 +61,6 @@ tradition_imperial_might = {
 					NOT = {
 						any_culture_county = {
 							count >= 50
-							any_county_province = {
-								geographical_region = custom_eastern_roman_empire
-							}
 						}
 					}
 				}
