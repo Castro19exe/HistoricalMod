@@ -35,6 +35,7 @@ north_gallo_roman = {
 	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_imperial_might
 		tradition_legalistic
 		tradition_poetry
 		tradition_hereditary_hierarchy
@@ -71,6 +72,7 @@ south_gallo_roman = {
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_imperial_might
 		tradition_legalistic
 		tradition_poetry
 		tradition_hereditary_hierarchy

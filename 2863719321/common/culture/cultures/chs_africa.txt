@@ -12,6 +12,7 @@
 	language = language_african_vulgar
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_imperial_might
 		tradition_legalistic
 		tradition_african_tolerance
 		tradition_family_entrepreneurship

@@ -9,5 +9,6 @@
  # Tradition effects
  culture_parameter_convert_culture_on_religion_change:0 "[characters|E] and [counties|E] will convert from this [culture|E] if they follow the incorrect [religion|E]"
  culture_parameter_require_correct_religion_to_convert:0 "[characters|E] and [counties|E] will only be able to convert to this [culture|E] if they follow the correct [religion|E]"
- 
+ culture_parameter_levy_size:0 "[levy|E] size #P -100%#!"
+
  ETHNORELIGIOUS_IDENTITY_MODIFIER:0 "[county|E] follows the incorrect [religion|E]"

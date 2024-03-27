@@ -47,6 +47,7 @@ daco_roman = {
 	language = language_wallachian
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_imperial_might
 		tradition_legalistic
 		tradition_poetry
 		tradition_hereditary_hierarchy
