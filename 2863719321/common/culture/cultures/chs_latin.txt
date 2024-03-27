@@ -31,9 +31,7 @@
 
 italian = {
 	color = italian
-
 	parents = { roman }
-
 	created = 650.1.1
 	
 	ethos = ethos_spiritual
@@ -41,8 +39,8 @@ italian = {
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
 		tradition_republican_legacy
+		tradition_formation_fighting
 		tradition_poetry
 	}
 	
@@ -127,11 +125,11 @@ sicilian = {
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_republican_legacy
 		tradition_xenophilic
-		tradition_swords_for_hire
 		tradition_ruling_caste
 		tradition_poetry
-		tradition_republican_legacy
+		tradition_swords_for_hire
 	}
 	
 	name_list = name_list_sicilian
@@ -158,10 +156,10 @@ lombard = { #Italo-Lombards
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
+		tradition_republican_legacy
 		tradition_martial_admiration
 		tradition_stand_and_fight
-		tradition_republican_legacy
+		tradition_isolationist
 	}
 	
 	name_list = name_list_lombard

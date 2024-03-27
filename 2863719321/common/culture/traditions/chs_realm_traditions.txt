@@ -22,12 +22,7 @@ tradition_imperial_might = {
 	}
 	
 	parameters = {
-		levy_size = -1.00
-		levy_reinforcement_rate = -1.00
-		vassal_levy_contribution_mult = -1.00
-		men_at_arms_maintenance = -0.20
-		men_at_arms_limit = 5
-		men_at_arms_cap = 10
+		
 	}
 	
 	province_modifier = {
@@ -35,7 +30,12 @@ tradition_imperial_might = {
 	}
 	
 	character_modifier = {
-		#men_at_arms_limit = 3
+		levy_size = -1.00
+		levy_reinforcement_rate = -1.00
+		vassal_levy_contribution_mult = -1.00
+		men_at_arms_maintenance = -0.20
+		men_at_arms_limit = 5
+		men_at_arms_cap = 10
 	}
 	
 	cost = {
