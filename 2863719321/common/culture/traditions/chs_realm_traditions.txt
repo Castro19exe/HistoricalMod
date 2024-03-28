@@ -26,7 +26,7 @@ tradition_imperial_might = {
 	}
 	
 	province_modifier = {
-
+		monthly_county_control_growth_add = 0.1
 	}
 	
 	character_modifier = {
@@ -48,25 +48,25 @@ tradition_imperial_might = {
 			if = {
 				limit = {
 					NOR = {
-                        culture_pillar:ethos_stoic = { is_in_list = traits }
+                        culture_pillar:ethos_bellicose = { is_in_list = traits }
 					}
 				}
 				add = {
 					value = tradition_incompatible_ethos_penalty
-					desc = not_bellicose_egalitarian_or_courtly_desc
+					desc = not_bellicose_desc
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
 						any_culture_county = {
-							count >= 50
+							count >= 120
 						}
 					}
 				}
 				add = {
 					value = tradition_unfulfilled_criteria_penalty
-					desc = culture_in_roman_empire_desc
+					desc = culture_in_many_counties_desc
 				}
 			}
 			
