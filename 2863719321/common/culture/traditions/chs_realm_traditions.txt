@@ -14,6 +14,11 @@ tradition_imperial_might = {
 	}
 
 	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_roman_legacy
+			has_cultural_tradition = tradition_stalwart_defenders
+		}
+
 		NOT = { # Can not be picked by tribals
 			scope:character = {
 				has_government = tribal_government
@@ -22,26 +27,40 @@ tradition_imperial_might = {
 	}
 	
 	parameters = {
+		can_use_conquest_cbs = yes
+		cheaper_cbs = yes
+	}
+
+	county_modifier = {
 		
 	}
 	
 	province_modifier = {
-		monthly_county_control_growth_add = 0.1
+		monthly_county_control_growth_add = 0.3
 	}
 	
 	character_modifier = {
 		levy_size = -1.00
 		levy_reinforcement_rate = -1.00
 		vassal_levy_contribution_mult = -1.00
-		men_at_arms_maintenance = -0.20
-		men_at_arms_limit = 5
-		men_at_arms_cap = 10
+		men_at_arms_recruitment_cost = -0.15
+		men_at_arms_maintenance = 0.20
+		men_at_arms_limit = 10
+		men_at_arms_cap = 20
+
+		levy_size = -0.25
+		levy_reinforcement_rate = -0.25
+		vassal_levy_contribution_mult = -0.25
+		men_at_arms_recruitment_cost = -0.15
+		men_at_arms_maintenance = -0.15
+		men_at_arms_limit = 3
+		men_at_arms_cap = 2
 	}
 	
 	cost = {
 		prestige = {
 			add = {
-				value = tradition_base_cost
+				value = 5000
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
@@ -60,7 +79,7 @@ tradition_imperial_might = {
 				limit = {
 					NOT = {
 						any_culture_county = {
-							count >= 120
+							count >= 90
 						}
 					}
 				}
