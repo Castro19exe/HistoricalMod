@@ -324,21 +324,7 @@ unite_the_germans_effect = {
 	#Prestige
 	add_prestige = massive_prestige_gain
 
-	#Create Roman Empire, shift dejure/history/laws, destroy e_hre.
-	hidden_effect = {
-		every_held_title = { #Should shift all dejure of all Empires owned at the time.
-			limit = {
-				tier = tier_empire
-			}
-			every_in_de_jure_hierarchy = {
-				limit = {
-					tier = tier_kingdom
-				}
-				set_de_jure_liege_title = title:e_pan_germany
-			}
-		}
-	}
-
+	#Create Pan-Germanic Empire and make it primary title
 	create_title_and_vassal_change = {
 		type = created
 		save_scope_as = change
@@ -356,10 +342,10 @@ unite_the_germans_effect = {
 		#copy_title_history = title:e_hre
 	}
 	resolve_title_and_vassal_change = scope:change
-
 	set_primary_title_to = title:e_pan_germany
 
-	every_held_title = { #Should destroy all other Empires owned at the time.
+	#Should destroy all other Empires owned at the time.
+	every_held_title = { 
 		limit = {
 			tier = tier_empire
 			NOT = { this = title:e_pan_germany }
@@ -368,41 +354,103 @@ unite_the_germans_effect = {
 	}
 
 	hidden_effect = {
-		title:e_roman_empire = {
-			set_coa = e_hre_roman
-			set_color_from_title = title:e_hre
-		}
-	}
+		# Germany
+		title:k_east_francia = { set_de_jure_liege_title = title:d_nordmark }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_ostmark }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_lausitz }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_meissen }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_lower_lorraine }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_upper_lorraine }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_julich }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_brabant }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_luxembourg }
+		title:k_east_francia = { set_de_jure_liege_title = title:d_bar }
 
-	if = { #Automatically move capital to Rome.
-		limit = {
-			NOT = { capital_county = { this = title:c_roma } }
-			exists = title:e_roman_empire.holder
-		}
-		hidden_effect = {
-			if = { #Usurp if not held personally.
+		# Bohemia
+		title:k_bohemia = { set_de_jure_liege_title = title:d_bohemia }
+		title:k_bohemia = { set_de_jure_liege_title = title:d_moravia }
+
+		# Prussia
+		title:k_prussia = { set_de_jure_liege_title = title:d_prussia }
+		title:k_prussia = { set_de_jure_liege_title = title:d_masuria }
+		title:k_prussia = { set_de_jure_liege_title = title:d_pomerelia }
+		title:k_prussia = { set_de_jure_liege_title = title:d_pomerania }
+		title:k_prussia = { set_de_jure_liege_title = title:d_wielkopolska }
+		title:k_prussia = { set_de_jure_liege_title = title:d_lower_silesia }
+		title:k_prussia = { set_de_jure_liege_title = title:d_upper_silesia }
+
+		every_sub_realm_county = {
+			limit = {
+				exists = kingdom
+				NOT = { exists = kingdom.holder }
+				holder.top_liege = root
+				kingdom = {
+					save_temporary_scope_as = test_kingdom
+				}
+				holder.top_liege = {
+					completely_controls = scope:test_kingdom
+				}
+			}
+			if = {
 				limit = {
-					NOT = { title:c_roma.holder = { this = root } }
-				}
-				create_title_and_vassal_change = {
-					type = returned
-					save_scope_as = change
-					add_claim_on_loss = no
-				}
-				title:c_roma = {
-					change_title_holder = {
-						holder = root
-						change = scope:change
+					NOT = {
+						kingdom = {
+							is_in_list = additional_de_jure_kingdoms
+						}
 					}
 				}
-				resolve_title_and_vassal_change = scope:change
+				kingdom = {
+					set_de_jure_liege_title = title:e_pan_germany
+					add_to_list = additional_de_jure_kingdoms
+				}
 			}
 		}
-		title:e_roman_empire.holder = { set_realm_capital = title:c_roma }
 	}
 
-	hidden_effect = {
-		create_story = restoring_roman_provinces_story
-		add_character_flag = flag_restorer_of_rome #used for Eulogy.
-	}
+	#if = { #Automatically move capital to Rome.
+	#	limit = {
+	#		NOT = { capital_county = { this = title:c_roma } }
+	#		exists = title:e_roman_empire.holder
+	#	}
+	#	hidden_effect = {
+	#		if = { #Usurp if not held personally.
+	#			limit = {
+	#				NOT = { title:c_roma.holder = { this = root } }
+	#			}
+	#			create_title_and_vassal_change = {
+	#				type = returned
+	#				save_scope_as = change
+	#				add_claim_on_loss = no
+	#			}
+	#			title:c_roma = {
+	#				change_title_holder = {
+	#					holder = root
+	#					change = scope:change
+	#				}
+	#			}
+	#			resolve_title_and_vassal_change = scope:change
+	#		}
+	#	}
+	#	title:e_roman_empire.holder = { set_realm_capital = title:c_roma }
+	#}
+
+	#Create Roman Empire, shift dejure/history/laws, destroy e_hre.
+	#hidden_effect = {
+	#	every_held_title = { #Should shift all dejure of all Empires owned at the time.
+	#		limit = {
+	#			tier = tier_empire
+	#		}
+	#		every_in_de_jure_hierarchy = {
+	#			limit = {
+	#				tier = tier_kingdom
+	#			}
+	#			set_de_jure_liege_title = title:e_pan_germany
+	#		}
+	#	}
+	#}
+
+	#hidden_effect = {
+	#	create_story = restoring_roman_provinces_story
+	#	add_character_flag = flag_restorer_of_rome #used for Eulogy.
+	#}
 }

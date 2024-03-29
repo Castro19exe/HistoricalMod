@@ -142,7 +142,7 @@ english = {
 	coa_gfx = { english_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { english_coa_gfx }
+	unit_gfx = { english_unit_gfx }
 	
 	ethnicities = {
 		25 = caucasian_blond
