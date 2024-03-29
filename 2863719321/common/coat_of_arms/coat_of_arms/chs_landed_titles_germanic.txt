@@ -1,6 +1,5 @@
 k_prussia = {
-	custom=yes
-	pattern="pattern__solid_designer.dds"
+	pattern="pattern_solid.dds"
 	color1=white
 	color2=black
 	color3=blue
@@ -9,6 +8,10 @@ k_prussia = {
 		color2=yellow
 		color3=white
 		texture="ce_eagle_crown_boned.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
 	}
 }
 
