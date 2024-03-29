@@ -81,27 +81,6 @@ english_army_03 = {
 	entity = unit_english_infantry_03_entity
 }
 
-# French
-french_army_01 = {
-	type = army
-	graphical_cultures = { french_unit_gfx }
-	entity = unit_french_infantry_01_entity
-}
-
-french_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { french_unit_gfx }
-	entity = unit_french_infantry_02_entity
-}
-
-french_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { french_unit_gfx }
-	entity = unit_french_infantry_03_entity
-}
-
 # MENA Middle East, North Africa
 mena_army_01 = {
 	type = army
