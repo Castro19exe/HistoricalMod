@@ -316,6 +316,12 @@ d_ghulat = {
 	capital = c_kufa
 }
 
+k_prussia = {
+	color = { 29 74 116 }
+
+	capital = c_konigsberg
+}
+
 e_illyria = {
 	color = { 153 204 255 }
 
