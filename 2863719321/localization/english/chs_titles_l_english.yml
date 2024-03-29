@@ -24271,6 +24271,9 @@
  k_toledo:0 "Toledo"
  k_toledo_adj:0 "Toledan"
 
+ k_prussia:0 "Prussia"
+ k_prussia_adj:0 "Prussian"
+
  d_nizari: "Nizari Imamate"
  d_nizari_adj: "Nizari"
  d_zayidi: "Zayidi Imamate"

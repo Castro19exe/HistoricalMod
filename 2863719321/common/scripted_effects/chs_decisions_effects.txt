@@ -362,7 +362,6 @@ unite_the_germans_effect = {
 		#copy_title_history = title:e_hre
 	}
 	resolve_title_and_vassal_change = scope:change
-	set_primary_title_to = title:k_prussia
 
 	#Should destroy all other Empires owned at the time.
 	every_held_title = { 
@@ -406,7 +405,7 @@ unite_the_germans_effect = {
 		title:d_prussia = { set_de_jure_liege_title = title:k_prussia }
 		title:d_masuria = { set_de_jure_liege_title = title:k_prussia }
 		title:d_pomerelia = { set_de_jure_liege_title = title:k_prussia }
-		title:d_pomerania = { set_de_jure_liege_title = title:k_prussia }
+		title:d_pommerania = { set_de_jure_liege_title = title:k_prussia }
 		title:d_wielkopolska = { set_de_jure_liege_title = title:k_prussia }
 		title:d_lower_silesia = { set_de_jure_liege_title = title:k_prussia }
 		title:d_upper_silesia = { set_de_jure_liege_title = title:k_prussia }

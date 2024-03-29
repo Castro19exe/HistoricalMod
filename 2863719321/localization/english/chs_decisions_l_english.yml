@@ -453,6 +453,10 @@
  unite_the_germans_decision_desc:0 "In order to consolidate our strength and ensure the prosperity of our people, it's time to be united under a single banner. By setting aside our differences and forging a common purpose, we can establish a stable and powerful realm that will safeguard our interests and secure our future."
  unite_the_germans_decision_tooltip:0 "Unite the lands that Rome never conquered"
 
+ chs_major_decisions.0005.t:0 "The Pan-Germania"
+ chs_major_decisions.0005.desc:0 ""
+ chs_major_decisions.0005.a:0 ""
+
  #Should not be here
  custom_roman_magna_germania:0 "Magna Germania"
  custom_pan_germania:0 "Germanic Lands"
