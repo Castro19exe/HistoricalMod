@@ -6705,7 +6705,6 @@ e_germany = {
 				color = { 75 110 105 }
 
 				cultural_names = {
-					name_list_croatian = "Pula"
 					name_list_carantanian = "Pulj"
 
 					name_list_italian = "Pola"
@@ -6732,7 +6731,6 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_croatian = "Pula"
 						name_list_carantanian = "Pulj"
 
 						name_list_italian = "Pola"
@@ -6759,9 +6757,6 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_carantanian = "Piran"
-						name_list_croatian = "Piran"
-						
 						name_list_italian = "Pirano"
 						name_list_lombard = "Pirano"
 						name_list_cisalpine = "Pirano"
@@ -6778,8 +6773,6 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_croatian = "Pazin"
-
 						name_list_italian = "Pisino"
 						name_list_lombard = "Pisino"
 						name_list_cisalpine = "Pisino"
@@ -6802,8 +6795,6 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_croatian = "Labin"
-
 						name_list_italian = "Albona"
 						name_list_lombard = "Albona"
 						name_list_cisalpine = "Albona"
@@ -6811,7 +6802,7 @@ e_germany = {
 						name_list_sardinian = "Albona"
 						name_list_dalmatian = "Albona"
 
-						name_list_roman = "Pucinium"
+						name_list_roman = "Albona"
 					}
 				}
 			}
