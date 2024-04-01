@@ -396,6 +396,7 @@ unite_the_germans_effect = {
 		title:d_brabant = { set_de_jure_liege_title = title:k_east_francia }
 		title:d_luxembourg = { set_de_jure_liege_title = title:k_east_francia }
 		title:d_bar = { set_de_jure_liege_title = title:k_east_francia }
+		title:d_transjurania = { set_de_jure_liege_title = title:k_east_francia }
 
 		# Bohemia
 		title:d_bohemia = { set_de_jure_liege_title = title:k_bohemia }

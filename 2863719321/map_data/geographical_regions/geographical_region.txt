@@ -1384,7 +1384,7 @@ custom_roman_magna_germania = {
 		#Frisia
 		d_holland d_frisia d_utrecht d_gelre
 		#Germany
-		d_holstein d_ostfalen d_angria d_westfalen d_anhalt d_thuringia d_hesse d_lower_lorraine d_julich d_west_franconia d_east_franconia d_swabia d_meissen d_lausitz
+		d_holstein d_ostfalen d_angria d_westfalen d_anhalt d_thuringia d_hesse d_lower_lorraine d_julich d_west_franconia d_east_franconia d_swabia d_meissen d_lausitz d_transjurania
 		#Bavaria
 		d_nordgau
 		#Pomerania
