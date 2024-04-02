@@ -6621,6 +6621,10 @@ e_germany = {
 					province = 3102
 
 					color = { 95 120 100 }
+
+					cultural_names = {
+						name_list_carantanian = "Celje"
+					}
 				}
 				b_kamnik = {
 					province = 3101
@@ -6666,6 +6670,8 @@ e_germany = {
 						name_list_bavarian = "Laibach"
 						name_list_saxon = "Laibach"
 						name_list_thuringian = "Laibach"
+
+						name_list_roman = "Labacum"
 					}
 				}
 				b_dobovec = {
@@ -6674,7 +6680,7 @@ e_germany = {
 					color = { 90 125 115 }
 
 					cultural_names = {
-						name_list_carantanian = "Krško"
+						name_list_carantanian = "Dobovec"
 					}
 				}
 				b_rudolfswerde = {
@@ -46608,16 +46614,46 @@ e_spain = {
 					province = 1754
 
 					color = { 156 212 68 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_ishbuna
+						name_list_baranis = cn_al_ishbuna
+						name_list_butr = cn_al_ishbuna
+						name_list_zaghawa = cn_al_ishbuna
+						name_list_levantine = cn_al_ishbuna
+						name_list_egyptian = cn_al_ishbuna
+						name_list_maghrebi = cn_al_ishbuna
+						name_list_andalusian = cn_al_ishbuna
+						name_list_yemeni = cn_al_ishbuna
+					}
 				}
 				b_santarem = {
 					province = 1755
 
 					color = { 156 212 68 }
+
+					cultural_names = {
+						name_list_bedouin = "Shantarin"
+						name_list_baranis = "Shantarin"
+						name_list_butr = "Shantarin"
+						name_list_zaghawa = "Shantarin"
+						name_list_levantine = "Shantarin"
+						name_list_egyptian = "Shantarin"
+						name_list_maghrebi = "Shantarin"
+						name_list_andalusian = "Shantarin"
+						name_list_yemeni = "Shantarin"
+
+						name_list_roman = "Scalabis"
+					}
 				}
 				b_setubal = {
 					province = 1753
 
 					color = { 156 212 68 }
+					
+					cultural_names = {
+						name_list_roman = "Cetobriga"
+					}
 				}
 			}
 			c_beja = {
@@ -46645,6 +46681,18 @@ e_spain = {
 					province = 1751
 
 					color = { 155 245 70 }
+
+					cultural_names = {
+						name_list_bedouin = cn_yaburah
+						name_list_baranis = cn_yaburah
+						name_list_butr = cn_yaburah
+						name_list_zaghawa = cn_yaburah
+						name_list_levantine = cn_yaburah
+						name_list_egyptian = cn_yaburah
+						name_list_maghrebi = cn_yaburah
+						name_list_andalusian = cn_yaburah
+						name_list_yemeni = cn_yaburah
+					}
 				}
 			}
 			c_alcacer_do_sal = {
