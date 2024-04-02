@@ -16,14 +16,14 @@
 	name_list = name_list_visigothic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { germanic_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
@@ -43,14 +43,14 @@ gothic = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { germanic_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
@@ -76,14 +76,14 @@ ostrogothic = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { germanic_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
@@ -114,9 +114,9 @@ crimean_gothic = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
@@ -137,14 +137,14 @@ vandalic = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { germanic_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
@@ -165,14 +165,14 @@ burgundian = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { germanic_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		25 = caucasian_blond
+		35 = caucasian_blond
 		15 = caucasian_ginger
-		35 = caucasian_brown_hair
+		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 	}
 }
