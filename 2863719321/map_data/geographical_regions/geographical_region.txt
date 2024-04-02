@@ -1509,6 +1509,12 @@ custom_greater_armenia = {
 	}
 }
 
+custom_west_china = {
+	duchies = {
+		d_xia d_wuluhai d_liangzhou d_ganzhou d_qilin d_yijinai d_guiyi
+	}
+}
+
 custom_normandy_and_adjacent = {
 	duchies = {
 		d_normandy d_brittany d_flanders d_anjou d_orleans d_valois

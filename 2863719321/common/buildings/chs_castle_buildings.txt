@@ -4,7 +4,8 @@
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_castle_norse.dds"
 @holding_illustration_iberian= "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
-@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds" 
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds"
+@holding_illustration_china = "gfx/interface/illustrations/holding_types/castle_china.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
@@ -155,7 +156,7 @@ castle_01 = {
 		name = "building_chinese_castle_01_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -505,7 +506,7 @@ castle_02 = {
 		name = "building_chinese_castle_02_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -855,7 +856,7 @@ castle_03 = {
 		name = "building_chinese_castle_03_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -1196,7 +1197,7 @@ castle_04 = {
 		name = "building_chinese_castle_04_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
