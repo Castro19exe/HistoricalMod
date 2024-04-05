@@ -4,7 +4,7 @@
  tradition_ethnoreligious_identity_desc:1 "For people of this culture, faith and ethnic identity are one and the same."
 
  tradition_imperial_might_name:0 "Imperial Might"
- tradition_imperial_might_desc:1 "This culture believes in power and strength above all else. Raised with values of discipline and ambition, they are firm believers in the doctrine that a formidable army must consist of seasoned professionals, with an unwavering commitment to shaping the destinies of nations."
+ tradition_imperial_might_desc:1 "This culture prioritizes power and strength as fundamental values. Raised with a strong sense of discipline and ambition, they believe in conquest and expanding their influence, dedicated to shaping the destinies of nations."
 
  # Tradition effects
  culture_parameter_convert_culture_on_religion_change:0 "[characters|E] and [counties|E] will convert from this [culture|E] if they follow the incorrect [religion|E]"
