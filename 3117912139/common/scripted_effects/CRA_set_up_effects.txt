@@ -33,6 +33,9 @@
 	culture:crimean_gothic = {
 		add_innovation = innovation_themata_system
 	}
+	culture:crimean_gothic = {
+		add_innovation = innovation_crimean_goths_army
+	}
 	culture:armenian = {
 		add_innovation = innovation_themata_system
 	}
@@ -452,6 +455,12 @@
 	culture:jurchen = { 
 		add_innovation = innovation_mong_army
 	}
+
+	##East Asian
+	###############################################
+	culture:burmese = { 
+		add_innovation = innovation_burmese_army
+	}
 	
 	##Arabia
 	###############################################
@@ -573,6 +582,9 @@ CRA_setup_pronoia = {
 	###############################################
 	culture:greek = { 	
 		add_innovation = innovation_pronoia_system
+	}
+	culture:crimean_gothic = {
+		add_innovation = innovation_crimean_goths_hev_army
 	}
 
 	##Iberia
