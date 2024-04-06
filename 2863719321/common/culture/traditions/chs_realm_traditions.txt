@@ -45,8 +45,8 @@ tradition_imperial_might = {
 		vassal_levy_contribution_mult = -1.00
 		#men_at_arms_recruitment_cost = -0.15
 		men_at_arms_maintenance = 0.20
-		men_at_arms_limit = 10
-		men_at_arms_cap = 20
+		men_at_arms_limit = 20
+		men_at_arms_cap = 10
 	}
 	
 	cost = {
