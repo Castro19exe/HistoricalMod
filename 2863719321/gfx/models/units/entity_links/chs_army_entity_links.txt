@@ -81,7 +81,7 @@ english_army_03 = {
 	entity = unit_english_infantry_03_entity
 }
 
-# MENA Middle East, North Africa
+# MENA Middle East
 mena_army_01 = {
 	type = army
 	graphical_cultures = { mena_unit_gfx }
@@ -100,6 +100,27 @@ mena_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { mena_unit_gfx }
 	entity = unit_mena_infantry_03_entity
+}
+
+# Roman
+roman_army_01 = {
+	type = army
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_byzantine_infantry_03_entity
+}
+
+roman_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_byzantine_infantry_03_entity
+}
+
+roman_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { roman_unit_gfx }
+	entity = unit_byzantine_infantry_03_entity
 }
 
 # Eastern

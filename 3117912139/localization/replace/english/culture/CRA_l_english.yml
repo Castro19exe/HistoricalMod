@@ -716,6 +716,14 @@
  berber_horse:0 "Ivewdiwen" #LC
  berber_horse_flavor:0 "#F Berber men wear a distinctive blue or indigo veil that covers most of their face. These hardy horsemen are well used to riding horses and make excellent desert cavalry.#!"
  ##Crimean Gothic
+ crimean_goth_sturmjandi:0 "Sturmjandi"
+ crimean_goth_sturmjandi_flavor:0 "#F .#!"
+ crimean_goth_bogagudans:0 "Bogagudans"
+ crimean_goth_bogagudans_flavor:0 "#F .#!"
+ crimean_goth_guthiuda:0 "guÞiuda"
+ crimean_goth_guthiuda_flavor:0 "#F .#!"
+ crimean_goth_leihte_horsgina:0 "Leihte Horsgina"
+ crimean_goth_leihte_horsgina_flavor:0 "#F .#!"
  crimean_goth_thiudanai_horsgina:0 "Þiudanai Horsgina"
  crimean_goth_thiudanai_horsgina_flavor:0 "#F .#!"
 

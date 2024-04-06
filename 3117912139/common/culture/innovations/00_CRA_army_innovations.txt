@@ -24,7 +24,6 @@
 @pronoia_innovation_system = "gfx/interface/icons/culture_innovations/innovation_pronoia_system.dds"
 @varangian_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_varangian_guard.dds"
 
-
 innovation_roman_legacy = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
@@ -34,12 +33,6 @@ innovation_roman_legacy = {
 		OR = {
 			this = culture:greek
 			this = culture:copt
-			this = culture:roman
-			this = culture:hispano_roman
-			this = culture:daco_roman
-			this = culture:afro_roman
-			this = culture:north_gallo_roman
-			this = culture:south_gallo_roman
 		}
 	}
 
@@ -1270,7 +1263,7 @@ innovation_burmese_army = {
 	potential = {
 		OR = {
 			this = culture:burmese
-			#this = culture:mon
+			this = culture:mon
 		}
 	}
 
