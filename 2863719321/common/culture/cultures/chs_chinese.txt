@@ -43,7 +43,7 @@ pedran = {
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { mesoamerican_building_gfx }Ç
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	
