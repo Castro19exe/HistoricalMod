@@ -23,6 +23,9 @@
  innovation_crimean_goths_hev_army:0 "Þiudanai Horsgina"
  innovation_crimean_goths_hev_army_desc:0 "Centuries being in contact with the Byzantines, started to hellenized us. The Þiudanai Horsgina are a perfect exemple of that, inspired by the legendary Scholarii"
 
+ innovation_burmese_army:0 "Burmese Army"
+ innovation_burmese_army_desc:0 ""
+
  innovation_varangian_guard:0 "Varangian Guard" #!!!!Early Medieval Era!!!!
  innovation_varangian_guard_desc:0 "The Varangian Guard was an elite group of warriors who served as the personal bodyguards of the Byzantine Emperors from the 10th to the 14th century. These warriors were initially made up of Scandinavians and Rus, but later included Anglo-Saxons, Slavs, and other Europeans. They were highly respected for their martial prowess, discipline, and fierce loyalty to the Emperor. They participated in many military campaigns and played a critical role in defending the Byzantine Empire and Constantinople from attacks by foreign invaders, including the Bulgars, Rus, and Normans. Over time, the Varangian Guard became more integrated into Byzantine society and culture, and some members even rose to high positions of power and influence."
  varangoi_troops:0 "Can recruit [varrangoi|E] as [men_at_arms|E] if you are the Emperor."
