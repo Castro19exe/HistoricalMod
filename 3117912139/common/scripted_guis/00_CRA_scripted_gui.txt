@@ -3,7 +3,6 @@
 
 	is_valid = {
 		OR = {
-			has_innovation = innovation_themata_system
 			has_innovation = innovation_turk_army
 			has_innovation = innovation_mong_army
 			has_innovation = innovation_Rus_army
@@ -35,6 +34,7 @@
 			has_innovation = innovation_burmese_army
 			has_innovation = innovation_portuguese_army
 			has_innovation = innovation_cavalleiros
+			has_innovation = innovation_themata_system
 		}		
 	}
 

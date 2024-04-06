@@ -95,12 +95,14 @@ innovation_legionnaires = {
 	icon = @special_maa_02
 
 	potential = {
-		this = culture:roman
-		this = culture:hispano_roman
-		this = culture:north_gallo_roman
-		this = culture:south_gallo_roman
-		this = culture:afro_roman
-		this = culture:daco_roman
+		OR = {
+			this = culture:roman
+			this = culture:hispano_roman
+			this = culture:north_gallo_roman
+			this = culture:south_gallo_roman
+			this = culture:afro_roman
+			this = culture:daco_roman
+		}	
 	}
 
 	unlock_maa = praetorian
