@@ -234,7 +234,7 @@ temple_01 = {
 		name = "pagoda_01_mesh"
 		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -717,7 +717,7 @@ temple_02 = {
 		name = "pagoda_02_mesh"
 		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -1082,7 +1082,7 @@ temple_03 = {
 		name = "pagoda_03_mesh"
 		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
@@ -1437,7 +1437,7 @@ temple_04 = {
 		name = "pagoda_03_mesh"
 		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_china }
+		graphical_regions = { custom_west_china }
 	}
 	asset = {
 		type = pdxmesh
