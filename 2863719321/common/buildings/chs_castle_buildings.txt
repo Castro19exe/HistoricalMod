@@ -167,6 +167,15 @@ castle_01 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	#MESOAMERICAN
+	asset = {
+		type = pdxmesh
+		name = "building_cemanahuac_castle_01_mesh"
+		illustration = @holding_illustration_india
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { mesoamerican_building_gfx }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
