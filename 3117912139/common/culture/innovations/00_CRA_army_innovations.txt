@@ -1235,7 +1235,6 @@ innovation_berber_army = {
 innovation_crimean_goths_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	region = world_europe_east
 	icon = @west_slav_innovation_army
 
 	potential = {
@@ -1251,29 +1250,27 @@ innovation_crimean_goths_army = {
 innovation_crimean_goths_hev_army = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
-	region = world_africa_north_east
-	icon = @arab_innovation_army
+	icon = @byz_innovation_army
 
 	potential = {
 		this = culture:crimean_gothic
 	}
 
-
 	unlock_maa = crimean_goth_thiudanai_horsgina
 
 	flag = global_regional
-	flag = egypt_hev_army
+	flag = crimean_goths_hev_army
 }
 
 innovation_burmese_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	region = world_europe_east
 	icon = @west_slav_innovation_army
 
 	potential = {
 		OR = {
 			this = culture:burmese
+			#this = culture:mon
 		}
 	}
 

@@ -91,11 +91,16 @@ innovation_pike_columns = {
 
 innovation_legionnaires = {
 	group = culture_group_regional
-	culture_era = culture_era_late_medieval
+	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
 		this = culture:roman
+		this = culture:hispano_roman
+		this = culture:north_gallo_roman
+		this = culture:south_gallo_roman
+		this = culture:afro_roman
+		this = culture:daco_roman
 	}
 
 	unlock_maa = praetorian
