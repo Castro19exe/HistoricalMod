@@ -167,7 +167,7 @@ castle_01 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	#MESOAMERICAN
+	### MESOAMERICAN ###
 	asset = {
 		type = pdxmesh
 		name = "building_cemanahuac_castle_01_mesh"
