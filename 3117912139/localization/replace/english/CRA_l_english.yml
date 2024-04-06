@@ -715,7 +715,9 @@
  berber_rider_flavor:0 "#F Berbers are hardy but unruly troops. Lightly equipped but well suited to desert fighting, these warriors annoy enemies with their arrows, while letting the heat of the desert sap the strength of those that pursue them.#!"
  berber_horse:0 "Ivewdiwen" #LC
  berber_horse_flavor:0 "#F Berber men wear a distinctive blue or indigo veil that covers most of their face. These hardy horsemen are well used to riding horses and make excellent desert cavalry.#!"
- 
+ ##Crimean Gothic
+ crimean_goth_thiudanai_horsgina:0 "Þiudanai Horsgina"
+ crimean_goth_thiudanai_horsgina_flavor:0 "#F .#!"
 
 
  # Decisions

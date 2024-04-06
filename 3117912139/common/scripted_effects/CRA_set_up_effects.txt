@@ -3,12 +3,6 @@
 	#Europe
 	##Roman
 	###############################################
-	culture:roman = { 	
-		add_innovation = innovation_roman_legacy
-	}
-	culture:roman = { 	
-		add_innovation = innovation_themata_system
-	}
 	
 	##Hellenic
 	###############################################
@@ -31,10 +25,10 @@
 		add_innovation = innovation_themata_system
 	}
 	culture:crimean_gothic = {
-		add_innovation = innovation_themata_system
+		add_innovation = innovation_crimean_goths_army
 	}
 	culture:crimean_gothic = {
-		add_innovation = innovation_crimean_goths_army
+		add_innovation = innovation_themata_system
 	}
 	culture:armenian = {
 		add_innovation = innovation_themata_system
