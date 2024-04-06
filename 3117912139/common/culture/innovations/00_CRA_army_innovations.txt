@@ -58,10 +58,7 @@ innovation_themata_system = {
 			OR = {
 				this = culture:greek
 				this = culture:copt
-				this = culture:assyrian
 				this = culture:arberian
-				this = culture:crimean_gothic
-				this = culture:armenian
 			}
 		}	
 	}
