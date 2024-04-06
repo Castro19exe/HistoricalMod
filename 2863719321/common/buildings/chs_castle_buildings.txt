@@ -151,20 +151,19 @@ castle_01 = {
 	}
 
     ### CHINA ###
-    asset = {
+	asset = {
 		type = pdxmesh
 		name = "building_chinese_castle_01_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { custom_west_china }
 	}
-    asset = {
+	asset = {
 		type = pdxmesh
 		name = "building_chinese_castle_01_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	### MESOAMERICAN ###
@@ -516,6 +515,13 @@ castle_02 = {
 		name = "building_chinese_castle_02_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_regions = { custom_west_china }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_chinese_castle_02_mesh"
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
 	}
 
@@ -859,6 +865,13 @@ castle_03 = {
 		name = "building_chinese_castle_03_mesh"
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_regions = { custom_west_china }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_chinese_castle_03_mesh"
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { chinese_building_gfx }
 	}
 
@@ -1188,6 +1201,13 @@ castle_04 = {
 	}
 
     ### CHINA ###
+	asset = {
+		type = pdxmesh
+		name = "building_chinese_castle_04_mesh"
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { custom_west_china }
+	}
 	asset = {
 		type = pdxmesh
 		name = "building_chinese_castle_04_mesh"
