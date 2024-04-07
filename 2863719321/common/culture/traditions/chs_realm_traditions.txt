@@ -40,9 +40,9 @@ tradition_imperial_might = {
 	}
 	
 	character_modifier = {
-		levy_size = -1.00
-		levy_reinforcement_rate = -1.00
-		vassal_levy_contribution_mult = -1.00
+		levy_size = -2.00
+		levy_reinforcement_rate = -2.00
+		vassal_levy_contribution_mult = -2.00
 		#men_at_arms_recruitment_cost = -0.15
 		men_at_arms_maintenance = 0.20
 		men_at_arms_limit = 20
@@ -76,7 +76,8 @@ tradition_imperial_might = {
 					}
 				}
 				add = {
-					value = tradition_unfulfilled_criteria_penalty
+					#value = tradition_unfulfilled_criteria_penalty
+					value = 5000
 					desc = culture_in_many_counties_desc
 				}
 			}
