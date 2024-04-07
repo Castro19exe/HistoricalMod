@@ -107,6 +107,10 @@ innovation_quilted_armor = {
 		type = heavy_infantry
 		toughness = 3
 	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -264,7 +268,7 @@ innovation_elephantry = {
 	unlock_maa = war_elephant
 	unlock_building = elephant_pens_01
 
-	custom = eligible_accolade_elephantry_attribute
+	#custom = eligible_accolade_elephantry_attribute
 
 	flag = global_regional
 	flag = tribal_era_regional
@@ -279,7 +283,7 @@ innovation_war_camels = {
 	unlock_maa = camel_rider
 	unlock_building = camel_farms_01
 
-	custom = eligible_accolade_camelry_attribute
+	#custom = eligible_accolade_camelry_attribute
 
 	flag = global_regional
 	flag = tribal_era_regional
