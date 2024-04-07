@@ -3,6 +3,24 @@
 	#Europe
 	##Roman
 	###############################################
+	culture:roman = { 	
+		add_innovation = innovation_legionnaires
+	}
+	culture:hispano_roman = { 	
+		add_innovation = innovation_legionnaires
+	}
+	culture:north_gallo_roman = { 	
+		add_innovation = innovation_legionnaires
+	}
+	culture:south_gallo_roman = { 	
+		add_innovation = innovation_legionnaires
+	}
+	culture:afro_roman = { 	
+		add_innovation = innovation_legionnaires
+	}
+	culture:daco_roman = { 	
+		add_innovation = innovation_legionnaires
+	}
 	
 	##Hellenic
 	###############################################
