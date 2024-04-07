@@ -33,6 +33,7 @@
 			has_innovation = innovation_berber_army
 			has_innovation = innovation_crimean_goths_army
 			has_innovation = innovation_burmese_army
+			has_innovation = innovation_chinese_army
 			has_innovation = innovation_portuguese_army
 			has_innovation = innovation_cavalleiros
 			has_innovation = innovation_legionnaires
