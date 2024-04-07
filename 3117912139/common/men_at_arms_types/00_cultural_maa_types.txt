@@ -31,24 +31,10 @@ huscarl = {
 					OR = {
 				        this = culture:anglo_saxon
 				        this = culture:anglo_norse
-			            this = culture:east_saxon
-			            this = culture:west_saxon
-			            this = culture:mercian
-			            this = culture:hwiccians
-			            this = culture:northumbrian
-			            this = culture:kentish
-			            this = culture:east_anglian
 						any_parent_culture_or_above = {
 						    OR = {
 							    this = culture:anglo_saxon
 							    this = culture:anglo_norse
-			                    this = culture:east_saxon
-			                    this = culture:west_saxon
-			                    this = culture:mercian
-			                    this = culture:hwiccians
-			                    this = culture:northumbrian
-			                    this = culture:kentish
-			                    this = culture:east_anglian
 						    }
 					    }
 					}	
@@ -305,7 +291,7 @@ praetorian = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = palatini
+	icon = byz_droungo
 }
 
 caballero = {
