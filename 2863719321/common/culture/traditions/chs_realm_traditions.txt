@@ -40,12 +40,12 @@ tradition_imperial_might = {
 	}
 	
 	character_modifier = {
+		men_at_arms_limit = 20
 		levy_size = -2.00
-		levy_reinforcement_rate = -2.00
+		#levy_reinforcement_rate = -2.00
 		vassal_levy_contribution_mult = -2.00
 		#men_at_arms_recruitment_cost = -0.15
 		men_at_arms_maintenance = 0.20
-		men_at_arms_limit = 20
 		men_at_arms_cap = 10
 	}
 	
