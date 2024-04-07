@@ -1,0 +1,12 @@
+﻿l_english:
+ culture_era_tribal:0 "Late Antiquity"
+ culture_era_tribal_desc:0 "Late Antiquity is a period of transition from Classical Antiquity to the Middle Ages. Many [cultures|E] and states throughout the Old World are undergoing great, dynamic social and political changes. Rulers with [tribal_government|E] can only make use of Late Antiquity [innovations|E]."
+
+ unlock_tribal_economic_buildings:0 "Unlocks all $culture_era_tribal$ Era [economic_buildings|E]"
+ unlock_tribal_military_buildings:0 "Unlocks all $culture_era_tribal$ Era [military_buildings|E]"
+ unlock_tribal_fortification_buildings:0 "Unlocks all $culture_era_tribal$ Era [fortification_buildings|E]"
+
+ has_all_tribal_innovations:1 "Has #V 70%#! of all Military & Civic $culture_era_tribal$ Era [innovations|E]"
+
+ game_concept_era_desc:1 "[innovations|E] can only be discovered if the [culture|E] has reached the requisite Era. The next Era can only start past a certain year, and if at least #V 50%#! of the Innovations of the previous Era have been discovered.\n\nRulers with [tribal_government|E] can only make use of $culture_era_tribal$ Era Innovations."
+ game_concept_tribal_desc:0 "Tribal realms have stunted county [development|E], cannot advance past $culture_era_tribal$ Era [innovations|E], cannot construct new [holdings|E], and are usually unable to change their [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to [feudal|E] Realms. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."
