@@ -20,6 +20,7 @@
 @iberia_innovation_army = "gfx/interface/icons/culture_innovations/innovation_vlach_army.dds"
 @arab_innovation_army = "gfx/interface/icons/culture_innovations/innovation_arab_army.dds"
 @spain_hev_innovation_army = "gfx/interface/icons/culture_innovations/innovation_spain_hev_army.dds"
+@chinese_innovation_army = "gfx/interface/icons/culture_innovations/innovation_chinese_army.dds"
 @themata_innovation_system = "gfx/interface/icons/culture_innovations/innovation_themata_system.dds"
 @pronoia_innovation_system = "gfx/interface/icons/culture_innovations/innovation_pronoia_system.dds"
 @varangian_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_varangian_guard.dds"
@@ -1250,6 +1251,24 @@ innovation_crimean_goths_hev_army = {
 
 	flag = global_regional
 	flag = crimean_goths_hev_army
+}
+
+innovation_chinese_army = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @chinese_innovation_army
+
+	potential = {
+		OR = {
+			this = culture:han
+			this = culture:pedran
+		}
+	}
+
+	custom = disables_normal_maa
+
+	flag = global_regional
+	flag = chinese_army
 }
 
 innovation_burmese_army = {

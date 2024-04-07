@@ -16,16 +16,7 @@
  provincial_army_inovation:0 "Grants access to [provincial_army|E] troops if you are a subject of the Empire."
  border_army_inovation:0 "Grants access to Western and Eastern [border_army|E] if you are a border subject of the Empire in the relevant areas."
  non_imperial_army:0 "Non-subjects of the Empire can only recruit a [degraded_army|E]."
- ##Crimean Gothic
  ###!!!!Tribal Era!!!!
- innovation_crimean_goths_army:0 "Ostrogothic Legacy"
- innovation_crimean_goths_army_desc:0 "When some Goths migrate to Hispania or Italia, others stayed in Crimea."
- innovation_crimean_goths_hev_army:0 "Þiudanai Horsgina"
- innovation_crimean_goths_hev_army_desc:0 "Centuries being in contact with the Byzantines, started to hellenized us. The Þiudanai Horsgina are a perfect exemple of that, inspired by the legendary Scholarii"
-
- innovation_burmese_army:0 "Burmese Army"
- innovation_burmese_army_desc:0 ""
-
  innovation_varangian_guard:0 "Varangian Guard" #!!!!Early Medieval Era!!!!
  innovation_varangian_guard_desc:0 "The Varangian Guard was an elite group of warriors who served as the personal bodyguards of the Byzantine Emperors from the 10th to the 14th century. These warriors were initially made up of Scandinavians and Rus, but later included Anglo-Saxons, Slavs, and other Europeans. They were highly respected for their martial prowess, discipline, and fierce loyalty to the Emperor. They participated in many military campaigns and played a critical role in defending the Byzantine Empire and Constantinople from attacks by foreign invaders, including the Bulgars, Rus, and Normans. Over time, the Varangian Guard became more integrated into Byzantine society and culture, and some members even rose to high positions of power and influence."
  varangoi_troops:0 "Can recruit [varrangoi|E] as [men_at_arms|E] if you are the Emperor."
@@ -132,7 +123,7 @@
  innovation_spain_hev_army_desc:0 "Do this ASAP and become the true Caballería Enjoyer"
  innovation_andalus_hev_army:0 "Fursan"
  innovation_andalus_hev_army_desc:0 "Do this ASAP and become the true Fursan Enjoyer"
- ####Portugal
+ ###Portugal
  innovation_portuguese_army:0 "Galician Legacy"
  innovation_portuguese_army_desc:0 "Do this ASAP and become the true Portugal Enjoyer."
  innovation_cavalleiros:0 "Cavalleiros"
@@ -142,7 +133,6 @@
  ###Italia
  innovation_italia_army:0 "Esercito Italiano"
  innovation_italia_army_desc:0 "Do this ASAP and become the true Italiano Enjoyer."
- ##North Africa
  ###Egypt
  innovation_egypt_army:0 "Rashidun Legacy"
  innovation_egypt_army_desc:0 "In its time, the Rashidun army was a very powerful and effective force, and was the core of the Rashidun Caliphate's armed forces during the early Muslim conquests in the 7th century. The army is reported to have maintained a high level of discipline, strategic prowess and organization, granting them successive victories in their various campaigns."
@@ -151,14 +141,23 @@
  ###Berber
  innovation_berber_army:0 "Tahendit Tamaziyt"
  innovation_berber_army_desc:0 "Do this ASAP and become the true Berber Enjoyer."
- ##Middle East
  ###Arabs
  innovation_arab_army:0 "Rashidun Legacy"
  innovation_arab_army_desc:0 "In its time, the Rashidun army was a very powerful and effective force, and was the core of the Rashidun Caliphate's armed forces during the early Muslim conquests in the 7th century. The army is reported to have maintained a high level of discipline, strategic prowess and organization, granting them successive victories in their various campaigns."
- ##Persia
  ###Persian
  innovation_persian_army:0 "Sassanid Legacy"
  innovation_persian_army_desc:0 "Do this ASAP and become the true Persian Enjoyer."
+ ###Crimean Gothic
+ innovation_crimean_goths_army:0 "Ostrogothic Legacy"
+ innovation_crimean_goths_army_desc:0 "When some Goths migrate to Hispania or Italia, others stayed in Crimea."
+ innovation_crimean_goths_hev_army:0 "Þiudanai Horsgina"
+ innovation_crimean_goths_hev_army_desc:0 "Centuries being in contact with the Byzantines, started to hellenized us. The Þiudanai Horsgina are a perfect exemple of that, inspired by the legendary Scholarii"
+ ###Burmese
+ innovation_burmese_army:0 "Burmese Army"
+ innovation_burmese_army_desc:0 ""
+ ###Chinese
+ innovation_chinese_army:0 ""
+ innovation_chinese_army_desc:0 ""
 
  # Men-At-Arms
  ##Byzantine/Greek

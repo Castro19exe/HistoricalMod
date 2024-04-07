@@ -204,9 +204,6 @@
 	culture:dutch = {
 		add_innovation = innovation_frank_g_army
 	}
-	culture:frisian = {
-		add_innovation = innovation_frank_g_army
-	}
 
 	##West Germanic
 	###############################################
@@ -222,13 +219,16 @@
 
 	##North Sea Germanic
 	###############################################
-	culture:jute = { 
+	culture:frisian = {
+		add_innovation = innovation_frank_g_army
+	}
+	culture:jute = {
 		add_innovation = innovation_anglo_saxon_army
 	}
-	culture:angle = { 
+	culture:angle = {
 		add_innovation = innovation_anglo_saxon_army
 	}
-	culture:old_saxon = { 
+	culture:old_saxon = {
 		add_innovation = innovation_anglo_saxon_army
 	}
 
@@ -470,6 +470,12 @@
 	culture:burmese = { 
 		add_innovation = innovation_burmese_army
 	}
+	culture:han = { 
+		add_innovation = innovation_chinese_army
+	}
+	#culture:pedran = { 
+	#	add_innovation = innovation_chinese_army
+	#}
 	
 	##Arabia
 	###############################################

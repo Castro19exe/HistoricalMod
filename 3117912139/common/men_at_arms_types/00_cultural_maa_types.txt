@@ -291,7 +291,7 @@ praetorian = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = byz_droungo
+	icon = byz_excubitors
 }
 
 caballero = {
