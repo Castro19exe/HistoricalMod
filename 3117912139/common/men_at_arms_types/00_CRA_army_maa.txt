@@ -11619,9 +11619,9 @@ chinese_qibing  = {
 	type = heavy_cavalry
 	icon = chinese_qibing
 	
-	damage = 120
-	toughness = 37
-	pursuit = 20
+	damage = 130
+	toughness = 35
+	pursuit = 25
 	screen = 0
 	
 	terrain_bonus = {
