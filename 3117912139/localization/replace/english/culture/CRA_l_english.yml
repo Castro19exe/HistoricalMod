@@ -725,7 +725,9 @@
  crimean_goth_leihte_horsgina_flavor:0 "#F Leihte Horsgina are light cavalry adapted to the steppe and its inhabitants.#!"
  crimean_goth_thiudanai_horsgina:0 "Þiudanai Horsgina"
  crimean_goth_thiudanai_horsgina_flavor:0 "#F Inspired by the legendary Scholarii, the Þiudanai Horsgina are heavy cavalry ready to charge into the enemy frontline.#!"
-
+ #Chinese
+ chinese_qibing:0 "Qibing"
+ chinese_qibing_flavor:0 "#F .#!"
 
  # Decisions
  ##Byzantine/Greek
