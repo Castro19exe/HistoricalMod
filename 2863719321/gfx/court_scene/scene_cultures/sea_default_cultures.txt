@@ -6,11 +6,10 @@
 				geographical_region = custom_west_china
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_chinese
+						has_graphical_chinese_culture_group_trigger = yes
 					}
 				}
 			}
-			NOT = { geographical_region = custom_ireland }
 		}
 	}
 }
