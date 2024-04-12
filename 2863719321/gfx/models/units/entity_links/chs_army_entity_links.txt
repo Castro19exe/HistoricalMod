@@ -165,6 +165,27 @@ chinese_army_03 = {
 	entity = unit_chinese_infantry_03_entity
 }
 
+# Japanese
+japanese_army_01 = {
+	type = army
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_japanese_infantry_01_entity
+}
+
+japanese_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_japanese_infantry_02_entity
+}
+
+japanese_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_japanese_infantry_03_entity
+}
+
 # Burman
 burman_army_01 = {
 	type = army
