@@ -13,4 +13,3 @@ jp_petitioners_group = {
 	access_type = top
 	value = event_chain_progress
 }
-
