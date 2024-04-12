@@ -25,6 +25,9 @@
 @pronoia_innovation_system = "gfx/interface/icons/culture_innovations/innovation_pronoia_system.dds"
 @varangian_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_varangian_guard.dds"
 
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
 innovation_roman_legacy = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
@@ -922,7 +925,7 @@ innovation_spain_hev_army = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = world_europe_west_iberia
-	icon = @spain_hev_innovation_army
+	icon = @special_maa_01
 
 	potential = {
 		OR = {
@@ -1039,7 +1042,7 @@ innovation_portugal_hev_army = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = world_europe_west_iberia
-	icon = @spain_hev_innovation_army
+	icon = @special_maa_01
 
 	potential = {
 		OR = {
@@ -1241,7 +1244,7 @@ innovation_crimean_goths_army = {
 innovation_crimean_goths_hev_army = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
-	icon = @byz_innovation_army
+	icon = @special_maa_01
 
 	potential = {
 		this = culture:crimean_gothic
