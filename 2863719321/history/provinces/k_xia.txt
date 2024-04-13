@@ -312,6 +312,9 @@
 }
 9417 = {	# Chuankou (Minhe)
 	holding = city_holding
+	buildings = {
+		city_04
+	}
 }
 9416 = {	# Ledu
 	holding = church_holding
