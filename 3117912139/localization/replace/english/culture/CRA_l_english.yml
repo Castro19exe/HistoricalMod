@@ -118,7 +118,7 @@
  innovation_english_army_desc:0 "Do this ASAP and become the true English Enjoyer."
  ###Iberia
  innovation_iberia_army:0 "Visigothic Legacy"
- innovation_iberia_army_desc:0 "Drawing strength from the ancient Visigothic legacy, the northern christians stands resolute, destined to reclaim the lands of Iberia."
+ innovation_iberia_army_desc:0 "Drawing strength from the ancient Visigothics, the northern christians stands resolute, destined to reclaim the lands of Iberia."
  innovation_spain_hev_army:0 "Caballería"
  innovation_spain_hev_army_desc:0 "Do this ASAP and become the true Caballería Enjoyer"
  innovation_andalus_hev_army:0 "Fursan"
@@ -158,6 +158,9 @@
  ###Chinese
  innovation_chinese_army:0 "Han Legacy"
  innovation_chinese_army_desc:0 "The continuation of the Han army but in the West."
+ ###Roman
+ #innovation_legionnaires:0 ""
+ #innovation_legionnaires_desc:0 ""
 
  # Men-At-Arms
  ##Byzantine/Greek
@@ -725,9 +728,12 @@
  crimean_goth_leihte_horsgina_flavor:0 "#F Leihte Horsgina are light cavalry adapted to the steppe and its inhabitants.#!"
  crimean_goth_thiudanai_horsgina:0 "Þiudanai Horsgina"
  crimean_goth_thiudanai_horsgina_flavor:0 "#F Inspired by the legendary Scholarii, the Þiudanai Horsgina are heavy cavalry ready to charge into the enemy frontline.#!"
- #Chinese
+ ##Chinese
  chinese_qibing:0 "Qibing"
  chinese_qibing_flavor:0 "#F .#!"
+ ##Roman
+ roman_cataphractarii:0 "Cataphractarii"
+ roman_cataphractarii_flavor:0 "#F .#!"
 
  # Decisions
  ##Byzantine/Greek

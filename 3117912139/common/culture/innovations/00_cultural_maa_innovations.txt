@@ -30,6 +30,7 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+@leadership_02 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
 
 innovation_zweihanders = {
 	group = culture_group_regional
@@ -92,7 +93,7 @@ innovation_pike_columns = {
 innovation_legionnaires = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @special_maa_02
+	icon = @leadership_02
 
 	potential = {
 		OR = {
@@ -106,6 +107,8 @@ innovation_legionnaires = {
 	}
 
 	unlock_maa = praetorian
+	unlock_maa = roman_cataphractarii
+	custom = disables_normal_maa
 
 	flag = global_maa
 }
