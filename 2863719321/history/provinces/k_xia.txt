@@ -261,26 +261,17 @@
 ###c_baiyin
 9531 = {	# Baiyin
 	# Misc
-	culture = pedran
+	culture = han
 	religion = mahayana
 	holding = castle_holding
-	buildings = {
-		castle_04
-	}
 	
 	# History
 }
 9530 = {	# Gaolan
 	holding = church_holding
-	buildings = {
-		church_04
-	}
 }
 9527 = {	# Anning
 	holding = city_holding
-	buildings = {
-		city_04
-	}
 }
 
 ###c_yongdeng
@@ -289,23 +280,14 @@
 	culture = han
 	religion = mahayana
 	holding = castle_holding
-	buildings = {
-		castle_04
-	}
 	
 	# History
 }
 9526 = {	# Wushengyi
 	holding = city_holding
-	buildings = {
-		city_04
-	}
 }
 9524 = {	# Tianzhu
 	holding = church_holding
-	buildings = {
-		church_04
-	}
 }
 
 
@@ -313,9 +295,12 @@
 ###c_shanzhou / tsongkha
 9418 = {	# Shanzhou/Zongge (Ping'an)
 	# Misc
-	culture = han
+	culture = pedran
 	religion = mahayana
 	holding = castle_holding
+	buildings = {
+		castle_04
+	}
 	
 	# History
 	800.1.1 = {
