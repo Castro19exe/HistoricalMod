@@ -11393,6 +11393,7 @@ berber_horse = {
 	icon = berber_horse
 }
 
+##Crimean Goth
 crimean_goth_sturmjandi = {
 	type = skirmishers
 	icon = voi
@@ -11614,6 +11615,7 @@ crimean_goth_thiudanai_horsgina = {
 	ai_quality = { value = @cultural_maa_extra_extra_ai_score }
 }
 
+##Chinese
 chinese_qibing  = {
 	type = heavy_cavalry
 	icon = chinese_qibing
@@ -11662,4 +11664,43 @@ chinese_qibing  = {
 	stack = 50
 	ai_quality = { value = CRA_culture_ai_weight_heavy_cavalry }
 	fallback_in_hired_troops_if_unlocked = yes
+}
+
+##Roman
+roman_cataphractarii = {
+	type = heavy_cavalry
+	icon = byz_kataphraktoi
+	
+	damage = 125
+	toughness = 49
+	pursuit = 15
+	screen = 15
+	
+	terrain_bonus = {
+		plains = { damage = 30 }
+		drylands = { damage = 30 }
+		hills = { damage = -15 }
+		mountains = { damage = -60 }
+		desert_mountains = { damage = -80 toughness = -10 pursuit = -15 }
+		desert = { damage = -50 toughness = -5 pursuit = -10 }
+		wetlands = { damage = -100 toughness = -20 pursuit = -15 screen = -15 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+		heavy_cavalry = 0.1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -15 toughness = -5 }
+		harsh_winter = { damage = -30 toughness = -10 }
+	}
+
+	buy_cost = { gold = kataphraktoi_recruitment_cost }
+	low_maintenance_cost = { gold = kataphraktoi_low_maint_cost }
+	high_maintenance_cost = { gold = kataphraktoi_high_maint_cost }
+	
+	max_sub_regiments = 20
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
 }
