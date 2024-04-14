@@ -687,7 +687,8 @@ mubarizun = {
 	
 	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score - 20] }
-	icon = mubarizun
+	#icon = mubarizun
+	icon = arabic_infantry
 }
 
 mulaththamun = { #Murabit Cavalry

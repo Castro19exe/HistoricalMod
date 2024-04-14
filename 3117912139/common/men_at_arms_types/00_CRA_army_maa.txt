@@ -11191,6 +11191,10 @@ berber_skirbow = {
 		        }
 				NOT = {
 					has_cultural_parameter = unlock_maa_abudrar
+					this = culture:andalusian
+					any_parent_culture_or_above = {
+							this = culture:andalusian
+					}
 				}
 			}
 		}
@@ -11234,6 +11238,10 @@ berber_skir = {
 		        }
 				NOT = {
 					has_cultural_parameter = unlock_maa_mubarizun
+					this = culture:andalusian
+					any_parent_culture_or_above = {
+							this = culture:andalusian
+					}
 				}
 			}
 		}
@@ -11298,6 +11306,10 @@ berber_rider = {
 		        }
 				NOT = {
 					has_cultural_parameter = unlock_maa_horse_archers
+					this = culture:andalusian
+					any_parent_culture_or_above = {
+							this = culture:andalusian
+					}
 				}
 			}
 		}
