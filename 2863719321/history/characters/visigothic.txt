@@ -57,7 +57,7 @@
 }
 
 200475 = {
-	name = "Rodericho"
+	name = "Roderic"
 	dynasty = 1046019
 
 	religion = catholic
@@ -1518,7 +1518,7 @@
 }
 
 200251 = {
-	name = "Rodericho" # Rodrigo, King of the Visigoths (710-711)
+	name = "Roderic" # Rodrigo, King of the Visigoths (710-711)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1785,7 +1785,7 @@
 }
 
 200273 = {
-	name = "Leovigildo" # Leovigildo, King of the Visigoths (572-586)
+	name = "Liuvigild" # Leovigildo, King of the Visigoths (572-586)
 	dynasty = 1046033 # Leovigildo's Dynasty
 	religion = catholic
 	culture = visigothic
