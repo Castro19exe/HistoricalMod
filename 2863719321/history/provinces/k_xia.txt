@@ -295,12 +295,9 @@
 ###c_shanzhou / tsongkha
 9418 = {	# Shanzhou/Zongge (Ping'an)
 	# Misc
-	culture = pedran
+	culture = han
 	religion = mahayana
 	holding = castle_holding
-	buildings = {
-		castle_04
-	}
 	
 	# History
 	800.1.1 = {
@@ -312,9 +309,6 @@
 }
 9417 = {	# Chuankou (Minhe)
 	holding = city_holding
-	buildings = {
-		city_04
-	}
 }
 9416 = {	# Ledu
 	holding = church_holding
