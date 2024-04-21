@@ -1,10 +1,7 @@
 ﻿afro_roman = {
 	color = { 209 48 33 }
-
 	parents = { roman }
-
 	created = 212.1.1
-
 	history_loc_override = afro_roman_history_loc
 	
 	ethos = ethos_communal
@@ -28,7 +25,7 @@
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { eastern_unit_gfx }
+	unit_gfx = { roman_unit_gfx }
 	
 	ethnicities = {
 		1 = arab
