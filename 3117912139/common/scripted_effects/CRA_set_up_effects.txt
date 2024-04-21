@@ -528,9 +528,6 @@ CRA_setup_varangian = {
 	culture:greek = { 	
 		add_innovation = innovation_varangian_guard
 	}
-	culture:roman = { 	
-		add_innovation = innovation_varangian_guard
-	}
 }
 
 CRA_setup_early_med = { 

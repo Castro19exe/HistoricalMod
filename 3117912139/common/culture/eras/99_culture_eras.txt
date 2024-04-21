@@ -1,5 +1,4 @@
-﻿
-culture_era_tribal = {  # Iron Age
+﻿culture_era_tribal = {  # Iron Age
 	year = 0
 }
 
