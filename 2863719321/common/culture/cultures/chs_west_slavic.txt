@@ -61,7 +61,7 @@ czech = {
 
 polish = {
 	#color = polish
-	color = { 0.3 0.7 0.35 }
+	color = { 0.35 0.6 0.36 }
 	
 	ethos = ethos_courtly
 	heritage = heritage_west_slavic
@@ -93,7 +93,7 @@ polish = {
 }
 
 polabian = {
-	color = { 0.3 0.6 0.2 }
+	color = { 0.3 0.7 0.45 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_slavic
@@ -121,7 +121,7 @@ polabian = {
 }
 
 sorbian = {
-	color = { 0.4 0.9 0.8 }
+	color = { 0.4 0.65 0.55 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_slavic
