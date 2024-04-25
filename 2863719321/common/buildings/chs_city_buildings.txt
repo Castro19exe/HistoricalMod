@@ -146,7 +146,8 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_city_01_mena_mesh"
+			#"building_mediterranean_city_01_mena_mesh"
+			"building_mediterranean_city_01_western_mesh"
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
