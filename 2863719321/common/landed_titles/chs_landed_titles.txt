@@ -5208,6 +5208,15 @@ e_germany = {
 					province = 2107
 
 					color = { 110 85 125 }
+
+					cultural_names = {
+						name_list_swabian = "Brüssel"
+						name_list_swabian = "Brüssel"
+						name_list_franconian = "Brüssel"
+						name_list_bavarian = "Brüssel"
+						name_list_saxon = "Brüssel"
+						name_list_thuringian = "Brüssel"
+					}
 				}
 				b_turnhout = {
 					province = 2111
@@ -15663,10 +15672,28 @@ e_italy = {
 			c_firenze = {
 				color = { 232 190 25 }
 
+				cultural_names = {
+					name_list_swedish = "Florenz"
+					name_list_franconian = "Florenz"
+					name_list_saxon = "Florenz"
+					name_list_swabian = "Florenz"
+					name_list_bavarian = "Florenz"
+					name_list_thuringian = "Florenz"
+				}
+
 				b_firenze = {
 					province = 2543
 
 					color = { 232 190 25 }
+
+					cultural_names = {
+						name_list_swedish = "Florenz"
+						name_list_franconian = "Florenz"
+						name_list_saxon = "Florenz"
+						name_list_swabian = "Florenz"
+						name_list_bavarian = "Florenz"
+						name_list_thuringian = "Florenz"
+					}
 				}
 				b_impruneta = {
 					province = 2559
@@ -17992,6 +18019,7 @@ e_scandinavia = {
 						name_list_saxon = cn_apenrade
 						name_list_swabian = cn_apenrade
 						name_list_bavarian = cn_apenrade
+						name_list_thuringian = cn_apenrade
 					}
 				}
 				b_husumbro = {
@@ -45433,10 +45461,28 @@ e_france = {
 			c_geneva = {
 				color = { 175 40 65 }
 
+				cultural_names = {
+					name_list_swabian = "Genf"
+					name_list_swabian = "Genf"
+					name_list_franconian = "Genf"
+					name_list_bavarian = "Genf"
+					name_list_saxon = "Genf"
+					name_list_thuringian = "Genf"
+				}
+
 				b_geneva = {
 					province = 2035
 
 					color = { 175 40 65 }
+
+					cultural_names = {
+						name_list_swabian = "Genf"
+						name_list_swabian = "Genf"
+						name_list_franconian = "Genf"
+						name_list_bavarian = "Genf"
+						name_list_saxon = "Genf"
+						name_list_thuringian = "Genf"
+					}
 				}
 				b_annecy = {
 					province = 2034
