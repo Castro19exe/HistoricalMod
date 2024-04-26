@@ -33,3 +33,12 @@ c_madrid = {
 		coat_of_arms = c_madrid_christian
 	}
 }
+
+c_coimbra = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = c_coimbra_christian
+	}
+}

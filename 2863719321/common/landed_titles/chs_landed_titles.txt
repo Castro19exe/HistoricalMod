@@ -46946,6 +46946,18 @@ e_spain = {
 					province = 1834
 
 					color = { 150 220 10 }
+
+					cultural_names = {
+						name_list_bedouin = cn_maridah
+						name_list_baranis = cn_maridah
+						name_list_butr = cn_maridah
+						name_list_zaghawa = cn_maridah
+						name_list_levantine = cn_maridah
+						name_list_egyptian = cn_maridah
+						name_list_maghrebi = cn_maridah
+						name_list_andalusian = cn_maridah
+						name_list_yemeni = cn_maridah
+					}
 				}
 				b_trujillo = {
 					province = 1955
@@ -47233,6 +47245,18 @@ e_spain = {
 					province = 1854
 
 					color = { 65 210 130 }
+
+					cultural_names = {
+						name_list_bedouin = cn_daniyyah
+						name_list_baranis = cn_daniyyah
+						name_list_butr = cn_daniyyah
+						name_list_zaghawa = cn_daniyyah
+						name_list_levantine = cn_daniyyah
+						name_list_egyptian = cn_daniyyah
+						name_list_maghrebi = cn_daniyyah
+						name_list_andalusian = cn_daniyyah
+						name_list_yemeni = cn_daniyyah
+					}
 				}
 				b_almansa = { #Alcoy
 					province = 1969
@@ -47254,11 +47278,33 @@ e_spain = {
 					name_list_maghrebi = cn_al_laqant
 					name_list_andalusian = cn_al_laqant
 					name_list_yemeni = cn_al_laqant
+
+					name_list_castilian = "Alicante"
+					name_list_asturleonese = "Alicante"
+					name_list_galician = "Alicante"
+					name_list_portuguese = "Alicante"
 				}
 				b_alicante = {
 					province = 1853
 
 					color = { 75 155 85 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_laqant
+						name_list_baranis = cn_daniyyah
+						name_list_butr = cn_daniyyah
+						name_list_zaghawa = cn_daniyyah
+						name_list_levantine = cn_al_laqant
+						name_list_egyptian = cn_al_laqant
+						name_list_maghrebi = cn_al_laqant
+						name_list_andalusian = cn_al_laqant
+						name_list_yemeni = cn_al_laqant
+
+						name_list_castilian = "Alicante"
+						name_list_asturleonese = "Alicante"
+						name_list_galician = "Alicante"
+						name_list_portuguese = "Alicante"
+					}
 				}
 				b_albacete = {
 					province = 1940
@@ -47409,6 +47455,18 @@ e_spain = {
 					province = 1852
 
 					color = { 27 130 60 }
+
+					cultural_names = {
+						name_list_bedouin = cn_mursiyyah
+						name_list_baranis = cn_mursiyyah
+						name_list_butr = cn_mursiyyah
+						name_list_zaghawa = cn_mursiyyah
+						name_list_levantine = cn_mursiyyah
+						name_list_egyptian = cn_mursiyyah
+						name_list_maghrebi = cn_mursiyyah
+						name_list_andalusian = cn_mursiyyah
+						name_list_yemeni = cn_mursiyyah
+					}
 				}
 				b_cartagena = {
 					province = 1851
@@ -49064,6 +49122,18 @@ e_spain = {
 					province = 1760
 
 					color = { 182 88 5 }
+
+					cultural_names = {
+						name_list_bedouin = cn_burtughal
+						name_list_baranis = cn_burtughal
+						name_list_butr = cn_burtughal
+						name_list_zaghawa = cn_burtughal
+						name_list_levantine = cn_burtughal
+						name_list_egyptian = cn_burtughal
+						name_list_maghrebi = cn_burtughal
+						name_list_andalusian = cn_burtughal
+						name_list_yemeni = cn_burtughal
+					}
 				}
 				b_braga = {
 					province = 1761
@@ -49146,6 +49216,18 @@ e_spain = {
 					province = 1758
 
 					color = { 182 108 45 }
+
+					cultural_names = {
+						name_list_bedouin = cn_kulumriyya
+						name_list_baranis = cn_kulumriyya
+						name_list_butr = cn_kulumriyya
+						name_list_zaghawa = cn_kulumriyya
+						name_list_levantine = cn_kulumriyya
+						name_list_egyptian = cn_kulumriyya
+						name_list_maghrebi = cn_kulumriyya
+						name_list_andalusian = cn_kulumriyya
+						name_list_yemeni = cn_kulumriyya
+					}
 				}
 				b_leiria = {
 					province = 1757
