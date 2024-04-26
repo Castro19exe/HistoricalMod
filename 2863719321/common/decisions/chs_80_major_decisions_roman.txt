@@ -339,6 +339,8 @@ unite_the_germans_decision = {
 	is_shown = {
 		OR = {
 			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_east_germanic }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			culture = { has_cultural_pillar = heritage_north_sea_germanic }
 		}
@@ -356,6 +358,8 @@ unite_the_germans_decision = {
 	is_valid = {
 		OR = {
 			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_east_germanic }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			culture = { has_cultural_pillar = heritage_north_sea_germanic }
 		}

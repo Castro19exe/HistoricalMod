@@ -146,7 +146,7 @@ castilian = {
 }
 
 catalan = {
-	color = { 0.76 0.42 0.08 }
+	color = { 102 255 178 }
 	created = 800.1.1
 	parents = { south_gallo_roman visigothic }
 

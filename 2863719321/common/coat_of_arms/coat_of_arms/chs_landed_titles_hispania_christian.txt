@@ -236,3 +236,18 @@ c_madrid_christian = {
 		}
 	}
 }
+
+c_coimbra_christian = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=red
+	color3=blue
+	colored_emblem={
+		color1=red
+		texture="ce_cross_fleury.dds"
+		instance={
+			scale={ 0.950000 0.950000 }
+		}
+	}
+}
