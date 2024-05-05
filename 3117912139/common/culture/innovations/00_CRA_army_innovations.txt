@@ -23,6 +23,7 @@
 @themata_innovation_system = "gfx/interface/icons/culture_innovations/innovation_themata_system.dds"
 @pronoia_innovation_system = "gfx/interface/icons/culture_innovations/innovation_pronoia_system.dds"
 @varangian_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_varangian_guard.dds"
+@chinese_innovation_guard = "gfx/interface/icons/culture_innovations/innovation_chinese_guard.dds"
 
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
@@ -1258,7 +1259,7 @@ innovation_crimean_goths_hev_army = {
 innovation_chinese_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @Nomad_innovation_army
+	icon = @chinese_innovation_guard
 
 	potential = {
 		OR = {
