@@ -1241,21 +1241,6 @@ innovation_crimean_goths_army = {
 	flag = crimean_goths_army
 }
 
-innovation_crimean_goths_hev_army = {
-	group = culture_group_regional
-	culture_era = culture_era_early_medieval
-	icon = @special_maa_01
-
-	potential = {
-		this = culture:crimean_gothic
-	}
-
-	unlock_maa = crimean_goth_thiudanai_horsgina
-
-	flag = global_regional
-	flag = crimean_goths_hev_army
-}
-
 innovation_chinese_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal

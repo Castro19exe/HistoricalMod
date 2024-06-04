@@ -595,10 +595,7 @@ CRA_setup_pronoia = {
 	culture:greek = { 	
 		add_innovation = innovation_pronoia_system
 	}
-	culture:crimean_gothic = {
-		add_innovation = innovation_crimean_goths_hev_army
-	}
-
+	
 	##Iberia
 	###############################################
 	culture:castilian = {

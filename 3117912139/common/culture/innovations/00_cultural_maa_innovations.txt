@@ -93,7 +93,7 @@ innovation_pike_columns = {
 innovation_legionnaires = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	icon = @leadership_02
+	icon = @special_maa_02
 
 	potential = {
 		OR = {
@@ -107,8 +107,6 @@ innovation_legionnaires = {
 	}
 
 	unlock_maa = praetorian
-	unlock_maa = roman_cataphractarii
-	custom = disables_normal_maa
 
 	flag = global_maa
 }
