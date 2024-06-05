@@ -558,10 +558,6 @@
 	
 	holding = castle_holding
 
-	buildings = {
-		castle_04
-	}
-	
 	# History
 
 }

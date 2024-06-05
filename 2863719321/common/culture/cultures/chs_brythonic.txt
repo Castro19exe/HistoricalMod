@@ -152,3 +152,33 @@ cumbrian = {
 		30 = caucasian_dark_hair
 	}
 }
+
+pictish = {
+	color = hsv { 0.58 1.00 0.72 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_concubines
+		tradition_poetry
+		tradition_highland_warriors
+		tradition_hill_dwellers
+	}
+	
+	name_list = name_list_pictish
+
+	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
+	building_gfx = { celtic_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		5 = caucasian_blond
+		30 = caucasian_ginger
+		35 = caucasian_brown_hair
+		30 = caucasian_dark_hair
+	}
+}
