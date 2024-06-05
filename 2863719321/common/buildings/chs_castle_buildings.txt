@@ -151,13 +151,6 @@ castle_01 = {
 	}
 
     ### CHINA ###
-	#asset = {
-	#	type = pdxmesh
-	#	name = "building_chinese_castle_01_mesh"
-	#	illustration = @holding_illustration_china
-	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-	#	graphical_regions = { custom_west_china }
-	#}
 	asset = {
 		type = pdxmesh
 		name = "building_chinese_castle_01_mesh"
@@ -197,6 +190,51 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mesoamerican_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_mesh"
+			"building_western_castle_01_b_mesh"
+		}
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+        graphical_cultures = { celtic_building_gfx }
+    }
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_mena_mesh"
+			"building_western_castle_01_b_mena_mesh"
+		}
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+        graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_mediterranean_mesh"
+			"building_western_castle_01_b_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+        graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_indian_mesh"
+			"building_western_castle_01_b_indian_mesh"
+		}
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+        graphical_regions = { graphical_india }
 	}
 
 	### FP1 Norse ###
