@@ -252,15 +252,17 @@ northern_army_03 = {
 # Tribal Germanic
 germanic_army_01 = {
 	type = army
+	requires_dlc_flag = the_northern_lords
 	graphical_cultures = { germanic_unit_gfx }
-	entity = unit_northern_pagan_infantry_01_entity
+	entity = unit_fp1_infantry_01_entity
 }
 
 germanic_army_02 = {
 	type = army
+	requires_dlc_flag = the_northern_lords
 	quality = @tier2_quality
 	graphical_cultures = { germanic_unit_gfx }
-	entity = unit_scottish_infantry_02_entity
+	entity = unit_fp1_infantry_02_entity
 }
 
 germanic_army_03 = {
@@ -417,7 +419,7 @@ berber_army_03 = {
 	entity = unit_berber_infantry_03_entity
 }
 
-# African Tribal
+# Tribal African 
 af_army_01 = {
 	type = army
 	graphical_cultures = { af_unit_gfx }
@@ -601,7 +603,6 @@ fp2_army_muslim_03 = {
 }
 
 # FP3
-
 fp3_army_01 = {
 	type = army
 	#TODO requires_dlc_flag = sands_of_time
