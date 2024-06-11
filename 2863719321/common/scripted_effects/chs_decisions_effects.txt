@@ -344,25 +344,6 @@ unite_the_germans_effect = {
 	resolve_title_and_vassal_change = scope:change
 	set_primary_title_to = title:e_pan_germany
 
-	#Create Prussia Kingdom
-	create_title_and_vassal_change = {
-		type = created
-		save_scope_as = change
-		add_claim_on_loss = no
-	}
-	title:k_prussia = {
-		change_title_holder = {
-			holder = root
-			change = scope:change
-		}
-		set_variable = {
-			name = variable_restored_hre #Used for flavor later.
-			value = yes
-		}	
-		#copy_title_history = title:e_hre
-	}
-	resolve_title_and_vassal_change = scope:change
-
 	#Should destroy all other Empires owned at the time.
 	every_held_title = { 
 		limit = {
@@ -373,6 +354,25 @@ unite_the_germans_effect = {
 	}
 
 	hidden_effect = {
+		#Create Prussia Kingdom
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_prussia = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+			set_variable = {
+				name = variable_restored_hre #Used for flavor later.
+				value = yes
+			}	
+			#copy_title_history = title:e_hre
+		}
+		resolve_title_and_vassal_change = scope:change
+
 		#Empire (!temporario!)
 		title:k_east_francia = { set_de_jure_liege_title = title:e_pan_germany }
 		title:k_frisia = { set_de_jure_liege_title = title:e_pan_germany }
