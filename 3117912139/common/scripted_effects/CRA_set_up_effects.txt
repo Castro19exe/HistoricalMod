@@ -198,9 +198,6 @@
 	culture:thuringian = { 
 		add_innovation = innovation_frank_g_army
 	}
-	culture:german_pommeranian = {
-		add_innovation = innovation_frank_g_army
-	}
 	culture:dutch = {
 		add_innovation = innovation_frank_g_army
 	}
