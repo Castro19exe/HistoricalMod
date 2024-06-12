@@ -1075,7 +1075,6 @@ innovation_italia_army = {
 			this = culture:maltese
 			this = culture:dalmatian
 			this = culture:venetian
-			this = culture:sardinian
 		}
 	}
 
