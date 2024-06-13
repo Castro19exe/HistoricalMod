@@ -409,7 +409,7 @@
 
  create_dalmatian_kingdom_decision:0 "Found Kingdom of Dalmatia"
  create_dalmatian_kingdom_decision_confirm:0 "Gather the realm"
- create_dalmatian_kingdom_decision_desc:0 "Since the dissolution of Julius Nepos realm, our people have been scattered and subjugated by foreign powers. I will unite our people again."
+ create_dalmatian_kingdom_decision_desc:0 "Since the dissolution of Julius Nepos realm, our people have been scattered and subjugated by foreign powers. I will unite our people once again."
  create_dalmatian_kingdom_decision_tooltip:0 "Gather the dalmatian people under one [kingdom|E]"
  create_dalmatian_kingdom.preview.titles:0 "[GetTitleByKey('d_dalmatia').GetNameNoTier], [GetTitleByKey('d_ragusa').GetNameNoTier], [GetTitleByKey('d_usora').GetNameNoTier], become [de_jure|E] part of the [GetTitleByKey('k_dalmatia').GetName]"
  create_dalmatian_kingdom.conversion_boost: "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('custom_roman_illyricum').GetName] [region|E] for 35 years: #P +25%#!"
