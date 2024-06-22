@@ -46013,6 +46013,18 @@ e_spain = {
 					province = 1978
 
 					color = { 40 150 40 }
+
+					cultural_names = {
+						name_list_bedouin = cn_garnatah
+						name_list_baranis = cn_garnatah
+						name_list_butr = cn_garnatah
+						name_list_zaghawa = cn_garnatah
+						name_list_levantine = cn_garnatah
+						name_list_egyptian = cn_garnatah
+						name_list_maghrebi = cn_garnatah
+						name_list_andalusian = cn_garnatah
+						name_list_yemeni = cn_garnatah
+					}
 				}
 				b_quesada = { #huescar
 					province = 1976
@@ -46116,6 +46128,18 @@ e_spain = {
 					province = 1846
 
 					color = { 20 130 20 }
+
+					cultural_names = {
+						name_list_bedouin = cn_malaqah
+						name_list_baranis = cn_malaqah
+						name_list_butr = cn_malaqah
+						name_list_zaghawa = cn_malaqah
+						name_list_levantine = cn_malaqah
+						name_list_egyptian = cn_malaqah
+						name_list_maghrebi = cn_malaqah
+						name_list_andalusian = cn_malaqah
+						name_list_yemeni = cn_malaqah
+					}
 				}
 				b_nerja = {
 					province = 1847
@@ -47057,6 +47081,18 @@ e_spain = {
 					province = 1747
 
 					color = { 45 145 10 }
+
+					cultural_names = {
+						name_list_bedouin = cn_silb
+						name_list_baranis = cn_silb
+						name_list_butr = cn_silb
+						name_list_zaghawa = cn_silb
+						name_list_levantine = cn_silb
+						name_list_egyptian = cn_silb
+						name_list_maghrebi = cn_silb
+						name_list_andalusian = cn_silb
+						name_list_yemeni = cn_silb
+					}
 				}
 				b_ourique = {
 					province = 1749
@@ -47180,6 +47216,19 @@ e_spain = {
 					province = 1857
 
 					color = { 85 170 125 }
+
+					cultural_names = {
+						# Burriana was the major settlement till the North took the county, which let to the flourishing of Castellon.
+						name_list_bedouin = cn_burjanna
+						name_list_baranis = cn_burjanna
+						name_list_butr = cn_burjanna
+						name_list_zaghawa = cn_burjanna
+						name_list_levantine = cn_burjanna
+						name_list_egyptian = cn_burjanna
+						name_list_maghrebi = cn_burjanna
+						name_list_andalusian = cn_burjanna
+						name_list_yemeni = cn_burjanna
+					}
 				}
 				b_amposta = {
 					province = 1858
@@ -49289,12 +49338,25 @@ e_spain = {
 					name_list_andalusian = cn_itanyia
 					name_list_yemeni = cn_itanyia
 				}
+
 				can_be_named_after_dynasty = no
 
 				b_castelo_branco = {
 					province = 1773
 
 					color = { 160 105 70 }
+
+					cultural_names = {
+						name_list_bedouin = cn_itanyia
+						name_list_baranis = cn_itanyia
+						name_list_butr = cn_itanyia
+						name_list_zaghawa = cn_itanyia
+						name_list_levantine = cn_itanyia
+						name_list_egyptian = cn_itanyia
+						name_list_maghrebi = cn_itanyia
+						name_list_andalusian = cn_itanyia
+						name_list_yemeni = cn_itanyia
+					}
 				}
 				b_idanha = { #Beira
 					province = 1771
