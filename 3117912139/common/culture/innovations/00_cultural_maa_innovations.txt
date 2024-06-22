@@ -30,7 +30,6 @@
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
-@leadership_02 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
 
 innovation_zweihanders = {
 	group = culture_group_regional

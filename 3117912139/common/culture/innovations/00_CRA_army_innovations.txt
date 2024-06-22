@@ -27,6 +27,7 @@
 
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
 
 innovation_roman_legacy = {
 	group = culture_group_regional
@@ -901,7 +902,7 @@ innovation_iberia_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = world_europe_west_iberia
-	icon = @iberia_innovation_army
+	icon = @leadership_2
 
 	potential = {
 		OR = {
@@ -1026,7 +1027,7 @@ innovation_portuguese_army = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = world_europe_west_iberia
-	icon = @iberia_innovation_army
+	icon = @leadership_2
 
 	potential = {
 		this = culture:portuguese
