@@ -8801,6 +8801,8 @@ e_byzantium = {
 					cultural_names = {
 						name_list_greek = "Athina"
 						name_list_roman = "Athenae"
+
+						name_list_norse = "Aþena"
 					}
 				}
 				b_thebeshellas = {
@@ -8969,6 +8971,10 @@ e_byzantium = {
 		color = { 215 120 45 }
 
 		capital = c_chandax # Chandax
+
+		cultural_names = {
+			name_list_norse = "Krít"
+		}
 
 		ai_primary_priority = {
 			if = {
@@ -14402,6 +14408,8 @@ e_byzantium = {
 				name_list_maghrebi = cn_siqilliya
 				name_list_andalusian = cn_siqilliya
 				name_list_yemeni = cn_siqilliya
+
+				name_list_norse = "Sikiley"
 			}
 
 			c_palermo = {
@@ -14414,6 +14422,8 @@ e_byzantium = {
 					name_list_maghrebi = cn_balarm
 					name_list_andalusian = cn_balarm
 					name_list_yemeni = cn_balarm
+
+					name_list_norse = "Pallrheimr"
 				}
 
 				b_palermo = {
@@ -14428,6 +14438,8 @@ e_byzantium = {
 						name_list_maghrebi = cn_balarm
 						name_list_andalusian = cn_balarm
 						name_list_yemeni = cn_balarm
+
+						name_list_norse = "Pallrheimr"
 					}
 				}
 				b_trapani = {
@@ -14475,6 +14487,8 @@ e_byzantium = {
 					name_list_maghrebi = cn_sarqusa
 					name_list_andalusian = cn_sarqusa
 					name_list_yemeni = cn_sarqusa
+
+					name_list_norse = "Sýrakusborg"
 				}
 
 				b_syracusa = {
@@ -14489,6 +14503,8 @@ e_byzantium = {
 						name_list_maghrebi = cn_sarqusa
 						name_list_andalusian = cn_sarqusa
 						name_list_yemeni = cn_sarqusa
+
+						name_list_norse = "Sýrakusborg"
 					}
 				}
 				b_lentini = {
