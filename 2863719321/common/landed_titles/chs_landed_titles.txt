@@ -14529,6 +14529,8 @@ e_byzantium = {
 					name_list_andalusian = cn_qasriyana
 					name_list_yemeni = cn_qasriyana
 					name_list_greek = cn_enna
+
+					name_list_norse = "Jónborg"
 				}
 
 				b_castrogiovanni = { # Castrogiovanni
@@ -14544,6 +14546,8 @@ e_byzantium = {
 						name_list_andalusian = cn_qasriyana
 						name_list_yemeni = cn_qasriyana
 						name_list_greek = cn_enna
+
+						name_list_norse = "Jónborg"
 					}
 				}
 				b_agricento = { # Grigenti
