@@ -6,3 +6,12 @@ e_pan_germany = {
 		coat_of_arms = e_pan_germany_norse
 	}
 }
+
+k_sicily = {
+	item = {
+		trigger = {
+			coa_switch_to_norse_trigger = yes
+		}
+		coat_of_arms = k_sicily_norse
+	}
+}

@@ -11,7 +11,6 @@ e_pan_germany_norse = {
 		instance={
 			depth=1.010000
 		}
-
 	}
 
 	colored_emblem={
@@ -21,5 +20,18 @@ e_pan_germany_norse = {
 			position={ 0.500000 0.520000 }
 			scale={ 0.660000 0.660000 }
 		}
+	}
+}
+
+k_sicily_norse = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=black
+	color3=blue
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_norse_odins_raven.dds"
 	}
 }
