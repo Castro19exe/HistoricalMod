@@ -1406,7 +1406,7 @@ custom_magna_germania = {
 
 custom_pan_germania = {
 	regions = {
-		custom_roman_magna_germania
+		custom_magna_germania
 	}
 
 	duchies = {
