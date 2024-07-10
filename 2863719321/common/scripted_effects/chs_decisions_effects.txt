@@ -320,7 +320,7 @@ create_portuguese_empire_effect = {
 
 ######################################################################################################
 
-unite_the_germans_effect = {
+create_magna_germania_effect = {
 	#Prestige
 	add_prestige = massive_prestige_gain
 
