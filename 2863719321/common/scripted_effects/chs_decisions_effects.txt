@@ -373,35 +373,6 @@ create_magna_germania_effect = {
 		}
 		resolve_title_and_vassal_change = scope:change
 
-		#Empire (!temporario!)
-		title:k_east_francia = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_frisia = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_bavaria = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_bohemia = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_poland = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_prussia = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_england = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_denmark = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_sweden = { set_de_jure_liege_title = title:e_pan_germany }
-		title:k_norway = { set_de_jure_liege_title = title:e_pan_germany }
-
-		# Germany
-		title:d_nordmark = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_ostmark = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_lausitz = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_meissen = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_lower_lorraine = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_upper_lorraine = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_julich = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_brabant = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_luxembourg = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_bar = { set_de_jure_liege_title = title:k_east_francia }
-		title:d_transjurania = { set_de_jure_liege_title = title:k_east_francia }
-
-		# Bohemia
-		title:d_bohemia = { set_de_jure_liege_title = title:k_bohemia }
-		title:d_moravia = { set_de_jure_liege_title = title:k_bohemia }
-
 		# Prussia
 		title:d_prussia = { set_de_jure_liege_title = title:k_prussia }
 		title:d_masuria = { set_de_jure_liege_title = title:k_prussia }
@@ -410,9 +381,6 @@ create_magna_germania_effect = {
 		title:d_wielkopolska = { set_de_jure_liege_title = title:k_prussia }
 		title:d_lower_silesia = { set_de_jure_liege_title = title:k_prussia }
 		title:d_upper_silesia = { set_de_jure_liege_title = title:k_prussia }
-
-		# Hungary
-		title:d_nyitra = { set_de_jure_liege_title = title:k_hungary }
 
 		#every_sub_realm_county = {
 		#	limit = {
