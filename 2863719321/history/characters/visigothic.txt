@@ -1270,7 +1270,7 @@
 }
 
 200237 = {
-	name = "Erwigio" # Ervigio, King of the Visigoths (680-687)
+	name = "Erwig" # Ervigio, King of the Visigoths (680-687)
 	dynasty = erwigiana # Erwigio's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1312,7 +1312,7 @@
 }
 
 200240 = {
-	name = "Khindaswintho" # Chindasvinto, King of the Visigoths (642-653)
+	name = "Khindaswinth" # Chindasvinto, King of the Visigoths (642-653)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1480,7 +1480,7 @@
 }
 
 200249 = {
-	name = "Rekkeswintho" # Recesvinto, King of the Visigoths (653-672)
+	name = "Rekkeswinth" # Recesvinto, King of the Visigoths (653-672)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1651,7 +1651,7 @@
 }
 
 200258 = {
-	name = "Rekkaredo" # Recaredo II, King of the Visigoths (621)
+	name = "Rekkared" # Recaredo II, King of the Visigoths (621)
 	dynasty = 1046034 # Sisebuto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1670,7 +1670,7 @@
 }
 
 200259 = {
-	name = "Sisebuto" # Sisebuto, King of the Visigoths (612-621)
+	name = "Sisebut" # Sisebuto, King of the Visigoths (612-621)
 	dynasty = 1046034 # Sisebuto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1760,7 +1760,7 @@
 }
 
 200272 = {
-	name = "Rekkaredo" # Recaredo (I), King of the Visigoths (586-601)
+	name = "Rekkared" # Recaredo (I), King of the Visigoths (586-601)
 	dynasty = 1046033 # Leovigildo's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2378,7 +2378,7 @@ visigothic0008 = {
 }
 
 visigothic0009 = {
-	name = "Gundericho" # Gunderico
+	name = "Gunderic" # Gunderico
 	dynasty = erwigiana # Erwigio's Dynasty
 	religion = catholic
 	culture = visigothic
