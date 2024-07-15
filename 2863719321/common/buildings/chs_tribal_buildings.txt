@@ -85,7 +85,7 @@ tribe_01 = {
 			"prairie_tribal_mesh"
 		}
 		graphical_cultures = { prairie_building_gfx }
-		illustration = @holding_illustration_prairie
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 
@@ -214,7 +214,7 @@ tribe_02 = {
 			"prairie_tribal_mesh"
 		}
 		graphical_cultures = { prairie_building_gfx }
-		illustration = @holding_illustration_prairie
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 
