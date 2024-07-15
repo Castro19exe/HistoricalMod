@@ -199,7 +199,6 @@ e_portugal = {
 			scale={ 0.270000 0.270000 }
 			depth=4.010000
 		}
-
 	}
 
 	colored_emblem={

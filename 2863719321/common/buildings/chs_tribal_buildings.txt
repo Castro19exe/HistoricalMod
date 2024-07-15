@@ -1,5 +1,6 @@
 ﻿@holding_illustration_arid = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
 @holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
+@holding_illustration_prairie = "gfx/interface/illustrations/holding_types/tribe_prairie.dds"
 
 # Tribal Hold
 tribe_01 = {
@@ -76,6 +77,15 @@ tribe_01 = {
 		}
 		graphical_cultures = { celtic_building_gfx }
 		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"prairie_tribal_mesh"
+		}
+		graphical_cultures = { prairie_building_gfx }
+		illustration = @holding_illustration_prairie
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 
@@ -196,6 +206,15 @@ tribe_02 = {
 		}
 		graphical_cultures = { celtic_building_gfx }
 		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"prairie_tribal_mesh"
+		}
+		graphical_cultures = { prairie_building_gfx }
+		illustration = @holding_illustration_prairie
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 

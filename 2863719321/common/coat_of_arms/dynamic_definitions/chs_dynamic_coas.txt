@@ -1,3 +1,4 @@
+#Hispania
 c_toledo = {
 	item = {
 		trigger = {
@@ -40,5 +41,15 @@ c_coimbra = {
 			coa_switch_to_iberian_christian_trigger = yes
 		}
 		coat_of_arms = c_coimbra_christian
+	}
+}
+
+#Maghreb
+k_maghreb = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = k_maghreb_christian
 	}
 }
