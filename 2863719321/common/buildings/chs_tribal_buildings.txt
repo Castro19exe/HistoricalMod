@@ -73,7 +73,7 @@ tribe_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_celtic_tribal_mesh"
+			"building_celtic_hillfort_01_mesh"
 		}
 		graphical_cultures = { celtic_building_gfx }
 		illustration = @holding_illustration_grass
@@ -202,7 +202,7 @@ tribe_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_celtic_tribal_mesh"
+			"building_celtic_hillfort_02_mesh"
 		}
 		graphical_cultures = { celtic_building_gfx }
 		illustration = @holding_illustration_grass
