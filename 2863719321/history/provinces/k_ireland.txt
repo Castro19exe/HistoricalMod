@@ -87,12 +87,9 @@
 18 = {	#DUNDALK
 	culture = irish
 	religion = insular_celtic
-	holding = tribal_holding
-	buildings = {
-		tribal_02
-	}
+	holding = tribal_holding	
 	988.1.1 = {
-		#holding = castle_holding
+		holding = castle_holding
 	}
 	1189.1.1 = {	#Norman invasion brings Catholic dominance.
 		religion = catholic

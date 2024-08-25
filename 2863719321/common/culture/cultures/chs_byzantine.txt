@@ -27,6 +27,9 @@
 
 copt = {
 	color = { 0.6 0.4 0.6 }
+	parents = { roman }
+	created = 50.1.1
+	history_loc_override = copt_history_loc
 
 	ethos = ethos_spiritual
 	heritage = heritage_byzantine 							#under greek/roman occupation for many hundreds of years but also could be its own, e.g. kemetic
