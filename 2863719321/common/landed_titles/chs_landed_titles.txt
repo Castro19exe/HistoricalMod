@@ -1226,6 +1226,10 @@ e_britannia = {
 					province = 1552
 
 					color = { 200 25 25 }
+					
+					cultural_names = {
+						name_list_anglo_saxon = "Æglesburg"
+					}
 				}
 				b_newport = {
 					province = 1553
@@ -1521,6 +1525,8 @@ e_britannia = {
 			capital = c_north_riding # York
 
 			cultural_names = {
+				name_list_roman = "Eboracum"
+
 				name_list_norse = cn_jorvik
 				name_list_norwegian = cn_jorvik
 				name_list_swedish = cn_jorvik
@@ -1843,6 +1849,10 @@ e_britannia = {
 					province = 1615
 
 					color = { 130 5 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Ligeraceastre"
+					}
 				}
 				b_melton = {
 					province = 1616
@@ -1867,6 +1877,10 @@ e_britannia = {
 					province = 1618
 
 					color = { 175 0 30 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Snottengaham"
+					}
 				}
 				b_newark = {
 					province = 1619
@@ -1966,6 +1980,10 @@ e_britannia = {
 					province = 1646
 
 					color = { 241 55 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Scrobbesburh"
+					}
 				}
 				b_ludlow = {
 					province = 1647
@@ -1996,6 +2014,10 @@ e_britannia = {
 					province = 1580
 
 					color = { 245 85 20 }
+
+					cultural_names = {
+						name_list_welsh = "Caerloyw"
+					}
 				}
 				b_bristol = {
 					province = 1581
@@ -2015,6 +2037,12 @@ e_britannia = {
 					province = 1561
 
 					color = { 250 55 15 }
+
+					cultural_names = {
+						name_list_roman = "Sorviodunum"
+
+						name_list_anglo_saxon = "Searoburh"
+					}
 				}
 				b_wilton = {
 					province = 1562
@@ -2089,6 +2117,12 @@ e_britannia = {
 					province = 1503
 
 					color = { 245 105 20 }
+
+					cultural_names = {
+						name_list_roman = "Durovernum Cantiacorum"
+
+						name_list_anglo_saxon = "Cantwareburh"
+					}
 				}
 				b_rochester = {
 					province = 1504
@@ -2177,16 +2211,28 @@ e_britannia = {
 					province = 1544
 
 					color = { 230 15 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Wintancaester"
+					}
 				}
 				b_southampton = {
 					province = 1545
 
 					color = { 230 15 55 }
+					
+					cultural_names = {
+						name_list_anglo_saxon = "Hamwic"
+					}
 				}
 				b_portsmouth = {
 					province = 1546
 
 					color = { 230 15 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Portesmuða"
+					}
 				}
 				b_basingstoke = {
 					province = 1547
@@ -8012,6 +8058,7 @@ e_byzantium = {
 
 						name_list_bulgarian = "Tsargrad"
 						name_list_serbian = "Tsargrad"
+						name_list_russian = "Tsargrad"
 
 						name_list_norse = "Miklagarðr"
 					}
