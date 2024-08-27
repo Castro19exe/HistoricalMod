@@ -84,7 +84,7 @@ tribe_01 = {
 		names = {
 			"prairie_tribal_mesh"
 		}
-		graphical_cultures = { prairie_building_gfx }
+		graphical_cultures = { sami_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
