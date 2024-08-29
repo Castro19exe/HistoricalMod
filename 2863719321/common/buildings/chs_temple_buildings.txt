@@ -9,6 +9,7 @@
 @illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
 @illustration_china = "gfx/interface/illustrations/holding_types/temple_china.dds"
+@illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/holding_illustrations_by_scratch/temple_sahelian_islamic.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time
@@ -41,13 +42,21 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	
 	asset = {
 		type = pdxmesh
 		name = "building_western_temple_pagan_01_mesh"
 		illustration = @illustration_northern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_01_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 	
 	### DHARMIC ###
@@ -180,6 +189,15 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_01_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 
 	# FP2 Catholic variant for Iberia
@@ -524,13 +542,21 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	
 	asset = {
 		type = pdxmesh
 		name = "building_western_temple_pagan_01_mesh"
 		illustration = @illustration_northern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_01_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 	
 	### DHARMIC ###
@@ -663,6 +689,15 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_01_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 
 	# FP2 Catholic variant for Iberia
@@ -889,13 +924,21 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	
 	asset = {
 		type = pdxmesh
 		name = "building_western_temple_pagan_02_mesh"
 		illustration = @illustration_northern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "pagan_gfx" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_02_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 2 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 	
 	### DHARMIC ###
@@ -1028,6 +1071,15 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_02_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 2 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 
 	# FP2 Catholic variant for Iberia
@@ -1245,13 +1297,21 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	
 	asset = {
 		type = pdxmesh
 		name = "building_western_temple_pagan_02_mesh"
 		illustration = @illustration_northern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "pagan_gfx" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_02_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 3 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
 	}
 	
 	### DHARMIC ###
@@ -1385,6 +1445,16 @@ temple_04 = {
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "sahelian_temple_islam_02_mesh"
+		illustration = @illustration_sahelian_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 3 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_regions = { "graphical_mena" }
+		graphical_cultures = { "sahelian_building_gfx" }
+	}
+
 	# FP2 Catholic variant for Iberia
 	asset = {
 		type = pdxmesh
