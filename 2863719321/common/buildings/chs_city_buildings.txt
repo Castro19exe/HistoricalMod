@@ -6,7 +6,8 @@
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds"
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds"
 @holding_illustration_china = "gfx/interface/illustrations/holding_types/castle_china.dds"
-holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
+@holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
+@holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/city_sahelian.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -230,10 +231,9 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -682,10 +682,9 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1113,10 +1112,9 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1536,10 +1534,9 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
