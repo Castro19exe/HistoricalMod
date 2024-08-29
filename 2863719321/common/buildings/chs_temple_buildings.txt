@@ -9,7 +9,7 @@
 @illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
 @illustration_china = "gfx/interface/illustrations/holding_types/temple_china.dds"
-@illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/holding_illustrations_by_scratch/temple_sahelian_islamic.dds"
+@illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time
