@@ -230,7 +230,7 @@ city_01 = {
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
-		name = "sahelian_city_01_mesh"
+		name = "building_sahelian_city_01_mesh"
 		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { sahelian_building_gfx }
@@ -681,7 +681,7 @@ city_02 = {
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
-		name = "sahelian_city_01_mesh"
+		name = "building_sahelian_city_01_mesh"
 		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { sahelian_building_gfx }
@@ -1111,7 +1111,7 @@ city_03 = {
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
-		name = "sahelian_city_02_mesh"
+		name = "building_sahelian_city_02_mesh"
 		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { sahelian_building_gfx }
@@ -1533,7 +1533,7 @@ city_04 = {
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
-		name = "sahelian_city_02_mesh"
+		name = "building_sahelian_city_02_mesh"
 		illustration = @holding_illustration_sahelian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { sahelian_building_gfx }
