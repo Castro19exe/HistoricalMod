@@ -2904,6 +2904,11 @@ e_britannia = {
 					province = 1741
 
 					color = { 220 130 0 }
+
+					cultural_names = {
+						name_list_gaelic = "Baile Iain"
+						name_list_scottish = "Johnstoun"
+					}
 				}
 
 				b_coupar_angus = {
@@ -2944,6 +2949,11 @@ e_britannia = {
 					province = 1734
 
 					color = { 245 130 0 }
+
+					cultural_names = {
+						name_list_gaelic = "Sruighlea"
+						name_list_scottish = "Stirlin"
+					}
 				}
 				b_callander = {
 					province = 1735
@@ -2963,7 +2973,13 @@ e_britannia = {
 					province = 1743
 
 					color = { 225 155 20 }
+
+					cultural_names = {
+						name_list_gaelic = "Dùn Chailleann"
+						name_list_scottish = "Dunkell"
+					}
 				}
+				
 				b_aberfeldy = {
 					province = 1744
 
@@ -3118,6 +3134,10 @@ e_britannia = {
 					province = 1696
 
 					color = { 230 150 50 }
+
+					cultural_names = {
+						name_list_gaelic = "Glaschu"
+					}
 				}
 				b_meneith = {
 					province = 1697
@@ -3477,6 +3497,11 @@ e_britannia = {
 					province = 1715
 
 					color = { 255 180 60 }
+
+					cultural_names = {
+						name_list_gaelic = "Eilginn"
+						name_list_scottish = "Ailgin"
+					}
 				}
 				b_keith = {
 					province = 1716
@@ -3525,6 +3550,11 @@ e_britannia = {
 					province = 1712
 
 					color = { 255 175 75 }
+
+					cultural_names = {
+						name_list_gaelic = "Banbh"
+						name_list_scottish = "Bamff"
+					}
 				}
 				b_mortlach = {
 					province = 1713
@@ -3606,10 +3636,20 @@ e_britannia = {
 			c_inverness = {
 				color = { 240 160 45 }
 
+				cultural_names = {
+					name_list_gaelic = "Inbhir Nis"
+					name_list_scottish = "Innerness"
+				}
+
 				b_inverness = {
 					province = 1709
 
 					color = { 240 160 45 }
+					
+					cultural_names = {
+						name_list_gaelic = "Inbhir Nis"
+						name_list_scottish = "Innerness"
+					}
 				}
 				b_badenoch = {
 					province = 1710
