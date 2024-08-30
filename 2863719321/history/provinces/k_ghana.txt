@@ -210,12 +210,6 @@
 	# Misc
 	culture = soninke
 	religion = west_african_bidu_pagan
-
-	966.1.1 {
-		buildings = {
-			castle_04
-		}
-	}
 	
 	# History
 	1076.1.1 = { religion = ashari }
@@ -228,12 +222,6 @@
 	# Misc
 	culture = soninke
 	religion = west_african_bidu_pagan
-
-	966.1.1 {
-		buildings = {
-			temple_04
-		}
-	}
 	
 	# History
 	1076.1.1 = { religion = ashari }
