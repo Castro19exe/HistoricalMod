@@ -19883,6 +19883,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_danzig
 					name_list_swabian = cn_danzig
 					name_list_bavarian = cn_danzig
+					name_list_thuringian = cn_danzig
 				}
 
 				b_gdansk = {
@@ -19893,6 +19894,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_danzig
 						name_list_swabian = cn_danzig
 						name_list_bavarian = cn_danzig
+						name_list_thuringian = cn_danzig
 					}
 
 					color = { 75 125 75 }
