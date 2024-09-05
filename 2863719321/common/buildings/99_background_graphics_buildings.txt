@@ -33,6 +33,13 @@ walls_01_tribal = {
 		}
 	}
 
+	asset = {
+		type = entity
+		names = { "celtic_wall_01_entity" "celtic_wall_01_a_entity" "brythonic_wall_01_entity" }
+		graphical_cultures = { celtic_building_gfx }
+		#graphical_regions = { graphical_western }
+	}
+
 	is_enabled = {
 		OR = {
 			is_county_capital = yes
@@ -65,6 +72,14 @@ walls_01 = {
 			"western_walls_01_b_mesh"
 		}
 	}
+
+	asset = {
+		type = pdxmesh
+		names = { "western_walls_01_a_mesh" "western_walls_01_b_mesh" "walls_01_celtic_mesh" }
+		graphical_cultures = { celtic_building_gfx }
+		#graphical_regions = { graphical_western }
+	}
+
 	asset = {
 		type = pdxmesh
 		names = {
@@ -153,6 +168,13 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
+		name = "walls_02_celtic_mesh"
+		graphical_cultures = { celtic_building_gfx }
+		#graphical_regions = { graphical_western }
+	}
+
+	asset = {
+		type = pdxmesh
 		graphical_regions = { graphical_mena }
 		names = {
 			"mena_walls_02_a_mesh"
@@ -160,6 +182,12 @@ walls_02 = {
 		}
 	}
 
+	asset = {
+		type = pdxmesh
+		name = "walls_02_sahelian_mesh"
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -239,6 +267,13 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
+		name = "walls_03_celtic_mesh"
+		graphical_cultures = { celtic_building_gfx }
+		#graphical_regions = { graphical_western }
+	}
+
+	asset = {
+		type = pdxmesh
 		graphical_regions = { graphical_mediterranean }
 		names = {
 			"mediterranean_walls_03_a_mesh"
@@ -253,6 +288,13 @@ walls_03 = {
 			"mena_walls_03_a_mesh"
 			"mena_walls_03_a_mesh"
 		}
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "walls_03_sahelian_mesh"
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	asset = {
@@ -325,6 +367,13 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
+		name = "walls_04_celtic_mesh"
+		graphical_cultures = { goidelic_building_gfx brythonic_building_gfx }
+		#graphical_regions = { graphical_western }
+	}
+
+	asset = {
+		type = pdxmesh
 		graphical_regions = { graphical_mediterranean }
 		names = {
 			"mediterranean_walls_04_a_mesh"
@@ -339,6 +388,13 @@ walls_04 = {
 			"mena_walls_04_a_mesh"
 			"mena_walls_04_a_mesh"
 		}
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "walls_04_sahelian_mesh"
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	asset = {
