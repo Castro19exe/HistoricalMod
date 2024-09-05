@@ -3390,6 +3390,11 @@ e_britannia = {
 					province = 1727
 
 					color = { 185 90 25 }
+
+					cultural_names = {
+						name_list_gaelic = "Dùn Èideann"
+						name_list_norse = "Edinborg"
+					}
 				}
 				b_haddington = {
 					province = 1728
