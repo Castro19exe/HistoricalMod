@@ -334,7 +334,7 @@
 ##d_rif ###################################
 ###c_tangiers
 4683 = {	#TANGIERS
-	culture = afro_roman
+	culture = baranis
 	religion = muwalladi
 	holding = castle_holding
 	867.1.1 = {
@@ -343,7 +343,6 @@
 		}
 	}
 	1066.1.1 = {
-		culture = baranis
 		buildings = {
 			common_tradeport_01
 			plantations_01
@@ -363,7 +362,7 @@
 
 ###c_ceuta
 4682 = {	#SABTA
-	culture = afro_roman
+	culture = baranis
 	religion = muwalladi
 	holding = castle_holding
 	1066.1.1 = {

@@ -122,6 +122,9 @@
 	culture = afro_roman
 	religion = ashari
 	holding = castle_holding
+	900.1.1 = {
+		culture = baranis
+	}
 }
 4586 = {	#TABARQA
 	holding = church_holding
@@ -307,6 +310,9 @@
 	culture = afro_roman
 	religion = ibadi
 	holding = castle_holding
+	900.1.1 = {
+		culture = butr
+	}
 }
 4568 = {	#SABRATHA
 	holding = city_holding
