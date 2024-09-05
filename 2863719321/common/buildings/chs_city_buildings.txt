@@ -219,14 +219,14 @@ city_01 = {
 	}
 
 	### CELTIC ###
-	#asset = {
-	#	type = pdxmesh
-	#	name = "building_celtic_city_02_mesh"
-	#	illustration = @holding_illustration_celtic
-	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-	#	graphical_cultures = { celtic_building_gfx }
-	#	graphical_regions = { graphical_western }
-	#}
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_01_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
 
 	### SAHELIAN ###
 	asset = {
