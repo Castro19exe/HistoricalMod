@@ -37,14 +37,6 @@ walls_01_tribal = {
 		type = entity
 		names = { "celtic_wall_01_entity" "celtic_wall_01_a_entity" "brythonic_wall_01_entity" }
 		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
-	}
-
-	asset = {
-		type = entity
-		name = "guinean_walls_tribal_01_entity"
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	is_enabled = {
@@ -84,14 +76,6 @@ walls_01 = {
 		type = pdxmesh
 		names = { "walls_01_celtic_mesh" }
 		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "guinean_walls_01_mesh"
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 
 	asset = {
@@ -99,7 +83,6 @@ walls_01 = {
 		names = {
 			"mena_walls_01_a_mesh"
 			"mena_walls_01_b_mesh"
-
 		}
 		graphical_regions = { graphical_mena }
 	}
@@ -184,7 +167,6 @@ walls_02 = {
 		type = pdxmesh
 		name = "walls_02_celtic_mesh"
 		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 
 	asset = {
@@ -198,7 +180,7 @@ walls_02 = {
 	
 	asset = {
 		type = pdxmesh
-		name = "guinean_walls_02_mesh"
+		name = "walls_02_sahelian_mesh"
 		graphical_cultures = { sahelian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
@@ -283,7 +265,6 @@ walls_03 = {
 		type = pdxmesh
 		name = "walls_03_celtic_mesh"
 		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 
 	asset = {
@@ -306,7 +287,7 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "guinean_walls_03_mesh"
+		name = "walls_03_sahelian_mesh"
 		graphical_cultures = { sahelian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
@@ -383,7 +364,6 @@ walls_04 = {
 		type = pdxmesh
 		name = "walls_04_celtic_mesh"
 		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 
 	asset = {
@@ -406,7 +386,7 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "guinean_walls_04_mesh"
+		name = "walls_04_sahelian_mesh"
 		graphical_cultures = { sahelian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
