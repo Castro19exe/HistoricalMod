@@ -194,10 +194,18 @@ walls_02 = {
 	}
 	
 	asset = {
+		#type = pdxmesh
+		#name = "walls_02_sahelian_mesh"
+		#graphical_cultures = { sahelian_building_gfx }
+		#graphical_regions = { graphical_mena }
+
 		type = pdxmesh
-		name = "walls_02_sahelian_mesh"
+		requires_dlc_flag = the_northern_lords
 		graphical_cultures = { sahelian_building_gfx }
 		graphical_regions = { graphical_mena }
+		names = {
+			"fp1_norse_walls_02_mena_mesh"
+		}
 	}
 
 	asset = {
