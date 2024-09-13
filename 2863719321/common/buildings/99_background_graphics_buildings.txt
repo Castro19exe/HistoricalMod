@@ -33,6 +33,13 @@ walls_01_tribal = {
 		}
 	}
 
+	asset = {
+		type = entity
+		names = { "celtic_wall_01_entity" "celtic_wall_01_a_entity" "brythonic_wall_01_entity" }
+		graphical_cultures = { celtic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+
 	is_enabled = {
 		OR = {
 			is_county_capital = yes
