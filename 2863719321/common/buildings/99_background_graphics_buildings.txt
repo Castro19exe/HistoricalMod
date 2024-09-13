@@ -33,13 +33,6 @@ walls_01_tribal = {
 		}
 	}
 
-	asset = {
-		type = entity
-		names = { "celtic_wall_01_entity" "celtic_wall_01_a_entity" "brythonic_wall_01_entity" }
-		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
-	}
-
 	is_enabled = {
 		OR = {
 			is_county_capital = yes
@@ -85,7 +78,8 @@ walls_01 = {
 
 	asset = {
 		type = pdxmesh
-		names = { "western_walls_01_a_mesh" "western_walls_01_b_mesh" "walls_01_celtic_mesh" }
+		#names = { "western_walls_01_a_mesh" "western_walls_01_b_mesh" "walls_01_celtic_mesh" }
+		names = { "walls_01_celtic_mesh" }
 		graphical_cultures = { celtic_building_gfx }
 		graphical_regions = { graphical_western }
 	}
@@ -197,18 +191,10 @@ walls_02 = {
 	}
 	
 	asset = {
-		#type = pdxmesh
-		#name = "walls_02_sahelian_mesh"
-		#graphical_cultures = { sahelian_building_gfx }
-		#graphical_regions = { graphical_mena }
-
 		type = pdxmesh
-		requires_dlc_flag = the_northern_lords
+		name = "walls_02_sahelian_mesh"
 		graphical_cultures = { sahelian_building_gfx }
 		graphical_regions = { graphical_mena }
-		names = {
-			"fp1_norse_walls_02_mena_mesh"
-		}
 	}
 
 	asset = {
