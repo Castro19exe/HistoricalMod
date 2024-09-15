@@ -239,7 +239,7 @@
 ##d_fes ###################################
 ###c_fes
 4694 = {	#FES
-	culture = maghrebi
+	culture = baranis
 	religion = ashari
 	holding = castle_holding
 	867.1.1 = {
