@@ -16,7 +16,7 @@
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {
 		33 = circumpolar_dark_hair
@@ -106,7 +106,7 @@ karelian = {
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {
 		50 = circumpolar_dark_hair
@@ -132,7 +132,7 @@ vepsian = {
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {
 		50 = circumpolar_dark_hair
