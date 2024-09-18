@@ -70,6 +70,11 @@
 	}
 	1050.1.1 = {
 		holding = castle_holding
+		### REMOVE AFTER
+		buildings = {
+			castle_04
+			curtain_walls_07
+		}
 	}
 }
 9538 = {	# Wuyuan/Uyuvan
