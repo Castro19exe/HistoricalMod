@@ -139,8 +139,9 @@ walls_01 = {
 
 	asset = {
 		type = pdxmesh
-		names = { "chinese_walls_01_mesh" }
+		name = "chinese_walls_01_mesh"
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 	
 	is_enabled = {
@@ -258,8 +259,9 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
-		names = { "chinese_walls_02_mesh" }
+		name = "chinese_walls_02_mesh"
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 
 	is_enabled = {
@@ -387,8 +389,9 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
-		names = { "chinese_walls_03_mesh" }
+		name = "chinese_walls_03_mesh"
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 	
 	is_enabled = {
@@ -518,8 +521,9 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
-		names = { "chinese_walls_04_mesh" }
+		name = "chinese_walls_04_mesh" 
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 
 	
