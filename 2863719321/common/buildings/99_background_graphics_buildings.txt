@@ -97,6 +97,7 @@ walls_01 = {
 		type = pdxmesh
 		names = { "chinese_walls_01_mesh" }
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 
 	asset = {
@@ -216,6 +217,7 @@ walls_02 = {
 		type = pdxmesh
 		names = { "chinese_walls_02_mesh" }
 		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 
 	asset = {
@@ -336,7 +338,7 @@ walls_03 = {
 		type = pdxmesh
 		names = { "chinese_walls_03_mesh" }
 		graphical_cultures = { chinese_building_gfx }
-		
+		graphical_regions = { world_steppe_east }
 	}
 
 	#asset = {
@@ -467,7 +469,8 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		names = { "chinese_walls_04_mesh" }
-		graphical_cultures = { chinese_building_gfx }	
+		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { world_steppe_east }
 	}
 
 	#asset = {
