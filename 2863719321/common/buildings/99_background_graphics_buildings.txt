@@ -95,10 +95,8 @@ walls_01 = {
 
 	asset = {
 		type = pdxmesh
+		names = { "chinese_walls_01_mesh" }
 		graphical_cultures = { chinese_building_gfx }
-		names = {
-			"chinese_walls_01_mesh"
-		}
 	}
 
 	asset = {
@@ -216,10 +214,8 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
+		names = { "chinese_walls_02_mesh" }
 		graphical_cultures = { chinese_building_gfx }
-		names = {
-			"chinese_walls_02_mesh"
-		}
 	}
 
 	asset = {
@@ -338,10 +334,9 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
+		names = { "chinese_walls_03_mesh" }
 		graphical_cultures = { chinese_building_gfx }
-		names = {
-			"chinese_walls_03_mesh"
-		}
+		
 	}
 
 	#asset = {
@@ -471,10 +466,8 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
-		graphical_cultures = { chinese_building_gfx }
-		names = {
-			"chinese_walls_04_mesh"
-		}
+		names = { "chinese_walls_04_mesh" }
+		graphical_cultures = { chinese_building_gfx }	
 	}
 
 	#asset = {

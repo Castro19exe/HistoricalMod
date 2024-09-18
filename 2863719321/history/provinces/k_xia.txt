@@ -70,11 +70,6 @@
 	}
 	1050.1.1 = {
 		holding = castle_holding
-		### REMOVE AFTER
-		buildings = {
-			castle_04
-			curtain_walls_07
-		}
 	}
 }
 9538 = {	# Wuyuan/Uyuvan
@@ -310,6 +305,11 @@
 	} #Tibetans overtake the Xining area
 	1140.1.1 = {
 		religion = vajrayana
+		### REMOVE AFTER ###
+		buildings = {
+			castle_04
+			curtain_walls_07
+		}
 	} #Xi Xia
 }
 9417 = {	# Chuankou (Minhe)
