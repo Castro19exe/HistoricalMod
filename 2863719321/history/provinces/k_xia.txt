@@ -385,7 +385,7 @@
 	### REMOVE AFTER ###
 		buildings = {
 			castle_04
-			curtain_walls_07
+			curtain_walls_01
 		}
 	
 	# History
