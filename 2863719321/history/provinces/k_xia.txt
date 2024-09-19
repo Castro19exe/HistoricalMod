@@ -382,11 +382,6 @@
 	religion = mahayana
 	
 	holding = castle_holding
-	### REMOVE AFTER ###
-		buildings = {
-			castle_04
-			curtain_walls_01
-		}
 	
 	# History
 	894.1.1 = {
