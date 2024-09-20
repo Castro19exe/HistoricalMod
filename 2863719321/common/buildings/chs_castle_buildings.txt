@@ -215,13 +215,13 @@ castle_01 = {
 	}
 
 	### BERBER ###
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_01_mesh"
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
+	#asset = {
+	#	type = pdxmesh
+	#	name = "building_mena_castle_01_mesh"
+	#	illustration = @holding_illustration_berber
+	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+	#	graphical_cultures = { berber_group_building_gfx }
+	#}
 
 	### FP1 Norse ###
 	asset = {
@@ -626,13 +626,13 @@ castle_02 = {
 	}
 
 	### BERBER ###
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_02_mesh"
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
+	#asset = {
+	#	type = pdxmesh
+	#	name = "building_mena_castle_02_mesh"
+	#	illustration = @holding_illustration_berber
+	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+	#	graphical_cultures = { berber_group_building_gfx }
+	#}
 
 	### FP1 Norse ###
 	asset = {
@@ -1037,13 +1037,13 @@ castle_03 = {
 	}
 
 	### BERBER ###
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_03_mesh"
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
+	#asset = {
+	#	type = pdxmesh
+	#	name = "building_mena_castle_03_mesh"
+	#	illustration = @holding_illustration_berber
+	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+	#	graphical_cultures = { berber_group_building_gfx }
+	#}
 
 	### FP1 Norse ###
 	asset = {
@@ -1439,13 +1439,13 @@ castle_04 = {
 	}
 
 	### BERBER ###
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_04_mesh"
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
+	#asset = {
+	#	type = pdxmesh
+	#	name = "building_mena_castle_04_mesh"
+	#	illustration = @holding_illustration_berber
+	#	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+	#	graphical_cultures = { berber_group_building_gfx }
+	#}
 
 	### FP1 Norse ###
 	asset = {
