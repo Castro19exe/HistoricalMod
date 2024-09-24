@@ -1,33 +1,5 @@
-﻿georgian = {
-	#color = georgian
-	color = { 165 155 155 }
-	
-	ethos = ethos_communal
-	heritage = heritage_caucasian
-	language = language_georgian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hereditary_hierarchy
-		#tradition_esteemed_hospitality
-		tradition_metal_craftsmanship
-		tradition_castle_keepers
-		tradition_caucasian_wolves
-	}
-	
-	name_list = name_list_georgian
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean_byzantine
-	}
-}
-
-circassian = {
-	color = { 160 150 140 }
+﻿circassian = {
+	color = { 255, 107, 15 }
 
 	ethos = ethos_communal
 	heritage = heritage_caucasian
@@ -51,7 +23,7 @@ circassian = {
 }
 
 durdzuk = {
-	color = { 140 140 170 }
+	color = { 201, 64, 0 }
 
 	ethos = ethos_communal
 	heritage = heritage_caucasian
@@ -71,36 +43,6 @@ durdzuk = {
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 
-	ethnicities = {
-		10 = mediterranean_byzantine
-	}
-}
-
-alan = {
-	color = { 5 113 168 }
-	created = 100.1.1
-	
-	history_loc_override = scythian_heritage_loc
-	
-	ethos = ethos_communal                  
-	heritage = heritage_iranian                                      # It's between Caucasian or Iranian
-	language = language_scythian
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_horse_lords
-		tradition_mountaineers
-		tradition_steppe_tolerance
-		tradition_wedding_ceremonies
-	}
-	
-	name_list = name_list_alan
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { iranian_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
-	clothing_gfx = { iranian_clothing_gfx }
-	unit_gfx = { west_iranian_unit_gfx }
-	
 	ethnicities = {
 		10 = mediterranean_byzantine
 	}
