@@ -1,5 +1,7 @@
 ﻿russian = {
 	color = russian
+	created = 1000.1.1
+	parents = { severian }
 
 	history_loc_override = russian_history_loc
 	
