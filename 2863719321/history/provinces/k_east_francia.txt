@@ -98,7 +98,12 @@
 		buildings = {
 			cereal_fields_01
 			barracks_01
+			#hunting_grounds_01
 		}
+	}
+	1120.1.1 = {
+		culture = thuringian
+		religion = catholic
 	}
 }
 3019 = {	#LEIPZIG

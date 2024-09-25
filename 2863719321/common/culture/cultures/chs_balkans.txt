@@ -151,38 +151,6 @@ dalmatian = {
 	}
 }
 
-arberian = {
-	color = { 0.5 0.3 0.7 }
-	created = 600.1.1							
-	parents = { illyrian }
-	
-	ethos = ethos_stoic
-	heritage = heritage_byzantine
-	language = language_illyrian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountain_homes					#would be hill experts but terrain is mountainous in game
-		tradition_tribe_unity						#family very important, even today
-		tradition_hit_and_run						#stratioti
-		
-	}
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists	#culture stuck around after multiple empires and rulers
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_arberian
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
 croatian = {
 	color = { 0.4 0.2 0.2 }
 	created = 650.1.1
