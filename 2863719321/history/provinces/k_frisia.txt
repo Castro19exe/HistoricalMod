@@ -27,7 +27,7 @@
 
 ###c_westfriesland
 2405 = {	#HAARLEM
-	culture = frisian
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }
@@ -125,7 +125,7 @@
 
 ###c_oversticht
 2421 = {	#ZWOLLE
-	culture = saxon
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }
@@ -150,7 +150,7 @@
 
 ###c_groningen
 2417 = {	#GRONINGEN
-	culture = saxon
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }

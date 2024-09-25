@@ -4,6 +4,7 @@
 @correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
+@never_primary_score = -1000
 
 # EMPIRES
 
@@ -361,6 +362,10 @@ e_golden_horde = {
 	definite_form = yes
 
 	capital = c_itil
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_ilkhanate = {
@@ -370,6 +375,10 @@ e_ilkhanate = {
 	definite_form = yes
 
 	capital = c_tabriz
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_chagatai = {
@@ -379,6 +388,10 @@ e_chagatai = {
 	#definite_form = yes
 
 	capital = c_samarkand
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_black_horde = {
@@ -388,6 +401,10 @@ e_black_horde = {
 	definite_form = yes
 
 	capital = c_delhi
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_white_horde = {
@@ -397,6 +414,10 @@ e_white_horde = {
 	definite_form = yes
 
 	capital = c_praha
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_aarlud_khanate = {
@@ -406,6 +427,10 @@ e_aarlud_khanate = {
 	definite_form = yes
 
 	capital = c_upland
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_togskol_khanate = {
@@ -415,6 +440,10 @@ e_togskol_khanate = {
 	definite_form = yes
 
 	capital = c_roma
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_baruun_khanate = {
@@ -424,6 +453,10 @@ e_baruun_khanate = {
 	definite_form = yes
 
 	capital = c_alexandria
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 e_uyghur_khanate = {
@@ -432,6 +465,10 @@ e_uyghur_khanate = {
 	definite_form = yes
 
 	capital = c_karabalgasun
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 
 	ai_primary_priority = {
 		if = {
@@ -684,7 +721,6 @@ e_outremer = {
 	ai_primary_priority = {
 		add = @always_primary_score
 	}
-
 }
 
 # FP2
@@ -991,6 +1027,10 @@ e_hre = {
 
 	capital = c_aachen
 	definite_form = yes
+	
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 
 	ai_primary_priority = {
 		if = {
@@ -8070,7 +8110,12 @@ e_byzantium = {
 			if = {
 				limit = {
 					NOT = { culture = culture:greek }
-					culture = { has_cultural_pillar = heritage_byzantine }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_byzantine
+							has_cultural_pillar = heritage_caucasian
+						}
+					} 
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -8096,7 +8141,7 @@ e_byzantium = {
 					color = { 180 25 100 }
 
 					cultural_names = {
-						name_list_turkish = "Kostantiniyye"
+						name_list_turkish = cn_konstantiniyye
 
 						name_list_greek = "Konstantinoupolis"
 						name_list_roman = "Constantinopolis"
@@ -11343,7 +11388,12 @@ e_byzantium = {
 			if = {
 				limit = {
 					NOT = { culture = culture:greek }
-					culture = { has_cultural_pillar = heritage_byzantine }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_byzantine
+							has_cultural_pillar = heritage_caucasian
+						}
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -11447,7 +11497,12 @@ e_byzantium = {
 			if = {
 				limit = {
 					NOT = { culture = culture:greek }
-					culture = { has_cultural_pillar = heritage_byzantine }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_byzantine
+							has_cultural_pillar = heritage_caucasian
+						}
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -12190,7 +12245,12 @@ e_byzantium = {
 			if = {
 				limit = {
 					NOT = { culture = culture:greek }
-					culture = { has_cultural_pillar = heritage_byzantine }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_byzantine
+							has_cultural_pillar = heritage_caucasian
+						}
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -12308,6 +12368,11 @@ e_byzantium = {
 					cultural_names = {
 						name_list_turkish = cn_ninica
 					}
+				}
+				b_soloi = {
+					province = 5674
+
+					color = { 200 20 40 }
 				}
 			}
 			c_lycandus = {
@@ -12568,7 +12633,7 @@ e_byzantium = {
 			}
 
 			c_lycaonia = {
-				color = { 200 50 50 }
+				color = { 210 50 60 }
 
 				cultural_names = {
 					name_list_greek = cn_lykaonia
@@ -12835,7 +12900,7 @@ e_byzantium = {
 				color = { 200 20 40 }
 
 				cultural_names = {
-					name_list_turkish = cn_bozkir
+					name_list_turkish = cn_sirista
 				}
 
 				b_isaura = {
@@ -12844,7 +12909,7 @@ e_byzantium = {
 					color = { 200 20 40 }
 
 					cultural_names = {
-						name_list_turkish = cn_zengibar_kalesi
+						name_list_turkish = cn_sirista
 					}
 				}
 				b_laranalia = {
@@ -12855,11 +12920,6 @@ e_byzantium = {
 					cultural_names = {
 						name_list_turkish = cn_karaman
 					}
-				}
-				b_soloi = {
-					province = 5674
-
-					color = { 200 20 40 }
 				}
 				b_derbe = {
 					province = 5675
@@ -13089,6 +13149,15 @@ e_byzantium = {
 						name_list_turkish = cn_gemerek
 					}
 				}
+				b_arasaxa = {
+					province = 5616
+
+					color = { 205 118 118 }
+
+					cultural_names = {
+						name_list_turkish = cn_akmescit
+					}
+				}
 			}
 			c_kyzistra = {
 				color = { 205 118 118 }
@@ -13115,15 +13184,6 @@ e_byzantium = {
 						name_list_turkish = cn_zile
 					}
 				}
-				b_arasaxa = {
-					province = 5616
-
-					color = { 205 118 118 }
-
-					cultural_names = {
-						name_list_turkish = cn_akmescit
-					}
-				}
 			}
 		}
 	}
@@ -13143,7 +13203,12 @@ e_byzantium = {
 			if = {
 				limit = {
 					NOT = { culture = culture:greek }
-					culture = { has_cultural_pillar = heritage_byzantine }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_byzantine
+							has_cultural_pillar = heritage_caucasian
+						}
+					}
 				}
 				add = @better_than_the_alternatives_score
 			}
@@ -14368,27 +14433,27 @@ e_byzantium = {
 		}
 
 		d_georgia = {
-			color = { 200 185 185 }
+			color = { 184 156 156 }
 
 			capital = c_tbilisi # Tbilisi
 
 			c_tbilisi = {
-				color = { 200 195 195 }
+				color = { 161 137 137 }
 
 				b_tbilisi = {
 					province = 5759
 
-					color = { 200 185 185 }
+					color = { 161 137 137 }
 				}
 				b_dmanisi = {
 					province = 5758
 
-					color = { 200 185 185 }
+					color = { 161 137 137 }
 				}
 				b_rustavi = {
 					province = 5760
 
-					color = { 200 185 185 }
+					color = { 161 137 137 }
 				}
 			}
 			c_lori = {
@@ -15058,6 +15123,10 @@ e_italy = {
 	color = { 234 217 110 }
 
 	capital = c_roma # Rome
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 
 	ai_primary_priority = {
 		if = {
@@ -16418,6 +16487,10 @@ e_scandinavia = {
 	color = { 62 122 189 }
 
 	capital = c_skane #Lund - Archbishop seat of Scandinavia
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 
 	ai_primary_priority = {
 		if = {
@@ -18309,7 +18382,7 @@ e_scandinavia = {
 			capital = c_nedenes # Arendall
 
 			c_nedenes = {
-				color = { 170 30 30 }
+				color = { 180 20 30 }
 
 				b_arendall = {
 					province = 249
