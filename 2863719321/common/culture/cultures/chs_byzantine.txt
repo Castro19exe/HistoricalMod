@@ -5,18 +5,37 @@
 	heritage = heritage_byzantine
 	language = language_greek
 	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_roman_legacy
-		tradition_byzantine_succession
-		tradition_formation_fighting
-		tradition_legalistic
-		tradition_philosopher_culture	
+	
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_palace_politics
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	dlc_tradition = {
+		trait = tradition_religious_patronage
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_religious_patronage
 	}
 	
 	name_list = name_list_greek
 	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
@@ -27,8 +46,9 @@
 
 copt = {
 	color = { 0.6 0.4 0.6 }
-	parents = { greek }
 	created = 50.1.1
+	parents = { greek }
+	
 	history_loc_override = copt_history_loc
 
 	ethos = ethos_spiritual
@@ -45,8 +65,8 @@ copt = {
 	
 	name_list = name_list_copt
 
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
@@ -57,7 +77,8 @@ copt = {
 }
 
 assyrian = {
-	color = assyrian
+	#color = assyrian
+	color = { 0.4 0.49 0.63 }
 	
 	ethos = ethos_communal
 	heritage = heritage_byzantine
