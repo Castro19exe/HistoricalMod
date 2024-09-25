@@ -55,8 +55,8 @@ levantine = {
 
 egyptian = {
 	#color = { 0.1 0.6 0.1 }
-	color = { 45 73 61 }
-	created = 600.1.1
+	color = { 18 91 19 }
+	created = 650.1.1
 	parents = { bedouin copt }
 	
 	ethos = ethos_spiritual
@@ -84,8 +84,8 @@ egyptian = {
 
 maghrebi = {
 	#color = { 0.1 0.6 0.1 }
-	color = { 113 111 72 }
-	created = 600.1.1
+	color = { 80 111 0 }
+	created = 700.1.1
 	parents = { bedouin baranis }
 	
 	ethos = ethos_spiritual
