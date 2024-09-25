@@ -2,7 +2,7 @@
 ##d_volhynia ###################################
 ###c_volodymyr
 535 = {		#Volodymyr
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -10,7 +10,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5047 = {	#Lutsk
@@ -31,7 +30,7 @@
 
 ###c_peresopnytsia
 5051 = {	#Peresopnytsia
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -39,7 +38,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5052 = {	# Rivne
@@ -51,7 +49,7 @@
 
 ###c_berestye
 549 = {		#Berestye
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	985.1.1 = {
@@ -59,7 +57,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5054 = {	#Bielsk
@@ -80,7 +77,7 @@
 
 ###c_dorohychyn
 5057 = {	#Dorohychyn
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	985.1.1 = {
@@ -88,7 +85,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5058 = {	#Kobryn
@@ -161,7 +157,7 @@
 
 ###c_terebovl
 546 = {		#Terebovl
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -169,7 +165,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5068 = {	#Horodok
@@ -181,7 +176,7 @@
 
 ###c_zaslavl
 5070 = {	#Zaslavl
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -189,7 +184,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5071 = {	#Dubno
@@ -208,7 +202,7 @@
 ##d_cherven_cities ###################################
 ###c_cherven
 5073 = {	#Cherven
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -216,7 +210,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5074 = {	#Volin
@@ -239,7 +232,7 @@
 }
 ###c_belz
 5077 = {	#Belz
-	culture = volhynian
+	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -247,7 +240,6 @@
 	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
 5078 = {	#Liubachev

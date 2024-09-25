@@ -57,7 +57,7 @@
 }
 
 200475 = {
-	name = "Roderic"
+	name = "Rodericho"
 	dynasty = 1046019
 
 	religion = catholic
@@ -1270,7 +1270,7 @@
 }
 
 200237 = {
-	name = "Erwig" # Ervigio, King of the Visigoths (680-687)
+	name = "Erwigio" # Ervigio, King of the Visigoths (680-687)
 	dynasty = erwigiana # Erwigio's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1312,7 +1312,7 @@
 }
 
 200240 = {
-	name = "Khindaswinth" # Chindasvinto, King of the Visigoths (642-653)
+	name = "Khindaswintho" # Chindasvinto, King of the Visigoths (642-653)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1480,7 +1480,7 @@
 }
 
 200249 = {
-	name = "Rekkeswinth" # Recesvinto, King of the Visigoths (653-672)
+	name = "Rekkeswintho" # Recesvinto, King of the Visigoths (653-672)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1518,7 +1518,7 @@
 }
 
 200251 = {
-	name = "Roderic" # Rodrigo, King of the Visigoths (710-711)
+	name = "Rodericho" # Rodrigo, King of the Visigoths (710-711)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1651,7 +1651,7 @@
 }
 
 200258 = {
-	name = "Rekkared" # Recaredo II, King of the Visigoths (621)
+	name = "Rekkaredo" # Recaredo II, King of the Visigoths (621)
 	dynasty = 1046034 # Sisebuto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1670,7 +1670,7 @@
 }
 
 200259 = {
-	name = "Sisebut" # Sisebuto, King of the Visigoths (612-621)
+	name = "Sisebuto" # Sisebuto, King of the Visigoths (612-621)
 	dynasty = 1046034 # Sisebuto's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1721,7 +1721,7 @@
 }
 
 200270 = {
-	name = "Witteric" # Witerico, King of the Visigoths (603-610)
+	name = "Wittericho" # Witerico, King of the Visigoths (603-610)
 	religion = catholic
 	culture = visigothic
 	trait = education_intrigue_2
@@ -1760,7 +1760,7 @@
 }
 
 200272 = {
-	name = "Rekkared" # Recaredo (I), King of the Visigoths (586-601)
+	name = "Rekkaredo" # Recaredo (I), King of the Visigoths (586-601)
 	dynasty = 1046033 # Leovigildo's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1785,7 +1785,7 @@
 }
 
 200273 = {
-	name = "Liuvigild" # Leovigildo, King of the Visigoths (572-586)
+	name = "Leovigildo" # Leovigildo, King of the Visigoths (572-586)
 	dynasty = 1046033 # Leovigildo's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1804,7 +1804,7 @@
 }
 
 200274 = {
-	name = "Liuvigild" # Liuverico, real name unknown
+	name = "Liuvericho" # Liuverico, real name unknown
 	dynasty = 1046033 # Leovigildo's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1838,7 +1838,7 @@
 }
 
 200276 = {
-	name = "Athanagild" # Atanagildo, King of the Visigoths (555-567)
+	name = "Athanagildo" # Atanagildo, King of the Visigoths (555-567)
 	dynasty = athanagildiana # Atanagildo's Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1872,7 +1872,7 @@
 }
 
 200278 = {
-	name = "Sisenand" # Sisenando, King of the Visigoths (631-636)
+	name = "Sisenando" # Sisenando, King of the Visigoths (631-636)
 	religion = catholic
 	culture = visigothic
 	trait = education_stewardship_2
@@ -1923,7 +1923,7 @@
 }
 
 200281 = {
-	name = "Amalaric" # Amalarico, King of the Visigoths (511-531)
+	name = "Amalaricho" # Amalarico, King of the Visigoths (511-531)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1942,7 +1942,7 @@
 }
 
 200282 = {
-	name = "Gesalec" # Gesaleico, King of the Visigoths (507-511)
+	name = "Gesalecho" # Gesaleico, King of the Visigoths (507-511)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1962,7 +1962,7 @@
 }
 
 200283 = {
-	name = "Alaric" # Alarico (II), King of the Visigoths (484-507)
+	name = "Alaricho" # Alarico (II), King of the Visigoths (484-507)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -1982,7 +1982,7 @@
 }
 
 200284 = {
-	name = "Euric" # Eurico, King of the Visigoths (466-484)
+	name = "Euricho" # Eurico, King of the Visigoths (466-484)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2000,7 +2000,7 @@
 }
 
 200285 = {
-	name = "Theodoric" # Teodorico (II), King of the Visigoths (453-466)
+	name = "Theodericho" # Teodorico (II), King of the Visigoths (453-466)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2021,7 +2021,7 @@
 }
 
 200286 = {
-	name = "Thorismund" # Turismundo, King of the Visigoths (451-453)
+	name = "Thorismondo" # Turismundo, King of the Visigoths (451-453)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2042,7 +2042,7 @@
 }
 
 200287 = {
-	name = "Theodoric" # Teodorico (I), King of the Visigoths (418-451)
+	name = "Theodericho" # Teodorico (I), King of the Visigoths (418-451)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2081,7 +2081,7 @@
 }
 
 200289 = {
-	name = "Sigeric" # Sigerico, King of the Visigoths (415)
+	name = "Sigericho" # Sigerico, King of the Visigoths (415)
 	religion = catholic
 	culture = visigothic
 	trait = education_intrigue_2
@@ -2098,7 +2098,7 @@
 }
 
 200290 = {
-	name = "Atawulf" # Ataúlfo, King of the Visigoths (410-415)
+	name = "Atawulfo" # Ataúlfo, King of the Visigoths (410-415)
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2118,7 +2118,7 @@
 }
 
 200291 = {
-	name = "Alaric" # Alarico (I), King of the Visigoths
+	name = "Alaricho" # Alarico (I), King of the Visigoths
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = visigothic
@@ -2197,7 +2197,7 @@
 }
 
 200295 = {
-	name = "Aoric" # Aorico
+	name = "Aoricho" # Aorico
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = gothic
@@ -2212,7 +2212,7 @@
 }
 
 200296 = {
-	name = "Athanaric" # Atanarico
+	name = "Athanaricho" # Atanarico
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = gothic
@@ -2378,7 +2378,7 @@ visigothic0008 = {
 }
 
 visigothic0009 = {
-	name = "Gunderic" # Gunderico
+	name = "Gundericho" # Gunderico
 	dynasty = erwigiana # Erwigio's Dynasty
 	religion = catholic
 	culture = visigothic
