@@ -211,7 +211,7 @@
 ##d_ciscaucasia ###################################
 ###c_derbent
 674 = {		#Derbent
-	culture = khazar
+	culture = durdzuk
 	religion = tengri_pagan
 	holding = castle_holding
 	750.1.2 = {

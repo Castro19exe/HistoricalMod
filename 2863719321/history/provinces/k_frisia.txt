@@ -27,9 +27,12 @@
 
 ###c_westfriesland
 2405 = {	#HAARLEM
-	culture = dutch
+	culture = frisian
 	religion = catholic
 	holding = castle_holding
+	1100.1.1 = {
+		culture = dutch
+	}
 }
 2408 = {	#EDAM
 	holding = none
