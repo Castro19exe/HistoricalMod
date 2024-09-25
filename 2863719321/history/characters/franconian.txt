@@ -1456,7 +1456,7 @@
 	female = yes
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168224
 	760.1.1 = {
 		birth = "760.1.1"
@@ -1470,7 +1470,7 @@
 	name = "Thankulf"
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168224
 	765.1.1 = {
 		birth = "765.1.1"
@@ -1484,7 +1484,7 @@
 	name = "Hadulf"
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168226
 	790.1.1 = {
 		birth = "790.1.1"
@@ -1498,7 +1498,7 @@
 	name = "Thankulf"
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168227
 	810.1.1 = {
 		birth = "810.1.1"
@@ -1512,7 +1512,7 @@
 	name = "Radulf"
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168228
 	830.1.1 = {
 		birth = "830.1.1"
@@ -1527,7 +1527,7 @@
 	female = yes
 	dynasty = 227
 	religion = "catholic"
-	culture = franconian
+	culture = thuringian
 	father = 168228
 	835.1.1 = {
 		birth = "835.1.1"

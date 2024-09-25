@@ -95,7 +95,7 @@
 	religion = catholic
 	holding = castle_holding
 	1120.1.1 = {
-		culture = saxon
+		culture = thuringian
 		religion = catholic
 	}
 	1066.1.1 = {
@@ -690,7 +690,7 @@
 
 ###c_naumberg/Lubsko
 3143 = {	#NAUMBERG = LUBSKO
-	culture = polabian
+	culture = sorbian
 	religion = slavic_pagan
 	holding = tribal_holding
 	1000.1.1 = {
