@@ -1,5 +1,6 @@
 ﻿vlach = {
-	color = vlach
+	#color = vlach
+	color = { 48 37 33 }
 
 	parents = { daco_roman }
 

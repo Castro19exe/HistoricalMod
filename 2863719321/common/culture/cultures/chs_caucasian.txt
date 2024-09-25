@@ -1,5 +1,5 @@
 ﻿circassian = {
-	color = { 255 107 15 }
+	color = { 156 39 9 }
 
 	ethos = ethos_communal
 	heritage = heritage_caucasian
@@ -23,7 +23,7 @@
 }
 
 durdzuk = {
-	color = { 201 64 0 }
+	color = { 194 47 31 }
 
 	ethos = ethos_communal
 	heritage = heritage_caucasian
