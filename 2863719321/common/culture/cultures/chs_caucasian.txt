@@ -23,7 +23,7 @@
 }
 
 durdzuk = {
-	color = { 194 47 31 }
+	color = { 204 47 29 }
 
 	ethos = ethos_communal
 	heritage = heritage_caucasian
