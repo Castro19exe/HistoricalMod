@@ -1,0 +1,81 @@
+﻿#western = {
+#	trigger = {
+#		exists = capital_county
+#		capital_county.culture = {
+#			OR = {
+#				has_graphical_western_culture_group_trigger = yes
+#				has_graphical_frankish_culture_group_trigger = yes
+#				has_graphical_magyar_culture_group_trigger = yes
+#				has_graphical_norse_culture_group_trigger = yes
+#				has_graphical_british_culture_group_trigger = yes
+#				has_graphical_russian_culture_group_trigger = yes
+#				has_graphical_scandinavian_culture_group_trigger = yes
+#				has_graphical_goidelic_culture_group_trigger = yes
+#				has_graphical_tundra_culture_group_trigger = yes
+#				has_graphical_mordvin_culture_group_trigger = yes
+#			}
+#		}
+#	}
+#}
+
+#mena = {
+#	trigger = {
+#		exists = capital_county
+#		capital_county.culture = {
+#			OR = {
+#				has_graphical_mena_culture_group_trigger = yes
+#				has_graphical_berber_culture_group_trigger = yes
+#				has_graphical_iranian_culture_group_trigger = yes
+#				has_graphical_african_culture_group_trigger = yes
+#				has_graphical_steppe_culture_group_trigger = yes
+#				has_graphical_ethiopian_culture_group_trigger = yes
+#				has_graphical_sahelian_culture_group_trigger = yes
+#				AND = {
+#					has_graphical_iberian_culture_group_trigger  = yes
+#					prev.religion = religion:islam_religion
+#				}
+#			}
+#		}
+#	}
+#}
+
+#mediterranean = {
+#	trigger = {
+#		exists = capital_county
+#		capital_county.culture = {
+#			OR = {
+#				has_graphical_mediterranean_culture_group_trigger = yes
+#				has_graphical_byzantine_culture_group_trigger = yes
+#				has_graphical_caucasian_culture_group_trigger = yes
+#				has_graphical_southslavic_culture_group_trigger = yes
+#				AND = {
+#					has_graphical_iberian_culture_group_trigger  = yes
+#					NOT = { prev.religion = religion:islam_religion }
+#				}
+#			}
+#		}
+#	}
+#}
+
+#indian = {
+#	trigger = {
+#		exists = capital_county
+#		capital_county.culture = {
+#			OR = {
+#				has_graphical_india_culture_group_trigger = yes
+#			}
+#		}
+#	}
+#}
+
+chinese = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_chinese_culture_group_trigger = yes
+				has_graphical_tibetan_culture_group_trigger = yes
+			}
+		}
+	}
+}
