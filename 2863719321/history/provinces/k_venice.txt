@@ -33,11 +33,9 @@
 		culture = venetian
 	}
 }
-
 2504 = {	#CHIOGGIA
 	holding = city_holding
 }
-
 8767 = {	#MALAMCCO
 	holding = none
 }
