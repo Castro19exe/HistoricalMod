@@ -174,7 +174,7 @@ lombard = { #Italo-Lombards
 
 venetian = {
 	color = { 0 204 204 }
-	created = 1100.1.1
+	created = 950.1.1
 	parents = { cisalpine }
 	
 	ethos = ethos_communal
@@ -188,7 +188,7 @@ venetian = {
 		tradition_swords_for_hire
 	}
 	
-	name_list = name_list_lombard
+	name_list = name_list_cisalpine
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
