@@ -1,62 +1,63 @@
-cultures={ {
-		culture="mediterranean"
-		max_visual_culture_level = 3
-		levels={ 
-            {
-                grandeur_level = 20
-                visual_culture_level = 1
-            }
-            {
-                grandeur_level = 50
-                visual_culture_level = 2
-            }
-        }
-	}
- {
-		culture="mena"
-		max_visual_culture_level = 3
-		levels={ 
-            {
-                grandeur_level = 20
-                visual_culture_level = 1
-            }
-            {
-                grandeur_level = 50
-                visual_culture_level = 2
-            }
-        }
-	}
- {
-		culture="indian"
-		max_visual_culture_level = 3
-		levels={ 
-            {
-                grandeur_level = 20
-                visual_culture_level = 1
-            }
-            {
-                grandeur_level = 50
-                visual_culture_level = 2
-            }
-         }
-	}
- {
-		culture="western"
-		max_visual_culture_level = 3
-		levels={ 
-            {
-                grandeur_level = 20
-                visual_culture_level = 1
-            }
-            {
-                grandeur_level = 50
-                visual_culture_level = 2
-            }
-         }
-	}
+cultures = { 
+    #    {
+    #		culture="mediterranean"
+    #		max_visual_culture_level = 3
+    #		levels={ 
+    #            {
+    #                grandeur_level = 20
+    #                visual_culture_level = 1
+    #           }
+    #            {
+    #               grandeur_level = 50
+    #                visual_culture_level = 2
+    #            }
+    #       }
+    #	}
+    #{
+    #		culture="mena"
+    #		max_visual_culture_level = 3
+    #		levels={ 
+    #           {
+    #              grandeur_level = 20
+    #              visual_culture_level = 1
+    #         }
+    #        {
+    #           grandeur_level = 50
+    #          visual_culture_level = 2
+    #     }
+    #   }
+    #}
+    #{
+    #		culture="indian"
+    #		max_visual_culture_level = 3
+    #		levels={ 
+    #            {
+    #                grandeur_level = 20
+    #               visual_culture_level = 1
+    #            }
+    #            {
+    #                grandeur_level = 50
+    #                visual_culture_level = 2
+    #            }
+    #        }
+    #    }
+    #{
+    #        culture="western"
+    #        max_visual_culture_level = 3
+    #        levels={ 
+    #            {
+    #                grandeur_level = 20
+    #                visual_culture_level = 1
+    #            }
+    #            {
+    #                grandeur_level = 50
+    #                visual_culture_level = 2
+    #            }
+    #       }
+    #    }
 
-## AEP
- {
+    ## AEP
+    {
         culture="japanese"
         max_visual_culture_level = 3
         levels={ 
@@ -70,7 +71,7 @@ cultures={ {
             }
         }
     }
- {
+    {
         culture="chinese"
         max_visual_culture_level = 3
         levels={ 
@@ -84,4 +85,4 @@ cultures={ {
             }
         }
     }
- }
+}
