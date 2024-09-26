@@ -17,7 +17,7 @@
 #		}
 #	}
 #}
-
+#
 #mena = {
 #	trigger = {
 #		exists = capital_county
@@ -38,7 +38,7 @@
 #		}
 #	}
 #}
-
+#
 #mediterranean = {
 #	trigger = {
 #		exists = capital_county
@@ -56,7 +56,7 @@
 #		}
 #	}
 #}
-
+#
 #indian = {
 #	trigger = {
 #		exists = capital_county
@@ -67,15 +67,15 @@
 #		}
 #	}
 #}
-
-chinese = {
-	trigger = {
-		exists = capital_county
-		capital_county.culture = {
-			OR = {
-				has_graphical_chinese_culture_group_trigger = yes
-				has_graphical_tibetan_culture_group_trigger = yes
-			}
-		}
-	}
-}
+#
+#chinese = {
+#	trigger = {
+#		exists = capital_county
+#		capital_county.culture = {
+#			OR = {
+#				has_graphical_chinese_culture_group_trigger = yes
+#				has_graphical_tibetan_culture_group_trigger = yes
+#			}
+#		}
+#	}
+#}
