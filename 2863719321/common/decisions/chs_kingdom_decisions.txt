@@ -1,14 +1,16 @@
 create_dalmatian_kingdom_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
-
+	picture = {
+		reference =	"gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
 	desc = create_dalmatian_kingdom_decision_desc
 	selection_tooltip = create_dalmatian_kingdom_decision_tooltip
-	major = yes
+	decision_group_type = major
 
 	ai_check_interval = 120
 
 	is_shown = {
 		is_ruler = yes
+		is_playable_character = yes
         has_culture = culture:dalmatian
 		capital_province = { geographical_region = custom_roman_illyricum }
 
@@ -76,11 +78,12 @@ create_dalmatian_kingdom_decision = {
 ############################################################## 
 
 create_illyrian_empire_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-
+	picture = {
+		reference =	"gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
 	desc = create_illyrian_empire_decision_desc
 	selection_tooltip = create_illyrian_empire_decision_tooltip
-	major = yes
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -145,11 +148,12 @@ create_illyrian_empire_decision = {
 ############################################################## 
 
 create_serbian_empire_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-
+	picture = {
+		reference ="gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
 	desc = create_serbian_empire_decision_desc
 	selection_tooltip = create_serbian_empire_decision_tooltip
-	major = yes
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -219,11 +223,12 @@ create_serbian_empire_decision = {
 ############################################################## 
 
 create_portuguese_empire_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-
+	picture = {
+		reference ="gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
 	desc = create_portuguese_empire_decision_desc
 	selection_tooltip = create_portuguese_empire_decision_tooltip
-	major = yes
+	decision_group_type = major
 
 	ai_check_interval = 120
 
@@ -316,80 +321,6 @@ create_portuguese_empire_decision = {
 		}
 	}
 	
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
-
-##############################################################
-
-create_magna_germania_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-
-	desc = create_magna_germania_decision_desc
-	selection_tooltip = create_magna_germania_decision_tooltip
-	major = yes
-
-	ai_check_interval = 120
-
-	is_shown = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_east_germanic }
-			culture = { has_cultural_pillar = heritage_west_germanic }
-			culture = { has_cultural_pillar = heritage_north_germanic }
-			culture = { has_cultural_pillar = heritage_north_sea_germanic }
-		}
-		NOT = {
-			exists = title:e_hre.holder
-		}
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:create_magna_germania_decision
-			}
-		}
-	}
-
-	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_east_germanic }
-			culture = { has_cultural_pillar = heritage_west_germanic }
-			culture = { has_cultural_pillar = heritage_north_germanic }
-			culture = { has_cultural_pillar = heritage_north_sea_germanic }
-		}
-		completely_controls_region = custom_germania_barbaricum
-	}
-
-	effect = {
-		show_as_tooltip = {
-			create_magna_germania_effect = yes
-		}
-
-		trigger_event = {
-			id = chs_major_decisions.0005
-		}
-
-		hidden_effect = {
-			#Declare flag
-			add_to_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:create_magna_germania_decision
-			}
-			set_global_variable = {
-				name = create_magna_germania_decision
-				value = root
-			}
-		}
-	}
-
-	cost = { gold = 600 }
-
 	ai_potential = {
 		always = yes
 	}
