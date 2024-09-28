@@ -42216,6 +42216,13 @@ e_carpathia = {
 					name_list_croatian = cn_stolni_biograd
 					name_list_bosnian = cn_stolni_biograd
 					name_list_serbian = cn_stolni_biograd
+
+					name_list_swabian = "Stuhlweissenburg"
+					name_list_swabian = "Stuhlweissenburg"
+					name_list_franconian = "Stuhlweissenburg"
+					name_list_bavarian = "Stuhlweissenburg"
+					name_list_saxon = "Stuhlweissenburg"
+					name_list_thuringian = "Stuhlweissenburg"	
 				}
 
 				b_szekesfehervar = {
@@ -42262,6 +42269,15 @@ e_carpathia = {
 					province = 3868
 
 					color = { 255 140 100 }
+
+					cultural_names = {
+						name_list_swabian = "Zolnock"
+						name_list_swabian = "Zolnock"
+						name_list_franconian = "Zolnock"
+						name_list_bavarian = "Zolnock"
+						name_list_saxon = "Zolnock"
+						name_list_thuringian = "Zolnock"
+					}
 				}
 				b_gyongospata = {
 					province = 3869
@@ -42882,6 +42898,18 @@ e_carpathia = {
 					province = 3871
 
 					color = { 135 50 50 }
+
+					cultural_names = {
+						name_list_slovien = "Miškovec"
+						name_list_polish = "Miszkolc"
+
+						name_list_swabian = "Mischkolz"
+						name_list_swabian = "Mischkolz"
+						name_list_franconian = "Mischkolz"
+						name_list_bavarian = "Mischkolz"
+						name_list_saxon = "Mischkolz"
+						name_list_thuringian = "Mischkolz"
+					}
 				}
 				b_szendro = {
 					province = 3979
@@ -43530,6 +43558,13 @@ e_carpathia = {
 				name_list_croatian = cn_rab
 				name_list_bosnian = cn_rab
 				name_list_serbian = cn_rab
+
+				name_list_swabian = "Raab"
+				name_list_swabian = "Raab"
+				name_list_franconian = "Raab"
+				name_list_bavarian = "Raab"
+				name_list_saxon = "Raab"
+				name_list_thuringian = "Raab"
 			}
 
 			c_gyor = {
@@ -43544,6 +43579,13 @@ e_carpathia = {
 					name_list_croatian = cn_rab
 					name_list_bosnian = cn_rab
 					name_list_serbian = cn_rab
+
+					name_list_swabian = "Raab"
+					name_list_swabian = "Raab"
+					name_list_franconian = "Raab"
+					name_list_bavarian = "Raab"
+					name_list_saxon = "Raab"
+					name_list_thuringian = "Raab"
 				}
 
 				b_gyor = {
@@ -43551,7 +43593,7 @@ e_carpathia = {
 
 					color = { 208 109 107 }
 
-						cultural_names = {
+					cultural_names = {
 						name_list_czech = cn_rab
 						name_list_slovien = cn_rab
 						name_list_polish = cn_rab
@@ -43560,7 +43602,14 @@ e_carpathia = {
 						name_list_croatian = cn_rab
 						name_list_bosnian = cn_rab
 						name_list_serbian = cn_rab
-					}
+
+						name_list_swabian = "Raab"
+						name_list_swabian = "Raab"
+						name_list_franconian = "Raab"
+						name_list_bavarian = "Raab"
+						name_list_saxon = "Raab"
+						name_list_thuringian = "Raab"
+					}	
 				}
 				b_moson = {
 					province = 3822
@@ -43580,6 +43629,13 @@ e_carpathia = {
 					name_list_croatian = cn_etgar
 					name_list_bosnian = cn_etgar
 					name_list_serbian = cn_etgar
+
+					name_list_swabian = "Ödenburg"
+					name_list_swabian = "Ödenburg"
+					name_list_franconian = "Ödenburg"
+					name_list_bavarian = "Ödenburg"
+					name_list_saxon = "Ödenburg"
+					name_list_thuringian = "Ödenburg"
 				}
 
 				b_sopron = {
@@ -50601,8 +50657,8 @@ e_maghreb = {
 					color = { 209 65 46 }
 
 					cultural_names = {
-						name_list_baranis = "lqsr lkbir"
-						name_list_butr = "lqsr lkbir"
+						name_list_baranis = "Iqsr lkbir"
+						name_list_butr = "Iqsr lkbir"
 
 						name_list_bedouin = "Ksar el-Kebir"
 						name_list_maghrebi = "Ksar el-Kebir"
