@@ -8,6 +8,7 @@
 @holding_illustration_china = "gfx/interface/illustrations/holding_types/city_chinese.dds"
 @holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
 @holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/city_sahelian.dds"
+@holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/city_ethiopian.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -218,6 +219,15 @@ city_01 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_01_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
@@ -228,13 +238,15 @@ city_01 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CELTIC ###
+	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_celtic_city_01_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { celtic_building_gfx }
+		names = {
+			"ethiopian_city_01_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
 	}
 
 	### FP1 Norse ###
@@ -670,6 +682,15 @@ city_02 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_01_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
@@ -680,13 +701,15 @@ city_02 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CELTIC ###
+	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_celtic_city_01_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { celtic_building_gfx }
+		names = {
+			"ethiopian_city_01_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
 	}
 
 	### FP1 Norse ###
@@ -1101,6 +1124,15 @@ city_03 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_02_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
@@ -1111,13 +1143,15 @@ city_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CELTIC ###
+	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_celtic_city_02_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { celtic_building_gfx }
+		names = {
+			"ethiopian_city_02_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { ethiopian_building_gfx }
 	}
 
 	### FP1 Norse ###
@@ -1524,6 +1558,15 @@ city_04 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_02_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
 	### SAHELIAN ###
 	asset = {
 		type = pdxmesh
@@ -1534,13 +1577,15 @@ city_04 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CELTIC ###
+	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_celtic_city_02_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { celtic_building_gfx }
+		names = {
+			"ethiopian_city_02_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { ethiopian_building_gfx }
 	}
 
 	### FP1 Norse ###
