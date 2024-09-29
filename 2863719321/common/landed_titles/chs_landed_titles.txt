@@ -4828,7 +4828,6 @@ e_germany = {
 						name_list_sorbian = "Starigrad"
 
 						name_list_swabian = "Oldenburg"
-						name_list_swabian = "Oldenburg"
 						name_list_franconian = "Oldenburg"
 						name_list_bavarian = "Oldenburg"
 						name_list_saxon = "Olenborg"
@@ -5240,7 +5239,6 @@ e_germany = {
 				name_list_french = "Luxembourg"
 
 				name_list_swabian = "Luxemburg"
-				name_list_swabian = "Luxemburg"
 				name_list_franconian = "Luxemburg"
 				name_list_bavarian = "Luxemburg"
 				name_list_saxon = "Luxemburg"
@@ -5256,7 +5254,6 @@ e_germany = {
 					name_list_french = "Luxembourg"
 
 					name_list_swabian = "Luxemburg"
-					name_list_swabian = "Luxemburg"
 					name_list_franconian = "Luxemburg"
 					name_list_bavarian = "Luxemburg"
 					name_list_saxon = "Luxemburg"
@@ -5270,8 +5267,7 @@ e_germany = {
 
 					cultural_names = {
 						name_list_french = "Luxembourg"
-
-						name_list_swabian = "Luxemburg"
+"
 						name_list_swabian = "Luxemburg"
 						name_list_franconian = "Luxemburg"
 						name_list_bavarian = "Luxemburg"
@@ -5383,7 +5379,6 @@ e_germany = {
 					color = { 110 85 125 }
 
 					cultural_names = {
-						name_list_swabian = "Brüssel"
 						name_list_swabian = "Brüssel"
 						name_list_franconian = "Brüssel"
 						name_list_bavarian = "Brüssel"
@@ -5590,10 +5585,26 @@ e_germany = {
 			c_nancy = {
 				color = { 65 65 100 }
 
+				cultural_names = {
+					name_list_swabian = "Nanzig"
+					name_list_franconian = "Nanzig"
+					name_list_bavarian = "Nanzig"
+					name_list_saxon = "Nanzig"
+					name_list_thuringian = "Nanzig"
+				}
+
 				b_nancy = {
 					province = 2709
 
 					color = { 65 65 100 }
+
+					cultural_names = {
+						name_list_swabian = "Nanzig"
+						name_list_franconian = "Nanzig"
+						name_list_bavarian = "Nanzig"
+						name_list_saxon = "Nanzig"
+						name_list_thuringian = "Nanzig"
+					}
 				}
 				b_epinal = {
 					province = 2078
@@ -6441,6 +6452,14 @@ e_germany = {
 					province = 3103
 
 					color = { 115 90 90 }
+
+					cultural_names = {
+						name_list_swabian = "Marburg"
+						name_list_franconian = "Marburg"
+						name_list_bavarian = "Marburg"
+						name_list_saxon = "Marburg"
+						name_list_thuringian = "Marburg"
+					}
 				}
 				b_windische_buhel = {
 					province = 3106
@@ -6763,7 +6782,6 @@ e_germany = {
 				name_list_carantanian = "Kranjska"
 
 				name_list_swabian = "Krain"
-				name_list_swabian = "Krain"
 				name_list_franconian = "Krain"
 				name_list_bavarian = "Krain"
 				name_list_saxon = "Krain"
@@ -6791,7 +6809,6 @@ e_germany = {
 					cultural_names = {
 						name_list_carantanian = "Kranj"
 
-						name_list_swabian = "Krainburg"
 						name_list_swabian = "Krainburg"
 						name_list_franconian = "Krainburg"
 						name_list_bavarian = "Krainburg"
@@ -6826,7 +6843,6 @@ e_germany = {
 					name_list_sicilian = "Lubiana"
 
 					name_list_swabian = "Laibach"
-					name_list_swabian = "Laibach"
 					name_list_franconian = "Laibach"
 					name_list_bavarian = "Laibach"
 					name_list_saxon = "Laibach"
@@ -6846,7 +6862,6 @@ e_germany = {
 						name_list_cisalpine = "Lubiana"
 						name_list_sicilian = "Lubiana"
 
-						name_list_swabian = "Laibach"
 						name_list_swabian = "Laibach"
 						name_list_franconian = "Laibach"
 						name_list_bavarian = "Laibach"
@@ -6903,7 +6918,6 @@ e_germany = {
 					name_list_dalmatian = "Puola"
 
 					name_list_swabian = "Polei"
-					name_list_swabian = "Polei"
 					name_list_franconian = "Polei"
 					name_list_bavarian = "Polei"
 					name_list_saxon = "Polei"
@@ -6928,7 +6942,6 @@ e_germany = {
 						name_list_sardinian = "Pola"
 						name_list_dalmatian = "Puola"
 
-						name_list_swabian = "Polei"
 						name_list_swabian = "Polei"
 						name_list_franconian = "Polei"
 						name_list_bavarian = "Polei"
@@ -9562,7 +9575,6 @@ e_byzantium = {
 						name_list_dalmatian = "Segna"
 
 						name_list_swabian = "Zengg"
-						name_list_swabian = "Zengg"
 						name_list_franconian = "Zengg"
 						name_list_bavarian = "Zengg"
 						name_list_saxon = "Zengg"
@@ -9595,7 +9607,6 @@ e_byzantium = {
 						name_list_sardinian = "Fiume"
 						name_list_dalmatian = "Fiume"
 
-						name_list_swabian = "Sankt Veit am Flaum"
 						name_list_swabian = "Sankt Veit am Flaum"
 						name_list_franconian = "Sankt Veit am Flaum"
 						name_list_bavarian = "Sankt Veit am Flaum"
@@ -10246,7 +10257,6 @@ e_byzantium = {
 
 						name_list_roman = "Muccurum"
 
-						name_list_swabian = "Macharscha"
 						name_list_swabian = "Macharscha"
 						name_list_franconian = "Macharscha"
 						name_list_bavarian = "Macharscha"
@@ -15306,7 +15316,6 @@ e_italy = {
 						name_list_carantanian = "Trst"
 
 						name_list_swabian = "Triest"
-						name_list_swabian = "Triest"
 						name_list_franconian = "Triest"
 						name_list_bavarian = "Triest"
 						name_list_saxon = "Triest"
@@ -15357,7 +15366,6 @@ e_italy = {
 					name_list_sardinian = "Gorizia"
 					
 					name_list_swabian = "Görz"
-					name_list_swabian = "Görz"
 					name_list_franconian = "Görz"
 					name_list_bavarian = "Görz"
 					name_list_saxon = "Görz"
@@ -15379,7 +15387,6 @@ e_italy = {
 						name_list_sardinian = "Gorizia"
 						
 						name_list_swabian = "Görz"
-						name_list_swabian = "Görz"
 						name_list_franconian = "Görz"
 						name_list_bavarian = "Görz"
 						name_list_saxon = "Görz"
@@ -15400,7 +15407,6 @@ e_italy = {
 						name_list_sicilian = "Tolmino"
 						name_list_sardinian = "Tolmino"
 						
-						name_list_swabian = "Tolmein"
 						name_list_swabian = "Tolmein"
 						name_list_franconian = "Tolmein"
 						name_list_bavarian = "Tolmein"
@@ -15600,7 +15606,6 @@ e_italy = {
 
 					cultural_names = {						
 						name_list_swabian = "Mailand"
-						name_list_swabian = "Mailand"
 						name_list_franconian = "Mailand"
 						name_list_bavarian = "Mailand"
 						name_list_saxon = "Mailand"
@@ -15672,7 +15677,6 @@ e_italy = {
 					name_list_sardinian = "Trento"
 					
 					name_list_swabian = "Trent"
-					name_list_swabian = "Trent"
 					name_list_franconian = "Trent"
 					name_list_bavarian = "Trent"
 					name_list_saxon = "Trent"
@@ -15692,7 +15696,6 @@ e_italy = {
 						name_list_sardinian = "Trento"
 						
 						name_list_swabian = "Trent"
-						name_list_swabian = "Trent"
 						name_list_franconian = "Trent"
 						name_list_bavarian = "Trent"
 						name_list_saxon = "Trent"
@@ -15710,7 +15713,6 @@ e_italy = {
 						name_list_cisalpine = "Bolzano"
 						name_list_sicilian = "Bolzano"
 
-						name_list_swabian = "Bozen"
 						name_list_swabian = "Bozen"
 						name_list_franconian = "Bozen"
 						name_list_bavarian = "Bozen"
@@ -15733,7 +15735,6 @@ e_italy = {
 						name_list_lombard = "Tiran"
 						name_list_cisalpine = "Tiran"
 
-						name_list_swabian = "Thiran"
 						name_list_swabian = "Thiran"
 						name_list_franconian = "Thiran"
 						name_list_bavarian = "Thiran"
@@ -46119,7 +46120,6 @@ e_france = {
 
 				cultural_names = {
 					name_list_swabian = "Genf"
-					name_list_swabian = "Genf"
 					name_list_franconian = "Genf"
 					name_list_bavarian = "Genf"
 					name_list_saxon = "Genf"
@@ -46132,7 +46132,6 @@ e_france = {
 					color = { 175 40 65 }
 
 					cultural_names = {
-						name_list_swabian = "Genf"
 						name_list_swabian = "Genf"
 						name_list_franconian = "Genf"
 						name_list_bavarian = "Genf"
