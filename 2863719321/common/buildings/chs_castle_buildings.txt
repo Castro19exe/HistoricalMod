@@ -221,6 +221,7 @@ castle_01 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -625,6 +626,7 @@ castle_02 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1029,6 +1031,7 @@ castle_03 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1424,6 +1427,7 @@ castle_04 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
