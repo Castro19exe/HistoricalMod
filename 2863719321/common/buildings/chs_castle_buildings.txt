@@ -217,7 +217,7 @@ castle_01 = {
 	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "ethiopian_castle_01_mesh"
+		names = { "ethiopian_castle_01_mesh" }
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
@@ -621,7 +621,7 @@ castle_02 = {
 	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "ethiopian_castle_02_mesh"
+		names = { "ethiopian_castle_02_mesh" }
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { ethiopian_building_gfx }
@@ -1025,7 +1025,7 @@ castle_03 = {
 	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "ethiopian_castle_03_mesh"
+		names = { "ethiopian_castle_03_mesh" }
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { ethiopian_building_gfx }
@@ -1420,7 +1420,7 @@ castle_04 = {
 	### ETHIOPIAN ###
 	asset = {
 		type = pdxmesh
-		name = "ethiopian_castle_04_mesh"
+		names = { "ethiopian_castle_04_mesh" }
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { ethiopian_building_gfx }
