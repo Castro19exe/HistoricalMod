@@ -8,7 +8,7 @@
 @illustration_iberian_christian = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_christian.dds"
 @illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
-@illustration_china = "gfx/interface/illustrations/holding_types/temple_china.dds"
+@illustration_china = "gfx/interface/illustrations/holding_types/temple_chinese.dds"
 @illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
 
 temple_01 = {
