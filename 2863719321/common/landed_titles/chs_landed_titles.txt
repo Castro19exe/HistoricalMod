@@ -153,6 +153,7 @@ d_manichean = {
 	de_jure_drift_disabled = yes
 }
 
+
 k_danelaw = {
 	color = { 255 60 15 }
 	de_jure_drift_disabled = yes
@@ -9305,16 +9306,13 @@ e_byzantium = {
 				#capital = 465 # Zadar
 
 				cultural_names = {
-					name_list_croatian = "Zadar"
-					
-					name_list_italian = "Zara"
-					name_list_cisalpine = "Zara"
-					name_list_sicilian = "Zara"
-					name_list_sardinian = "Zara"
-					name_list_dalmatian = "Zara"
-
-					name_list_greek = "Diadora"
-					name_list_roman = "Diadora"
+					name_list_roman = cn_diadora
+					name_list_greek = cn_diadora
+					name_list_italian = cn_zara
+					name_list_cisalpine = cn_zara
+					name_list_sicilian = cn_zara
+					name_list_sardinian = cn_zara
+					name_list_dalmatian = cn_zara
 				}
 
 				b_zadar = {
@@ -9323,17 +9321,13 @@ e_byzantium = {
 					color = { 162 53 53 }
 
 					cultural_names = {
-						name_list_croatian = "Zadar"
-					
-						name_list_italian = "Zara"
-						name_list_lombard = "Zara"
-						name_list_cisalpine = "Zara"
-						name_list_sicilian = "Zara"
-						name_list_sardinian = "Zara"
-						name_list_dalmatian = "Zara"
-
-						name_list_greek = "Diadora"
-						name_list_roman = "Diadora"
+						name_list_roman = cn_diadora
+						name_list_greek = cn_diadora
+						name_list_italian = cn_zara
+						name_list_cisalpine = cn_zara
+						name_list_sicilian = cn_zara
+						name_list_sardinian = cn_zara
+						name_list_dalmatian = cn_zara
 					}
 				}
 				b_nin = {
@@ -9352,7 +9346,7 @@ e_byzantium = {
 						name_list_sardinian = "Nona"
 						name_list_dalmatian = "Nona"
 
-						#name_list_greek = ""
+						#name_list_greek = "Nona"
 						name_list_roman = "Nona"
 					}
 				}
@@ -15395,7 +15389,7 @@ e_italy = {
 						name_list_carantanian = "Gorica"
 					}
 				}
-				b_triglavski = {
+				b_triglavski = { #Tricorno
 					province = 2515
 
 					color = { 180 255 200 }
@@ -24067,7 +24061,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_danish = "Kladen"
 					name_list_swedish = "Kladen"
 
-					name_list_polish = "Kłodzko"
+					name_list_polish = cn_klodzko
 					name_list_polabian = "Kłodzko"
 					name_list_pommeranian = "Kłodzko"
 
@@ -28004,7 +27998,6 @@ e_russia = {	#Kievan Rus
 	}
 }
 
-#Kazharia Empire
 e_caspian-pontic_steppe = {
 	color = { 230 180 10 }
 
@@ -28476,10 +28469,18 @@ e_caspian-pontic_steppe = {
 			c_perekop = {
 				color = { 105 56 64 }
 
+				cultural_names = {
+					name_list_russian = "Perekop"
+				}
+
 				b_perekop = {
 					province = 5277
 
 					color = { 105 56 64 }
+
+					cultural_names = {
+						name_list_russian = "Perekop"
+					}
 				}
 				b_dzhankoi = {
 					province = 5331
