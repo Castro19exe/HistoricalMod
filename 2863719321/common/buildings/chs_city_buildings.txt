@@ -247,6 +247,7 @@ city_01 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -710,6 +711,7 @@ city_02 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1152,6 +1154,7 @@ city_03 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
@@ -1586,6 +1589,7 @@ city_04 = {
 		illustration = @holding_illustration_ethiopian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### FP1 Norse ###
