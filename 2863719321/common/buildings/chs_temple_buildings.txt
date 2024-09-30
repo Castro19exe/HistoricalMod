@@ -10,6 +10,7 @@
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
 @illustration_china = "gfx/interface/illustrations/holding_types/temple_chinese.dds"
 @illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
+@illustration_ethiopian_orthodox = "gfx/interface/illustrations/holding_types/temple_ethiopian_orthodox.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time
@@ -121,6 +122,15 @@ temple_01 = {
 		name = "building_mena_temple_orthodox_01_mesh"
 		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "ethiopian_temple_orthodox_01_mesh"
+		illustration = @illustration_ethiopian_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
@@ -624,6 +634,15 @@ temple_02 = {
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "ethiopian_temple_orthodox_01_mesh"
+		illustration = @illustration_ethiopian_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
 	
 	### CATHOLIC ###
 	asset = {
@@ -1006,6 +1025,15 @@ temple_03 = {
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
+	asset = {
+		type = pdxmesh
+		name = "ethiopian_temple_orthodox_02_mesh"
+		illustration = @illustration_ethiopian_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
 	
 	### CATHOLIC ###
 	asset = {
@@ -1376,6 +1404,15 @@ temple_04 = {
 		name = "building_mena_temple_orthodox_02_mesh"
 		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "ethiopian_temple_orthodox_02_mesh"
+		illustration = @illustration_ethiopian_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { ethiopian_building_gfx }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
