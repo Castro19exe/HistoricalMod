@@ -3061,7 +3061,6 @@ e_britannia = {
 						name_list_scottish = "Dunkell"
 					}
 				}
-				
 				b_aberfeldy = {
 					province = 1744
 
@@ -5237,8 +5236,6 @@ e_germany = {
 			capital = c_luxembourg #Luxembourg
 
 			cultural_names = {
-				name_list_french = "Luxembourg"
-
 				name_list_swabian = "Luxemburg"
 				name_list_franconian = "Luxemburg"
 				name_list_bavarian = "Luxemburg"
@@ -5249,11 +5246,7 @@ e_germany = {
 			c_luxembourg = {
 				color = { 100 120 155 }
 
-				name_list_carantanian = "Kranjska"
-
 				cultural_names = {
-					name_list_french = "Luxembourg"
-
 					name_list_swabian = "Luxemburg"
 					name_list_franconian = "Luxemburg"
 					name_list_bavarian = "Luxemburg"
@@ -5267,8 +5260,6 @@ e_germany = {
 					color = { 110 110 155 }
 
 					cultural_names = {
-						name_list_french = "Luxembourg"
-"
 						name_list_swabian = "Luxemburg"
 						name_list_franconian = "Luxemburg"
 						name_list_bavarian = "Luxemburg"
@@ -6793,8 +6784,6 @@ e_germany = {
 				color = { 95 120 100 }
 
 				cultural_names = {
-					name_list_carantanian = "Kranj"
-
 					name_list_swabian = "Krainburg"
 					name_list_franconian = "Krainburg"
 					name_list_bavarian = "Krainburg"
@@ -6808,8 +6797,6 @@ e_germany = {
 					color = { 95 120 100 }
 
 					cultural_names = {
-						name_list_carantanian = "Kranj"
-
 						name_list_swabian = "Krainburg"
 						name_list_franconian = "Krainburg"
 						name_list_bavarian = "Krainburg"
@@ -9305,6 +9292,10 @@ e_byzantium = {
 
 				#capital = 465 # Zadar
 
+				#italian = "Zara"
+				#greek = "Diadora"
+				#roman = "Diadora"
+
 				cultural_names = {
 					name_list_roman = cn_diadora
 					name_list_greek = cn_diadora
@@ -9461,6 +9452,10 @@ e_byzantium = {
 				color = { 150 80 45 }
 
 				#capital = 3551 # Sinj
+
+				#italian = "Spalato"
+				#greek = "Spalathos"
+				#roman = "Spalato"
 
 				cultural_names = {
 					name_list_croatian = "Split"
@@ -10330,7 +10325,6 @@ e_byzantium = {
 					name_list_sardinian = "Ragusa"
 					name_list_dalmatian = "Ragusa"
 				}
-
 
 				b_ragusa = {
 					province = 468
@@ -19602,6 +19596,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_stettin
 					name_list_swabian = cn_stettin
 					name_list_bavarian = cn_stettin
+					name_list_thuringian = cn_stettin
 				}
 
 				b_szczecin = {
@@ -19614,6 +19609,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_stettin
 						name_list_swabian = cn_stettin
 						name_list_bavarian = cn_stettin
+						name_list_thuringian = cn_stettin
 					}
 				}
 				b_ucramund = {	#b_wkra
@@ -19627,6 +19623,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_ucramund
 						name_list_swabian = cn_ucramund
 						name_list_bavarian = cn_ucramund
+						name_list_thuringian = cn_ucramund
 					}
 				}
 				b_gryfino = {	#b_pyrzyce
@@ -19639,6 +19636,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_pyritz
 						name_list_swabian = cn_pyritz
 						name_list_bavarian = cn_pyritz
+						name_list_thuringian = cn_pyritz
 					}
 				}
 			}
@@ -19650,6 +19648,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_wollin
 					name_list_swabian = cn_wollin
 					name_list_bavarian = cn_wollin
+					name_list_thuringian = cn_wollin
 				}
 
 				b_swinoujscie = {	#b_wolin
@@ -19662,6 +19661,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_wollin
 						name_list_swabian = cn_wollin
 						name_list_bavarian = cn_wollin
+						name_list_thuringian = cn_wollin
 					}
 				}
 				b_kolobrzeg = {		#b_kamien / Kamien Pomorski
@@ -19674,6 +19674,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_cammin
 						name_list_swabian = cn_cammin
 						name_list_bavarian = cn_cammin
+						name_list_thuringian = cn_cammin
 					}
 				}
 				b_stargad = {	#b_goleniow
@@ -19686,6 +19687,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_gollnow
 						name_list_swabian = cn_gollnow
 						name_list_bavarian = cn_gollnow
+						name_list_thuringian = cn_gollnow
 					}
 				}
 				b_lobez = {		#b_nowogard
@@ -19698,6 +19700,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_naugard
 						name_list_swabian = cn_naugard
 						name_list_bavarian = cn_naugard
+						name_list_thuringian = cn_naugard
 					}
 				}
 			}
@@ -19709,6 +19712,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_zehden
 					name_list_swabian = cn_zehden
 					name_list_bavarian = cn_zehden
+					name_list_thuringian = cn_zehden
 				}
 
 				b_soldin = {	#b_cedynia
@@ -19721,6 +19725,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_zehden
 						name_list_swabian = cn_zehden
 						name_list_bavarian = cn_zehden
+						name_list_thuringian = cn_zehden
 					}
 				}
 				b_kostschin = {	#b_kostrzyn
@@ -19733,6 +19738,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_kustrin
 						name_list_swabian = cn_kustrin
 						name_list_bavarian = cn_kustrin
+						name_list_thuringian = cn_kustrin
 					}
 				}
 			}
@@ -19744,6 +19750,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_kolberg
 					name_list_swabian = cn_kolberg
 					name_list_bavarian = cn_kolberg
+					name_list_thuringian = cn_kolberg
 				}
 
 				b_cammin = {		#b_kolobrzeg
@@ -19756,6 +19763,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_kolberg
 						name_list_swabian = cn_kolberg
 						name_list_bavarian = cn_kolberg
+						name_list_thuringian = cn_kolberg
 					}
 				}
 				b_dramberg = {		#b_czaplinek
@@ -19768,6 +19776,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_tempelburg
 						name_list_swabian = cn_tempelburg
 						name_list_bavarian = cn_tempelburg
+						name_list_thuringian = cn_tempelburg
 					}
 				}
 				b_belgard = {		#b_bialogard
@@ -19780,6 +19789,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_belgard
 						name_list_swabian = cn_belgard
 						name_list_bavarian = cn_belgard
+						name_list_thuringian = cn_belgard
 					}
 				}
 			}
@@ -19791,6 +19801,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_deutsch_krone
 					name_list_swabian = cn_deutsch_krone
 					name_list_bavarian = cn_deutsch_krone
+					name_list_thuringian = cn_deutsch_krone
 				}
 
 				b_walcz = {
@@ -19803,6 +19814,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_deutsch_krone
 						name_list_swabian = cn_deutsch_krone
 						name_list_bavarian = cn_deutsch_krone
+						name_list_thuringian = cn_deutsch_krone
 					}
 				}
 				b_pila = {
@@ -19815,6 +19827,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_schneidemuhl
 						name_list_swabian = cn_schneidemuhl
 						name_list_bavarian = cn_schneidemuhl
+						name_list_thuringian = cn_schneidemuhl
 					}
 				}
 				b_szczecinek = {
@@ -19827,6 +19840,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_neustettin
 						name_list_swabian = cn_neustettin
 						name_list_bavarian = cn_neustettin
+						name_list_thuringian = cn_neustettin
 					}
 				}
 			}
@@ -19838,6 +19852,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_zantoch
 					name_list_swabian = cn_zantoch
 					name_list_bavarian = cn_zantoch
+					name_list_thuringian = cn_zantoch
 				}
 
 				b_landsberg = {	#c_santok
@@ -19850,6 +19865,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_zantoch
 						name_list_swabian = cn_zantoch
 						name_list_bavarian = cn_zantoch
+						name_list_thuringian = cn_zantoch
 					}
 				}
 				b_driesen = {	#b_wielen
@@ -19862,6 +19878,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_filehne
 						name_list_swabian = cn_filehne
 						name_list_bavarian = cn_filehne
+						name_list_thuringian = cn_filehne
 					}
 				}
 				b_arnswalde = {	#b_stargard
@@ -19879,6 +19896,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_arnswalde
 						name_list_swabian = cn_arnswalde
 						name_list_bavarian = cn_arnswalde
+						name_list_thuringian = cn_arnswalde
 					}
 				}
 			}
@@ -20069,6 +20087,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_zoppot
 						name_list_swabian = cn_zoppot
 						name_list_bavarian = cn_zoppot
+						name_list_thuringian = cn_zoppot
 					}
 
 					color = { 75 125 75 }
@@ -20083,6 +20102,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_putzig
 						name_list_swabian = cn_putzig
 						name_list_bavarian = cn_putzig
+						name_list_thuringian = cn_putzig
 					}
 				}
 				b_trsow = {	#b_tczew
@@ -20095,6 +20115,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_dirschau
 						name_list_swabian = cn_dirschau
 						name_list_bavarian = cn_dirschau
+						name_list_thuringian = cn_dirschau
 					}
 				}
 			}
@@ -20106,6 +20127,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_stolp
 					name_list_swabian = cn_stolp
 					name_list_bavarian = cn_stolp
+					name_list_thuringian = cn_stolp
 				}
 
 				b_slupsk = {
@@ -20118,6 +20140,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_stolp
 						name_list_swabian = cn_stolp
 						name_list_bavarian = cn_stolp
+						name_list_thuringian = cn_stolp
 					}
 				}
 				b_koszalin = {
@@ -20130,6 +20153,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_koslin
 						name_list_swabian = cn_koslin
 						name_list_bavarian = cn_koslin
+						name_list_thuringian = cn_koslin
 					}
 				}
 				b_lebno = {	#b_lebork
@@ -20142,6 +20166,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_lauenburg
 						name_list_swabian = cn_lauenburg
 						name_list_bavarian = cn_lauenburg
+						name_list_thuringian = cn_lauenburg
 					}
 				}
 				b_bytow = {
@@ -20154,6 +20179,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_butow
 						name_list_swabian = cn_butow
 						name_list_bavarian = cn_butow
+						name_list_thuringian = cn_butow
 					}
 				}
 			}
@@ -20165,6 +20191,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_ziethen
 					name_list_swabian = cn_ziethen
 					name_list_bavarian = cn_ziethen
+					name_list_thuringian = cn_ziethen
 				}
 
 				b_hammerstein = {	#b_szczytno_POM
@@ -20177,6 +20204,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_ziethen
 						name_list_swabian = cn_ziethen
 						name_list_bavarian = cn_ziethen
+						name_list_thuringian = cn_ziethen
 					}
 				}
 				b_miastko = {
@@ -20189,6 +20217,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_rummelsburg
 						name_list_swabian = cn_rummelsburg
 						name_list_bavarian = cn_rummelsburg
+						name_list_thuringian = cn_rummelsburg
 					}
 				}
 			}
@@ -20200,6 +20229,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_schwetz
 					name_list_swabian = cn_schwetz
 					name_list_bavarian = cn_schwetz
+					name_list_thuringian = cn_schwetz
 				}
 
 				b_schwetz = {	#b_swiecie
@@ -20212,6 +20242,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_schwetz
 						name_list_swabian = cn_schwetz
 						name_list_bavarian = cn_schwetz
+						name_list_thuringian = cn_schwetz
 					}
 				}
 				b_berent = {	#b_koscierzyna
@@ -20224,6 +20255,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_berent
 						name_list_swabian = cn_berent
 						name_list_bavarian = cn_berent
+						name_list_thuringian = cn_berent
 					}
 				}
 				b_tuchowna = {	#b_starogard
@@ -20241,6 +20273,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_konitz
 						name_list_swabian = cn_konitz
 						name_list_bavarian = cn_konitz
+						name_list_thuringian = cn_konitz
 					}
 				}
 			}
@@ -20524,6 +20557,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_elbing
 						name_list_swabian = cn_elbing
 						name_list_bavarian = cn_elbing
+						name_list_thuringian = cn_elbing
 						name_list_polish = cn_elblag
 						name_list_pommeranian = cn_elblag
 						name_list_polabian = cn_elblag
@@ -20540,6 +20574,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_marienburg
 						name_list_swabian = cn_marienburg
 						name_list_bavarian = cn_marienburg
+						name_list_thuringian = cn_marienburg
 					}
 				}
 				b_graudenz = {	#b_kwedis
@@ -20552,6 +20587,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_marienwerder
 						name_list_swabian = cn_marienwerder
 						name_list_bavarian = cn_marienwerder
+						name_list_thuringian = cn_marienwerder
 						name_list_polish = cn_kwidzyn
 						name_list_pommeranian = cn_kwidzyn
 						name_list_polabian = cn_kwidzyn
@@ -20568,6 +20604,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_stuttof
 						name_list_swabian = cn_stuttof
 						name_list_bavarian = cn_stuttof
+						name_list_thuringian = cn_stuttof
 						name_list_polish = cn_sztutowo
 						name_list_pommeranian = cn_sztutowo
 						name_list_polabian = cn_sztutowo
@@ -20587,6 +20624,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_wormditt
 						name_list_swabian = cn_wormditt
 						name_list_bavarian = cn_wormditt
+						name_list_thuringian = cn_wormditt
 						name_list_polish = cn_orneta
 						name_list_pommeranian = cn_orneta
 						name_list_polabian = cn_orneta
@@ -20602,6 +20640,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_mohrungen
 						name_list_swabian = cn_mohrungen
 						name_list_bavarian = cn_mohrungen
+						name_list_thuringian = cn_mohrungen
 						name_list_polish = cn_morag
 						name_list_pommeranian = cn_morag
 						name_list_polabian = cn_morag
@@ -20618,6 +20657,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_braunberg
 						name_list_swabian = cn_braunberg
 						name_list_bavarian = cn_braunberg
+						name_list_thuringian = cn_braunberg
 						name_list_polish = cn_braniewo
 						name_list_pommeranian = cn_braniewo
 						name_list_polabian = cn_braniewo
@@ -20638,6 +20678,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_brandenburg_PRUS
 						name_list_swabian = cn_brandenburg_PRUS
 						name_list_bavarian = cn_brandenburg_PRUS
+						name_list_thuringian = cn_brandenburg_PRUS
 						name_list_polish = cn_pokarmin
 						name_list_pommeranian = cn_pokarmin
 						name_list_polabian = cn_pokarmin
@@ -20660,6 +20701,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_wehlau
 						name_list_swabian = cn_wehlau
 						name_list_bavarian = cn_wehlau
+						name_list_thuringian = cn_wehlau
 						name_list_polish = cn_welawa
 						name_list_pommeranian = cn_welawa
 						name_list_polabian = cn_welawa
@@ -20680,6 +20722,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_konigsberg
 						name_list_swabian = cn_konigsberg
 						name_list_bavarian = cn_konigsberg
+						name_list_thuringian = cn_konigsberg
 						name_list_polish = cn_krolewiec
 						name_list_pommeranian = cn_krolewiec
 						name_list_polabian = cn_krolewiec
@@ -20705,6 +20748,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_heilsberg
 						name_list_swabian = cn_heilsberg
 						name_list_bavarian = cn_heilsberg
+						name_list_thuringian = cn_heilsberg
 						name_list_polish = cn_lidzbark
 						name_list_pommeranian = cn_lidzbark
 						name_list_polabian = cn_lidzbark
@@ -20721,6 +20765,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_bartenstein
 						name_list_swabian = cn_bartenstein
 						name_list_bavarian = cn_bartenstein
+						name_list_thuringian = cn_bartenstein
 						name_list_polish = cn_bartoszyce
 						name_list_pommeranian = cn_bartoszyce
 						name_list_polabian = cn_bartoszyce
@@ -20737,6 +20782,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_insterburg
 						name_list_swabian = cn_insterburg
 						name_list_bavarian = cn_insterburg
+						name_list_thuringian = cn_insterburg
 						name_list_polish = cn_wystruc
 						name_list_pommeranian = cn_wystruc
 						name_list_polabian = cn_wystruc
@@ -20752,6 +20798,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_rastenburg
 						name_list_swabian = cn_rastenburg
 						name_list_bavarian = cn_rastenburg
+						name_list_thuringian = cn_rastenburg
 						name_list_polish = cn_rastembork
 						name_list_pommeranian = cn_rastembork
 						name_list_polabian = cn_rastembork
@@ -20780,6 +20827,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_kulm
 						name_list_swabian = cn_kulm
 						name_list_bavarian = cn_kulm
+						name_list_thuringian = cn_kulm
 					}
 				}
 				b_torun = {
@@ -20793,6 +20841,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_thorn
 						name_list_swabian = cn_thorn
 						name_list_bavarian = cn_thorn
+						name_list_thuringian = cn_thorn
 					}
 				}
 				b_briesen = {	#b_wabrzezno
@@ -20805,6 +20854,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_briesen_PRUS
 						name_list_swabian = cn_briesen_PRUS
 						name_list_bavarian = cn_briesen_PRUS
+						name_list_thuringian = cn_briesen_PRUS
 					}
 				}
 			}
@@ -20825,6 +20875,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_eylau
 						name_list_swabian = cn_eylau
 						name_list_bavarian = cn_eylau
+						name_list_thuringian = cn_eylau
 					}
 				}
 				b_brodnica = {	#b_lubavia
@@ -20841,6 +20892,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_brodnica_strasburg
 						name_list_swabian = cn_brodnica_strasburg
 						name_list_bavarian = cn_brodnica_strasburg
+						name_list_thuringian = cn_brodnica_strasburg
 					}
 				}
 				b_osterode = {	#b_drweca
@@ -20857,6 +20909,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_osterode
 						name_list_swabian = cn_osterode
 						name_list_bavarian = cn_osterode
+						name_list_thuringian = cn_osterode
 					}
 				}
 			}
@@ -20877,6 +20930,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_allenstein
 						name_list_swabian = cn_allenstein
 						name_list_bavarian = cn_allenstein
+						name_list_thuringian = cn_allenstein
 					}
 				}
 				b_ortelsburg = {	#b_sctino
@@ -20893,6 +20947,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_ortulfsburg
 						name_list_swabian = cn_ortulfsburg
 						name_list_bavarian = cn_ortulfsburg
+						name_list_thuringian = cn_ortulfsburg
 					}
 				}
 				b_niedenburg = {	#b_nidzia
@@ -20909,6 +20964,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_neidenburg
 						name_list_swabian = cn_neidenburg
 						name_list_bavarian = cn_neidenburg
+						name_list_thuringian = cn_neidenburg
 					}
 				}
 			}
@@ -20929,6 +20985,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_lotzen
 						name_list_swabian = cn_lotzen
 						name_list_bavarian = cn_lotzen
+						name_list_thuringian = cn_lotzen
 					}
 				}
 				b_lyck = {	#b_luks
@@ -20945,6 +21002,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_lyck
 						name_list_swabian = cn_lyck
 						name_list_bavarian = cn_lyck
+						name_list_thuringian = cn_lyck
 					}
 				}
 				b_angerburg = {	#b_anger
@@ -20961,6 +21019,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_angirburg
 						name_list_swabian = cn_angirburg
 						name_list_bavarian = cn_angirburg
+						name_list_thuringian = cn_angirburg
 					}
 				}
 			}
@@ -20980,6 +21039,7 @@ e_wendish_empire = {
 				name_list_saxon = cn_kurland
 				name_list_swabian = cn_kurland
 				name_list_bavarian = cn_kurland
+				name_list_thuringian = cn_kurland
 				name_list_swedish = cn_kurland
 				name_list_norse = cn_kurland
 				name_list_danish = cn_kurland
@@ -20996,6 +21056,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_semgallen
 					name_list_swabian = cn_semgallen
 					name_list_bavarian = cn_semgallen
+					name_list_thuringian = cn_semgallen
 				}
 
 				#b_riga = {
@@ -21029,6 +21090,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_dobeln
 						name_list_swabian = cn_dobeln
 						name_list_bavarian = cn_dobeln
+						name_list_thuringian = cn_dobeln
 					}
 				}
 				b_mitau = {
@@ -21124,6 +21186,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_raseinen
 						name_list_swabian = cn_raseinen
 						name_list_bavarian = cn_raseinen
+						name_list_thuringian = cn_raseinen
 						name_list_swedish = cn_raseinen
 						name_list_norse = cn_raseinen
 						name_list_danish = cn_raseinen
@@ -21140,6 +21203,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_georgenburg
 						name_list_swabian = cn_georgenburg
 						name_list_bavarian = cn_georgenburg
+						name_list_thuringian = cn_georgenburg
 						name_list_swedish = cn_georgsborg
 						name_list_norse = cn_georgsborg
 						name_list_danish = cn_georgsborg
@@ -21254,6 +21318,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_wolmar
 						name_list_swabian = cn_wolmar
 						name_list_bavarian = cn_wolmar
+						name_list_thuringian = cn_wolmar
 					}
 				}
 				b_venden = {
@@ -21266,6 +21331,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_wenden
 						name_list_swabian = cn_wenden
 						name_list_bavarian = cn_wenden
+						name_list_thuringian = cn_wenden
 					}
 				}
 				b_rauna = {
@@ -21278,6 +21344,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_ronneburg
 						name_list_swabian = cn_ronneburg
 						name_list_bavarian = cn_ronneburg
+						name_list_thuringian = cn_ronneburg
 					}
 				}
 			}
@@ -21289,6 +21356,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_kokenhusen
 					name_list_swabian = cn_kokenhusen
 					name_list_bavarian = cn_kokenhusen
+					name_list_thuringian = cn_kokenhusen
 					name_list_russian = cn_kukeinos
 					name_list_polish = cn_koknese
 					name_list_lithuanian = cn_koknese
@@ -21304,6 +21372,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_kokenhusen
 						name_list_swabian = cn_kokenhusen
 						name_list_bavarian = cn_kokenhusen
+						name_list_thuringian = cn_kokenhusen
 						name_list_russian = cn_kukeinos
 						name_list_polish = cn_koknese
 						name_list_lithuanian = cn_koknese
@@ -21319,6 +21388,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_sesswegen
 						name_list_swabian = cn_sesswegen
 						name_list_bavarian = cn_sesswegen
+						name_list_thuringian = cn_sesswegen
 					}
 				}
 				b_lennewarden = {
@@ -21335,6 +21405,7 @@ e_wendish_empire = {
 					name_list_saxon = cn_gerzika
 					name_list_swabian = cn_gerzika
 					name_list_bavarian = cn_gerzika
+					name_list_thuringian = cn_gerzika
 				}
 
 				b_jersika = {
@@ -21347,6 +21418,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_gerzika
 						name_list_swabian = cn_gerzika
 						name_list_bavarian = cn_gerzika
+						name_list_thuringian = cn_gerzika
 					}
 				}
 				b_jekabpils = {
@@ -21359,6 +21431,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_jakobstadt
 						name_list_swabian = cn_jakobstadt
 						name_list_bavarian = cn_jakobstadt
+						name_list_thuringian = cn_jakobstadt
 					}
 				}
 				b_daugavpils = {
@@ -21371,6 +21444,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_dunaburg
 						name_list_swabian = cn_dunaburg
 						name_list_bavarian = cn_dunaburg
+						name_list_thuringian = cn_dunaburg
 					}
 				}
 				b_rezekne = {
@@ -21383,6 +21457,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_rositten
 						name_list_swabian = cn_rositten
 						name_list_bavarian = cn_rositten
+						name_list_thuringian = cn_rositten
 					}
 				}
 			}
@@ -21399,6 +21474,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_marienburg
 						name_list_swabian = cn_marienburg
 						name_list_bavarian = cn_marienburg
+						name_list_thuringian = cn_marienburg
 					}
 				}
 				b_gulbene = {
@@ -21411,6 +21487,7 @@ e_wendish_empire = {
 						name_list_saxon = cn_schwanenburg
 						name_list_swabian = cn_schwanenburg
 						name_list_bavarian = cn_schwanenburg
+						name_list_thuringian = cn_schwanenburg
 					}
 				}
 			}
@@ -22279,7 +22356,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_swabian = cn_znin
 						name_list_bavarian = cn_znin
 						name_list_thuringian = cn_znin
-						name_list_thuringian = cn_znin
 					}
 				}
 			}
@@ -22291,7 +22367,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_saxon = cn_lebus
 					name_list_swabian = cn_lebus
 					name_list_bavarian = cn_lebus
-					name_list_thuringian = cn_lebus
 					name_list_thuringian = cn_lebus
 				}
 
@@ -22306,7 +22381,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_swabian = cn_lebus
 						name_list_bavarian = cn_lebus
 						name_list_thuringian = cn_lebus
-						name_list_thuringian = cn_lebus
 					}
 				}
 
@@ -22320,7 +22394,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 						name_list_saxon = cn_oderfrankfurt
 						name_list_swabian = cn_oderfrankfurt
 						name_list_bavarian = cn_oderfrankfurt
-						name_list_thuringian = cn_oderfrankfurt
 						name_list_thuringian = cn_oderfrankfurt
 					}
 				}
@@ -23752,7 +23825,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4154
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_franconian = "Teindles"
@@ -23773,7 +23846,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4150
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Netolitsj"
@@ -23794,7 +23867,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4153
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Hrosinborg"
@@ -23815,7 +23888,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4152
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Krumleifr"
@@ -23836,7 +23909,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4156
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Kinau"
@@ -23857,7 +23930,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4157
 
 				color = { 140 90 5 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Bechingen"
@@ -23877,7 +23950,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 		}
 		c_boleslav = {
 			color = { 195 65 10 }
-			color2 = { 255 255 255 }
 
 			cultural_names = {
 
@@ -23903,7 +23975,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4136
 
 				color = { 195 65 10 }
-				color2 = { 255 255 255 }
 
 				cultural_names = {
 
@@ -23929,7 +24000,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4134
 
 				color = { 195 65 10 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Bösig"
@@ -23949,7 +24020,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 		}
 		c_hradec = {
 			color = { 201 118 11 }
-			color2 = { 255 255 255 }
 
 			cultural_names = {
 
@@ -23977,7 +24047,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4138
 
 				color = { 201 118 11 }
-				color2 = { 255 255 255 }
 
 				cultural_names = {
 
@@ -24005,7 +24074,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4137
 
 				color = { 201 118 11 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_czech = "Dvůr Králové nad Labem"
@@ -24030,7 +24099,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4139
 
 				color = { 201 118 11 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Jermer"
@@ -24077,10 +24146,8 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 		}
 		c_caslav = {
 			color = { 210 165 40 }
-			color2 = { 255 255 255 }
 
 			cultural_names = {
-
 				name_list_norse = "Tjaslaufr"
 				name_list_norwegian = "Tjaslaufr"
 				name_list_danish = "Tjaslaufr"
@@ -24105,7 +24172,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4161
 
 				color = { 210 165 40 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Tjaslaufr"
@@ -24133,7 +24200,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4140
 
 				color = { 210 165 40 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Vratsleifr"
@@ -24154,7 +24221,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4160
 
 				color = { 210 165 40 }
-				color2 = { 255 255 255 }
 
 				cultural_names = {
 
@@ -24214,7 +24280,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4165
 				
 				color = { 163 107 41 }
-				color2 = { 255 255 255 }
 
 				cultural_names = {
 
@@ -24248,7 +24313,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4181
 				
 				color = { 163 107 41 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Nýborg"
@@ -24272,7 +24337,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4148
 				
 				color = { 163 107 41 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Kremsier"
@@ -24298,7 +24363,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 		}
 		c_opava = {
 			color = { 190 90 38 }
-			color2 = { 255 255 255 }
 
 			cultural_names = {
 
@@ -24323,7 +24387,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4184
 				
 				color = { 190 90 38 }
-				color2 = { 255 255 255 }
 
 				cultural_names = {
 
@@ -24349,7 +24412,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				province = 4183
 				
 				color = { 190 90 38 }
-				color2 = { 255 255 255 }
+
 				cultural_names = {
 
 					name_list_norse = "Gräts"
@@ -28700,7 +28763,7 @@ e_caspian-pontic_steppe = {
 					color = { 85 50 22 }
 
 					cultural_names = {
-						name_list_crimean_gothic = "Betz"
+						name_list_crimean_gothic = "Baetz"
 					}
 				}
 			}
@@ -50930,7 +50993,6 @@ e_maghreb = {
 
 	k_canarias = {
 		color = { 242 231 125 }
-
 		cultural_names = {
 			name_list_guanches = cn_guanac
 		}
@@ -74564,6 +74626,7 @@ d_laamp_anangapida = { # Anangapida
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74577,6 +74640,7 @@ d_laamp_ziyar = { # Ziyar
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74590,6 +74654,7 @@ d_laamp_ahwazi = { # Husayn
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74603,6 +74668,7 @@ d_laamp_guttorm = { # Guttorm
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74616,6 +74682,7 @@ d_laamp_hrolfr = { # Hrolfr
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74629,6 +74696,7 @@ d_laamp_ubbe = { # Ubbe
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74642,6 +74710,7 @@ d_laamp_enian = { # Enian Qaghan
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74657,6 +74726,7 @@ d_laamp_sabbah = { # Hassan-i Sabbah
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74670,6 +74740,7 @@ d_laamp_wake = { # Hereweard the Wake
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74683,6 +74754,7 @@ d_laamp_el_cid = { # El Cid
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74696,6 +74768,7 @@ d_laamp_crispin = { # Robert Crispin
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74709,6 +74782,7 @@ d_laamp_suleyman = { # Suleyman ibn Qutalmish
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74722,6 +74796,7 @@ d_laamp_wallada = { # Wallada bint al-Mustakfi
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74735,6 +74810,7 @@ d_laamp_danishmend = { # Danishmend Taylu
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74748,6 +74824,7 @@ d_laamp_voiteh = { # Georgi Voiteh
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74761,6 +74838,7 @@ d_laamp_aelfwine = { # Aelfwine Haroldson
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74774,6 +74852,7 @@ d_laamp_karatzas = { # Argyros Karatzas
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74789,6 +74868,7 @@ d_laamp_kizil_buga = { # Kızıl Buğa Kayı
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74802,6 +74882,7 @@ d_laamp_ali_ibn_reverter = { # Abu-l-Hasan Ali ibn Reverter
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74816,6 +74897,7 @@ d_laamp_andronikos_komnenos = { # Andronikos Komnenos
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74829,6 +74911,7 @@ d_laamp_asen = { # Theodor-Peter of Bulgaria
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74842,6 +74925,7 @@ d_laamp_mieszko = { # Mieszko the Old
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74855,6 +74939,7 @@ d_laamp_raimon_brun = { # Raimon-Brun de Gramont
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74868,6 +74953,7 @@ d_laamp_lalibela = { # Lalibela
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74881,6 +74967,7 @@ d_laamp_muhammad_bakhtiyar = { # Muhammad Bakhtiyar
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
@@ -74894,6 +74981,7 @@ d_laamp_raoul = { # Roger Raoul
 
 	definite_form = yes
 	landless = yes
+	require_landless = yes
 	ruler_uses_title_name = no
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
