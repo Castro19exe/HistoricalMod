@@ -277,7 +277,7 @@ create_serbian_empire_effect = {
 
 ######################################################################################################
 
-create_portuguese_empire_effect = {
+create_gothic_kingdom_effect = {
 	#Prestige
 	add_prestige = massive_prestige_gain
 

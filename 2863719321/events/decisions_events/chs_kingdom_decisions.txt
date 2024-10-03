@@ -133,7 +133,7 @@ chs_major_decisions.0005 = {
 	immediate = {
 		play_music_cue = "mx_cue_epic_sacral_moment"
 		save_scope_as = scoped_king
-		create_dalmatian_kingdom_effect = yes
+		create_gothic_kingdom_effect = yes
 	}
 
 	option = {
