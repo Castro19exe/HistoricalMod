@@ -329,3 +329,76 @@ create_portuguese_empire_decision = {
 		base = 100
 	}
 }
+
+############################################################## 
+
+create_gothic_kingdom_decision = {
+	picture = {
+		reference =	"gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
+	}
+	desc = create_gothic_kingdom_decision_desc
+	selection_tooltip = create_gothic_kingdom_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+        has_culture = culture:crimean_gothic
+
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_create_gothic_kingdom
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 3
+		is_independent_ruler = yes
+		completely_controls = title:d_crimea
+        completely_controls = title:d_levedia
+        completely_controls = title:d_yedisan
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 300
+	}
+
+	effect = {
+		show_as_tooltip = {
+			create_gothic_kingdom_effect = yes
+		}
+
+		trigger_event = {
+			id = chs_major_decisions.0005
+		}
+
+		hidden_effect = {
+			#Declare flag
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_create_gothic_kingdom
+			}
+			set_global_variable = {
+				name = flag_create_gothic_kingdom
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

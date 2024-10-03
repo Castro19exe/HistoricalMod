@@ -24255,24 +24255,22 @@
 
  k_mediterranean_sea:0 "Baleo-Tyrrhenia" # Baleo-Tyrrhenian
 
+ # Titles from the MOD
  k_dalmatia:0 "Dalmatia"
  k_dalmatia_adj:0 "Dalmatian"
-
  e_illyria:0 "Illyria"
  e_illyria_adj:0 "Illyrian"
-
  e_pan_germany_article:0 "the "
  e_pan_germany:0 "Pan-Germanic Empire"
  e_pan_germany_adj:0 "Germanic"
- 
  d_lesser_poland_late:0 "Lesser Poland"
  d_lesser_poland_late_adj:0 "Lesser Polish"
-
  k_toledo:0 "Toledo"
  k_toledo_adj:0 "Toledan"
-
  k_prussia:0 "Prussia"
  k_prussia_adj:0 "Prussian"
+ k_gothia:0 "Gothia"
+ k_gothia_adj:0 "Gothic"
 
  d_nizari: "Nizari Imamate"
  d_nizari_adj: "Nizari"

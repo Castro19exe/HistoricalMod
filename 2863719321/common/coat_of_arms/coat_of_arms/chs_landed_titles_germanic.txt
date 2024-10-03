@@ -406,3 +406,42 @@ e_pan_germany = {
 
 	}
 }
+
+k_gothia = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_byzantine_double_eagle.dds"
+		instance={
+			scale={ 0.650000 0.650000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_tamgha_regular_circle_frame.dds"
+		instance={
+			scale={ 0.860000 0.860000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_frame_circle_urnes_runes.dds"
+		instance={
+			scale={ 0.920000 0.920000 }
+			depth=2.010000
+		}
+
+	}
+
+}
