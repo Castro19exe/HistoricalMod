@@ -1,0 +1,56 @@
+l_english:
+ #Should not be here#
+ unify_italian_empire_decision:0 "Unify Italy"
+ unify_italian_empire_decision_confirm:0 "The peninsula will be unified"
+ unify_italian_empire_decision_desc:0 "If the squabbling city-states and barbarous realms of Italy are brought once again under Imperial rule, the entire peninsula will regain its dignity and power."
+ #Should not be here#
+
+ create_dalmatian_kingdom_decision:0 "Found Kingdom of Dalmatia"
+ create_dalmatian_kingdom_decision_confirm:0 "Gather the realm"
+ create_dalmatian_kingdom_decision_desc:0 "Since the dissolution of Julius Nepos realm, our people have been scattered and subjugated by foreign powers. I will unite our people once again."
+ create_dalmatian_kingdom_decision_tooltip:0 "Gather the dalmatian people under one [kingdom|E]"
+ create_dalmatian_kingdom.preview.titles:0 "[GetTitleByKey('d_dalmatia').GetNameNoTier], [GetTitleByKey('d_ragusa').GetNameNoTier], [GetTitleByKey('d_usora').GetNameNoTier], become [de_jure|E] part of the [GetTitleByKey('k_dalmatia').GetName]"
+ create_dalmatian_kingdom.conversion_boost: "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('custom_roman_illyricum').GetName] [region|E] for 35 years: #P +25%#!"
+ dalmatian_culture_conversion_task_desc:0 "Promote Culture Boost"
+ #Should not be here#
+ chs_major_decisions.0001.t:0 "The Kingdom of Dalmatia"
+ chs_major_decisions.0001.desc:0 "Dalmatia, a realm of enchantment and magnificence, where the sun kisses the Adriatic Sea, and history weaves its tapestry through ancient stones."
+ chs_major_decisions.0001.a:0 "Perseverantia vincit omnia!"
+ #Should not be here#
+
+ create_illyrian_empire_decision:0 "Unify Illyria"
+ create_illyrian_empire_decision_confirm:0 "Illyria will be unified"
+ create_illyrian_empire_decision_desc:0 "Since ancient times, the region has been inhabited by various barbarian tribes, experienced Roman rule, and witnessed the presence of many Slavic peoples. However, now, a pivotal opportunity arises to unite Illyria and forge a new destiny."
+ create_illyrian_empire_decision_tooltip:0 "Become the first [emperor|E] of Illyria"
+ create_illyrian_empire.preview.titles:0 "Every [kingdom|E] [title|E] you [hold|E] or [completely_control|E] will become [de_jure|E] of the [GetTitleByKey('e_illyria').GetName]"
+ #Should not be here#
+ chs_major_decisions.0002.t:0 "Illyria United"
+ chs_major_decisions.0002.desc:0 "Now beggin a new chapter in the history of this land, and is in my power to write it."
+ chs_major_decisions.0002.a:0 "United we are stronger!"
+ #Should not be here#
+
+ create_serbian_empire_decision:0 "Found the Serbian Empire"
+ create_serbian_empire_decision_confirm:0 "No longer a Kingdom but an Empire"
+ create_serbian_empire_decision_desc:0 "Our descendants have rooted themselves in these lands for generations, and we aspire to forge a new chapter in history by establishing the majestic realm of the Serbian Empire. Guided by the spirit of our ancestors, we seek to influence and expand our esteemed borders."
+ create_serbian_empire_decision_tooltip:0 "Serbs above everyone else"
+ #Should not be here#
+ chs_major_decisions.0003.t:0 "The Serbian Empire"
+ chs_major_decisions.0003.desc:0 "Now the path is clear for greatness, no longer subjects of the Greeks or Bulgars, but architects of our own destiny, forging the foundation of the mighty Serbian Empire."
+ chs_major_decisions.0003.a:0 "Now Stronger than ever!"
+ #Should not be here#
+
+ create_portuguese_empire_decision:0 "Establish the Portuguese Empire"
+ create_portuguese_empire_decision_confirm:0 "Now is our time"
+ create_portuguese_empire_decision_desc:0 "As the winds of exploration and ambition sweep across our nation, a pivotal decision lies before us. Shall we embark on a daring journey to forge the Portuguese Empire, extending our influence to distant shores, establishing trade routes, and securing a legacy that will endure through the ages."
+ create_portuguese_empire_decision_tooltip:0 "We will write our legacy in the history"
+ create_portuguese_empire.preview.titles:0 "The [GetTitleByKey('k_portugal').GetName] and [GetTitleByKey('k_canarias').GetName] become [de_jure|E] part of [GetTitleByKey('e_portugal').GetName]"
+ #Should not be here#
+ chs_major_decisions.0004.t:0 "The Portuguese Empire"
+ chs_major_decisions.0004.desc:0 ""
+ chs_major_decisions.0004.a:0 ""
+ #Should not be here#
+
+ create_gothic_kingdom_decision:0 "Unite Magna Germania"
+ create_gothic_kingdom_decision_confirm:0 "Masters of Europe"
+ create_gothic_kingdom_decision_desc:0 "In order to consolidate our strength and ensure the prosperity of our people, it's time to be united under a single banner. By setting aside our differences and forging a common purpose, we can establish a stable and powerful realm that will safeguard our interests and secure our future."
+ create_gothic_kingdom_decision_tooltip:0 "Unite the lands that Rome never conquered"
