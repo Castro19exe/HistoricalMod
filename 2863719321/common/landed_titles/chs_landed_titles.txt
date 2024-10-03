@@ -199,6 +199,12 @@ k_dalmatia = {
 	capital = c_zadar
 }
 
+k_gothia = {
+	color = { 214 222 238 }
+
+	capital = c_kerch
+}
+
 d_sunni = {
 	color = { 40 160 40 }
 	definite_form = yes

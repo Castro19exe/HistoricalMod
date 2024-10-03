@@ -98,6 +98,7 @@ crimean_gothic = {
 	language = language_east_germanic					
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_isolationist
 		tradition_stalwart_defenders				#fought off hordes of Huns
 		tradition_loyal_soldiers					#typically spoke greek, tatar, hungarian etc.
 	}
@@ -108,7 +109,7 @@ crimean_gothic = {
 	
 	name_list = name_list_crimean_gothic
 	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	coa_gfx = { byzantine_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
