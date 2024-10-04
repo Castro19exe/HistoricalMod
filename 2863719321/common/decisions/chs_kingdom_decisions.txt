@@ -358,9 +358,11 @@ create_gothic_kingdom_decision = {
 	is_valid = {
 		prestige_level >= 3
 		is_independent_ruler = yes
-		completely_controls = title:d_crimea
-        completely_controls = title:d_levedia
-        completely_controls = title:d_yedisan
+		AND = {
+			completely_controls = title:d_crimea
+        	completely_controls = title:d_levedia
+        	completely_controls = title:d_yedisan
+		}
 	}
 
 	is_valid_showing_failures_only = {
@@ -369,7 +371,7 @@ create_gothic_kingdom_decision = {
 	}
 
 	cost = {
-		gold = 300
+		gold = 500
 	}
 
 	effect = {
