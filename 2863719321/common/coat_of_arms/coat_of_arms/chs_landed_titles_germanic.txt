@@ -418,6 +418,7 @@ k_gothia = {
 		color2=white
 		texture="ce_byzantine_double_eagle.dds"
 		instance={
+			position={ 0.500000 0.460000 }
 			scale={ 0.650000 0.650000 }
 			depth=1.010000
 		}
@@ -428,6 +429,7 @@ k_gothia = {
 		color1=black
 		texture="ce_tamgha_regular_circle_frame.dds"
 		instance={
+			position={ 0.500000 0.470000 }
 			scale={ 0.860000 0.860000 }
 		}
 
@@ -438,6 +440,7 @@ k_gothia = {
 		color2=black
 		texture="ce_frame_circle_urnes_runes.dds"
 		instance={
+			position={ 0.500000 0.470000 }
 			scale={ 0.920000 0.920000 }
 			depth=2.010000
 		}

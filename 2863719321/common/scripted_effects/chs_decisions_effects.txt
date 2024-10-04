@@ -303,6 +303,8 @@ create_gothic_kingdom_effect = {
 	#custom_tooltip = create_portuguese_empire.preview.titles
 
 	hidden_effect = {
-
+		title:d_crimea = { set_de_jure_liege_title = title:k_gothia }
+		title:d_levedia = { set_de_jure_liege_title = title:k_gothia }
+		title:d_yedisan = { set_de_jure_liege_title = title:k_gothia }
 	}
 }
