@@ -20,7 +20,7 @@
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -49,7 +49,7 @@ bobo = {
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -78,7 +78,7 @@ gur = {
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -103,7 +103,7 @@ marka = {
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -132,7 +132,7 @@ mel = {
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african

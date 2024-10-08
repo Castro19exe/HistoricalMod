@@ -19,7 +19,7 @@
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -44,7 +44,7 @@ hausa = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -70,7 +70,7 @@ sao = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
@@ -94,7 +94,7 @@ nupe = {
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { af_unit_gfx }
+	unit_gfx = { african_unit_gfx }
 	
 	ethnicities = {
 		10 = african
