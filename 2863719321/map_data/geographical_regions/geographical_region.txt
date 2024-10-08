@@ -976,6 +976,11 @@ world_persian_empire = {
 	}
 	duchies = { d_shirvan }
 }
+custom_gothia = {
+	duchies = {
+		d_crimea
+	}
+}
 custom_eastern_baltic = {
 	duchies = {
 		#Finland
