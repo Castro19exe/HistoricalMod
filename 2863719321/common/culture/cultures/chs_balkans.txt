@@ -32,7 +32,11 @@
 	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
+		60 = mediterranean_byzantine
+		15 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		10 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
 	}
 }
 

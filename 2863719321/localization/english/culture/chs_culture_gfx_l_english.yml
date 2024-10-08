@@ -1,6 +1,7 @@
 ﻿l_english:
  african_building_gfx:0 "African"
  african_clothing_gfx:0 "African"
+ african_unit_gfx:0 "African"
  anglo_saxon_coa_gfx:0 "Anglo-Saxon"
  arabic_group_building_gfx:0 "Arabic"
  arabic_group_coa_gfx:0 "Arabic"
@@ -62,6 +63,7 @@
  mena_building_gfx:0 "Arabic"
  mena_clothing_gfx:0 "Arabic"
  mena_unit_gfx:0 "Arabic"
+ mesoamerican_building_gfx:0 "Mesoamerican"
  mongol_clothing_gfx:0 "Mongolian"
  mongol_coa_gfx:0 "Mongolian"
  mongol_unit_gfx:0 "Mongolian"
@@ -108,8 +110,6 @@
  iberian_muslim_unit_gfx:0 "Andalusian"
  iberian_christian_clothing_gfx:0 "Iberian"
  iberian_muslim_clothing_gfx:0 "Andalusian"
- 
- af_unit_gfx:0 "African"
 
  iranian_clothing_gfx: "Iranian"
  iranian_building_gfx: "Iranian"

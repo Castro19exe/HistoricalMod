@@ -304,7 +304,5 @@ create_gothic_kingdom_effect = {
 
 	hidden_effect = {
 		title:d_crimea = { set_de_jure_liege_title = title:k_gothia }
-		title:d_levedia = { set_de_jure_liege_title = title:k_gothia }
-		title:d_yedisan = { set_de_jure_liege_title = title:k_gothia }
 	}
 }
