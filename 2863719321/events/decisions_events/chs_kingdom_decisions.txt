@@ -85,7 +85,7 @@ chs_major_decisions.0003 = {
 	}
 }
 
-##############################################################  Establish the Portuguese Empire
+##############################################################  ?
 
 chs_major_decisions.0004 = {
 	type = character_event
