@@ -1486,3 +1486,8 @@
  create_gothic_kingdom_decision_desc:0 "When Alaric led our people westward, some of us remained and made Crimea our home. Now, it's time to establish a powerful kingdom here, just like those that rose in the West."
  create_gothic_kingdom_decision_tooltip:0 "The Kingdom of Gothia is proclaimed"
  create_gothic_kingdom.preview.titles:0 " The [GetTitleByKey('k_gothia').GetName] will become [de_jure|E] of the [GetTitleByKey('e_byzantium').GetName]"
+ #Should not be here#
+ chs_major_decisions.0005.t:0 ""
+ chs_major_decisions.0005.desc:0 ""
+ chs_major_decisions.0005.a:0 ""
+ #Should not be here#
