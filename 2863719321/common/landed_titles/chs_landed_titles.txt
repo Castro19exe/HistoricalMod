@@ -200,7 +200,7 @@ k_dalmatia = {
 }
 
 k_gothia = {
-	color = { 214 222 238 }
+	color = { 30 95 152 }
 
 	capital = c_kerch
 }
@@ -27231,13 +27231,34 @@ e_russia = {	#Kievan Rus
 
 			capital = c_smolensk # Smolensk
 
+			cultural_names = {
+				name_list_norse = "Smaleskja"
+				name_list_swedish = "Smaleskja"
+				name_list_norwegian = "Smaleskja"
+				name_list_danish = "Smaleskja"
+			}
+
 			c_smolensk = {
 				color = { 146 124 153 }
+
+				cultural_names = {
+					name_list_norse = "Smaleskja"
+					name_list_swedish = "Smaleskja"
+					name_list_norwegian = "Smaleskja"
+					name_list_danish = "Smaleskja"
+				}
 
 				b_smolensk = {
 					province = 568
 
 					color = { 146 124 153 }
+
+					cultural_names = {
+						name_list_norse = "Smaleskja"
+						name_list_swedish = "Smaleskja"
+						name_list_norwegian = "Smaleskja"
+						name_list_danish = "Smaleskja"
+					}
 				}
 				b_dorogobyzh = {
 					province = 5219

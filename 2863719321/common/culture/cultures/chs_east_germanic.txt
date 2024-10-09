@@ -100,7 +100,8 @@ crimean_gothic = {
 	traditions = {
 		tradition_isolationist
 		tradition_stalwart_defenders				#fought off hordes of Huns
-		tradition_loyal_soldiers					#typically spoke greek, tatar, hungarian etc.
+		#tradition_loyal_soldiers					#typically spoke greek, tatar, hungarian etc.
+		tradition_martial_admiration
 	}
 	dlc_tradition = {
 		trait = tradition_staunch_traditionalists	#these dudes hung about for hundreds of years
