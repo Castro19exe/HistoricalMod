@@ -187,6 +187,27 @@ eastern_army_03 = {
 	entity = unit_byzantine_infantry_03_entity
 }
 
+# South Slavic 
+south_slav_army_01 = {
+	type = army
+	graphical_cultures = { south_slavic_unit_gfx }
+	entity = unit_south_slav_infantry_01_entity
+}
+
+south_slav_army_03 = {
+	type = army
+	quality = @tier2_quality	
+	graphical_cultures = { south_slavic_unit_gfx }
+	entity = unit_south_slav_infantry_02_entity
+}
+
+south_slav_army_05 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { south_slavic_unit_gfx }
+	entity = unit_south_slav_infantry_03_entity
+}
+
 # Chinese
 chinese_army_01 = {
 	type = army
@@ -323,10 +344,9 @@ germanic_army_01 = {
 
 germanic_army_02 = {
 	type = army
-	requires_dlc_flag = the_northern_lords
 	quality = @tier2_quality
 	graphical_cultures = { germanic_unit_gfx }
-	entity = unit_fp1_infantry_02_entity
+	entity = unit_northern_pagan_infantry_02_entity
 }
 
 germanic_army_03 = {

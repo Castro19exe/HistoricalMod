@@ -44,6 +44,15 @@ pdxmesh = {
 	}
 
 	meshsettings = {
+		name = "basic_skin"
+		texture_diffuse = "basic_unit_01_diffuse.dds"
+		texture_normal = "basic_unit_01_normal.dds"
+		texture_specular = "basic_unit_01_gloss.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
 		name = "high_quality_irish_head_layer"
 		texture_diffuse = "high_quality_irish_head_layer_diffuse.dds"
 		texture_normal = "high_quality_irish_head_layer_normal.dds"
@@ -65,7 +74,7 @@ entity = {
 		next_state = idle
 		chance = 4
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_base" }}
 	}
 	state = { 
@@ -75,14 +84,14 @@ entity = {
 		next_state = idle
 		chance = 1
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_var1" }}
 	}
 	state = { 
 		name = "besiege"
 		animation = "besiege_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 	
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_var1" }}
 	}
@@ -92,8 +101,8 @@ entity = {
 		looping = no
 		start_event = { node = World_node_1 entity = "unit_western_infantry_03_weapon_entity" attachment_id = weapon }
 		event = { time = 1.7 node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" attachment_id = weapon }
-		start_event = { node = back_node_1 entity = "unit_western_infantry_03_shield_entity" attachment_id = shield }
-		event = { time = 2.23 node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" attachment_id = shield }
+		start_event = { node = back_node_1 entity = "unit_irish_infantry_02_shield_entity" attachment_id = shield }
+		event = { time = 2.23 node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" attachment_id = shield }
 		event = { time = 3.66 remove_attachment = weapon }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_spawn" }}
@@ -102,8 +111,8 @@ entity = {
 		name = "disband"
 		animation = "despawn_animation"
 		looping = no
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" attachment_id = shield }
-		event = { time = 0.96 node = back_node_1 entity = "unit_western_infantry_03_shield_entity" attachment_id = shield }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" attachment_id = shield }
+		event = { time = 0.96 node = back_node_1 entity = "unit_irish_infantry_02_shield_entity" attachment_id = shield }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_disband" }}
 	}
@@ -114,7 +123,7 @@ entity = {
 		time_offset = 0.73
 		
 	#	start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_gathering_army" }}
 	}
@@ -124,7 +133,7 @@ entity = {
 		animation = "moving_standard_animation"
 		animation_blend_time = 0.3
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_moving_standard" }}
 	}
@@ -137,7 +146,7 @@ entity = {
 		next_state = move_attack_continue
 		
 		event = { time = 0.36 node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" attachment_id = weapon }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_tx_battle_axes" }}
@@ -146,7 +155,7 @@ entity = {
 		name = "move_attack_continue"
 		animation = "moving_battle_animation"
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		
@@ -156,7 +165,7 @@ entity = {
 		name = "move_retreat"
 		animation = "moving_retreat_animation"
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 	#	start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		
@@ -168,7 +177,7 @@ entity = {
 		animation = "victorious_combat_animation"
 		looping = no
 		next_state = idle
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" life = 5.53 }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_victorious_combat" }}
@@ -178,7 +187,7 @@ entity = {
 		animation = "victorious_siege_animation"
 		looping = no
 		next_state = idle
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" life = 5.66 }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_victorious_siege" }}
@@ -193,7 +202,7 @@ entity = {
 		name = "even_offensive_seq_1"
 		animation = "even_offensive_seq_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = even_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = even_offensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = even_offensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -207,7 +216,7 @@ entity = {
 		name = "even_defensive_seq_1"
 		animation = "even_defensive_seq_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = even_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = even_defensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = even_defensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -222,7 +231,7 @@ entity = {
 		name = "winlose_offensive_seq_1"
 		animation = "winlose_offensive_seq_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = winlose_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = winlose_offensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = winlose_offensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -236,7 +245,7 @@ entity = {
 		name = "winlose_defensive_seq_1"
 		animation = "winlose_defensive_seq_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = winlose_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = winlose_defensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = winlose_defensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -251,7 +260,7 @@ entity = {
 		animation = "pursuit_offensive_seq_1_animation"
 		animation_blend_time = 0.2
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = pursuit_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -265,7 +274,7 @@ entity = {
 		animation = "pursuit_defensive_seq_1_animation"
 		animation_blend_time = 0.5
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" state = pursuit_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -279,7 +288,7 @@ entity = {
 		name = "even_winlose_tx_offensive_1"
 		animation = "even_winlose_tx_offensive_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -291,7 +300,7 @@ entity = {
 		name = "winlose_even_tx_offensive_1"
 		animation = "winlose_even_tx_offensive_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -303,7 +312,7 @@ entity = {
 		name = "even_winlose_tx_defensive_1"
 		animation = "even_winlose_tx_defensive_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = winlose_even_tx_defensive_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = winlose_even_tx_defensive_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
@@ -315,7 +324,7 @@ entity = {
 		name = "winlose_even_tx_defensive_1"
 		animation = "winlose_even_tx_defensive_1_animation"
 		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_western_infantry_03_shield_entity" state = winlose_even_tx_defensive_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_irish_infantry_02_shield_entity" state = winlose_even_tx_defensive_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } 
