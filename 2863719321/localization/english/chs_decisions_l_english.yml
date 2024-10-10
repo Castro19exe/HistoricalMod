@@ -1469,17 +1469,6 @@
  chs_major_decisions.0003.a:0 "Now Stronger than ever!"
  #Should not be here#
 
- create_portuguese_empire_decision:0 "Establish the Portuguese Empire"
- create_portuguese_empire_decision_confirm:0 "Now is our time"
- create_portuguese_empire_decision_desc:0 "As the winds of exploration and ambition sweep across our nation, a pivotal decision lies before us. Shall we embark on a daring journey to forge the Portuguese Empire, extending our influence to distant shores, establishing trade routes, and securing a legacy that will endure through the ages."
- create_portuguese_empire_decision_tooltip:0 "We will write our legacy in the history"
- create_portuguese_empire.preview.titles:0 "The [GetTitleByKey('k_portugal').GetName] and [GetTitleByKey('k_canarias').GetName] become [de_jure|E] part of [GetTitleByKey('e_portugal').GetName]"
- #Should not be here#
- chs_major_decisions.0004.t:0 "The Portuguese Empire"
- chs_major_decisions.0004.desc:0 ""
- chs_major_decisions.0004.a:0 ""
- #Should not be here#
-
  create_gothic_kingdom_decision:0 "Establish Gothia"
  create_gothic_kingdom_decision_confirm:0 "Time for a new power rise"
  #create_gothic_kingdom_decision_desc:0 "Since the arrival of the Huns, we have lost power and influence in the region, and even after their downfall, we remained under the yoke of others. No more. It’s time to unite and proclaim the Kingdom of Gothia, reclaiming our freedom."
