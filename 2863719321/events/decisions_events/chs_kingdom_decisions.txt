@@ -87,31 +87,6 @@ chs_major_decisions.0003 = {
 
 ##############################################################  ?
 
-chs_major_decisions.0004 = {
-	type = character_event
-	title = chs_major_decisions.0004.t
-
-	desc = {
-		desc = chs_major_decisions.0004.desc
-	}
-
-	theme = realm
-
-	left_portrait = {
-		character = scope:scoped_emperor
-		animation = personality_honorable
-	}
-
-	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
-		save_scope_as = scoped_emperor
-		create_portuguese_empire_effect = yes
-	}
-
-	option = {
-		name = chs_major_decisions.0004.a
-	}
-}
 
 ##############################################################  Found The Kingdom of Goths in Crimea
 

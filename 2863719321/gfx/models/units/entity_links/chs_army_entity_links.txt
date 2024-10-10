@@ -333,7 +333,7 @@ germanic_army_03 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { germanic_unit_gfx }
-	entity = unit_irish_infantry_03_entity
+	entity = unit_germanic_infantry_03_entity
 }
 
 # Indian
