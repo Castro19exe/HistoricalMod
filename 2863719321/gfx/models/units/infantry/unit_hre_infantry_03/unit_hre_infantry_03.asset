@@ -34,29 +34,24 @@ pdxmesh = {
 	animation = { id = "even_winlose_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_even_winlose_tx_defensive_1.anim" }
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
-	
-
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_hre_infantry_03_diffuse.dds"
-		texture_normal = "unit_hre_infantry_03_normal.dds"
-		texture_specular = "unit_hre_infantry_03_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
-
-	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
+		name = "basic_skin"
 		texture_diffuse = "basic_unit_01_diffuse.dds"
 		texture_normal = "basic_unit_01_normal.dds"
-		texture_specular = "basic_unit_01_properties.dds"
+		texture_specular = "basic_unit_01_gloss.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-}
 
+	meshsettings = {
+		name = "imperial_helmet"
+		texture_diffuse = "unit_welsh_infantry_03_diffuse.dds"
+		texture_normal = "unit_welsh_infantry_03_normal.dds"
+		texture_specular = "unit_welsh_infantry_03_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
 
 entity = {
 	name = "unit_hre_infantry_03_entity"

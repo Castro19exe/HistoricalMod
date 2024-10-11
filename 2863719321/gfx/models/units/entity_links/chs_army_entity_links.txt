@@ -58,7 +58,7 @@ hre_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { hre_unit_gfx }
 	#entity = unit_hre_infantry_03_entity
-	entity = unit_western_infantry_03_entity
+	entity = unit_hre_infantry_03_entity
 }
 
 # Italian
