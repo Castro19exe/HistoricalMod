@@ -173,7 +173,7 @@ lombard = { #Italo-Lombards
 }
 
 venetian = {
-	color = { 218 240 254 }
+	color = { 243 255 254 }
 	created = 950.1.1
 	parents = { cisalpine }
 	
@@ -186,7 +186,6 @@ venetian = {
 		tradition_polders
 		tradition_maritime_mercantilism
 		tradition_swords_for_hire
-		#tradition_legalistic
 	}
 	
 	name_list = name_list_cisalpine
