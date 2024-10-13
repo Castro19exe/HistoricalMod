@@ -35,8 +35,8 @@ pdxmesh = {
 
 
 	meshsettings = {
-		name = "unit_tribal_african_infantry_01_body"
-		texture_diffuse = "unit_tribal_african_infantry_01_body_diffuse.dds"
+		name = "unit_azmeri_infantry_01_body"
+		texture_diffuse = "unit_azmeri_infantry_01_body_diffuse.dds"
 		texture_normal = "basic_unit_sub_saharan_normal.dds"
 		texture_specular = "basic_unit_sub_saharan_properties.dds"
 		shader = "standard_usercolor"
