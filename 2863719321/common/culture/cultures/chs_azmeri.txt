@@ -6,9 +6,9 @@ azmerian = {
 	language = language_azmerian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_forest_fighters_name
-		tradition_religious_patronage_name
-        tradition_hit_and_run_name
+		tradition_forest_fighters
+		tradition_religious_patronage
+        tradition_hit_and_run
 	}
 	
 	name_list = name_list_hunnic
