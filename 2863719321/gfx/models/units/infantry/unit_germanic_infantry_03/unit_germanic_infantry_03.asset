@@ -339,15 +339,6 @@ entity = {
 pdxmesh = {
 	name = "unit_germanic_infantry_03_weapon_mesh"
 	file = "unit_germanic_infantry_03_weapon.mesh"
-
-	#meshsettings = {
-	#	name = "jorodoxShape"
-	#	texture_diffuse = "unit_tribal_african_infantry_01_axe_diffuse.dds"
-	#	texture_normal = "unit_tribal_african_infantry_01_axe_normal.dds"
-	#	texture_specular = "unit_tribal_african_infantry_01_axe_properties.dds"
-	#	shader = "standard_usercolor"
-	#	shader_file = "gfx/FX/pdxmesh.shader"
-	#}
 }
 
 entity = {
@@ -355,11 +346,9 @@ entity = {
 	pdxmesh = "unit_germanic_infantry_03_weapon_mesh"
 	scale = 0.06
 
-	
 	state = { name = "winlose_defensive_seq_1"
 		state_time = 5
 		event = { time = 2.7  particle = "weapon_impact_1" keep_particle = yes }
-
 	}
 
 	state = { name = "pursuit_offensive_seq_1"
@@ -368,6 +357,5 @@ entity = {
 		event = { time = 1.14  particle = "blood_impact" keep_particle = yes }
 		event = { time = 2.5  particle = "blood_impact" keep_particle = yes }
 		event = { time = 3.18  particle = "blood_impact" keep_particle = yes }
-
 	}
 }
