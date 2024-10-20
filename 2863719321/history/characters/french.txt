@@ -20098,6 +20098,20 @@
 	}
 }
 
+31382 = {
+	name = "Gauthier"
+	dynasty = 80
+	religion = "catholic"
+	culture = french
+	father = 9050
+	1120.1.1 = {
+		birth = "1120.1.1"
+	}
+	1161.1.1 = {
+		death = "1161.1.1"
+	}
+}
+
 461741 = {
 	name = "Erard"
 	dynasty = 80
