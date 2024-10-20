@@ -57,13 +57,3 @@ heritage_north_sea_germanic = {
 	}
 	audio_parameter = european
 }
-
-heritage_azmerian = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_azmerian
-		}
-	}
-	audio_parameter = european
-}
