@@ -34,7 +34,7 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
 	meshsettings = {
-		name = "basic_skin"
+		name = "basic_skin_mena"
 		texture_diffuse = "basic_unit_01_diffuse.dds"
 		texture_normal = "basic_unit_01_normal.dds"
 		texture_specular = "basic_unit_01_properties.dds"
@@ -42,7 +42,6 @@ pdxmesh = {
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }
-
 
 entity = {
 	name = "unit_berber_infantry_03_entity"
