@@ -98,6 +98,29 @@
  venetian:0 "Venetian"
  venetian_prefix:0 "Veneto"
  venetian_collective_noun:0 "Venetians"
+ dregovichian:0 "Dregovichian"
+ dregovichian_prefix:0 "Dregovicho"
+ dregovichian_collective_noun:0 "Dregovichians"
+ krivichian:0 "Krivichian"
+ krivichian_prefix:0 "Krivicho"
+ krivichian_collective_noun:0 "Krivichians"
+ vyatichian:0 "Vyatichian"
+ vyatichian_prefix:0 "Vyaticho"
+ vyatichian_collective_noun:0 "Vyatichians"
+ radimichian:0 "Radimichian"
+ radimichian_prefix:0 "Radimicho"
+ radimichian_collective_noun:0 "Radimichians"
+ polian:0 "Polian"
+ polian_prefix:0 "Polo"
+ polian_collective_noun:0 "Polians"
+ drevlian:0 "Drevlian"
+ drevlian_prefix:0 "Drevlo"
+ drevlian_collective_noun:0 "Drevlians"
+
+
+
+
+
  pedran:0 "Pedran"
  pedran_prefix:0 "Pedro"
  pedran_collective_noun:0 "Pedrans"

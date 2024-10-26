@@ -9,6 +9,7 @@
 @holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
 @holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/city_sahelian.dds"
 @holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/city_ethiopian.dds"
+@holding_illustration_slavic = "gfx/interface/illustrations/holding_types/city_slavic.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -150,7 +151,6 @@ city_01 = {
 		type = pdxmesh
 		names = {
 			"building_mediterranean_city_01_mena_mesh"
-			#"building_mediterranean_city_01_mesh"
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
@@ -248,6 +248,68 @@ city_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -615,7 +677,6 @@ city_02 = {
 		type = pdxmesh
 		names = {
 			"building_mediterranean_city_01_mena_mesh"
-			#"building_mediterranean_city_01_mesh"
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
@@ -639,7 +700,8 @@ city_02 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mediterranean }	
 	}
 
 	#Mesoamerican
@@ -712,6 +774,68 @@ city_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -1157,6 +1281,63 @@ city_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1517,7 +1698,8 @@ city_04 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_mediterranean }
 	}
 
 	#Mesoamerican
@@ -1590,6 +1772,63 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###

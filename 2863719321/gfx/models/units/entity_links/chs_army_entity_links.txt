@@ -419,12 +419,35 @@ cuman_army_05 = {
 	entity = unit_cuman_infantry_03_entity
 }
 
-# Azmeri - NOT HISTORICALLY
+### - NOT HISTORICALLY ###
+# Azmeri 
 azmerian_army_01 = {
 	type = army
 	graphical_cultures = { azmerian_unit_gfx }
 	entity = unit_azmeri_infantry_01_entity
 }
+
+#  Nord
+nord_army_01 = {
+	type = army
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_01_entity
+}
+
+nord_army_03 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_02_entity
+}
+
+nord_army_05 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_03_entity
+}
+### - NOT HISTORICALLY ###
 
 # Tribal African 
 african_army_01 = {

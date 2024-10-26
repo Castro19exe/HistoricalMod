@@ -121,7 +121,7 @@
 6826 = {
 	name = "Gostomysl"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = radimichian
 	dynasty = 1029137
 	father = 160139
 	trait = content
@@ -212,7 +212,7 @@
 	name = "Yelisey"
 	dynasty = 1029116
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	father = 160051
 	trait = content
 	845.1.1 = {
@@ -241,7 +241,7 @@
 6869 = {
 	name = "Radoslav"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160134
 	trait = content
@@ -256,7 +256,7 @@
 6870 = {
 	name = "Yaropolk"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = radimichian
 	trait = content
 	dynasty = 1029137
 	father = 160139
@@ -10801,7 +10801,7 @@
 159719 = {
 	name = "Iziaslav"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
 	835.1.1 = {
@@ -10944,7 +10944,7 @@
 160049 = {
 	name = "Vsevolod"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 194133
 	780.1.1 = {
@@ -10957,7 +10957,7 @@
 160050 = {
 	name = "Putimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
 	810.1.1 = {
@@ -10970,7 +10970,7 @@
 160051 = {
 	name = "Radigost"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
 	815.1.1 = {
@@ -10984,7 +10984,7 @@
 	name = "Radoslav"
 	dynasty = 1029116
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	father = 160051
 	trait = content
 	850.1.1 = {
@@ -10997,7 +10997,7 @@
 160053 = {
 	name = "Samovlad"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
 	840.1.1 = {
@@ -11010,7 +11010,7 @@
 160054 = {
 	name = "Premsyl"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
 	850.1.1 = {
@@ -11205,7 +11205,7 @@
 160099 = {
 	name = "Zvonimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = radimichian
 	dynasty = 1029137
 	father = 6826
 	860.1.1 = {
@@ -11218,7 +11218,7 @@
 160100 = {
 	name = "Velimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = radimichian
 	dynasty = 1029137
 	father = 6826
 	861.1.1 = {
@@ -11283,7 +11283,7 @@
 160105 = {
 	name = "Mladan"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 159719
 	860.1.1 = {
@@ -11296,7 +11296,7 @@
 160106 = {
 	name = "Radomysl"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 159719
 	861.1.1 = {
@@ -11309,7 +11309,7 @@
 160107 = {
 	name = "Svetovid"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 6859
 	862.1.1 = {
@@ -11322,7 +11322,7 @@
 160108 = {
 	name = "Predrag"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	dynasty = 1029116
 	father = 6859
 	863.1.1 = {
@@ -11362,7 +11362,7 @@
 160134 = {
 	name = "Radomir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
 	810.1.1 = {
@@ -11376,7 +11376,7 @@
 160135 = {
 	name = "Stanislav"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	dynasty = 1029116
 	father = 6869
 	857.1.1 = {
@@ -11389,7 +11389,7 @@
 160136 = {
 	name = "Vlastimir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = ilmenian
 	dynasty = 1029116
 	father = 6869
 	858.1.1 = {
@@ -11428,7 +11428,7 @@
 160139 = {
 	name = "Velimir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = radimichian
 	dynasty = 1029137
 	father = 194141
 	810.1.1 = {
@@ -11441,7 +11441,7 @@
 160140 = {
 	name = "Svetoslav"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = severian
 	dynasty = 1029137
 	father = 6870
 	857.1.1 = {
@@ -11454,7 +11454,7 @@
 160141 = {
 	name = "Zvonimir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = severian
 	dynasty = 1029137
 	father = 6870
 	858.1.1 = {
@@ -11663,7 +11663,7 @@
 	name = "Stanislav"
 	dynasty = 1029137
 	religion = slavic_pagan
-	culture = severian
+	culture = radimichian
 	733.1.1 = {
 		birth = yes
 	}
@@ -11675,7 +11675,7 @@
 	name = "Igor"
 	dynasty = 1029137
 	religion = slavic_pagan
-	culture = severian
+	culture = radimichian
 	father = 194140
 	770.1.1 = {
 		birth = yes
@@ -11783,7 +11783,7 @@
 	name = "Vladislav"
 	dynasty = 2001027	#Tivertsi
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	839.3.23 = {
 		birth = "839.3.23"
 	}
@@ -11798,7 +11798,7 @@
 	name = "Ulyana"
 	female = yes
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	842.6.1 = {
 		birth = "842.6.1"
 	}
@@ -11811,7 +11811,7 @@
 	female = yes
 	dynasty = 2001027	#Tivertsi
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = ilmenian
 	father = 302137
 	mother = 302138
 	862.7.15 = {
@@ -11840,7 +11840,7 @@
 	name = Ruslan
 	dynasty = 2001028	#Betula
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	823.11.9 = {
 		birth = 823.11.9
 	}
@@ -11852,7 +11852,7 @@
 	name = Vysheslav
 	dynasty = 2001028	#Betula
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302142
 	846.5.3 = {
 		birth = 846.5.3
@@ -11865,7 +11865,7 @@
 	name = Rogvolod
 	dynasty = 2001028	#Betula
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302142
 	849.7.14 = {
 		birth = 849.7.14
@@ -11878,7 +11878,7 @@
 	name = Demid
 	dynasty = 2001028	#Betula
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302142
 	851.10.20 = {
 		birth = 851.10.20
@@ -11892,7 +11892,7 @@
 	name = Pyotr
 	dynasty = 2001029	#Luchanev
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	842.9.28 = {
 		birth = 842.9.28
 	}
@@ -11958,7 +11958,7 @@
 	name = Vasilko
 	dynasty = 2001034	#Podolianiv
 	religion = slavic_pagan
-	culture = russian
+	culture = tiverian
 	846.10.11 = {
 		birth = 846.10.11
 	}
@@ -11973,7 +11973,7 @@
 	name = Yekaterina
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = tiverian
 	848.1.22 = {
 		birth = 848.1.22
 	}
@@ -11985,7 +11985,7 @@
 	name = Svetozar
 	dynasty = 2001034	#Podolianiv
 	religion = slavic_pagan
-	culture = russian
+	culture = tiverian
 	father = 302151
 	mother = 302152
 	866.1.12 = {
@@ -12000,7 +12000,7 @@
 	name = Kirill
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	818.3.8 = {
 		birth = 818.3.8
 	}
@@ -12012,7 +12012,7 @@
 	name = Nikita
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	father = 302154
 	848.12.20 = {
 		birth = 848.12.20
@@ -12025,7 +12025,7 @@
 	name = Trifon
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	father = 302154
 	850.10.14 = {
 		birth = 850.10.14
@@ -12038,7 +12038,7 @@
 	name = Andronov
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	father = 302155
 	877.5.5 = {
 		birth = 877.5.5
@@ -12051,7 +12051,7 @@
 	name = Kirill
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	father = 302155
 	878.12.23 = {
 		birth = 878.12.23
@@ -12065,7 +12065,7 @@
 	female = yes
 	dynasty = 2001031	#Drevlianin
 	religion = slavic_pagan
-	culture = russian
+	culture = drevlian
 	father = 302157
 	907.3.16 = {
 		birth = 907.3.16
@@ -12078,7 +12078,7 @@
 	name = Dmitriy
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	1045.6.20 = {
 		birth = 1045.6.20
 	}
@@ -12090,7 +12090,7 @@
 	name = Davyd
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	father = 302160
 	1071.2.14 = {
 		birth = 1071.2.14
@@ -12104,7 +12104,7 @@
 	female = yes
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	father = 302160
 	1072.11.13 = {
 		birth = 1072.11.13
@@ -12117,7 +12117,7 @@
 	name = Simeon
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	father = 302161
 	1101.10.23 = {
 		birth = 1101.10.23
@@ -12130,7 +12130,7 @@
 	name = Konstantin
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	father = 302163
 	1130.8.15 = {
 		birth = 1130.8.15
@@ -12144,7 +12144,7 @@
 	female = yes
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = russian
+	culture = drevlian
 	father = 302163
 	1133.4.30 = {
 		birth = 1133.4.30
@@ -12158,7 +12158,7 @@
 	name = Svetozar
 	dynasty = 2001033	#Volhynsky
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	803.7.12 = {
 		birth = 803.7.12
 	}
@@ -12170,7 +12170,7 @@
 	name = Yuriy
 	dynasty = 2001033	#Volhynsky
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302166
 	834.5.16 = {
 		birth = 834.5.16
@@ -12183,7 +12183,7 @@
 	name = Boris
 	dynasty = 2001033	#Volhynsky
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302166
 	837.2.20 = {
 		birth = 837.2.20
@@ -12196,7 +12196,7 @@
 	name = Feodot
 	dynasty = 2001033	#Volhynsky
 	religion = slavic_pagan
-	culture = russian
+	culture = volhynian
 	father = 302167
 	864.11.30 = {
 		birth = 864.11.30
@@ -12562,7 +12562,7 @@
 	name = Igor
 	dynasty = 2001038	#Polochanin
 	religion = slavic_pagan
-	culture = russian
+	culture = ilmenian
 	843.10.16 = {
 		birth = 843.10.16
 	}
@@ -12574,7 +12574,7 @@
 	name = Iliya
 	dynasty = 2001038	#Polochanin
 	religion = slavic_pagan
-	culture = russian
+	culture = ilmenian
 	father = 302196
 	865.8.13 = {
 		birth = 865.8.13
@@ -12613,7 +12613,7 @@
 	name = Voislav
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	836.3.20 = {
 		birth = 836.3.20
 	}
@@ -12628,7 +12628,7 @@
 	name = Liubava
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	841.7.28 = {
 		birth = 841.7.28
 	}
@@ -12641,7 +12641,7 @@
 	female = yes
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	father = 302200
 	mother = 302201
 	859.9.13 = {
@@ -12656,7 +12656,7 @@
 	female = yes
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	father = 302200
 	mother = 302201
 	862.4.28 = {
@@ -12671,7 +12671,7 @@
 	female = yes
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	mother = 302203
 	893.1.14 = {
 		birth = 893.1.14
@@ -12684,7 +12684,7 @@
 	name = Sudislav
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	mother = 302204
 	918.10.1 = {
 		birth = 918.10.1
@@ -12697,7 +12697,7 @@
 	name = Voislav
 	dynasty = 1029117	#Dregovich
 	religion = slavic_pagan
-	culture = russian
+	culture = dregovichian
 	father = 302205
 	948.6.3 = {
 		birth = 948.6.3
@@ -12710,7 +12710,7 @@
 	name = Ivan
 	dynasty = 1029117	#Dregovich
 	religion = orthodox
-	culture = russian
+	culture = dregovichian
 	1044.3.5 = {
 		birth = 1044.3.5
 	}
@@ -12735,7 +12735,7 @@
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	822.11.15 = {
 		birth = 822.11.15
 	}
@@ -12753,7 +12753,7 @@
 	name = Olena
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	825.1.29 = {
 		birth = 825.1.29
 	}
@@ -12765,7 +12765,7 @@
 	name = Darya
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	830.11.14 = {
 		birth = 830.11.14
 	}
@@ -12777,7 +12777,7 @@
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302210
 	843.3.6 = {
@@ -12792,7 +12792,7 @@
 	female = yes
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302210
 	844.5.13 = {
@@ -12807,7 +12807,7 @@
 	female = yes
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302210
 	846.7.15 = {
@@ -12821,7 +12821,7 @@
 	name = Vyshata
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302210
 	848.12.5 = {
@@ -12836,7 +12836,7 @@
 	female = yes
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302211
 	847.12.16 = {
@@ -12850,7 +12850,7 @@
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302211
 	851.6.12 = {
@@ -12864,7 +12864,7 @@
 	name = Yaroslav
 	dynasty = 2001039	#Krivichi
 	religion = slavic_pagan
-	culture = russian
+	culture = krivichian
 	father = 302209
 	mother = 302211
 	852.9.20 = {
@@ -12881,7 +12881,7 @@
 	name = Ingvar
 	dynasty = 2001041	#Pskovych
 	religion = slavic_pagan
-	culture = russian
+	culture = ilmenian
 	831.7.23 = {
 		birth = 831.7.23
 	}
@@ -12893,7 +12893,7 @@
 	name = Boris
 	dynasty = 2001041	#Pskovych
 	religion = slavic_pagan
-	culture = russian
+	culture = ilmenian
 	father = 302219
 	854.11.2 = {
 		birth = 854.11.2
@@ -12909,7 +12909,7 @@
 	name = "Volodar"
 	dynasty = 1029118
 	religion = slavic_pagan
-	culture = ilmenian
+	culture = vyatichian
 	733.1.1 = {
 		birth = yes
 	}
@@ -12921,7 +12921,7 @@
 	name = "Iliya"
 	dynasty = 1029118
 	religion = slavic_pagan
-	culture = ilmenian
+	culture = vyatichian
 	father = 194145
 	770.1.1 = {
 		birth = yes
@@ -12933,7 +12933,7 @@
 160063 = {
 	name = "Bojan"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = vyatichian
 	dynasty = 1029118
 	father = 194146
 	816.1.1 = {
@@ -12946,7 +12946,7 @@
 6834 = {
 	name = "Zhavoronok"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = vyatichian
 	dynasty = 1029118
 	father = 160063
 	831.1.1 = {
@@ -12959,7 +12959,7 @@
 160059 = {
 	name = "Vladislav"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
 	850.1.1 = {
@@ -12972,7 +12972,7 @@
 160060 = {
 	name = "Dragan"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
 	851.1.1 = {
@@ -12985,7 +12985,7 @@
 160061 = {
 	name = "Gradimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
 	852.1.1 = {
@@ -12998,7 +12998,7 @@
 302242 = {
 	name = "Dobromir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = vyatichian
 	dynasty = 1029118
 	father = 194146
 	820.1.1 = {
@@ -13011,7 +13011,7 @@
 302243 = {
 	name = "Volodar"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = vyatichian
 	dynasty = 1029118
 	father = 302242
 	845.1.1 = {
@@ -13024,7 +13024,7 @@
 302244 = {
 	name = "Iliya"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = vyatichian
 	dynasty = 1029118
 	father = 302242
 	847.1.1 = {
@@ -13065,7 +13065,7 @@
 	name = "Svetozar"
 	dynasty = 1029138
 	religion = slavic_pagan
-	culture = ilmenian
+	culture = severian
 	father = 194143
 	802.4.5 = {
 		birth = yes
@@ -13077,7 +13077,7 @@
 159721 = {
 	name = "Tatimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 194144
 	822.11.2 = {
@@ -13090,7 +13090,7 @@
 6860 = {
 	name = "Berimir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = severian
 	trait = content
 	dynasty = 1029138
 	father = 159721
@@ -13104,7 +13104,7 @@
 160111 = {
 	name = "Mechislav"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 159721
 	846.1.3 = {
@@ -13117,7 +13117,7 @@
 160112 = {
 	name = "Kreslav"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 159721
 	847.12.21 = {
@@ -13130,7 +13130,7 @@
 160113 = {
 	name = "Vadim"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 159721
 	852.12.29 = {
@@ -13143,7 +13143,7 @@
 160089 = {
 	name = "Izbygnev"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 6860
 	862.2.28 = {
@@ -13156,7 +13156,7 @@
 160090 = {
 	name = "Krasimir"
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = severian
 	dynasty = 1029138
 	father = 6860
 	865.5.22 = {
@@ -13172,7 +13172,7 @@
 302245 = {
 	name = "Jaromir"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	802.11.28 = {
 		birth = yes
@@ -13184,7 +13184,7 @@
 302246 = {
 	name = "Dragan"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	father = 302245
 	831.6.21 = {
@@ -13197,7 +13197,7 @@
 302247 = {
 	name = "Sviatoslav"
 	religion = "slavic_pagan"
-	culture = russian
+	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	father = 302245
 	833.4.11 = {
@@ -13454,7 +13454,7 @@
 	name = Dobroslav
 	dynasty = 2004001	#Medvjedich
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = drevlian
 	833.1.1 = {
 		birth = yes
 	}
@@ -13468,7 +13468,7 @@
 	name = Mstislav
 	dynasty = 1061020	#Dniprich
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = tiverian
 	840.1.1 = {
 		birth = yes
 	}

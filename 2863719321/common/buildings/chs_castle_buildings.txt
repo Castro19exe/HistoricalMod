@@ -9,6 +9,7 @@
 @holding_illustration_goidelic = "gfx/interface/illustrations/holding_types/castle_goidelic.dds"
 @holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/castle_sahelian.dds"
 @holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/castle_ethiopian.dds"
+@holding_illustration_slavic = "gfx/interface/illustrations/holding_types/castle_slavic.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
@@ -222,6 +223,48 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_01_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_01_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_01_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_01_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_01_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -627,6 +670,48 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_02_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_02_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_02_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_02_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_02_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -1035,6 +1120,48 @@ castle_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_03_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_03_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_03_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_03_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_03_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1429,6 +1556,48 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_04_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_04_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_04_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_04_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "slavic_castle_04_mesh"
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###

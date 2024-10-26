@@ -2,7 +2,7 @@
 ##d_kiev ###################################
 ###c_kiev
 547 = {		#Kiev
-	culture = severian
+	culture = polian
 	religion = slavic_pagan
 	holding = tribal_holding
 	special_building_slot = golden_gate_of_kiev_01
@@ -60,7 +60,7 @@
 
 ###c_zhytomyr
 5087 = {	#Zhytomyr
-	culture = severian
+	culture = polian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -83,7 +83,7 @@
 
 ###c_zvyahel
 5091 = {	#Zvyahel
-	culture = severian
+	culture = polian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -112,7 +112,7 @@
 
 ###c_chornobyl
 5095 = {	#Chornobyl
-	culture = severian
+	culture = polian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -132,7 +132,7 @@
 
 ###c_ushytsia
 5098 = {	#Ushytsia
-	culture = severian
+	culture = tiverian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -152,7 +152,7 @@
 
 ###c_korsun
 544 = {		#Korsun
-	culture = severian
+	culture = polian
 	religion = slavic_pagan
 	holding = tribal_holding #Ahistorical? added to give the county a castle
 	935.1.1 = {
@@ -176,7 +176,7 @@
 ##d_turov ###################################
 ###c_turov
 552 = {		#Turov
-	culture = severian
+	culture = drevlian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -203,7 +203,7 @@
 
 ###c_korosten
 5104 = {	#Korosten
-	culture = severian
+	culture = drevlian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -235,7 +235,7 @@
 
 ###c_dubrovytsia
 5109 = {	#Dubrovytsia
-	culture = severian
+	culture = drevlian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
@@ -489,7 +489,7 @@
 
 ###c_kursk
 5196 = {	#Kursk
-	culture = severian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	988.1.2 = {
@@ -516,7 +516,7 @@
 ##d_karachev ###################################
 ###c_karachev
 5209 = {	#Karachev
-	culture = severian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
@@ -542,7 +542,7 @@
 
 ###c_kozelsk
 5212 = {	#Kozelsk
-	culture = severian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
@@ -568,7 +568,7 @@
 
 ###c_sevsk
 5206 = {	#Sevsk
-	culture = severian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {

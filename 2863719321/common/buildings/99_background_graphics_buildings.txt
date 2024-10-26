@@ -150,6 +150,15 @@ walls_01 = {
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"slavic_wall_01_mesh"
+		}
+	}
 	
 	is_enabled = {
 		OR = {
@@ -276,6 +285,15 @@ walls_02 = {
 		names = { "ethiopian_walls_02_mesh" }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"slavic_wall_02_mesh"
+		}
 	}
 
 	is_enabled = {
@@ -415,6 +433,15 @@ walls_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"slavic_wall_03_mesh"
+		}
+	}
+
 	is_enabled = {
 		scope:holder = {
 			NOT = { government_has_flag = government_is_tribal }
@@ -552,6 +579,15 @@ walls_04 = {
 		names = { "ethiopian_walls_04_mesh" }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"slavic_wall_04_mesh"
+		}
 	}
 
 	is_enabled = {
