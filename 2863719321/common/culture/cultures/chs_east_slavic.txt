@@ -18,7 +18,7 @@
 	name_list = name_list_russian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { ruthenian_unit_gfx }
 
@@ -51,7 +51,7 @@ chrobatian = {
 	name_list = name_list_russian
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
@@ -80,7 +80,7 @@ ilmenian = {
 	name_list = name_list_ilmenian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
@@ -108,7 +108,7 @@ severian = {
 	name_list = name_list_severian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
@@ -137,7 +137,7 @@ volhynian = {
 	name_list = name_list_volhynian
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
@@ -162,10 +162,10 @@ tiverian = {
 		tradition_hill_dwellers
 	}
 	
-	name_list = name_list_volhynian
+	name_list = name_list_russian
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { east_slavic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
@@ -175,4 +175,180 @@ tiverian = {
 		25 = slavic_northern_brown_hair
 		10 = slavic_northern_dark_hair
 	}	
+}
+
+dregovichian = {
+	color = { 0.31 0.55 0.31 }
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_wetlanders
+		tradition_druzhina
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+krivichian = {
+	color = { 0.22 0.68 0.27 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_druzhina
+		tradition_metal_craftsmanship
+		tradition_only_the_strong
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+vyatichian = {
+	color = { 0.42 0.9 0.37 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_druzhina
+		tradition_hunters
+		tradition_martial_admiration
+		tradition_polygamous
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+radimichian = {
+	color = { 0.30 0.67 0.30 }
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_druzhina
+		tradition_hit_and_run
+		tradition_wetlanders
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+polian = {
+	color = { 0.45 0.87 0.45 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_hard_working
+		tradition_pastoralists
+		tradition_druzhina
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
+}
+
+drevlian = {
+	color = { 0.21 0.45 0.21 }
+	ethos = ethos_bureaucratic
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_druzhina
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { east_slavic_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		60 = slavic_northern_blond
+		5 = slavic_northern_ginger
+		25 = slavic_northern_brown_hair
+		10 = slavic_northern_dark_hair
+	}
 }

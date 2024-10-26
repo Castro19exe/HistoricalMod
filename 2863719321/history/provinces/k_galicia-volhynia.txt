@@ -173,7 +173,7 @@
 
 ###c_terebovl
 546 = {		#Terebovl
-	culture = volhynian
+	culture = tiverian
 	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
