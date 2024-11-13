@@ -149,21 +149,21 @@ levant_army_05 = {
 roman_army_01 = {
 	type = army
 	graphical_cultures = { roman_unit_gfx }
-	entity = unit_byzantine_infantry_03_entity
+	entity = unit_roman_infantry_03_entity
 }
 
 roman_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { roman_unit_gfx }
-	entity = unit_byzantine_infantry_03_entity
+	entity = unit_roman_infantry_03_entity
 }
 
 roman_army_03 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { roman_unit_gfx }
-	entity = unit_byzantine_infantry_03_entity
+	entity = unit_roman_infantry_03_entity
 }
 
 # Eastern
@@ -318,7 +318,7 @@ germanic_army_01 = {
 	type = army
 	requires_dlc_flag = the_northern_lords
 	graphical_cultures = { germanic_unit_gfx }
-	entity = unit_fp1_infantry_01_entity
+	entity = unit_germanic_infantry_01_entity
 }
 
 germanic_army_02 = {
@@ -446,6 +446,13 @@ nord_army_05 = {
 	quality = @tier3_quality
 	graphical_cultures = { rei_nord_unit_gfx }
 	entity = unit_nord_infantry_03_entity
+}
+
+# Tests
+test_army_01 = {
+	type = army
+	graphical_cultures = { test_unit_gfx }
+	entity = unit_azmeri_infantry_01_entity
 }
 ### - NOT HISTORICALLY ###
 

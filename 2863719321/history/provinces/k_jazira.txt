@@ -230,6 +230,7 @@
 		culture = levantine
 		religion = ashari
 	}
+	
 }
 
 # 4849 - AL-HAYYAL

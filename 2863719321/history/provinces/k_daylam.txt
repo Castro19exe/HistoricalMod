@@ -48,6 +48,7 @@
 	865.1.1 = {
 		special_building = alamut_castle_01
 	}
+	
 }
 4324 = {	#Abhar
 	holding = city_holding
