@@ -116,11 +116,14 @@
  drevlian:0 "Drevlian"
  drevlian_prefix:0 "Drevlo"
  drevlian_collective_noun:0 "Drevlians"
+ yamato:0 "Yamato"
+ yamato_prefix:0 "Yamato"
+ yamato_collective_noun:0 "Yamatos"
 
 
 
 
 
- pedran:0 "Pedran"
- pedran_prefix:0 "Pedro"
- pedran_collective_noun:0 "Pedrans"
+ test_culture:0 "Test Culture"
+ test_culture_prefix:0 "Test Culture"
+ test_culture_collective_noun:0 "Test Cultures"

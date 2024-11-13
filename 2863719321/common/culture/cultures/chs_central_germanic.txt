@@ -29,7 +29,8 @@
 }
 
 frankish = {
-	color = frankish
+	#color = frankish
+	color = { 0.2 0.2 0.5 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_central_germanic

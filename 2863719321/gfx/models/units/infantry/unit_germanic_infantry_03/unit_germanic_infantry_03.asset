@@ -34,11 +34,20 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
-		name = "germanic_unit_head_LOD"
-		texture_diffuse = "high_quality_irish_infantry_head_diffuse.dds"
-		texture_normal = "high_quality_irish_infantry_head_normal.dds"
+		name = "irish_unit_head"
+		texture_diffuse = "high_quality_germanic_head_layer_diffuse.dds"
+		texture_normal = "high_quality_irish_head_layer_normal.dds"
 		texture_specular = "high_quality_irish_head_layer_properties.dds"
 		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_germanic_facial_hair_03"
+		texture_diffuse = "unit_germanic_facial_hair_03_diffuse.dds"
+		texture_normal = "unit_fp1_infantry_02_normal.dds"
+		texture_specular = "unit_fp1_infantry_02_properties.dds"
+		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }
