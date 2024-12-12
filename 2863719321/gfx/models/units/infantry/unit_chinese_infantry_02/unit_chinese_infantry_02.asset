@@ -35,8 +35,7 @@ pdxmesh = {
 
 	
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
+		name = "unit_chinese_helmet_infantry_02"
 		texture_diffuse = "unit_chinese_infantry_02_head_diffuse.dds"
 		texture_normal = "unit_chinese_infantry_02_head_normal.dds"
 		texture_specular = "unit_chinese_infantry_02_head_properties.dds"
@@ -45,8 +44,7 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
+		name = "unit_chinese_body_infantry_02"
 		texture_diffuse = "unit_chinese_infantry_02_armor_diffuse.dds"
 		texture_normal = "unit_chinese_infantry_02_armor_normal.dds"
 		texture_specular = "unit_chinese_infantry_02_armor_properties.dds"

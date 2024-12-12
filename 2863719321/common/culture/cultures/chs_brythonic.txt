@@ -46,7 +46,7 @@ welsh = {
 	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { welsh_unit_gfx }
 	
 	ethnicities = {
 		5 = caucasian_blond
@@ -107,7 +107,7 @@ cornish = {
 	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { welsh_unit_gfx }
 	
 	ethnicities = {
 		5 = caucasian_blond

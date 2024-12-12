@@ -16,7 +16,7 @@
 	name_list = name_list_visigothic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
@@ -42,9 +42,9 @@ gothic = {
 	
 	name_list = name_list_old_germanic
 	
-	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
@@ -76,7 +76,7 @@ ostrogothic = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
@@ -91,7 +91,7 @@ ostrogothic = {
 crimean_gothic = {
 	color = { 0.8 0.65 0.8 }
 	created = 600.1.1
-	parents = { ostrogothic }
+	parents = { greek ostrogothic }
 
 	ethos = ethos_stoic
 	heritage = heritage_byzantine					#either this or east germanic
@@ -111,7 +111,7 @@ crimean_gothic = {
 	name_list = name_list_crimean_gothic
 	
 	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	unit_gfx = { northern_unit_gfx }
@@ -140,8 +140,8 @@ vandalic = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { northern_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
@@ -168,8 +168,8 @@ burgundian = {
 	name_list = name_list_old_germanic
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { northern_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {

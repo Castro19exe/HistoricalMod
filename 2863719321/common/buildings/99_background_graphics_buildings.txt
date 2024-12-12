@@ -87,7 +87,8 @@ walls_01 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
 		names = {
 			"fp1_norse_walls_01_mesh"
 		}
@@ -96,7 +97,7 @@ walls_01 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
 		graphical_regions = { graphical_mena }
 		names = {
 			"fp1_norse_walls_01_mena_mesh"
@@ -175,8 +176,7 @@ walls_01 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
-			"mena_walls_01_a_mesh"
-			"mena_walls_01_b_mesh"
+			"fp3_building_persian_walls_01_a_01_mesh" 
 		}
 	}
 
@@ -253,7 +253,8 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
 		names = {
 			"fp1_norse_walls_02_mesh"
 		}
@@ -262,7 +263,7 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
 		graphical_regions = { graphical_mena }
 		names = {
 			"fp1_norse_walls_02_mena_mesh"
@@ -331,7 +332,7 @@ walls_02 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western graphical_mena graphical_mediterranean graphical_steppe graphical_india }
 		names = {
-			"mena_walls_02_a_mesh"
+			"fp3_building_persian_walls_02_a_01_mesh" 
 		}
 	}
 
@@ -492,10 +493,17 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
+		name = "walls_03_celtic_mesh"
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
+	}
+
+	asset = {
+		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western graphical_mena graphical_steppe graphical_india graphical_mediterranean }
 		names = {
-			"mena_walls_03_a_mesh"
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 	}
 
@@ -658,10 +666,17 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
+		name = "walls_04_celtic_mesh"
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
+	}
+
+	asset = {
+		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western graphical_mena graphical_steppe graphical_india graphical_mediterranean }
 		names = {
-			"mena_walls_04_a_mesh"
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 	}
 
