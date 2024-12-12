@@ -63,13 +63,22 @@ tribe_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp1_building_germanic_tribal_mesh"
+			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { germanic_building_gfx }
+		graphical_cultures = { northern_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"iranian_tribal_01_mesh"
+		}
+		graphical_cultures = { iranian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	asset = {
 		type = pdxmesh
 		names = {
@@ -216,14 +225,23 @@ tribe_02 = {
 		graphical_cultures = { norse_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}	
+	}
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp1_building_germanic_tribal_mesh"
+			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { germanic_building_gfx }
+		graphical_cultures = { northern_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"iranian_tribal_01_mesh"
+		}
+		graphical_cultures = { iranian_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

@@ -408,3 +408,36 @@ bulgarian = {
 		10 = mediterranean_byzantine
 	}
 }
+
+albanian = {
+	color = { 0.5 0.3 0.7 }
+	created = 600.1.1							
+	parents = { greek illyrian }
+	
+	ethos = ethos_communal
+	heritage = heritage_byzantine
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_swords_for_hire
+		tradition_mountain_homes
+		tradition_wedding_ceremonies
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_arberian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

@@ -1,4 +1,7 @@
 ﻿l_english:
+ albanian:0 "Arberian"
+ albanian_prefix:0 "Arbero"
+ albanian_collective_noun:0 "Arberians"
  briton:0 "Briton"
  briton_prefix:0 "Britono"
  briton_collective_noun:0 "Britons"
@@ -44,9 +47,6 @@
  jute:0 "Jute"
  jute_prefix:0 "Juto"
  jute_collective_noun:0 "Jutes"
- arberian:0 "Arberian"
- arberian_prefix:0 "Arbero"
- arberian_collective_noun:0 "Arberians"
  dacian:0 "Dacian"
  dacian_prefix:0 "Daco"
  dacian_collective_noun:0 "Dacians"

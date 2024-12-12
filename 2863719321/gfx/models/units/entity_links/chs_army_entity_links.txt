@@ -43,14 +43,14 @@ western_army_03 = {
 hre_army_01 = {
 	type = army
 	graphical_cultures = { hre_unit_gfx }
-	entity = unit_hre_infantry_01_entity
+	entity = unit_western_infantry_01_entity
 }
 
 hre_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { hre_unit_gfx }
-	entity = unit_hre_infantry_02_entity
+	entity = unit_western_infantry_02_entity
 }
 
 hre_army_03 = {
@@ -59,27 +59,6 @@ hre_army_03 = {
 	graphical_cultures = { hre_unit_gfx }
 	#entity = unit_hre_infantry_03_entity
 	entity = unit_hre_infantry_03_entity
-}
-
-# Italian
-italian_army_01 = {
-	type = army
-	graphical_cultures = { italian_unit_gfx }
-	entity = unit_italian_infantry_01_entity
-}
-
-italian_army_03 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { italian_unit_gfx }
-	entity = unit_italian_infantry_02_entity
-}
-
-italian_army_05 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { italian_unit_gfx }
-	entity = unit_italian_infantry_03_entity
 }
 
 # English
@@ -101,6 +80,48 @@ english_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { english_unit_gfx }
 	entity = unit_english_infantry_03_entity
+}
+
+# Scottish
+scottish_army_01 = {
+	type = army
+	graphical_cultures = { scottish_unit_gfx }
+	entity = unit_scottish_infantry_01_entity
+}
+
+scottish_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { scottish_unit_gfx }
+	entity = unit_scottish_infantry_02_entity
+}
+
+scottish_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { scottish_unit_gfx }
+	entity = unit_scottish_infantry_03_entity
+}
+
+# Welsh
+welsh_army_01 = {
+	type = army
+	graphical_cultures = { welsh_unit_gfx }
+	entity = unit_welsh_infantry_01_entity
+}
+
+welsh_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { welsh_unit_gfx }
+	entity = unit_welsh_infantry_02_entity
+}
+
+welsh_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { welsh_unit_gfx }
+	entity = unit_welsh_infantry_03_entity
 }
 
 # MENA Middle East

@@ -45,7 +45,7 @@ frankish = {
 	name_list = name_list_frankish
 	
 	coa_gfx = { frankish_group_coa_gfx }
-	building_gfx = { germanic_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
@@ -102,7 +102,7 @@ suebi = {
 	name_list = name_list_suebi
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
@@ -279,7 +279,7 @@ langobard = {
 	name_list = name_list_langobard
 	
 	coa_gfx = { western_coa_gfx }
-	building_gfx = { germanic_building_gfx }
+	building_gfx = { northern_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	

@@ -3,6 +3,7 @@
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/city_mena.dds"
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_city_norse.dds"
+@holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/city_scandinavian.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds"
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds"
@@ -418,6 +419,62 @@ city_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }	
+	}
+
+	### FP1 Northern (Scandinavian) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" }
+		graphical_cultures = { northern_building_gfx }			
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_mena_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mena }		
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_mediterranean_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mediterranean }		
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_indian_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_india }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP2 Iberian ###
@@ -1039,7 +1096,6 @@ city_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }			
 	}	
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1051,7 +1107,6 @@ city_02 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }		
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1063,7 +1118,6 @@ city_02 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }		
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1074,6 +1128,62 @@ city_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }	
+	}
+
+	### FP1 Northern (Scandinavian) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { northern_building_gfx }			
+	}	
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_mena_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mena }		
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_mediterranean_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mediterranean }		
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_indian_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_india }	
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_01_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP2 Iberian ###
@@ -1653,7 +1763,6 @@ city_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1665,7 +1774,6 @@ city_03 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1677,7 +1785,6 @@ city_03 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1688,6 +1795,62 @@ city_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+
+	### FP1 Northern (Scandinavian) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_mena_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_mediterranean_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_indian_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx}
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP2 Iberian ###
@@ -2260,7 +2423,6 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2272,7 +2434,6 @@ city_04 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2284,7 +2445,6 @@ city_04 = {
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2295,6 +2455,62 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+
+	### FP1 Northern (Scandinavian) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_mena_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_mediterranean_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_indian_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { northern_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP2 Iberian ###
