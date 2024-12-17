@@ -18,8 +18,8 @@
 	name_list = name_list_pommeranian
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
 	ethnicities = {
@@ -47,8 +47,8 @@ czech = {
 	name_list = name_list_czech
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
@@ -80,8 +80,8 @@ polish = {
 	name_list = name_list_polish
 	
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { polish_unit_gfx }
 	
 	ethnicities = {
@@ -108,8 +108,8 @@ polabian = {
 	name_list = name_list_polabian
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -141,8 +141,8 @@ sorbian = {
 	name_list = name_list_polabian
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -168,8 +168,8 @@ slovien = {
 	name_list = name_list_slovien
 	
 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 
 	ethnicities = {
@@ -195,8 +195,8 @@ carantanian = {
 	name_list = name_list_carantanian
 	
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	building_gfx = { eastern_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
