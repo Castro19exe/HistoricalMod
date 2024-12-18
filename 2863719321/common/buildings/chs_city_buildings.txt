@@ -14,6 +14,7 @@
 @holding_illustration_slavic = "gfx/interface/illustrations/holding_types/city_slavic.dds"
 @holding_illustration_steppe = "gfx/interface/illustrations/holding_types/city_steppe.dds"
 @holding_illustration_magyar = "gfx/interface/illustrations/holding_types/city_magyar.dds"
+@holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/city_tibetan.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -425,6 +426,57 @@ city_01 = {
 		illustration = @holding_illustration_magyar
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 
@@ -1188,6 +1240,57 @@ city_02 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1906,6 +2009,57 @@ city_03 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -2614,6 +2768,57 @@ city_04 = {
 		illustration = @holding_illustration_magyar
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 

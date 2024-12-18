@@ -124,8 +124,8 @@ walls_01 = {
 	asset = {
 		type = pdxmesh
 		name = "chinese_walls_01_mesh"
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
+		graphical_regions = { graphical_steppe graphical_india }
 	}
 
 	asset = {
@@ -273,8 +273,8 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		name = "chinese_walls_02_mesh"
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
+		graphical_regions = { graphical_steppe graphical_india }
 	}
 
 	asset = {
@@ -404,8 +404,8 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		name = "chinese_walls_03_mesh"
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
+		graphical_regions = { graphical_steppe graphical_india }
 	}
 
 	asset = {
@@ -553,8 +553,8 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		name = "chinese_walls_04_mesh"
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
+		graphical_regions = { graphical_steppe graphical_india }
 	}
 
 	asset = {
