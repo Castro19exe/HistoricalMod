@@ -212,8 +212,10 @@
 }
 2576 = {	#OSTIA
 	holding = city_holding
-	buildings = {
-		common_tradeport_01
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
 	}
 }
 2577 = {	#VATICAN

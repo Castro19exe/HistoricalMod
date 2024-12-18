@@ -125,6 +125,15 @@ tribe_01 = {
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"tibetan_tribal_mesh"
+		}
+		graphical_cultures = { tibetan_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -288,6 +297,15 @@ tribe_02 = {
 			"slavic_tribal_01_mesh"
 		}
 		graphical_cultures = { east_slavic_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"tibetan_tribal_mesh"
+		}
+		graphical_cultures = { tibetan_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

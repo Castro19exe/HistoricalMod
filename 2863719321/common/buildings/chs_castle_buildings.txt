@@ -16,6 +16,7 @@
 @holding_illustration_slavic = "gfx/interface/illustrations/holding_types/castle_slavic.dds"
 @holding_illustration_steppe = "gfx/interface/illustrations/holding_types/castle_steppe.dds"
 @holding_illustration_magyar = "gfx/interface/illustrations/holding_types/castle_magyar.dds"
+@holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/castle_tibetan.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
@@ -415,6 +416,47 @@ castle_01 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_01_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -455,7 +497,7 @@ castle_01 = {
 	### FP1 Northern (Scandinavian) ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
+		name = "fp1_building_norse_castle_01_mesh"
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
@@ -463,7 +505,7 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
+		name = "fp1_building_norse_castle_01_mena_mesh"
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
@@ -472,7 +514,7 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
+		name = "fp1_building_norse_castle_01_mediterranean_mesh"
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
@@ -481,7 +523,7 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
+		name = "fp1_building_norse_castle_01_indian_mesh"
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
@@ -490,7 +532,7 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
+		name = "fp1_building_norse_castle_01_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1078,6 +1120,47 @@ castle_02 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_02_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1118,14 +1201,14 @@ castle_02 = {
 	### FP1 Northern (Scandinavian) ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
+		name = "fp1_building_norse_castle_02_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { northern_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
+		name = "fp1_building_norse_castle_02_mena_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1133,7 +1216,7 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
+		name = "fp1_building_norse_castle_02_mediterranean_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1141,7 +1224,7 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
+		name = "fp1_building_norse_castle_02_indian_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1149,7 +1232,7 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
+		name = "fp1_building_norse_castle_02_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1736,6 +1819,47 @@ castle_03 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_03_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1776,14 +1900,14 @@ castle_03 = {
 	### FP1 Northern (Scandinavian) ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_03_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { northern_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_03_mena_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1791,7 +1915,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_03_mediterranean_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1799,7 +1923,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_03_indian_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { northern_building_gfx }
@@ -1807,7 +1931,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_03_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { northern_building_gfx }
@@ -2376,6 +2500,47 @@ castle_04 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_tibetan_castle_04_mesh"
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -2416,14 +2581,14 @@ castle_04 = {
 	### FP1 Northern (Scandinavian) ###
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "fp1_building_norse_castle_04_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { northern_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "fp1_building_norse_castle_04_mena_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { northern_building_gfx }
@@ -2431,7 +2596,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "fp1_building_norse_castle_04_mediterranean_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { northern_building_gfx }
@@ -2439,7 +2604,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "fp1_building_norse_castle_04_indian_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { northern_building_gfx }
@@ -2447,7 +2612,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "fp1_building_norse_castle_04_mesh"
 		illustration = @holding_illustration_scandinavian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { northern_building_gfx }
