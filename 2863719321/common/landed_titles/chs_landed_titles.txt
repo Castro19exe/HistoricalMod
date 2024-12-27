@@ -43269,6 +43269,11 @@ e_carpathia = {
 					province = 3936
 
 					color = { 212 112 63 }
+
+					cultural_names = {
+						name_list_roman = "Auraria Maior"
+						name_list_vlach = "Abrud"
+					}
 				}
 				b_nagyszeben = {
 					province = 3937

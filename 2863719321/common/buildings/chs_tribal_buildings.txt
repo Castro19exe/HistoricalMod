@@ -73,15 +73,6 @@ tribe_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"iranian_tribal_01_mesh"
-		}
-		graphical_cultures = { iranian_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
 			"building_celtic_hillfort_01_mesh"
 		}
 		graphical_cultures = { celtic_building_gfx }
@@ -242,15 +233,6 @@ tribe_02 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		graphical_cultures = { northern_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"iranian_tribal_01_mesh"
-		}
-		graphical_cultures = { iranian_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

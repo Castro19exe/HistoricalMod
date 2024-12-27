@@ -27,7 +27,7 @@
 	name_list = name_list_vlach
 	
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { eastern_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
@@ -132,7 +132,7 @@ illyrian = {
 dalmatian = {
 	color = { 0.75 0.75 0.65 }
 	created = 212.1.1
-	parents = { illyrian roman }
+	parents = { roman illyrian }
 	
 	ethos = ethos_communal
 	heritage = heritage_latin
