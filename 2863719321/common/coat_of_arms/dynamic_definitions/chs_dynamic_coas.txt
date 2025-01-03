@@ -7,7 +7,6 @@ c_toledo = {
 		coat_of_arms = c_toledo_christian
 	}
 }
-
 b_maqueda = {
 	item = {
 		trigger = {
@@ -16,7 +15,6 @@ b_maqueda = {
 		coat_of_arms = b_maqueda_christian
 	}
 }
-
 b_talavera = {
 	item = {
 		trigger = {
@@ -25,7 +23,6 @@ b_talavera = {
 		coat_of_arms = b_talavera_christian
 	}
 }
-
 c_madrid = {
 	item = {
 		trigger = {
@@ -34,7 +31,6 @@ c_madrid = {
 		coat_of_arms = c_madrid_christian
 	}
 }
-
 c_coimbra = {
 	item = {
 		trigger = {
