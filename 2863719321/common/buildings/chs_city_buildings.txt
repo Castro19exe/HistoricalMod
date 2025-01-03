@@ -658,7 +658,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -666,7 +666,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "punic_city_02_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -675,7 +675,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -684,7 +684,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -693,7 +693,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1493,7 +1493,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1501,7 +1501,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "punic_city_02_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1510,7 +1510,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1519,7 +1519,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1528,7 +1528,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2285,7 +2285,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2293,7 +2293,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "punic_city_02_b_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2302,7 +2302,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2311,7 +2311,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2320,7 +2320,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -3070,7 +3070,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -3078,7 +3078,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "punic_city_02_b_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -3087,7 +3087,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -3096,7 +3096,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -3105,7 +3105,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }

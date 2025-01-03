@@ -57,7 +57,7 @@
 }
 
 200475 = {
-	name = "Rodericho"
+	name = "Roderic"
 	dynasty = 1046019
 
 	religion = catholic

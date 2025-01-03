@@ -629,7 +629,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -646,7 +646,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1370,7 +1370,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1387,7 +1387,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2111,7 +2111,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_03_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2128,7 +2128,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_03_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2841,7 +2841,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_04_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2858,7 +2858,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_04_a_mesh"
-#		requires_dlc_flag = roads_to_power
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }

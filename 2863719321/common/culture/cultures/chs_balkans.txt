@@ -214,10 +214,10 @@ serbian = {
 	unit_gfx = { south_slavic_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
 		35 = slavic_northern_blond
 		35 = slavic_northern_brown_hair
 		20 = slavic_northern_dark_hair
+		10 = mediterranean_byzantine
 	}
 }
 
