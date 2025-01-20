@@ -111,7 +111,7 @@ anglo_saxon = {
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 
+	unit_gfx = { anglo_saxon_unit_gfx } 
 
 	ethnicities = {
 		50 = caucasian_northern_blond
