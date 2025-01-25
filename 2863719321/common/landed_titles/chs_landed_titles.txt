@@ -4813,6 +4813,8 @@ e_germany = {
 				color = { 172 112 112 }
 
 				cultural_names = {
+					name_list_saxon = "Lübeek"
+					name_list_danish = "Lybæk"
 					name_list_polabian = cn_liubice
 				}
 
@@ -4822,6 +4824,8 @@ e_germany = {
 					color = { 172 112 112 }
 
 					cultural_names = {
+						name_list_saxon = "Lübeek"
+						name_list_danish = "Lybæk"
 						name_list_polabian = cn_liubice
 					}
 				}
@@ -4871,10 +4875,18 @@ e_germany = {
 			c_ditmarschen = {
 				color = { 165 95 100 }
 
+				cultural_names = {
+					name_list_danish = "Ditmarsken"
+				}
+
 				b_ditmarschen = {
 					province = 2797
 
 					color = { 165 95 100 }
+
+					cultural_names = {
+						name_list_danish = "Ditmarsken"
+					}
 				}
 				b_neumunster = {
 					province = 2799
@@ -7683,6 +7695,14 @@ e_germany = {
 					province = 2057
 
 					color = { 215 200 215 }
+
+					cultural_names = {
+						name_list_franconian = "Mömpelgard"
+						name_list_swabian = "Mömpelgard"
+						name_list_thuringian = "Mömpelgard"
+						name_list_bavarian = "Mömpelgard"
+						name_list_saxon = "Mömpelgard"
+					}
 				}
 				b_mulhouse = {
 					province = 2058
@@ -18266,8 +18286,24 @@ e_scandinavia = {
 
 			capital = c_slesvig
 
+			cultural_names = {
+				name_list_franconian = "Schleswig"
+				name_list_saxon = "Sleswig"
+				name_list_swabian = "Schleswig"
+				name_list_bavarian = "Schleswig"
+				name_list_thuringian = "Schleswig"
+			}
+
 			c_slesvig = {
 				color = { 216 89 60 }
+
+				cultural_names = {
+					name_list_franconian = "Schleswig"
+					name_list_saxon = "Sleswig"
+					name_list_swabian = "Schleswig"
+					name_list_bavarian = "Schleswig"
+					name_list_thuringian = "Schleswig"
+				}
 
 				b_hedeby = {
 					province = 62
@@ -18276,6 +18312,11 @@ e_scandinavia = {
 
 					cultural_names = {
 						name_list_norse = cn_heidabyr
+						name_list_franconian = "Haithabu"
+						name_list_saxon = "Haithabu"
+						name_list_swabian = "Haithabu"
+						name_list_bavarian = "Haithabu"
+						name_list_thuringian = "Haithabu"
 					}
 				}
 				b_aabenraa = {
@@ -19914,6 +19955,7 @@ e_wendish_empire = {
 			capital = c_mecklenburg #Wismar
 
 			cultural_names = {
+				name_list_danish = "Vendland"
 				name_list_polabian = cn_veletia
 			}
 
@@ -19983,6 +20025,7 @@ e_wendish_empire = {
 				color = { 163 162 145 }
 
 				cultural_names = {
+					name_list_danish = "Rygen"
 					name_list_polabian = cn_rana
 					name_list_polish = cn_rana
 					name_list_pommeranian = cn_rana
@@ -19994,6 +20037,7 @@ e_wendish_empire = {
 					color = { 163 162 145 }
 
 					cultural_names = {
+						name_list_danish = "Rygen"
 						name_list_polabian = cn_arkona
 						name_list_polish = cn_arkona
 						name_list_pommeranian = cn_arkona
