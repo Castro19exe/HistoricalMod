@@ -46,7 +46,7 @@ frankish = {
 	
 	coa_gfx = { frankish_group_coa_gfx }
 	building_gfx = { northern_building_gfx }
-	clothing_gfx = { northern_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
@@ -103,7 +103,7 @@ suebi = {
 	
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { northern_building_gfx }
-	clothing_gfx = { northern_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
@@ -280,7 +280,7 @@ langobard = {
 	
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { northern_building_gfx }
-	clothing_gfx = { northern_clothing_gfx western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {

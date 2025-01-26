@@ -19964,6 +19964,8 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_obotritia
+					name_list_pommeranian = cn_obotritia
+					name_list_sorbian = cn_obotritia
 				}
 
 				b_wismar = {
@@ -19973,6 +19975,8 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_veligrad
+						name_list_pommeranian = cn_veligrad
+						name_list_sorbian = cn_veligrad
 					}
 				}
 				b_ratzeburg = {
@@ -19982,6 +19986,8 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_racisburg
+						name_list_pommeranian = cn_racisburg
+						name_list_sorbian = cn_racisburg
 					}
 				}
 				b_schwerin = {
@@ -19991,6 +19997,8 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_zwierzyn
+						name_list_pommeranian = cn_zwierzyn
+						name_list_sorbian = cn_zwierzyn
 					}
 				}
 				b_parchim = {
@@ -42233,6 +42241,10 @@ e_carpathia = {
 
 			#Budjak in Turkish
 
+			cultural_names = {
+				name_list_greek = cn_tyras
+			}
+
 			capital = c_tigheci # Tigheci
 
 			c_tigheci = {
@@ -42252,8 +42264,16 @@ e_carpathia = {
 			c_cetatea_alba = {
 				color = { 190 240 20 }
 
+				cultural_names = {
+					name_list_greek = cn_tyras
+				}
+
 				b_cetatea_alba = {
 					province = 512
+
+					cultural_names = {
+						name_list_greek = cn_tyras
+					}
 
 					color = { 180 235 40 }
 				}
@@ -42266,8 +42286,16 @@ e_carpathia = {
 			c_chilia = {
 				color = { 180 210 40 }
 
+				cultural_names = {
+					name_list_greek = cn_aepolium
+				}
+
 				b_chilia = {
 					province = 5012
+
+					cultural_names = {
+						name_list_greek = cn_aepolium
+					}
 
 					color = { 175 230 40 }
 				}
