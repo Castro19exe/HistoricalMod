@@ -4813,7 +4813,6 @@ e_germany = {
 				color = { 172 112 112 }
 
 				cultural_names = {
-					name_list_saxon = "Lübeek"
 					name_list_danish = "Lybæk"
 					name_list_polabian = cn_liubice
 				}
@@ -4824,7 +4823,6 @@ e_germany = {
 					color = { 172 112 112 }
 
 					cultural_names = {
-						name_list_saxon = "Lübeek"
 						name_list_danish = "Lybæk"
 						name_list_polabian = cn_liubice
 					}
@@ -4840,11 +4838,11 @@ e_germany = {
 						name_list_swabian = "Oldenburg"
 						name_list_franconian = "Oldenburg"
 						name_list_bavarian = "Oldenburg"
-						name_list_saxon = "Olenborg"
+						name_list_saxon = "Oldenburg"
 						name_list_thuringian = "Oldenburg"
 
 						name_list_norse = "Brandehuse"
-						name_list_danish = "Oldenborg"
+						name_list_danish = "Olenborg"
 					}
 				}
 				b_kiel = {
@@ -21963,10 +21961,26 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 			c_krakowska = {
 				color = { 137 6 20 }
 
+				cultural_names = {
+					name_list_franconian = "Krakau"
+					name_list_saxon = "Krakau"
+					name_list_swabian = "Krakau"
+					name_list_bavarian = "Krakau"
+					name_list_thuringian = "Krakau"
+				}
+
 				b_krakow = {
 					province = 527
 
 					color = { 137 6 20 }
+
+					cultural_names = {
+						name_list_franconian = "Krakau"
+						name_list_saxon = "Krakau"
+						name_list_swabian = "Krakau"
+						name_list_bavarian = "Krakau"
+						name_list_thuringian = "Krakau"
+					}
 				}
 				b_olsztyn = {
 					province = 440
@@ -22143,6 +22157,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				name_list_saxon = cn_grosspolen
 				name_list_swabian = cn_grosspolen
 				name_list_bavarian = cn_grosspolen
+				name_list_thuringian = cn_grosspolen
 			}
 
 			capital = c_poznanska # Poznan
@@ -22526,6 +22541,14 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					province = 4936
 
 					color = { 150 40 25 }
+
+					cultural_names = {
+						name_list_franconian = "Warschau"
+						name_list_saxon = "Warschau"
+						name_list_swabian = "Warschau"
+						name_list_bavarian = "Warschau"
+						name_list_thuringian = "Warschau"
+					}
 				}
 				b_liw = {
 					province = 4937
