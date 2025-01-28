@@ -1,0 +1,28 @@
+azmeri = {
+	color = { 0.55 0.55 0.15 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_azmeri
+	language = language_gaulish
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+        tradition_hunters
+		tradition_martial_admiration
+	}
+    dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_gaulish
+	
+	coa_gfx = { turkic_group_coa_gfx frankish_group_coa_gfx western_coa_gfx oghuz_coa_gfx steppe_coa_gfx }
+	building_gfx = { azmeri_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { azmeri_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

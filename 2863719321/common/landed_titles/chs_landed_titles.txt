@@ -4890,11 +4890,19 @@ e_germany = {
 					province = 2799
 
 					color = { 165 95 100 }
+
+					cultural_names = {
+						name_list_danish = "Nymønsted"
+					}
 				}
 				b_itzehoe = {
 					province = 2798
 
 					color = { 165 95 100 }
+
+					cultural_names = {
+						name_list_danish = "Itzehå"
+					}
 				}
 			}
 		}
@@ -19694,6 +19702,8 @@ e_wendish_empire = {
 					name_list_swabian = cn_wollin
 					name_list_bavarian = cn_wollin
 					name_list_thuringian = cn_wollin
+
+					name_list_danish = "Jomsborg"
 				}
 
 				b_swinoujscie = {	#b_wolin
@@ -19707,6 +19717,8 @@ e_wendish_empire = {
 						name_list_swabian = cn_wollin
 						name_list_bavarian = cn_wollin
 						name_list_thuringian = cn_wollin
+
+						name_list_danish = "Jomsborg"
 					}
 				}
 				b_kolobrzeg = {		#b_kamien / Kamien Pomorski
@@ -19796,6 +19808,8 @@ e_wendish_empire = {
 					name_list_swabian = cn_kolberg
 					name_list_bavarian = cn_kolberg
 					name_list_thuringian = cn_kolberg
+
+					name_list_danish = "Kolbæk"
 				}
 
 				b_cammin = {		#b_kolobrzeg
@@ -19809,6 +19823,8 @@ e_wendish_empire = {
 						name_list_swabian = cn_kolberg
 						name_list_bavarian = cn_kolberg
 						name_list_thuringian = cn_kolberg
+
+						name_list_danish = "Kolbæk"
 					}
 				}
 				b_dramberg = {		#b_czaplinek
@@ -20120,6 +20136,8 @@ e_wendish_empire = {
 					name_list_swabian = cn_danzig
 					name_list_bavarian = cn_danzig
 					name_list_thuringian = cn_danzig
+
+					name_list_danish = "Dansk"
 				}
 
 				b_gdansk = {
@@ -20131,6 +20149,8 @@ e_wendish_empire = {
 						name_list_swabian = cn_danzig
 						name_list_bavarian = cn_danzig
 						name_list_thuringian = cn_danzig
+
+						name_list_danish = "Dansk"
 					}
 
 					color = { 75 125 75 }
@@ -20609,6 +20629,7 @@ e_wendish_empire = {
 					color = { 205 105 105 }
 
 					cultural_names = {
+						name_list_danish = "Elbæk"
 						name_list_franconian = cn_elbing
 						name_list_saxon = cn_elbing
 						name_list_swabian = cn_elbing

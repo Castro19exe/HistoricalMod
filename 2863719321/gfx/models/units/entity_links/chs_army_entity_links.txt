@@ -507,10 +507,10 @@ tibet_army_05 = {
 
 ### - NOT HISTORICALLY (start) ###
 # Azmeri 
-azmerian_army_01 = {
+azmeri_army_01 = {
 	type = army
-	graphical_cultures = { azmerian_unit_gfx }
-	entity = unit_azmeri_infantry_01_entity
+	graphical_cultures = { azmeri_unit_gfx }
+	entity = unit_azmeri_infantry_02_entity
 }
 
 #  Nord
@@ -538,7 +538,7 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_anglo_saxon_infantry_03_entity
+	entity = unit_azmeri_infantry_02_entity
 }
 ### - NOT HISTORICALLY (end) ###
 

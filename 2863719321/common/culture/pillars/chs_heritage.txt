@@ -67,3 +67,13 @@ heritage_japanese = {
 	}
 	audio_parameter = european
 }
+
+heritage_azmeri = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_azmeri
+		}
+	}
+	audio_parameter = european
+}
