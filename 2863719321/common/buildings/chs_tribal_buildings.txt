@@ -131,7 +131,19 @@ tribe_01 = {
 			"ethiopian_tribe_mesh"
 		}
 		graphical_cultures = { ethiopian_building_gfx }
-		illustration = @holding_illustration_arid
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_castle_tribal_01_a_mesh"
+			"western_castle_tribal_01_b_mesh"
+			"western_castle_tribal_01_c_mesh"
+			"western_castle_tribal_01_d_mesh"
+		}
+		graphical_cultures = { azmeri_building_gfx }
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 
@@ -306,7 +318,19 @@ tribe_02 = {
 			"ethiopian_tribe_mesh"
 		}
 		graphical_cultures = { ethiopian_building_gfx }
-		illustration = @holding_illustration_arid
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_castle_tribal_01_a_mesh"
+			"western_castle_tribal_01_b_mesh"
+			"western_castle_tribal_01_c_mesh"
+			"western_castle_tribal_01_d_mesh"
+		}
+		graphical_cultures = { azmeri_building_gfx }
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 
