@@ -1,0 +1,2031 @@
+﻿texticon = {
+	icon = saxon_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = saxon_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = saxon_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = saxon_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = saxon_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = saxon_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = saxon_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/saxon_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+########
+
+
+texticon = {
+	icon = african_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = african_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = african_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = african_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = african_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = african_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = african_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/african_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+########
+
+
+
+texticon = {
+	icon = anglosaxon_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = anglosaxon_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = anglosaxon_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = anglosaxon_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = anglosaxon_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = anglosaxon_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = anglosaxon_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/anglosaxon_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+########
+
+
+texticon = {
+	icon = asian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = asian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = asian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = asian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = asian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = asian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = asian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/asian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+########
+
+texticon = {
+	icon = baltic_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = baltic_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = baltic_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = baltic_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = baltic_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = baltic_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = baltic_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/baltic_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+########
+
+texticon = {
+	icon = byzantine_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = byzantine_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = byzantine_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = byzantine_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = byzantine_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = byzantine_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = byzantine_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/byzantine_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+########
+
+
+texticon = {
+	icon = caucasian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = caucasian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = caucasian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = caucasian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = caucasian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = caucasian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = caucasian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caucasian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+###########
+
+texticon = {
+	icon = indian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = indian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = indian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = indian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = indian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = indian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = indian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/indian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+###########
+
+texticon = {
+	icon = irish_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = irish_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = irish_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = irish_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = irish_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = irish_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = irish_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/irish_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+texticon = {
+	icon = islamic_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = islamic_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/islamic_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = italian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = italian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = italian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = italian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = italian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = italian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = italian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/italian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = mongol_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mongol_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mongol_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+
+texticon = {
+	icon = north_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/north_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = north_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/north_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = north_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/north_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = north_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/north_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = north_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/north_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+texticon = {
+	icon = slavic_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = slavic_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = slavic_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = slavic_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = slavic_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = slavic_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = slavic_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/slavic_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = spanish_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = spanish_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = spanish_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = spanish_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = spanish_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = spanish_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = spanish_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/spanish_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+texticon = {
+	icon = turkic_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = turkic_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = turkic_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = turkic_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = turkic_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = turkic_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = turkic_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/turkic_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = westslavic_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = westslavic_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = westslavic_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = westslavic_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = westslavic_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = westslavic_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = westslavic_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/westslavic_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+
+texticon = {
+	icon = german_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = german_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = german_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = german_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = german_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = german_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = german_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+
+texticon = {
+	icon = holy_roman_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_roman_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = holy_roman_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_roman_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_roman_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_roman_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = holy_roman_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/holy_roman_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+
+###########
+
+texticon = {
+	icon = english_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = english_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = english_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = english_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = english_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = english_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = english_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/english_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+texticon = {
+	icon = scottish_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = scottish_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = scottish_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = scottish_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = scottish_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = scottish_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = scottish_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scottish_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+###########
+
+texticon = {
+	icon = french_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = french_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = french_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = french_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = french_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = french_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = french_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/french_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = norman_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = norman_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = norman_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = norman_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = norman_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = norman_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = norman_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/norman_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+###########
+
+texticon = {
+	icon = hungarian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hungarian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = hungarian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hungarian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = hungarian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = hungarian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hungarian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hungarian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+###########
+
+texticon = {
+	icon = persian_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = persian_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = persian_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = persian_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = persian_heavy_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_heavy_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = persian_heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = persian_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/persian_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+
+###########
+
+texticon = {
+	icon = rebel_skirmishers_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/rebel_skirmishers.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = rebel_bowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/rebel_bowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+
+texticon = {
+	icon = rebel_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/rebel_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = rebel_light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/rebel_light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_slavic_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_slavic.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_byzantine_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_byzantine.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_arabian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_arabian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_asian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_asian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_byzantine_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_byzantine.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_caucasian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_caucasian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_persian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_persian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_indian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_indian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_northern_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_northern.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_northern_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_northern.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_mongol_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard_mongol_northern.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

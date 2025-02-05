@@ -267,3 +267,21 @@ language_japanese  = {
 	
 	color = { 234 35 35 }
 }
+
+language_azmeri  = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_azmeri
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_azmeri }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.55 0.55 0.15 }
+}

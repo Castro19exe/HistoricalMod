@@ -1312,7 +1312,7 @@
 }
 
 200240 = {
-	name = "Khindaswintho" # Chindasvinto, King of the Visigoths (642-653)
+	name = "Khindaswinth" # Chindasvinto, King of the Visigoths (642-653)
 	dynasty = khindaswinthiana # Chindasvinto's Dynasty
 	religion = catholic
 	culture = visigothic

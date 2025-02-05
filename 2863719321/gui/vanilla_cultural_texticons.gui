@@ -1,0 +1,542 @@
+texticon = {
+	icon = abudrar_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/abudrar.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = archers_of_the_nile_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/archers_of_the_nile.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = ayyar_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/ayyar.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = bush_hunter_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/bush_hunter.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = caballero_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/caballero.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = chasseur_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/chasseur.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = chu_ko_nu_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/chu_ko_nu.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = danish_huskarls_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/danish_huskarls.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = druzhina_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/druzhina.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = gendarme_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/gendarme.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = goedendag_militia_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/goedendag_militia.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = guinean_uplander_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/guinean_uplander.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = heavy_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/heavy_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hobelar_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hobelar.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mulaththamun_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mulaththamun.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = horn_warrior_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/horn_warrior.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = house_guard_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/house_guard.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = khandayat_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/khandayat.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = konni_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/konni.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = landsknecht_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/landsknecht.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = light_cavalry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/light_cavalry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = longbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/longbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = metsanvartija_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/metsanvartija.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = monaspa_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/monaspa.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mountaineer_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mountaineer.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mubarizun_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mubarizun.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = mulaththamun_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/mulaththamun.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = order_knights_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/order_knights.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = paiks_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/paiks.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = palace_guard_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/palace_guard.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = palatini_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/palatini.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = picchieri_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/picchieri.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_archer_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_archer.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_camel_rider_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_camel_rider.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_crossbowmen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_crossbowmen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_horse_archer_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_horse_archer.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_lancer_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_lancer.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_outrider_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_outrider.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_pikemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_pikemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_skirmisher_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_skirmisher.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_vanguard_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_vanguard.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = retinue_war_elephant_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/retinue_war_elephant.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = sahel_horsemen_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/sahel_horsemen.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = sarawit_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/sarawit.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+
+texticon = {
+	icon = scot_schiltron_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/scot_schiltron.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = shomer_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/shomer.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = garudas_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/garudas.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = varangian_veterans_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/varangian_veterans.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = vaulter_infantry_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/vaulter_infantry.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = zbrojnosh_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/zbrojnosh.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = cataphracts_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/cataphracts.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hussar_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/hussar.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

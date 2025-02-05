@@ -225,17 +225,14 @@ castle_01 = {
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
-		names = {
-			"building_western_castle_01_mesh"
-			"building_western_castle_01_b_mesh"
-		}
+		name = "turkic_castle_01_a_western_mesh"
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_01_a_01_mesh"
+		name = "turkic_castle_01_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
@@ -973,14 +970,14 @@ castle_02 = {
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_02_mesh"
+		name = "turkic_castle_02_a_western_mesh"
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_02_a_01_mesh"
+		name = "turkic_castle_02_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
@@ -1712,14 +1709,14 @@ castle_03 = {
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_03_mesh"
+		name = "turkic_castle_03_b_western_mesh"
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_03_a_01_mesh"
+		name = "turkic_castle_03_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
@@ -1736,7 +1733,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_03_a_01_mesh"
+		name = "turkic_castle_03_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
@@ -2443,14 +2440,14 @@ castle_04 = {
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "turkic_castle_04_a_western_mesh"
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_04_a_01_mesh"
+		name = "turkic_castle_04_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
@@ -2467,7 +2464,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_04_a_01_mesh"
+		name = "turkic_castle_04_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }

@@ -239,7 +239,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
+			"magyar_city_01_mesh"
 		}
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
@@ -494,8 +494,8 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		names = { 
-			#"berber_city_01_a_mesh"
-			"berber_city_01_b_mesh"
+			"berber_city_01_a_mesh"
+			#"berber_city_01_b_mesh"
 			#"berber_city_01_c_mesh"
 		}
 		illustration = @holding_illustration_berber
@@ -1073,7 +1073,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
+			"magyar_city_01_mesh"
 		}
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
@@ -1102,7 +1102,6 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			#"ep3_byzantine_city_01_mesh"
 			"fp3_building_persian_city_01_a_01_mesh"
 		}
 		illustration = @holding_illustration_steppe
@@ -1329,8 +1328,8 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		names = { 
-			#"berber_city_01_a_mesh"
-			"berber_city_01_b_mesh"
+			"berber_city_01_a_mesh"
+			#"berber_city_01_b_mesh"
 			#"berber_city_01_c_mesh"
 		}
 		illustration = @holding_illustration_berber
@@ -1871,7 +1870,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
+			"magyar_city_02_mesh"
 		}
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
@@ -2656,7 +2655,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
+			"magyar_city_02_mesh"
 		}
 		illustration = @holding_illustration_steppe
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
