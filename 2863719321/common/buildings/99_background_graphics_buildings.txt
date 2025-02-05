@@ -171,6 +171,15 @@ walls_01 = {
 			"western_walls_01_b_mesh"
 		}
 	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
+		names = {
+			"guinean_walls_01_mesh"
+		}
+	}
 	
 	is_enabled = {
 		OR = {
@@ -315,6 +324,15 @@ walls_02 = {
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
 			"ep3_byzantine_walls_02_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"guinean_walls_02_mesh"
 		}
 	}
 
@@ -474,6 +492,15 @@ walls_03 = {
 		}
 	}
 
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"guinean_walls_03_mesh"
+		}
+	}
+
 	is_enabled = {
 		scope:holder = {
 			NOT = { government_has_flag = government_is_tribal }
@@ -629,6 +656,15 @@ walls_04 = {
 		graphical_regions = { graphical_mediterranean }
 		names = {
 			"magyar_walls_04_mediterranean_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+		names = {
+			"guinean_walls_04_mesh"
 		}
 	}
 

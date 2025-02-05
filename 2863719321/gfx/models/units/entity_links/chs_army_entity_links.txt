@@ -504,44 +504,6 @@ tibet_army_05 = {
 	entity = unit_tibetan_infantry_03_entity
 }
 
-
-### - NOT HISTORICALLY (start) ###
-# Azmeri 
-azmeri_army_01 = {
-	type = army
-	graphical_cultures = { azmeri_unit_gfx }
-	entity = unit_azmeri_infantry_02_entity
-}
-
-#  Nord
-nord_army_01 = {
-	type = army
-	graphical_cultures = { rei_nord_unit_gfx }
-	entity = unit_nord_infantry_01_entity
-}
-
-nord_army_03 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { rei_nord_unit_gfx }
-	entity = unit_nord_infantry_02_entity
-}
-
-nord_army_05 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { rei_nord_unit_gfx }
-	entity = unit_nord_infantry_03_entity
-}
-
-# Tests
-test_army_01 = {
-	type = army
-	graphical_cultures = { test_unit_gfx }
-	entity = unit_azmeri_infantry_02_entity
-}
-### - NOT HISTORICALLY (end) ###
-
 # Tribal African 
 african_army_01 = {
 	type = army
@@ -832,3 +794,41 @@ fp3_army_03 = {
 	graphical_cultures = { iranian_unit_gfx }
 	entity = unit_fp3_iranian_infantry_03_entity
 }
+
+
+### - NOT HISTORICALLY (start) ###
+# Azmeri 
+azmeri_army_01 = {
+	type = army
+	graphical_cultures = { azmeri_unit_gfx }
+	entity = unit_azmeri_infantry_02_entity
+}
+
+# Nord
+nord_army_01 = {
+	type = army
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_01_entity
+}
+
+nord_army_03 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_02_entity
+}
+
+nord_army_05 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { rei_nord_unit_gfx }
+	entity = unit_nord_infantry_03_entity
+}
+
+# Tests
+test_army_01 = {
+	type = army
+	graphical_cultures = { test_unit_gfx }
+	entity = unit_azmeri_infantry_03_entity
+}
+### - NOT HISTORICALLY (end) ###

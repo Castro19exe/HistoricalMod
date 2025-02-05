@@ -36,7 +36,7 @@
 andalusian = {
 	color = { 0.4 0.6 0.1 }
 	created = 800.1.1
-	parents = { hispano_roman maghrebi }
+	parents = { hispano_roman bedouin }
 
 	ethos = ethos_courtly
 	heritage = heritage_iberian
@@ -86,6 +86,7 @@ basque = {
 	language = language_basque
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_visigothic_codes
 		tradition_mountaineers
 		tradition_wedding_ceremonies
 	}
@@ -106,7 +107,6 @@ basque = {
 		10 = mediterranean
 	}
 }
-
 
 castilian = {
 	color = castilian
@@ -148,7 +148,7 @@ castilian = {
 catalan = {
 	color = { 102 255 190 }
 	created = 800.1.1
-	parents = { south_gallo_roman visigothic }
+	parents = { visigothic south_gallo_roman }
 
 	ethos = ethos_courtly
 	heritage = heritage_iberian
@@ -167,38 +167,6 @@ catalan = {
 	}
 	
 	name_list = name_list_catalan
-	
-	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
-	unit_gfx = { iberian_christian_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
-galician = {
-	color = { 0.92 0.93 0.63 }
-	created = 800.1.1
-	parents = { hispano_roman visigothic }
-
-	ethos = ethos_spiritual
-	heritage = heritage_iberian
-	language = language_iberian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_monastic_communities
-		tradition_highland_warriors
-		tradition_fishermen
-	}
-
-	dlc_tradition = {
-		trait = tradition_fp2_ritualised_friendship
-		requires_dlc_flag = the_fate_of_iberia
-	}
-	
-	name_list = name_list_galician
 	
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }
@@ -231,6 +199,38 @@ portuguese = {
 	}
 	
 	name_list = name_list_portuguese
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+galician = {
+	color = { 0.92 0.93 0.63 }
+	created = 800.1.1
+	parents = { hispano_roman visigothic }
+
+	ethos = ethos_spiritual
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_monastic_communities
+		tradition_highland_warriors
+		tradition_fishermen
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_galician
 	
 	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
 	building_gfx = { iberian_building_gfx }

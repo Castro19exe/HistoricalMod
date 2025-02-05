@@ -7886,7 +7886,7 @@ character_view_bg = {
 	}
 
     environment = {
-		reference = "environment_cw_west"
+		reference = "character_view/throneroom_steppe.dds"
 
 		trigger = {
 			exists = primary_title
@@ -7932,15 +7932,64 @@ character_view_bg = {
     ##########################################
 
 	# Steppe, regular
+	
 	texture = {
 		reference = "character_view/throneroom_steppe.dds"
-
+		
 		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				AND = {
+					is_ruler = no
+					OR = {
+						AND = {
+							exists = liege
+							liege = {
+								OR = {
+									NOT = {
+										government_has_flag = government_is_tribal
+									}
+									primary_title.tier >= tier_kingdom
+								}
+								OR = {
+									culture = culture:norse
+									religion = religion:germanic_religion
+									has_graphical_scandinavia_region_trigger = yes
+								}
+							}
+						}
+						AND = {
+							exists = host
+							host = {
+								OR = {
+									NOT = {
+										government_has_flag = government_is_tribal
+									}
+									primary_title.tier >= tier_kingdom
+								}
+								OR = {
+									culture = culture:norse
+									religion = religion:germanic_religion
+									has_graphical_scandinavia_region_trigger = yes
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					is_ruler = yes
+					OR = {
+						NOT = {
+							government_has_flag = government_is_tribal
+						}
+						primary_title.tier >= tier_kingdom
+					}
+					OR = {
+						culture = culture:norse
+						religion = religion:germanic_religion
+						has_graphical_scandinavia_region_trigger = yes
+					}
+				}
 			}
-			trigger_else = { has_graphical_steppe_culture_group_trigger = yes }
 		}
 	}
 
