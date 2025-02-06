@@ -6,7 +6,4 @@ Recently I started to make mods for Crusader Kings 3 just for fun. In this repos
 
 ## DLC Required:
 
-![Logo](https://ck3.paradoxwikis.com/Roads_to_Power#/media/File:Banner_Roads_to_Power.jpg)
-![Logo](2863719321/thumbnail.png)
-![Logo](2863719321/thumbnail.png)
-![Logo](2863719321/thumbnail.png)
+![Logo](https://ck3.paradoxwikis.com/images/7/78/Banner_Roads_to_Power.jpg)
