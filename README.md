@@ -1,9 +1,13 @@
-# CK3 MODS
-
-Recently I started to make mods for Crusader Kings 3 just for fun. In this repository the code is free for everyone.
+# CK3 MOD
 
 ![Logo](2863719321/thumbnail.png)
 
 ## DLC Required:
 
-![Logo](https://ck3.paradoxwikis.com/images/7/78/Banner_Roads_to_Power.jpg)
+![Royal Court DLC](2863719321/@Images/Banner_Royal_Court.jpg)
+![Roads to Power DLC](2863719321/@Images/Banner_Roads_to_Power.jpg)
+![Fate of Iberia DLC](2863719321/@Images/Banner_Fate_of_Iberia.jpg)
+![Legacy of Persia DLC](2863719321/@Images/Banner_Legacy_of_Persia.jpg)
+![Northern Lords DLC](2863719321/@Images/Banner_Northern_Lords.jpg)
+![North African Attire DLC](2863719321/@Images/Banner_North_African_Attire.jpg)
+![West Slavic Attire DLC](2863719321/@Images/Banner_West_Slavic_Attire.jpg)
