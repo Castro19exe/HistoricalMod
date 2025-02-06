@@ -33,6 +33,15 @@ pdxmesh = {
 	animation = { id = "even_winlose_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_even_winlose_tx_defensive_1.anim" }
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
+	#meshsettings = {
+	#	name = "male_headgears_secular_byzantine_illyrian_03"
+	#	texture_diffuse = "basic_unit_01_diffuse.dds"
+	#	texture_normal = "basic_unit_01_normal.dds"
+	#	texture_specular = "basic_unit_01_properties.dds"
+	#	shader = "standard_usercolor"
+	#	shader_file = "gfx/FX/pdxmesh.shader"
+	#}
+
 	meshsettings = {
 		name = "unit_azmeri_infantry_03_body"
 		texture_diffuse = "basic_unit_01_diffuse.dds"

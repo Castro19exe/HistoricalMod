@@ -266,7 +266,7 @@ praetorian = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = palatini
 }
 
 caballero = {
@@ -816,7 +816,7 @@ bush_hunter = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = bowmen
+	icon = bush_hunter
 }
 
 shomer = {
@@ -1053,7 +1053,7 @@ sarawit = { #AKA Ethiopian mountaineer
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = sarawit
 }
 
 abudrar = { #AKA Jabali - Berber mountaineer
@@ -1124,7 +1124,7 @@ zbrojnosh = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = zbrojnosh
 }
 
 palace_guards = {
