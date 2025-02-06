@@ -117,7 +117,7 @@ longbowmen = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = bowmen
+	icon = longbowmen
 }
 
 goedendag = {
@@ -485,7 +485,7 @@ metsanvartija = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = bowmen
+	icon = metsanvartija
 }
 
 horse_archers = {
@@ -880,7 +880,7 @@ garudas = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = garudas
 }
 
 khandayat = {

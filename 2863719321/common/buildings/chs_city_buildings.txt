@@ -15,6 +15,7 @@
 @holding_illustration_steppe = "gfx/interface/illustrations/holding_types/city_steppe.dds"
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/city_tibetan.dds"
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/city_berber.dds"
+@holding_illustration_african = "gfx/interface/illustrations/holding_types/city_african.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -502,6 +503,58 @@ city_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -1338,6 +1391,58 @@ city_02 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -2130,6 +2235,58 @@ city_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -2913,6 +3070,58 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_western }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { african_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###

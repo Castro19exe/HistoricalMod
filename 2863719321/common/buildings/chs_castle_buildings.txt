@@ -18,6 +18,7 @@
 @holding_illustration_magyar = "gfx/interface/illustrations/holding_types/castle_magyar.dds"
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/castle_tibetan.dds"
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/castle_berber.dds"
+@holding_illustration_african = "gfx/interface/illustrations/holding_types/castle_african.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
@@ -489,6 +490,47 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_01_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_01_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_01_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_01_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_01_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -1236,6 +1278,47 @@ castle_02 = {
 		graphical_regions = { graphical_india }
 	}
 
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_02_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_02_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_02_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_02_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_02_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -1976,6 +2059,47 @@ castle_03 = {
 		graphical_regions = { graphical_india }
 	}
 
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_03_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_03_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_03_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_03_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_03_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
@@ -2704,6 +2828,47 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { berber_group_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_04_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { guinean_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_04_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_04_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_04_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_castle_04_mesh"
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
