@@ -56,11 +56,11 @@ copt = {
 	language = language_coptic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_monastic_communities						#origin of monasticism for christianity
+		tradition_byzantine_succession
 		tradition_agrarian									#lived around the nile, military-wise somewhat incapable
 		tradition_zealous_people							#ethno-religious group
-		tradition_ethnoreligious_identity
-		tradition_byzantine_succession
+		tradition_ethnoreligious_identity	
+		tradition_monastic_communities						#origin of monasticism for christianity
 	}
 	
 	name_list = name_list_copt

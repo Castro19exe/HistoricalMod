@@ -623,7 +623,7 @@ mulaththamun = { #Murabit Cavalry
 	
 	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 20] }
-	icon = light_cavalry
+	icon = mulaththamun
 }
 
 archers_of_the_nile = { #Nile Archers
@@ -656,7 +656,7 @@ archers_of_the_nile = { #Nile Archers
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = bowmen
+	icon = archers_of_the_nile
 }
 
 paiks = { #Indian Footmen - carrying bows but also swords and spears.
@@ -1087,7 +1087,7 @@ abudrar = { #AKA Jabali - Berber mountaineer
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = skirmishers
+	icon = abudrar
 }
 
 zbrojnosh = {
