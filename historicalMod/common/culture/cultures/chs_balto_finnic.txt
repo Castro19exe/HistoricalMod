@@ -62,7 +62,7 @@ estonian = {
 	traditions = {
 		tradition_music_theory
 		tradition_fishermen
-		tradition_practiced_pirates
+		tradition_forest_wardens
 	}
 
 	dlc_tradition = {

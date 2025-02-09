@@ -514,7 +514,6 @@ city_01 = {
 		illustration = @holding_illustration_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 	asset = {
 		type = pdxmesh
@@ -1400,7 +1399,6 @@ city_02 = {
 		illustration = @holding_illustration_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 	asset = {
 		type = pdxmesh
@@ -2244,7 +2242,6 @@ city_03 = {
 		illustration = @holding_illustration_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 	asset = {
 		type = pdxmesh
@@ -3081,7 +3078,6 @@ city_04 = {
 		illustration = @holding_illustration_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_western }
 	}
 	asset = {
 		type = pdxmesh
