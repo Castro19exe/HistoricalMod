@@ -15,7 +15,7 @@
 	name_list = name_list_akan
 	
 	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
+	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
 	
@@ -40,7 +40,7 @@ kru = {
 	name_list = name_list_kru
 	
 	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
+	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
 	
@@ -66,7 +66,7 @@ guan = {
 	name_list = name_list_guan
 	
 	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
+	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
 	
