@@ -18,6 +18,7 @@
  burman_group_coa_gfx:0 "Burman"
  byzantine_clothing_gfx:0 "Byzantine"
  byzantine_group_coa_gfx:0 "Byzantine"
+ byzantine_unit_gfx:0 "Byzantine"
  castilian_coa_gfx:0 "Castilian"
  celtic_building_gfx:0 "Celtic"
  central_african_group_coa_gfx:0 "Central African"
@@ -116,7 +117,7 @@
  western_building_gfx:0 "Western European"
  western_clothing_gfx:0 "Continental European"
  western_coa_gfx:0 "Continental European"
- western_unit_gfx:0 "Continental European"
+ western_unit_gfx:0 "Western European"
 
  iberian_building_gfx:0 "Iberian"
  iberian_christian_unit_gfx:0 "Iberian"
