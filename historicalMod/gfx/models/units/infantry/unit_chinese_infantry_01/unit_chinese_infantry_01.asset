@@ -33,11 +33,8 @@ pdxmesh = {
 	animation = { id = "even_winlose_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_even_winlose_tx_defensive_1.anim" }
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
-	
-
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
+		name = "unit_chinese_hat_infantry_01"
 		texture_diffuse = "unit_chinese_infantry_01_diffuse.dds"
 		texture_normal = "unit_chinese_infantry_01_normal.dds"
 		texture_specular = "unit_chinese_infantry_01_properties.dds"
@@ -46,15 +43,22 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
+		name = "unit_chinese_shoulders_infantry_01"
+		texture_diffuse = "unit_chinese_infantry_01_diffuse.dds"
+		texture_normal = "unit_chinese_infantry_01_normal.dds"
+		texture_specular = "unit_chinese_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_chinese_body_infantry_01"
 		texture_diffuse = "unit_chinese_infantry_01_armor_diffuse.dds"
 		texture_normal = "unit_chinese_infantry_01_armor_normal.dds"
 		texture_specular = "unit_chinese_infantry_01_armor_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-
 }
 
 entity = {

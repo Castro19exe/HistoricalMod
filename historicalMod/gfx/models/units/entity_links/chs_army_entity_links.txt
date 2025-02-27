@@ -233,7 +233,7 @@ byzantine_army_03 = {
 eastern_army_01 = {
 	type = army
 	graphical_cultures = { eastern_unit_gfx }
-	entity = unit_byzantine_infantry_01_entity
+	entity = unit_northern_pagan_infantry_01_entity
 }
 
 eastern_army_02 = {
@@ -247,7 +247,7 @@ eastern_army_03 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { eastern_unit_gfx }
-	entity = unit_byzantine_infantry_03_entity
+	entity = unit_eastern_infantry_03_entity
 }
 
 # South Slavic 
@@ -850,6 +850,6 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_azmeri_infantry_03_entity
+	entity = unit_eastern_infantry_03_entity
 }
 ### - NOT HISTORICALLY (end) ###

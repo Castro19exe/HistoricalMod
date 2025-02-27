@@ -24,7 +24,10 @@ has_graphical_mediterranean_culture_group_trigger = {
 }
 
 has_graphical_western_culture_group_trigger = {
-	has_building_gfx = western_building_gfx
+	OR = {
+		has_building_gfx = western_building_gfx
+		has_building_gfx = azmeri_building_gfx
+	}
 }
 
 has_graphical_eastern_culture_group_trigger = {

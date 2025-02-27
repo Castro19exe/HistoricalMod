@@ -49,7 +49,7 @@ czech = {
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { eastern_building_gfx }
 	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
 		45 = slavic_blond
@@ -143,7 +143,7 @@ sorbian = {
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { eastern_building_gfx }
 	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { eastern_unit_gfx }
 
 	ethnicities = {
 		45 = slavic_blond
@@ -197,7 +197,7 @@ carantanian = {
 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { eastern_building_gfx }
 	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	unit_gfx = { eastern_unit_gfx }
 	
 	ethnicities = {
 		45 = slavic_blond

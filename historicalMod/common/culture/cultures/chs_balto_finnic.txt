@@ -42,7 +42,7 @@ sami = {
 
 	coa_gfx = { sami_coa_gfx balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { sami_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { sami_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {
@@ -101,7 +101,7 @@ karelian = {
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { sami_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {
@@ -127,7 +127,7 @@ vepsian = {
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { circumpolar_unit_gfx }
 
 	ethnicities = {

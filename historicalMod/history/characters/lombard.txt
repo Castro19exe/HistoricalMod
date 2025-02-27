@@ -10198,3 +10198,232 @@ lombard0155 = {
 }
 # End of Orseolo
 ### End of lords of c_venezia
+
+guarna_1 = {
+	name = "Romuald"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	1045.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+guarna_2 = {
+	name = "Giovanni"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_1
+	1063.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+guarna_3 = {
+	name = "Alferius"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_2
+	1084.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+
+guarna_4 = {
+	name = "Lucas"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_3
+	1115.1.1 = {
+		birth = yes
+	}
+	1189.1.1 = {
+		death = yes
+	}
+}
+
+guarna_5 = {
+	name = "Filippo"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_4
+	1148.1.1 = {
+		birth = yes
+	}
+	1195.1.1 = {
+		death = yes
+	}
+}
+
+guarna_6 = {
+	name = "Pietro"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_1
+	1095.1.1 = {
+		birth = yes
+	}
+	1157.1.1 = {
+		death = yes
+	}
+}
+
+guarna_7 = {
+	name = "Landolf"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_1
+	1075.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+guarna_8 = {
+	name = "Romuald" # Romuald Guarna, archbishop of Salerno
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	trait = diplomat
+	trait = education_learning_3
+	father = guarna_6
+	1115.1.1 = {
+		birth = yes
+	}
+	1181.4.1 = {
+		death = yes
+	}
+}
+
+guarna_9 = {
+	name = "Giovanni"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	trait = devoted
+	father = guarna_2
+	1083.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+
+guarna_10 = {
+	name = "Filippo"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1114.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+
+guarna_11 = {
+	name = "Lucas"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1116.1.1 = {
+		birth = yes
+	}
+	1167.1.1 = {
+		death = yes
+	}
+}
+
+guarna_12 = {
+	name = "Giovanni"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1117.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+
+guarna_13 = {
+	name = "Roberto"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	trait = devoted
+	father = guarna_6
+	1118.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+guarna_14 = {
+	name = "Giacomo"
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1119.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+
+guarna_15 = {
+	name = "Agnes"
+	female = yes
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1120.1.1 = {
+		birth = yes
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}
+
+guarna_16 = {
+	name = "Sica"
+	female = yes
+	dynasty = lombard_guarna
+	religion = "catholic"
+	culture = lombard
+	father = guarna_6
+	1121.1.1 = {
+		birth = yes
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}

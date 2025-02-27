@@ -181,7 +181,7 @@ thuringian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_chanson_de_geste
-		tradition_reverence_for_veterans
+		tradition_hereditary_hierarchy
 		tradition_religious_patronage
 	}
 	

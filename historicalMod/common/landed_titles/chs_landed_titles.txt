@@ -10885,10 +10885,20 @@ e_byzantium = {
 
 				#capital = 500 # Serdica / Sredets / Sofia
 
+				cultural_names = {
+					name_list_greek = "Serdica"
+					name_list_roman = "Serdica"
+				}
+
 				b_sredets = {
 					province = 500
 
 					color = { 45 40 75 }
+
+					cultural_names = {
+						name_list_greek = "Serdica"
+						name_list_roman = "Serdica"
+					}
 				}
 				b_meldi = {
 					province = 3671
@@ -11059,15 +11069,27 @@ e_byzantium = {
 
 				#capital = 498 # Mesembria
 
+				cultural_names = {
+					name_list_bulgarian = "Nesebar"
+				}
+
 				b_mesembria = {
 					province = 498
 
 					color = { 55 75 65 }
+
+					cultural_names = {
+						name_list_bulgarian = "Nesebar"
+					}
 				}
 				b_varna = {
 					province = 3693
 
 					color = { 55 75 65 }
+
+					cultural_names = {
+						name_list_greek = "Odessos"
+					}
 				}
 				b_karvuna = {
 					province = 509
@@ -11384,15 +11406,27 @@ e_byzantium = {
 
 				#capital = 3628 # Burgas
 
+				cultural_names = {
+					name_list_greek = "Pyrgos"
+				}
+
 				b_burgas = {
 					province = 3628
 
 					color = { 60 100 100 }
+
+					cultural_names = {
+						name_list_greek = "Pyrgos"
+					}
 				}
 				b_sozopol = {
 					province = 3629
 
 					color = { 60 100 100 }
+
+					cultural_names = {
+						name_list_greek = "Apollonia"
+					}
 				}
 				b_potamuskastel = {
 					province = 3630
@@ -11406,10 +11440,19 @@ e_byzantium = {
 
 				#capital = 494 # Adrianopolis
 
+				cultural_names = {
+					name_list_greek = "Adrianoupolis"
+				}
+
 				b_adrianopolis = {
 					province = 494
 
 					color = { 90 85 120 }
+
+					cultural_names = {
+						name_list_greek = "Adrianoupolis"
+						name_list_bulgarian = "Odrin"
+					}
 				}
 				b_mezeshka = {
 					province = 3626
@@ -46904,6 +46947,18 @@ e_spain = {
 					province = 1977
 
 					color = { 65 155 40 }
+
+					cultural_names = {
+						name_list_bedouin = cn_yaiyan
+						name_list_baranis = cn_yaiyan
+						name_list_butr = cn_yaiyan
+						name_list_zaghawa = cn_yaiyan
+						name_list_levantine = cn_yaiyan
+						name_list_egyptian = cn_yaiyan
+						name_list_maghrebi = cn_yaiyan
+						name_list_andalusian = cn_yaiyan
+						name_list_yemeni = cn_yaiyan
+					}
 				}
 				b_andujar = {
 					province = 1986
@@ -47044,6 +47099,18 @@ e_spain = {
 					province = 1979
 
 					color = { 50 150 20 }
+
+					cultural_names = {
+						name_list_bedouin = cn_qabra
+						name_list_baranis = cn_qabra
+						name_list_butr = cn_qabra
+						name_list_zaghawa = cn_qabra
+						name_list_levantine = cn_qabra
+						name_list_egyptian = cn_qabra
+						name_list_maghrebi = cn_qabra
+						name_list_andalusian = cn_qabra
+						name_list_yemeni = cn_qabra
+					}
 				}
 				b_antequera = {
 					province = 1984
@@ -47297,6 +47364,18 @@ e_spain = {
 					province = 1837
 
 					color = { 130 180 25 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_manijah
+						name_list_baranis = cn_al_manijah
+						name_list_butr = cn_al_manijah
+						name_list_zaghawa = cn_al_manijah
+						name_list_levantine = cn_al_manijah
+						name_list_egyptian = cn_al_manijah
+						name_list_maghrebi = cn_al_manijah
+						name_list_andalusian = cn_al_manijah
+						name_list_yemeni = cn_al_manijah
+					}
 				}
 				b_serpa = {
 					province = 1838
@@ -49028,6 +49107,18 @@ e_spain = {
 					province = 1932
 
 					color = { 125 85 5 }
+					
+					cultural_names = {
+						name_list_bedouin = cn_qalat_ayyub
+						name_list_baranis = cn_qalat_ayyub
+						name_list_butr = cn_qalat_ayyub
+						name_list_zaghawa = cn_qalat_ayyub
+						name_list_levantine = cn_qalat_ayyub
+						name_list_egyptian = cn_qalat_ayyub
+						name_list_maghrebi = cn_qalat_ayyub
+						name_list_andalusian = cn_qalat_ayyub
+						name_list_yemeni = cn_qalat_ayyub
+					}
 				}
 				b_daroca = {
 					province = 1934
@@ -49314,6 +49405,18 @@ e_spain = {
 					province = 1881
 
 					color = { 160 80 65 }
+
+					cultural_names = {
+						name_list_bedouin = cn_laridah
+						name_list_baranis = cn_laridah
+						name_list_butr = cn_laridah
+						name_list_zaghawa = cn_laridah
+						name_list_levantine = cn_laridah
+						name_list_egyptian = cn_laridah
+						name_list_maghrebi = cn_laridah
+						name_list_andalusian = cn_laridah
+						name_list_yemeni = cn_laridah
+					}
 				}
 				b_agramunt = {
 					province = 8796
@@ -49346,6 +49449,18 @@ e_spain = {
 					province = 1860
 
 					color = { 155 90 55 }
+
+					cultural_names = {
+						name_list_bedouin = cn_turtusah
+						name_list_baranis = cn_turtusah
+						name_list_butr = cn_turtusah
+						name_list_zaghawa = cn_turtusah
+						name_list_levantine = cn_turtusah
+						name_list_egyptian = cn_turtusah
+						name_list_maghrebi = cn_turtusah
+						name_list_andalusian = cn_turtusah
+						name_list_yemeni = cn_turtusah
+					}
 				}
 				b_tortosa = {
 					province = 1859
