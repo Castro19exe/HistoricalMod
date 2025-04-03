@@ -54391,6 +54391,14 @@ e_arabia = {
 			c_alexandria = {
 				color = { 102 221 136 }
 
+				cultural_names = {
+					name_list_bedouin = "Al-Iskandariyya"
+					name_list_maghrebi = "Al-Iskandariyya"
+					name_list_levantine = "Al-Iskandariyya"
+					name_list_egyptian = "Al-Iskandariyya"
+					name_list_andalusian = "Al-Iskandariyya"
+				}
+
 				#b_alexandria = {
 				#	pentarchy = yes
 				#}
@@ -54398,6 +54406,14 @@ e_arabia = {
 					province = 6053
 
 					color = { 102 221 136 }
+
+					cultural_names = {
+						name_list_bedouin = "Al-Iskandariyya"
+						name_list_maghrebi = "Al-Iskandariyya"
+						name_list_levantine = "Al-Iskandariyya"
+						name_list_egyptian = "Al-Iskandariyya"
+						name_list_andalusian = "Al-Iskandariyya"
+					}
 				}
 				b_al-hamam = {
 					province = 6094

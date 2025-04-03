@@ -2,8 +2,8 @@
 	color = { 0.3 0.4 0.1 }
 
 	ethos = ethos_bellicose
-	heritage = heritage_magyar
-	language = language_magyar
+	heritage = heritage_ugro_permian                         	# Or heritage_magyar
+	language = language_magyar									# Or language_ugro_permian	
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_tribe_unity
@@ -31,7 +31,7 @@ hungarian = {
 	parents = { mogyer }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_magyar
+	heritage = heritage_ugro_permian									# Or heritage_magyar
 	language = language_magyar
 	martial_custom = martial_custom_male_only
 	traditions = {
