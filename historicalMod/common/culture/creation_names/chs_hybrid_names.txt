@@ -1408,7 +1408,7 @@ bohemian_hybrid = { # German-speakers in Czechia. using Böhmisch just to differ
 	trigger = {	
 		OR = {
 			scope:culture = { has_cultural_pillar = language_high_german }
-			scope:culture = { has_cultural_pillar = language_saxon }
+			scope:culture = { has_cultural_pillar = language_low_german }
 		}
 		OR = {
 			AND = {

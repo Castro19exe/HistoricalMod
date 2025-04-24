@@ -1,4 +1,5 @@
-﻿culture_era_tribal = {
+﻿
+culture_era_tribal = {
 	year = 0
 }
 
@@ -20,7 +21,7 @@ culture_era_early_medieval = {
 	## Longbowmen
 	maa_upgrade = {
 		men_at_arms = longbowmen
-		damage = 8
+		damage = 10
 		toughness = 2
 	}
 
@@ -53,7 +54,7 @@ culture_era_early_medieval = {
 }
 
 culture_era_high_medieval = {
-	year = 1000
+	year = 1050
 	invalid_for_government = tribal_government
 	
 	culture_modifier = {
@@ -74,7 +75,7 @@ culture_era_high_medieval = {
 	## Longbowmen
 	maa_upgrade = {
 		men_at_arms = longbowmen
-		damage = 8
+		damage = 10
 		toughness = 2
 	}
 
@@ -129,7 +130,7 @@ culture_era_high_medieval = {
 }
 
 culture_era_late_medieval = {
-	year = 1300
+	year = 1200
 	invalid_for_government = tribal_government
 	
 	culture_modifier = {
@@ -151,7 +152,7 @@ culture_era_late_medieval = {
 	## Longbowmen
 	maa_upgrade = {
 		men_at_arms = longbowmen
-		damage = 8
+		damage = 10
 		toughness = 2
 	}
 

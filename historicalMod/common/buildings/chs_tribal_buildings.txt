@@ -1,6 +1,8 @@
 ﻿@holding_illustration_arid = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
 @holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
 @holding_illustration_prairie = "gfx/interface/illustrations/holding_types/tribe_prairie.dds"
+@holding_illustration_guinean = "gfx/interface/illustrations/holding_types/tribe_african.dds"
+@holding_illustration_mena = "gfx/interface/illustrations/holding_types/tribe_mena.dds"
 
 # Tribal Hold
 tribe_01 = {
@@ -20,7 +22,7 @@ tribe_01 = {
 			"building_mena_tribal_01_a_mesh"
 		}
 		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -47,7 +49,7 @@ tribe_01 = {
 			"building_african_tribal_01_a_mesh"
 		}
 		graphical_cultures = { african_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -104,7 +106,7 @@ tribe_01 = {
 			"building_african_tribal_01_a_mesh"
 		}
 		graphical_cultures = { sahelian_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -140,7 +142,7 @@ tribe_01 = {
 			"guinean_tribal_mesh"
 		}
 		graphical_cultures = { guinean_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_guinean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -216,7 +218,7 @@ tribe_02 = {
 			"building_mena_tribal_01_a_mesh"
 		}
 		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -243,7 +245,7 @@ tribe_02 = {
 			"building_african_tribal_01_a_mesh"
 		}
 		graphical_cultures = { african_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -300,7 +302,7 @@ tribe_02 = {
 			"building_african_tribal_01_a_mesh"
 		}
 		graphical_cultures = { sahelian_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {
@@ -336,7 +338,7 @@ tribe_02 = {
 			"guinean_tribal_mesh"
 		}
 		graphical_cultures = { guinean_building_gfx }
-		illustration = @holding_illustration_grass
+		illustration = @holding_illustration_guinean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
 	asset = {

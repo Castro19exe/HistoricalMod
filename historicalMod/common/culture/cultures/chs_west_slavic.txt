@@ -60,7 +60,6 @@ czech = {
 }
 
 polish = {
-	#color = polish
 	color = { 0.35 0.6 0.36 }
 	
 	ethos = ethos_courtly

@@ -36,9 +36,10 @@ north_gallo_roman = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_legalistic
-		tradition_poetry
-		tradition_hereditary_hierarchy
+		
+		tradition_noble_adoption
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending
@@ -75,7 +76,7 @@ south_gallo_roman = {
 		tradition_imperial_might
 		tradition_legalistic
 		tradition_poetry
-		tradition_hereditary_hierarchy
+		
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending

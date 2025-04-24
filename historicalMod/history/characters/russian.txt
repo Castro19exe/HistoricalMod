@@ -25,7 +25,7 @@
 	name = "Sviatoslav"	#Svyatoslav, son of Igor & St Olga
 	dynasty = 705
 	religion = "norse_pagan"
-	culture = "russian"
+	culture = polian
 	trait = education_martial_2
 	father = 600
 	mother = 601
@@ -43,7 +43,7 @@
 	name = "Yaropolk"	#Yaropolk I
 	dynasty = 705
 	religion = "norse_pagan"
-	culture = "russian"
+	culture = polian
 	father = 602
 	mother = 599
 	958.1.2 = {
@@ -57,7 +57,7 @@
 	name = "Oleg"
 	dynasty = 705
 	religion = "orthodox"
-	culture = "russian"
+	culture = polian
 	father = 602
 	mother = 599
 	959.1.2 = {
@@ -75,7 +75,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = "slavic_pagan"
-	culture = "russian"
+	culture = polian
 	trait = greedy
 	trait = zealous
 	trait = legitimized_bastard
@@ -12078,7 +12078,7 @@
 	name = Dmitriy
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	1045.6.20 = {
 		birth = 1045.6.20
 	}
@@ -12090,7 +12090,7 @@
 	name = Davyd
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	father = 302160
 	1071.2.14 = {
 		birth = 1071.2.14
@@ -12104,7 +12104,7 @@
 	female = yes
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	father = 302160
 	1072.11.13 = {
 		birth = 1072.11.13
@@ -12117,7 +12117,7 @@
 	name = Simeon
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	father = 302161
 	1101.10.23 = {
 		birth = 1101.10.23
@@ -12130,7 +12130,7 @@
 	name = Konstantin
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	father = 302163
 	1130.8.15 = {
 		birth = 1130.8.15
@@ -12144,7 +12144,7 @@
 	female = yes
 	dynasty = 2001031	#Drevlianin
 	religion = orthodox
-	culture = drevlian
+	culture = russian
 	father = 302163
 	1133.4.30 = {
 		birth = 1133.4.30
@@ -12710,7 +12710,7 @@
 	name = Ivan
 	dynasty = 1029117	#Dregovich
 	religion = orthodox
-	culture = dregovichian
+	culture = russian
 	1044.3.5 = {
 		birth = 1044.3.5
 	}

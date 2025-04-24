@@ -123,10 +123,12 @@ sicilian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_republican_legacy
-		tradition_xenophilic
-		tradition_ruling_caste
 		tradition_poetry
 		tradition_swords_for_hire
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending	
+		requires_dlc_flag = royal_court
 	}
 	
 	name_list = name_list_sicilian
@@ -198,4 +200,31 @@ venetian = {
 	ethnicities = {
 		10 = mediterranean
 	}
+}
+
+apulian = {
+	color = { 180 160 80 }
+
+	parents = { lombard }
+
+	created = 950.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
 }

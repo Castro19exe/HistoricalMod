@@ -38,7 +38,7 @@
 }
 
 gothic = {
-	color = { 0.47 0.47 0.27 }
+	color = { 0.85 0.85 0.12 }
 
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic 
@@ -47,6 +47,7 @@ gothic = {
 	traditions = {
 		tradition_hit_and_run
 		tradition_martial_admiration
+		tradition_stand_and_fight
 	}
 	
 	name_list = name_list_old_germanic
@@ -57,10 +58,10 @@ gothic = {
 	unit_gfx = { germanic_unit_gfx }
 	
 	ethnicities = {
-		35 = caucasian_blond
-		15 = caucasian_ginger
-		25 = caucasian_brown_hair
-		25 = caucasian_dark_hair
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
 	}
 }
 
@@ -98,13 +99,13 @@ ostrogothic = {
 }
 
 crimean_gothic = {
-	color = { 0.8 0.65 0.8 }
+	color = { 218 190 140 }
 	created = 600.1.1
-	parents = { greek ostrogothic }
+	parents = { ostrogothic }
 
 	ethos = ethos_stoic
-	heritage = heritage_byzantine					#either this or east germanic
-	language = language_east_germanic					
+	heritage = heritage_east_germanic
+	language = language_gothic					
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_isolationist
@@ -134,7 +135,7 @@ crimean_gothic = {
 }
 
 vandalic = {
-	color = { 0.47 0.47 0.27 }
+	color = { 0.88 0.85 0.18 }
 
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic 
@@ -162,7 +163,7 @@ vandalic = {
 }
 
 burgundian = {
-	color = { 137 112 131 }
+	color = { 0.78 0.635 0.039 }
 
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic 

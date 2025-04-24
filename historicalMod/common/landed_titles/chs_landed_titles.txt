@@ -49020,6 +49020,18 @@ e_spain = {
 					province = 1936
 
 					color = { 135 70 20 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_banu_razin #this name might be anachronistic in the 867 start, since the Banu Razin only controlled the territory from the 11th century.
+						name_list_baranis = cn_al_banu_razin
+						name_list_butr = cn_al_banu_razin
+						name_list_zaghawa = cn_al_banu_razin
+						name_list_levantine = cn_al_banu_razin
+						name_list_egyptian = cn_al_banu_razin
+						name_list_maghrebi = cn_al_banu_razin
+						name_list_andalusian = cn_al_banu_razin
+						name_list_yemeni = cn_al_banu_razin
+					}
 				}
 				b_sierradesanjust = { #Utrillas
 					province = 1943

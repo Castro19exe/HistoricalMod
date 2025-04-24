@@ -75,32 +75,3 @@ copt = {
 		2 = mediterranean
 	}
 }
-
-assyrian = {
-	#color = assyrian
-	color = { 0.4 0.49 0.63 }
-	
-	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_aramaic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_loyal_soldiers
-		tradition_philosopher_culture
-		tradition_caravaneers
-		tradition_ethnoreligious_identity
-	}
-	
-	name_list = name_list_assyrian
-
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
-	building_gfx = { byzantine_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 		
-
-	ethnicities = {
-		10 = arab
-	}
-}

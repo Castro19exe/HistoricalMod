@@ -161,7 +161,7 @@
 	name = "Jaromir"
 	dynasty = 2001015		#Lusici
 	religion = slavic_pagan
-	culture = polabian
+	culture = sorbian
 	839.1.1 = {
 		birth = 839.1.1
 	}

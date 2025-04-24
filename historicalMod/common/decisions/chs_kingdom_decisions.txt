@@ -222,7 +222,89 @@ create_serbian_empire_decision = {
 
 ############################################################## 
 
+unify_magna_germania_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	desc = unify_magna_germania_decision_desc
+	selection_tooltip = unify_magna_germania_decision_tooltip
+	decision_group_type = major
+	ai_goal = yes
 
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_playable_character = yes
+
+		AND = {
+			OR = {
+				has_title = title:e_germany
+				has_title = title:e_hre
+			}
+			OR = {
+				culture = { has_cultural_pillar = heritage_west_germanic }
+				culture = { has_cultural_pillar = heritage_central_germanic }
+				culture = { has_cultural_pillar = heritage_north_germanic }
+				culture = { has_cultural_pillar = heritage_north_sea_germanic }
+			}
+		}
+		
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_unify_magna_germania
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= max_prestige_level
+		is_independent_ruler = yes
+		completely_controls_region = custom_europe_magna_germany
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 250
+	}
+
+	effect = {
+		show_as_tooltip = {
+			unify_magna_germania_effect = yes
+		}
+
+		trigger_event = {
+			id = chs_major_decisions.0004
+		}
+
+		hidden_effect = {
+			#Declare flag
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_unify_magna_germania
+			}
+			set_global_variable = {
+				name = flag_unify_magna_germania
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
 
 ############################################################## 
 
@@ -233,6 +315,7 @@ create_gothic_kingdom_decision = {
 	desc = create_gothic_kingdom_decision_desc
 	selection_tooltip = create_gothic_kingdom_decision_tooltip
 	decision_group_type = major
+	ai_goal = yes
 
 	ai_check_interval = 120
 
@@ -241,6 +324,7 @@ create_gothic_kingdom_decision = {
 		is_playable_character = yes
         has_culture = culture:crimean_gothic
 		capital_province = { geographical_region = custom_gothia }
+		highest_held_title_tier < 4 #No Kings or Emperors.
 
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
@@ -252,11 +336,14 @@ create_gothic_kingdom_decision = {
 
 	is_valid = {
 		prestige_level >= 3
+		is_independent_ruler = yes
 		completely_controls = title:d_crimea
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = no
 		is_at_war = no
 	}
 

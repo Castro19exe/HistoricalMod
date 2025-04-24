@@ -172,6 +172,14 @@ castle_01 = {
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
 	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_castle_01_western_mesh"
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
 
     ### CHINA ###
 	asset = {
@@ -958,6 +966,14 @@ castle_02 = {
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
 	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_castle_02_western_mesh"
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
 
     ### CHINA ###
 	asset = {
@@ -1738,6 +1754,14 @@ castle_03 = {
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
 	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_castle_03_western_mesh"
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
 
     ### CHINA ###
 	asset = {
@@ -2509,6 +2533,14 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_castle_04_western_mesh"
+		illustration = @holding_illustration_mediterranean
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { mediterranean_building_gfx }
+		graphical_regions = { graphical_steppe }
 	}
 
     ### CHINA ###

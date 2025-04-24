@@ -403,7 +403,6 @@ e_pan_germany = {
 			depth=13.010000
 			rotation=342
 		}
-
 	}
 }
 
@@ -415,22 +414,22 @@ k_gothia = {
 	color3=red
 	colored_emblem={
 		color1=black
-		color2=brown
-		texture="ce_byzantine_double_eagle.dds"
+		color2=black
+		texture="ce_religion_christianity_orthodox.dds"
 		instance={
-			position={ 0.500000 0.470000 }
-			scale={ 0.550000 0.550000 }
-			depth=1.010000
+			position={ 0.500000 0.220000 }
+			scale={ 0.130000 0.130000 }
+			depth=3.010000
 		}
 	}
 
 	colored_emblem={
-		color1=yellow
-		color2=black
-		texture="ce_frame_circle_urnes_runes.dds"
+		color1=black
+		color2=brown
+		texture="ce_byzantine_double_eagle.dds"
 		instance={
-			position={ 0.500000 0.480000 }
-			scale={ 0.790000 0.790000 }
+			position={ 0.500000 0.510000 }
+			scale={ 0.650000 0.650000 }
 			depth=2.010000
 		}
 	}
@@ -442,7 +441,7 @@ k_gothia = {
 		instance={
 			position={ 0.500000 0.480000 }
 			scale={ 0.780000 0.780000 }
-			depth=3.010000
+			depth=4.010000
 		}
 	}
 
@@ -451,8 +450,14 @@ k_gothia = {
 		color2=yellow
 		texture="ce_crown.dds"
 		instance={
-			position={ 0.500000 0.090000 }
+			position={ 0.580000 0.260000 }
 			scale={ 0.090000 0.090000 }
+		}
+
+		instance={
+			position={ 0.420000 0.260000 }
+			scale={ 0.090000 0.090000 }
+			depth=1.010000
 		}
 	}
 }

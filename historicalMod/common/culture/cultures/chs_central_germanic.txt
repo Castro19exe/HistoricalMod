@@ -34,7 +34,7 @@ frankish = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_central_germanic
-	language = language_central_germanic
+	language = language_frankish						# language_central_germanic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture

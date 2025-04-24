@@ -55,7 +55,7 @@ daco_roman = {
 		tradition_imperial_might
 		tradition_legalistic
 		tradition_poetry
-		tradition_hereditary_hierarchy
+		
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending
@@ -104,6 +104,37 @@ dacian = {
 	}
 }
 
+illyrian_roman = {
+	color = { 0.8 0.23 0.2 }
+
+	parents = { illyrian roman }
+
+	created = 212.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_illyrian_vulgar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_mountain_homes
+		tradition_noble_adoption
+	}
+	
+	name_list = name_list_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { roman_unit_gfx } 
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
 illyrian = {
 	color = { 0.35 0.35 0.75 }
 	
@@ -112,9 +143,13 @@ illyrian = {
 	language = language_illyrian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_pastoralists						#delmatae literally means sheep shephards 
-		tradition_seafaring							#a notorious seafaring people 
-		tradition_martial_admiration				#martial people
+		tradition_mountain_homes
+		tradition_seafaring
+		tradition_martial_admiration
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_illyrian
@@ -131,8 +166,8 @@ illyrian = {
 
 dalmatian = {
 	color = { 0.75 0.75 0.65 }
-	created = 212.1.1
-	parents = { roman illyrian }
+	created = 650.1.1
+	parents = { illyrian_roman }
 	
 	ethos = ethos_communal
 	heritage = heritage_latin
@@ -410,13 +445,13 @@ bulgarian = {
 }
 
 albanian = {
-	color = { 0.5 0.3 0.7 }
-	created = 600.1.1							
-	parents = { greek illyrian }
+	color = { 213 79 45 }
+	created = 700.1.1							
+	parents = { illyrian }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_illyrian
+	heritage = heritage_illyrian
+	language = language_albanian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_swords_for_hire
@@ -431,10 +466,10 @@ albanian = {
 	
 	name_list = name_list_arberian
 	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
+	unit_gfx = { south_slavic_unit_gfx }
 
 	
 	ethnicities = {

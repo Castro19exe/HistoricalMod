@@ -1,7 +1,7 @@
 ﻿l_english:
- albanian:0 "Arberian"
- albanian_prefix:0 "Arbero"
- albanian_collective_noun:0 "Arberians"
+ albanian:0 "Albanian"
+ albanian_prefix:0 "Albano"
+ albanian_collective_noun:0 "Albanians"
  briton:0 "Briton"
  briton_prefix:0 "Britono"
  briton_collective_noun:0 "Britons"
@@ -38,9 +38,15 @@
  illyrian:0 "Illyrian"
  illyrian_prefix:0 "Illyro"
  illyrian_collective_noun:0 "Illyrians"
+ illyrian_roman:0 "Illyro-Roman"
+ illyrian_roman_prefix:0 "Illyro-Romano"
+ illyrian_roman_collective_noun:0 "Illyro-Romans"
  dalmatian:0 "Dalmatian"
  dalmatian_prefix:0 "Dalmatio"
  dalmatian_collective_noun:0 "Dalmatians"
+ apulian:0 "Apulian"
+ apulian_prefix:0 "Apulo"
+ apulian_collective_noun:0 "Apulians"
  angle:0 "Angle"
  angle_prefix:0 "Anglo"
  angle_collective_noun:0 "Angles"
@@ -122,11 +128,3 @@
  azmeri:0 "Azmeri"
  azmeri_prefix:0 "Azmero"
  azmeri_collective_noun:0 "Azmeris"
-
-
-
-
-
- test_culture:0 "Test Culture"
- test_culture_prefix:0 "Test Culture"
- test_culture_collective_noun:0 "Test Cultures"

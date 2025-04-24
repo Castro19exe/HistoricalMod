@@ -31,7 +31,7 @@ hungarian = {
 	parents = { mogyer }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_ugro_permian									# Or heritage_magyar
+	heritage = heritage_magyar									# Or heritage_ugro_permian
 	language = language_magyar
 	martial_custom = martial_custom_male_only
 	traditions = {
