@@ -494,12 +494,8 @@ city_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		names = { 
-			#"berber_city_01_a_mesh"
-			#"berber_city_01_b_mesh"
-			#"berber_city_01_c_mesh"
-			"punic_city_01_a_mesh"
-			"punic_city_01_b_mesh"
+		names = {
+			"building_mena_city_01_mesh"
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
@@ -1381,12 +1377,8 @@ city_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		names = { 
-			#"berber_city_01_a_mesh"
-			#"berber_city_01_b_mesh"
-			#"berber_city_01_c_mesh"
-			"punic_city_01_a_mesh"
-			"punic_city_01_b_mesh"
+		names = {
+			"building_mena_city_01_mesh"
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
@@ -2227,9 +2219,8 @@ city_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		names = { 
-			"punic_city_02_a_mesh"
-			"punic_city_02_b_mesh"
+		names = {
+			"building_mena_city_02_mesh"
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
@@ -3063,9 +3054,8 @@ city_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		names = { 
-			"punic_city_02_a_mesh"
-			"punic_city_02_b_mesh"
+		names = {
+			"building_mena_city_02_mesh"
 		}
 		illustration = @holding_illustration_berber
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }

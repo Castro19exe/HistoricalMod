@@ -81,7 +81,6 @@ l_english:
  custom_lotharingia:0 "Lotharingia"
  custom_bavaria:0 "Bavaria"
  custom_germany:0 "Germany"
- custom_europe_magna_germany:0 "Germanic Lands" #
  custom_northern_italy:0 "Northern Italy"
  custom_navarra:0 "Navarra"
  custom_sicily:0 "Sicily"
@@ -92,9 +91,10 @@ l_english:
  custom_carpathia:0 "Carpathia"
  custom_europe_western_germany:0 "Western Germany"
  custom_europe_eastern_germany:0 "Eastern Germany"
+ custom_magna_germany:0 "Germanic Lands"
  custom_northern_england:0 "Northern England"
  custom_southern_england:0 "Southern England"
- custom_slavia:0 "Slaviaaaaaaa" #
+ custom_slavia:0 "Slavia"
  custom_west_slavia:0 "West Slavia"
  custom_south_slavia:0 "South Slavia"
  custom_greater_armenia:0 "the former Armenian Empire"
@@ -164,3 +164,9 @@ l_english:
  sea_inland_steppe_seas:0 "the Aral-Caspian Seas"
  sea_caspian_sea:0 "the Caspian Sea"
  sea_aral_sea:0 "the Aral Sea"
+
+ #EP3
+ custom_theodosian_ere: "Theodosian Eastern Empire"
+
+ #MOD
+ 

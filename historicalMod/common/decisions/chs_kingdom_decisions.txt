@@ -259,9 +259,8 @@ unify_magna_germania_decision = {
 	}
 
 	is_valid = {
-		prestige_level >= max_prestige_level
-		is_independent_ruler = yes
-		completely_controls_region = custom_europe_magna_germany
+		prestige_level >= 4
+		completely_controls_region = custom_magna_germany
 	}
 
 	is_valid_showing_failures_only = {
@@ -315,9 +314,8 @@ create_gothic_kingdom_decision = {
 	desc = create_gothic_kingdom_decision_desc
 	selection_tooltip = create_gothic_kingdom_decision_tooltip
 	decision_group_type = major
-	ai_goal = yes
 
-	ai_check_interval = 120
+	ai_check_interval = 60
 
 	is_shown = {
 		is_ruler = yes

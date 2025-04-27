@@ -1,4 +1,4 @@
-e_pan_germany_norse = {
+e_magna_germany_norse = {
 	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=red

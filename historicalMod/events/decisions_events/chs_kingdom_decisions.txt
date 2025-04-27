@@ -105,7 +105,7 @@ chs_major_decisions.0004 = {
 	immediate = {
 		play_music_cue = "mx_cue_epic_sacral_moment"
 		save_scope_as = scoped_emperor
-		create_serbian_empire_effect = yes
+		unify_magna_germania_effect = yes
 	}
 
 	option = {

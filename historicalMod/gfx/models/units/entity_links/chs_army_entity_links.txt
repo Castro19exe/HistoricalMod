@@ -797,13 +797,6 @@ fp3_army_03 = {
 
 
 ### - NOT HISTORICALLY (start) ###
-# Azmeri 
-azmeri_army_01 = {
-	type = army
-	graphical_cultures = { azmeri_unit_gfx }
-	entity = unit_azmeri_infantry_02_entity
-}
-
 # Nord
 nord_army_01 = {
 	type = army
@@ -825,10 +818,17 @@ nord_army_05 = {
 	entity = unit_nord_infantry_03_entity
 }
 
+# Azmeri 
+azmeri_army_01 = {
+	type = army
+	graphical_cultures = { azmeri_unit_gfx }
+	entity = unit_azmeri_infantry_02_entity
+}
+
 # Tests
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_eastern_infantry_03_entity
+	entity = unit_berber_infantry_03_entity
 }
 ### - NOT HISTORICALLY (end) ###

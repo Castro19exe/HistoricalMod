@@ -1353,13 +1353,13 @@ custom_europe_eastern_germany = {
 		d_bohemia d_moravia
 	}
 }
-custom_europe_magna_germany = {
+custom_magna_germany = {
 	regions = {
 		custom_europe_western_germany custom_europe_eastern_germany custom_netherlands
 	}
 	duchies = {
 		#k_norway
-		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_iceland d_northern_isles d_jamtland
+		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_jamtland
 		#k_denmark
 		d_skane d_sjaelland d_jylland d_slesvig
 		#k_sweden
