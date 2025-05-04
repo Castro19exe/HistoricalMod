@@ -142,7 +142,7 @@
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
-	1098.1.1 = { culture = apulian }
+	1098.1.1 = { culture = sicilian }
 }
 2669 = {	#ALIFE
 	holding = none
@@ -171,7 +171,7 @@
 		religion = orthodox
 	}
 	1066.1.1 = {
-		culture = apulian
+		culture = sicilian
 		religion = catholic
 	}
 }
@@ -188,7 +188,7 @@
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
-	1098.1.1 = { culture = apulian }
+	1098.1.1 = { culture = sicilian }
 }
 2593 = {	#GAETA
 	holding = city_holding
@@ -217,7 +217,7 @@
 		}
 	}
 	1139.4.1 = {
-		culture = apulian
+		culture = sicilian
 		religion = catholic
 	}
 }
@@ -245,7 +245,7 @@
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
-	1057.1.1 = { culture = apulian }
+	1057.1.1 = { culture = sicilian }
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -269,7 +269,7 @@
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
-	1057.1.1 = { culture = apulian }
+	1057.1.1 = { culture = sicilian }
 }
 2624 = {	#MATERA
 	holding = church_holding
@@ -330,7 +330,7 @@
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
-	1091.1.1 = { culture = apulian	}
+	1091.1.1 = { culture = sicilian	}
 }
 2632 = {	#STIGLIANO
 	holding = none

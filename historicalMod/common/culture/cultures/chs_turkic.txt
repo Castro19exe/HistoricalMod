@@ -5,22 +5,33 @@
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
 		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
 
 	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { oghuz_unit_gfx  }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { oghuz_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = turkic
 	}
 }
 
@@ -31,15 +42,23 @@ cuman = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_warrior_culture
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_swords_for_hire
+		tradition_pastoralists
+		tradition_eye_for_an_eye
 	}
+
+	#dlc_tradition = {
+	#	trait = tradition_malleable_invaders
+	#	requires_dlc_flag = hybridize_culture
+	#}
 	
 	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 	
 	name_list = name_list_cuman
@@ -50,7 +69,8 @@ cuman = {
 	unit_gfx = { cuman_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		7 = turkic
+		3 = turkic_west
 	}
 }
 
@@ -63,11 +83,23 @@ turkmen = {
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_by_the_sword
-		tradition_horse_lords
+		#tradition_horse_lords
 		tradition_hunters
 		tradition_ruling_caste
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
 	}
 
 	name_list = name_list_turkish
@@ -78,6 +110,7 @@ turkmen = {
 	unit_gfx = { oghuz_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		3 = turkic
+		7 = turkic_west
 	}
 }

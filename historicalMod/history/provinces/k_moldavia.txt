@@ -131,15 +131,15 @@
 	culture = tiverian
 	religion = slavic_pagan
 	holding = tribal_holding
-	935.1.1 = {
-		holding = castle_holding
-	}
-	1000.1.1 = {
-		culture = russian
-		religion = orthodox
+	1066.1.1 = {
+		culture = pecheneg
+		religion = tengri_pagan
+		holding = nomad_holding
 	}
 	1178.1.1 = {
+		holding = castle_holding
 		culture = vlach
+		religion = orthodox
 	}
 }
 5020 = {	#Tuzara
@@ -151,15 +151,25 @@
 	culture = tiverian
 	religion = slavic_pagan
 	holding = tribal_holding
+	870.1.1 = {
+		culture = mogyer
+		religion = magyar_pagan
+		holding = nomad_holding
+	}
 	935.1.1 = {
 		holding = castle_holding
-	}
-	1000.1.1 = {
 		culture = russian
-		religion = orthodox
+		religion = slavic_pagan
+	}
+	1066.1.1 = {
+		culture = pecheneg
+		religion = tengri_pagan
+		holding = nomad_holding
 	}
 	1178.1.1 = {
+		holding = castle_holding
 		culture = vlach
+		religion = orthodox
 	}
 }
 5022 = {	#Balti
@@ -254,11 +264,15 @@
 	culture = vlach
 	religion = orthodox
 	holding = tribal_holding
-	935.1.1 = {
-		holding = castle_holding
+	1066.1.1 = {
+		culture = pecheneg
+		religion = tengri_pagan
+		holding = nomad_holding # pecheneg rule
 	}
-	1000.1.1 = {
+	1178.1.1 = {
+		culture = vlach
 		religion = orthodox
+		holding = castle_holding
 	}
 }
 5011 = {	#Tighina

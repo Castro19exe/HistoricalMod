@@ -18,6 +18,12 @@ walls_00 = {
 			# Using the no_wall holding graphics for cities with special walls so that they don't have double walls
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
+			has_building_or_higher = "kano_walls_01"
+			has_building_or_higher = "jaisalmer_fort_01"
+			# Herders shouldn't have walls
+			scope:holder = {
+				government_has_flag = government_is_herder
+			}
 		}
 	}
 }
@@ -52,20 +58,32 @@ walls_01_tribal = {
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
 		}
+		# Nomads use custom walls
+		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
 	}
 }
 
 # Here the Fort Level building chains take control of the visuals
 walls_01 = {
 	is_graphical_background = yes
-
 	asset = {
 		type = pdxmesh
-		names = { "brythonic_wall_01_mesh" }
-		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
+		names = { 
+			"western_walls_01_a_mesh" 
+			"western_walls_01_b_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx east_slavic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_steppe }
 	}
-
+	asset = {
+		type = pdxmesh
+		names = { 
+			"mena_walls_01_a_mesh" 
+			"mena_walls_01_b_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx east_slavic_building_gfx }
+		graphical_regions = { graphical_mena graphical_india }
+	}
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
@@ -75,7 +93,6 @@ walls_01 = {
 			"fp1_norse_walls_01_mesh"
 		}
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_northern_lords
@@ -85,7 +102,6 @@ walls_01 = {
 			"fp1_norse_walls_01_mena_mesh"
 		}
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = the_fate_of_iberia
@@ -95,7 +111,6 @@ walls_01 = {
 			"fp2_building_iberian_wall_01_mesh"
 		}
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
@@ -105,35 +120,34 @@ walls_01 = {
 			"fp3_building_persian_walls_01_a_01_mesh" 
 		}
 	}
-
 	asset = {
 		type = pdxmesh
-		names = { "western_walls_01_a_mesh" "western_walls_01_b_mesh" }
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx east_slavic_building_gfx }
-		graphical_regions = { graphical_western graphical_mediterranean graphical_steppe }
+		names = { "brythonic_wall_01_mesh" }
+		graphical_cultures = { celtic_building_gfx }
+		graphical_regions = { graphical_western }
 	}
-
-	asset = {
-		type = pdxmesh
-		names = { "mena_walls_01_a_mesh" "mena_walls_01_b_mesh" }
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx east_slavic_building_gfx }
-		graphical_regions = { graphical_mena graphical_india }
-	}
-
 	asset = {
 		type = pdxmesh
 		name = "chinese_walls_01_mesh"
 		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
 	}
-
 	asset = {
 		type = pdxmesh
 		names = { "ethiopian_walls_01_mesh" }
 		graphical_cultures = { ethiopian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
-
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = khans_of_the_steppe
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+		governments = { nomad_government }
+		names = {
+			"mpo_mongol_wall_01_mesh"
+		}
+	}
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
@@ -151,7 +165,6 @@ walls_01 = {
 			"fp3_building_persian_walls_01_a_01_mesh" 
 		}
 	}
-
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { byzantine_building_gfx }
@@ -161,7 +174,6 @@ walls_01 = {
 			"western_walls_01_b_mesh"
 		}
 	}
-
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { guinean_building_gfx }
@@ -170,7 +182,7 @@ walls_01 = {
 			"guinean_walls_01_mesh"
 		}
 	}
-	
+
 	is_enabled = {
 		OR = {
 			# These buildings will trigger the visual "upgrade" to this wall asset
@@ -179,6 +191,10 @@ walls_01 = {
 			has_building_or_higher = "hill_forts_01"
 			has_building_or_higher = "ramparts_01"
 			has_building_or_higher = "watchtowers_01"
+			scope:holder = {
+				government_has_flag = government_is_nomadic
+				root = { fort_level = 1 }
+			}
 		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -202,16 +218,22 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "walls_02_celtic_mesh"
-		graphical_cultures = { celtic_building_gfx }
-		graphical_regions = { graphical_western }
+		names = {
+			"western_walls_02_a_mesh"
+			"western_walls_02_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_steppe }
 	}
-	
+
 	asset = {
 		type = pdxmesh
-		name = "walls_02_sahelian_mesh"
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
+		names = {
+			"mena_walls_02_a_mesh"
+			"mena_walls_02_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_mena graphical_india }
 	}
 
 	asset = {
@@ -256,16 +278,16 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "western_walls_02_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_western graphical_mediterranean graphical_steppe }
+		name = "walls_02_celtic_mesh"
+		graphical_cultures = { celtic_building_gfx }
+		graphical_regions = { graphical_western }
 	}
-
+	
 	asset = {
 		type = pdxmesh
-		name = "mena_walls_02_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx eastern_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_mena graphical_india }
+		name = "walls_02_sahelian_mesh"
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	asset = {
@@ -310,10 +332,22 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = roads_to_power
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
 			"ep3_byzantine_walls_02_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = khans_of_the_steppe
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+		governments = { nomad_government }
+		names = {
+			"mpo_mongol_wall_02_mesh"
 		}
 	}
 
@@ -334,6 +368,10 @@ walls_02 = {
 			has_building_or_higher = "hill_forts_02"
 			has_building_or_higher = "ramparts_02"
 			has_building_or_higher = "watchtowers_02"
+			scope:holder = {
+				government_has_flag = government_is_nomadic
+				root = { fort_level = 2 }
+			}
 		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -353,6 +391,46 @@ walls_02 = {
 
 walls_03 = {
 	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_walls_03_a_mesh"
+			"western_walls_03_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"mediterranean_walls_03_a_mesh"
+			"mediterranean_walls_03_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"india_walls_03_a_mesh"
+			"india_walls_03_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"mena_walls_03_a_mesh"
+			"mena_walls_03_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -390,34 +468,6 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "western_walls_03_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx northern_building_gfx }
-		graphical_regions = { graphical_western graphical_steppe }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "mediterranean_walls_03_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "india_walls_03_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "mena_walls_03_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	asset = {
-		type = pdxmesh
 		name = "chinese_walls_03_mesh"
 		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -441,6 +491,16 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = khans_of_the_steppe
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+		governments = { nomad_government }
+		names = {
+			"mpo_mongol_wall_03_mesh"
+		}
+	}
+	asset = {
+		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western }
 		names = {
@@ -458,6 +518,7 @@ walls_03 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = roads_to_power
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
@@ -504,6 +565,10 @@ walls_03 = {
 			has_building_or_higher = "walls_of_benin_01"
 			has_building_or_higher = "walls_of_genoa_01"
 			has_building_or_higher = "aurelian_walls_01"
+			scope:holder = {
+				government_has_flag = government_is_nomadic
+				root = { fort_level = 3 }
+			}
 		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -520,6 +585,40 @@ walls_03 = {
 
 walls_04 = {
 	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_walls_04_a_mesh"
+			"western_walls_04_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx northern_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe }
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "india_walls_04_a_mesh"
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"mediterranean_walls_04_a_mesh"
+			"mediterranean_walls_04_a_mesh"
+		}
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "mena_walls_04_a_mesh"
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
+		graphical_regions = { graphical_mena graphical_india }
+	}
 
 	asset = {
 		type = pdxmesh
@@ -557,34 +656,6 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "western_walls_04_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx northern_building_gfx }
-		graphical_regions = { graphical_western graphical_steppe }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "india_walls_04_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "mediterranean_walls_04_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "mena_walls_04_a_mesh"
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx norse_building_gfx iberian_building_gfx iranian_building_gfx berber_group_building_gfx }
-		graphical_regions = { graphical_mena graphical_india }
-	}
-
-	asset = {
-		type = pdxmesh
 		name = "chinese_walls_04_mesh"
 		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -608,6 +679,16 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = khans_of_the_steppe
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+		governments = { nomad_government }
+		names = {
+			"mpo_mongol_wall_04_mesh"
+		}
+	}
+	asset = {
+		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western }
 		names = {
@@ -625,6 +706,7 @@ walls_04 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = roads_to_power
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
@@ -669,6 +751,10 @@ walls_04 = {
 			has_building_or_higher = "ramparts_06"
 			has_building_or_higher = "watchtowers_06"
 			has_building_or_higher = "theodosian_walls_01"
+			scope:holder = {
+				government_has_flag = government_is_nomadic
+				root = { fort_level >= 4 }
+			}
 		}
 	}
 }

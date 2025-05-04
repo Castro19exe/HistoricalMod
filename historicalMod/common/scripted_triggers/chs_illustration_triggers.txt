@@ -9,7 +9,10 @@
 }
 
 has_graphical_mena_culture_group_trigger = {
-	has_building_gfx = mena_building_gfx
+	OR = {
+		has_building_gfx = mena_building_gfx
+		has_building_gfx = berber_group_building_gfx
+	}
 }
 
 has_graphical_india_culture_group_trigger = {
@@ -26,14 +29,17 @@ has_graphical_mediterranean_culture_group_trigger = {
 has_graphical_western_culture_group_trigger = {
 	OR = {
 		has_building_gfx = western_building_gfx
-		has_building_gfx = azmeri_building_gfx
 	}
 }
 
 has_graphical_eastern_culture_group_trigger = {
-	OR = {
-		has_building_gfx = eastern_building_gfx
-		has_building_gfx = east_slavic_building_gfx
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_west_slavic
+			has_cultural_pillar = heritage_east_slavic
+			has_cultural_pillar = heritage_vlach
+			has_cultural_pillar = heritage_magyar
+		}
 	}
 }
 
@@ -45,11 +51,25 @@ has_graphical_norse_culture_group_trigger = {
 	has_building_gfx = norse_building_gfx
 }
 
-has_graphical_african_culture_group_trigger = {
-	OR = {
-		has_building_gfx = african_building_gfx
-		has_building_gfx = sahelian_building_gfx
-		has_building_gfx = ethiopian_building_gfx
+has_graphical_west_african_culture_group_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_west_african
+			has_cultural_pillar = heritage_sahelian
+			has_cultural_pillar = heritage_akan
+			has_cultural_pillar = heritage_yoruba
+			has_cultural_pillar = heritage_senegambian
+		}
+	}
+}
+
+has_graphical_east_african_culture_group_trigger = {
+	NOT = { faith.religion = religion:islam_religion }
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_east_african
+			has_cultural_pillar = heritage_somalian
+		}
 	}
 }
 

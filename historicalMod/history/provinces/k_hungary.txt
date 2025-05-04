@@ -18,7 +18,7 @@
 	}
 }
 522 = {		#Pest
-	holding = none
+	holding = church_holding
 	
 	1148.1.1 = {
 		holding = city_holding

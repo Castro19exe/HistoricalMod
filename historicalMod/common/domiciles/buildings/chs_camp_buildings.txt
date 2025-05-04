@@ -53,7 +53,7 @@ camp_main_01 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
+					has_graphical_west_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -88,6 +88,7 @@ camp_main_01 = {
 					has_graphical_iberian_culture_group_trigger = yes
 					has_graphical_mediterranean_culture_group_trigger = yes
 					has_graphical_eastern_culture_group_trigger = yes
+					has_graphical_west_african_culture_group_trigger = yes
 				}
 			}
 		}

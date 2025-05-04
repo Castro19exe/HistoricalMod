@@ -93,6 +93,15 @@
 				}
 				multiply = 0.25
 			}
+			else_if = {
+				limit = {
+					NOT = {
+						government_has_flag = government_is_nomadic
+					}
+					has_trait = nomadic_philosophy
+				}
+				multiply = 0.25
+			}
 			# Account for struggle phase.
 			if = {
 				limit = { is_struggle_parameter_active_cheaper_to_convert_to_struggle_culture_trigger = yes }
@@ -466,7 +475,6 @@ assimilate_local_traditions_decision = {
 		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
 	}
 	sort_order = 75
-	decision_group_type = courtier
 
 	desc = assimilate_local_traditions_decision_desc
 	selection_tooltip = assimilate_local_traditions_decision_tooltip

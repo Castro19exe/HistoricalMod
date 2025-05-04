@@ -371,9 +371,9 @@ texticon = {
 }
 
 texticon = {
-	icon = retinue_horse_archer_icon
+	icon = horse_archer_icon
 	iconsize = {
-		texture = "gfx/interface/icons/regimenttypes/retinue_horse_archer.dds"
+		texture = "gfx/interface/icons/regimenttypes/horse_archer.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16

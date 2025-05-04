@@ -1,0 +1,12 @@
+﻿l_english:
+  adding_building_slot_interaction:0 "Expand holding"
+  adding_building_slot_interaction_desc:0 "#F Expand it allowing construction of more buildings. #!"
+  adding_building_slot_interaction_mil:0 "Expand!"
+  adding_building_slot_interaction_notification:0 "Expanded holding"
+  adding_building_slot_interaction_tt_a:0 "For 2nd slot, you need more than 30 development.\n For 3rd, more than 60. \n For 4th and more, more than 80."
+
+  6_slots_without_special_under_30:0 "Holding need to be more developed to be expanded."
+  7_slots_without_special_under_60:0 "Holding need to be more developed to be expanded."
+  5_slots_with_special_under_30:0 "Holding need to be more developed to be expanded."
+  6_slots_with_special_under_60:0 "Holding need to be more developed to be expanded."
+  just_not_enought_space_for_slots:0 "This holding stretch far and wide, there is little more space to expand its."

@@ -168,7 +168,7 @@
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {
-		culture = apulian
+		culture = sicilian
 	}
 }
 2603 = {	#CLUIELI
