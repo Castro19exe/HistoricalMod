@@ -850,7 +850,7 @@ shomer = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = skirmishers
+	icon = shomer
 }
 
 garudas = {
@@ -961,7 +961,7 @@ mountaineer = {
 	
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = heavy_infantry
+	icon = mountaineer
 }
 
 sahel_horsemen = {
@@ -1226,5 +1226,5 @@ guanch_vaulter = {
 	
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
-	icon = skirmishers
+	icon = guanch_vaulter
 }

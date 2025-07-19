@@ -44,10 +44,10 @@ pdxmesh = {
 	}	
 
 	meshsettings = {
-		name = "unit_hre_infantry_helmet_03"
-		texture_diffuse = "unit_english_infantry_03_diffuse.dds"
-		texture_normal = "unit_english_infantry_03_normal.dds"
-		texture_specular = "unit_english_infantry_03_properties.dds"
+		name = "unit_infantry_helmet_03"
+		texture_diffuse = "acg_helmet_english_03_diffuse.dds"
+		texture_normal = "acg_helmet_english_03_normal.dds"
+		texture_specular = "acg_helmet_english_03_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}	

@@ -44,22 +44,38 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_cuman_infantry_03_armor_diffuse.dds"
-		texture_normal = "unit_cuman_infantry_03_armor_normal.dds"
-		texture_specular = "unit_cuman_infantry_03_armor_properties.dds"
+		name = "curman_t3_helm"
+		texture_diffuse = "acg_cuman_helmet_03_512_diffuse.dds"
+		texture_normal = "acg_cuman_helmet_03_512_normal.dds"
+		texture_specular = "acg_cuman_helmet_03_512_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
-		texture_diffuse = "unit_cuman_infantry_03_diffuse.dds"
-		texture_normal = "unit_cuman_infantry_03_normal.dds"
-		texture_specular = "unit_cuman_infantry_03_properties.dds"
+		name = "cuman_t3_schwertschaft"
+		texture_diffuse = "acg_cuman_schwertschaft_03_diffuse.dds"
+		texture_normal = "acg_cuman_schwertschaft_03_normal.dds"
+		texture_specular = "acg_cuman_schwertschaft_03_properties.dds"
 		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "cuman_t3_armor"
+		texture_diffuse = "acg_cuman_armor_03_diffuse.dds"
+		texture_normal = "acg_cuman_armor_03_normal.dds"
+		texture_specular = "acg_cuman_armor_03_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_turko_mongol_infantry_03_hands"
+		texture_diffuse = "basic_unit_turko_mongol_diffuse.dds"
+		texture_normal = "basic_unit_turko_mongol_normal.dds"
+		texture_specular = "basic_unit_turko_mongol_properties.dds"
+		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }

@@ -37,7 +37,9 @@ camp_main_01 = {
 			owner.culture = {
 				OR = {
 					has_graphical_western_culture_group_trigger = yes
+					has_graphical_eastern_culture_group_trigger = yes
 					has_graphical_northern_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
 				}
 			}
 		}
@@ -54,6 +56,7 @@ camp_main_01 = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
 					has_graphical_west_african_culture_group_trigger = yes
+					has_graphical_east_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -86,9 +89,6 @@ camp_main_01 = {
 					has_graphical_mena_culture_group_trigger = yes
 					has_graphical_iranian_culture_group_trigger = yes
 					has_graphical_iberian_culture_group_trigger = yes
-					has_graphical_mediterranean_culture_group_trigger = yes
-					has_graphical_eastern_culture_group_trigger = yes
-					has_graphical_west_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -141,7 +141,9 @@ camp_main_02 = {
 			owner.culture = {
 				OR = {
 					has_graphical_western_culture_group_trigger = yes
+					has_graphical_eastern_culture_group_trigger = yes
 					has_graphical_northern_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
 				}
 			}
 		}
@@ -157,7 +159,8 @@ camp_main_02 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
+					has_graphical_west_african_culture_group_trigger = yes
+					has_graphical_east_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -190,8 +193,6 @@ camp_main_02 = {
 					has_graphical_mena_culture_group_trigger = yes
 					has_graphical_iranian_culture_group_trigger = yes
 					has_graphical_iberian_culture_group_trigger = yes
-					has_graphical_mediterranean_culture_group_trigger = yes
-					has_graphical_eastern_culture_group_trigger = yes
 				}
 			}
 		}
@@ -245,7 +246,9 @@ camp_main_03 = {
 			owner.culture = {
 				OR = {
 					has_graphical_western_culture_group_trigger = yes
+					has_graphical_eastern_culture_group_trigger = yes
 					has_graphical_northern_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
 				}
 			}
 		}
@@ -261,7 +264,8 @@ camp_main_03 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
+					has_graphical_west_african_culture_group_trigger = yes
+					has_graphical_east_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -294,8 +298,6 @@ camp_main_03 = {
 					has_graphical_mena_culture_group_trigger = yes
 					has_graphical_iranian_culture_group_trigger = yes
 					has_graphical_iberian_culture_group_trigger = yes
-					has_graphical_mediterranean_culture_group_trigger = yes
-					has_graphical_eastern_culture_group_trigger = yes
 				}
 			}
 		}
@@ -350,7 +352,9 @@ camp_main_04 = {
 			owner.culture = {
 				OR = {
 					has_graphical_western_culture_group_trigger = yes
+					has_graphical_eastern_culture_group_trigger = yes
 					has_graphical_northern_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
 				}
 			}
 		}
@@ -366,7 +370,8 @@ camp_main_04 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_african_culture_group_trigger = yes
+					has_graphical_west_african_culture_group_trigger = yes
+					has_graphical_east_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -399,8 +404,6 @@ camp_main_04 = {
 					has_graphical_mena_culture_group_trigger = yes
 					has_graphical_iranian_culture_group_trigger = yes
 					has_graphical_iberian_culture_group_trigger = yes
-					has_graphical_mediterranean_culture_group_trigger = yes
-					has_graphical_eastern_culture_group_trigger = yes
 				}
 			}
 		}
@@ -2291,10 +2294,6 @@ baggage_train_pleasure_tents = { # Pleasure Tents
 		monthly_intrigue_lifestyle_xp_gain_mult = 0.25
 		fertility = 0.2
 	}
-
-	parameters = {
-		camp_pleasure_tent_recruitment_events = yes
-	}
 	
 	ai_value = {
 		value = camp_building_ai_base_t1
@@ -3768,7 +3767,15 @@ proving_grounds_life_in_the_saddle = { # Life in the Saddle
 	}
 
 	can_construct = {
-		culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		custom_tooltip = {
+			text = proving_grounds_life_in_the_saddle_horse_archers_tt
+			any_maa_regiment = {
+				OR = {
+					is_maa_type = horse_archers
+					is_maa_type = heavy_horse_archers
+				}
+			}
+		}
 	}
 
 	character_modifier = {

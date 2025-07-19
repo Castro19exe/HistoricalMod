@@ -4901,8 +4901,6 @@ e_germany = {
 					color = { 172 112 112 }
 
 					cultural_names = {
-						name_list_sorbian = "Starigrad"
-
 						name_list_swabian = "Oldenburg"
 						name_list_franconian = "Oldenburg"
 						name_list_bavarian = "Oldenburg"
@@ -4911,6 +4909,8 @@ e_germany = {
 
 						name_list_norse = "Brandehuse"
 						name_list_danish = "Olenborg"
+						name_list_swedish = "Olenborg"
+						name_list_norwegian = "Olenborg"
 					}
 				}
 				b_kiel = {

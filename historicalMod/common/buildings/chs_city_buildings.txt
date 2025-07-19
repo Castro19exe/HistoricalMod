@@ -16,6 +16,9 @@
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/city_tibetan.dds"
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/city_berber.dds"
 @holding_illustration_african = "gfx/interface/illustrations/holding_types/city_african.dds"
+@holding_illustration_eastern = "gfx/interface/illustrations/holding_types/city_eastern.dds"
+
+@holding_illustration_mediterranean_indian = "gfx/interface/illustrations/holding_types/city_mediterranean_india.dds"
 
 city_01 = {
 	construction_time = slow_construction_time
@@ -179,7 +182,7 @@ city_01 = {
 		names = {
 			"building_mediterranean_city_01_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mediterranean_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -385,7 +388,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 	}
@@ -394,7 +397,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -404,7 +407,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_india }
@@ -414,7 +417,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -424,7 +427,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -1062,7 +1065,7 @@ city_02 = {
 		names = {
 			"building_mediterranean_city_01_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mediterranean_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -1268,7 +1271,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { eastern_building_gfx }
 	}
@@ -1277,7 +1280,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -1287,7 +1290,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1297,7 +1300,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -1307,7 +1310,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -1908,7 +1911,7 @@ city_03 = {
 		names = {
 			"building_mediterranean_city_02_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -2110,7 +2113,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 	}
@@ -2119,7 +2122,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -2129,7 +2132,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2139,7 +2142,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -2149,7 +2152,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -2743,7 +2746,7 @@ city_04 = {
 		names = {
 			"building_mediterranean_city_02_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -2945,7 +2948,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 	}
@@ -2954,7 +2957,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -2964,7 +2967,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2974,7 +2977,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -2984,7 +2987,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_western
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_steppe }

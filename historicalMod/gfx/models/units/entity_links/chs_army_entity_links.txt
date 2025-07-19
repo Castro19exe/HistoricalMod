@@ -5,13 +5,11 @@ fallback_army_01 = {
 	type = army
 	entity = unit_western_infantry_01_entity
 }
-
 fallback_army_02 = {
 	type = army
 	entity = unit_western_infantry_02_entity
 	quality_fallback = @tier2_quality
 }
-
 fallback_army_03 = {
 	type = army
 	entity = unit_western_infantry_03_entity
@@ -24,14 +22,12 @@ western_army_01 = {
 	graphical_cultures = { western_unit_gfx }
 	entity = unit_western_infantry_01_entity
 }
-
 western_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { western_unit_gfx }
 	entity = unit_western_infantry_02_entity
 }
-
 western_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -45,14 +41,12 @@ hre_army_01 = {
 	graphical_cultures = { hre_unit_gfx }
 	entity = unit_western_infantry_01_entity
 }
-
 hre_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { hre_unit_gfx }
 	entity = unit_western_infantry_02_entity
 }
-
 hre_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -67,14 +61,12 @@ anglo_saxon_army_01 = {
 	graphical_cultures = { anglo_saxon_unit_gfx }
 	entity = unit_western_infantry_01_entity
 }
-
 anglo_saxon_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { anglo_saxon_unit_gfx }
 	entity = unit_anglo_saxon_infantry_02_entity
 }
-
 anglo_saxon_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -88,14 +80,12 @@ english_army_01 = {
 	graphical_cultures = { english_unit_gfx }
 	entity = unit_english_infantry_01_entity
 }
-
 english_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { english_unit_gfx }
 	entity = unit_english_infantry_02_entity
 }
-
 english_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -109,14 +99,12 @@ scottish_army_01 = {
 	graphical_cultures = { scottish_unit_gfx }
 	entity = unit_scottish_infantry_01_entity
 }
-
 scottish_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { scottish_unit_gfx }
 	entity = unit_scottish_infantry_02_entity
 }
-
 scottish_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -130,14 +118,12 @@ welsh_army_01 = {
 	graphical_cultures = { welsh_unit_gfx }
 	entity = unit_welsh_infantry_01_entity
 }
-
 welsh_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { welsh_unit_gfx }
 	entity = unit_welsh_infantry_02_entity
 }
-
 welsh_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -151,14 +137,12 @@ mena_army_01 = {
 	graphical_cultures = { mena_unit_gfx }
 	entity = unit_mena_infantry_01_entity
 }
-
 mena_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { mena_unit_gfx }
 	entity = unit_mena_infantry_02_entity
 }
-
 mena_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -172,14 +156,12 @@ roman_army_01 = {
 	graphical_cultures = { roman_unit_gfx }
 	entity = unit_roman_infantry_03_entity
 }
-
 roman_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { roman_unit_gfx }
 	entity = unit_roman_infantry_03_entity
 }
-
 roman_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -193,14 +175,12 @@ byzantine_army_01 = {
 	graphical_cultures = { byzantine_unit_gfx }
 	entity = unit_byzantine_infantry_01_entity
 }
-
 byzantine_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { byzantine_unit_gfx }
 	entity = unit_byzantine_infantry_02_entity
 }
-
 byzantine_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -214,14 +194,12 @@ eastern_army_01 = {
 	graphical_cultures = { eastern_unit_gfx }
 	entity = unit_northern_pagan_infantry_01_entity
 }
-
 eastern_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { eastern_unit_gfx }
-	entity = unit_byzantine_infantry_02_entity
+	entity = unit_eastern_infantry_02_entity
 }
-
 eastern_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -235,14 +213,12 @@ south_slav_army_01 = {
 	graphical_cultures = { south_slavic_unit_gfx }
 	entity = unit_south_slav_infantry_01_entity
 }
-
 south_slav_army_03 = {
 	type = army
 	quality = @tier2_quality	
 	graphical_cultures = { south_slavic_unit_gfx }
 	entity = unit_south_slav_infantry_02_entity
 }
-
 south_slav_army_05 = {
 	type = army
 	quality = @tier3_quality
@@ -256,14 +232,12 @@ chinese_army_01 = {
 	graphical_cultures = { chinese_unit_gfx }
 	entity = unit_chinese_infantry_01_entity
 }
-
 chinese_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { chinese_unit_gfx }
 	entity = unit_chinese_infantry_02_entity
 }
-
 chinese_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -290,48 +264,6 @@ japanese_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { japanese_unit_gfx }
 	entity = unit_japanese_infantry_03_entity
-}
-
-# Burman
-burman_army_01 = {
-	type = army
-	graphical_cultures = { burman_unit_gfx }
-	entity = unit_burmese_infantry_01_entity
-}
-
-burman_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { burman_unit_gfx }
-	entity = unit_burmese_infantry_02_entity
-}
-
-burman_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { burman_unit_gfx }
-	entity = unit_burmese_infantry_02_entity
-}
-
-# Dravidian
-dravidian_army_01 = {
-	type = army
-	graphical_cultures = { dravidian_unit_gfx }
-	entity = unit_dravidian_infantry_01_entity
-}
-
-dravidian_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { dravidian_unit_gfx }
-	entity = unit_dravidian_infantry_02_entity
-}
-
-dravidian_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { dravidian_unit_gfx }
-	entity = unit_dravidian_infantry_02_entity
 }
 
 # Northern
@@ -538,14 +470,12 @@ east_african_army_01 = {
 	graphical_cultures = { east_african_unit_gfx }
 	entity = unit_east_african_infantry_01_entity
 }
-
 east_african_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { east_african_unit_gfx }
 	entity = unit_east_african_infantry_02_entity
 }
-
 east_african_army_03 = {
 	type = army
 	quality = @tier3_quality
@@ -677,27 +607,6 @@ irish_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { irish_unit_gfx }
 	entity = unit_scottish_infantry_02_entity
-}
-
-# Polish
-polish_army_01 = {
-	type = army
-	graphical_cultures = { polish_unit_gfx }
-	entity = unit_polish_infantry_01_entity
-}
-
-polish_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { polish_unit_gfx }
-	entity = unit_polish_infantry_02_entity
-}
-
-polish_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { polish_unit_gfx }
-	entity = unit_polish_infantry_03_entity
 }
 
 # fp1
