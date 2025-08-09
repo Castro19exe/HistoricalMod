@@ -70,9 +70,11 @@ camp_main_01 = {
 	asset = {
 		trigger = {
 			owner.culture = {
-				has_graphical_steppe_culture_group_trigger = yes
-				has_graphical_india_culture_group_trigger = yes
-				has_graphical_east_asian_culture_group_trigger = yes
+				OR = {
+					has_graphical_steppe_culture_group_trigger = yes
+					has_graphical_india_culture_group_trigger = yes
+					has_graphical_east_asian_culture_group_trigger = yes
+				}
 			}
 		}
 		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
@@ -174,9 +176,11 @@ camp_main_02 = {
 	asset = {
 		trigger = {
 			owner.culture = {
-				has_graphical_steppe_culture_group_trigger = yes
-				has_graphical_india_culture_group_trigger = yes
-				has_graphical_east_asian_culture_group_trigger = yes
+				OR = {
+					has_graphical_steppe_culture_group_trigger = yes
+					has_graphical_india_culture_group_trigger = yes
+					has_graphical_east_asian_culture_group_trigger = yes
+				}
 			}
 		}
 		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
@@ -279,9 +283,11 @@ camp_main_03 = {
 	asset = {
 		trigger = {
 			owner.culture = {
-				has_graphical_steppe_culture_group_trigger = yes
-				has_graphical_india_culture_group_trigger = yes
-				has_graphical_east_asian_culture_group_trigger = yes
+				OR = {
+					has_graphical_steppe_culture_group_trigger = yes
+					has_graphical_india_culture_group_trigger = yes
+					has_graphical_east_asian_culture_group_trigger = yes
+				}
 			}
 		}
 		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"
@@ -385,9 +391,11 @@ camp_main_04 = {
 	asset = {
 		trigger = {
 			owner.culture = {
-				has_graphical_steppe_culture_group_trigger = yes
-				has_graphical_india_culture_group_trigger = yes
-				has_graphical_east_asian_culture_group_trigger = yes
+				OR = {
+					has_graphical_steppe_culture_group_trigger = yes
+					has_graphical_india_culture_group_trigger = yes
+					has_graphical_east_asian_culture_group_trigger = yes
+				}
 			}
 		}
 		icon = "gfx/interface/icons/domicile_building/domicile_building_pavillion.dds"

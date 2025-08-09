@@ -44,10 +44,19 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
 	meshsettings = {
-		name = "unit_seljuk_armor_infantry_03"
-		texture_diffuse = "unit_seljuks_infantry_03_diffuse.dds"
-		texture_normal = "unit_seljuks_infantry_03_normal.dds"
-		texture_specular = "unit_seljuks_infantry_03_properties.dds"
+		name = "unit_seljuk_infantry_armor_03"
+		texture_diffuse = "acg_upe_unit_seljuks_infantry_03_diffuse.dds"
+		texture_normal = "acg_upe_unit_seljuks_infantry_03_normal.dds"
+		texture_specular = "acg_upe_unit_seljuks_infantry_03_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_seljuk_infantry_unit_03"
+		texture_diffuse = "basic_unit_turko_mongol_diffuse.dds"
+		texture_normal = "basic_unit_turko_mongol_normal.dds"
+		texture_specular = "basic_unit_turko_mongol_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

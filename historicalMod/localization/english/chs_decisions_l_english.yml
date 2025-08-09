@@ -687,6 +687,16 @@
  strengthen_bloodline_decision_confirm:0 "Strengthen bloodline"
  strengthen_bloodline_decision_tooltip:0 "Establish a bloodline known for its strength, beauty and intelligence"
 
+ #UNITE THE EASTERN SLAVS
+ unite_the_eastern_slavs_decision:1 "Unite the East Slavs"
+ unite_the_eastern_slavs_decision_tooltip:1 "Unite the Western Slavs under one ruler"
+ unite_the_eastern_slavs_decision_desc:0 "We were one people when we first came to these lands. Over the years we scattered, dividing ourselves into many tribes. With foreign forces lurking at our doorstep, it is time to stand together once more."
+ unite_the_eastern_slavs_decision_tt_1:1 "Your Primary Title is the Kingdom of Poland, Pomerania, Sorbia, Bohemia, or Great Moravia"
+ unite_the_eastern_slavs_decision_tt_2:1 "You are an Emperor, and you hold the Kingdom of Poland, Pomerania, Sorbia, Bohemia, or Great Moravia"
+ unite_the_eastern_slavs_decision_titles_tt:2 "You will gain the $e_west_slavia$ [title|E]"
+ unite_the_eastern_slavs_decision_titles_empire_tt:2 "Every West Slavic [kingdom|E] [title|E] will have their territories become [de_jure|E] of your [primary_title|E]"
+ unite_the_eastern_slavs_decision_confirm:1 "Unite the West Slavs"
+
  #UNITE THE WESTERN SLAVS
  unite_the_western_slavs_decision:1 "Unite the West Slavs"
  unite_the_western_slavs_decision_tooltip:1 "Unite the Western Slavs under one ruler"

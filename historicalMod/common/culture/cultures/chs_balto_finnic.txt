@@ -5,6 +5,7 @@
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_forest_wardens
 		tradition_isolationist
@@ -16,7 +17,7 @@
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { sami_building_gfx }
 	clothing_gfx = { northern_clothing_gfx sami_clothing_gfx }
-	unit_gfx = { circumpolar_unit_gfx }
+	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
 		33 = circumpolar_dark_hair
@@ -32,6 +33,7 @@ sami = {
 	heritage = heritage_balto_finnic
 	language = language_sami
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_winter_warriors
 		tradition_adaptive_skirmishing
@@ -43,7 +45,7 @@ sami = {
 	coa_gfx = { sami_coa_gfx balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { sami_building_gfx }
 	clothing_gfx = { sami_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { circumpolar_unit_gfx }
+	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
 		33 = circumpolar_dark_hair
@@ -59,6 +61,7 @@ estonian = {
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_music_theory
 		tradition_fishermen
@@ -91,6 +94,7 @@ karelian = {
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_forest_wardens
@@ -102,7 +106,7 @@ karelian = {
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { sami_building_gfx }
 	clothing_gfx = { sami_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { circumpolar_unit_gfx }
+	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
 		50 = circumpolar_dark_hair
@@ -118,6 +122,7 @@ vepsian = {
 	heritage = heritage_balto_finnic
 	language = language_finnic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_xenophilic
 		tradition_isolationist
@@ -128,7 +133,7 @@ vepsian = {
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { sami_building_gfx }
 	clothing_gfx = { ugro_permian_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { circumpolar_unit_gfx }
+	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
 		50 = circumpolar_dark_hair

@@ -9,6 +9,10 @@
 	}
 }
 
+has_graphical_papal_culture_group_trigger = {
+	has_title = title:k_papal_state
+}
+
 has_graphical_hre_culture_group_trigger = {
 	capital_county = title:c_aachen
 }
@@ -39,9 +43,7 @@ has_graphical_mediterranean_culture_group_trigger = {
 }
 
 has_graphical_goidelic_culture_group_trigger = {
-	culture = {	
-		has_cultural_pillar = heritage_goidelic 
-	}
+	culture = {	has_cultural_pillar = heritage_goidelic }
 }
 
 has_graphical_western_culture_group_trigger = {

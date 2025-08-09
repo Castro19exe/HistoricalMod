@@ -1383,21 +1383,6 @@ custom_europe_eastern_germany = {
 		d_bohemia d_moravia
 	}
 }
-custom_magna_germany = {
-	regions = {
-		custom_europe_western_germany custom_europe_eastern_germany custom_netherlands
-	}
-	duchies = {
-		#k_norway
-		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_jamtland
-		#k_denmark
-		d_skane d_sjaelland d_jylland d_slesvig
-		#k_sweden
-		d_ostergotland d_gotland d_vastergotland d_svealand d_norrland d_smaland d_bergslagen
-		#k_bavaria
-		d_osterreich d_steyermark d_carinthia
-	}
-}
 
 custom_ganges_plain = {
 	duchies = {
@@ -4575,5 +4560,40 @@ nubia_nomad_area = {
 		d_nobatia d_makuria d_shamir d_alwa d_sennar
 		#k_blemmyia
 		d_naqis d_bazin d_baqlin
+	}
+}
+
+eastern_plateau_nomad_area = {
+	duchies = {
+		#Ü
+		d_nagchu d_conyi
+		#Amdo
+		d_xining d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb
+	}
+}
+
+western_plateau_nomad_area = {
+	duchies = {
+		#Tsang
+		d_ngamring d_nyima
+		#Guge
+		d_ngari d_kinnaur
+		#Maryul
+		d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog
+	}
+}
+
+river_valley_nomad_area = {
+	duchies = {
+		#Ü
+		d_yarlung d_lhasa
+		#Tsang
+		d_xigaze d_sagya
+		#Guge
+		d_purang
+		#Kham
+		d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang
+		#Gyalrong
+		d_gyalrong d_chakla d_golog d_malho d_gainlho
 	}
 }

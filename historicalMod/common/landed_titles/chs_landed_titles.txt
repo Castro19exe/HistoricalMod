@@ -407,7 +407,7 @@ e_chagatai = {
 }
 
 e_black_horde = {
-	color = { 50 50 50 }
+	color = { 196 40 18 }
 	can_be_named_after_dynasty = no
 	can_use_nomadic_naming = no
 
@@ -1232,8 +1232,8 @@ e_britannia = {
 					color = { 230 5 5 }
 
 					cultural_names = {
-						name_list_anglo_saxon = cn_lunden
-						name_list_old_saxon = cn_lunden
+						name_list_anglo_saxon = "Lundenburh"
+						name_list_old_saxon = "Lundenburh"
 
 						name_list_roman = cn_londinium
 
@@ -1271,6 +1271,11 @@ e_britannia = {
 					province = 1530
 
 					color = { 230 5 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Breguntford"
+						name_list_old_saxon = "Breguntford"
+					}
 				}
 			}
 			c_essex = {
@@ -1447,8 +1452,8 @@ e_britannia = {
 					color = { 245 0 0 }
 
 					cultural_names = {
-						name_list_anglo_saxon = cn_bebbanburg
-						name_list_old_saxon = cn_bebbanburg
+						name_list_anglo_saxon = "Bebbanburh"
+						name_list_old_saxon = "Bebbanburh"
 
 						name_list_norwegian = cn_bamborg
 						name_list_danish = cn_bamborg
@@ -1891,6 +1896,9 @@ e_britannia = {
 					cultural_names = {
 						name_list_norse = cn_jarnamoda
 						name_list_norwegian = cn_jarnamoda
+
+						name_list_anglo_saxon = "Northwic"
+						name_list_old_saxon = "Northwic"
 					}
 				}
 				b_thetford = {
@@ -2029,6 +2037,11 @@ e_britannia = {
 			c_nottinghamshire = {
 				color = { 175 0 30 }
 
+				cultural_names = {
+					name_list_anglo_saxon = "Snottengahamshire"
+					name_list_old_saxon = "Snottengahamshire"
+				}
+
 				b_nottingham = {
 					province = 1618
 
@@ -2036,6 +2049,7 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = "Snottengaham"
+						name_list_old_saxon = "Snottengaham"
 					}
 				}
 				b_newark = {
@@ -2219,10 +2233,20 @@ e_britannia = {
 			c_oxfordshire = {
 				color = { 255 115 15 }
 
+				cultural_names = {
+					name_list_anglo_saxon = "Oxnafordshire"
+					name_list_old_saxon = "Oxnafordshire"
+				}
+
 				b_oxford = {
 					province = 1558
 
 					color = { 255 115 15 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Oxnaford"
+						name_list_old_saxon = "Oxnaford"
+					}
 				}
 				b_banbury = {
 					province = 1559
@@ -2342,6 +2366,11 @@ e_britannia = {
 					province = 1509
 
 					color = { 225 105 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Hæstingaceaster"
+						name_list_old_saxon = "Hæstingaceaster"
+					}
 				}
 			}
 		}
@@ -9561,6 +9590,9 @@ e_byzantium = {
 				#roman = "Spalato"
 
 				cultural_names = {
+					name_list_roman = cn_spalato
+					name_list_greek = cn_spalathos
+
 					name_list_croatian = "Split"
 					name_list_serbian = "Split"
 
@@ -9569,9 +9601,7 @@ e_byzantium = {
 					name_list_sicilian = cn_spalato
 					name_list_sardinian = cn_spalato
 					name_list_lombard = cn_spalato
-
-					name_list_greek = cn_spalathos
-					name_list_roman = "Spalatum"
+					
 				}
 
 				b_sinjcroat = {
@@ -9700,7 +9730,7 @@ e_byzantium = {
 						name_list_saxon = "Sankt Veit am Flaum"
 						name_list_thuringian = "Sankt Veit am Flaum"
 
-						name_list_greek = "Vitopolis "
+						name_list_greek = "Vitopolis"
 						name_list_roman = "Flumen"
 					}
 				}

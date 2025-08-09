@@ -629,7 +629,7 @@ pdxmesh = {
 }
 
 entity = {
-	name = "unit_turko_mongol_infantry_03_weapon_entity"
+	name = "unit_turko_mongol_infantry_02_weapon_entity"
 	pdxmesh = "unit_turko_mongol_infantry_02_weapon_mesh"
 	scale = 0.06
 

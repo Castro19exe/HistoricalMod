@@ -44,21 +44,28 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_cuman_infantry_02_armor_diffuse.dds"
-		texture_normal = "unit_cuman_infantry_02_armor_normal.dds"
-		texture_specular = "unit_cuman_infantry_02_armor_properties.dds"
+		name = "helm_t2_neu_leatherversion_mergeitwithindian"
+		texture_diffuse = "acg_cuman_02_helmet_diffuse.dds"
+		texture_normal = "acg_cuman_02_helmet_normal.dds"
+		texture_specular = "acg_cuman_02_helmet_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
-		texture_diffuse = "unit_cuman_infantry_02_diffuse.dds"
-		texture_normal = "unit_cuman_infantry_02_normal.dds"
-		texture_specular = "unit_cuman_infantry_02_properties.dds"
+		name = "new_armor_t2_alternative"
+		texture_diffuse = "acg_cuman_02_armor_diffuse.dds"
+		texture_normal = "acg_cuman_02_armor_normal.dds"
+		texture_specular = "acg_cuman_02_armor_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_turko_mongol_infantry_02_basic"
+		texture_diffuse = "basic_unit_turko_mongol_diffuse.dds"
+		texture_normal = "basic_unit_turko_mongol_normal.dds"
+		texture_specular = "basic_unit_turko_mongol_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

@@ -198,47 +198,6 @@ city_01 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
-	### MESOAMERICAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }		
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }			
-		graphical_regions = { graphical_mediterranean }
-	}
-
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
@@ -1081,47 +1040,6 @@ city_02 = {
 		graphical_regions = { graphical_mediterranean }	
 	}
 
-	#Mesoamerican
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }		
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }			
-		graphical_regions = { graphical_mediterranean }
-	}
-
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
@@ -1927,47 +1845,6 @@ city_03 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
-	#Mesoamerican
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }		
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }			
-		graphical_regions = { graphical_mediterranean }
-	}
-
 	### STEPPE ###
 	asset = {
 		type = pdxmesh
@@ -2759,47 +2636,6 @@ city_04 = {
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-
-	#Mesoamerican
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }	
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }		
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_cemanahuac_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }			
 		graphical_regions = { graphical_mediterranean }
 	}
 

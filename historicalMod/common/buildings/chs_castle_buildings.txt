@@ -1,16 +1,13 @@
-@holding_illustration_constantinople = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
-@holding_illustration_rome = "gfx/interface/illustrations/holding_types/ep3_castle_rome.dds"
-@holding_illustration_jerusalem = "gfx/interface/illustrations/holding_types/jerusalem.dds"
-
 @holding_illustration_western = "gfx/interface/illustrations/holding_types/castle_western.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/castle_mena.dds"
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/castle_india.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_castle_norse.dds"
 @holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/castle_scandinavian.dds"
-@holding_illustration_iberian= "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
+@holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_castle_byzantine.dds"
+@holding_illustration_constantinople = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
 @holding_illustration_chinese = "gfx/interface/illustrations/holding_types/castle_chinese.dds"
 @holding_illustration_goidelic = "gfx/interface/illustrations/holding_types/castle_goidelic.dds"
 @holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/castle_sahelian.dds"
@@ -70,8 +67,8 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_western_castle_01_mesh"
-			"building_western_castle_01_b_mesh"
+			"building_western_castle_01_mena_mesh"
+			"building_western_castle_01_b_mena_mesh"
 		}
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
@@ -144,16 +141,6 @@ castle_01 = {
 		graphical_regions = { graphical_india }
 	}
 
-	#### CASTLE OF JERUSALEM ####
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_01_mesh"
-		illustration = @holding_illustration_jerusalem
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mena_building_gfx }
-		provinces = { 5965 }
-	}
-
 	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
@@ -209,82 +196,6 @@ castle_01 = {
 		illustration = @holding_illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### MESOAMERICAN ###
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_01_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_01_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_01_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_01_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_01_a_western_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_01_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_01_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 
@@ -686,7 +597,7 @@ castle_01 = {
 		graphical_regions = { graphical_steppe }
 	}
 
-	### EP3 Byzantine/Rome ###
+	### EP3 Byzantine ###
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
@@ -695,14 +606,6 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
 		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_mediterranean_castle_01_mesh"
-		illustration = @holding_illustration_rome
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mediterranean_building_gfx }
-		provinces = { 2575 }
 	}
 	asset = {
 		type = pdxmesh
@@ -717,11 +620,71 @@ castle_01 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
-	
+
+	#Steppe fallbacks
+	#For steppe
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_siberia }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	#Elsewhere
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_01_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_01_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		provinces = { 496 }
+	}
 
 	can_construct_potential = {
 		barony_cannot_construct_holding = no
@@ -736,6 +699,10 @@ castle_01 = {
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 		building_requirement_tribal_holding_in_county = yes
+		building_requirement_nomad = no
+		building_requirement_nomad_holding_in_county = yes
+		building_requirement_herder = no
+		building_requirement_herder_holding_in_county = yes
 	}
 
 	cost_gold = main_building_tier_1_cost
@@ -814,6 +781,22 @@ castle_01 = {
 					}
 				}
 			}
+			# Harrying logic.
+			if = {
+				limit = {
+					character_is_valid_for_harrying_of_the_north_trigger = yes
+					is_important_or_vip_struggle_character = yes
+				}
+				global_var:harrying_of_the_north = { save_scope_as = story }
+				if = {
+					limit = { character_is_valid_norman_for_harrying_of_the_north_trigger = yes }
+					ep3_increase_pacification_effect = { AMOUNT = harrying_medium_increase_value }
+				}
+				else_if = {
+					limit = { character_is_valid_anglo_saxon_for_harrying_of_the_north_trigger = yes }
+					ep3_increase_resistance_effect = { AMOUNT = harrying_medium_increase_value }
+				}
+			}
 		}
 	}
 	
@@ -876,7 +859,7 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_02_mesh"
+		name = "building_western_castle_02_mena_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { graphical_steppe }
@@ -913,16 +896,6 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
-	}
-
-	#### CASTLE OF JERUSALEM ####
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_02_mesh"
-		illustration = @holding_illustration_jerusalem
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mena_building_gfx }
-		provinces = { 5965 }
 	}
 
 	### INDIAN ###
@@ -1013,82 +986,6 @@ castle_02 = {
 		illustration = @holding_illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### MESOAMERICAN ###
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_02_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_02_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_02_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_02_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_02_a_western_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_02_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_02_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_02_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_02_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 
@@ -1458,6 +1355,7 @@ castle_02 = {
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
+
 	asset = {
 		type = pdxmesh
 		name = "fp3_building_persian_castle_02_a_01_mesh"
@@ -1498,14 +1396,6 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_mediterranean_castle_02_mesh"
-		illustration = @holding_illustration_rome
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }
-		provinces = { 2575 }
-	}
-	asset = {
-		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
@@ -1517,9 +1407,71 @@ castle_02 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	#Steppe fallbacks
+	#For steppe
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_siberia }
+	}
+	#Elsewhere
+	### WESTERN ###
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_02_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	### EP3 Byzantine ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_02_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		provinces = { 496 }
 	}
 
 	can_construct_potential = {
@@ -1624,12 +1576,12 @@ castle_02 = {
 			scope:holder.capital_province = this
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			free_building_slots >= 1
 			years_from_game_start >= 1
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			combined_building_level <= 10
 			years_from_game_start >= 1
 		}
@@ -1673,7 +1625,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_03_mesh"
+		name = "building_western_castle_03_mena_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_regions = { graphical_steppe }
@@ -1690,7 +1642,6 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mena_castle_03_mesh"
-		#name = "berber_castle_03_mesh"
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mena_building_gfx }
@@ -1711,16 +1662,6 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
-	}
-
-	#### CASTLE OF JERUSALEM ####
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_03_mesh"
-		illustration = @holding_illustration_jerusalem
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mena_building_gfx }
-		provinces = { 5965 }
 	}
 
 	### INDIAN ###
@@ -1811,82 +1752,6 @@ castle_03 = {
 		illustration = @holding_illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### MESOAMERICAN ###
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_03_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_03_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_03_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_03_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_03_b_western_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_03_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_03_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_03_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_03_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 
@@ -2286,7 +2151,7 @@ castle_03 = {
 		graphical_regions = { graphical_steppe }
 	}
 
-	### EP3 Byzantine/Rome ###
+	### EP3 Byzantine ###
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_03_a_mesh"
@@ -2295,14 +2160,6 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
 		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_mediterranean_castle_03_mesh"
-		illustration = @holding_illustration_rome
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }
-		provinces = { 2575 }
 	}
 	asset = {
 		type = pdxmesh
@@ -2316,10 +2173,72 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_03_a_mesh"
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	#Steppe fallbacks
+	#For steppe
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_b_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_siberia }
+	}
+
+	#Elsewhere
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_b_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_03_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_03_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		provinces = { 496 }
 	}
 
 	can_construct_potential = {
@@ -2464,7 +2383,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "building_western_castle_04_mesh"
+		name = "building_western_castle_04_mena_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_steppe }
@@ -2501,16 +2420,6 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
-	}
-
-	#### CASTLE OF JERUSALEM ####
-	asset = {
-		type = pdxmesh
-		name = "building_mena_castle_04_mesh"
-		illustration = @holding_illustration_jerusalem
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { mena_building_gfx }
-		provinces = { 5965 }
 	}
 
 	### INDIAN ###
@@ -2601,82 +2510,6 @@ castle_04 = {
 		illustration = @holding_illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### MESOAMERICAN ###
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_04_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_04_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_04_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_cemanahuac_castle_04_mesh"
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mesoamerican_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_04_a_western_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_04_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_04_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_04_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "turkic_castle_04_mesh"
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
 
@@ -3075,7 +2908,7 @@ castle_04 = {
 		graphical_regions = { graphical_steppe }
 	}
 
-	### EP3 Byzantine/Rome ###
+	### EP3 Byzantine ###
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_04_a_mesh"
@@ -3084,14 +2917,6 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
 		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_mediterranean_castle_04_mesh"
-		illustration = @holding_illustration_rome
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { mediterranean_building_gfx }
-		provinces = { 2575 }
 	}
 	asset = {
 		type = pdxmesh
@@ -3106,9 +2931,70 @@ castle_04 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_04_a_mesh"
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	#Steppe fallbacks
+	#For steppe
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_siberia }
+	}
+
+	#Elsewhere
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_a_western_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		name = "turkic_castle_04_mesh"
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_04_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		provinces = { 496 }
 	}
 
 	can_construct_potential = {
