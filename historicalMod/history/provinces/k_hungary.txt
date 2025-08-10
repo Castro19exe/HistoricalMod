@@ -18,18 +18,18 @@
 	}
 }
 522 = {		#Pest
-	holding = church_holding
+	holding = city_holding
 	
-	1148.1.1 = {
-		holding = city_holding
+	# 1148.1.1 = {
+	#	holding = city_holding
 		#1st mention as Pest in 1148
-	}
+	# }
 }
 3802 = {	#Cegled
 	holding = none
 	
 	1060.1.1 = {
-		holding = city_holding
+		holding = church_holding
 	}
 	#inhabited for a long time but 1st mention in 1290
 	#Presence of settlements dating to the Arpad era

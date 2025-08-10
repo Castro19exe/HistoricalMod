@@ -292,7 +292,7 @@ byzantine_army_03 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { byzantine_unit_gfx }
-	entity = unit_byzantine_infantry_03_entity
+	entity = unit_byzantine_infantry_03_alternative_entity
 }
 
 
@@ -444,7 +444,7 @@ hungarian_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { hungarian_unit_gfx }
-	entity = unit_eastern_infantry_02_entity
+	entity = unit_eastern_infantry_02_V3_entity
 }
 hungarian_army_03 = {
 	type = army

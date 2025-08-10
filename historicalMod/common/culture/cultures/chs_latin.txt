@@ -15,8 +15,8 @@
 	
 	name_list = name_list_roman
 
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { roman_unit_gfx } 
@@ -78,7 +78,9 @@ cisalpine = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean
+		8 = mediterranean
+		1 = caucasian_blond
+		1 = caucasian_brown_hair
 	}
 }
 
@@ -169,7 +171,9 @@ lombard = { #Italo-Lombards
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean
+		8 = mediterranean
+		1 = caucasian_blond
+		1 = caucasian_brown_hair
 	}
 }
 
@@ -198,6 +202,8 @@ venetian = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean
+		8 = mediterranean
+		1 = caucasian_blond
+		1 = caucasian_brown_hair
 	}
 }

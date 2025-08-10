@@ -12,7 +12,6 @@ b_maqueda_christian = {
 			scale={ 0.430000 0.430000 }
 			depth=2.010000
 		}
-
 	}
 
 	colored_emblem={

@@ -50956,6 +50956,10 @@ e_spain = {
 					province = 1766
 
 					color = { 182 88 5 }
+
+					cultural_names = {
+						name_list_portuguese = "Guimarães"
+					}
 				}
 			}
 			c_braganza = {
