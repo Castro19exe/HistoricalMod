@@ -73,7 +73,7 @@ swedish = {
 	coa_gfx = { swedish_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { scandinavian_unit_gfx }
 	
 	ethnicities = {
 		70 = caucasian_northern_blond
@@ -110,7 +110,7 @@ norwegian = {
 	coa_gfx = { norwegian_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { scandinavian_unit_gfx }
 	
 	ethnicities = {
 		70 = caucasian_northern_blond
@@ -147,7 +147,7 @@ danish = {
 	coa_gfx = { danish_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { scandinavian_unit_gfx }
 	
 	ethnicities = {
 		70 = caucasian_northern_blond

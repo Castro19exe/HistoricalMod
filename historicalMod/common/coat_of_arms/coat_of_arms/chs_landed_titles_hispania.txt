@@ -12,6 +12,22 @@ k_visigoths = {
 	}
 }
 
+k_andalusia = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=green
+		texture="ce_eagle_iberia.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.830000 0.830000 }
+		}
+	}
+}
+
 c_toledo = {
 	pattern="pattern_shield_01.dds"
 	color1=white

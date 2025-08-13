@@ -90,7 +90,7 @@ entity = {
 		next_state = idle
 		chance = 4
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 	}
 	state = { 
 		name = "idle"
@@ -99,23 +99,23 @@ entity = {
 		next_state = idle
 		chance = 1
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 	}
 	state = { 
 		name = "besiege"
 		animation = "besiege_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_besiege" }}
 	}
 	state = { 
 		name = "spawn"
 		animation = "spawn_animation"
 		looping = no
-		start_event = { node = World_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" attachment_id = weapon }
-		event = { time = 1.7 node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" attachment_id = weapon }
-		start_event = { node = back_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" attachment_id = shield }
-		event = { time = 2.23 node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" attachment_id = shield }
+		start_event = { node = World_node_1 entity = "unit_western_infantry_02_weapon_entity" attachment_id = weapon }
+		event = { time = 1.7 node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" attachment_id = weapon }
+		start_event = { node = back_node_1 entity = "unit_byzantine_infantry_02_shield_entity" attachment_id = shield }
+		event = { time = 2.23 node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" attachment_id = shield }
 		event = { time = 3.66 remove_attachment = weapon }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_spawn" }}
 	}
@@ -123,8 +123,8 @@ entity = {
 		name = "disband"
 		animation = "despawn_animation"
 		looping = no
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" attachment_id = shield }
-		event = { time = 0.96 node = back_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" attachment_id = shield }	
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" attachment_id = shield }
+		event = { time = 0.96 node = back_node_1 entity = "unit_byzantine_infantry_02_shield_entity" attachment_id = shield }	
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_disband" }}
 	}
 	state = { 
@@ -133,8 +133,8 @@ entity = {
 		animation_blend_time = 0.3
 		time_offset = 0.73
 		
-	#	start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }		
+	#	start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_gathering_army" }}
 	}
 	
@@ -143,7 +143,7 @@ entity = {
 		animation = "moving_standard_animation"
 		animation_blend_time = 0.3
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_moving_standard" }}
 
@@ -157,8 +157,8 @@ entity = {
 		next_state = move_attack_continue
 		
 	#	
-		event = { time = 0.55 node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" attachment_id = weapon }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		event = { time = 0.55 node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" attachment_id = weapon }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_tx_battle_swords" }}
 	}
@@ -166,8 +166,8 @@ entity = {
 		name = "move_attack_continue"
 		animation = "moving_battle_animation"
 	#	
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
 		start_event = { node = root particle = "dust_trail_3" }		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_moving_battle" }}
 	}
@@ -178,8 +178,8 @@ entity = {
 		chance = 4
 		next_state = "move_retreat"
 	
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
-	#	start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
+	#	start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_moving_retreat" }}
 	}
@@ -190,8 +190,8 @@ entity = {
 		chance = 1
 		next_state = "move_retreat"
 		
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
-	#	start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
+	#	start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_moving_retreat_var1" }}
 	}
@@ -201,8 +201,8 @@ entity = {
 		animation = "victorious_combat_animation"
 		looping = no
 		next_state = idle
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" life = 5.53 }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" life = 5.53 }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_victorious_combat" }}
 	}
 	state = {
@@ -210,8 +210,8 @@ entity = {
 		animation = "victorious_siege_animation"
 		looping = no
 		next_state = idle
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" life = 5.66 }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" life = 5.66 }
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 1.0 } soundparameter = {"props_wood_metal" = 1.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_victorious_siege" }}
 	}
 	
@@ -220,7 +220,7 @@ entity = {
 		name = "idle_sick"
 		animation = "infantry_male_sick_idle"
 		animation_blend_time = 0.3
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		start_event = { node = root particle = "disease/flies" }
 		
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } soundparameter = {"props_wood_metal" = 0.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_base" }}
@@ -230,7 +230,7 @@ entity = {
 		name = "move_sick"
 		animation = "infantry_male_sick_moving"
 		animation_blend_time = 0.3
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		start_event = { node = root particle = "dust_trail_3" }
 		start_event = { node = root particle = "disease/flies" }
 		
@@ -245,8 +245,8 @@ entity = {
 	state = {
 		name = "even_offensive_seq_1"
 		animation = "even_offensive_seq_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = even_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = even_offensive_seq_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = even_offensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = even_offensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -259,8 +259,8 @@ entity = {
 	state = {
 		name = "even_defensive_seq_1"
 		animation = "even_defensive_seq_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = even_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = even_defensive_seq_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = even_defensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = even_defensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -274,8 +274,8 @@ entity = {
 	state = {
 		name = "winlose_offensive_seq_1"
 		animation = "winlose_offensive_seq_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = winlose_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = winlose_offensive_seq_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = winlose_offensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = winlose_offensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -288,8 +288,8 @@ entity = {
 	state = {
 		name = "winlose_defensive_seq_1"
 		animation = "winlose_defensive_seq_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = winlose_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = winlose_defensive_seq_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = winlose_defensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = winlose_defensive_seq_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -303,8 +303,8 @@ entity = {
 		name = "pursuit_offensive_seq_1"
 		animation = "pursuit_offensive_seq_1_animation"
 		animation_blend_time = 0.2
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = pursuit_offensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = pursuit_offensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -317,8 +317,8 @@ entity = {
 		name = "pursuit_defensive_seq_1"
 		animation = "pursuit_defensive_seq_1_animation"
 		animation_blend_time = 0.5
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" state = pursuit_defensive_seq_1}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" state = pursuit_defensive_seq_1}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -331,8 +331,8 @@ entity = {
 	state = {
 		name = "even_winlose_tx_offensive_1"
 		animation = "even_winlose_tx_offensive_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity"}
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity"}
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -343,8 +343,8 @@ entity = {
 	state = {
 		name = "winlose_even_tx_offensive_1"
 		animation = "winlose_even_tx_offensive_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" }
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -355,8 +355,8 @@ entity = {
 	state = {
 		name = "even_winlose_tx_defensive_1"
 		animation = "even_winlose_tx_defensive_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = even_winlose_tx_defensive_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = even_winlose_tx_defensive_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
@@ -367,8 +367,8 @@ entity = {
 	state = {
 		name = "winlose_even_tx_defensive_1"
 		animation = "winlose_even_tx_defensive_1_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_northern_pagan_infantry_02_weapon_entity" }
-		start_event = { node = Left_hand_node_1 entity = "unit_northern_pagan_infantry_02_shield_entity" state = winlose_even_tx_defensive_1}
+		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_02_weapon_entity" }
+		start_event = { node = Left_hand_node_1 entity = "unit_byzantine_infantry_02_shield_entity" state = winlose_even_tx_defensive_1}
 		event = { 
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 

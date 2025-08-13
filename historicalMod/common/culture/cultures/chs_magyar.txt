@@ -2,7 +2,7 @@
 	color = { 0.3 0.4 0.1 }
 
 	ethos = ethos_bellicose
-	heritage = heritage_ugro_permian                         	# Or heritage_magyar
+	heritage = heritage_magyar                         	# Or heritage_ugro_permian
 	language = language_magyar									# Or language_ugro_permian	
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain

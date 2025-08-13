@@ -1,0 +1,1007 @@
+# acg_upe_unit_scandinavian_infantry_01_mesh
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v2_bro_nohair
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v2_bro_nohair"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nohair.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v2.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal_v234.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties_v234.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bro.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bla_nobeard
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bla_nobeard"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nobeard.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1b.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bla.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v3
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v3"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v3.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal_v234.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties_v234.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1c_bro_nobeard
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1c_bro_nobeard"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nobeard.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1c.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bro.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v4_bla
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v4_bla"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v4.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal_v234.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties_v234.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bla.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_bla
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_bla"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bla.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v4_bro_nohair
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v4_bro_nohair"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nohair.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v4.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal_v234.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties_v234.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bro.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1c_nobeard
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1c_nobeard"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nobeard.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1c.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bro_nohair
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bro_nohair"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nohair.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1b.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bro.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1b
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1b"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1b.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bla
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1b_bla"
+	file = "acg_upe_unit_scandinavian_infantry_01_new.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1b.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bla.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v3_nobeard
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v3_nobeard"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nobeard.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v3.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal_v234.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties_v234.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+# acg_upe_unit_scandinavian_infantry_01_mesh_v1c_bla_nohair
+pdxmesh = {
+	name = "acg_upe_unit_scandinavian_infantry_01_mesh_v1c_bla_nohair"
+	file = "acg_upe_unit_scandinavian_infantry_01_new_nohair.mesh"
+	scale = 0.06
+
+	cull_distance = 3000
+################	Rider Animation 	################
+	animation = { id = "acg_rider_Paladin_idle" 				type = "../animations/acg_rider_Paladin_idle.anim" }
+	animation = { id = "acg_rider_Paladin_command" 				type = "../animations/acg_rider_Paladin_command.anim" }
+	animation = { id = "acg_rider_KnightGuard_idle" 				type = "../animations/acg_rider_KnightGuard_idle.anim" }
+	animation = { id = "acg_rider_knight_charge" 				type = "../animations/acg_rider_knight_charge.anim" }
+################	Archer Animation 	################	
+	animation = { id = "acg_infantry_01_idle_flagman" 				type = "../animations/acg_infantry_01_idle_flagman.anim" }	
+	animation = { id = "acg_infantry_01_flagman_moving" 				type = "../animations/acg_infantry_01_flagman_moving.anim" }	
+	animation = { id = "acg_infantry_archer_shot" 				type = "../animations/acg_infantry_archer_shot.anim" }	
+################	Infantry animation 	################		
+	animation = { id = "acg_Shield_Wall_2nd_stand_animation" 				type = "../animations/acg_infantry_Shield_Wall_2nd_stand.anim" }	
+################	Swordsman animation 	################	
+	# Base animations
+	animation = { id = "acg_idle_base_animation" 				type = "../animations/acg_infantry_01_idle_base.anim" }
+	animation = { id = "acg_idle_var1_animation" 				type = "../animations/acg_infantry_01_idle_var1.anim" }
+	animation = { id = "acg_besiege_animation" 					type = "../animations/acg_infantry_01_besiege.anim" }
+	animation = { id = "acg_spawn_animation" 					type = "../animations/acg_infantry_01_spawn.anim" }
+	animation = { id = "acg_despawn_animation" 					type = "../animations/acg_infantry_01_despawn.anim" }
+	animation = { id = "acg_gathering_army_animation" 			type = "../animations/acg_infantry_01_gathering_army.anim" }
+	animation = { id = "acg_moving_standard_animation" 			type = "../animations/acg_infantry_01_moving_standard.anim" }
+	animation = { id = "acg_moving_battle_animation" 			type = "../animations/acg_infantry_01_moving_battle.anim" }
+	animation = { id = "acg_moving_retreat_animation" 			type = "../animations/acg_infantry_01_moving_retreat.anim" }
+	animation = { id = "acg_moving_retreat_var1_animation" 		type = "../animations/acg_infantry_01_moving_retreat_var1.anim" }
+	animation = { id = "acg_victorious_combat_animation" 		type = "../animations/acg_infantry_01_victorious_combat.anim" }
+	animation = { id = "acg_victorious_siege_animation" 		type = "../animations/acg_infantry_01_victorious_siege.anim" }
+	animation = { id = "acg_infantry_male_sick_moving" 			type = "../animations/acg_infantry_male_sick_moving.anim" }
+	animation = { id = "acg_infantry_male_sick_idle" 			type = "../animations/acg_infantry_male_sick_idle.anim" }
+	
+	# Transitions
+	animation = { id = "acg_idle_tx_battle_axes_animation" 		type = "../animations/acg_infantry_01_idle_tx_battle_axes.anim" }
+	animation = { id = "acg_idle_tx_battle_swords_animation" 	type = "../animations/acg_infantry_01_idle_tx_battle_swords.anim" }
+	
+	# Combat animations
+	animation = { id = "acg_even_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_offensive_seq_1.anim" }
+	animation = { id = "acg_winlose_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_offensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_offensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_offensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_offensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_offensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_offensive_1.anim" }
+	animation = { id = "acg_even_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_even_defensive_seq_1.anim" }
+	animation = { id = "acg_winlose_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_winlose_defensive_seq_1.anim" }
+	animation = { id = "acg_pursuit_defensive_seq_1_animation" 		type = "../animations/acg_infantry_01_axe_pursuit_defensive_seq_1.anim" }
+	animation = { id = "acg_even_winlose_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_even_winlose_tx_defensive_1.anim" }
+	animation = { id = "acg_winlose_even_tx_defensive_1_animation" 	type = "../animations/acg_infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+
+	meshsettings = {
+		name = "acg_scandinavian_01_armor"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_diffuse_v1c.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "acg_scandinavian_01_skin"
+		index = 0
+		texture_diffuse = "acg_upe_unit_scandinavian_infantry_01_body_diffuse_bla.dds"
+		texture_normal = "acg_upe_unit_scandinavian_infantry_01_body_normal.dds"
+		texture_specular = "acg_upe_unit_scandinavian_infantry_01_body_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}

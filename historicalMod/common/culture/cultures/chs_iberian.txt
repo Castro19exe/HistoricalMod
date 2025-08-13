@@ -86,7 +86,7 @@ basque = {
 	language = language_basque
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_visigothic_codes
+		tradition_stalwart_defenders
 		tradition_mountaineers
 		tradition_wedding_ceremonies
 	}

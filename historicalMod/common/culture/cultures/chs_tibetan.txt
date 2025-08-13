@@ -5,6 +5,7 @@
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_horse_breeder
@@ -16,10 +17,10 @@
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { tibetan_unit_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
 
@@ -30,6 +31,7 @@ zhangzhung = { # Zhangzhung
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_sacred_mountains
@@ -40,10 +42,10 @@ zhangzhung = { # Zhangzhung
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { tibetan_unit_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
 
@@ -54,6 +56,7 @@ sumpa = { # Sumpa
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_equal_inheritance
@@ -65,10 +68,10 @@ sumpa = { # Sumpa
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { tibetan_unit_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
 
@@ -79,6 +82,7 @@ tsangpa = { # Western and Southern Tibetic (Sherpa; Kyirong-Kagate; etc.)
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_sacred_mountains
@@ -90,10 +94,10 @@ tsangpa = { # Western and Southern Tibetic (Sherpa; Kyirong-Kagate; etc.)
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { tibetan_unit_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
 
@@ -104,6 +108,7 @@ kirati = { # Kirati (Kirati; Limbu; Magar; etc.)
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_religion_blending
@@ -114,10 +119,10 @@ kirati = { # Kirati (Kirati; Limbu; Magar; etc.)
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { tibetan_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { tibetan_unit_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
 
@@ -128,6 +133,7 @@ lhomon = { # Lhomon (Monpa; Lhoba; Kho-Bwa; Mishmi; Memba; etc.)
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_medicinal_plants
@@ -140,9 +146,9 @@ lhomon = { # Lhomon (Monpa; Lhoba; Kho-Bwa; Mishmi; Memba; etc.)
 	building_gfx = { tibetan_building_gfx } 
 	clothing_gfx = { mongol_clothing_gfx } 
 	clothing_gfx = { indian_clothing_gfx } 
-	unit_gfx = { tibetan_unit_gfx } 	
+	unit_gfx = { mongol_unit_gfx } 	
 
 	ethnicities = {
-		10 = asian
+		10 = asian_tibetan
 	}
 }
