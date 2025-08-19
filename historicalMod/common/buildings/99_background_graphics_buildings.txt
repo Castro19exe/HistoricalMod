@@ -161,7 +161,7 @@ walls_01 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe graphical_india }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
 		names = {
 			"fp3_building_persian_walls_01_a_01_mesh" 
 		}
@@ -326,6 +326,17 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
+		requires_dlc_flag = khans_of_the_steppe
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_steppe }
+		governments = { nomad_government }
+		names = {
+			#"mpo_mongol_wall_02_mesh"
+			"mongol_nomadic_wall_02_mesh"
+		}
+	}
+	asset = {
+		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_western }
 		names = {
@@ -335,7 +346,7 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe graphical_india }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
 		names = {
 			"fp3_building_persian_walls_02_a_01_mesh" 
 		}
@@ -348,18 +359,6 @@ walls_02 = {
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
 		names = {
 			"ep3_byzantine_walls_02_mesh"
-		}
-	}
-
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = khans_of_the_steppe
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-		governments = { nomad_government }
-		names = {
-			#"mpo_mongol_wall_02_mesh"
-			"mongol_nomadic_wall_02_mesh"
 		}
 	}
 
@@ -523,7 +522,7 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe graphical_india }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
 		names = {
 			"fp3_building_persian_walls_03_a_01_mesh" 
 		}
@@ -712,7 +711,7 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe graphical_india }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
 		names = {
 			"fp3_building_persian_walls_04_a_01_mesh" 
 		}

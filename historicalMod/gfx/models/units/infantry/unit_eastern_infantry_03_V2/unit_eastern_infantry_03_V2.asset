@@ -42,6 +42,15 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
+		name = "unit_western_infantry_basic_01"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+	meshsettings = {
 		name = "acg_armor_hre_02"
 		texture_diffuse = "acg_upe_unit_hre_infantry_02_diffuse.dds"
 		texture_normal = "acg_upe_unit_hre_infantry_02_normal.dds"
@@ -51,19 +60,19 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "unit_eastern_infantry_03_helmet"
-		texture_diffuse = "acg_upe_medium_quality_ruthenian_head_layer_diffuse.dds"
-		texture_normal = "acg_upe_medium_quality_ruthenian_head_layer_normal.dds"
-		texture_specular = "acg_upe_medium_quality_ruthenian_head_layer_properties.dds"
+		name = "unit_west_slavic_helmet_03"
+		texture_diffuse = "m_headgear_sec_ccp2_west_slavic_era1_war_nob_01_diffuse.dds"
+		texture_normal = "m_headgear_sec_ccp2_west_slavic_era1_war_nob_01_normal.dds"
+		texture_specular = "m_headgear_sec_ccp2_west_slavic_era1_war_nob_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-
+	
 	meshsettings = {
-		name = "unit_eastern_basic_skin"
-		texture_diffuse = "basic_unit_01_diffuse.dds"
-		texture_normal = "basic_unit_01_normal.dds"
-		texture_specular = "basic_unit_01_properties.dds"
+		name = "unit_west_slavic_body_03"
+		texture_diffuse = "acg_upe_high_quality_polish_diffuse.dds"
+		texture_normal = "acg_upe_high_quality_polish_normal.dds"
+		texture_specular = "acg_upe_high_quality_polish_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

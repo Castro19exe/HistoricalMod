@@ -12,6 +12,24 @@ pdxmesh = {
 	}
 
 	meshsettings = {
+		name = "nomadic_mongol_wall_03"
+		texture_diffuse = "building_mongol_atlas_diffuse.dds"
+		texture_normal = "building_mongol_atlas_normal.dds"
+		texture_specular = "building_mongol_atlas_properties.dds"
+		shader = "snap_to_terrain"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "nomadic_mongol_wall_04"
+		texture_diffuse = "building_mongol_atlas_diffuse.dds"
+		texture_normal = "building_mongol_atlas_normal.dds"
+		texture_specular = "building_mongol_atlas_properties.dds"
+		shader = "snap_to_terrain"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
 		name = "mpo_nomadic_mongol_decal"
 		texture_diffuse = "western_city_01_decal_diffuse.dds"
 		texture_normal = "western_city_01_decal_normal.dds"

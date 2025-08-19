@@ -779,6 +779,6 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_scandinavian_infantry_03_entity
+	entity = unit_scottish_infantry_03_entity
 }
 ### - NOT HISTORICALLY ###

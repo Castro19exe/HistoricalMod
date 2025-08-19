@@ -327,20 +327,12 @@ entity = {
 	}
 }
 
-###### Germanics Sword
+
+###### Germanic Swords
 
 pdxmesh = {
 	name = "unit_germanic_infantry_03_weapon_mesh"
 	file = "unit_germanic_infantry_03_weapon.mesh"
-
-	meshsettings = {
-		name = "fp1_sword"
-		texture_diffuse = "portrait_prop_fp1_marshal_sword_01_diffuse.dds"
-		texture_normal = "portrait_prop_fp1_marshal_sword_01_normal.dds"
-		texture_specular = "portrait_prop_fp1_marshal_sword_01_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
 }
 
 entity = {
@@ -362,7 +354,7 @@ entity = {
 	}
 }
 
-####################################
+############################################################################################################
 
 pdxmesh = {
 	name = "unit_germanic_infantry_03_weapon_2_mesh"

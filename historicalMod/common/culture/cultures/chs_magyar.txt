@@ -2,8 +2,8 @@
 	color = { 0.3 0.4 0.1 }
 
 	ethos = ethos_bellicose
-	heritage = heritage_magyar                         	# Or heritage_ugro_permian
-	language = language_magyar									# Or language_ugro_permian	
+	heritage = heritage_magyar
+	language = language_magyar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -37,9 +37,10 @@ hungarian = {
 	parents = { mogyer }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_magyar									# Or heritage_ugro_permian
+	heritage = heritage_magyar
 	language = language_magyar
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
 		tradition_hussar
@@ -51,18 +52,18 @@ hungarian = {
 	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
 	coa_gfx = { western_coa_gfx } 
 	building_gfx = { eastern_building_gfx }
-	clothing_gfx = { western_clothing_gfx west_slavic_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { hungarian_unit_gfx } 	
 
 	ethnicities = {
 		10 = caucasian_blond
-		5 = caucasian_ginger
+		# 5 = caucasian_ginger
 		25 = caucasian_brown_hair
 		25 = caucasian_dark_hair
 		5 = turkic
 		10 = turkic_west
 		5 = circumpolar_dark_hair
 		5 = circumpolar_brown_hair
-		10 = circumpolar_blonde_hair
+		15 = circumpolar_blonde_hair
 	}
 }

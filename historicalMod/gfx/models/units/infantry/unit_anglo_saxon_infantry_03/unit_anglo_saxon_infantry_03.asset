@@ -41,15 +41,6 @@ pdxmesh = {
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-
-	meshsettings = {
-		name = "unit_germanic_facial_hair_03"
-		texture_diffuse = "unit_germanic_facial_hair_03_diffuse.dds"
-		texture_normal = "unit_fp1_infantry_02_normal.dds"
-		texture_specular = "unit_fp1_infantry_02_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
 }
 
 entity = {
@@ -324,31 +315,5 @@ entity = {
 			soundparameter = {"props_wood_metal" = 0.0 }
 			sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_combat_winlose_tx_even_defensive"}
 		}
-	}
-}
-
-###### Germanic Sword
-
-pdxmesh = {
-	name = "unit_germanic_infantry_03_weapon_mesh"
-	file = "unit_germanic_infantry_03_weapon.mesh"
-}
-
-entity = {
-	name = "unit_germanic_infantry_03_weapon_2_entity"
-	pdxmesh = "unit_germanic_infantry_03_weapon_mesh"
-	scale = 0.06
-
-	state = { name = "winlose_defensive_seq_1"
-		state_time = 5
-		event = { time = 2.7  particle = "weapon_impact_1" keep_particle = yes }
-	}
-
-	state = { name = "pursuit_offensive_seq_1"
-		state_time = 5
-		event = { time = 0.24  particle = "blood_impact" keep_particle = yes }
-		event = { time = 1.14  particle = "blood_impact" keep_particle = yes }
-		event = { time = 2.5  particle = "blood_impact" keep_particle = yes }
-		event = { time = 3.18  particle = "blood_impact" keep_particle = yes }
 	}
 }

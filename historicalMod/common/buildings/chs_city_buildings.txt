@@ -204,7 +204,7 @@ city_01 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
@@ -1046,7 +1046,7 @@ city_02 = {
 		names = {
 			"magyar_city_01_mesh"
 		}
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
@@ -1851,7 +1851,7 @@ city_03 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
 	}
@@ -2645,7 +2645,7 @@ city_04 = {
 		names = {
 			"magyar_city_02_mesh"
 		}
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_eastern
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
 	}

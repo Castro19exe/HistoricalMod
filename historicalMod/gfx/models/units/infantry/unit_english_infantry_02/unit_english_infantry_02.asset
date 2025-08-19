@@ -35,31 +35,28 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_english_infantry_02_diffuse.dds"
-		texture_normal = "unit_english_infantry_02_normal.dds"
-		texture_specular = "unit_english_infantry_02_properties.dds"
+		name = "unit_english_basic_02"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
-		texture_diffuse = "medium_quality_english_head_diffuse.dds"
-		texture_normal = "medium_quality_english_head_normal.dds"
-		texture_specular = "medium_quality_english_head_properties.dds"
+		name = "unit_english_helmet_02"
+		texture_diffuse = "acg_upe_medium_quality_english_helmet_diffuse.dds"
+		texture_normal = "acg_upe_medium_quality_english_helmet_normal.dds"
+		texture_specular = "acg_upe_medium_quality_english_helmet_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 2
-		texture_diffuse = "medium_quality_english_helmet_diffuse.dds"
-		texture_normal = "medium_quality_english_helmet_normal.dds"
-		texture_specular = "medium_quality_english_helmet_properties.dds"
+		name = "unit_english_legs_02"
+		texture_diffuse = "acg_upe_unit_english_infantry_02_diffuse.dds"
+		texture_normal = "acg_upe_unit_english_infantry_02_normal.dds"
+		texture_specular = "acg_upe_unit_english_infantry_02_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

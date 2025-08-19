@@ -19,7 +19,7 @@
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { ruthenian_unit_gfx }
 
 	ethnicities = {
@@ -52,7 +52,7 @@ chrobatian = {
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
 	ethnicities = {
@@ -81,7 +81,7 @@ ilmenian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -109,7 +109,7 @@ severian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -138,7 +138,7 @@ volhynian = {
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
 	ethnicities = {
@@ -166,7 +166,7 @@ tiverian = {
 	
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
 	ethnicities = {
@@ -197,7 +197,7 @@ dregovichian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -226,7 +226,7 @@ krivichian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -255,7 +255,7 @@ vyatichian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -286,7 +286,7 @@ radimichian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -315,7 +315,7 @@ polian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
@@ -342,7 +342,7 @@ drevlian = {
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { east_slavic_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { east_slavic_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 
 	ethnicities = {
