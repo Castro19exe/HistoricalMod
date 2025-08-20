@@ -34,20 +34,29 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
-		name = "irish_unit_head"
-		texture_diffuse = "high_quality_germanic_head_layer_diffuse.dds"
-		texture_normal = "high_quality_irish_head_layer_normal.dds"
-		texture_specular = "high_quality_irish_head_layer_properties.dds"
+		name = "nord_unit_basic_skin"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
 		name = "unit_germanic_facial_hair_03"
-		texture_diffuse = "unit_germanic_facial_hair_03_diffuse.dds"
+		texture_diffuse = "acg_unit_fp1_infantry_02_diffuse_chainmail_blond.dds"
 		texture_normal = "unit_fp1_infantry_02_normal.dds"
 		texture_specular = "unit_fp1_infantry_02_properties.dds"
-		shader = "standard_usercolor"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_scottish_helmet_02"
+		texture_diffuse = "acg_upe_unit_scottish_infantry_02_head_diffuse.dds"
+		texture_normal = "acg_upe_unit_scottish_infantry_02_head_normal.dds"
+		texture_specular = "acg_upe_unit_scottish_infantry_02_head_properties.dds"
+		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }

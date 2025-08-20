@@ -360,7 +360,7 @@ scandinavian_army_03 = {
 anglo_saxon_army_01 = {
 	type = army
 	graphical_cultures = { anglo_saxon_unit_gfx }
-	entity = unit_western_infantry_01_entity
+	entity = unit_fp1_infantry_01_entity
 }
 anglo_saxon_army_02 = {
 	type = army
@@ -380,7 +380,7 @@ anglo_saxon_army_03 = {
 english_army_01 = {
 	type = army
 	graphical_cultures = { english_unit_gfx }
-	entity = unit_english_infantry_01_entity
+	entity = unit_western_infantry_01_entity
 }
 english_army_02 = {
 	type = army

@@ -43,7 +43,10 @@ has_graphical_mediterranean_culture_group_trigger = {
 }
 
 has_graphical_goidelic_culture_group_trigger = {
-	culture = {	has_cultural_pillar = heritage_goidelic }
+	OR = {
+		culture = {	has_cultural_pillar = heritage_goidelic }
+		has_building_gfx = celtic_building_gfx        
+	}
 }
 
 has_graphical_western_culture_group_trigger = {

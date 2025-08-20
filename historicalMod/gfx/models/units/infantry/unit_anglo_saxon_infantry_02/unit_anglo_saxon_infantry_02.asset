@@ -41,6 +41,24 @@ pdxmesh = {
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
+
+	meshsettings = {
+		name = "acg_armor_hre_02"
+		texture_diffuse = "acg_upe_unit_hre_infantry_02_diffuse.dds"
+		texture_normal = "acg_upe_unit_hre_infantry_02_normal.dds"
+		texture_specular = "acg_upe_unit_hre_infantry_02_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_scandinavian_infantry_helmet_02"
+		texture_diffuse = "acg_upe_Scandinavia_helmet_01_diffuse.dds"
+		texture_normal = "acg_upe_Scandinavia_helmet_01_normal.dds"
+		texture_specular = "acg_upe_Scandinavia_helmet_01_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 }
 
 entity = {

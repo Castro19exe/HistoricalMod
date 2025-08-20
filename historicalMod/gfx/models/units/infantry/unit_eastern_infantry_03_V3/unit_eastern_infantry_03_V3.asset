@@ -60,10 +60,10 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "acg_coa_chest_4"
-		texture_diffuse = "acg_upe_unit_hre_infantry_03_diffuse.dds"
-		texture_normal = "acg_upe_unit_hre_infantry_03_normal.dds"
-		texture_specular = "acg_upe_unit_hre_infantry_03_properties.dds"
+		name = "acg_coa_body_5"
+		texture_diffuse = "acg_armor_english_03_diffuse.dds"
+		texture_normal = "acg_armor_english_03_normal.dds"
+		texture_specular = "acg_armor_english_03_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

@@ -206,7 +206,7 @@ frisian = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_north_sea_germanic
-	language = language_north_sea_germanic
+	language = language_frisian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_fishermen

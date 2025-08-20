@@ -222,6 +222,10 @@ create_serbian_empire_decision = {
 
 ############################################################## 
 
+
+
+############################################################## 
+
 create_gothic_kingdom_decision = {
 	picture = {
 		reference =	"gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
