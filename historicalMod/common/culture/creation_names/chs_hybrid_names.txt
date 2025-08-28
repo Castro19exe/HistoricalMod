@@ -1430,7 +1430,7 @@ bohemian_hybrid = { # German-speakers in Czechia. using Böhmisch just to differ
 		}
 
 		any_sub_realm_county = {
-			title:k_bohemia = {
+			title:d_bohemia = {
 				is_de_jure_liege_or_above_target = prev
 			}
 			OR = {

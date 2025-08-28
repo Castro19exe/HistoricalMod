@@ -18,6 +18,7 @@
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/castle_tibetan.dds"
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/castle_berber.dds"
 @holding_illustration_african = "gfx/interface/illustrations/holding_types/castle_african.dds"
+@holding_illustration_baghdad = "gfx/interface/illustrations/holding_types/castle_baghdad.dds"
 
 @holding_illustration_mena_mediterranean = "gfx/interface/illustrations/holding_types/castle_mena_mediterranean.dds"
 
@@ -595,6 +596,24 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
+	}
+
+	### BAGHDAD ###
+	asset = {
+		type = pdxmesh
+		name = "bagdad_castle_mesh"
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { mena_building_gfx }
+		provinces = { 4828 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "bagdad_castle_mesh"
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { iranian_building_gfx }
+		provinces = { 4828 }
 	}
 
 	### EP3 Byzantine ###
@@ -1384,7 +1403,27 @@ castle_02 = {
 		graphical_regions = { graphical_steppe }
 	}
 
-	### EP3 Byzantine/Rome ###
+	### BAGHDAD ###
+	asset = {
+		type = pdxmesh
+		name = "building_mena_castle_02_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { mena_building_gfx }
+		provinces = { 4828 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_persian_castle_02_a_01_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { iranian_building_gfx }
+		provinces = { 4828 }
+	}
+
+	### EP3 Byzantine ###
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
@@ -2151,6 +2190,26 @@ castle_03 = {
 		graphical_regions = { graphical_steppe }
 	}
 
+	### BAGHDAD ###
+	asset = {
+		type = pdxmesh
+		name = "building_mena_castle_03_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { mena_building_gfx }
+		provinces = { 4828 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_persian_castle_03_a_01_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { iranian_building_gfx }
+		provinces = { 4828 }
+	}
+
 	### EP3 Byzantine ###
 	asset = {
 		type = pdxmesh
@@ -2906,6 +2965,26 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
+	}
+
+	### BAGHDAD ###
+	asset = {
+		type = pdxmesh
+		name = "building_mena_castle_04_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { mena_building_gfx }
+		provinces = { 4828 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_persian_castle_04_a_01_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_baghdad
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { iranian_building_gfx }
+		provinces = { 4828 }
 	}
 
 	### EP3 Byzantine ###

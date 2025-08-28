@@ -50,7 +50,7 @@ tribe_01 = {
 		names = {
 			"building_african_tribal_01_a_mesh"
 		}
-		graphical_cultures = { african_building_gfx sahelian_building_gfx }
+		graphical_cultures = { african_building_gfx }
 		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -152,16 +152,15 @@ tribe_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		names = {
-			"western_castle_tribal_01_a_mesh"
-			"western_castle_tribal_01_b_mesh"
-			"western_castle_tribal_01_c_mesh"
-			"western_castle_tribal_01_d_mesh"
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
 		}
-		graphical_cultures = { azmeri_building_gfx }
+		graphical_cultures = { siberian_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
+	
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -259,7 +258,7 @@ tribe_02 = {
 		names = {
 			"building_african_tribal_01_a_mesh"
 		}
-		graphical_cultures = { african_building_gfx sahelian_building_gfx }
+		graphical_cultures = { african_building_gfx }
 		illustration = @holding_illustration_arid
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -361,12 +360,19 @@ tribe_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"western_castle_tribal_01_a_mesh"
-			"western_castle_tribal_01_b_mesh"
-			"western_castle_tribal_01_c_mesh"
-			"western_castle_tribal_01_d_mesh"
+			"sahelian_tribal_mesh"
 		}
-		graphical_cultures = { azmeri_building_gfx }
+		graphical_cultures = { sahelian_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
+		}
+		graphical_cultures = { siberian_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

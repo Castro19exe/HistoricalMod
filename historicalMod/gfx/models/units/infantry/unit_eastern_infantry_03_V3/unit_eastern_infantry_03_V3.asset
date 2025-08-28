@@ -58,15 +58,6 @@ pdxmesh = {
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-
-	meshsettings = {
-		name = "acg_coa_body_5"
-		texture_diffuse = "acg_armor_english_03_diffuse.dds"
-		texture_normal = "acg_armor_english_03_normal.dds"
-		texture_specular = "acg_armor_english_03_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
 }
 
 entity = {

@@ -19,7 +19,7 @@
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { roman_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx } 
 
 	ethnicities = {
 		10 = mediterranean
@@ -141,7 +141,9 @@ sicilian = {
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		10 = mediterranean
+		7 = mediterranean
+		2 = mediterranean_byzantine
+		1 = arab
 	}	
 }
 

@@ -276,7 +276,7 @@ fp3_army_03 = {
 }
 
 
-# Byzantine
+# Byzantine/Roman
 byzantine_army_01 = {
 	type = army
 	graphical_cultures = { byzantine_unit_gfx }
@@ -294,27 +294,6 @@ byzantine_army_03 = {
 	graphical_cultures = { byzantine_unit_gfx }
 	entity = unit_byzantine_infantry_03_alternative_entity
 }
-
-
-# Roman
-roman_army_01 = {
-	type = army
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_roman_infantry_03_entity
-}
-roman_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_roman_infantry_03_entity
-}
-roman_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { roman_unit_gfx }
-	entity = unit_roman_infantry_03_entity
-}
-
 
 # Holy Roman Empire
 hre_army_01 = {
@@ -340,7 +319,7 @@ hre_army_03 = {
 scandinavian_army_01 = {
 	type = army
 	graphical_cultures = { scandinavian_unit_gfx }
-	entity = unit_fp1_infantry_01_entity
+	entity = unit_scandinavian_infantry_01_entity
 }
 scandinavian_army_02 = {
 	type = army
@@ -455,6 +434,7 @@ polish_army_03 = {
 	entity = unit_eastern_infantry_03_V2_entity
 }
 
+
 # Hungarian
 hungarian_army_01 = {
 	type = army
@@ -473,6 +453,7 @@ hungarian_army_03 = {
 	graphical_cultures = { hungarian_unit_gfx }
 	entity = unit_eastern_infantry_03_V3_entity
 }
+
 
 # South Slavic 
 south_slav_army_01 = {
@@ -747,13 +728,13 @@ irish_army_03 = {
 	type = army
 	quality = @tier3_quality
 	graphical_cultures = { irish_unit_gfx }
-	entity = unit_scottish_infantry_02_entity
+	entity = unit_irish_infantry_03_entity
 }
 
 
 
 
-### - NOT HISTORICALLY ###
+### - ONLY FOR TESTS ###
 # Nord
 nord_army_01 = {
 	type = army
@@ -779,6 +760,5 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_scottish_infantry_03_entity
+	entity = unit_berber_infantry_03_entity
 }
-### - NOT HISTORICALLY ###

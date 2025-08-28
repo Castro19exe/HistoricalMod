@@ -46,10 +46,10 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "unit_nord_infantry_01_muntache"
-		texture_diffuse = "unit_nord_infantry_01Shape_diffuse.dds"
-		texture_normal = "unit_nord_infantry_01Shape_normal.dds"
-		texture_specular = "unit_nord_infantry_01Shape_properties.dds"
+		name = "unit_scandinavian_infantry_heard_02"
+		texture_diffuse = "acg_unit_fp1_infantry_01_diffuse_blo_ggcl.dds"
+		texture_normal = "acg_unit_fp1_infantry_01_normal.dds"
+		texture_specular = "acg_unit_fp1_infantry_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

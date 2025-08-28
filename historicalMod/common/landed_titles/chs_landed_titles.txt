@@ -1235,6 +1235,11 @@ e_britannia = {
 						name_list_anglo_saxon = "Lundenburh"
 						name_list_old_saxon = "Lundenburh"
 
+						name_list_norse = "Lundenborg"
+						name_list_norwegian = "Lundenborg"
+						name_list_danish = "Lundenborg"
+						name_list_swedish = "Lundenborg"
+
 						name_list_roman = cn_londinium
 
 						name_list_welsh = cn_llundein
@@ -18189,9 +18194,22 @@ e_scandinavia = {
 					province = 85
 
 					color = { 216 50 50 }
+
+					cultural_names = {
+						name_list_english = "Copenhagen"
+						name_list_franconian = "Kopenhagen"
+						name_list_saxon = "Kopenhagen"
+						name_list_swabian = "Kopenhagen"
+						name_list_bavarian = "Kopenhagen"
+						name_list_thuringian = "Kopenhagen"
+						name_list_norwegian = "Køpmannæhafn"
+						name_list_swedish = "Køpmannæhafn"
+						name_list_danish = "Køpmannæhafn"
+					}
 				}
 				b_naestved = {
 					province = 64
+
 					color = { 216 50 50 }
 
 					cultural_names = {
@@ -18298,6 +18316,10 @@ e_scandinavia = {
 			}
 			c_bornholm = {
 				color = { 220 15 20 }
+
+				cultural_names = {
+					name_list_norse = "Burgundaholmr"
+				}
 
 				b_ronne = {
 					province = 77
@@ -20145,6 +20167,11 @@ e_wendish_empire = {
 						name_list_polabian = cn_racisburg
 						name_list_pommeranian = cn_racisburg
 						name_list_sorbian = cn_racisburg
+
+						name_list_norse = "Ratsborg"
+						name_list_swedish = "Ratsborg"
+						name_list_norwegian = "Ratsborg"
+						name_list_danish = "Ratsborg"
 					}
 				}
 				b_schwerin = {
@@ -20219,6 +20246,11 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_kissinia
+
+					name_list_norse = "Raudstock"
+					name_list_swedish = "Raudstock"
+					name_list_norwegian = "Raudstock"
+					name_list_danish = "Raudstock"
 				}
 
 				b_rostock = {
@@ -20228,6 +20260,11 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_roztoc
+
+						name_list_norse = "Raudstock"
+						name_list_swedish = "Raudstock"
+						name_list_norwegian = "Raudstock"
+						name_list_danish = "Raudstock"
 					}
 				}
 				b_gustrow = {
@@ -48491,6 +48528,18 @@ e_spain = {
 					province = 1752
 
 					color = { 170 230 130 }
+
+					cultural_names = {
+						name_list_bedouin = cn_qasr_abi_danis
+						name_list_baranis = cn_qasr_abi_danis #the Banu Danis built this stronghold
+						name_list_butr = cn_qasr_abi_danis
+						name_list_zaghawa = cn_qasr_abi_danis
+						name_list_levantine = cn_qasr_abi_danis
+						name_list_egyptian = cn_qasr_abi_danis
+						name_list_maghrebi = cn_qasr_abi_danis
+						name_list_andalusian = cn_qasr_abi_danis
+						name_list_yemeni = cn_qasr_abi_danis
+					}
 				}
 				b_montemor = {
 					province = 1779
@@ -48528,6 +48577,18 @@ e_spain = {
 					province = 1776
 
 					color = { 165 230 105 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_bash
+						name_list_baranis = cn_al_bash
+						name_list_butr = cn_al_bash
+						name_list_zaghawa = cn_al_bash
+						name_list_levantine = cn_al_bash
+						name_list_egyptian = cn_al_bash
+						name_list_maghrebi = cn_al_bash
+						name_list_andalusian = cn_al_bash
+						name_list_yemeni = cn_al_bash
+					}
 				}
 				b_nisa = {
 					province = 1774
@@ -48644,6 +48705,18 @@ e_spain = {
 					province = 1954
 
 					color = { 130 250 65 }
+
+					cultural_names = {
+						name_list_bedouin = cn_hisn_qasras
+						name_list_baranis = cn_hisn_qasras
+						name_list_butr = cn_hisn_qasras
+						name_list_zaghawa = cn_hisn_qasras
+						name_list_levantine = cn_hisn_qasras
+						name_list_egyptian = cn_hisn_qasras
+						name_list_maghrebi = cn_hisn_qasras
+						name_list_andalusian = cn_hisn_qasras
+						name_list_yemeni = cn_hisn_qasras
+					}
 				}
 				b_alcantara = {
 					province = 1832

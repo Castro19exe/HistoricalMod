@@ -92,7 +92,7 @@ entity = {
 	state = { 
 		name = "besiege"
 		animation = "besiege_animation"
-		start_event = { node = Right_hand_node_1 entity = "unit_western_infantry_03_weapon_entity" }
+		start_event = { node = Right_hand_node_1 entity = "unit_scottish_infantry_02_weapon_entity" }
 		start_event = { node = Left_hand_node_1 entity = "unit_scottish_infantry_02_shield_entity" }
 
 		event = { time = 0.0 soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } soundparameter = {"props_wood_metal" = 0.0 } sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_idle_var1" }}
@@ -393,4 +393,42 @@ entity = {
 		event = { time = 1.2  particle = "units/weapon_impact_wood" keep_particle = yes }
 
 	}	
+}
+
+
+###Scottish Weapon
+
+pdxmesh = {
+	name = "unit_scottish_infantry_02_weapon_mesh"
+	file = "unit_scottish_infantry_02_weapon.mesh"
+
+	meshsettings = {
+		name = "unit_scottish_weapon_guard_02"
+		texture_diffuse = "acg_upe_unit_scottish_infantry_02_diffuse.dds"
+		texture_normal = "acg_upe_unit_scottish_infantry_02_normal_v2.dds"
+		texture_specular = "acg_upe_unit_scottish_infantry_02_properties_v2.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "unit_scottish_infantry_02_weapon_entity"
+	pdxmesh = "unit_scottish_infantry_02_weapon_mesh"
+	scale = 0.06
+
+	state = { name = "winlose_defensive_seq_1"
+		state_time = 5
+		event = { time = 2.7 node = effect_tip particle = "weapon_impact_1" keep_particle = yes }
+
+	}
+
+	state = { name = "pursuit_offensive_seq_1"
+		state_time = 5
+		event = { time = 0.24 node = effect_tip particle = "blood_impact" keep_particle = yes }
+		event = { time = 1.14 node = effect_tip particle = "blood_impact" keep_particle = yes }
+		event = { time = 2.5 node = effect_tip particle = "blood_impact" keep_particle = yes }
+		event = { time = 3.18 node = effect_tip particle = "blood_impact" keep_particle = yes }
+
+	}
 }

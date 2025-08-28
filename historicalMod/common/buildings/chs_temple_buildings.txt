@@ -310,21 +310,12 @@ temple_01 = {
 
 	### TENGRI STEPPE ###
 	asset = {
-		type = pdxmesh
-		name = "steppe_shrine_01_mesh"
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "steppe_shrine_01_mesh"
-		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "tengrism_gfx" }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### CATHOLIC CELTIC ###
@@ -1102,21 +1093,12 @@ temple_02 = {
 
 	### TENGRI STEPPE ###
 	asset = {
-		type = pdxmesh
-		name = "steppe_shrine_01_mesh"
+		type = entity
+		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "steppe_shrine_01_mesh"
-		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "tengrism_gfx" }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### CATHOLIC CELTIC ###
@@ -1774,15 +1756,6 @@ temple_03 = {
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { steppe_building_gfx }
 	}
-	asset = {
-		type = entity
-		name = "mpo_mongol_temple_01_entity"
-		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "tengrism_gfx" }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
 
 	### CATHOLIC CELTIC ###
 	asset = {
@@ -2413,15 +2386,6 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = entity
-		name = "mpo_mongol_temple_01_entity"
-		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "tengrism_gfx" }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### CATHOLIC CELTIC ###
