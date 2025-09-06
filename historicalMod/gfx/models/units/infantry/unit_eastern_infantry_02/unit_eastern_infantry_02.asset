@@ -51,19 +51,19 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "unit_nord_infantry_01_hairrr"
-		texture_diffuse = "unit_nord_infantry_01Shape_diffuse.dds"
-		texture_normal = "unit_nord_infantry_01Shape_normal.dds"
-		texture_specular = "unit_nord_infantry_01Shape_properties.dds"
+		name = "unit_eastern_hair_02"
+		texture_diffuse = "acg_unit_fp1_infantry_02_diffuse.dds"
+		texture_normal = "acg_unit_fp1_infantry_02_normal.dds"
+		texture_specular = "acg_unit_fp1_infantry_02_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "unit_nord_infantry_01_muntache"
-		texture_diffuse = "unit_nord_infantry_01Shape_diffuse.dds"
-		texture_normal = "unit_nord_infantry_01Shape_normal.dds"
-		texture_specular = "unit_nord_infantry_01Shape_properties.dds"
+		name = "unit_eastern_beard_02"
+		texture_diffuse = "acg_upe_unit_scottish_infantry_02_diffuse_bro.dds"
+		texture_normal = "acg_upe_unit_scottish_infantry_02_normal_v2.dds"
+		texture_specular = "acg_upe_unit_scottish_infantry_02_properties_v2.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

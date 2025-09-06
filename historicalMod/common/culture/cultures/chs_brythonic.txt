@@ -14,7 +14,7 @@
 	
 	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { celtic_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
@@ -137,7 +137,7 @@ cumbrian = {
 	
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
@@ -167,7 +167,6 @@ pictish = {
 	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
 	building_gfx = { celtic_building_gfx } 
 	clothing_gfx = { northern_clothing_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { northern_unit_gfx } 	
 
 	ethnicities = {

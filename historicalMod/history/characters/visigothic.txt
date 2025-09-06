@@ -2197,7 +2197,7 @@
 }
 
 200295 = {
-	name = "Aoricho" # Aorico
+	name = "Aoric" # Aorico
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = gothic
@@ -2212,7 +2212,7 @@
 }
 
 200296 = {
-	name = "Athanaricho" # Atanarico
+	name = "Athanaric" # Atanarico
 	dynasty = 1046035 # Balthing Dynasty
 	religion = catholic
 	culture = gothic

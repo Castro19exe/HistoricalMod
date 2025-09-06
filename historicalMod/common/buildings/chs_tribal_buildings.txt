@@ -1,10 +1,7 @@
 ﻿@holding_illustration_arid = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
 @holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
-@holding_illustration_prairie = "gfx/interface/illustrations/holding_types/tribe_prairie.dds"
 @holding_illustration_guinean = "gfx/interface/illustrations/holding_types/tribe_african.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/tribe_mena.dds"
-
-@holding_illustration_norse_mediterranean = "gfx/interface/illustrations/holding_types/tribe_norse_mediterranean.dds"
 
 # Tribal Hold
 tribe_01 = {
@@ -70,18 +67,16 @@ tribe_01 = {
 			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
-		illustration = @holding_illustration_norse_mediterranean
+		graphical_cultures = { northern_building_gfx }
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp1_building_norse_tribal_mesh"
+			building_western_tribal_01_a_mesh
 		}
-		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { northern_building_gfx }
+		graphical_cultures = { eastern_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -91,15 +86,6 @@ tribe_01 = {
 			"building_celtic_hillfort_01_mesh"
 		}
 		graphical_cultures = { celtic_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"prairie_tribal_mesh"
-		}
-		graphical_cultures = { prairie_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -152,6 +138,15 @@ tribe_01 = {
 	}
 	asset = {
 		type = pdxmesh
+		names = {
+			"sahelian_tribal_mesh"
+		}
+		graphical_cultures = { sahelian_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
 		names = { 
 			"building_sami_tribal_01_mesh" 
 			"building_sami_tribal_01_b_mesh" 
@@ -160,7 +155,6 @@ tribe_01 = {
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
-	
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -278,18 +272,16 @@ tribe_02 = {
 			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
-		illustration = @holding_illustration_norse_mediterranean
+		graphical_cultures = { northern_building_gfx }
+		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
 		type = pdxmesh
 		names = {
-			"fp1_building_norse_tribal_mesh"
+			building_western_tribal_01_a_mesh
 		}
-		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { northern_building_gfx }
+		graphical_cultures = { eastern_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -299,15 +291,6 @@ tribe_02 = {
 			"building_celtic_hillfort_02_mesh"
 		}
 		graphical_cultures = { celtic_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"prairie_tribal_mesh"
-		}
-		graphical_cultures = { prairie_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

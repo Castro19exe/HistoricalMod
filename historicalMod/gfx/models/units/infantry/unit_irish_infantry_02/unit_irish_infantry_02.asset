@@ -34,31 +34,28 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_irish_infantry_02_diffuse.dds"
-		texture_normal = "unit_irish_infantry_02_normal.dds"
-		texture_specular = "unit_irish_infantry_02_properties.dds"
+		name = "unit_irish_body_infantary_02"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
-		texture_diffuse = "unit_irish_infantry_02_body_diffuse.dds"
-		texture_normal = "unit_irish_infantry_02_body_normal.dds"
-		texture_specular = "unit_irish_infantry_02_body_properties.dds"
+		name = "unit_irish_helmet_infantary_02"
+		texture_diffuse = "acg_upe_unit_irish_infantry_02_helmet_diffuse.dds"
+		texture_normal = "acg_upe_unit_irish_infantry_02_helmet_normal.dds"
+		texture_specular = "acg_upe_unit_irish_infantry_02_helmet_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 2
-		texture_diffuse = "unit_irish_infantry_02_helmet_diffuse.dds"
-		texture_normal = "unit_irish_infantry_02_helmet_normal.dds"
-		texture_specular = "unit_irish_infantry_02_helmet_properties.dds"
+		name = "unit_irish_armour_infantary_02"
+		texture_diffuse = "acg_upe_unit_irish_infantry_02_diffuse.dds"
+		texture_normal = "acg_upe_unit_irish_infantry_02_normal.dds"
+		texture_specular = "acg_upe_unit_irish_infantry_02_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}	
@@ -349,9 +346,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "jorodoxShape"
 		index = 0
-		texture_diffuse = "unit_irish_infantry_02_shield_diffuse.dds"
-		texture_normal = "unit_irish_infantry_02_shield_normal.dds"
-		texture_specular = "unit_irish_infantry_02_shield_properties.dds"
+		texture_diffuse = "acg_upe_unit_irish_infantry_02_shield_diffuse.dds"
+		texture_normal = "acg_upe_unit_irish_infantry_02_shield_normal.dds"
+		texture_specular = "acg_upe_unit_irish_infantry_02_shield_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

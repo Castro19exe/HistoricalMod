@@ -52,7 +52,7 @@ north_gallo_roman = {
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { roman_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx } 
 	
 	ethnicities = {
 		20 = caucasian_blond
@@ -89,7 +89,7 @@ south_gallo_roman = {
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { roman_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx } 
 	
 	ethnicities = {
 		20 = caucasian_blond

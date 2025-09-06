@@ -602,8 +602,8 @@
 ##d_transcarpathia ###################################
 ###c_marmaros
 539 = {		#Marmaros
-	culture = chrobatian
-	religion = slavic_pagan
+	culture = avar
+	religion = tengri_pagan
 	holding = tribal_holding
 	
 	900.1.1 = {

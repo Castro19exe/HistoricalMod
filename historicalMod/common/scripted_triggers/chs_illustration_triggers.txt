@@ -99,5 +99,8 @@ has_graphical_iranian_culture_group_trigger = {
 }
 
 has_graphical_east_asian_culture_group_trigger = {
-	has_building_gfx = chinese_building_gfx
+	OR = {
+		has_building_gfx = chinese_building_gfx
+		has_building_gfx = siberian_building_gfx
+	}
 }
