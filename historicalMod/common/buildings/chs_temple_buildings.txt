@@ -1,14 +1,16 @@
-@illustration_christian = "gfx/interface/illustrations/holding_types/temple_christian.dds"
 @illustration_generic_grass = "gfx/interface/illustrations/holding_types/temple_generic_grass.dds"
 @illustration_generic_arid = "gfx/interface/illustrations/holding_types/temple_generic_arid.dds"
+@illustration_christian = "gfx/interface/illustrations/holding_types/temple_christian.dds"
 @illustration_india = "gfx/interface/illustrations/holding_types/temple_india.dds"
 @illustration_islamic = "gfx/interface/illustrations/holding_types/temple_islamic.dds"
 @illustration_orthodox = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
 @illustration_northern_pagan = "gfx/interface/illustrations/holding_types/temple_northern_pagan.dds"
+@illustration_northern_christian = "gfx/interface/illustrations/holding_types/temple_scandinavian_christian.dds"
 @illustration_eastern_pagan = "gfx/interface/illustrations/holding_types/temple_norse_generic.dds"
 @illustration_iberian_christian = "gfx/interface/illustrations/holding_types/temple_iberian_christian.dds"
 @illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds"
 @illustration_byzantine_orthodox = "gfx/interface/illustrations/holding_types/temple_byzantine_orthodox.dds"
+@illustration_byzantine_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
 @illustration_china = "gfx/interface/illustrations/holding_types/temple_chinese.dds"
 @illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
@@ -16,7 +18,6 @@
 @illustration_tengri = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds"
 @illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
 @illustration_slavic_orthodox = "gfx/interface/illustrations/holding_types/temple_norse_orthodox.dds"
-@illustration_byzantine_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
 @illustration_celtic_christian = "gfx/interface/illustrations/holding_types/temple_goidelic_christian.dds"
 
 temple_01 = {
@@ -103,7 +104,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_01_mesh"
-		illustration = @illustration_byzantine_orthodox
+		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mediterranean" }
@@ -232,7 +233,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -240,7 +241,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -249,7 +250,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -258,7 +259,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -311,6 +312,93 @@ temple_01 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	# EP3 Orthodox
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Pagan
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	# MPO Tengri
 	asset = {
 		type = entity
@@ -319,6 +407,7 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_steppe" }
 	}
 	asset = {
 		type = entity
@@ -327,7 +416,27 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
+	}
+
+	# MPO Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
 		graphical_regions = { "graphical_steppe" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	# SAHELIAN
@@ -548,7 +657,7 @@ temple_01 = {
 		graphical_regions = { "graphical_steppe" }
 	}
 	
-	# EAST SLAVIC
+	# EAST SLAVIC Orthodox
 	asset = {
 		type = pdxmesh
 		name = "slavic_temple_01_orthodox_mesh"
@@ -954,7 +1063,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_01_mesh"
-		illustration = @illustration_byzantine_orthodox
+		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mediterranean" }
@@ -1083,7 +1192,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1091,7 +1200,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1100,7 +1209,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1109,7 +1218,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_01_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1162,6 +1271,93 @@ temple_02 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	# EP3 Orthodox
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_01_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Pagan
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_01_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	# MPO Tengri
 	asset = {
 		type = entity
@@ -1170,6 +1366,7 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_steppe" }
 	}
 	asset = {
 		type = entity
@@ -1178,7 +1375,27 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
+	}
+
+	# MPO Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
 		graphical_regions = { "graphical_steppe" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	# SAHELIAN
@@ -1399,7 +1616,7 @@ temple_02 = {
 		graphical_regions = { "graphical_steppe" }
 	}
 	
-	# EAST SLAVIC
+	# EAST SLAVIC Orthodox
 	asset = {
 		type = pdxmesh
 		name = "slavic_temple_01_orthodox_mesh"
@@ -1657,7 +1874,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_02_mesh"
-		illustration = @illustration_byzantine_orthodox
+		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mediterranean" }
@@ -1786,7 +2003,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1794,7 +2011,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1803,7 +2020,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1812,7 +2029,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -1865,23 +2082,131 @@ temple_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	# EP3 Orthodox
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Pagan
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	# MPO Tengri
 	asset = {
 		type = entity
 		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_steppe" }
 	}
 	asset = {
 		type = entity
 		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
+	}
+
+	# MPO Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
 		graphical_regions = { "graphical_steppe" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	# SAHELIAN
@@ -2102,7 +2427,7 @@ temple_03 = {
 		graphical_regions = { "graphical_steppe" }
 	}
 	
-	# EAST SLAVIC
+	# EAST SLAVIC Orthodox
 	asset = {
 		type = pdxmesh
 		name = "slavic_temple_01_b_orthodox_mesh"
@@ -2351,7 +2676,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_02_mesh"
-		illustration = @illustration_byzantine_orthodox
+		illustration = @illustration_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mediterranean" }
@@ -2480,7 +2805,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -2488,7 +2813,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -2497,7 +2822,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -2506,7 +2831,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_magyar_christian
+		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
@@ -2559,23 +2884,131 @@ temple_04 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	# EP3 Orthodox
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_orthodox_02_mesh"
+		illustration = @illustration_byzantine_orthodox
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "orthodox_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	# EP3 Pagan
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_pagan_02_a_mesh"
+		illustration = @illustration_byzantine_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
 	# MPO Tengri
 	asset = {
 		type = entity
 		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_steppe" }
 	}
 	asset = {
 		type = entity
 		name = "mpo_mongol_temple_01_entity"
 		illustration = @illustration_tengri
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "tengrism_gfx" }
 		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
+	}
+
+	# MPO Islamic
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
 		graphical_regions = { "graphical_steppe" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mediterranean_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "steppe_building_gfx" }
+		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	# SAHELIAN
@@ -2797,7 +3230,7 @@ temple_04 = {
 		graphical_regions = { "graphical_steppe" }
 	}
 	
-	# EAST SLAVIC
+	# EAST SLAVIC Orthodox
 	asset = {
 		type = pdxmesh
 		name = "slavic_temple_01_b_orthodox_mesh"

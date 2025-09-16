@@ -1256,8 +1256,8 @@ e_britannia = {
 					province = 1526
 
 					cultural_names = {
-						name_list_anglo_saxon = cn_suthweorc
-						name_list_old_saxon = cn_suthweorc
+						name_list_anglo_saxon = Suþweorc
+						name_list_old_saxon = Suþweorc
 					}
 
 					color = { 230 5 5 }
@@ -1266,6 +1266,11 @@ e_britannia = {
 					province = 1528
 
 					color = { 230 5 5 }
+
+					cultural_names = {
+						name_list_english = Uxbridge
+						name_list_scottish = Uxbridge
+					}
 				}
 				b_gore = {
 					province = 1529
@@ -1295,8 +1300,8 @@ e_britannia = {
 					province = 1514
 
 					cultural_names = {
-						name_list_anglo_saxon = cn_colenceaster
-						name_list_old_saxon = cn_colenceaster
+						name_list_anglo_saxon = Colenceastre
+						name_list_old_saxon = Colenceastre
 					}
 
 					color = { 220 20 30 }
@@ -1310,6 +1315,11 @@ e_britannia = {
 					province = 1516
 
 					color = { 220 20 30 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Celmeresfort
+						name_list_old_saxon = Celmeresfort
+					}
 				}
 				b_dunmow = {
 					province = 1517
@@ -1369,6 +1379,11 @@ e_britannia = {
 					province = 1533
 
 					color = { 250 35 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = cn_herutford
+						name_list_old_saxon = cn_herutford
+					}
 				}
 			}
 
@@ -1444,6 +1459,7 @@ e_britannia = {
 
 				cultural_names = {
 					name_list_anglo_saxon = cn_bernicia
+
 					name_list_breton = cn_bryneich
 					name_list_cornish = cn_bryneich
 					name_list_cumbrian = cn_bryneich
@@ -1593,6 +1609,8 @@ e_britannia = {
 			capital = c_lancashire # Lancaster
 
 			cultural_names = {
+				name_list_anglo_saxon = Luneceastre
+				name_list_old_saxon = Luneceastre
 				name_list_breton = cn_rheged
 				name_list_cornish = cn_rheged
 				name_list_cumbrian = cn_rheged
@@ -1607,6 +1625,16 @@ e_britannia = {
 					province = 1639
 
 					color = { 250 55 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Luneceastre
+						name_list_old_saxon = Luneceastre
+						name_list_breton = cn_rheged
+						name_list_cornish = cn_rheged
+						name_list_cumbrian = cn_rheged
+						name_list_welsh = cn_rheged
+						name_list_pictish = cn_rheged
+					}
 				}
 				b_salford = {
 					province = 1640
@@ -1636,10 +1664,20 @@ e_britannia = {
 			c_cheshire = {
 				color = { 255 127 15 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Ceastrescir
+					name_list_old_saxon = Ceastrescir
+				}
+
 				b_chester = {
 					province = 1643
 
 					color = { 255 152 50 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Ceastre
+						name_list_old_saxon = Ceastre
+					}
 				}
 				b_northwich = {
 					province = 1644
@@ -1656,6 +1694,9 @@ e_britannia = {
 				color = { 255 50 20 }
 
 				cultural_names = {
+					name_list_anglo_saxon = Deoraby
+					name_list_old_saxon = Deoraby
+
 					name_list_norwegian = cn_djuraby
 					name_list_danish = cn_djuraby
 					name_list_swedish = cn_djuraby
@@ -1668,6 +1709,9 @@ e_britannia = {
 					color = { 255 89 89 }
 
 					cultural_names = {
+						name_list_anglo_saxon = Deoraby
+						name_list_old_saxon = Deoraby
+
 						name_list_norwegian = cn_djuraby
 						name_list_danish = cn_djuraby
 						name_list_swedish = cn_djuraby
@@ -1751,6 +1795,15 @@ e_britannia = {
 					province = 1596
 
 					color = { 255 95 20 }
+
+					cultural_names = {
+						name_list_norse = "Skarðaborg"
+						name_list_norwegian = "Skarðaborg"
+						name_list_swedish = "Skarðaborg"
+						name_list_danish = "Skarðaborg"
+
+						name_list_anglo_saxon = "Escardeburh"
+					}
 				}
 				b_whitby = {
 					province = 1597
@@ -1818,6 +1871,10 @@ e_britannia = {
 					province = 1592
 
 					color = { 255 120 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Dunceastre
+					}
 				}
 				b_halifax = {
 					province = 1593
@@ -1828,6 +1885,10 @@ e_britannia = {
 					province = 1594
 
 					color = { 255 120 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Sceaffeld
+					}
 				}
 				b_bolton = {
 					province = 1499
@@ -2003,6 +2064,11 @@ e_britannia = {
 					province = 1603
 
 					color = { 190 30 30 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Wæringwic
+						name_list_old_saxon = Wæringwic
+					}
 				}
 				b_coventry = {
 					province = 1604
@@ -2047,8 +2113,8 @@ e_britannia = {
 				color = { 175 0 30 }
 
 				cultural_names = {
-					name_list_anglo_saxon = "Snottengahamshire"
-					name_list_old_saxon = "Snottengahamshire"
+					name_list_anglo_saxon = "Snotinghamscire"
+					name_list_old_saxon = "Snotinghamscire"
 				}
 
 				b_nottingham = {
@@ -2057,8 +2123,8 @@ e_britannia = {
 					color = { 175 0 30 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Snottengaham"
-						name_list_old_saxon = "Snottengaham"
+						name_list_anglo_saxon = "Snotingaham"
+						name_list_old_saxon = "Snotingaham"
 					}
 				}
 				b_newark = {
@@ -2079,11 +2145,20 @@ e_britannia = {
 					province = 1627
 
 					color = { 210 90 65 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Stæþford"
+						name_list_old_saxon = "Stæþford"
+					}
 				}
 				b_wolverhampton = {
 					province = 1628
 
 					color = { 210 90 65 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Wulfruneheantun"
+					}
 				}
 				b_stoke_on_trent = {
 					province = 1629
@@ -2098,6 +2173,10 @@ e_britannia = {
 					province = 1624
 
 					color = { 160 20 5 }
+					
+					cultural_names = {
+						name_list_anglo_saxon = "Weogoranceastre"
+					}
 				}
 				b_evesham = {
 					province = 1625
@@ -2166,6 +2245,8 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = "Scrobbesburh"
+						name_list_old_saxon = "Scrobbesburh"
+						name_list_welsh = "Amwythig"
 					}
 				}
 				b_ludlow = {
@@ -2199,6 +2280,7 @@ e_britannia = {
 					color = { 245 85 20 }
 
 					cultural_names = {
+						name_list_anglo_saxon = "Gleawceastre"
 						name_list_welsh = "Caerloyw"
 					}
 				}
@@ -2247,8 +2329,8 @@ e_britannia = {
 				color = { 255 115 15 }
 
 				cultural_names = {
-					name_list_anglo_saxon = "Oxnafordshire"
-					name_list_old_saxon = "Oxnafordshire"
+					name_list_anglo_saxon = "Oxnafordscire"
+					name_list_old_saxon = "Oxnafordscire"
 				}
 
 				b_oxford = {
@@ -2310,6 +2392,11 @@ e_britannia = {
 					province = 1502
 
 					color = { 245 105 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Dofras"
+						name_list_old_saxon = "Dofras"
+					}
 				}
 				b_canterbury = {
 					province = 1503
@@ -2374,6 +2461,11 @@ e_britannia = {
 					province = 1506
 
 					color = { 225 105 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Hlæwes"
+						name_list_old_saxon = "Hlæwes"
+					}
 				}
 				b_chichester = {
 					province = 1507
@@ -2381,8 +2473,8 @@ e_britannia = {
 					color = { 225 105 10 }
 					
 					cultural_names = {
-						name_list_anglo_saxon = Cissanceaster
-						name_list_old_saxon = Cissanceaster
+						name_list_anglo_saxon = Cissanceastre
+						name_list_old_saxon = Cissanceastre
 					}
 				}
 				b_arun = {
@@ -2396,8 +2488,8 @@ e_britannia = {
 					color = { 225 105 10 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Hæstingaceaster"
-						name_list_old_saxon = "Hæstingaceaster"
+						name_list_anglo_saxon = "Hæstingas"
+						name_list_old_saxon = "Hæstingas"
 					}
 				}
 			}
@@ -2426,7 +2518,7 @@ e_britannia = {
 					color = { 230 15 55 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Wintancaester"
+						name_list_anglo_saxon = "Wintanceastre"
 					}
 				}
 				b_southampton = {
@@ -2484,6 +2576,10 @@ e_britannia = {
 					province = 1567
 
 					color = { 185 0 75 }
+
+					cultural_names = {
+						name_list_anglo_saxon = "Sceaftesburh"
+					}
 				}
 				b_lyme = {
 					province = 1568
@@ -3624,13 +3720,13 @@ e_britannia = {
 					color = { 185 90 25 }
 
 					cultural_names = {
-						name_list_gaelic = Dùn Èideann
-						name_list_anglo_saxon = Eidynburh
-						name_list_old_saxon = Eidynburh
-						name_list_norse = Edinborg
-						name_list_swedish = Edinborg
-						name_list_norwegian = Edinborg
-						name_list_danish = Edinborg
+						name_list_gaelic = "Dùn Èideann"
+						name_list_anglo_saxon = "Eidynburh"
+						name_list_old_saxon = "Eidynburh"
+						name_list_norse = "Edinborg"
+						name_list_swedish = "Edinborg"
+						name_list_norwegian = "Edinborg"
+						name_list_danish = "Edinborg"
 					}
 				}
 				b_haddington = {
@@ -7137,6 +7233,8 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
+						name_list_roman = "Pucinium"
+
 						name_list_italian = "Pisino"
 						name_list_lombard = "Pisino"
 						name_list_cisalpine = "Pisino"
@@ -7144,13 +7242,8 @@ e_germany = {
 						name_list_sardinian = "Pisino"
 						name_list_dalmatian = "Pisino"
 
-						name_list_franconian = "Mitterburg"
-						name_list_swabian = "Mitterburg"
-						name_list_thuringian = "Mitterburg"
-						name_list_bavarian = "Mitterburg"
-						name_list_saxon = "Mitterburg"
-
-						name_list_roman = "Pucinium"
+						name_list_croatian = "Pazin"
+						name_list_carantanian = "Pazin"
 					}
 				}
 				b_labin = {
@@ -20015,6 +20108,10 @@ e_wendish_empire = {
 					name_list_swabian = cn_zehden
 					name_list_bavarian = cn_zehden
 					name_list_thuringian = cn_zehden
+					name_list_norse = cn_zehden
+					name_list_swedish = cn_zehden
+					name_list_norwegian = cn_zehden
+					name_list_danish = cn_zehden
 				}
 
 				b_soldin = {	#b_cedynia
@@ -20028,6 +20125,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_zehden
 						name_list_bavarian = cn_zehden
 						name_list_thuringian = cn_zehden
+						name_list_norse = cn_zehden
+						name_list_swedish = cn_zehden
+						name_list_norwegian = cn_zehden
+						name_list_danish = cn_zehden
 					}
 				}
 				b_kostschin = {	#b_kostrzyn
@@ -20041,6 +20142,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_kustrin
 						name_list_bavarian = cn_kustrin
 						name_list_thuringian = cn_kustrin
+						name_list_norse = Kustrin
+						name_list_swedish = Kustrin
+						name_list_norwegian = Kustrin
+						name_list_danish = Kustrin
 					}
 				}
 			}
@@ -20087,6 +20192,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_tempelburg
 						name_list_bavarian = cn_tempelburg
 						name_list_thuringian = cn_tempelburg
+						name_list_norse = Tempelborg
+						name_list_swedish = Tempelborg
+						name_list_norwegian = Tempelborg
+						name_list_danish = Tempelborg
 					}
 				}
 				b_belgard = {		#b_bialogard
@@ -20116,6 +20225,10 @@ e_wendish_empire = {
 					name_list_swabian = cn_deutsch_krone
 					name_list_bavarian = cn_deutsch_krone
 					name_list_thuringian = cn_deutsch_krone
+					name_list_norse = Arnskrona
+					name_list_swedish = Arnskrona
+					name_list_norwegian = Arnskrona
+					name_list_danish = Arnskrona
 				}
 
 				b_walcz = {
@@ -20129,6 +20242,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_deutsch_krone
 						name_list_bavarian = cn_deutsch_krone
 						name_list_thuringian = cn_deutsch_krone
+						name_list_norse = Arnskrona
+						name_list_swedish = Arnskrona
+						name_list_norwegian = Arnskrona
+						name_list_danish = Arnskrona
 					}
 				}
 				b_pila = {
@@ -20142,6 +20259,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_schneidemuhl
 						name_list_bavarian = cn_schneidemuhl
 						name_list_thuringian = cn_schneidemuhl
+						name_list_norse = Sågverk
+						name_list_swedish = Sågverk
+						name_list_norwegian = Sågverk
+						name_list_danish = Sågverk
 					}
 				}
 				b_szczecinek = {
@@ -20155,6 +20276,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_neustettin
 						name_list_bavarian = cn_neustettin
 						name_list_thuringian = cn_neustettin
+						name_list_norse = Nyborstaborg
+						name_list_swedish = Nyborstaborg
+						name_list_norwegian = Nyborstaborg
+						name_list_danish = Nyborstaborg
 					}
 				}
 			}
@@ -20201,6 +20326,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_filehne
 						name_list_bavarian = cn_filehne
 						name_list_thuringian = cn_filehne
+						name_list_norse = Drisen
+						name_list_swedish = Drisen
+						name_list_norwegian = Drisen
+						name_list_danish = Drisen
 					}
 				}
 				b_arnswalde = {	#b_stargard
@@ -23649,7 +23778,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 	capital = c_praha # Praha
 
 	cultural_names = {
-		name_list_roman = "Boiohaemum"
+		name_list_roman = Boiohaemum
 	}
 
 	ai_primary_priority = {
@@ -23667,7 +23796,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 		capital = c_praha # Praha
 
 		cultural_names = {
-			name_list_roman = "Boiohaemum"
+			name_list_roman = Boiohaemum
 		}
 			
 		c_praha = {
@@ -23693,9 +23822,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				name_list_english = "Prague"
 
 				name_list_pommeranian = "Praga"
-				name_list_czech = "Praha"
 				name_list_polish = "Praga"
-				name_list_slovien = "Praha"
 
 				name_list_russian = "Prága"
 
@@ -23730,9 +23857,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_english = "Prague"
 
 					name_list_pommeranian = "Praga"
-					name_list_czech = "Praha"
 					name_list_polish = "Praga"
-					name_list_slovien = "Praha"
 
 					name_list_russian = "Prága"
 
@@ -24438,7 +24563,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 			color = { 201 118 11 }
 
 			cultural_names = {
-
 				name_list_norse = "Konunggräts"
 				name_list_norwegian = "Konunggräts"
 				name_list_danish = "Konunggräts"
@@ -24492,7 +24616,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 201 118 11 }
 
 				cultural_names = {
-
 					name_list_czech = "Dvůr Králové nad Labem"
 					name_list_slovien = "Dvůr Králové nad Labem"
 
@@ -26800,7 +26923,7 @@ e_russia = {	#Kievan Rus
 			capital = c_novgorod # Novgorod
 
 			cultural_names = {
-				name_list_crimean_gothic = Niwagards
+				name_list_crimean_gothic = Ilminbaurg
 				name_list_norse = cn_holmgardr
 				name_list_swedish = cn_holmgardr
 				name_list_danish = cn_holmgardr
@@ -26811,12 +26934,22 @@ e_russia = {	#Kievan Rus
 			c_novgorod = {
 				color = { 122 153 90 }
 
+				cultural_names = {
+					name_list_crimean_gothic = Ilminbaurg
+					name_list_norse = cn_holmgardr
+					name_list_swedish = cn_holmgardr
+					name_list_danish = cn_holmgardr
+					name_list_norwegian = cn_holmgardr
+					name_list_lithuanian = cn_naugardas
+				}
+
 				b_novgorod = {
 					province = 5137
 
 					color = { 122 153 90 }
 
 					cultural_names = {
+						name_list_crimean_gothic = Ilminbaurg
 						name_list_norse = cn_holmgardr
 						name_list_swedish = cn_holmgardr
 						name_list_danish = cn_holmgardr
@@ -26830,6 +26963,7 @@ e_russia = {	#Kievan Rus
 					color = { 122 153 90 }
 
 					cultural_names = {
+						name_list_crimean_gothic = Aldeigabaurg
 						name_list_norse = cn_aldeigjuborg
 						name_list_swedish = cn_aldeigjuborg
 						name_list_danish = cn_aldeigjuborg
@@ -28642,6 +28776,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_olbia
+					name_list_crimean_gothic = Aúdesus
 				}
 
 				b_okachiv = {
@@ -28658,6 +28793,10 @@ e_caspian-pontic_steppe = {
 					province = 5268
 
 					color = { 137 69 13 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Aúdesus
+					}
 				}
 				b_olbia_ETEL = {
 					province = 542
@@ -28697,7 +28836,7 @@ e_caspian-pontic_steppe = {
 
 					color = { 183 125 94 }
 				}
-				}
+			}
 		}
 
 		d_levedia = {
@@ -28707,6 +28846,12 @@ e_caspian-pontic_steppe = {
 
 			cultural_names = {
 				name_list_greek = cn_scythia
+				name_list_bolghar = "Vahşi-Stepler"
+				name_list_turkish = "Vahşi-Stepler"
+				name_list_avar = "Vahşi-Stepler"
+				name_list_pecheneg = "Vahşi-Stepler"
+				name_list_cuman = "Vahşi-Stepler"
+				name_list_khazar = "Vahşi-Stepler"
 			}
 			
 			c_samar = {
@@ -28862,10 +29007,32 @@ e_caspian-pontic_steppe = {
 			c_golden_hills = {
 				color = { 205 175 85 }
 
+				cultural_names = {
+					name_list_bolghar = "Altin Tepe"
+					name_list_turkish = "Altin Tepe"
+					name_list_avar = "Altin Tepe"
+					name_list_pecheneg = "Altin Tepe"
+					name_list_cuman = "Altin Tepe"
+					name_list_khazar = "Altin Tepe"
+					name_list_crimean_gothic = "Gulþeis Haúhseis"
+					name_list_anglo_saxon = "Gyldenan Hylls"
+				}
+
 				b_golden_hills = {
 					province = 5290
 
 					color = { 205 175 85 }
+
+					cultural_names = {
+						name_list_bolghar = "Altin Tepe"
+						name_list_turkish = "Altin Tepe"
+						name_list_avar = "Altin Tepe"
+						name_list_pecheneg = "Altin Tepe"
+						name_list_cuman = "Altin Tepe"
+						name_list_khazar = "Altin Tepe"
+						name_list_crimean_gothic = "Gulþeis Haúhseis"
+						name_list_anglo_saxon = "Gyldenan Hylls"
+					}
 				}
 				b_siyahtepe = {
 					province = 5291
@@ -28981,7 +29148,12 @@ e_caspian-pontic_steppe = {
 					name_list_crimean_gothic = Pantikapeon
 					name_list_greek = Pantikapeon
 					name_list_roman = Panticapaeum
-					name_list_russian = Kerch
+					name_list_turkish = Keriç
+					name_list_avar = Keriç
+					name_list_pecheneg = Keriç
+					name_list_cuman = Keriç
+					name_list_khazar = Keriç
+					name_list_kipchak = Keriç
 				}
 
 				b_kerch = {
@@ -28993,7 +29165,11 @@ e_caspian-pontic_steppe = {
 						name_list_crimean_gothic = Pantikapeon
 						name_list_greek = Pantikapeon
 						name_list_roman = Panticapaeum
-						name_list_russian = Kerch
+						name_list_avar = Keriç
+						name_list_pecheneg = Keriç
+						name_list_cuman = Keriç
+						name_list_khazar = Keriç
+						name_list_kipchak = Keriç
 					}
 				}
 				b_chersonesus = {
@@ -29002,12 +29178,11 @@ e_caspian-pontic_steppe = {
 					color = { 124 52 63 }
 
 					cultural_names = {
-						name_list_greek = "Chersonisos"
-						name_list_roman = "Chersonesus"
-
-						name_list_crimean_gothic = "Chersonisos"
-
-						name_list_russian = "Sevastopol"
+						name_list_roman = Chersonesus
+						name_list_russian = Korsun
+						name_list_pecheneg = Aqyar
+						name_list_cuman = Aqyar
+						name_list_khazar = Aqyar
 					}
 				}
 				b_theodosia = {
@@ -29016,7 +29191,10 @@ e_caspian-pontic_steppe = {
 					color = { 124 52 63 }
 
 					cultural_names = {
-						name_list_russian = "Feodosiya"
+						name_list_russian = Feodosiya
+						name_list_pecheneg = Kefe
+						name_list_cuman = Kefe
+						name_list_khazar = Kefe
 					}
 				}
 			}
@@ -29024,8 +29202,15 @@ e_caspian-pontic_steppe = {
 				color = { 110 32 44 }
 
 				cultural_names = {
+					name_list_crimean_gothic = cn_kerkinitis
 					name_list_greek = cn_kerkinitis
 					name_list_russian = cn_kozlov
+					name_list_bolghar = Selid
+					name_list_turkish = Aqmeçit
+					name_list_avar = Aqmeçit
+					name_list_pecheneg = Aqmeçit
+					name_list_cuman = Aqmeçit
+					name_list_khazar = Aqmeçit
 				}
 
 				b_kerkinitis = {
@@ -29034,14 +29219,10 @@ e_caspian-pontic_steppe = {
 					color = { 110 32 44 }
 
 					cultural_names = {
-						name_list_khazar = "Güzliev"
-
-						name_list_greek = cn_kerkinitis
-						name_list_roman = "Kerkinitis"
-
-						name_list_crimean_gothic = "Kerkinitis"
-
 						name_list_russian = cn_kozlov
+						name_list_pecheneg = Gözleve
+						name_list_cuman = Gözleve
+						name_list_khazar = Gözleve
 					}
 				}
 
@@ -29049,6 +29230,15 @@ e_caspian-pontic_steppe = {
 					province = 559
 
 					color = { 110 32 44 }
+					
+					cultural_names = {
+						name_list_bolghar = Selid
+						name_list_turkish = Aqmeçit
+						name_list_avar = Aqmeçit
+						name_list_pecheneg = Aqmeçit
+						name_list_cuman = Aqmeçit
+						name_list_khazar = Aqmeçit
+					}
 				}
 			}
 			c_perekop = {
@@ -29056,6 +29246,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_scythian_neapolis
+					name_list_crimean_gothic = cn_scythian_neapolis
 				}
 
 				b_aqmescit = {
@@ -29065,6 +29256,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_scythian_neapolis
+						name_list_crimean_gothic = cn_scythian_neapolis
 					}
 				}
 
@@ -29072,6 +29264,7 @@ e_caspian-pontic_steppe = {
 					province = 5277
 
 					cultural_names = {
+						name_list_crimean_gothic = cn_taphros
 						name_list_greek = cn_taphros
 						name_list_russian = "Perekop"
 					}
@@ -29166,20 +29359,20 @@ e_caspian-pontic_steppe = {
 				color = { 66 55 10 }
 
 				cultural_names = {
-					name_list_greek = "Gorgippia"
-					name_list_roman = "Gorgippia"
+					name_list_greek = Gorgippia
+					name_list_roman = Gorgippia
 					name_list_crimean_gothic = Tamatarhaims
-					name_list_russian = "Anapa"
+					name_list_russian = Anapa
 				}
 
 				b_tmutarakan = {
 					province = 598
 
 					cultural_names = {
-						name_list_greek = "Gorgippia"
-						name_list_roman = "Gorgippia"
+						name_list_greek = Gorgippia
+						name_list_roman = Gorgippia
 						name_list_crimean_gothic = Tamatarhaims
-						name_list_russian = "Anapa"
+						name_list_russian = Anapa
 					}
 
 					color = { 66 55 10 }
@@ -29240,6 +29433,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_paniardis
+					name_list_crimean_gothic = cn_paniardis
 				}
 
 				b_azov = {
@@ -29247,6 +29441,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_paniardis
+						name_list_crimean_gothic = cn_paniardis
 					}
 
 					color = { 100 72 15 }
@@ -29279,10 +29474,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_russian = "Arkhyz"
-					name_list_ilmenian = "Arkhyz"
-					name_list_volhynian = "Arkhyz"
-					name_list_severian = "Arkhyz"
-					name_list_greek = "Áouchis"
+					name_list_greek = "Aouchis"
 					name_list_roman = "Auchis"
 					name_list_crimean_gothic = "Alanbaurg"
 				}
@@ -29294,10 +29486,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_russian = "Arkhyz"
-						name_list_ilmenian = "Arkhyz"
-						name_list_volhynian = "Arkhyz"
-						name_list_severian = "Arkhyz"
-						name_list_greek = "Áouchis"
+						name_list_greek = "Aouchis"
 						name_list_roman = "Auchis"
 						name_list_crimean_gothic = "Alanbaurg"
 					}
@@ -29313,7 +29502,7 @@ e_caspian-pontic_steppe = {
 					color = { 85 50 22 }
 
 					cultural_names = {
-						name_list_crimean_gothic = "Baetz"
+						name_list_crimean_gothic = "Baets"
 					}
 				}
 			}
@@ -29353,16 +29542,8 @@ e_caspian-pontic_steppe = {
 			c_zichia = {
 				color = { 100 44 16 }
 
-				cultural_names = {
-					name_list_greek = cn_gorgippia
-				}
-
 				b_bata = {
 					province = 5296
-
-					cultural_names = {
-						name_list_greek = cn_gorgippia
-					}
 
 					color = { 100 44 16 }
 				}
@@ -43103,10 +43284,30 @@ e_carpathia = {
 			c_orhei = {
 				color = { 172 149 58 }
 
+				cultural_names = {
+					name_list_mogyer = Örheý
+					name_list_bolghar = Örheý
+					name_list_turkish = Örheý
+					name_list_avar = Örheý
+					name_list_pecheneg = Örheý
+					name_list_cuman = Örheý
+					name_list_khazar = Örheý
+				}
+
 				b_orhei = {
 					province = 5019
 
 					color = { 172 149 58 }
+
+					cultural_names = {
+						name_list_mogyer = Örheý
+						name_list_bolghar = Örheý
+						name_list_turkish = Örheý
+						name_list_avar = Örheý
+						name_list_pecheneg = Örheý
+						name_list_cuman = Örheý
+						name_list_khazar = Örheý
+					}
 				}
 				b_tuzara = {
 					province = 5020
@@ -43211,6 +43412,13 @@ e_carpathia = {
 
 				cultural_names = {
 					name_list_greek = cn_tyras
+					name_list_crimean_gothic = cn_tyras
+					name_list_mogyer = Ňester
+					name_list_bolghar = Akkerman
+					name_list_turkish = Akkerman
+					name_list_avar = Akkerman
+					name_list_pecheneg = Akkerman
+					name_list_cuman = Akkerman
 				}
 
 				b_cetatea_alba = {
@@ -43218,6 +43426,13 @@ e_carpathia = {
 
 					cultural_names = {
 						name_list_greek = cn_tyras
+						name_list_crimean_gothic = cn_tyras
+						name_list_mogyer = Ňester
+						name_list_bolghar = Akkerman
+						name_list_turkish = Akkerman
+						name_list_avar = Akkerman
+						name_list_pecheneg = Akkerman
+						name_list_cuman = Akkerman
 					}
 
 					color = { 180 235 40 }

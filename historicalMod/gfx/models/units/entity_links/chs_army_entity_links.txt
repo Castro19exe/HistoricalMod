@@ -548,7 +548,7 @@ crimean_gothic_army_02 = {
 	type = army
 	quality = @tier2_quality
 	graphical_cultures = { crimean_gothic_unit_gfx }
-	entity = unit_northern_pagan_infantry_02_entity
+	entity = unit_crimean_gothic_infantry_02_entity
 }
 
 crimean_gothic_army_03 = {
@@ -760,5 +760,5 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_berber_infantry_03_entity
+	entity = unit_crimean_gothic_infantry_03_entity
 }

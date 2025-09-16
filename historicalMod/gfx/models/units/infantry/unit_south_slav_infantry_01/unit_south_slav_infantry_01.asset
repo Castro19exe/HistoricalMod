@@ -33,24 +33,20 @@ pdxmesh = {
 	animation = { id = "even_winlose_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_even_winlose_tx_defensive_1.anim" }
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
-	
-
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_south_slav_infantry_01_diffuse.dds"
-		texture_normal = "unit_south_slav_infantry_01_normal.dds"
-		texture_specular = "unit_south_slav_infantry_01_properties.dds"
+		name = "unit_south_slavic_skin_infantry_01"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
-		texture_diffuse = "unit_south_slav_infantry_01_body_diffuse.dds"
-		texture_normal = "unit_south_slav_infantry_01_body_normal.dds"
-		texture_specular = "unit_south_slav_infantry_01_body_properties.dds"
+		name = "unit_south_slavic_armor_infantry_01"
+		texture_diffuse = "acg_upe_unit_south_slav_infantry_01_diffuse.dds"
+		texture_normal = "acg_upe_unit_south_slav_infantry_01_normal.dds"
+		texture_specular = "acg_upe_unit_south_slav_infantry_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -339,9 +335,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "jorodoxShape"
 		index = 0
-		texture_diffuse = "unit_south_slav_infantry_01_shield_diffuse.dds"
-		texture_normal = "unit_south_slav_infantry_01_shield_normal.dds"
-		texture_specular = "unit_south_slav_infantry_01_shield_properties.dds"
+		texture_diffuse = "acg_upe_unit_south_slav_infantry_01_shield_diffuse.dds"
+		texture_normal = "acg_upe_unit_south_slav_infantry_01_shield_normal.dds"
+		texture_specular = "acg_upe_unit_south_slav_infantry_01_shield_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
