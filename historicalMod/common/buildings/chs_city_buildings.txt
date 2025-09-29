@@ -5,7 +5,7 @@
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_city_norse.dds"
 @holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/city_scandinavian.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds"
-@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds"
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/city_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds"
 @holding_illustration_china = "gfx/interface/illustrations/holding_types/city_chinese.dds"
 @holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
@@ -23,6 +23,7 @@
 city_01 = {
 	construction_time = slow_construction_time
 	
+	### WESTERN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -78,6 +79,7 @@ city_01 = {
 		graphical_regions = { graphical_steppe }
 	}
 	
+	### MENA ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -118,6 +120,7 @@ city_01 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### INDIAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -158,6 +161,7 @@ city_01 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -196,324 +200,6 @@ city_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mediterranean_building_gfx }			
 		graphical_regions = { graphical_mediterranean }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			#"ep3_byzantine_city_01_mesh"
-			fp3_building_persian_city_01_a_01_mesh
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### CELTIC ###
-	asset = {
-		type = pdxmesh
-		name = "building_celtic_city_01_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { celtic_building_gfx }
-	}
-
-	### SAHELIAN ###
-	asset = {
-		type = pdxmesh
-		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### ETHIOPIAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"ethiopian_city_01_mesh"
-		}
-		illustration = @holding_illustration_ethiopian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { ethiopian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### SLAVIC ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { east_slavic_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### EASTERN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### TIBETAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { tibetan_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### BERBER ###
-	asset = {
-		type = pdxmesh
-		names = { 
-			"punic_city_01_a_mesh"
-			"punic_city_01_b_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_city_01_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { berber_group_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### GUINEAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { african_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -636,34 +322,7 @@ city_01 = {
 		illustration = @holding_illustration_iranian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
 	}
 
 	### BYZANTINE ###
@@ -677,39 +336,166 @@ city_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "punic_city_02_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### STEPPE ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp3_building_persian_city_01_a_01_mesh"
+		}
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### EASTERN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe}
+	}
+
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_01_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
+	### SAHELIAN ###
+	asset = {
+		type = pdxmesh
+		name = "sahelian_city_01_mesh"
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### ETHIOPIAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_city_01_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_01_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean }
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### BERBER ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_01_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_01_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_steppe }
+		names = {
+			"building_mena_city_01_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
     ### CHINA ###
@@ -746,6 +532,10 @@ city_01 = {
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 		building_requirement_tribal_holding_in_county = yes
+		building_requirement_nomad = no
+		building_requirement_nomad_holding_in_county = yes
+		building_requirement_herder = no
+		building_requirement_herder_holding_in_county = yes
 	}
 	cost_gold = main_building_tier_1_cost
 	
@@ -829,6 +619,19 @@ city_01 = {
 				}
 			}
 		}
+		# Building Oath
+		hidden_effect = {
+			if = {
+				limit = {
+					county.holder = {
+						has_character_modifier = oath_of_buildings
+					}
+				}
+				add_random_economic_building_effect = yes
+				add_random_military_building_effect = yes
+				add_random_fortification_building_effect = yes
+			}
+		}
 	}
 	
 	ai_value = {
@@ -865,6 +668,7 @@ city_01 = {
 city_02 = {
 	construction_time = slow_construction_time
 	
+	### WESTERN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -920,6 +724,7 @@ city_02 = {
 		graphical_regions = { graphical_steppe }
 	}
 	
+	### MENA ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -960,6 +765,7 @@ city_02 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### INDIAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1000,6 +806,7 @@ city_02 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1038,324 +845,6 @@ city_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_mediterranean }	
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_01_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### CELTIC ###
-	asset = {
-		type = pdxmesh
-		name = "building_celtic_city_01_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { celtic_building_gfx }
-	}
-
-	### SAHELIAN ###
-	asset = {
-		type = pdxmesh
-		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### ETHIOPIAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"ethiopian_city_01_mesh"
-		}
-		illustration = @holding_illustration_ethiopian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { ethiopian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### SLAVIC ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { east_slavic_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_01_a_mesh"
-			"slavic_city_01_b_mesh"
-			"slavic_city_01_c_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### EASTERN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_01_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### TIBETAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { tibetan_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_01_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### BERBER ###
-	asset = {
-		type = pdxmesh
-		names = { 
-			"punic_city_01_a_mesh"
-			"punic_city_01_b_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_city_01_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { berber_group_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### GUINEAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { african_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_01_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -1476,36 +965,9 @@ city_02 = {
 		name = "fp3_building_persian_city_01_a_01_mesh"
 		requires_dlc_flag = legacy_of_persia 
 		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
 	}
 
 	### BYZANTINE ###
@@ -1519,39 +981,166 @@ city_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "punic_city_02_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
 		name = "ep3_byzantine_city_01_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### STEPPE ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp3_building_persian_city_01_a_01_mesh"
+		}
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### EASTERN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { eastern_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_01_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { eastern_building_gfx }
+		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_01_a_mesh"
+			"slavic_city_01_b_mesh"
+			"slavic_city_01_c_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe}
+	}
+
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_01_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
+	### SAHELIAN ###
+	asset = {
+		type = pdxmesh
+		name = "sahelian_city_01_mesh"
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### ETHIOPIAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_city_01_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_01_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean }
+		names = {
+			"building_tibetan_city_01_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### BERBER ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_01_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_01_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_steppe }
+		names = {
+			"building_mena_city_01_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_01_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
     ### CHINA ###
@@ -1561,7 +1150,16 @@ city_02 = {
 			"building_chinese_city_01_mesh"
 		}
 		illustration = @holding_illustration_china
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { chinese_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_chinese_city_01_mesh"
+		}
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
@@ -1570,9 +1168,24 @@ city_02 = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
-		culture = {
-			has_innovation = innovation_manorialism
+		trigger_if = {
+			limit = {
+				NOT = {
+					culture = {
+						has_cultural_parameter = next_level_cities
+					}
+				}
+			}
+			culture = {
+				has_innovation = innovation_manorialism
+			}
 		}
+		trigger_else = {
+			culture = {
+				has_cultural_parameter = next_level_cities
+			}
+		}
+		
 	}
 	cost_gold = main_building_tier_2_cost
 	
@@ -1666,7 +1279,7 @@ city_02 = {
 			scope:holder.capital_province = this
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			free_building_slots >= 1
 		}
 		modifier = {
@@ -1679,6 +1292,7 @@ city_02 = {
 city_03 = {
 	construction_time = slow_construction_time
 
+	### WESTERN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1724,6 +1338,7 @@ city_03 = {
 		graphical_regions = { graphical_steppe }
 	}
 	
+	### MENA ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1764,6 +1379,7 @@ city_03 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### INDIAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1804,6 +1420,7 @@ city_03 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1843,320 +1460,6 @@ city_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }		
 		graphical_regions = { graphical_mediterranean }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			#"ep3_byzantine_city_02_mesh"
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### CELTIC ###
-	asset = {
-		type = pdxmesh
-		name = "building_celtic_city_02_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { celtic_building_gfx }
-	}
-
-	### SAHELIAN ###
-	asset = {
-		type = pdxmesh
-		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### ETHIOPIAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"ethiopian_city_02_mesh"
-		}
-		illustration = @holding_illustration_ethiopian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { ethiopian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### SLAVIC ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### EASTERN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### TIBETAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { tibetan_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### BERBER ###
-	asset = {
-		type = pdxmesh
-		names = { 
-			"punic_city_02_a_mesh"
-			"punic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_city_02_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { berber_group_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### GUINEAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { african_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -2202,6 +1505,17 @@ city_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP1 Northern (Scandinavian) ###
@@ -2279,34 +1593,7 @@ city_03 = {
 		illustration = @holding_illustration_iranian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
 	}
 
 	### BYZANTINE ###
@@ -2320,39 +1607,164 @@ city_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "punic_city_02_b_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### STEPPE ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_02_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp3_building_persian_city_02_a_01_mesh"
+		}
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### EASTERN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_02_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { eastern_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_02_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { eastern_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### SLAVIC ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_city_02_a_mesh"
+			"slavic_city_02_b_mesh"
+		}
+		illustration = @holding_illustration_slavic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_02_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
+	### SAHELIAN ###
+	asset = {
+		type = pdxmesh
+		name = "sahelian_city_02_mesh"
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### ETHIOPIAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_city_02_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_02_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean }
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### BERBER ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_02_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_steppe }
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
     ### CHINA ###
@@ -2371,8 +1783,25 @@ city_03 = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
-		culture = {
-			has_innovation = innovation_windmills
+		trigger_if = {
+			limit = {
+				NOT = {
+					culture = {
+						has_cultural_parameter = next_level_cities
+					}
+				}
+			}
+			culture = {
+				has_innovation = innovation_windmills
+			}
+		}
+		trigger_else = {
+			culture = {
+				has_cultural_parameter = next_level_cities
+			}
+			culture = {
+				has_innovation = innovation_manorialism
+			}
 		}
 	}
 	cost_gold = main_building_tier_3_cost
@@ -2473,6 +1902,7 @@ city_03 = {
 city_04 = {
 	construction_time = slow_construction_time
 	
+	### WESTERN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2518,6 +1948,7 @@ city_04 = {
 		graphical_regions = { graphical_steppe }
 	}
 	
+	### MENA ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2558,6 +1989,7 @@ city_04 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### INDIAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2598,6 +2030,7 @@ city_04 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
+	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -2637,320 +2070,6 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_mediterranean }
-	}
-
-	### STEPPE ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			#"ep3_byzantine_city_02_mesh"
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp3_building_persian_city_02_a_01_mesh"
-		}
-		illustration = @holding_illustration_steppe
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### CELTIC ###
-	asset = {
-		type = pdxmesh
-		name = "building_celtic_city_02_mesh"
-		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { celtic_building_gfx }
-	}
-
-	### SAHELIAN ###
-	asset = {
-		type = pdxmesh
-		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { sahelian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### ETHIOPIAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"ethiopian_city_02_mesh"
-		}
-		illustration = @holding_illustration_ethiopian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { ethiopian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### SLAVIC ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"slavic_city_02_a_mesh"
-			"slavic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_slavic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { east_slavic_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### EASTERN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"magyar_city_02_mesh"
-		}
-		illustration = @holding_illustration_eastern
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### TIBETAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { tibetan_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_tibetan_city_02_mesh"
-		}
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { tibetan_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
-	### BERBER ###
-	asset = {
-		type = pdxmesh
-		names = { 
-			"punic_city_02_a_mesh"
-			"punic_city_02_b_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_city_02_mesh"
-		}
-		illustration = @holding_illustration_berber
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { berber_group_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
-	### GUINEAN ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { african_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"guinean_city_02_mesh"
-		}
-		illustration = @holding_illustration_african
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { african_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### FP1 Norse ###
@@ -2996,6 +2115,17 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_city_02_a_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_scandinavian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_steppe }	
 	}
 
 	### FP1 Northern (Scandinavian) ###
@@ -3073,34 +2203,7 @@ city_04 = {
 		illustration = @holding_illustration_iranian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia
-		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { iranian_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
 	}
 
 	### BYZANTINE ###
@@ -3109,44 +2212,125 @@ city_04 = {
 		name = "ep3_byzantine_city_02_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "punic_city_02_b_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_city_02_mesh"
 		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### STEPPE ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"magyar_city_02_mesh"
+		}
+		illustration = @holding_illustration_eastern
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp3_building_persian_city_02_a_01_mesh"
+		}
+		illustration = @holding_illustration_steppe
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
+	}
+
+	### CELTIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_celtic_city_02_mesh"
+		illustration = @holding_illustration_celtic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { celtic_building_gfx }
+	}
+
+	### SAHELIAN ###
+	asset = {
+		type = pdxmesh
+		name = "sahelian_city_02_mesh"
+		illustration = @holding_illustration_sahelian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { sahelian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### ETHIOPIAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_city_02_mesh"
+		}
+		illustration = @holding_illustration_ethiopian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+
+	### TIBETAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_02_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean }
+		names = {
+			"building_tibetan_city_02_mesh"
+		}
+		illustration = @holding_illustration_tibetan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { tibetan_building_gfx }
+		graphical_regions = { graphical_steppe }
+	}
+
+	### BERBER ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_city_02_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
-		name = "ep3_byzantine_city_02_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_steppe }
+		names = {
+			"building_mena_city_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_berber
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { berber_group_building_gfx }
+		graphical_regions = { graphical_mediterranean }
+	}
+
+	### GUINEAN ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_city_02_mesh"
+		}
+		illustration = @holding_illustration_african
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { guinean_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
     ### CHINA ###
@@ -3165,8 +2349,25 @@ city_04 = {
 		building_requirement_tribal = no
 	}
 	can_construct = {
-		culture = {
-			has_innovation = innovation_cranes
+		trigger_if = {
+			limit = {
+				NOT = {
+					culture = {
+						has_cultural_parameter = next_level_cities
+					}
+				}
+			}
+			culture = {
+				has_innovation = innovation_cranes
+			}
+		}
+		trigger_else = {
+			culture = {
+				has_cultural_parameter = next_level_cities
+			}
+			culture = {
+				has_innovation = innovation_windmills
+			}
 		}
 	}
 	cost_gold = main_building_tier_4_cost
@@ -3276,10 +2477,6 @@ guild_halls_01 = {
 
 	can_construct_potential = {
 		has_building_or_higher = city_01
-	}
-
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = no
 	}
 
 	cost_gold = normal_building_tier_1_cost

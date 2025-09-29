@@ -3699,19 +3699,19 @@ e_britannia = {
 				color = { 185 90 25 }
 
 				cultural_names = {
-					name_list_irish = Lodainn
-					name_list_gaelic = Lodainn
-					name_list_pictish = Lodainn
-					name_list_welsh = Lleuddiniawn
-					name_list_cumbrian = Lleuddiniawn
-					name_list_cornish = Lleuddiniawn
-					name_list_breton = Lleuddiniawn
-					name_list_anglo_saxon = Loðene
-					name_list_old_saxon = Loðene
-					 name_list_norse = Loðene
-					name_list_swedish = Loðene
-                    name_list_norwegian = Loðene
-                    name_list_danish = Loðene
+					name_list_irish = "Lodainn"
+					name_list_gaelic = "Lodainn"
+					name_list_pictish = "Lodainn"
+					name_list_welsh = "Lleuddiniawn"
+					name_list_cumbrian = "Lleuddiniawn"
+					name_list_cornish = "Lleuddiniawn"
+					name_list_breton = "Lleuddiniawn"
+					name_list_anglo_saxon = "Loðene"
+					name_list_old_saxon = "Loðene"
+					 name_list_norse = "Loðene"
+					name_list_swedish = "Loðene"
+                    name_list_norwegian = "Loðene"
+                    name_list_danish = "Loðene"
 				}
 
 				b_edinburgh = {
@@ -29204,7 +29204,6 @@ e_caspian-pontic_steppe = {
 				cultural_names = {
 					name_list_crimean_gothic = cn_kerkinitis
 					name_list_greek = cn_kerkinitis
-					name_list_russian = cn_kozlov
 					name_list_bolghar = Selid
 					name_list_turkish = Aqmeçit
 					name_list_avar = Aqmeçit
@@ -29219,7 +29218,6 @@ e_caspian-pontic_steppe = {
 					color = { 110 32 44 }
 
 					cultural_names = {
-						name_list_russian = cn_kozlov
 						name_list_pecheneg = Gözleve
 						name_list_cuman = Gözleve
 						name_list_khazar = Gözleve
@@ -29667,6 +29665,10 @@ e_caspian-pontic_steppe = {
 
 			capital = c_itil # Itil
 
+			cultural_names = {
+				name_list_crimean_gothic = Volga
+			}
+
 			c_itil = {
 				color = { 176 102 16 }
 
@@ -29694,10 +29696,18 @@ e_caspian-pontic_steppe = {
 			c_saqsin = {
 				color = { 202 125 19 }
 
+				cultural_names = {
+					name_list_crimean_gothic = Volgabaurg
+				}
+
 				b_saqsin = {
 					province = 5313
 
 					color = { 202 125 19 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Volgabaurg
+					}
 				}
 				b_saraychiq = {
 					province = 5317

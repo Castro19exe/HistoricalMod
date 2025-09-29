@@ -155,6 +155,10 @@ create_serbian_empire_effect = {
 
 ######################################################################################################
 
+
+
+######################################################################################################
+
 create_gothic_kingdom_effect = {
 	#Prestige
 	add_prestige = massive_prestige_gain
@@ -174,10 +178,11 @@ create_gothic_kingdom_effect = {
 	}
 	resolve_title_and_vassal_change = scope:title_change
 
-	title:d_crimea = { set_de_jure_liege_title = title:k_gothia }
-
 	#Tooltips
-	#custom_tooltip = create_gothic_kingdom.preview.titles
+	custom_tooltip = create_gothic_kingdom.preview.titles
 
-	#hidden_effect = { }
+	hidden_effect = { 	
+		title:d_crimea = { set_de_jure_liege_title = title:k_gothia }
+		title:k_gothia = { set_de_jure_liege_title = title:e_byzantium }
+	}
 }

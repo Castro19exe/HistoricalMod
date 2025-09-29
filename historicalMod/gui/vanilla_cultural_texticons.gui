@@ -540,3 +540,199 @@ texticon = {
 		fontsize = 16
 	}
 }
+
+texticon = {
+    icon = siberian_hunters_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/siberian_hunters.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+### Arabic
+
+texticon = {
+    icon = light_footmen_clan_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_footmen_clan.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = bowmen_clan_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/bowmen_clan.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = light_horsemen_clan_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_horsemen_clan.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = pikemen_unit_clan_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/pikemen_unit_clan.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+	icon = armored_footmen_clan_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/armored_footmen_clan.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+    icon = armored_horsemen_clan_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/armored_horsemen_clan.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+### African
+
+texticon = {
+    icon = light_footmen_african_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_footmen_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = bowmen_african_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/bowmen_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = light_horsemen_african_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_horsemen_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = pikemen_unit_african_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/pikemen_unit_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+	icon = armored_footmen_african_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/armored_footmen_african.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+    icon = armored_horsemen_african_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/armored_horsemen_african.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+### Indian
+
+texticon = {
+    icon = light_footmen_indian_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_footmen_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = bowmen_indian_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/bowmen_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = light_horsemen_indian_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/light_horsemen_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = pikemen_unit_indian_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/pikemen_unit_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+	icon = armored_footmen_indian_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/armored_footmen_indian.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+    icon = armored_horsemen_indian_icon
+    iconsize = {
+        texture = "gfx/interface/icons/regimenttypes/armored_horsemen_indian.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}

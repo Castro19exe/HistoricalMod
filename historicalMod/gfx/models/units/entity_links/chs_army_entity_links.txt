@@ -395,26 +395,6 @@ scottish_army_03 = {
 }
 
 
-# Welsh
-welsh_army_01 = {
-	type = army
-	graphical_cultures = { welsh_unit_gfx }
-	entity = unit_welsh_infantry_01_entity
-}
-welsh_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { welsh_unit_gfx }
-	entity = unit_welsh_infantry_02_entity
-}
-welsh_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { welsh_unit_gfx }
-	entity = unit_welsh_infantry_03_entity
-}
-
-
 # Polish
 polish_army_01 = {
 	type = army
@@ -541,7 +521,7 @@ crimean_gothic_army_01 = {
 	type = army
 	requires_dlc_flag = the_northern_lords
 	graphical_cultures = { crimean_gothic_unit_gfx }
-	entity = unit_northern_pagan_infantry_01_entity
+	entity = unit_crimean_gothic_infantry_01_entity
 }
 
 crimean_gothic_army_02 = {

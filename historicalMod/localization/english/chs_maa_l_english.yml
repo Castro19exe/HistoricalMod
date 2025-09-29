@@ -1,0 +1,48 @@
+﻿l_english:
+ # Vanilla MAA for Arabics
+ light_footmen_clan:0 "Light Footmen"
+ light_footmen_clan_flavor:0 "#F Veteran skirmishers are invaluable harriers, disrupting enemy flanks and chipping away at morale.#!"
+ bowmen_clan:0 "Bowmen"
+ bowmen_clan_flavor:0 "#F Professional archers fill the air with arrows, devastating the foremost enemy troops.#!"
+ light_horsemen_clan:0 "Light Horsemen"
+ light_horsemen_clan_flavor:0 "#F Light and swift, these horsemen are excellent at flanking, and devastating when pursuing routed enemies.#!"
+ pikemen_unit_clan:0 "Pikemen"
+ pikemen_unit_clan_flavor:0 "#F Long pikes allow these regiments to form walls of spikes that can stop a cavalry charge dead.#!"
+ armored_footmen_clan:0 "Armored Footmen"
+ armored_footmen_clan_flavor:0 "#F Heavily armed and well-trained, these troops specialize in smashing massed infantry.#!"
+ armored_horsemen_clan:0 "Armored Horsemen"
+ armored_horsemen_clan_flavor:0 "#F Heavily armed and armored, these horsemen dominate warfare in the open plains.#!"
+
+ # Vanilla MAA for Africans
+ light_footmen_african:0 "Light Footmen"
+ light_footmen_african_flavor:0 "#F Veteran skirmishers are invaluable harriers, disrupting enemy flanks and chipping away at morale.#!"
+ bowmen_african:0 "Bowmen"
+ bowmen_african_flavor:0 "#F Professional archers fill the air with arrows, devastating the foremost enemy troops.#!"
+ light_horsemen_african:0 "Light Horsemen"
+ light_horsemen_african_flavor:0 "#F Light and swift, these horsemen are excellent at flanking, and devastating when pursuing routed enemies.#!"
+ pikemen_unit_african:0 "Pikemen"
+ pikemen_unit_african_flavor:0 "#F Long pikes allow these regiments to form walls of spikes that can stop a cavalry charge dead.#!"
+ armored_footmen_african:0 "Armored Footmen"
+ armored_footmen_african_flavor:0 "#F Heavily armed and well-trained, these troops specialize in smashing massed infantry.#!"
+ armored_horsemen_african:0 "Armored Horsemen"
+ armored_horsemen_african_flavor:0 "#F Heavily armed and armored, these horsemen dominate warfare in the open plains.#!"
+
+ # Vanilla MAA for Indians
+ light_footmen_indian:0 "Light Footmen"
+ light_footmen_indian_flavor:0 "#F Veteran skirmishers are invaluable harriers, disrupting enemy flanks and chipping away at morale.#!"
+ bowmen_indian:0 "Bowmen"
+ bowmen_indian_flavor:0 "#F Professional archers fill the air with arrows, devastating the foremost enemy troops.#!"
+ light_horsemen_indian:0 "Light Horsemen"
+ light_horsemen_indian_flavor:0 "#F Light and swift, these horsemen are excellent at flanking, and devastating when pursuing routed enemies.#!"
+ pikemen_unit_indian:0 "Pikemen"
+ pikemen_unit_indian_flavor:0 "#F Long pikes allow these regiments to form walls of spikes that can stop a cavalry charge dead.#!"
+ armored_footmen_indian:0 "Armored Footmen"
+ armored_footmen_indian_flavor:0 "#F Heavily armed and well-trained, these troops specialize in smashing massed infantry.#!"
+ armored_horsemen_indian:0 "Armored Horsemen"
+ armored_horsemen_indian_flavor:0 "#F Heavily armed and armored, these horsemen dominate warfare in the open plains.#!"
+
+ # Region and Cultural MAA
+ gallowglass:0 "Gallóglaigh"
+ gallowglass_flavor:0 "#F Norse-Gaelic Gallóglaigh are heavily armed warriors, masters of two-handed axes and swords.#!"
+ siberian_hunters:0 "Siberian Hunters"
+ siberian_hunters_flavor:0 "#F Siberian Hunters are trained in tracking and killing prey in the taiga, whether animais or people.#!"

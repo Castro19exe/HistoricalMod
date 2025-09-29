@@ -1,6 +1,6 @@
+@illustration_christian = "gfx/interface/illustrations/holding_types/temple_christian.dds"
 @illustration_generic_grass = "gfx/interface/illustrations/holding_types/temple_generic_grass.dds"
 @illustration_generic_arid = "gfx/interface/illustrations/holding_types/temple_generic_arid.dds"
-@illustration_christian = "gfx/interface/illustrations/holding_types/temple_christian.dds"
 @illustration_india = "gfx/interface/illustrations/holding_types/temple_india.dds"
 @illustration_islamic = "gfx/interface/illustrations/holding_types/temple_islamic.dds"
 @illustration_orthodox = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
@@ -232,7 +232,7 @@ temple_01 = {
 	# FP1 Catholic variant for Scandinavia
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -240,7 +240,7 @@ temple_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -249,7 +249,7 @@ temple_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -258,7 +258,7 @@ temple_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -956,6 +956,20 @@ temple_01 = {
 				}
 			}
 		}
+
+		# Building Oath
+		hidden_effect = {
+			if = {
+				limit = {
+					county.holder = {
+						has_character_modifier = oath_of_buildings
+					}
+				}
+				add_random_economic_building_effect = yes
+				add_random_military_building_effect = yes
+				add_random_fortification_building_effect = yes
+			}
+		}
 	}
 	
 	ai_value = {
@@ -1191,7 +1205,7 @@ temple_02 = {
 	# FP1 Catholic variant for Scandinavia
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -1199,7 +1213,7 @@ temple_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -1208,7 +1222,7 @@ temple_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -1217,7 +1231,7 @@ temple_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "magyar_temple_christian_01_mesh"
+		name = "building_norse_temple_christian_01_mesh"
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
@@ -2780,25 +2794,7 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "pagan_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_mediterranean" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_western_temple_pagan_02_mesh"
-		illustration = @illustration_northern_pagan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_india" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_western_temple_pagan_02_mesh"
-		illustration = @illustration_northern_pagan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_mena" }
+		graphical_regions = { "graphical_mediterranean" "graphical_india" "graphical_mena" }
 	}
 	
 	# FP1 Catholic variant for Scandinavia
@@ -2817,25 +2813,7 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_mediterranean" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_northern_christian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_india" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "magyar_temple_christian_02_mesh"
-		illustration = @illustration_northern_christian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_cultures = { northern_building_gfx norse_building_gfx }
-		graphical_regions = { "graphical_mena" }
+		graphical_regions = { "graphical_mediterranean" "graphical_india" "graphical_mena" }
 	}
 
 	# FP2 Catholic variant for Iberia

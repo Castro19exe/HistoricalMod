@@ -1228,3 +1228,79 @@ guanch_vaulter = {
 	ai_quality = { value = culture_ai_weight_skirmishers }
 	icon = guanch_vaulter
 }
+
+
+### MOD ###
+
+gallowglass = {
+	type = heavy_infantry
+	
+	damage = 36
+	toughness = 30
+	pursuit = 0
+	screen = 24
+	
+	terrain_bonus = {
+		forest = { damage = 5 }
+		taiga = { damage = 7 }
+		hills = { damage = 7 }
+		mountains = { damage = 7 }
+	}
+	
+	counters = {
+		pikemen = 0.5
+		heavy_infantry = 0.5
+	}
+
+	winter_bonus = {
+		normal_winter = { toughness = 6 }
+		harsh_winter = { toughness = 6 }
+	}
+	
+	buy_cost = { gold = huscarls_recruitment_cost }
+	low_maintenance_cost = { gold = huscarls_low_maint_cost }
+	high_maintenance_cost = { gold = huscarls_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = gallowglass
+}
+
+siberian_hunters = {
+	type = skirmishers
+	
+	damage = 10
+	toughness = 16
+	pursuit = 20
+	screen = 20
+	
+	terrain_bonus = {
+		forest = { damage = 10 toughness = 4 }
+		taiga = { damage = 10 toughness = 4 }
+	}
+
+	counters = {
+		archers = 1
+		pikemen = 1
+	}
+	
+	winter_bonus = {
+		normal_winter = { toughness = 4 screen = 8 }
+		harsh_winter = { toughness = 4 screen = 8 }
+	}
+
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_siberian_hunters }
+	}
+
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = siberian_hunters
+}
+

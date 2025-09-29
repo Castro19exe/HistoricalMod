@@ -21,11 +21,12 @@ pdxmesh = {
 	}
 
 	meshsettings = {
-		name = "nomadic_mongol_wall_04"
-		texture_diffuse = "building_mongol_atlas_diffuse.dds"
-		texture_normal = "building_mongol_atlas_normal.dds"
-		texture_specular = "building_mongol_atlas_properties.dds"
-		shader = "snap_to_terrain"
+		name = "fp3_building_persian_walls_02"
+		texture_diffuse = "building_persia_atlas_b_diffuse.dds"
+		texture_normal = "building_persia_atlas_normal.dds"
+		texture_specular = "building_persia_atlas_properties.dds"
+		texture = { file = "fp3_building_persia_walls_02_unique_diffuse.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
