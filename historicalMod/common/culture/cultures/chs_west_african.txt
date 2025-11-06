@@ -5,6 +5,7 @@
 	heritage = heritage_west_african
 	language = language_manding
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_upland_skirmishing
 		tradition_charitable
@@ -21,6 +22,9 @@
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -34,6 +38,7 @@ bobo = {
 	heritage = heritage_west_african
 	language = language_soninke
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_upland_skirmishing
 		tradition_stalwart_defenders
@@ -50,6 +55,9 @@ bobo = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -63,6 +71,7 @@ gur = {
 	heritage = heritage_west_african
 	language = language_gur
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_ancient_miners
 		tradition_upland_skirmishing
@@ -79,6 +88,9 @@ gur = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -92,6 +104,7 @@ marka = {
 	heritage = heritage_west_african
 	language = language_manding
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_warriors_of_the_dry
 		tradition_music_theory
@@ -104,6 +117,9 @@ marka = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -117,6 +133,7 @@ mel = {
 	heritage = heritage_west_african
 	language = language_manding
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_upland_skirmishing
@@ -133,6 +150,9 @@ mel = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_20
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african

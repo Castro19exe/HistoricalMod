@@ -84,35 +84,3 @@ chs_major_decisions.0003 = {
 		name = chs_major_decisions.0003.a
 	}
 }
-
-##############################################################  ???
-
-
-
-##############################################################  Found The Kingdom of Goths in Crimea
-
-chs_major_decisions.0005 = {
-	type = character_event
-	title = chs_major_decisions.0005.t
-
-	desc = {
-		desc = chs_major_decisions.0005.desc
-	}
-
-	theme = realm
-
-	left_portrait = {
-		character = scope:scoped_king
-		animation = personality_honorable
-	}
-
-	immediate = {
-		play_music_cue = "mx_cue_epic_sacral_moment"
-		save_scope_as = scoped_king
-		create_gothic_kingdom_effect = yes
-	}
-
-	option = {
-		name = chs_major_decisions.0005.a
-	}
-}

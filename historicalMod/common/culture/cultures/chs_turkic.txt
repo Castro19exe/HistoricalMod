@@ -29,6 +29,7 @@
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
 	unit_gfx = { oghuz_unit_gfx }
+	house_coa_frame = house_frame_14
 
 	ethnicities = {
 		10 = turkic
@@ -67,6 +68,7 @@ cuman = {
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { cuman_unit_gfx }
+	house_coa_frame = house_frame_14
 
 	ethnicities = {
 		7 = turkic
@@ -108,6 +110,7 @@ turkmen = {
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
 	unit_gfx = { oghuz_unit_gfx }
+	house_coa_frame = house_frame_14
 
 	ethnicities = {
 		3 = turkic

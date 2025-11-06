@@ -18,6 +18,9 @@
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_29
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -31,6 +34,7 @@ kru = {
 	heritage = heritage_akan
 	language = language_kru
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_fishermen
 		tradition_practiced_pirates
@@ -43,6 +47,9 @@ kru = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_29
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african
@@ -56,6 +63,7 @@ guan = {
 	heritage = heritage_akan
 	language = language_kwa
 	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_dryland_dwellers
 		tradition_festivities
@@ -69,6 +77,9 @@ guan = {
 	building_gfx = { guinean_building_gfx }
 	clothing_gfx = { african_clothing_gfx }
 	unit_gfx = { african_unit_gfx }
+	house_coa_frame = house_frame_29
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 0.95 0.95 }
 	
 	ethnicities = {
 		10 = african

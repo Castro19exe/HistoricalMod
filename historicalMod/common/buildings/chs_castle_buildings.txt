@@ -1,6 +1,9 @@
 @holding_illustration_western = "gfx/interface/illustrations/holding_types/castle_western.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/castle_mena.dds"
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/castle_india.dds"
+@holding_illustration_seasia = "gfx/interface/illustrations/holding_types/tgp_castle_se_asia.dds"
+@holding_illustration_china = "gfx/interface/illustrations/holding_types/tgp_castle_china.dds"
+@holding_illustration_japan = "gfx/interface/illustrations/holding_types/tgp_castle_japan.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_castle_norse.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
@@ -8,7 +11,6 @@
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_castle_byzantine.dds"
 @holding_illustration_constantinople = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
 @holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/castle_scandinavian.dds"
-@holding_illustration_chinese = "gfx/interface/illustrations/holding_types/castle_chinese.dds"
 @holding_illustration_goidelic = "gfx/interface/illustrations/holding_types/castle_celtic.dds"
 @holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/castle_sahelian.dds"
 @holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/castle_ethiopian.dds"
@@ -18,13 +20,15 @@
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/castle_tibetan.dds"
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/castle_berber.dds"
 @holding_illustration_african = "gfx/interface/illustrations/holding_types/castle_african.dds"
-@holding_illustration_baghdad = "gfx/interface/illustrations/holding_types/castle_baghdad.dds"
 
 @holding_illustration_mena_mediterranean = "gfx/interface/illustrations/holding_types/castle_mena_mediterranean.dds"
+@holding_illustration_mediterranean_indian = "gfx/interface/illustrations/holding_types/castle_mediterranean_indian.dds"
+@holding_illustration_steppe_mediterranean = "gfx/interface/illustrations/holding_types/castle_steppe_mediterranean.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
 
+	#Meshes (Indented for readability)
 	### WESTERN ###
 	asset = {
 		type = pdxmesh
@@ -177,7 +181,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_01_indian_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
@@ -343,6 +347,15 @@ castle_01 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
+	asset = {
+			type = pdxmesh
+			name = "tgp_building_chinese_castle_01_mesh"
+			requires_dlc_flag = all_under_heaven
+			illustration = @holding_illustration_china
+			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 0 } }
+			graphical_cultures = { steppe_building_gfx }
+			graphical_regions = { graphical_east_asia }
+		}
 
 	#Elsewhere
 	asset = {
@@ -371,7 +384,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "turkic_castle_01_mesh"
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_steppe_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -384,6 +397,39 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { steppe_building_gfx }
 		provinces = { 496 }
+	}
+
+	# SOUTHEAST ASIA #
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_se_asia_castle_01_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	# China
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_01_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	# TGP Japan
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_castle_01_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { japanese_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
 	}
 
 	### EASTERN ###
@@ -426,31 +472,6 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { east_slavic_building_gfx }
 		graphical_regions = { graphical_mena graphical_mediterranean graphical_india graphical_steppe }
-	}
-
-    ### CHINA ###
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_01_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { chinese_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_01_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_01_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
 	}
 
 	### CELTIC ###
@@ -546,6 +567,7 @@ castle_01 = {
 		culture = {
 			has_innovation = innovation_motte
 		}
+		japan_castle_construction_trigger = yes
 	}
 
 	can_construct_showing_failures_only = {
@@ -616,16 +638,14 @@ castle_01 = {
 			if = {
 				limit = {
 					any_vassal = {
-						has_vassal_stance = parochial
+						vassal_stance = parochial
 					}
 					save_temporary_scope_as = holder_scope
 				}
 				custom_tooltip = parochial_vassal_approves_holding_construction
 				hidden_effect = {
 					every_vassal = {
-						limit = {
-							has_vassal_stance = parochial
-						}
+						vassal_stance = parochial
 						add_opinion = {
 							target = prev
 							modifier = parochial_approves_holding_construction_opinion
@@ -650,6 +670,9 @@ castle_01 = {
 				}
 			}
 		}
+		#Mandala Creator Aspect
+		creator_mandala_built_regular_holding_piety_effect = yes
+
 		# Building Oath
 		hidden_effect = {
 			if = {
@@ -676,6 +699,9 @@ castle_01 = {
 
 		modifier = {
 			add = 50
+			scope:holder = {
+				NOT = { government_has_flag = government_is_mandala }
+			}
 			county = {
 				NOT = {
 					any_county_province = {
@@ -694,6 +720,7 @@ castle_01 = {
 castle_02 = {
 	construction_time = slow_construction_time
 
+	#Meshes (Indented for readability)
 	### WESTERN ###
 	asset = {
 		type = pdxmesh
@@ -831,7 +858,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_02_indian_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1020,10 +1047,19 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "turkic_castle_02_mesh"
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_steppe_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_02_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 	### EP3 Byzantine ###
 	asset = {
@@ -1036,14 +1072,37 @@ castle_02 = {
 		provinces = { 496 }
 	}
 
-    ### CHINA ###
+	# SOUTHEAST ASIA #
 	asset = {
 		type = pdxmesh
-		name = "building_chinese_castle_02_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 1 } }
+		name = "tgp_building_se_asia_castle_01_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	# TGP China
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_02_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	# TGP Japan
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_castle_02_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { japanese_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 
 	### CELTIC ###
@@ -1177,6 +1236,7 @@ castle_02 = {
 		culture = {
 			has_innovation = innovation_battlements
 		}
+		japan_castle_construction_trigger = yes
 	}
 	
 	cost_gold = main_building_tier_2_cost
@@ -1236,16 +1296,14 @@ castle_02 = {
 			if = {
 				limit = {
 					any_vassal = {
-						has_vassal_stance = parochial
+						vassal_stance = parochial
 					}
 					save_temporary_scope_as = holder_scope
 				}
 				custom_tooltip = parochial_vassal_approves_holding_upgrade
 				hidden_effect = {
 					every_vassal = {
-						limit = {
-							has_vassal_stance = parochial
-						}
+						vassal_stance = parochial
 						add_opinion = {
 							target = prev
 							modifier = parochial_approves_holding_upgrade_opinion
@@ -1254,6 +1312,8 @@ castle_02 = {
 				}
 			}
 		}
+		#Mandala Creator Aspect
+		creator_mandala_upgraded_regular_holding_piety_effect = yes
 	}
 	
 	ai_value = {
@@ -1281,6 +1341,7 @@ castle_02 = {
 			combined_building_level <= 10
 			years_from_game_start >= 1
 		}
+		#Needed for the initial construction setup for the AI (to avoid the AI spending their free construction setup on upgrading all holdings instead of building buildings)
 		modifier = {
 			factor = 0.3
 			years_from_game_start <= 0.01
@@ -1291,6 +1352,7 @@ castle_02 = {
 castle_03 = {
 	construction_time = slow_construction_time
 
+	#Meshes (Indented for readability)
 	### WESTERN ###
 	asset = {
 		type = pdxmesh
@@ -1428,7 +1490,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_03_indian_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1617,10 +1679,19 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "turkic_castle_03_mesh"
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_steppe_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_03_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 	asset = {
 		type = pdxmesh
@@ -1630,6 +1701,39 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
 		provinces = { 496 }
+	}
+
+	# SOUTHEAST ASIA #
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_se_asia_castle_02_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	# TGP China
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_03_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { graphical_east_asia }
+	}
+
+	# TGP Japan
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_castle_03_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { japanese_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 
 	### EASTERN ###
@@ -1710,16 +1814,6 @@ castle_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CHINA ###
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_03_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
 	### TIBETAN ###
 	asset = {
 		type = pdxmesh
@@ -1781,6 +1875,7 @@ castle_03 = {
 		culture = {
 			has_innovation = innovation_hoardings
 		}
+		japan_castle_construction_trigger = yes
 	}
 
 	cost_gold = main_building_tier_3_cost
@@ -1840,16 +1935,14 @@ castle_03 = {
 			if = {
 				limit = {
 					any_vassal = {
-						has_vassal_stance = parochial
+						vassal_stance = parochial
 					}
 					save_temporary_scope_as = holder_scope
 				}
 				custom_tooltip = parochial_vassal_approves_holding_upgrade
 				hidden_effect = {
 					every_vassal = {
-						limit = {
-							has_vassal_stance = parochial
-						}
+						vassal_stance = parochial
 						add_opinion = {
 							target = prev
 							modifier = parochial_approves_holding_upgrade_opinion
@@ -1857,6 +1950,10 @@ castle_03 = {
 					}
 				}
 			}
+		}
+		scope:character = {
+			#Mandala Creator Aspect
+			creator_mandala_upgraded_regular_holding_piety_effect = yes
 		}
 	}
 	
@@ -1886,6 +1983,7 @@ castle_03 = {
 castle_04 = {
 	construction_time = slow_construction_time
 
+	#Meshes (Indented for readability)
 	### WESTERN ###
 	asset = {
 		type = pdxmesh
@@ -2023,7 +2121,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_04_indian_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mediterranean_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2212,10 +2310,19 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "turkic_castle_04_mesh"
-		illustration = @holding_illustration_steppe
+		illustration = @holding_illustration_steppe_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
+	}
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_04_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 	asset = {
 		type = pdxmesh
@@ -2225,6 +2332,38 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
 		provinces = { 496 }
+	}
+
+	# SOUTHEAST ASIA #
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_se_asia_castle_02_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		graphical_regions = { graphical_east_asia graphical_india }
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_chinese_castle_04_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_china
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { chinese_building_gfx }
+		graphical_regions = { graphical_east_asia }
+	}
+
+	# TGP Japan
+	asset = {
+		type = pdxmesh
+		name = "tgp_building_japanese_castle_04_mesh"
+		requires_dlc_flag = all_under_heaven
+		illustration = @holding_illustration_japan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { japanese_building_gfx }
+		graphical_regions = { graphical_east_asia }
 	}
 
 	### EASTERN ###
@@ -2305,23 +2444,6 @@ castle_04 = {
 		graphical_regions = { graphical_mena }
 	}
 
-	### CHINA ###
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_04_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { chinese_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_chinese_castle_04_mesh"
-		illustration = @holding_illustration_chinese
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_steppe }
-	}
-
 	### TIBETAN ###
 	asset = {
 		type = pdxmesh
@@ -2382,6 +2504,7 @@ castle_04 = {
 		culture = {
 			has_innovation = innovation_machicolations
 		}
+		japan_castle_construction_trigger = yes
 	}
 
 	cost_gold = main_building_tier_4_cost
@@ -2440,16 +2563,14 @@ castle_04 = {
 			if = {
 				limit = {
 					any_vassal = {
-						has_vassal_stance = parochial
+						vassal_stance = parochial
 					}
 					save_temporary_scope_as = holder_scope
 				}
 				custom_tooltip = parochial_vassal_approves_holding_upgrade
 				hidden_effect = {
 					every_vassal = {
-						limit = {
-							has_vassal_stance = parochial
-						}
+						vassal_stance = parochial
 						add_opinion = {
 							target = prev
 							modifier = parochial_approves_holding_upgrade_opinion
@@ -2457,6 +2578,10 @@ castle_04 = {
 					}
 				}
 			}
+		}
+		scope:character = {
+			#Mandala Creator Aspect
+			creator_mandala_upgraded_regular_holding_piety_effect = yes
 		}
 	}
 	

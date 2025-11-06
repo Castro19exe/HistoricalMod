@@ -36,7 +36,7 @@
 andalusian = {
 	color = { 0.4 0.6 0.1 }
 	created = 800.1.1
-	parents = { hispano_roman bedouin }
+	parents = { bedouin hispano_roman }
 
 	ethos = ethos_courtly
 	heritage = heritage_iberian

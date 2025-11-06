@@ -5,6 +5,7 @@
 	heritage = heritage_latin
 	language = language_latin
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_imperial_might
 		tradition_formation_fighting
@@ -19,7 +20,10 @@
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { byzantine_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 
 	ethnicities = {
 		10 = mediterranean
@@ -35,9 +39,10 @@ italian = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
-		tradition_republican_legacy
 		tradition_formation_fighting
+		tradition_republican_legacy
 		tradition_poetry
 	}
 	
@@ -47,6 +52,9 @@ italian = {
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		10 = mediterranean
@@ -64,6 +72,7 @@ cisalpine = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_mountain_homes
@@ -76,6 +85,9 @@ cisalpine = {
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		8 = mediterranean
@@ -95,6 +107,7 @@ sardinian = {
 	heritage = heritage_latin
 	language = language_sardinian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
@@ -106,6 +119,9 @@ sardinian = {
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		10 = mediterranean
@@ -123,14 +139,13 @@ sicilian = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
-		tradition_republican_legacy
-		tradition_poetry
+		tradition_xenophilic
 		tradition_swords_for_hire
-	}
-	dlc_tradition = {
-		trait = tradition_culture_blending	
-		requires_dlc_flag = royal_court
+		tradition_ruling_caste
+		tradition_poetry
+		tradition_republican_legacy
 	}
 	
 	name_list = name_list_sicilian
@@ -139,6 +154,9 @@ sicilian = {
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		7 = mediterranean
@@ -171,6 +189,9 @@ lombard = { #Italo-Lombards
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		8 = mediterranean
@@ -188,12 +209,12 @@ venetian = {
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
 		tradition_welcoming
 		tradition_seafaring
 		tradition_maritime_mercantilism
-		#tradition_polders
 	}
 	
 	name_list = name_list_cisalpine
@@ -202,6 +223,9 @@ venetian = {
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		8 = mediterranean

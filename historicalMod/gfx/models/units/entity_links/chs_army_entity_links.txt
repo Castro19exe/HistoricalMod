@@ -254,14 +254,12 @@ fp2_army_muslim_03 = {
 
 fp3_army_01 = {
 	type = army
-	#TODO requires_dlc_flag = sands_of_time
 	graphical_cultures = { iranian_unit_gfx }
 	entity = unit_fp3_iranian_infantry_01_entity
 }
 
 fp3_army_02 = {
 	type = army
-	#TODO requires_dlc_flag = sands_of_time
 	quality = @tier2_quality
 	graphical_cultures = { iranian_unit_gfx }
 	entity = unit_fp3_iranian_infantry_02_entity
@@ -269,10 +267,53 @@ fp3_army_02 = {
 
 fp3_army_03 = {
 	type = army
-	#TODO requires_dlc_flag = sands_of_time
 	quality = @tier3_quality
 	graphical_cultures = { iranian_unit_gfx }
 	entity = unit_fp3_iranian_infantry_03_entity
+}
+
+# TGP - Japanese
+
+tgp_japanese_army_01 = {
+	type = army
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_tgp_japanese_infantry_01_entity
+}
+
+tgp_japanese_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_tgp_japanese_infantry_02_entity
+}
+
+tgp_japanese_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { japanese_unit_gfx }
+	entity = unit_tgp_japanese_infantry_03_entity
+}
+
+# TGP - Chinese
+
+tgp_chinese_army_01 = {
+	type = army
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_tgp_chinese_infantry_01_entity
+}
+
+tgp_chinese_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_tgp_chinese_infantry_02_entity
+}
+
+tgp_chinese_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { chinese_unit_gfx }
+	entity = unit_tgp_chinese_infantry_03_entity
 }
 
 
@@ -454,46 +495,6 @@ south_slav_army_05 = {
 	entity = unit_south_slav_infantry_03_entity
 }
 
-# Chinese
-chinese_army_01 = {
-	type = army
-	graphical_cultures = { chinese_unit_gfx }
-	entity = unit_chinese_infantry_01_entity
-}
-chinese_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { chinese_unit_gfx }
-	entity = unit_chinese_infantry_02_entity
-}
-chinese_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { chinese_unit_gfx }
-	entity = unit_chinese_infantry_03_entity
-}
-
-# Japanese
-japanese_army_01 = {
-	type = army
-	graphical_cultures = { japanese_unit_gfx }
-	entity = unit_japanese_infantry_01_entity
-}
-
-japanese_army_02 = {
-	type = army
-	quality = @tier2_quality
-	graphical_cultures = { japanese_unit_gfx }
-	entity = unit_japanese_infantry_02_entity
-}
-
-japanese_army_03 = {
-	type = army
-	quality = @tier3_quality
-	graphical_cultures = { japanese_unit_gfx }
-	entity = unit_japanese_infantry_03_entity
-}
-
 # Tribal Germanic
 germanic_army_01 = {
 	type = army
@@ -648,25 +649,46 @@ berber_army_03 = {
 	entity = unit_berber_infantry_03_entity
 }
 
-# Circumpolar
-circumpolar_army_01 = {
+# Sami
+sami_army_01 = {
 	type = army
-	graphical_cultures = { circumpolar_unit_gfx }
-	entity = unit_circumpolar_infantry_01_entity
+	graphical_cultures = { sami_unit_gfx }
+	entity = unit_sami_infantry_01_entity
 }
 
-circumpolar_army_03 = {
+sami_army_02 = {
 	type = army
-	quality = @tier2_quality	
-	graphical_cultures = { circumpolar_unit_gfx }
-	entity = unit_circumpolar_infantry_02_entity
+	quality = @tier2_quality
+	graphical_cultures = { sami_unit_gfx }
+	entity = unit_sami_infantry_02_entity
 }
 
-circumpolar_army_05 = {
+sami_army_03 = {
 	type = army
 	quality = @tier3_quality
-	graphical_cultures = { circumpolar_unit_gfx }
-	entity = unit_circumpolar_infantry_03_entity
+	graphical_cultures = { sami_unit_gfx }
+	entity = unit_sami_infantry_02_entity
+}
+
+# Balto-Finnic
+balto_finnic_army_01 = {
+	type = army
+	graphical_cultures = { balto_finnic_unit_gfx }
+	entity = unit_northern_pagan_infantry_01_entity
+}
+
+balto_finnic_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { balto_finnic_unit_gfx }
+	entity = unit_balto_finnic_infantry_02_entity
+}
+
+balto_finnic_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { balto_finnic_unit_gfx }
+	entity = unit_balto_finnic_infantry_03_entity
 }
 
 # Ruthenian
@@ -740,5 +762,5 @@ nord_army_05 = {
 test_army_01 = {
 	type = army
 	graphical_cultures = { test_unit_gfx }
-	entity = unit_crimean_gothic_infantry_03_entity
+	entity = unit_tgp_japanese_infantry_03_entity
 }

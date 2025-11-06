@@ -1,0 +1,40 @@
+should_use_asian_maa_graphics = {
+	OR = {
+		has_unit_gfx = chinese_unit_gfx
+		has_unit_gfx = mongol_unit_gfx
+	}
+}
+should_use_japanese_maa_graphics = {
+	has_unit_gfx = japanese_unit_gfx
+}
+
+should_use_mena_maa_graphics = {
+	OR = {
+		has_unit_gfx = mena_unit_gfx
+		has_unit_gfx = iranian_unit_gfx
+		has_unit_gfx = berber_unit_gfx
+	}
+}
+
+should_use_african_maa_graphics = {
+	OR = {
+		has_unit_gfx = african_unit_gfx
+		has_unit_gfx = west_african_unit_gfx
+		has_unit_gfx = east_african_unit_gfx
+	}
+}
+
+should_use_indian_maa_graphics = {
+	OR = {
+		has_cultural_pillar = heritage_dravidian
+		has_cultural_pillar = heritage_indo_aryan
+		has_cultural_pillar = heritage_burman
+	}
+}
+
+should_use_turkic_maa_graphics = {
+	OR = {
+		has_cultural_pillar = heritage_turkic
+		has_cultural_pillar = heritage_tocharian
+	}
+}

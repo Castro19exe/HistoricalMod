@@ -5,6 +5,7 @@
 	heritage = heritage_gaulish
 	language = language_gaulish
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_sacred_groves
 		tradition_martial_admiration
@@ -16,6 +17,9 @@
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		10 = caucasian_blond
@@ -34,6 +38,7 @@ north_gallo_roman = {
 	heritage = heritage_latin
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_imperial_might
 		tradition_formation_fighting
@@ -52,7 +57,10 @@ north_gallo_roman = {
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { byzantine_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		20 = caucasian_blond
@@ -72,6 +80,7 @@ south_gallo_roman = {
 	heritage = heritage_latin
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_imperial_might
 		tradition_legalistic
@@ -89,7 +98,10 @@ south_gallo_roman = {
 	building_gfx = { byzantine_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { byzantine_unit_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
 		20 = caucasian_blond
@@ -109,6 +121,7 @@ french = {
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_chanson_de_geste
 		tradition_hereditary_hierarchy
@@ -121,36 +134,9 @@ french = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	
-	ethnicities = {
-		30 = caucasian_blond
-		10 = caucasian_ginger
-		30 = caucasian_brown_hair
-		30 = caucasian_dark_hair
-	}	
-}
-
-arpitan = {
-	color = { 80 98 217 }
-	#created = 862.1.1
-	#parents = { north_gallo_roman }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_frankish
-	language = language_arpitan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chanson_de_geste
-		tradition_mountain_homes
-		tradition_chivalry
-	}
-	
-	name_list = name_list_french
-
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
 	
 	ethnicities = {
 		30 = caucasian_blond
@@ -169,6 +155,7 @@ occitan = {
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_equal_inheritance
 		tradition_chivalry
@@ -181,7 +168,10 @@ occitan = {
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_03
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
 		20 = caucasian_blond

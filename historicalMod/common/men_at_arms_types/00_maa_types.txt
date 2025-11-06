@@ -42,36 +42,6 @@ light_footmen = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
 	}
 
 	should_show_when_unavailable = {
@@ -87,7 +57,15 @@ light_footmen = {
 
 	stack = 100
 	ai_quality = { value = culture_ai_weight_skirmishers }
-	icon = skirmishers
+	
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = skirmishers_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = skirmishers_asia }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = skirmishers_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = skirmishers_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = skirmishers_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = skirmishers_turkic }
+
+	illustration = { reference = skirmishers }
 }
 
 bowmen = {
@@ -113,36 +91,6 @@ bowmen = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
 	}
 
 	should_show_when_unavailable = {
@@ -161,6 +109,15 @@ bowmen = {
 		value = culture_ai_weight_archers
 		add = counter_synergy_ai_weight_archers
 	}
+
+ 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = bowmen_asia } 
+ 	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = bowmen_asia }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = bowmen_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = bowmen_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = bowmen_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = bowmen_turkic }
+
+ 	illustration = { reference = bowmen }
 }
 
 light_horsemen = {
@@ -182,6 +139,7 @@ light_horsemen = {
 	
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	can_recruit = {
@@ -189,36 +147,6 @@ light_horsemen = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
 	}
 
 	should_show_when_unavailable = {
@@ -246,7 +174,15 @@ light_horsemen = {
 		value = culture_ai_weight_light_cavalry
 		add = counter_synergy_ai_weight_light_cavalry
 	}
-	icon = light_cavalry
+
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = light_cavalry_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = light_cavalry_asia }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = light_cavalry_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = light_cavalry_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = light_cavalry_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = light_cavalry_turkic }
+
+	illustration = { reference = light_cavalry }
 }
 
 pikemen_unit = {
@@ -275,36 +211,6 @@ pikemen_unit = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
 	}
 
 	should_show_when_unavailable = {
@@ -323,7 +229,15 @@ pikemen_unit = {
 		value = culture_ai_weight_pikemen
 		add = counter_synergy_ai_weight_pikemen
 	}
-	icon = pikemen
+
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = pikemen_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = pikemen_asia }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = pikemen_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = pikemen_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = pikemen_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = pikemen_turkic }
+
+	illustration = { reference = pikemen }
 }
 
 #Tribal Era
@@ -337,48 +251,20 @@ armored_footmen = {
 	
 	counters = {
 		pikemen = 1
+		peasant_militia = 2
 	}
 
-
 	can_recruit = {
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+		culture = {
+			has_innovation = innovation_quilted_armor
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
-		culture = {
-			has_innovation = innovation_quilted_armor
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
 	}
 	
 	should_show_when_unavailable = {
@@ -397,7 +283,15 @@ armored_footmen = {
 		value = culture_ai_weight_heavy_infantry
 		add = counter_synergy_ai_weight_heavy_infantry
 	}
-	icon = heavy_infantry
+
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = heavy_infantry_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_infantry_japanese }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_infantry_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = heavy_infantry_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_infantry_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_infantry_turkic }
+	
+ 	illustration = { reference = heavy_infantry }
 }
 
 onager = {
@@ -413,6 +307,11 @@ onager = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_catapult
+			NOR = {
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_korean
+				has_cultural_pillar = heritage_japonic
+			}
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
@@ -453,44 +352,20 @@ armored_horsemen = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_arched_saddle
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-			has_innovation = innovation_arched_saddle
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
 	}
 
 	should_show_when_unavailable = {
@@ -515,7 +390,15 @@ armored_horsemen = {
 	
 	stack = 50
 	ai_quality = { value = culture_ai_weight_heavy_cavalry }
-	icon = heavy_cavalry
+
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = heavy_cavalry_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_cavalry_japanese }
+	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_cavalry_mena }
+	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = heavy_cavalry_african }
+	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_cavalry_indian }
+	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_cavalry_turkic }
+
+	illustration = { reference = heavy_cavalry }
 }
 
 mangonel = {
@@ -531,6 +414,11 @@ mangonel = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_mangonel
+			NOR = {
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_korean
+				has_cultural_pillar = heritage_japonic
+			}
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
@@ -575,41 +463,13 @@ crossbowmen = {
 	}
 
 	can_recruit = {
+		culture = {
+			has_innovation = innovation_advanced_bowmaking
+		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
-		culture = {
-			has_innovation = innovation_advanced_bowmaking
-            OR = {
-				has_cultural_pillar = heritage_goidelic
-				has_cultural_pillar = heritage_brythonic
-				has_cultural_pillar = heritage_iberian
-				has_cultural_pillar = heritage_frankish
-				has_cultural_pillar = heritage_west_germanic
-				has_cultural_pillar = heritage_central_germanic
-				has_cultural_pillar = heritage_north_germanic
-				has_cultural_pillar = heritage_north_sea_germanic
-				has_cultural_pillar = heritage_east_germanic
-				has_cultural_pillar = heritage_latin
-				has_cultural_pillar = heritage_magyar
-				has_cultural_pillar = heritage_south_slavic
-				has_cultural_pillar = heritage_west_slavic
-				has_cultural_pillar = heritage_east_slavic
-				has_cultural_pillar = heritage_baltic
-                has_cultural_pillar = heritage_balto_finnic
-				has_cultural_pillar = heritage_vlach
-				has_cultural_pillar = heritage_albanian
-				has_cultural_pillar = heritage_caucasian
-            }
-			NOR = {
-				this = culture:mogyer
-				this = culture:andalusian
-				any_parent_culture_or_above = {
-					this = culture:andalusian					
-				}
-            }
-        }
 	}
 
 	should_show_when_unavailable = {
@@ -623,12 +483,24 @@ crossbowmen = {
 	provision_cost = @provisions_cost_infantry_moderate
 
 	ai_quality = {
-		value = counter_synergy_ai_weight_archers
+		value = culture_ai_weight_crossbowmen
 	}
 	
 	holy_order_fallback = yes
 	
 	stack = 100
+
+	illustration = {
+		trigger = {
+			should_use_asian_maa_graphics = yes
+		}
+
+		reference = crossbowmen_asia
+	}
+
+	illustration = {
+		reference = crossbowmen
+	}
 }
 
 trebuchet = {
@@ -644,11 +516,17 @@ trebuchet = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_trebuchet
+			NOR = {
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_korean
+				has_cultural_pillar = heritage_japonic
+			}
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
 			government_has_flag = government_is_herder
 		}
+
 	}
 	
 	should_show_when_unavailable = {
@@ -679,7 +557,12 @@ bombard = {
 
 	can_recruit = {
 		culture = {
-			has_innovation = innovation_bombard
+			has_cultural_parameter = unlock_late_medieval_gunpowder_units
+			NOR = {
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_korean
+				has_cultural_pillar = heritage_japonic
+			}
 		}
 		NOR = {
 			government_has_flag = government_is_nomadic
@@ -701,12 +584,48 @@ bombard = {
 	allowed_in_hired_troops = no
 }
 
+handgunners = {
+	type = gunpowder
+
+	damage = 52
+	toughness = 12
+	pursuit = 0
+	screen = 5
+
+	can_recruit = {
+		gunpowder_raise_limit_existing_gunpowder_units < gunpowder_raise_limit_existing_gunpowder_buildings	# one powder magazine must be owned to support three handgunner regiments, regardless of maa size
+		culture = { has_cultural_parameter = unlock_late_medieval_gunpowder_units }
+	}
+
+	terrain_bonus = {
+		wetlands = { damage = -10 }
+		floodplains = { damage = -5 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = handgunner_recruitment_cost }
+	low_maintenance_cost = { gold = handgunner_low_maint_cost }
+	high_maintenance_cost = { gold = handgunner_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	ai_quality = {
+		value = counter_synergy_ai_weight_gunpowder
+	}
+
+	stack = 100
+
+	icon = handgonne
+
+}
+
 # Special
 house_guard = {
 	type = heavy_infantry
 	can_recruit = {
-		exists = dynasty
-		dynasty = {
+		dynasty ?= {
 			has_dynasty_perk = warfare_legacy_5
 		}
 		NOT = {
@@ -721,6 +640,7 @@ house_guard = {
 	
 	counters = {
 		pikemen = 2
+		peasant_militia = 4
 		archers = 2
 	}
 	
@@ -733,4 +653,61 @@ house_guard = {
 	
 	stack = 100
 	ai_quality = { value = 100 }
+
+	illustration = {
+		trigger = {
+			should_use_asian_maa_graphics = yes
+		}
+
+		reference = heavy_infantry_asia
+	}
+
+	illustration = {
+		reference = heavy_infantry
+	}
+}
+
+pikemen_militia = {
+	type = peasant_militia
+
+	damage = 12
+	toughness = 16
+	pursuit = 10
+	screen = 0
+
+	terrain_bonus = {
+		mountains = { toughness = 8 }
+		desert_mountains = { toughness = 8 }
+		hills = { toughness = 4 }
+		farmlands = { toughness = 8 }
+		floodplains = { toughness = 8 }
+		terraced_hills = { toughness = 8 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 0.5
+		camel_cavalry = 1
+	}
+
+	special_recruit_only = yes
+
+	buy_cost = { gold = 0 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 0 }
+	provision_cost = @provisions_cost_infantry_expensive
+
+	stack = 100
+	ai_quality = { value = -100 }
+
+	allowed_in_hired_troops = no
+	illustration = {
+		trigger = {
+			should_use_asian_maa_graphics = yes
+		}
+		reference = pikemen_militia_asia
+	}
+	illustration = {
+		reference = pikemen_militia
+	}
 }

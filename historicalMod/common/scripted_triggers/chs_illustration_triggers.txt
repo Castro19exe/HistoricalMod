@@ -51,6 +51,8 @@ has_graphical_west_african_culture_group_trigger = {
 			has_cultural_pillar = heritage_akan
 			has_cultural_pillar = heritage_yoruba
 			has_cultural_pillar = heritage_senegambian
+			#
+			has_cultural_pillar = heritage_central_african
 		}
 	}
 }
@@ -90,7 +92,10 @@ has_graphical_northern_culture_group_trigger = {
 }
 
 has_graphical_steppe_culture_group_trigger = {
-	has_building_gfx = steppe_building_gfx
+	OR = {
+		has_building_gfx = steppe_building_gfx
+		has_building_gfx = sami_building_gfx
+	}
 }
 
 has_graphical_iranian_culture_group_trigger = {

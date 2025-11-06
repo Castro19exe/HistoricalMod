@@ -155,7 +155,53 @@ create_serbian_empire_effect = {
 
 ######################################################################################################
 
+form_anglish_identity_effect = {
+	#Covert self & court to anglish culture
+	if = {
+		limit = { NOT = { has_culture = culture:anglish } }
 
+		set_culture = culture:anglish
+		
+		every_courtier = {
+			limit = { has_same_culture_as = scope:anglish_former }
+			add_to_list = convert_list
+		}
+		#transfer over innovations from previous culture. 
+		culture:anglish = {
+			hidden_effect = { reset_culture_creation_date = yes }
+			get_all_innovations_from = scope:anglish_former.culture
+		}
+
+		every_in_list = {
+			list = convert_list
+			custom = anglish_convert_list #This says "every subject in the realm" even though vassals and their courts only covert later, through event
+			set_culture = culture:anglish
+		}
+	}
+
+	# Convert England counties to Anglish culture
+	every_sub_realm_county = {
+		limit = {
+			tier = tier_county
+			culture = { has_cultural_pillar = heritage_west_germanic }
+		}
+		custom = anglish_convert_counties
+		set_county_culture = culture:anglish
+	}
+	#every_sub_realm_county = {
+	#	limit = {
+	#		tier = tier_county
+	#		NOT = { culture = { has_cultural_pillar = heritage_west_germanic } }
+	#	}
+	#	custom = anglish_convert_counties
+	#	set_county_culture = culture:anglish
+	#
+	#	random = {
+	#		chance = 50
+	#		set_county_culture = culture:anglish
+	#	}
+	#}
+}
 
 ######################################################################################################
 
