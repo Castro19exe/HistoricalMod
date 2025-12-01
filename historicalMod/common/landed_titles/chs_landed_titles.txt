@@ -52604,12 +52604,12 @@ e_maghreb = {
 		}
 
 		cultural_names = {
-			name_list_castilian = "Morocco"
-			name_list_asturleonese = "Morocco"
-			name_list_galician = "Morocco"
-			name_list_portuguese = "Morocco"
-			name_list_aragonese = "Morocco"
-			name_list_catalan = "Morocco"
+			name_list_castilian = Morocco
+			name_list_asturleonese = Morocco
+			name_list_galician = Morocco
+			name_list_portuguese = Morocco
+			name_list_aragonese = Morocco
+			name_list_catalan = Morocco
 		}
 
 		d_marrakesh = {

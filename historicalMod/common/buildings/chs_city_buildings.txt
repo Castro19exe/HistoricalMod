@@ -383,7 +383,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -393,7 +393,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_city_01_a_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/sea_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -403,7 +403,7 @@ city_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_city_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/japanese_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -1050,7 +1050,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -1061,7 +1061,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -1071,7 +1071,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_city_01_a_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/sea_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -1081,7 +1081,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_city_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/japanese_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -1707,7 +1707,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -1718,7 +1718,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_city_02_a_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/sea_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -1727,7 +1727,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -1737,7 +1737,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/japanese_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -2357,7 +2357,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -2368,7 +2368,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_city_02_a_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/sea_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -2377,7 +2377,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/chinese_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -2387,7 +2387,7 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_city_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/japanese_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { japanese_building_gfx }

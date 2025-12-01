@@ -74,7 +74,7 @@
  norse_unit_gfx:0 "Norse"
  northern_building_gfx:0 "Northern European"
  northern_clothing_gfx:0 "Northern European"
- northern_unit_gfx:0 "Northern European"
+ northern_unit_gfx:0 "Tribal European"       #Northern European
  norwegian_coa_gfx:0 "Norwegian"
  occitan_coa_gfx:0 "Occitanian"
  oghuz_coa_gfx:0 "Oghuz"
@@ -83,7 +83,7 @@
  polish_coa_gfx:0 "Polish"
  polish_unit_gfx:0 "Polish"
  roman_unit_gfx:0 "Roman"
- ruthenian_unit_gfx:0 "Ruthenian"
+ ruthenian_unit_gfx:0 "East Slavic"           #Ruthenian
  sahelian_building_gfx:0 "Sahelian"
  sami_coa_gfx:0 "Sami"
  sami_building_gfx:0 "Sami"
@@ -96,7 +96,7 @@
  steppe_coa_gfx:0 "Eurasian Steppe"
  steppe_unit_gfx:0 "Eurasian Steppe"
  sub_sahran_unit_gfx:0 "Sub-Saharan African"
- scandinavian_unit_gfx:0 "Scandinavian"
+ scandinavian_unit_gfx:0 "Northern European"   #Scandinavian
  siberian_building_gfx:0 "Siberian"
  swedish_coa_gfx:0 "Swedish"
  tibetan_building_gfx:0 "Tibetan"

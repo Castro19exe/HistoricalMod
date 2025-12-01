@@ -16,3 +16,4 @@
 
  # MAA
  culture_parameter_unlock_maa_siberian_hunters: "Can recruit [GetMaA('siberian_hunters').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_cuman_warrior: "Can recruit [GetMaA('cuman_warrior').GetName] as [men_at_arms|E]"

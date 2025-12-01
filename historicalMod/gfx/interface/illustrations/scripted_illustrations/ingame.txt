@@ -12018,7 +12018,6 @@ culture_levy_big_illustration = {
 					has_cultural_pillar = heritage_east_slavic
 					has_cultural_pillar = heritage_byzantine
 					has_cultural_pillar = heritage_baltic
-					has_cultural_pillar = heritage_balto_finnic
 					has_cultural_pillar = heritage_vlach
 					has_cultural_pillar = heritage_albanian
 					has_cultural_pillar = heritage_caucasian
@@ -12105,9 +12104,8 @@ culture_levy_big_illustration = {
 					has_cultural_pillar = heritage_turkic
 					has_cultural_pillar = heritage_mongolic
 					has_cultural_pillar = heritage_nivkh
-					has_cultural_pillar = heritage_ugro_permian
 					has_cultural_pillar = heritage_hunnic
-					has_cultural_pillar = heritage_ainuic    
+					has_cultural_pillar = heritage_ainuic
 
 					this = culture:mogyer
 					any_parent_culture_or_above = { this = culture:mogyer }
@@ -12115,6 +12113,20 @@ culture_levy_big_illustration = {
 			} 
 		}
 		reference = "men_at_arms_big/levies_turkic.dds"
+	}
+	
+	# --- FINNO-UGRIC ---
+	texture = {
+		trigger = { 
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic
+					has_cultural_pillar = heritage_ugro_permian
+					has_cultural_pillar = heritage_volga_finnic
+				} 
+			} 
+		}
+		reference = "men_at_arms_big/levies_finnish.dds"
 	}
 
 	# --- ALL ASIAN  ---
@@ -12160,7 +12172,6 @@ culture_knight_big_illustration = {
 					has_cultural_pillar = heritage_west_slavic
 					has_cultural_pillar = heritage_east_slavic
 					has_cultural_pillar = heritage_baltic
-					has_cultural_pillar = heritage_balto_finnic
 					has_cultural_pillar = heritage_vlach
 					has_cultural_pillar = heritage_albanian
 					has_cultural_pillar = heritage_caucasian
@@ -12272,9 +12283,8 @@ culture_knight_big_illustration = {
 					has_cultural_pillar = heritage_turkic
 					has_cultural_pillar = heritage_mongolic
 					has_cultural_pillar = heritage_nivkh
-					has_cultural_pillar = heritage_ugro_permian
 					has_cultural_pillar = heritage_hunnic
-					has_cultural_pillar = heritage_ainuic    
+					has_cultural_pillar = heritage_ainuic
 
 					this = culture:mogyer
 					any_parent_culture_or_above = { this = culture:mogyer }
@@ -12282,6 +12292,20 @@ culture_knight_big_illustration = {
 			} 
 		}
 		reference = "men_at_arms_big/knights_turkic.dds"
+	}
+
+	# --- FINNO-UGRIC ---
+	texture = {
+		trigger = { 
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_balto_finnic
+					has_cultural_pillar = heritage_ugro_permian
+					has_cultural_pillar = heritage_volga_finnic
+				}
+			} 
+		}
+		reference = "men_at_arms_big/heavy_cavalry_finnish.dds"
 	}
 
 	# --- ASIAN  ---

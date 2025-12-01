@@ -163,7 +163,7 @@ walls_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_01_mesh"
 		}
@@ -174,7 +174,7 @@ walls_01 = {
 	# TGP Southeast Asia
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_se_asia_wall_01_mesh"
 		}
@@ -184,7 +184,7 @@ walls_01 = {
 	# TGP China
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_01_mesh"
 		}
@@ -194,7 +194,7 @@ walls_01 = {
 	# TGP Japan
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_japanese_wall_01_mesh"
 		}
@@ -342,8 +342,9 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
+			"tgp_building_chinese_wall_02_mesh"
 			#"mpo_mongol_wall_02_mesh"
-			"mongol_nomadic_wall_02_mesh"
+			#"mongol_nomadic_wall_02_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -360,7 +361,7 @@ walls_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_02_mesh"
 		}
@@ -372,7 +373,7 @@ walls_02 = {
 	# TGP Southeast Asia
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { southeast_asian_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_india }
 		names = {
@@ -382,7 +383,7 @@ walls_02 = {
 	# TGP China
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { chinese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {
@@ -392,7 +393,7 @@ walls_02 = {
 	# TGP Japan
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {
@@ -569,8 +570,9 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
+			"tgp_building_chinese_wall_03_mesh"
 			#"mpo_mongol_wall_03_mesh"
-			"mongol_nomadic_wall_03_mesh"
+			#"mongol_nomadic_wall_03_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -587,7 +589,7 @@ walls_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_03_mesh"
 		}
@@ -598,7 +600,7 @@ walls_03 = {
 	# TGP Southeast Asia
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { southeast_asian_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_india }
 		names = {
@@ -608,7 +610,7 @@ walls_03 = {
 	# TGP China
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { chinese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {
@@ -618,7 +620,7 @@ walls_03 = {
 	# TGP Japan
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {
@@ -794,7 +796,8 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
-			"mpo_mongol_wall_04_mesh"
+			"tgp_building_chinese_wall_04_mesh"
+			#"mpo_mongol_wall_04_mesh"
 			#"mongol_nomadic_wall_04_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
@@ -819,7 +822,7 @@ walls_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_04_mesh"
 		}
@@ -831,7 +834,7 @@ walls_04 = {
 	# TGP Southeast Asia
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { southeast_asian_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_india }
 		names = {
@@ -841,7 +844,7 @@ walls_04 = {
 	# TGP China
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { chinese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {
@@ -851,7 +854,7 @@ walls_04 = {
 	# TGP Japan
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
 		names = {

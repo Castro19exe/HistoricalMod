@@ -71,8 +71,7 @@ camp_main_01 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_west_african_culture_group_trigger = yes
-					has_graphical_east_african_culture_group_trigger = yes
+					has_graphical_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -193,8 +192,7 @@ camp_main_02 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_west_african_culture_group_trigger = yes
-					has_graphical_east_african_culture_group_trigger = yes
+					has_graphical_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -316,8 +314,7 @@ camp_main_03 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_west_african_culture_group_trigger = yes
-					has_graphical_east_african_culture_group_trigger = yes
+					has_graphical_african_culture_group_trigger = yes
 				}
 			}
 		}
@@ -440,8 +437,7 @@ camp_main_04 = {
 			owner.culture = {
 				OR = {
 					has_graphical_norse_culture_group_trigger = yes
-					has_graphical_west_african_culture_group_trigger = yes
-					has_graphical_east_african_culture_group_trigger = yes
+					has_graphical_african_culture_group_trigger = yes
 				}
 			}
 		}

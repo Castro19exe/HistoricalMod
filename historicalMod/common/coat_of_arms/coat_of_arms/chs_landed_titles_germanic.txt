@@ -123,21 +123,20 @@ k_gothia = {
 }
 
 d_angria = {
+	custom=yes
 	pattern="pattern_solid.dds"
-	color1=yellow
-	color2=black
+	color1=red
+	color2=white
+	color3=green
 	colored_emblem={
-		color1=green
-		color2=green
-		texture="ce__empty_designer.dds"
+		color1=white
+		texture="ce_horse_statant.dds"
+		instance={
+			position={ 0.500000 0.540000 }
+			scale={ 0.910000 0.910000 }
+			rotation=18
+		}
+
 	}
 
-	colored_emblem={
-		color1=yellow
-		color2=black
-		texture="ce_horizontal_stripes_03.dds"
-		instance={
-			depth=1.010000
-		}
-	}
 }

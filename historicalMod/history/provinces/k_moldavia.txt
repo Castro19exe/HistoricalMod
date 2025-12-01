@@ -38,7 +38,7 @@
 ###c_neamnt
 5031 = {	#Piatra Neamnt
 	culture = tiverian
-	religion = orthodox
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
@@ -178,14 +178,18 @@
 
 ###c_barlad
 513 = {		#Barlad
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
+		culture = russian
 		holding = castle_holding
 	}
 	1000.1.1 = {
 		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = vlach
 	}
 }
 5025 = {	#Vaslui
@@ -200,10 +204,11 @@
 
 ###c_galati
 511 = {		#Galati
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
+		culture = vlach
 		holding = castle_holding
 	}
 	1000.1.1 = {
@@ -225,10 +230,11 @@
 
 ###c_stoenesti
 5029 = {	#Stoenesti
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
+		culture = vlach
 		holding = castle_holding
 	}
 	1000.1.1 = {
@@ -242,10 +248,11 @@
 ##d_bugeac ###################################
 ###c_tigheci
 5015 = {	#Tigheci
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
+		culture = vlach
 		holding = castle_holding
 	}
 	1000.1.1 = {
@@ -261,8 +268,8 @@
 
 ###c_cetatea_alba
 512 = {		#Cetatea Alba
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = pecheneg
@@ -281,10 +288,11 @@
 
 ###c_chilia
 5012 = {	#Chilia
-	culture = vlach
-	religion = orthodox
+	culture = tiverian
+	religion = slavic_pagan
 	holding = tribal_holding
 	935.1.1 = {
+		culture = vlach
 		holding = castle_holding
 	}
 	1000.1.1 = {

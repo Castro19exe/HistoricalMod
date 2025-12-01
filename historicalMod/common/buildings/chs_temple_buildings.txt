@@ -13,6 +13,7 @@
 @illustration_byzantine_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds" 
 @illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
+@illustration_african_pagan = "gfx/interface/illustrations/holding_types/temple_african_pagan.dds"
 @illustration_ethiopian_orthodox = "gfx/interface/illustrations/holding_types/temple_ethiopian_orthodox.dds"
 @illustration_tengri = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds"
 @illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
@@ -66,7 +67,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -457,7 +458,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_pagan_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { pagan_gfx }
@@ -467,7 +468,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_pagoda_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { dharmic_gfx }
@@ -478,7 +479,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 0 } }
 		
@@ -489,7 +490,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_pagoda_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese 
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { dharmic_gfx }
@@ -500,7 +501,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_shinto 
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { shinto_gfx }
@@ -525,6 +526,26 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { "sahelian_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+
+	# GUINEAN
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
 
@@ -1112,7 +1133,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -1503,7 +1524,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_pagan_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_pagan_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { pagan_gfx }
@@ -1513,7 +1534,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_pagoda_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { dharmic_gfx }
@@ -1524,7 +1545,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 1 } }
 		
@@ -1535,7 +1556,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_pagoda_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { dharmic_gfx }
@@ -1546,7 +1567,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_temple_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_shinto 
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { shinto_gfx }
@@ -1571,6 +1592,26 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { "sahelian_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+
+	# GUINEAN
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
 
@@ -2002,7 +2043,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_temple_03_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_temple" soundparameter = { "Tier" = 2 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -2393,7 +2434,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_pagan_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_pagan_temple" soundparameter = { "Tier" = 2 } }
 		graphical_faiths = { pagan_gfx }
@@ -2403,7 +2444,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_pagoda_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 2 } }
 		graphical_faiths = { dharmic_gfx }
@@ -2414,7 +2455,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 2 } }
 		
@@ -2425,7 +2466,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_pagoda_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 2 } }
 		graphical_faiths = { dharmic_gfx }
@@ -2436,7 +2477,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_shinto 
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 2 } }
 		graphical_faiths = { shinto_gfx }
@@ -2461,6 +2502,26 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { "sahelian_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+
+	# GUINEAN
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_01_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
 
@@ -2884,7 +2945,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_temple_04_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_temple" soundparameter = { "Tier" = 3 } }
 		graphical_faiths = { "dharmic_gfx" }
@@ -3239,7 +3300,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_pagan_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/sea_pagan_temple" soundparameter = { "Tier" = 3 } }
 		graphical_faiths = { pagan_gfx }
@@ -3249,7 +3310,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_pagoda_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 3 } }
 		graphical_faiths = { dharmic_gfx }
@@ -3260,7 +3321,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/chinese_temple" soundparameter = { "Tier" = 3 } }
 		
@@ -3271,7 +3332,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_pagoda_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_chinese
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 3 } }
 		graphical_faiths = { dharmic_gfx }
@@ -3282,7 +3343,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_temple_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @illustration_shinto
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/japanese_temple" soundparameter = { "Tier" = 3 } }
 		graphical_faiths = { shinto_gfx }
@@ -3307,6 +3368,26 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { "sahelian_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+
+	# GUINEAN
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_02_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "pagan_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
+		graphical_regions = { "graphical_mena" }
+	}
+	asset = {
+		type = pdxmesh
+		name = "guinean_temple_pagan_02_mesh"
+		illustration = @illustration_african_pagan
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { "guinean_building_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
 

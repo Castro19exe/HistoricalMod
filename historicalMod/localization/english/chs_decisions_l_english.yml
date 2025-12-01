@@ -1475,6 +1475,16 @@
  chs_major_decisions.0003.t:0 "The Serbian Empire"
  chs_major_decisions.0003.desc:0 "Now the path is clear for greatness, no longer subjects of the Greeks or Bulgars, but architects of our own destiny, forging the foundation of the mighty Serbian Empire."
  chs_major_decisions.0003.a:0 "Now Stronger than ever!"
+ 
 
  innovation_legionnaires:0 "Palatini"
  innovation_legionnaires_desc:1 "Elite heavy infantry serving as the emperor's personal guard. Highly trained and well-equipped, they form the backbone of the imperial field army!"
+
+ gallowglass:0 "Gallóglaigh"
+ gallowglass_flavor:0 "#F Heavily armed warriors of mixed $heritage_goidelic_name$ and $norse$ tradition. $h_gallowglass$ were known for strength in close combat, use of two-handed axes and swords, and service as elite household troops.#!"
+ 
+ siberian_hunters:0 "Siberian Hunters"
+ siberian_hunters_flavor:0 "#F These Siberian Hunters are trained in tracking and killing prey in the taiga, whether animals or people.#!"
+
+ cuman_warrior:0 "Cuman Warriors"
+ cuman_warrior_flavor:0 "#F Something Something ......#!"

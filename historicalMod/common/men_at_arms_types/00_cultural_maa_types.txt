@@ -165,6 +165,7 @@ gendarme = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -202,6 +203,7 @@ chasseur = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -291,6 +293,7 @@ caballero = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -324,6 +327,7 @@ monaspa = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -367,6 +371,7 @@ cataphract = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -409,6 +414,7 @@ hobelar = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -622,6 +628,7 @@ mulaththamun = { #Murabit Cavalry
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -753,6 +760,7 @@ hussar = {
 
 	counters = {
 		archers = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -1002,6 +1010,7 @@ sahel_horsemen = {
 	counters = {
 		archers = 1
 		heavy_infantry = 1
+		gunpowder = 1
 	}
 
 	winter_bonus = {
@@ -1192,19 +1201,22 @@ shenbigong = {
 	type = archers
 	
 	damage = 44
-	toughness = 20
+	toughness = 18
 	pursuit = 0
 	screen = 0
 	
 	terrain_bonus = {
 		hills = { damage = 10 toughness = 4 }
 		mountains = { damage = 8 toughness = 2 }
-		desert_mountains = { damage = 8 toughness = 2 }
+		plains = { toughness = -8 }
+		drylands = { toughness = -8 }
+		desert = { toughness = -8 }
+		steppe = { toughness = -8 }
 	}
 	
 	counters = {
-		heavy_infantry = 1.5
-		heavy_cavalry = 1.5
+		heavy_infantry = 1.25
+		heavy_cavalry = 1.25
 		pikemen = 1
 		peasant_militia = 2
 	}
@@ -1266,15 +1278,26 @@ gallowglass = {
 	screen = 24
 	
 	terrain_bonus = {
-		forest = { damage = 5 }
-		taiga = { damage = 7 }
+		wetlands = { damage = 7 }
+		forest = { damage = 7 }
 		hills = { damage = 7 }
 		mountains = { damage = 7 }
+		desert_mountains = { damage = 7 }
 	}
 	
 	counters = {
 		pikemen = 0.5
 		heavy_infantry = 0.5
+		peasant_militia = 2
+	}
+
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_gallowglass
+			NOR = {
+				has_cultural_parameter = strength_in_numbers_heavy_maa_ban
+			}
+		}
 	}
 
 	winter_bonus = {
@@ -1296,8 +1319,8 @@ siberian_hunters = {
 	type = skirmishers
 	
 	damage = 10
-	toughness = 16
-	pursuit = 20
+	toughness = 10
+	pursuit = 25
 	screen = 20
 	
 	terrain_bonus = {
@@ -1327,4 +1350,48 @@ siberian_hunters = {
 	stack = 100
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = siberian_hunters
+}
+
+cuman_warrior = {
+	type = heavy_infantry
+	
+	damage = 32
+	toughness = 22
+	pursuit = 0
+	screen = 0
+	
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	
+	winter_bonus = {
+		normal_winter = { toughness = 4 screen = 8 }
+		harsh_winter = { toughness = 4 screen = 8 }
+	}
+
+	can_recruit = {
+		culture = {
+			OR = {
+				this = culture:cuman
+				this = culture:kipchak
+			}
+		}
+		NOT = {
+			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+		NOR = {
+			government_has_flag = government_is_nomadic
+			government_has_flag = government_is_herder
+		}
+	}
+
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = cuman_warrior
 }

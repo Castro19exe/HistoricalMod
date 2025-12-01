@@ -76,6 +76,39 @@ cuman = {
 	}
 }
 
+kipchak = {
+	color = { 0.55 0.50 0.15 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_swords_for_hire
+		#tradition_horse_lords
+		tradition_hunters
+		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_kipchak
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { cuman_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		10 = turkic
+	}
+}
+
 turkmen = {
 	color = { 0.8 0.4 0.1 }
 	created = 1077.1.1

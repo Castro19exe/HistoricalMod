@@ -350,7 +350,7 @@ castle_01 = {
 	asset = {
 			type = pdxmesh
 			name = "tgp_building_chinese_castle_01_mesh"
-			requires_dlc_flag = all_under_heaven
+			#requires_dlc_flag = all_under_heaven
 			illustration = @holding_illustration_china
 			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 0 } }
 			graphical_cultures = { steppe_building_gfx }
@@ -403,7 +403,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_castle_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -414,7 +414,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -425,7 +425,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_castle_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -1055,7 +1055,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -1076,7 +1076,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_castle_01_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -1087,7 +1087,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -1098,7 +1098,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_castle_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -1687,7 +1687,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_03_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -1707,7 +1707,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_castle_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -1718,7 +1718,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_03_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -1729,7 +1729,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_castle_03_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { japanese_building_gfx }
@@ -2318,7 +2318,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_04_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { steppe_building_gfx }
@@ -2338,7 +2338,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_se_asia_castle_02_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_seasia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/sea_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { southeast_asian_building_gfx }
@@ -2348,7 +2348,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_chinese_castle_04_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { chinese_building_gfx }
@@ -2359,7 +2359,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "tgp_building_japanese_castle_04_mesh"
-		requires_dlc_flag = all_under_heaven
+		#requires_dlc_flag = all_under_heaven
 		illustration = @holding_illustration_japan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/japanese_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { japanese_building_gfx }
