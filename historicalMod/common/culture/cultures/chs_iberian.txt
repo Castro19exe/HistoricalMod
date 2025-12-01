@@ -104,10 +104,7 @@ basque = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -144,10 +141,7 @@ castilian = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -180,10 +174,7 @@ catalan = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		6 = mediterranean
-		1 = caucasian_blond
-		2 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -215,10 +206,7 @@ portuguese = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -250,10 +238,7 @@ galician = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -285,10 +270,7 @@ asturleonese = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
 
@@ -325,9 +307,6 @@ aragonese = {
 	unit_gfx = { iberian_christian_unit_gfx }
 	
 	ethnicities = {
-		7 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
-		1 = caucasian_dark_hair
+		10 = mediterranean
 	}
 }
