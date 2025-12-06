@@ -45,6 +45,11 @@ window = {
 
 				widget_header_with_picture = {
 					layoutpolicy_horizontal = expanding
+					size = { 0 145 }
+
+					blockoverride "size" {
+						size = { 100% 155 }
+					}
 
 					blockoverride "header_text" {
 						text = "MILITARY_VIEW"
@@ -54,6 +59,14 @@ window = {
 						texture = "gfx/interface/skinned/illustrations/header_illustrations/header_military.dds"
 					}
 
+					blockoverride "illustration_mask" {
+						modify_texture = {
+							texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
+							blend_mode = alphamultiply
+							mirror = vertical
+							alpha = 0.8
+						}
+					}
 					blockoverride "button_close" {
 						onclick = "[MilitaryView.Close]"
 					}
@@ -2353,7 +2366,6 @@ types ArmiesView
 						margin_left = 5
 						margin_right = 3
 						spacing = 5
-						
 						ignoreinvisible = yes
 
 						## Action: "Call On Troops"
@@ -3521,6 +3533,20 @@ types MilitaryView
 				using = Font_Size_Small
 				parentanchor = top|right
 				position = { -10 22 }
+
+				background = {
+					using = Background_Area_Dark
+					margin_right = 8
+					alpha = 0.6
+
+					modify_texture = {
+						name = "mask"
+						texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+						spriteType = Corneredstretched
+						spriteborder = { 0 0 }
+						blend_mode = alphamultiply
+					}
+				}
 			}
 
 			button_normal = {
