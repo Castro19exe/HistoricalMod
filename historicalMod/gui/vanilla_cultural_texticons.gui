@@ -291,9 +291,9 @@ texticon = {
 }
 
 texticon = {
-	icon = palace_guard_icon
+	icon = palace_guards_icon
 	iconsize = {
-		texture = "gfx/interface/icons/regimenttypes/palace_guard.dds"
+		texture = "gfx/interface/icons/regimenttypes/palace_guards.dds"
 		size = { 25 25 }
 		offset = { 0 6 }
 		fontsize = 16

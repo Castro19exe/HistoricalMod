@@ -342,9 +342,9 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
-			"tgp_building_chinese_wall_02_mesh"
+			#"tgp_building_chinese_wall_02_mesh"
 			#"mpo_mongol_wall_02_mesh"
-			#"mongol_nomadic_wall_02_mesh"
+			"mongol_nomadic_wall_02_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -570,9 +570,9 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
-			"tgp_building_chinese_wall_03_mesh"
+			#"tgp_building_chinese_wall_03_mesh"
 			#"mpo_mongol_wall_03_mesh"
-			#"mongol_nomadic_wall_03_mesh"
+			"mongol_nomadic_wall_03_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe graphical_india }
@@ -796,9 +796,9 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = khans_of_the_steppe
 		names = {
-			"tgp_building_chinese_wall_04_mesh"
+			#"tgp_building_chinese_wall_04_mesh"
 			#"mpo_mongol_wall_04_mesh"
-			#"mongol_nomadic_wall_04_mesh"
+			"mongol_nomadic_wall_04_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_steppe }

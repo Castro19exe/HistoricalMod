@@ -6,6 +6,64 @@
 # EMPIRES
 
 # special titles
+
+# If adding another hegemon title, you need to also update e.g. NeighboringHegemonTitle/DefinitiveName custom loc, save_tribute_mission_target_scope_effect, small/adequate/excessive_gold_tribute_value, etc to support Hegemonic Tributaries
+
+h_roman_empire = {
+	color = { 167 10 0 }
+
+	capital = c_roma # Rome
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+h_eastern_roman_empire = {
+	color = { 150 35 165 }
+
+	capital = c_byzantion # Constantinople
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+h_dar_al_islam = {
+	color = { 20 160 30 }
+	definite_form = yes
+	#ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+	
+	capital = c_mecca
+
+	can_create = {
+		has_global_variable = created_dar_al_islam
+	}
+	can_destroy = {
+	}
+}
+
+h_india = {		# Titular, created by special decision only if entire India is united
+	color = { 255 110 0 }
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
 k_papal_state = {
 	color = { 255 249 198 }
 	definite_form = yes
@@ -210,23 +268,18 @@ k_dalmatia = {
 	capital = c_zadar
 }
 
-h_dar_al_islam = {
-	color = { 20 160 30 }
-	definite_form = yes
-	#ruler_uses_title_name = no
-	no_automatic_claims = yes
-	always_follows_primary_heir = yes
-	destroy_if_invalid_heir = yes
-	can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
-	
-	capital = c_mecca
+e_illyria = {
+	color = { 153 204 255 }
 
-	can_create = {
-		has_global_variable = created_dar_al_islam
-	}
-	can_destroy = {
-	}
+	capital = c_zadar
+}
+
+e_serbia = {
+	color = { 206 90 210 }
+
+	definite_form = yes
+
+	capital = c_skopje
 }
 
 d_sunni = {
@@ -352,20 +405,6 @@ d_ghulat = {
 	can_use_nomadic_naming = no
 
 	capital = c_kufa
-}
-
-e_illyria = {
-	color = { 153 204 255 }
-
-	capital = c_zadar
-}
-
-e_serbia = {
-	color = { 206 90 210 }
-
-	definite_form = yes
-
-	capital = c_skopje
 }
 
 e_golden_horde = {
@@ -1115,6 +1154,21 @@ e_majapahit = {
 	color = { 250 234 15 }
 
 	capital = c_JAV_janggala # Janggala
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+e_ruucuu = {
+	color = { 131 150 136 }
+
+	cultural_names = {
+		name_list_yamato = cn_ryukyu
+		name_list_emishi = cn_ryukyu
+	}
+
+	capital = c_ucinaa
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -15316,7 +15370,7 @@ e_byzantium = {
 					name_list_andalusian = cn_sarqusa
 					name_list_yemeni = cn_sarqusa
 
-					name_list_norse = "Sýrakusborg"
+					name_list_norse = "Sýrakus"
 				}
 
 				b_syracusa = {
@@ -15332,18 +15386,42 @@ e_byzantium = {
 						name_list_andalusian = cn_sarqusa
 						name_list_yemeni = cn_sarqusa
 
-						name_list_norse = "Sýrakusborg"
+						name_list_norse = "Sýrakus"
 					}
 				}
 				b_lentini = {
 					province = 2643
 
 					color = { 115 195 85 }
+
+					cultural_names = {
+						name_list_bedouin = "Lantīnī"
+						name_list_maghrebi = "Lantīnī"
+						name_list_levantine = "Lantīnī"
+						name_list_egyptian = "Lantīnī"
+						name_list_andalusian = "Lantīnī"
+						name_list_yemeni = "Lantīnī"
+						name_list_baranis = "Lantīnī"
+						name_list_butr = "Lantīnī"
+						name_list_zaghawa = "Lantīnī"
+					}
 				}
 				b_caltagirone = {
 					province = 2642
 
 					color = { 115 195 85 }
+
+					cultural_names = {
+						name_list_bedouin = "Qal'at-al-Jarar"
+						name_list_maghrebi = "Qal'at-al-Jarar"
+						name_list_levantine = "Qal'at-al-Jarar"
+						name_list_egyptian = "Qal'at-al-Jarar"
+						name_list_andalusian = "Qal'at-al-Jarar"
+						name_list_yemeni = "Qal'at-al-Jarar"
+						name_list_baranis = "Qal'at-al-Jarar"
+						name_list_butr = "Qal'at-al-Jarar"
+						name_list_zaghawa = "Qal'at-al-Jarar"
+					}
 				}
 			}
 			c_agrigento = {
@@ -15382,11 +15460,35 @@ e_byzantium = {
 					province = 2637
 
 					color = { 125 230 110 }
+
+					cultural_names = {
+						name_list_bedouin = Kirkent
+						name_list_maghrebi = Kirkent
+						name_list_levantine = Kirkent
+						name_list_egyptian = Kirkent
+						name_list_andalusian = Kirkent
+						name_list_yemeni = Kirkent
+						name_list_baranis = Kirkent
+						name_list_butr = Kirkent
+						name_list_zaghawa = Kirkent
+					}
 				}
 				b_caltanisetta = { #Caltanissetta
 					province = 2641
 
 					color = { 125 230 110 }
+
+					cultural_names = {
+						name_list_bedouin = "Qal'at al-Nisā'"
+						name_list_maghrebi = "Qal'at al-Nisā'"
+						name_list_levantine = "Qal'at al-Nisā'"
+						name_list_egyptian = "Qal'at al-Nisā'"
+						name_list_andalusian = "Qal'at al-Nisā'"
+						name_list_yemeni = "Qal'at al-Nisā'"
+						name_list_baranis = "Qal'at al-Nisā'"
+						name_list_butr = "Qal'at al-Nisā'"
+						name_list_zaghawa = "Qal'at al-Nisā'"
+					}
 				}
 			}
 			c_malta = {
@@ -29465,6 +29567,9 @@ e_caspian-pontic_steppe = {
 					cultural_names = {
 						name_list_roman = Chersonesus
 						name_list_russian = Korsun
+						name_list_ilmenian = Korsun
+						name_list_severian = Korsun
+						name_list_volhynian = Korsun
 						name_list_pecheneg = Aqyar
 						name_list_cuman = Aqyar
 						name_list_khazar = Aqyar
@@ -29477,6 +29582,9 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_russian = Feodosiya
+						name_list_ilmenian = Feodosiya
+						name_list_severian = Feodosiya
+						name_list_volhynian = Feodosiya
 						name_list_pecheneg = Kefe
 						name_list_cuman = Kefe
 						name_list_khazar = Kefe
@@ -29489,6 +29597,10 @@ e_caspian-pontic_steppe = {
 				cultural_names = {
 					name_list_crimean_gothic = cn_kerkinitis
 					name_list_greek = cn_kerkinitis
+					name_list_russian = Chernomorskoye
+					name_list_ilmenian = Chernomorskoye
+					name_list_severian = Chernomorskoye
+					name_list_volhynian = Chernomorskoye
 					name_list_bolghar = Selid
 					name_list_turkish = Aqmeçit
 					name_list_avar = Aqmeçit
@@ -29503,6 +29615,10 @@ e_caspian-pontic_steppe = {
 					color = { 110 32 44 }
 
 					cultural_names = {
+						name_list_russian = Yevpatoriya
+						name_list_ilmenian = Yevpatoriya
+						name_list_severian = Yevpatoriya
+						name_list_volhynian = Yevpatoriya
 						name_list_pecheneg = Gözleve
 						name_list_cuman = Gözleve
 						name_list_khazar = Gözleve
@@ -29515,6 +29631,10 @@ e_caspian-pontic_steppe = {
 					color = { 110 32 44 }
 					
 					cultural_names = {
+						name_list_russian = Chernomorskoye
+						name_list_ilmenian = Chernomorskoye
+						name_list_severian = Chernomorskoye
+						name_list_volhynian = Chernomorskoye
 						name_list_bolghar = Selid
 						name_list_turkish = Aqmeçit
 						name_list_avar = Aqmeçit
@@ -29530,6 +29650,10 @@ e_caspian-pontic_steppe = {
 				cultural_names = {
 					name_list_greek = cn_scythian_neapolis
 					name_list_crimean_gothic = cn_scythian_neapolis
+					name_list_russian = Perekop
+					name_list_ilmenian = Perekop
+					name_list_severian = Perekop
+					name_list_volhynian = Perekop
 				}
 
 				b_aqmescit = {
@@ -29540,6 +29664,10 @@ e_caspian-pontic_steppe = {
 					cultural_names = {
 						name_list_greek = cn_scythian_neapolis
 						name_list_crimean_gothic = cn_scythian_neapolis
+						name_list_russian = Simferopol
+						name_list_ilmenian = Simferopol
+						name_list_severian = Simferopol
+						name_list_volhynian = Simferopol
 					}
 				}
 
@@ -29550,6 +29678,10 @@ e_caspian-pontic_steppe = {
 						name_list_crimean_gothic = cn_taphros
 						name_list_greek = cn_taphros
 						name_list_russian = "Perekop"
+						name_list_russian = Perekop
+						name_list_ilmenian = Perekop
+						name_list_severian = Perekop
+						name_list_volhynian = Perekop
 					}
 
 					color = { 105 56 64 }
@@ -44256,13 +44388,13 @@ e_carpathia = {
 				color = { 172 149 58 }
 
 				cultural_names = {
-					name_list_mogyer = Örheý
-					name_list_bolghar = Örheý
-					name_list_turkish = Örheý
-					name_list_avar = Örheý
-					name_list_pecheneg = Örheý
-					name_list_cuman = Örheý
-					name_list_khazar = Örheý
+					name_list_mogyer = "Örheý"
+					name_list_bolghar = "Örheý"
+					name_list_turkish = "Örheý"
+					name_list_avar = "Örheý"
+					name_list_pecheneg = "Örheý"
+					name_list_cuman = "Örheý"
+					name_list_khazar = "Örheý"
 				}
 
 				b_orhei = {
@@ -44271,13 +44403,13 @@ e_carpathia = {
 					color = { 172 149 58 }
 
 					cultural_names = {
-						name_list_mogyer = Örheý
-						name_list_bolghar = Örheý
-						name_list_turkish = Örheý
-						name_list_avar = Örheý
-						name_list_pecheneg = Örheý
-						name_list_cuman = Örheý
-						name_list_khazar = Örheý
+						name_list_mogyer = "Örheý"
+						name_list_bolghar = "Örheý"
+						name_list_turkish = "Örheý"
+						name_list_avar = "Örheý"
+						name_list_pecheneg = "Örheý"
+						name_list_cuman = "Örheý"
+						name_list_khazar = "Örheý"
 					}
 				}
 				b_tuzara = {
@@ -44289,15 +44421,48 @@ e_carpathia = {
 			c_soroca = {
 				color = { 148 120 15 }
 
+				cultural_names = {
+					name_list_mogyer = Şarkad
+					name_list_bolghar = Şarkad
+					name_list_turkish = Şarkad
+					name_list_avar = Şarkad
+					name_list_pecheneg = Şarkad
+					name_list_cuman = Şarkad
+					name_list_khazar = Şarkad
+					name_list_kipchak = Şarkad
+				}
+
 				b_soroca = {
 					province = 5021
 
 					color = { 148 120 15 }
+
+					cultural_names = {
+						name_list_mogyer = Şarkad
+						name_list_bolghar = Şarkad
+						name_list_turkish = Şarkad
+						name_list_avar = Şarkad
+						name_list_pecheneg = Şarkad
+						name_list_cuman = Şarkad
+						name_list_khazar = Şarkad
+						name_list_kipchak = Şarkad
+					}
 				}
 				b_balti = {
 					province = 5022
 
 					color = { 148 120 15 }
+
+					cultural_names = {
+						name_list_mogyer = Belçe
+						name_list_bolghar = Belçe
+						name_list_turkish = Belçe
+						name_list_avar = Belçe
+						name_list_pecheneg = Belçe
+						name_list_cuman = Belçe
+						name_list_khazar = Belçe
+						name_list_kipchak = Belçe
+					}
 				}
 			}
 			c_barlad = {
@@ -49822,6 +49987,16 @@ e_spain = {
 					color = { 156 212 68 }
 					
 					cultural_names = {
+						name_list_bedouin = "Shātūbār"
+						name_list_maghrebi = "Shātūbār"
+						name_list_levantine = "Shātūbār"
+						name_list_egyptian = "Shātūbār"
+						name_list_andalusian = "Shātūbār"
+						name_list_yemeni = "Shātūbār"
+						name_list_baranis = "Shātūbār"
+						name_list_butr = "Shātūbār"
+						name_list_zaghawa = "Shātūbār"
+
 						name_list_roman = "Cetobriga"
 					}
 				}
@@ -65491,17 +65666,6 @@ e_guinea = {
 	}
 }
 
-h_india = {		# Titular, created by special decision only if entire India is united
-	color = { 255 110 0 }
-
-	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
-	}
-
-	ai_primary_priority = {
-		add = @always_primary_score
-	}
-}
 
 e_hindustan = {		# Titular, created by special decision by Islamic Invaders
 	color = { 0 76 76 }

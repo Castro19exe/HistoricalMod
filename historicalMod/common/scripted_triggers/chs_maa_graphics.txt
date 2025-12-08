@@ -10,11 +10,10 @@ should_use_japanese_maa_graphics = {
 
 should_use_mena_maa_graphics = {
 	OR = {
-		has_cultural_pillar = heritage_arabic
-		has_cultural_pillar = heritage_iranian
-		has_cultural_pillar = heritage_berber
-
-		this = culture:andalusian
+		has_unit_gfx = mena_unit_gfx
+		has_unit_gfx = iranian_unit_gfx
+		has_unit_gfx = berber_unit_gfx
+		has_unit_gfx = iberian_muslim_unit_gfx
 	}
 }
 
