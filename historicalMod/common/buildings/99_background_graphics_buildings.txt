@@ -24,6 +24,7 @@ walls_00 = {
 			# MA special buildings
 			has_building_or_higher = "MA_sarkel"
 			has_building_or_higher = "MA_walls_sanaa"
+			has_building_or_higher = "MA_walls_balkh"
 
 			# Herders shouldn't have walls
 			scope:holder = {
@@ -67,6 +68,7 @@ walls_01_tribal = {
 			# MA special buildings
 			has_building_or_higher = "MA_sarkel"
 			has_building_or_higher = "MA_walls_sanaa"
+			has_building_or_higher = "MA_walls_balkh"
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -257,6 +259,7 @@ walls_01 = {
 			# MA special buildings
 			has_building_or_higher = "MA_sarkel"
 			has_building_or_higher = "MA_walls_sanaa"
+			has_building_or_higher = "MA_walls_balkh"
 		}
 	}
 }
@@ -476,6 +479,7 @@ walls_02 = {
 			# MA special buildings
 			has_building_or_higher = "MA_sarkel"
 			has_building_or_higher = "MA_walls_sanaa"
+			has_building_or_higher = "MA_walls_balkh"
 		}
 	}
 }
@@ -713,6 +717,7 @@ walls_03 = {
 			# MA special buildings
 			has_building_or_higher = "MA_sarkel"
 			has_building_or_higher = "MA_walls_sanaa"
+			has_building_or_higher = "MA_walls_balkh"
 		}
 	}
 }

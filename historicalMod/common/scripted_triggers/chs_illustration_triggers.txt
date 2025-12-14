@@ -35,7 +35,6 @@ has_graphical_african_culture_group_trigger = {
 }
 
 # CFP Blocker for vanilla courts
-
 has_graphical_cfp_court_active_trigger = {
 	OR = {
 		has_graphical_cfp_papal_culture_group_trigger = yes
@@ -77,8 +76,8 @@ has_graphical_cfp_byzantine_culture_group_trigger = {
 
 has_graphical_cfp_norman_culture_group_trigger = {
 	OR = {
-		capital_county ?= title:k_england
-		capital_county ?= title:k_france
+		capital_county.kingdom = title:k_england
+		capital_county.kingdom = title:k_france
 	}
 	OR = {
 		has_culture = culture:norman
@@ -150,5 +149,3 @@ has_graphical_cfp_east_african_court_trigger = {
 		}
 	}
 }
-
-

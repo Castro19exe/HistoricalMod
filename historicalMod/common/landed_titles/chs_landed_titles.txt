@@ -653,6 +653,17 @@ e_kara_khitai = { #aka Western Liao / Great Liao
 	}
 }
 
+e_jin = { #aka Great Jin / Jin dynasty
+	#It's the Jurchens
+	color = { 210 175 50 }
+	can_use_nomadic_naming = no
+
+	capital = c_LIAO_linhuang
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
 
 e_timurids = {
 	color = { 120 20 20 }
@@ -1363,6 +1374,7 @@ e_britannia = {
 
 						name_list_roman = cn_londinium
 
+						name_list_scottish = cn_lunnon
 						name_list_welsh = cn_llundein
 						name_list_cornish = cn_llundein
 						name_list_breton = cn_llundein
@@ -1370,7 +1382,6 @@ e_britannia = {
 						name_list_pictish = cn_llundein
 
 						name_list_norman = cn_londres
-						name_list_scottish = cn_lunnon
 					}
 				}
 				b_southwark = {
@@ -21453,13 +21464,28 @@ e_wendish_empire = {
 			c_malbork = {		#c_pomesania
 				color = { 205 105 105 }
 
+				cultural_names = {
+					name_list_norse = Maríugarðr
+					name_list_swedish = Marienborg
+					name_list_norwegian = Marienborg
+					name_list_danish = Marienborg
+					name_list_franconian = cn_marienburg
+					name_list_saxon = cn_marienburg
+					name_list_swabian = cn_marienburg
+					name_list_bavarian = cn_marienburg
+					name_list_thuringian = cn_marienburg
+				}
+
 				b_elblag = {	#b_truso
 					province = 2835
 
 					color = { 205 105 105 }
 
 					cultural_names = {
-						name_list_danish = "Elbæk"
+						name_list_norse = Elbæk
+						name_list_swedish = Elbæk
+						name_list_norwegian = Elbæk
+						name_list_danish = Elbæk
 						name_list_franconian = cn_elbing
 						name_list_saxon = cn_elbing
 						name_list_swabian = cn_elbing
@@ -21477,6 +21503,10 @@ e_wendish_empire = {
 					color = { 205 105 105 }
 
 					cultural_names = {
+						name_list_norse = Maríugarðr
+						name_list_swedish = Marienborg
+						name_list_norwegian = Marienborg
+						name_list_danish = Marienborg
 						name_list_franconian = cn_marienburg
 						name_list_saxon = cn_marienburg
 						name_list_swabian = cn_marienburg
@@ -21490,6 +21520,10 @@ e_wendish_empire = {
 					color = { 205 105 105 }
 
 					cultural_names = {
+						name_list_norse = Kvikent
+						name_list_swedish = Kvikent
+						name_list_norwegian = Kvikent
+						name_list_danish = Kvikent
 						name_list_franconian = cn_marienwerder
 						name_list_saxon = cn_marienwerder
 						name_list_swabian = cn_marienwerder
@@ -21507,6 +21541,11 @@ e_wendish_empire = {
 					color = { 205 105 105 }
 
 					cultural_names = {
+						name_list_norse = Visla
+						name_list_swedish = Visla
+						name_list_norwegian = Visla
+						name_list_danish = Visla
+						name_list_estonian = Visla
 						name_list_franconian = cn_stuttof
 						name_list_saxon = cn_stuttof
 						name_list_swabian = cn_stuttof
@@ -21560,6 +21599,10 @@ e_wendish_empire = {
 					color = { 255 110 155 }
 
 					cultural_names = {
+						name_list_norse = Brunnberg
+						name_list_swedish = Brunnberg
+						name_list_norwegian = Brunnberg
+						name_list_danish = Brunnberg
 						name_list_franconian = cn_braunberg
 						name_list_saxon = cn_braunberg
 						name_list_swabian = cn_braunberg
@@ -21619,12 +21662,32 @@ e_wendish_empire = {
 			c_konigsberg = {	#c_sambia
 				color = { 200 105 130 }
 
+				cultural_names = {
+					name_list_norse = Kungsberg
+					name_list_swedish = Kungsberg
+					name_list_norwegian = Kungsberg
+					name_list_danish = Kungsberg
+					name_list_franconian = cn_konigsberg
+					name_list_saxon = cn_konigsberg
+					name_list_swabian = cn_konigsberg
+					name_list_bavarian = cn_konigsberg
+					name_list_thuringian = cn_konigsberg
+					name_list_polish = cn_krolewiec
+					name_list_pommeranian = cn_krolewiec
+					name_list_polabian = cn_krolewiec
+					name_list_lithuanian = cn_karaliaucius
+				}
+
 				b_konigsberg = {	#b_twangste
 					province = 3216
 
 					color = { 200 105 130 }
 
 					cultural_names = {
+						name_list_norse = Kungsberg
+						name_list_swedish = Kungsberg
+						name_list_norwegian = Kungsberg
+						name_list_danish = Kungsberg
 						name_list_franconian = cn_konigsberg
 						name_list_saxon = cn_konigsberg
 						name_list_swabian = cn_konigsberg
@@ -21701,6 +21764,10 @@ e_wendish_empire = {
 					color = { 230 165 165 }
 
 					cultural_names = {
+						name_list_norse = Rastenborg
+						name_list_swedish = Rastenborg
+						name_list_norwegian = Rastenborg
+						name_list_danish = Rastenborg
 						name_list_franconian = cn_rastenburg
 						name_list_saxon = cn_rastenburg
 						name_list_swabian = cn_rastenburg
@@ -37737,7 +37804,6 @@ e_tartaria = {
 
 		cultural_names = {
 			name_list_uyghur = cn_qocho
-			name_list_han = cn_xinjiang
 		}
 
 		d_kara_khoja = {
@@ -50126,11 +50192,35 @@ e_spain = {
 					province = 1774
 
 					color = { 165 230 105 }
+
+					cultural_names = {
+						name_list_bedouin = Nīshā
+						name_list_maghrebi = Nīshā
+						name_list_levantine = Nīshā
+						name_list_egyptian = Nīshā
+						name_list_andalusian = Nīshā
+						name_list_yemeni = Nīshā
+						name_list_baranis = Nīshā
+						name_list_butr = Nīshā
+						name_list_zaghawa = Nīshā
+					}
 				}
 				b_crato = {
 					province = 1775
 
 					color = { 165 230 105 }
+
+					cultural_names = {
+						name_list_bedouin = Qīrāt
+						name_list_maghrebi = Qīrāt
+						name_list_levantine = Qīrāt
+						name_list_egyptian = Qīrāt
+						name_list_andalusian = Qīrāt
+						name_list_yemeni = Qīrāt
+						name_list_baranis = Qīrāt
+						name_list_butr = Qīrāt
+						name_list_zaghawa = Qīrāt
+					}
 				}
 			}
 		}
@@ -59944,11 +60034,6 @@ e_azania = {
 
 					color = { 241 117 47 }
 				}
-				b_marka = {
-					province = 8461
-
-					color = { 241 117 47 }
-				}
 				b_afgooye = {
 					province = 8462
 
@@ -60042,6 +60127,11 @@ e_azania = {
 			c_jubba = {
 				color = { 230 129 61 }
 
+				b_bardhere = {
+					province = 8459
+
+					color = { 230 129 61 }
+				}
 				b_jubba-ajuraan = {
 					province = 8457
 
@@ -60094,18 +60184,18 @@ e_azania = {
 			c_jilib = {
 				color = { 227 126 58 }
 
-				b_jilib = {
-					province = 8473
+				b_marka = { # Qoryoley
+					province = 8461
 
-					color = { 227 126 58 }
-				}
-				b_bardhere = {
-					province = 8459
-
-					color = { 227 126 58 }
+					color = { 241 117 47 }
 				}
 				b_baraawe = {
 					province = 8460
+
+					color = { 227 126 58 }
+				}
+				b_jilib = {
+					province = 8473
 
 					color = { 227 126 58 }
 				}
@@ -60274,13 +60364,13 @@ e_azania = {
 			c_marsabit = {
 				color = { 73 173 203 }
 
-				b_lagh_bogal = {
-					province = 8488
+				b_marsabit = {
+					province = 8489
 
 					color = { 73 173 203 }
 				}
-				b_marsabit = {
-					province = 8489
+				b_lagh_bogal = {
+					province = 8488
 
 					color = { 73 173 203 }
 				}
@@ -60497,11 +60587,6 @@ e_azania = {
 
 					color = { 217 197 145 }
 				}
-				b_empusel = { # Amboseli
-					province = 12807
-
-					color = { 217 197 145 }
-				}
 			}
 			c_taveta = {
 				color = { 219 163 68 }
@@ -60515,6 +60600,11 @@ e_azania = {
 					province = 12785
 
 					color = { 219 163 68 }
+				}
+				b_empusel = { # Amboseli
+					province = 12807
+
+					color = { 217 197 145 }
 				}
 			}
 			c_mto_galana = {
@@ -75688,6 +75778,146 @@ e_andong = {
                     province = 11831
     
                     color = { 65 95 170 }
+					}
+            }
+        }
+
+		d_LIAO_dongjing = {
+			color = { 5 170 85 }
+
+			cultural_names = {
+				name_list_khitan = cn_dongjing
+			}
+
+			capital = c_LIAO_shenyang
+
+			c_LIAO_shenyang = {
+				color = { 10 175 90 }
+
+				b_Liao_Shenyang = {
+					province = 11785
+
+					color = { 10 175 90 }
+				}
+				b_Liao_Tangzhou = {
+					province = 11784
+
+					color = { 10 175 90 }
+				}
+				b_Liao_Liaoyang = {
+					province = 11786
+
+					color = { 10 175 90 }
+				}
+				b_Liao_Haizhou = {
+					province = 11787
+
+					color = { 10 175 90 }
+				}
+				b_Liao_Yaozhou = {
+					province = 11788
+
+					color = { 10 175 90 }
+				}
+			}
+
+			c_LIAO_yinzhou = {
+				color = { 15 90 50 }
+
+				b_Liao_Yinzhou = {
+					province = 11782
+
+					color = { 15 90 50 }
+				}
+				b_Liao_Qizhou = {
+					province = 11781
+
+					color = { 15 90 50 }
+				}
+				b_Liao_Guangzhou = {
+					province = 11783
+
+					color = { 15 90 50 }
+				}
+				b_FIC_Liao_Huangcaocun = {
+					province = 11803
+
+					color = { 15 90 50 }
+				}
+			}
+
+			c_LIAO_zhenzhou = {
+				color = { 30 120 100 }
+
+				b_Liao_Zhenzhou = {
+					province = 11790
+
+					color = { 30 120 100 }
+				}
+				b_Liao_Fuping = {
+					province = 11791
+
+					color = { 30 120 100 }
+				}
+				b_Liao_Suning = {
+					province = 11792
+
+					color = { 30 120 100 }
+				}
+				b_FIC_Liao_Biliujiang = {
+					province = 11793
+
+					color = { 30 120 100 }
+				}
+			}
+
+			c_LIAO_diezhou = {
+				color = { 45 205 175 }
+
+				b_Liao_Diezhou = {
+					province = 11794
+
+					color = { 45 205 175 }
+				}
+				b_Liao_Tongzhou = {
+					province = 11789
+
+					color = { 45 205 175 }
+				}
+				b_Liao_Kaizhou = {
+					province = 11795
+
+					color = { 45 205 175 }
+				}
+				b_Liao_Dandong = {
+					province = 11796
+
+					color = { 45 205 175 }
+				}
+			}
+
+			c_LIAO_guidezhou = {
+				color = { 35 170 70 }
+
+				b_Liao_Guidezhou = {
+					province = 11799
+
+					color = { 35 170 70 }
+				}
+				b_Liao_Xiyuan = {
+					province = 11798
+
+					color = { 35 170 70 }
+				}
+				b_Liao_Fengcheng = {
+					province = 11800
+
+					color = { 35 170 70 }
+				}
+				b_FIC_Liao_Shaozijiang = {
+					province = 11797
+
+					color = { 35 170 70 }
                 }
             }
         }
@@ -76633,146 +76863,6 @@ e_andong = {
 					province = 11730
 
 					color = { 95 195 95 }
-				}
-			}
-		}
-
-		d_LIAO_dongjing = {
-			color = { 5 170 85 }
-
-			cultural_names = {
-				name_list_khitan = cn_dongjing
-			}
-
-			capital = c_LIAO_shenyang
-
-			c_LIAO_shenyang = {
-				color = { 10 175 90 }
-
-				b_Liao_Shenyang = {
-					province = 11785
-
-					color = { 10 175 90 }
-				}
-				b_Liao_Tangzhou = {
-					province = 11784
-
-					color = { 10 175 90 }
-				}
-				b_Liao_Liaoyang = {
-					province = 11786
-
-					color = { 10 175 90 }
-				}
-				b_Liao_Haizhou = {
-					province = 11787
-
-					color = { 10 175 90 }
-				}
-				b_Liao_Yaozhou = {
-					province = 11788
-
-					color = { 10 175 90 }
-				}
-			}
-
-			c_LIAO_yinzhou = {
-				color = { 15 90 50 }
-
-				b_Liao_Yinzhou = {
-					province = 11782
-
-					color = { 15 90 50 }
-				}
-				b_Liao_Qizhou = {
-					province = 11781
-
-					color = { 15 90 50 }
-				}
-				b_Liao_Guangzhou = {
-					province = 11783
-
-					color = { 15 90 50 }
-				}
-				b_FIC_Liao_Huangcaocun = {
-					province = 11803
-
-					color = { 15 90 50 }
-				}
-			}
-
-			c_LIAO_zhenzhou = {
-				color = { 30 120 100 }
-
-				b_Liao_Zhenzhou = {
-					province = 11790
-
-					color = { 30 120 100 }
-				}
-				b_Liao_Fuping = {
-					province = 11791
-
-					color = { 30 120 100 }
-				}
-				b_Liao_Suning = {
-					province = 11792
-
-					color = { 30 120 100 }
-				}
-				b_FIC_Liao_Biliujiang = {
-					province = 11793
-
-					color = { 30 120 100 }
-				}
-			}
-
-			c_LIAO_diezhou = {
-				color = { 45 205 175 }
-
-				b_Liao_Diezhou = {
-					province = 11794
-
-					color = { 45 205 175 }
-				}
-				b_Liao_Tongzhou = {
-					province = 11789
-
-					color = { 45 205 175 }
-				}
-				b_Liao_Kaizhou = {
-					province = 11795
-
-					color = { 45 205 175 }
-				}
-				b_Liao_Dandong = {
-					province = 11796
-
-					color = { 45 205 175 }
-				}
-			}
-
-			c_LIAO_guidezhou = {
-				color = { 35 170 70 }
-
-				b_Liao_Guidezhou = {
-					province = 11799
-
-					color = { 35 170 70 }
-				}
-				b_Liao_Xiyuan = {
-					province = 11798
-
-					color = { 35 170 70 }
-				}
-				b_Liao_Fengcheng = {
-					province = 11800
-
-					color = { 35 170 70 }
-				}
-				b_FIC_Liao_Shaozijiang = {
-					province = 11797
-
-					color = { 35 170 70 }
 				}
 			}
 		}
