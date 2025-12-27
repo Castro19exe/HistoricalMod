@@ -30164,10 +30164,18 @@ e_caspian-pontic_steppe = {
 			c_itil = {
 				color = { 176 102 16 }
 
+				cultural_names = {
+					name_list_crimean_gothic = "Cuman Neapolis"
+				}
+
 				b_itil = {
 					province = 620
 
 					color = { 176 102 16 }
+
+					cultural_names = {
+						name_list_crimean_gothic = "Cuman Neapolis"
+					}
 				}
 				b_saray = {
 					province = 619
