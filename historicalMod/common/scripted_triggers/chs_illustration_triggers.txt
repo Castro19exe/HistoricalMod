@@ -140,7 +140,7 @@ has_graphical_cfp_east_african_court_trigger = {
 	exists = capital_county
 	capital_county.culture = {
 		has_graphical_african_culture_group_trigger = yes
-		#NOT = { prev.religion = religion:islam_religion }
+		NOT = { prev.religion = religion:islam_religion }
 	}	
 	culture = {
 		OR = {

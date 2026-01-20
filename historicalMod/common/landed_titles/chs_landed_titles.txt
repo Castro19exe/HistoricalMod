@@ -52897,7 +52897,6 @@ e_maghreb = {
 					name_list_baranis = "Murakush"
 					name_list_butr = "Murakush"
 					name_list_guanches = "Murakush"
-
 					name_list_castilian = "Marrakech"
 					name_list_asturleonese = "Marrakech"
 					name_list_galician = "Marrakech"
@@ -52915,7 +52914,6 @@ e_maghreb = {
 						name_list_baranis = "Murakush"
 						name_list_butr = "Murakush"
 						name_list_guanches = "Murakush"
-
 						name_list_castilian = "Marrakech"
 						name_list_asturleonese = "Marrakech"
 						name_list_galician = "Marrakech"
@@ -53008,14 +53006,12 @@ e_maghreb = {
 
 					cultural_names = {
 						name_list_baranis = "Anfa"
-						name_list_butr = "Anfa"
-
+						name_list_butr = "Anfa
 						name_list_bedouin = "Anfa"
 						name_list_maghrebi = "Anfa"
 						name_list_andalusian = "Anfa"
 						name_list_egyptian = "Anfa"
 						name_list_yemeni = "Anfa"
-
 						name_list_castilian = "Casablanca"
 						name_list_asturleonese = "Casablanca"
 						name_list_galician = "Casablanca"

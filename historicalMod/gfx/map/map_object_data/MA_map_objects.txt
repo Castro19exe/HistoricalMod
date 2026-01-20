@@ -149,6 +149,16 @@ object={
 	transform="2513.028320 0.000000 3152.147461 0.000000 0.531029 0.000000 0.847354 0.735391 0.735391 0.735391
 "}
 object={
+	name="sprawl_london"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_london_mesh"
+	count=1
+	transform="947.433167 0.000000 3308.085205 0.000000 0.016997 0.000000 -0.999856 0.654110 0.654110 0.654110
+"}
+object={
 	name="sprawl_mahdia"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no

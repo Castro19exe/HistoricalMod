@@ -1,6 +1,7 @@
 pdxmesh = {
 	name = "unit_crimean_gothic_infantry_02_mesh"
 	file = "unit_crimean_gothic_infantry_02.mesh"
+	
 	scale = 0.06
 
 	lod_percentages = {
