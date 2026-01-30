@@ -1,4 +1,14 @@
 ﻿object={
+	name="acropolis"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="acropolis_mesh"
+	count=1
+	transform="2345.115967 -1.614502 2227.847412 0.000000 0.715900 0.000000 0.698203 1.007987 1.007987 1.007987
+"}
+object={
 	name="alexandria_sprawl"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -36,7 +46,17 @@ object={
 	layer="building_layer"
 	pdxmesh="cairo_sprawl_mesh"
 	count=1
-	transform="2765.794922 0.000000 1785.360596 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+	transform="2756.188232 0.000000 1784.374634 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="constantinople_sprawl"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_constantinople_mesh"
+	count=1
+	transform="2592.631104 0.261963 2482.583496 0.000000 -0.085285 0.000000 -0.996356 1.000000 1.000000 1.000000
 "}
 object={
 	name="great_sphinx"
@@ -89,6 +109,16 @@ object={
 	transform="1667.360596 0.422119 2504.107666 0.000000 0.000000 0.000000 0.000000 1.100000 1.000000 1.000000
 "}
 object={
+	name="sprawl_antioch"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_antioch_mesh"
+	count=1
+	transform="3000.730225 -0.955566 2160.907715 0.000000 -0.130666 0.000000 0.991427 1.163625 1.163625 1.163625
+"}
+object={
 	name="sprawl_anuradhapura"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -116,7 +146,7 @@ object={
 	layer="building_layer"
 	pdxmesh="sprawl_cordoba_mesh"
 	count=1
-	transform="657.998779 -0.136475 2274.523193 0.000000 -0.026769 0.000000 0.096350 0.817784 0.817784 0.817784
+	transform="656.924011 -0.136475 2273.919189 0.000000 -0.026769 0.000000 0.096350 0.817784 0.817784 0.817784
 "}
 object={
 	name="sprawl_delhi"
@@ -167,6 +197,16 @@ object={
 	pdxmesh="sprawl_mahdia_mesh"
 	count=1
 	transform="1628.135742 4.041138 2042.962036 0.000000 0.523353 0.000000 0.852116 1.111040 1.111040 1.111040
+"}
+object={
+	name="sprawl_thessaloniki"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_thessaloniki_mesh"
+	count=1
+	transform="2267.028320 -0.955566 2429.139648 0.000000 -0.176378 0.000000 0.984323 0.613965 0.613965 0.613965
 "}
 object={
 	name="sprawl_toledo"

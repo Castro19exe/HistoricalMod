@@ -1,0 +1,97 @@
+﻿pdxmesh = {
+	name = "cairo_sprawl_mesh"
+	file = "cairo_sprawl.mesh"
+	scale = 1
+	meshsettings = {
+		name = "cairo_citadel"
+		index = 0
+		texture_diffuse = "building_mena_atlas_diffuse.dds"
+		texture_normal = "building_mena_atlas_normal.dds"
+		texture_specular = "building_mena_atlas_properties.dds"
+		texture = { file = "cairo_sprawl.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "al_azhar_university"
+		index = 0
+		texture_diffuse = "building_mena_atlas_diffuse.dds"
+		texture_normal = "building_mena_atlas_normal.dds"
+		texture_specular = "building_mena_atlas_properties.dds"
+		texture = { file = "cairo_sprawl.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "cairo_walls"
+		index = 0
+		texture_diffuse = "building_mena_atlas_diffuse.dds"
+		texture_normal = "building_mena_atlas_normal.dds"
+		texture_specular = "building_mena_atlas_properties.dds"
+		texture = { file = "cairo_sprawl.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "cairo_sprawl"
+		index = 0
+		texture_diffuse = "building_mena_atlas_diffuse.dds"
+		texture_normal = "building_mena_atlas_normal.dds"
+		texture_specular = "building_mena_atlas_properties.dds"
+		texture = { file = "cairo_sprawl.dds" index = 5 }
+		shader = "snap_to_terrain_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "cairo_walls_decal"
+		index = 0
+		texture_diffuse = "fp2_special_building_toledo_city_wall_01_a_decal_diffuse.dds"
+		texture_normal = "fp2_building_special_toledo_city_wall_01_a_decal_normal.dds"
+		texture_specular = "fp2_special_building_toledo_city_wall_01_a_decal_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+	meshsettings = {
+		name = "cairo_sprawl_decal"
+		index = 0
+		texture_diffuse = "fp2_building_special_alhambra_01_diffuse.dds"
+		texture_normal = "fp2_building_special_alhambra_01_decal_normal.dds"
+		texture_specular = "fp2_building_special_alhambra_01_decal_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+pdxmesh = {
+	name = "great_sphinx_mesh"
+	file = "great_sphinx.mesh"
+	scale = 1
+	meshsettings = {
+		name = "great_sphinx"
+		index = 0
+		texture_diffuse = "building_mena_atlas_diffuse.dds"
+		texture_normal = "building_mena_atlas_normal.dds"
+		texture_specular = "building_mena_atlas_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "great_sphinx_decal"
+		index = 0
+		texture_diffuse = "fp3_building_special_tomb_of_cyrus_01_a_diffuse.dds"
+		texture_normal = "fp3_building_special_tomb_of_cyrus_01_a_normal.dds"
+		texture_specular = "fp3_building_special_tomb_of_cyrus_01_a_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+entity = {
+	name = "cairo_sprawl_entity"
+	pdxmesh = "cairo_sprawl_mesh"
+}
+entity = {
+	name = "great_sphinx_entity"
+	pdxmesh = "great_sphinx_mesh"
+}

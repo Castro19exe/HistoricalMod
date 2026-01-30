@@ -131,9 +131,14 @@
  drevlian:0 "Drevlian"
  drevlian_prefix:0 "Drevlo"
  drevlian_collective_noun:0 "Drevlians"
- yamato:0 "Yamato"
- yamato_prefix:0 "Yamato"
- yamato_collective_noun:0 "Yamatos"
+ icelandic:0 "Icelandic"
+ icelandic_prefix:0 "Icelando"
+ icelandic_collective_noun:0 "Icelandics"
+ norse_gaelic:0 "Norse-Gaelic"
+ norse_gaelic_prefix:0 "Norse-Gaelo" 
+ norse_gaelic_collective_noun:0 "Norse-Gaelics"
+
+ ##
  azmeri:0 "Azmeri"
  azmeri_prefix:0 "Azmero"
  azmeri_collective_noun:0 "Azmeris"

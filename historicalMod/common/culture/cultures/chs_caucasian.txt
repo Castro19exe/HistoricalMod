@@ -21,7 +21,7 @@
 	name_list = name_list_armenian
 	
 	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { caucasian_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { byzantine_unit_gfx }
 	house_coa_frame = house_frame_02
@@ -29,8 +29,8 @@
 	house_coa_mask_scale = { 0.9 0.9 }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
-		20 = turkic_west
+		33 = mediterranean_byzantine
+		67 = turkic_west
 	}
 }
 
@@ -53,7 +53,7 @@ georgian = {
 	name_list = name_list_georgian
 	
 	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { caucasian_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { byzantine_unit_gfx }
 	house_coa_frame = house_frame_02
@@ -61,11 +61,10 @@ georgian = {
 	house_coa_mask_scale = { 0.9 0.9 }
 	
 	ethnicities = {
-		10 = mediterranean_byzantine
-		20 = turkic_west
+		33 = mediterranean_byzantine
+		67 = turkic_west
 	}
 }
-
 
 circassian = {
 	color = { 156 35 9 }
@@ -84,7 +83,7 @@ circassian = {
 	name_list = name_list_circassian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { caucasian_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { byzantine_unit_gfx }
 	house_coa_frame = house_frame_02
@@ -92,8 +91,8 @@ circassian = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = mediterranean_byzantine
-		20 = turkic_west
+		33 = mediterranean_byzantine
+		67 = turkic_west
 	}
 }
 
@@ -115,7 +114,7 @@ durdzuk = {
 	name_list = name_list_circassian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	building_gfx = { caucasian_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { byzantine_unit_gfx }
 	house_coa_frame = house_frame_02
@@ -123,7 +122,7 @@ durdzuk = {
 	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = mediterranean_byzantine
-		20 = turkic_west
+		33 = mediterranean_byzantine
+		67 = turkic_west
 	}
 }

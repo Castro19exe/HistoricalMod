@@ -173,7 +173,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mediterranean_building_gfx }	
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }	
 	}
 	asset = {
 		type = pdxmesh
@@ -182,7 +182,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -192,7 +192,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -202,7 +202,7 @@ city_01 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { mediterranean_building_gfx }			
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
 
@@ -840,7 +840,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }	
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
@@ -849,7 +849,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -859,7 +859,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }	
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -869,7 +869,7 @@ city_02 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mediterranean }	
 	}
 
@@ -1486,7 +1486,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }	
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
@@ -1495,7 +1495,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -1505,7 +1505,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }	
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -1515,7 +1515,7 @@ city_03 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }	
 		graphical_regions = { graphical_mediterranean }
 	}
 
@@ -2135,7 +2135,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }	
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 	}
 	asset = {
 		type = pdxmesh
@@ -2145,7 +2145,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -2155,7 +2155,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_mediterranean_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }		
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }	
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -2165,7 +2165,7 @@ city_04 = {
 		}
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { mediterranean_building_gfx }
+		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
 

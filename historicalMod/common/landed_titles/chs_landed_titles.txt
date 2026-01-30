@@ -9519,7 +9519,6 @@ e_byzantium = {
 					cultural_names = {
 						name_list_greek = "Athina"
 						name_list_roman = "Athenae"
-
 						name_list_norse = "Aþena"
 					}
 				}

@@ -20,12 +20,6 @@ walls_00 = {
 			has_building_or_higher = "roman_wall_of_lugo_01"
 			has_building_or_higher = "kano_walls_01"
 			has_building_or_higher = "jaisalmer_fort_01"
-
-			# MA special buildings
-			has_building_or_higher = "MA_sarkel"
-			has_building_or_higher = "MA_walls_sanaa"
-			has_building_or_higher = "MA_walls_balkh"
-			
 			# Herders shouldn't have walls
 			scope:holder = {
 				government_has_flag = government_is_herder
@@ -64,11 +58,6 @@ walls_01_tribal = {
 			has_building_or_higher = "aurelian_walls_01"
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
-
-			# MA special buildings
-			has_building_or_higher = "MA_sarkel"
-			has_building_or_higher = "MA_walls_sanaa"
-			has_building_or_higher = "MA_walls_balkh"
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -256,11 +245,6 @@ walls_01 = {
 			has_building_or_higher = "aurelian_walls_01"
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
-
-			# MA special buildings
-			has_building_or_higher = "MA_sarkel"
-			has_building_or_higher = "MA_walls_sanaa"
-			has_building_or_higher = "MA_walls_balkh"
 		}
 	}
 }
@@ -477,12 +461,6 @@ walls_02 = {
 			has_building_or_higher = "aurelian_walls_01"
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
-
-			# MA special buildings
-			has_building_or_higher = "MA_sarkel"
-			has_building_or_higher = "MA_walls_sanaa"
-			has_building_or_higher = "MA_walls_balkh"
-			
 		}
 	}
 }
@@ -717,12 +695,6 @@ walls_03 = {
 			has_building_or_higher = "theodosian_walls_01"
 			has_building_or_higher = "city_wall_of_toledo_01"
 			has_building_or_higher = "roman_wall_of_lugo_01"
-
-			# MA special buildings
-			has_building_or_higher = "MA_sarkel"
-			has_building_or_higher = "MA_walls_sanaa"
-			has_building_or_higher = "MA_walls_balkh"
-			
 		}
 	}
 }

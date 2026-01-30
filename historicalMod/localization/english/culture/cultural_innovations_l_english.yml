@@ -1,6 +1,6 @@
 ﻿l_english:
  innovation_gallowglass: "Gallóglaigh"
- innovation_gallowglass_desc: "Descendants of the Norse-Gaels of the Hebrides, the Gallóglaigh are heavily armed warriors ready to face well-equipped opponents and fortified castles."
+ innovation_gallowglass_desc: "Descendants of the Norse-Gaels, the Gallóglaigh are heavily armed warriors ready to face well-equipped opponents."
 
  cb_discount_prestige_10:1 "[casus_belli|E] [prestige|E] Cost: [prestige_i]#P -10%#!"
  cb_discount_piety_10:1 "[casus_belli|E] [piety|E] Cost: [piety_i]#P -10%#!"

@@ -7,7 +7,7 @@
 
 	ethos = ethos_courtly
 	heritage = heritage_latin
-	language = language_iberian
+	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_imperial_might

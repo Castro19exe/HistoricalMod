@@ -36,7 +36,7 @@ north_gallo_roman = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
-	language = language_french
+	language = language_latin
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -78,7 +78,7 @@ south_gallo_roman = {
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
-	language = language_occitano_romance
+	language = language_latin
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {

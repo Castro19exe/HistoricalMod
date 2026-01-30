@@ -34,24 +34,6 @@ language_coptic = {
 	color = { 0.4 0.49 0.63 }
 }
 
-language_illyrian_vulgar = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_illyrian_vulgar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_illyrian_vulgar }
-			multiply = 10
-		}
-	}
-	
-	color = { 0.35 0.35 0.75 }
-}
-
 language_illyrian = {
 	type = language
 	is_shown = {
@@ -122,24 +104,6 @@ language_dacian = {
 	}
 	
 	color = { 0.55 0.65 0.55 }
-}
-
-language_african_vulgar = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_african_vulgar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_african_vulgar }
-			multiply = 10
-		}
-	}
-	
-	color = { 0.75 0.5 0.5 }
 }
 
 language_circassian = {
