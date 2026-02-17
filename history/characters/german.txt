@@ -1,0 +1,912 @@
+﻿## Start of Amaling Goths
+168760 = {
+	name = "Achiulf"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	240.1.1 = {
+		birth = yes
+	}	
+	290.1.1 = {
+		death = yes
+	}
+}
+
+168761 = {
+	name = "Ermanaric"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168760
+	266.1.1 = {
+		birth = yes
+	}	
+	376.1.1 = {
+		death = yes
+	}
+}
+168762 = {
+	name = "Hunimund"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168761
+	300.1.1 = {
+		birth = yes
+	}	
+	350.1.1 = {
+		death = yes
+	}
+}
+168763 = {
+	name = "Thorismund"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168762
+	340.1.1 = {
+		birth = yes
+	}	
+	400.1.1 = {
+		culture = "ostrogothic"
+		death = yes
+	}
+}
+168764 = {
+	name = "Berimund"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168763
+	390.1.1 = {
+		birth = yes
+	}	
+	400.1.1 = {
+		culture = "ostrogothic"
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+168765 = {
+	name = "Wideric"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "ostrogothic"
+	father = 168764
+	440.1.1 = {
+		birth = yes
+	}	
+	490.1.1 = {
+		death = yes
+	}
+}
+168766 = {
+	name = "Eutharic"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168765
+	480.1.1 = {
+		birth = yes
+	}
+	515.1.1 = {
+		add_spouse = 168784
+	}
+	522.1.1 = {
+		death = yes
+	}
+}
+168767 = {
+	name = "Wultulf"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168760
+	280.1.1 = {
+		birth = yes
+	}	
+	350.1.1 = {
+		death = yes
+	}
+}
+168768 = {
+	name = "Winithar"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168767
+	320.1.1 = {
+		birth = yes
+	}	
+	376.1.1 = {
+		death = yes
+	}
+}
+168769 = {
+	name = "Wandalar"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "gothic"
+	father = 168768
+	370.1.1 = {
+		birth = yes
+	}	
+	400.1.1 = {
+		culture = "ostrogothic"
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+168770 = {
+	name = "Walamir"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "ostrogothic"
+	father = 168769
+	425.1.1 = {
+		birth = yes
+	}	
+	470.1.1 = {
+		death = yes
+	}
+}
+168771 = {
+	name = "Widimir"
+	dynasty = 9617
+	religion = "norse_pagan"
+	culture = "ostrogothic"
+	father = 168769
+	427.1.1 = {
+		birth = yes
+	}	
+	473.1.1 = {
+		death = yes
+	}
+}
+168772 = {
+	name = "Widimir"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168771
+	450.1.1 = {
+		birth = yes
+	}	
+	500.1.1 = {
+		death = yes
+	}
+}
+168773 = {
+	name = "Theodemir"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168769
+	429.1.1 = {
+		birth = yes
+	}	
+	475.1.1 = {
+		death = yes
+	}
+}
+168774 = {
+	name = "Theodis"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168773
+	450.1.1 = {
+		birth = yes
+	}	
+	481.1.1 = {
+		death = yes
+	}
+}
+168775 = {
+	name = "Theoderic"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168773
+	454.1.1 = {
+		birth = yes
+	}
+	493.1.1 = {
+		add_spouse = 168783
+	}
+	520.1.1 = {
+		give_nickname = nick_the_great
+	}
+	526.8.30 = {
+		death = yes
+	}
+}
+168776 = {
+	name = "Theodimund"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168773
+	451.1.1 = {
+		birth = yes
+	}	
+	479.1.1 = {
+		death = yes
+	}
+}
+168777 = {
+	name = "Amalfrida"
+	female = yes
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168773
+	455.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		add_spouse = 168803
+	}
+	525.1.1 = {
+		death = yes
+	}
+}
+168809 = {
+	name = "Theodegotha"
+	dynasty=9617
+	female=yes
+	religion="catholic"
+	culture="ostrogothic"
+	trait="bastard"
+	father=168775
+	475.1.1 = {
+		birth=yes
+	}
+	505.1.1 = {
+		death=yes
+	}
+}
+168778 = {
+	name = "Theodahad"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	mother = 168777
+	480.1.1 = {
+		birth = yes
+	}	
+	536.12.1 = {
+		death = yes
+	}
+}
+168779 = {
+	name = "Amalaberga"
+	female = yes
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	mother = 168777
+	495.1.1 = {
+		birth = yes
+	}	
+	540.1.1 = {
+		death = yes
+	}
+}
+168780 = {
+	name = "Theodegisel"
+	dynasty = 9617
+	religion = "catholic"
+	culture = "ostrogothic"
+	father = 168778
+	510.1.1 = {
+		birth = yes
+	}	
+	549.1.1 = {
+		death = yes
+	}
+}
+168781 = {
+	name = "Theodenantha"
+	female=yes
+	dynasty=9617
+	religion="catholic"
+	culture="ostrogothic"
+	father=168778
+	512.1.1 = {
+		birth=yes
+	}	
+	550.1.1 = {
+		death=yes
+	}
+}
+168782 = {
+	name="Amalafrida"
+	dynasty=9617
+	religion="catholic"
+	culture="ostrogothic"
+	mother=168779
+	511.1.1 = {
+		birth=yes
+	}	
+	540.1.1 = {
+		death=yes
+	}
+}
+## End of Amaling goths
+## Start of various goths
+7761 = {
+	name = "Athalaric"
+	religion = "catholic"
+	culture = "ostrogothic"
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	470.1.1 = {
+		birth = "470.1.1"
+	}
+	530.1.1 = {
+		name = "Bonifatius"
+	# AKA: Athalaric
+	}
+	532.1.1 = {
+		death = "532.1.1"
+	}
+}
+
+214107={
+	name="Vitiges"
+	religion="catholic"
+	culture="ostrogothic"
+	500.1.1={
+		birth=yes
+	}
+	536.1.1={
+		add_spouse = 168789
+	}
+	540.1.1={
+		death=yes
+	}
+}
+## End of various goths
+## Start of Hasding vandals
+168793 = {
+	name="Godegisel"
+	dynasty=9618
+	religion="norse_pagan"
+	culture="vandalic"
+	350.1.1 = {
+		birth=yes
+	}	
+	406.1.1 = {
+		death=yes
+	}
+}
+168794 = {
+	name="Gunderic"
+	dynasty=9618
+	religion="norse_pagan"
+	culture="vandalic"
+	father=168793
+	370.1.1 = {
+		birth=yes
+	}
+	410.1.1 = {
+		religion=catholic
+	}
+	428.1.1 = {
+		death=yes
+	}
+}
+168795 = {
+	name="Gelimer"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168794
+	425.1.1 = {
+		birth=yes
+	}	
+	435.1.1 = {
+		death=yes
+	}
+}
+168796 = {
+	name="Geiseric"
+	dynasty=9618
+	religion="norse_pagan"
+	culture="vandalic"
+	trait= legitimized_bastard
+	father=168793
+	389.1.1 = {
+		birth=yes
+	}
+	410.1.1 = {
+		religion=catholic
+	}
+	477.1.25 = {
+		death=yes
+	}
+}
+168797 = {
+	name="Huneric"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168796
+	420.1.1 = {
+		birth=yes
+	}
+	455.1.1 = {
+		add_spouse=168799
+	}
+	484.1.1 = {
+		death=yes
+	}
+}
+168798 = {
+	name="Hilderic"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168797
+	mother=168799
+	480.1.1 = {
+		birth=yes
+	}	
+	534.1.1 = {
+		death=yes
+	}
+}
+168800 = {
+	name="Theoderic"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168796
+	421.1.1 = {
+		birth=yes
+	}	
+	451.1.1 = {
+		death=yes
+	}
+}
+168801 = {
+	name="Geiso"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168796
+	422.1.1 = {
+		birth=yes
+	}	
+	484.1.1 = {
+		death=yes
+	}
+}
+168802 = {
+	name="Gundamund" 
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168801
+	460.1.1 = {
+		birth=yes
+	}
+	
+	496.1.1 = {
+		death=yes
+	}
+}
+168803 = {
+	name="Thrasamund"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168801
+	462.1.1 = {
+		birth=yes
+	}	
+	523.1.1 = {
+		death=yes
+	}
+}
+168804 = {
+	name="Gelaris"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168801
+	463.1.1 = {
+		birth=yes
+	}	
+	520.1.1 = {
+		death=yes
+	}
+}
+168805 = {
+	name="Gelimer"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168804
+	490.1.1 = {
+		birth=yes
+	}	
+	533.1.1 = {
+		death=yes
+	}
+}
+168806 = {
+	name="Tzazo"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168804
+	492.1.1 = {
+		birth=yes
+	}	
+	535.1.1 = {
+		death=yes
+	}
+}
+168807 = {
+	name="Gunthimer"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168804
+	493.1.1 = {
+		birth=yes
+	}	
+	530.1.1 = {
+		death=yes
+	}
+}
+168808 = {
+	name="Gibamund"
+	dynasty=9618
+	religion="catholic"
+	culture="vandalic"
+	father=168807
+	510.1.1 = {
+		birth=yes
+	}	
+	540.1.1 = {
+		death=yes
+	}
+}
+## End of Hasding vandals
+## Start of additional various goths
+variousgoths001 = {
+	name="Theodahad" #Unknown parent of Theudis, used to create a nephew
+	dynasty=sub_ostrogothic
+	religion="catholic"
+	culture="ostrogothic"
+	
+	460.1.1 = {
+		birth=yes
+	}	
+	520.1.1 = {
+		death=yes
+	}
+}
+variousgoths002 = {
+	name="Thorismund" #Unknown brother of Theudis, used to create a nephew
+	dynasty=sub_ostrogothic
+	religion="catholic"
+	culture="ostrogothic"
+	father=variousgoths001
+	480.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+variousgoths003 = {
+	name="Hildebad"	#Ildibad, king of Italy
+	dynasty=sub_ostrogothic
+	religion="catholic"
+	culture="ostrogothic"
+	father=variousgoths002
+	500.1.1 = {
+		birth = yes
+	}
+	541.5.1 = {
+		death = yes
+	}
+}
+variousgoths004 = {
+	name="Berimund"	#Unknown brother of Ildibad, used to create a nephew
+	dynasty=sub_ostrogothic
+	religion="catholic"
+	culture="ostrogothic"
+	father=variousgoths002
+	498.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}
+variousgoths005 = {
+	name="Baduila"	#Totila, king of Italy
+	dynasty=sub_ostrogothic
+	religion="catholic"
+	culture="ostrogothic"
+	father=variousgoths004
+	516.1.1 = {
+		birth = yes
+	}
+	552.7.1 = {
+		death = yes
+	}
+}
+
+variousgoths006 = {
+	name="Eraric"	#king of Italy
+	religion="catholic"
+	culture="ostrogothic"	#Rugian
+	510.1.1 = {
+		birth = yes
+	}
+	541.10.1 = {
+		death = yes
+	}
+}
+
+variousgoths007 = {
+	name="Thila"	#king of Italy
+	religion="catholic"
+	culture="ostrogothic"	#Rugian
+	522.1.1 = {
+		birth = yes
+	}
+	553.1.1 = {
+		death = yes
+	}
+}
+
+variousgoths009 = {
+	name = "Theodora" # Unknown name, daughter of Theodoric I of the Visigoths
+	dynasty = 1046035 # Balthing Dynasty
+	religion = catholic
+	culture = visigothic
+	female=yes
+	father = 200287 # King Teodorico I of the Visigoths
+	mother = 200293 # Queen Valiana
+
+	420.1.1 = {	# Unknown
+		birth = yes
+	}
+	457.1.1 = {	# Unknown
+		death = yes
+	}
+}
+
+## End of additional various goths
+## Start of Suebi
+suebi001 = {
+	name="Hermeric"	#king of Suebi
+	dynasty=royal_suebi
+	religion="norse_pagan"
+	culture="suebi"
+	385.1.1 = {	# Unknown
+		birth = yes
+	}
+	441.1.1 = {
+		death = yes
+	}
+}
+
+suebi002 = {
+	name="Rechila"	#king of Suebi
+	dynasty=royal_suebi
+	religion="norse_pagan"
+	culture="suebi"
+	father=suebi001
+	405.1.1 = {	# Unknown, but born outside galicia and hence before 410 when the suebi invaded
+		birth = yes
+	}
+	448.1.1 = {
+		death = yes
+	}
+}
+
+suebi003 = {
+	name="Rechiar"	#king of Suebi
+	dynasty=royal_suebi
+	religion="norse_pagan"
+	culture="suebi"
+	father=suebi002
+	425.1.1 = {	# Unknown
+		birth = yes
+	}
+	445.12.1 = {	#Date unknown
+		religion=catholic
+		add_spouse=variousgoths009
+	}	
+	456.12.1 = {
+		death = yes
+	}
+}
+
+suebi004 = {
+	name="Agiwulf"	#king of Suebi
+	religion="catholic"
+	culture="visigothic"
+	425.1.1 = {	# Unknown
+		birth = yes
+	}
+	457.6.1 = { 
+		death = yes
+	}
+}
+
+suebi005 = {
+	name="Maldras"	#king of Suebi
+	dynasty=sub_suebi
+	religion="norse_pagan"
+	culture="suebi"
+	409.1.1 = {	# Unknown
+		birth = yes
+	}
+	460.2.1 = { 
+		death = yes
+	}
+}
+
+suebi006 = {
+	name="Remismund" #king of Suebi
+	dynasty=sub_suebi
+	religion="norse_pagan"
+	culture="suebi"
+	father=suebi005
+	429.1.1 = {	# Unknown
+		birth = yes
+	}
+	466.1.1 = {
+		religion=catholic
+	}
+	469.1.1 = { 
+		death = yes
+	}
+}
+
+suebi007 = {
+	name="Hermeneric" #king of Suebi
+	religion="catholic"
+	culture="suebi"
+	430.1.1 = {	# Unknown
+		birth = yes
+	}
+	485.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+suebi008 = {
+	name="Veremund" #king of Suebi
+	religion="catholic"
+	culture="suebi"
+	465.1.1 = {	# Unknown
+		birth = yes
+	}
+	525.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+suebi009 = {
+	name="Theodemund" #king of Suebi
+	religion="catholic"
+	culture="suebi"
+	500.1.1 = {	# Unknown
+		birth = yes
+	}
+	550.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+suebi010 = {
+	name="Chararic" #king of Suebi
+	dynasty=sub_suebi_02
+	religion="catholic"
+	culture="suebi"
+	510.1.1 = {	# Unknown
+		birth = yes
+	}
+	559.1.1 = { 
+		death = yes
+	}
+}
+
+suebi011 = {
+	name="Ariamir" #king of Suebi
+	dynasty=sub_suebi_02
+	religion="catholic"
+	culture="suebi"
+	father=suebi010
+	530.1.1 = {	# Unknown
+		birth = yes
+	}
+	561.6.1 = { 
+		death = yes
+	}
+}
+
+suebi012 = {
+	name="Theodemir" #king of Suebi
+	religion="catholic"
+	culture="suebi"
+	535.1.1 = {	# Unknown
+		birth = yes
+	}
+	570.1.1 = { 
+		death = yes
+	}
+}
+
+suebi013 = {
+	name="Miro" #king of Suebi
+	dynasty=sub_suebi_03
+	religion="catholic"
+	culture="suebi"
+	550.1.1 = {	# Unknown
+		birth = yes
+	}
+	583.1.1 = { 
+		death = yes
+	}
+}
+
+suebi014 = {
+	name="Siseguntia"
+	religion="catholic"
+	culture="suebi"
+	female=yes
+	550.1.1 = {	# Unknown
+		birth = yes
+	}
+	566.1.1 = {	# Unknown
+		add_spouse=suebi013
+	}
+	590.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+suebi015 = {
+	name="Eboric" #king of Suebi 
+	dynasty=sub_suebi_03
+	religion="catholic"
+	culture="suebi"
+	father=suebi013
+	mother=suebi014
+	571.1.1 = {	# Deposed whilst adolescent in 584, thus around 13 by that time 
+		birth = yes
+	}
+	600.1.1 = { # Unknown, put into a monastry
+		death = yes
+	}
+}
+
+suebi016 = {
+	name="Audeca" #king of Suebi
+	religion="catholic"
+	culture="suebi"
+	549.1.1 = {	# Unknown
+		birth = yes
+	}
+	584.1.1 = {	# Unknown
+		add_spouse=suebi014
+	}	
+	585.1.1 = { # Unknown, likely put into a monastry
+		death = yes
+	}
+}

@@ -1,0 +1,568 @@
+﻿name_list_dacian = {
+#from wikipedia's list of dacian names. very few female names mentioned, so a few greek mythological thracians sprinkled in
+#dynasty names from their tribes
+	cadet_dynasty_names = {
+		{ "dynnp_e" "dynn_Aedi" }
+		{ "dynnp_e" "dynn_Albocenses" }
+		{ "dynnp_e" "dynn_Anarti" }
+		{ "dynnp_e" "dynn_Apuli" }
+		{ "dynnp_e" "dynn_Biephi" }
+		{ "dynnp_e" "dynn_Biessoi" }
+		{ "dynnp_e" "dynn_Buredeenses" }
+		{ "dynnp_e" "dynn_Buri" }
+		{ "dynnp_e" "dynn_Carpi" }
+		{ "dynnp_e" "dynn_Caucoenses" }
+		{ "dynnp_e" "dynn_Ciaginsi" }
+		{ "dynnp_e" "dynn_Clariae" }
+		{ "dynnp_e" "dynn_Coertoboci" }
+		{ "dynnp_e" "dynn_Crobidae" }
+		{ "dynnp_e" "dynn_Daci" }
+		{ "dynnp_e" "dynn_Getae" }
+		{ "dynnp_e" "dynn_Napae" }
+		{ "dynnp_e" "dynn_Osi" }
+		{ "dynnp_e" "dynn_Piephigi" }
+		{ "dynnp_e" "dynn_Potulantenses" }
+		{ "dynnp_e" "dynn_Predasenses" }
+		{ "dynnp_e" "dynn_Rhadacenses" }
+		{ "dynnp_e" "dynn_Sabokoi" }
+		{ "dynnp_e" "dynn_Saldenses" }
+		{ "dynnp_e" "dynn_Scaugdae" }
+		{ "dynnp_e" "dynn_Sense" }
+		{ "dynnp_e" "dynn_Suci" }
+		{ "dynnp_e" "dynn_Terici" }
+		{ "dynnp_e" "dynn_Teurisci" }
+		{ "dynnp_e" "dynn_Trixae" }
+		{ "dynnp_e" "dynn_Tyrageti" }
+	}
+
+	dynasty_names = {
+		{ "dynnp_e" "dynn_Aedi" }
+		{ "dynnp_e" "dynn_Albocenses" }
+		{ "dynnp_e" "dynn_Anarti" }
+		{ "dynnp_e" "dynn_Apuli" }
+		{ "dynnp_e" "dynn_Biephi" }
+		{ "dynnp_e" "dynn_Biessoi" }
+		{ "dynnp_e" "dynn_Buredeenses" }
+		{ "dynnp_e" "dynn_Buri" }
+		{ "dynnp_e" "dynn_Carpi" }
+		{ "dynnp_e" "dynn_Caucoenses" }
+		{ "dynnp_e" "dynn_Ciaginsi" }
+		{ "dynnp_e" "dynn_Clariae" }
+		{ "dynnp_e" "dynn_Coertoboci" }
+		{ "dynnp_e" "dynn_Crobidae" }
+		{ "dynnp_e" "dynn_Daci" }
+		{ "dynnp_e" "dynn_Getae" }
+		{ "dynnp_e" "dynn_Napae" }
+		{ "dynnp_e" "dynn_Osi" }
+		{ "dynnp_e" "dynn_Piephigi" }
+		{ "dynnp_e" "dynn_Potulantenses" }
+		{ "dynnp_e" "dynn_Predasenses" }
+		{ "dynnp_e" "dynn_Rhadacenses" }
+		{ "dynnp_e" "dynn_Sabokoi" }
+		{ "dynnp_e" "dynn_Saldenses" }
+		{ "dynnp_e" "dynn_Scaugdae" }
+		{ "dynnp_e" "dynn_Sense" }
+		{ "dynnp_e" "dynn_Suci" }
+		{ "dynnp_e" "dynn_Terici" }
+		{ "dynnp_e" "dynn_Teurisci" }
+		{ "dynnp_e" "dynn_Trixae" }
+		{ "dynnp_e" "dynn_Tyrageti" }
+	}
+
+	male_names = {
+		Avizina Bastiza Bikili Blaesus Blaikisa Blegissa Brasus Burebista Charnabon Comosicus Coson Cothelas Cotiso Dablosa Dadas Dadazi Daizus 
+		Damanais Danillo Dardanos Dardiolai Decaeneus Decebalus Deceneus Decibalus Dekinais Denzibalus Dicomes Dida Diegis Diengis Dieri Diernais 
+		Diourdanos Diurpaneus Dotos Dotouzi Dourpokis Drapyx Drilgisa Dromichaetes Dual Duras Kaigiza Komakiza Komozoi Micca Moskon Mucapor Mucatra 
+		Natoporus Oroles Petipor Phradmon Pieporus Pouridour Rhemaxos Rholes Rigozus Rolouzis Scorilo Tarbus Thiadicem Thiamarkos Thiaper Tiati 
+		Tiatitis Tsinna Tsiru Vezina Zalmodegicus Zalmoxis Zoltes Zoutula Zueta Zyraxes
+
+	}
+	female_names = {
+		Ababa Abrotonum Alcippe Anchiroe Asteria Bistonis Chrysonoe Drimo Duccidava Gepaepyris Harpalyce Iambe Kottyto Meda Mendeis Menippe Methone Ossa 
+		Pallene Pellene Pthonia Pythodoris Resuturme Rhodope Rhodopis Rhoeteia Thrace Tryphaena Zia Zina
+
+	}
+	
+	dynasty_of_location_prefix = "dynnp_e" #unknown, so using albanian's
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_daco_roman = {
+#from vlach names with a latin origin, and historical daco-romans
+#dynasty names from terms in the roman province
+	cadet_dynasty_names = {
+		"dynn_Thrax"
+		{ "dynnp_de" "dynn_Dacia" }
+		{ "dynnp_de" "dynn_Bersobis" }
+		{ "dynnp_de" "dynn_Porolissum" }
+		{ "dynnp_de" "dynn_Apulum" }
+		{ "dynnp_de" "dynn_Romula" }
+		{ "dynnp_de" "dynn_Potaissa" }
+		{ "dynnp_de" "dynn_Moesia" }
+	}
+
+	dynasty_names = {
+		"dynn_Thrax"
+		{ "dynnp_de" "dynn_Dacia" }
+		{ "dynnp_de" "dynn_Bersobis" }
+		{ "dynnp_de" "dynn_Porolissum" }
+		{ "dynnp_de" "dynn_Apulum" }
+		{ "dynnp_de" "dynn_Romula" }
+		{ "dynnp_de" "dynn_Potaissa" }
+		{ "dynnp_de" "dynn_Moesia" }
+	}
+
+	male_names = {
+		Aaron Adrianus Angelus Aureolus Barbatus Carolus Ciprian Claudius Constantinus Cornelius Demetrius Florentius Galerius Georgius Gregorius 
+		Iacobus Ioannes Iosephus Laurentius Leo Lucianus Marinus Maximinus Michael Nicolaus Petrus Romanus Servius Simon Stephanus Stylianus 
+		Theodorus Tiberius Timotheus Valentinus Valerius
+
+	}
+	female_names = {
+		Adriana Aemilia Afina Alexia Anastasia Anna Christiana Clara Felicia Helena Iacoba Ioana Iulia Katerina Maria Natalia Petra Severina Sophia 
+		Stephana Stephania
+
+
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de" 
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_illyrian = {
+#dynasty names from their tribes, given names from wikipedia's list of Illyrians, proposed Illyrian vocabulary
+	cadet_dynasty_names = {
+		"dynn_Abroi"
+		"dynn_Albanoi"
+		"dynn_Amantes"
+		"dynn_Ardiaei"
+		"dynn_Armistae"
+		"dynn_Arthitae"
+		"dynn_Autariatae"
+		"dynn_Balaites"
+		"dynn_Baridustae"
+		"dynn_Bathiatae"
+		"dynn_Bylliones"
+		"dynn_Cavii"
+		"dynn_Dalmatae"
+		"dynn_Daorsi"
+		"dynn_Dardani"
+		"dynn_Dassareti"
+		"dynn_Daunians"
+		"dynn_Deraemestae"
+		"dynn_Deretini"
+		"dynn_Deuri"
+		"dynn_Docleatae"
+		"dynn_Dyestes"
+		"dynn_Enchele"
+		"dynn_Endirudini"
+		"dynn_Grabaei"
+		"dynn_Iapydes"
+		"dynn_Kinambroi"
+		"dynn_Labeatae"
+		"dynn_Mazaei"
+		"dynn_Melcumani"
+		"dynn_Messapians"
+		"dynn_Narensi"
+		"dynn_Ozuaei"
+		"dynn_Parthini"
+		"dynn_Penestae"
+		"dynn_Peucetians"
+		"dynn_Pleraei"
+		"dynn_Sardiatae"
+		"dynn_Sasaei"
+		"dynn_Selepitani"
+		"dynn_Tariotes"
+		"dynn_Taulantii"
+	}
+
+	dynasty_names = {
+		"dynn_Abroi"
+		"dynn_Albanoi"
+		"dynn_Amantes"
+		"dynn_Ardiaei"
+		"dynn_Armistae"
+		"dynn_Arthitae"
+		"dynn_Autariatae"
+		"dynn_Balaites"
+		"dynn_Baridustae"
+		"dynn_Bathiatae"
+		"dynn_Bylliones"
+		"dynn_Cavii"
+		"dynn_Dalmatae"
+		"dynn_Daorsi"
+		"dynn_Dardani"
+		"dynn_Dassareti"
+		"dynn_Daunians"
+		"dynn_Deraemestae"
+		"dynn_Deretini"
+		"dynn_Deuri"
+		"dynn_Docleatae"
+		"dynn_Dyestes"
+		"dynn_Enchele"
+		"dynn_Endirudini"
+		"dynn_Grabaei"
+		"dynn_Iapydes"
+		"dynn_Kinambroi"
+		"dynn_Labeatae"
+		"dynn_Mazaei"
+		"dynn_Melcumani"
+		"dynn_Messapians"
+		"dynn_Narensi"
+		"dynn_Ozuaei"
+		"dynn_Parthini"
+		"dynn_Penestae"
+		"dynn_Peucetians"
+		"dynn_Pleraei"
+		"dynn_Sardiatae"
+		"dynn_Sasaei"
+		"dynn_Selepitani"
+		"dynn_Tariotes"
+		"dynn_Taulantii"
+	}
+
+	male_names = {
+		Agron Agirrus Andes Andio Andis Annaeus Aplis Aplius Apludus Aplus Apurus Argurianus Artas Arvus Astius Baezo Ballaios Bardylis 
+		Bato Belzeius Beusas Blodus Boiken Boio Breigos Brykos Caius Cambrius Cleitus Daors Dasius Dazaios Demetrius Ditus Dizo Epentinus 
+		Epicadus Epidius Epulon Galaurus Gentius Glaucias Glavus Grabos Irenaeus Jerome Kabaletus Kratill Lacus Laiscus Laritus Lato Lautus 
+		Litus Longarus Mahata Mallaius Mark Mascelio Messor Monunius Mytilos Nantanius Opis Paio Panentius Pinnes Pinsus Pladomenus Plarens 
+		Platino Plator Pleuratus Pleurias Posantio Pravaius Samuntio Scerdilaidas Scerdis Seio Sestus Sirras Skerdilaidas Statanius Temus 
+		Testomos Tito Tizius Tritus Varro Vendes Verzo Zanatis Ziraeus
+
+	}
+	female_names = {
+		Acenica Aioia Ammidra Amynas Andena Andetia Andia Antis Audata Baeta Bidna Bircenna Boria Bricussa Caeria Catta Clevata Curbania 
+		Cursulavia Dasantilla Dida Dussona Enena Ettela Etuta Genthena Laca Lavincia Madena Madussa Mania Matisa Melandrica Moca Nantia Nindia 
+		Panthia Panto Poia Tatta Temeia Teuta Torcula Triteuta
+
+	}
+	
+	dynasty_of_location_prefix = "dynnp_e" #unknown, so using albanian's
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_dalmatian = {
+#dynasty names from their dialect locations, given names from CK2
+	cadet_dynasty_names = {
+		{ "dynnp_de" "dynn_Veglia" }
+		{ "dynnp_de" "dynn_Arba" }
+		{ "dynnp_de" "dynn_Crepsa" }		
+		{ "dynnp_de" "dynn_Zara" }		
+		{ "dynnp_de" "dynn_Trau" }		
+		{ "dynnp_de" "dynn_Splato" }		
+		{ "dynnp_de" "dynn_Regusa" }		
+		{ "dynnp_de" "dynn_Cattaro" }	
+		{ "dynnp_de" "dynn_Fiume" }		
+		{ "dynnp_de" "dynn_Jadera" }
+		{ "dynnp_de" "dynn_Tragurium" }
+		{ "dynnp_de" "dynn_Spalatum" }
+		{ "dynnp_de" "dynn_Acruvium" }
+		{ "dynnp_de" "dynn_Curicta" }
+	}
+
+	dynasty_names = {
+		{ "dynnp_de" "dynn_Veglia" }
+		{ "dynnp_de" "dynn_Arba" }
+		{ "dynnp_de" "dynn_Crepsa" }		
+		{ "dynnp_de" "dynn_Zara" }		
+		{ "dynnp_de" "dynn_Trau" }		
+		{ "dynnp_de" "dynn_Splato" }		
+		{ "dynnp_de" "dynn_Regusa" }		
+		{ "dynnp_de" "dynn_Cattaro" }	
+		{ "dynnp_de" "dynn_Fiume" }		
+		{ "dynnp_de" "dynn_Jadera" }
+		{ "dynnp_de" "dynn_Tragurium" }
+		{ "dynnp_de" "dynn_Spalatum" }
+		{ "dynnp_de" "dynn_Acruvium" }
+		{ "dynnp_de" "dynn_Curicta" }
+	}
+
+	male_names = {
+		Andre Andreas Bisti Blaxius Calenda Clime Comes
+		Domagna Gaucoli Gauzoli Gervasius Giuco Give
+		Jugno Juliano Junius Laurenzo Leonardus Loncho Lucarus
+		Mare Marco Maroe Marinus Matheus Michael Nale Nichiforus Nicola
+		Pascalis Pasqualis Petragna Petrus Piero Perue Rassinus Rusco
+		Stane Thoma Tuone Vallius Vita
+
+	}
+	female_names = {
+		Ana Anna Antolina Anussa Babalio Bodacia Catarena Caterina Clara Drase Dea Descia Deia Deussa Elena Giva
+		Jachussa Jacobica Jelussa Laurica Lene
+		Magdalena Margerita Maria Mauressa Micha Mira Nicoletta Nixa
+		Rade Rado Regina Rossa Schimosa Thome Vele
+
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de" #according to dalmatian grammer, wikipedia
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_arberian = {
+#ck2 names, historical noble family dynasty names
+	cadet_dynasty_names = {
+		"dynn_Lazzi"
+		"dynn_Arianiti"
+		"dynn_Blinishti"
+		"dynn_Bua"
+		"dynn_Shpata"
+		"dynn_Bruni"
+		"dynn_Bruti"
+		"dynn_Dukagjini"
+		"dynn_Dushmani"
+		"dynn_FrashE_ri"
+		"dynn_Gropa"
+		"dynn_Gjini"
+		"dynn_Gjika"
+		"dynn_Humoja"
+		"dynn_Gjonima"
+		"dynn_Losha"
+		"dynn_Kryethi"
+		"dynn_Kastrioti"
+		"dynn_MatrE_nga"
+		"dynn_Muzaka"
+		"dynn_Niutta"
+		"dynn_Pamalioti"
+		"dynn_Progoni"
+		"dynn_Spani"
+		"dynn_Skuraj"
+		"dynn_Thopia"
+		"dynn_Zakarija"
+		"dynn_Zenevisi"
+		"dynn_Zogu"
+	}
+
+	dynasty_names = {
+		"dynn_Lazzi"
+		"dynn_Arianiti"
+		"dynn_Blinishti"
+		"dynn_Bua"
+		"dynn_Shpata"
+		"dynn_Bruni"
+		"dynn_Bruti"
+		"dynn_Dukagjini"
+		"dynn_Dushmani"
+		"dynn_FrashE_ri"
+		"dynn_Gropa"
+		"dynn_Gjini"
+		"dynn_Gjika"
+		"dynn_Humoja"
+		"dynn_Gjonima"
+		"dynn_Losha"
+		"dynn_Kryethi"
+		"dynn_Kastrioti"
+		"dynn_MatrE_nga"
+		"dynn_Muzaka"
+		"dynn_Niutta"
+		"dynn_Pamalioti"
+		"dynn_Progoni"
+		"dynn_Spani"
+		"dynn_Skuraj"
+		"dynn_Thopia"
+		"dynn_Zakarija"
+		"dynn_Zenevisi"
+		"dynn_Zogu"
+
+	}
+
+	male_names = {
+		Afrim Agim Agon Alban Alek Aleksander Andrea Ardian Ardit Arianit Armend Bashkim Besian Besnik 
+		Blerim Bua Burim Dardan Depa DhimitE_r Dimitri Dritan DE_frim Edon Endrit EngjE_ll Fatmir Fisnik Flamur Gjergj Gjin Gjon Gojko Grigor 
+		Jakub Jetmir Jeton Koja Kostandin Kreshnik Kushtrim Leka LekE_ Leotrim Leutrim Liridon LulE_zim Moisi Muriq Muzaka 
+		Pal Perparim PjetE_r Progon PE_llumb Skender Tanush Teodor Valon Visar Vladan Ylli
+
+	}
+	female_names = {
+		AfE_rdita Arjeta Blerina Blerta Blerte Bolja Bosa Boxia BoS_a BoZ_a Dardana Diellza Edona Era Fatmire Flutura Jehona Lindita 
+		Liridona Lule Luljeta Mirjeta Pranvera Shpresa Shqipe Teuta Tirana Vera Yllka
+
+	}
+	
+	dynasty_of_location_prefix = "dynnp_e" 
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_narentian = {
+	cadet_dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	male_names = {
+		Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Djordje Dmitar Dobroslav Dragija Dragutin Gavrilo Godimir Goran Gjin
+		Grgur Ilija Ivan Kasjan Krsto Lazar Ljudevit Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim
+		Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Serapion Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
+		Vuk Vukan Vukasin Vukoman Zoran Zvonimir
+	}
+	female_names = {
+		Agata Barbara Branimira Desislava Dubravka Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+		Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+		Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+	}
+	
+	dynasty_of_location_prefix = "dynnp_od"
+	
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+}
+
+name_list_zachlumian = {
+	cadet_dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	male_names = {
+		Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Djordje Dmitar Dobroslav Dragija Dragutin Gavrilo Godimir Goran Gjin
+		Grgur Ilija Ivan Kasjan Krsto Lazar Ljudevit Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim
+		Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
+		Vuk Vukan Vukasin Vukoman Zoran Zvonimir
+	}
+	female_names = {
+		Agata Barbara Branimira Desislava Dubravka Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+		Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+		Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+	}
+	
+	dynasty_of_location_prefix = "dynnp_od"
+	
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+}
+
+name_list_travunian = {
+	cadet_dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	male_names = {
+		Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Djordje Dmitar Dobroslav Dragija Dragutin Gavrilo Godimir Goran Gjin
+		Grgur Ilija Ivan Kasjan Krsto Lazar Ljudevit Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim
+		Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
+		Vuk Vukan Vukasin Vukoman Zoran Zvonimir
+	}
+	female_names = {
+		Agata Barbara Branimira Desislava Dubravka Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+		Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+		Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+	}
+	
+	dynasty_of_location_prefix = "dynnp_od"
+	
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+}
+
+name_list_dioclean = {
+	cadet_dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	dynasty_names = {
+		"dynn_Paganija"
+		"dynn_Mokro"
+		"dynn_Omis"
+		"dynn_Hvar"
+		"dynn_Gjinic"
+	}
+
+	male_names = {
+		Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Djordje Dmitar Dobroslav Dragija Dragutin Gavrilo Godimir Goran Gjin
+		Grgur Ilija Ivan Kasjan Krsto Lazar Ljudevit Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim
+		Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
+		Vuk Vukan Vukasin Vukoman Zoran Zvonimir
+	}
+	female_names = {
+		Agata Barbara Branimira Desislava Dubravka Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+		Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+		Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+	}
+	
+	dynasty_of_location_prefix = "dynnp_od"
+	
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+}

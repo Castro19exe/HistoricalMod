@@ -1,0 +1,6 @@
+dalmatian_culture_promote_modifier = {
+	icon = county_modifier_development_positive
+
+    development_growth = 0.3
+    county_opinion_add = 15
+}
