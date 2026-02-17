@@ -630,7 +630,6 @@ temple_01 = {
 
 	### Mediterranean Orthodox
 	asset = {
-		asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_01_mesh"
 		illustration = @illustration_orthodox
@@ -1567,7 +1566,6 @@ temple_02 = {
 
 	### Mediterranean Orthodox
 	asset = {
-		asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_01_mesh"
 		illustration = @illustration_orthodox
@@ -2352,7 +2350,6 @@ temple_03 = {
 
 	### Mediterranean Orthodox
 	asset = {
-		asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_02_mesh"
 		illustration = @illustration_orthodox
@@ -3127,7 +3124,6 @@ temple_04 = {
 
 	### Mediterranean Orthodox
 	asset = {
-		asset = {
 		type = pdxmesh
 		name = "building_mediterranean_temple_orthodox_02_mesh"
 		illustration = @illustration_orthodox
