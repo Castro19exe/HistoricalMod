@@ -1,0 +1,41 @@
+﻿l_english:
+
+ #############################################
+
+### Afro_Roman ###
+# Feudal / Clan
+ baron_feudal_male_afro_roman:0 "Baron"
+ baron_feudal_female_afro_roman:0 "Baroness"
+ barony_feudal_afro_roman:0 "Barony"
+ count_feudal_male_afro_roman:0 "Count"
+ count_feudal_female_afro_roman:0 "Countess"
+ county_feudal_afro_roman:0 "County"
+ duke_feudal_male_afro_roman:0 "Duke"
+ duke_feudal_female_afro_roman:0 "Duchess"
+ duchy_feudal_afro_roman:0 "Duchy"
+ king_feudal_male_afro_roman:0 "King"
+ king_feudal_female_afro_roman:0 "Queen"
+ kingdom_feudal_afro_roman:0 "Kingdom"
+ emperor_feudal_male_afro_roman:0 "Emperor"
+ emperor_feudal_female_afro_roman:0 "Empress"
+ empire_feudal_afro_roman:0 "Empire"
+ 
+# Tribal 
+ baron_tribal_male_afro_roman:0 "Headman"
+ baron_tribal_female_afro_roman:0 "Headwoman"
+ barony_tribal_afro_roman:0 "Tribe"
+ count_tribal_male_afro_roman:0 "Chieftain"
+ count_tribal_female_afro_roman:0 "Chieftess"
+ county_tribal_afro_roman:0 "Chiefdom"
+ duke_tribal_male_afro_roman:0 "High Chief"
+ duke_tribal_female_afro_roman:0 "High Chieftess"
+ duchy_tribal_afro_roman:0 "High Chiefdom"
+ 
+ duke_independent_male_afro_roman:0 "Petty King"
+ duke_independent_female_afro_roman:0 "Petty Queen"
+ duchy_independent_afro_roman:0 "Petty Kingdom"
+ 
+### Caucasian Heritage ###
+ duke_independent_caucasian:0 "Petty King"
+ duke_independent_female_caucasian:0 "Petty Queen"
+ duchy_independent_caucasian:0 "Petty Kingdom"

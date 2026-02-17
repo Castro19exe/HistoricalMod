@@ -1,0 +1,92 @@
+#############################
+# REALM CULTURAL TRADITIONS #
+#############################
+
+tradition_imperial_might = {
+	category = realm
+
+	layers = {
+		0 = martial
+		1 = mena\mena1.dds
+		2 = rec5 copy 2.dds
+		3 = 6.dds
+		4 = glaurel.dds
+	}
+
+	can_pick = {
+		NOR = { 
+			has_cultural_tradition = tradition_roman_legacy
+			has_cultural_tradition = tradition_stalwart_defenders
+		}
+
+		NOT = { # Can not be picked by tribals
+			scope:character = {
+				has_government = tribal_government
+			}
+		}
+	}
+	
+	parameters = {
+		can_use_conquest_cbs = yes
+		cheaper_cbs = yes
+	}
+
+	county_modifier = {
+		
+	}
+	
+	province_modifier = {
+		monthly_county_control_growth_add = 0.3
+	}
+	
+	character_modifier = {
+		men_at_arms_limit = 20
+		levy_size = -0.75
+		levy_reinforcement_rate = -0.75
+		vassal_levy_contribution_mult = -0.75
+		#men_at_arms_recruitment_cost = -0.15
+		men_at_arms_maintenance = 0.20
+		men_at_arms_cap = 10
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = 5000
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+                        culture_pillar:ethos_bellicose = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							count >= 90
+						}
+					}
+				}
+				add = {
+					#value = tradition_unfulfilled_criteria_penalty
+					value = 5000
+					desc = culture_in_many_counties_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
