@@ -1,0 +1,238 @@
+﻿name_list_gaulish = {
+#given names from wikitionary and behind the name, dynasty names from their tribes
+	cadet_dynasty_names = {
+		"dynn_Aiduoi"
+		"dynn_Allobrogis"
+		"dynn_Ambarri"
+		"dynn_AmbiA_ni"
+		"dynn_AndecauI_"
+		"dynn_Arecomici"
+		"dynn_AruernI_"
+		"dynn_Atrebatis"
+		"dynn_Aulerici_Cenomani"
+		"dynn_Bodiocasses"
+		"dynn_Boii"
+		"dynn_BellowacI_"
+		"dynn_BiturI_ges_Cubi"
+		"dynn_BiturI_ges_Uiuisci"
+		"dynn_BrannouI_cE_s"
+		"dynn_Brigantioi"
+		"dynn_Cadurci"
+		"dynn_Caletoi"
+		"dynn_Carni"
+		"dynn_CarnU_tI_"
+		"dynn_Catu_uellaunI_"
+		"dynn_CaturI_ges"
+		"dynn_CauarI_"
+		"dynn_Cenomani"
+		"dynn_Ceutrones"
+		"dynn_Coriosolites"
+		"dynn_Diablintes"
+		"dynn_Durocasses"
+		"dynn_Eburones"
+		"dynn_EburouI_cE_s"
+		"dynn_Gabli"
+		"dynn_Graioceloi"
+		"dynn_HeluE_tI_"
+		"dynn_HelwI_"
+		"dynn_Insubri"
+		"dynn_LemouI_cE_s"
+		"dynn_LewcI_"
+		"dynn_LexsouI_"
+		"dynn_Lingones"
+		"dynn_Medio_mA_teres"
+		"dynn_Medulloi"
+		"dynn_Menapii"
+		"dynn_Morini"
+		"dynn_Namnetes"
+		"dynn_Nantuatis"
+		"dynn_NerwI_"
+		"dynn_Nitiobrogis"
+		"dynn_OstimI_"
+		"dynn_Parisioi"
+		"dynn_Petrocorii"
+		"dynn_Pictones"
+		"dynn_Rauraci"
+		"dynn_RE_dones"
+		"dynn_RE_mi"
+		"dynn_Ruteni"
+		"dynn_Salassi"
+		"dynn_Santoni"
+		"dynn_Seduni"
+		"dynn_SegusiauI_"
+		"dynn_Segusinoi"
+		"dynn_Senonii"
+		"dynn_Sequani"
+		"dynn_Suessiones"
+		"dynn_Taurini"
+		"dynn_Textosagii"
+		"dynn_Tigurini"
+		"dynn_TrE_uerI_"
+		"dynn_Tricastini"
+		"dynn_Turoni"
+		"dynn_WellaunI_"
+		"dynn_WeliocassE_s"
+		"dynn_WellawI_"
+		"dynn_WenellI_"
+		"dynn_WenetI_"
+		"dynn_WeragrI_"
+		"dynn_WertamocorI_"
+		"dynn_WiducassE_s"
+		"dynn_WindelicI_"
+		"dynn_WiromanduI_"
+		"dynn_WocontI_" 		
+	}
+
+	dynasty_names = {
+		"dynn_Aiduoi"
+		"dynn_Allobrogis"
+		"dynn_Ambarri"
+		"dynn_AmbiA_ni"
+		"dynn_AndecauI_"
+		"dynn_Arecomici"
+		"dynn_AruernI_"
+		"dynn_Atrebatis"
+		"dynn_Aulerici_Cenomani"
+		"dynn_Bodiocasses"
+		"dynn_Boii"
+		"dynn_BellowacI_"
+		"dynn_BiturI_ges_Cubi"
+		"dynn_BiturI_ges_Uiuisci"
+		"dynn_BrannouI_cE_s"
+		"dynn_Brigantioi"
+		"dynn_Cadurci"
+		"dynn_Caletoi"
+		"dynn_Carni"
+		"dynn_CarnU_tI_"
+		"dynn_Catu_uellaunI_"
+		"dynn_CaturI_ges"
+		"dynn_CauarI_"
+		"dynn_Cenomani"
+		"dynn_Ceutrones"
+		"dynn_Coriosolites"
+		"dynn_Diablintes"
+		"dynn_Durocasses"
+		"dynn_Eburones"
+		"dynn_EburouI_cE_s"
+		"dynn_Gabli"
+		"dynn_Graioceloi"
+		"dynn_HeluE_tI_"
+		"dynn_HelwI_"
+		"dynn_Insubri"
+		"dynn_LemouI_cE_s"
+		"dynn_LewcI_"
+		"dynn_LexsouI_"
+		"dynn_Lingones"
+		"dynn_Medio_mA_teres"
+		"dynn_Medulloi"
+		"dynn_Menapii"
+		"dynn_Morini"
+		"dynn_Namnetes"
+		"dynn_Nantuatis"
+		"dynn_NerwI_"
+		"dynn_Nitiobrogis"
+		"dynn_OstimI_"
+		"dynn_Parisioi"
+		"dynn_Petrocorii"
+		"dynn_Pictones"
+		"dynn_Rauraci"
+		"dynn_RE_dones"
+		"dynn_RE_mi"
+		"dynn_Ruteni"
+		"dynn_Salassi"
+		"dynn_Santoni"
+		"dynn_Seduni"
+		"dynn_SegusiauI_"
+		"dynn_Segusinoi"
+		"dynn_Senonii"
+		"dynn_Sequani"
+		"dynn_Suessiones"
+		"dynn_Taurini"
+		"dynn_Textosagii"
+		"dynn_Tigurini"
+		"dynn_TrE_uerI_"
+		"dynn_Tricastini"
+		"dynn_Turoni"
+		"dynn_WellaunI_"
+		"dynn_WeliocassE_s"
+		"dynn_WellawI_"
+		"dynn_WenellI_"
+		"dynn_WenetI_"
+		"dynn_WeragrI_"
+		"dynn_WertamocorI_"
+		"dynn_WiducassE_s"
+		"dynn_WindelicI_"
+		"dynn_WiromanduI_"
+		"dynn_WocontI_" 		
+	}
+	
+	male_names = {
+		Abbo Acco Adietumarus Adyantumaros Ambiorix Argiotalus Ariogaisos Arleno Atebodwos Ategnatos Atikoryos Attalus Axrotalus Bannus Bilius 
+		Bodyokassos Brennos Brogimaros Camulos Camulus Carantus Carmanos Carmo Caturix Celunno Cerdo Cilurnos Contessilo
+		Corius Cudius Dago Dagodubnos Dagodurnos Dagolitus Dagomaros Damos Dosso Drutalos Dubnorix Dunnius
+		Garomaros Garos Iantumaros Iestinus Katumaros Katurix Kintugenos Kintugnatos Lascius Leno Leucus Lukotorix
+		Lutumaros Maguno Magurix Manus Mogurix Oclinos Orgetorix Samo Samorix Scottus Segomaros Suadurix Talos Tanisius Tasco Tinkomaros Tinus Toccus
+		Uercassiuellaunos Urus Vercingetorix Welyokassos Wenikaros Wirogalos
+	}
+	female_names = {
+		Abbula Abrexta Abruna Acaunissa Aculia Adbugissa Banna Bauila Betua Blanda Boudia Boudiaca Boudilatis
+		Camula Cantismerta Carata Catta Cauaria Cloustria Contuinda Coria Dewognata Dousonna Dunnonia Elantia Kunopennos
+		Leuca Litogena Lubitiata Luguselwa Lutetia Manta Oclauia Peccia Scotta Sucaria Tocca Uesuca Uinda Uindilla
+		Uiscareua
+	}
+	
+	dynasty_of_location_prefix = "dynnp_es"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+}
+
+name_list_gallo_roman = {
+	cadet_dynasty_names = {
+		{ "dynnp_de" "dynn_Cisalpina" }
+		{ "dynnp_de" "dynn_Transalpina" }
+		{ "dynnp_de" "dynn_Comata" }
+	}
+
+	dynasty_names = {
+		"dynn_Syagrii"
+		{ "dynnp_de" "dynn_Cisalpina" }
+		{ "dynnp_de" "dynn_Transalpina" }
+		{ "dynnp_de" "dynn_Comata" }
+	}
+	
+	#french names, removing germanic ones and latinising, and historical gallo-romans
+	male_names = {
+		Adrianus Aegidius Aemilius Afranius Agricola Agrippinus Agroecius Alcimus Amadeus Andreas 
+		Antonius Apollinaris Aprunculus Ausonius Avitus Bartholomeus Benedictus Caprasius Claudianus Desideratus 
+		Ecdicius Eucherius Eufronius Eustasius Fabricius Faustus Flavius Florentius Gallus Gergorius Hebenus 
+		Hesperius Hilarius Honoratus Jacobus Julius Leontius Lupicinus Lupus Magnus Marius Matthaeus Mauricius 
+		Nicetius Paganus Paulinus Petrus Postumus Ruricius Salonius Serverus Sidonius Simeonus Stephanus Syagrius 
+		Tetricus Valerius Venantius Veranus Vettius Victorinus
+	}
+	female_names = {
+		Aemilia Alcima Anna Antonia Armentaria Beatrix Benedetia Caterina Cecilia Consortia Constantina Eva 
+		Galla Genoveva Hodierna Julianna Leocadia Maria Roscia Severiana Sigrada Sophia Stephania Tullia Valentia 
+		Violanta
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 60
+	mother_name_chance = 10
+
+}

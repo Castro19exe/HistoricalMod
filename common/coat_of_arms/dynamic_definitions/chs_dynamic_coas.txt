@@ -1,0 +1,51 @@
+#Hispania
+k_andalusia = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = k_andalusia_christian
+	}
+}
+b_maqueda = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = b_maqueda_christian
+	}
+}
+b_talavera = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = b_talavera_christian
+	}
+}
+c_madrid = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = c_madrid_christian
+	}
+}
+c_coimbra = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = c_coimbra_christian
+	}
+}
+
+#Maghreb
+k_maghreb = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = k_maghreb_christian
+	}
+}
