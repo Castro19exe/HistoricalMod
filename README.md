@@ -1,4 +1,4 @@
-<img width="460" height="215" alt="image" src="https://github.com/user-attachments/assets/41845805-9cda-4988-83ee-ebc56bef539f" /># Historical Mod
+# Historical Mod
 The mod aims to make the game more accurate for players that find it lacking the cultures, decision-making and 3D models.
 
 ![Logo](thumbnail.png)
