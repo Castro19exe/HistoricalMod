@@ -7,7 +7,7 @@ This mod enhances historical accuracy for players who feel the base game lacks c
 <a href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1158310/header.jpg?t=1743430269" alt="Game" width="150"></a>
 
 ## DLC(s) Required:
-<p align="center">
+<p align="left">
   <a href="https://store.steampowered.com/app/1303182/Crusader_Kings_III_Royal_Court/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1303182/header.jpg?t=1732731924" alt="Royal Court DLC" width="150">
   <a href="https://store.steampowered.com/app/2311920/Crusader_Kings_III_Tours__Tournaments/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2311920/header.jpg?t=1765210024" alt="Tours & Tournaments" width="150">
   <a href="https://store.steampowered.com/app/1303183/Crusader_Kings_III_Northern_Lords/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1303183/header.jpg?t=1732732107" alt="Northern Lords DLC" width="150"></a>
