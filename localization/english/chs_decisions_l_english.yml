@@ -1489,3 +1489,12 @@
  winged_hussar:0 "Winged Hussars" 
  winged_hussar_flavor:0 "#F Armed enough in Western European style and mobile in Eastern European style, these Polish cavalry are called 'Winged Hussars' because of their unique wing decorations. These brave cavalry never back down even in front of the Pikemen.#!"  
  
+ 0s_cuman_georgian_decision:0 "Integrate the Cuman Host"
+ 0s_cuman_georgian_decision_desc:0 "The feudal lords of our realm have grown fat and arrogant, believing their levies to be the only source of our strength. Meanwhile, on the steppes, the Cuman tribes face destruction and hunger.\n\nWe shall offer these warriors salvation. By settling them on our lands and marrying them into our families, we will forge a new Royal Army—the #EMP Monaspa#!. Beholden to no duke, loyal only to the Crown, they will crush our enemies both foreign and domestic."
+ 0s_cuman_georgian_tt:0 "You settle 40,000 Cuman families, gaining a massive force of [special_troops|E] and a loyal standing army."
+ 0s_cuman_georgian_decision_confirm:0 "Open the mountain passes."
+ 0s_cuman_georgian_vassal_culture_tt:0 "Your [powerful_vassals|E] are foreigners who do not respect your authority (A powerful vassal of a foreign culture)"
+ 0s_cuman_georgian_religious_approval_tt:0 "The [head_of_faith|E] sanctions the settlement of pagans (High Opinion or Hook)"
+ 0s_cuman_georgian_cultural_acceptance_tt:0 "We have high [cultural_acceptance|E] with the #V Cuman#! people"
+ 0s_cuman_georgian_neighbors_alarm_tt:0 "Neighbors are alarmed by your military buildup"
+ 0s_cuman_georgian_decision_tooltip:0 "Settle the Cuman tribes to form the elite #V Monaspa#! guard and weaken your vassals."

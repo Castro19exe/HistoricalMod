@@ -295,27 +295,6 @@ temple_01 = {
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe }
 	}
 
-	# EP3 Islamic
-	asset = {
-		type = pdxmesh
-		name = "cp6_building_turkish_temple_islamic_01_mesh"
-		requires_dlc_flag = holy_buildings
-		illustration = @illustration_byzantine_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_steppe }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_mena_temple_islamic_01_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
 	# EP3 Pagan
 	asset = {
 		type = pdxmesh
@@ -346,8 +325,17 @@ temple_01 = {
 		illustration = @illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { steppe_building_gfx }  
-		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
+		graphical_regions = { graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
+		graphical_regions = { graphical_mena }
 	}
 
 	### Southeast Asian Pagan
@@ -1231,27 +1219,6 @@ temple_02 = {
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_steppe }
 	}
 
-	# EP3 Islamic
-	asset = {
-		type = pdxmesh
-		name = "cp6_building_turkish_temple_islamic_01_mesh"
-		requires_dlc_flag = holy_buildings
-		illustration = @illustration_byzantine_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mediterranean graphical_steppe }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_mena_temple_islamic_01_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { byzantine_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-
 	# EP3 Pagan
 	asset = {
 		type = pdxmesh
@@ -1282,8 +1249,17 @@ temple_02 = {
 		illustration = @illustration_byzantine_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { steppe_building_gfx }  
-		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
+		graphical_regions = { graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_01_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
+		graphical_regions = { graphical_mena }
 	}
 
 	### Southeast Asian Pagan
@@ -2066,7 +2042,16 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
-		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+		graphical_regions = { graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### Southeast Asian Pagan
@@ -2840,7 +2825,16 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_cultures = { steppe_building_gfx byzantine_building_gfx }  
-		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+		graphical_regions = { graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	}
+	asset = {
+		type = pdxmesh
+		name = "building_mena_temple_islamic_02_mesh"
+		illustration = @illustration_islamic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { "islamic_gfx" }
+		graphical_cultures = { steppe_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 
 	### Southeast Asian Pagan

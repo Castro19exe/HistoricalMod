@@ -12658,7 +12658,7 @@ culture_levy_big_illustration = {
 		reference = "men_at_arms_big/levies_east_slavic.dds" 
 	}
 
-	# --- MENA (Without Iranian) ---
+	# --- MENA ---
 	texture = {
 		trigger = {
 			culture = {
@@ -12673,10 +12673,10 @@ culture_levy_big_illustration = {
 				}
 			}
 		}
-		reference = "men_at_arms_big/levies_persian.dds"
+		reference = "men_at_arms_big/levies_mena.dds"
 	}
 
-	# --- AFRICAN (Sub-Saharan) ---
+	# --- WEST AFRICAN ---
 	texture = {
 		trigger = {
 			culture = {
@@ -12937,7 +12937,7 @@ culture_knight_big_illustration = {
 				}
 			} 
 		}
-		reference = "men_at_arms_big/heavy_cavalry_finnish.dds"
+		reference = "men_at_arms_big/heavy_infantry_finnish.dds"
 	}
 
 	# --- ASIAN  ---
@@ -12949,7 +12949,6 @@ culture_knight_big_illustration = {
 					has_cultural_pillar = heritage_qiangic
 					has_cultural_pillar = heritage_hmongic
 					has_cultural_pillar = heritage_tungusic
-
 					has_cultural_pillar = heritage_buyeo
 					has_cultural_pillar = heritage_korean
 				} 

@@ -1365,7 +1365,7 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Lundenburh
-						name_list_old_saxon = Lundenburh«
+						name_list_old_saxon = Lundenburh
 						name_list_norse = Lundenborg
 						name_list_norwegian = Lundenborg
 						name_list_danish = Lundenborg
@@ -2063,11 +2063,21 @@ e_britannia = {
 					province = 1583
 
 					color = { 232 195 74 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Lincylene
+						name_list_old_saxon = Lincylene
+					}
 				}
 				b_stamford = {
 					province = 1584
 
 					color = { 232 195 74 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Steanford
+						name_list_old_saxon = Steanford
+					}
 				}
 				b_boston = {
 					province = 1585
@@ -2419,6 +2429,11 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Medeshamstede
+						name_list_old_saxon = Medeshamstede
+						name_list_swedish = Veidrborg
+						name_list_norwegian = Veidrborg
+						name_list_danish = Veidrborg
+						name_list_norse = Veidrborg
 					}
 				}
 				b_kettering = {
@@ -2543,8 +2558,8 @@ e_britannia = {
 				color = { 255 115 15 }
 
 				cultural_names = {
-					name_list_anglo_saxon = "Oxnafordscire"
-					name_list_old_saxon = "Oxnafordscire"
+					name_list_anglo_saxon = Oxnafordscire
+					name_list_old_saxon = Oxnafordscire
 				}
 
 				b_oxford = {
@@ -2553,8 +2568,8 @@ e_britannia = {
 					color = { 255 115 15 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Oxnaford"
-						name_list_old_saxon = "Oxnaford"
+						name_list_anglo_saxon = Oxnaford
+						name_list_old_saxon = Oxnaford
 					}
 				}
 				b_banbury = {
@@ -12085,7 +12100,7 @@ e_byzantium = {
 				#capital = 494 # Adrianopolis
 
 				cultural_names = {
-					name_list_greek = "Adrianoupolis"
+					name_list_greek = Adrianoupolis
 				}
 
 				b_adrianopolis = {
@@ -12094,8 +12109,8 @@ e_byzantium = {
 					color = { 90 85 120 }
 
 					cultural_names = {
-						name_list_greek = "Adrianoupolis"
-						name_list_bulgarian = "Odrin"
+						name_list_greek = Adrianoupolis
+						name_list_bulgarian = Odrin
 					}
 				}
 				b_mezeshka = {
@@ -12139,6 +12154,10 @@ e_byzantium = {
 					province = 3622
 
 					color = { 50 75 85 }
+					
+					cultural_names = {
+						name_list_greek = Gougoútka
+					}
 				}
 			}
 
@@ -27538,7 +27557,7 @@ e_russia = {	#Kievan Rus
 			capital = c_novgorod # Novgorod
 
 			cultural_names = {
-				name_list_crimean_gothic = Ilminbaurg
+				name_list_crimean_gothic = Ilminbaurgos
 				name_list_norse = cn_holmgardr
 				name_list_swedish = cn_holmgardr
 				name_list_danish = cn_holmgardr
@@ -27550,7 +27569,7 @@ e_russia = {	#Kievan Rus
 				color = { 122 153 90 }
 
 				cultural_names = {
-					name_list_crimean_gothic = Ilminbaurg
+					name_list_crimean_gothic = Ilminbaurgos
 					name_list_norse = cn_holmgardr
 					name_list_swedish = cn_holmgardr
 					name_list_danish = cn_holmgardr
@@ -27564,7 +27583,7 @@ e_russia = {	#Kievan Rus
 					color = { 122 153 90 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Ilminbaurg
+						name_list_crimean_gothic = Ilminbaurgos
 						name_list_norse = cn_holmgardr
 						name_list_swedish = cn_holmgardr
 						name_list_danish = cn_holmgardr
@@ -27578,7 +27597,7 @@ e_russia = {	#Kievan Rus
 					color = { 122 153 90 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Aldeigabaurg
+						name_list_crimean_gothic = Aldeigabaurgos
 						name_list_norse = cn_aldeigjuborg
 						name_list_swedish = cn_aldeigjuborg
 						name_list_danish = cn_aldeigjuborg
@@ -28582,7 +28601,7 @@ e_russia = {	#Kievan Rus
 					color = { 87 144 50 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Rastobaurg
+						name_list_crimean_gothic = Rastobaurgos
 						name_list_merya = cn_sarskoye_gorodishche
 						name_list_meshchera = cn_sarskoye_gorodishche
 						name_list_muroma = cn_sarskoye_gorodishche
@@ -30116,10 +30135,10 @@ e_caspian-pontic_steppe = {
 				color = { 85 50 22 }
 
 				cultural_names = {
-					name_list_russian = "Arkhyz"
-					name_list_greek = "Aouchis"
-					name_list_roman = "Auchis"
-					name_list_crimean_gothic = "Alanbaurg"
+					name_list_russian = Arkhyz
+					name_list_greek = Aouchis
+					name_list_roman = Auchis
+					name_list_crimean_gothic = Alanbaurgos
 				}
 
 				b_maghas = {
@@ -30128,10 +30147,10 @@ e_caspian-pontic_steppe = {
 					color = { 85 50 22 }
 
 					cultural_names = {
-						name_list_russian = "Arkhyz"
-						name_list_greek = "Aouchis"
-						name_list_roman = "Auchis"
-						name_list_crimean_gothic = "Alanbaurg"
+						name_list_russian = Arkhyz
+						name_list_greek = Aouchis
+						name_list_roman = Auchis
+						name_list_crimean_gothic = Alanbaurgos
 					}
 				}
 				b_etzeri = {
@@ -30145,7 +30164,7 @@ e_caspian-pontic_steppe = {
 					color = { 85 50 22 }
 
 					cultural_names = {
-						name_list_crimean_gothic = "Baets"
+						name_list_crimean_gothic = Baeton
 					}
 				}
 			}
@@ -30358,7 +30377,7 @@ e_caspian-pontic_steppe = {
 				color = { 202 125 19 }
 
 				cultural_names = {
-					name_list_crimean_gothic = Volgabaurg
+					name_list_crimean_gothic = Volgabaurgos
 				}
 
 				b_saqsin = {
@@ -30367,7 +30386,7 @@ e_caspian-pontic_steppe = {
 					color = { 202 125 19 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Volgabaurg
+						name_list_crimean_gothic = Volgabaurgos
 					}
 				}
 				b_saraychiq = {
@@ -47530,10 +47549,33 @@ e_france = {
 			c_brugge = {
 				color = { 65 95 180 }
 
+				cultural_names = {
+					name_list_french = Bruges
+					name_list_norman = Bruges
+					name_list_outremer = Bruges
+					name_list_bavarian = Brüggen
+					name_list_franconian = Brüggen
+					name_list_saxon = Brüggen
+					name_list_swabian = Brüggen
+					name_list_thuringian = Brüggen
+					name_list_norse = Bryggja
+				}
+
 				b_bruges = {
 					province = 2115
 
 					color = { 65 95 180 }
+
+					cultural_names = {
+						name_list_bavarian = Brüggen
+						name_list_franconian = Brüggen
+						name_list_saxon = Brüggen
+						name_list_swabian = Brüggen
+						name_list_thuringian = Brüggen
+						name_list_dutch = Brugge
+						name_list_frisian = Brugge
+						name_list_norse = Bryggja
+					}
 				}
 				b_gent = {
 					province = 2114

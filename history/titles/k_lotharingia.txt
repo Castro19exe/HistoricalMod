@@ -1219,8 +1219,6 @@ c_cleves = {
 
 
 c_maastricht = {
-	#TODO_CD: COPIED FROM C_JULICH, REPLACE WITH HISTORY
-	
 	740.1.1 = {
 		holder = 131717 #Agnerald de Chaumontis
 		liege = k_france

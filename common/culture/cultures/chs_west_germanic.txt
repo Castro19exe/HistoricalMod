@@ -135,7 +135,7 @@ anglo_saxon = {
 
 english = {
 	color = english
-	created = 1070.1.1
+	created = 1150.1.1
 	parents = { norman anglo_saxon }
 	
 	ethos = ethos_bureaucratic

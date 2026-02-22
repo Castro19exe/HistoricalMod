@@ -1753,9 +1753,11 @@ c_coburg = {
 	}
 	865.1.1 = {
 		liege = "d_east_franconia"
+		government = feudal_government
 	}
 	1066.1.1 = {
 		holder = 7597
+		government = theocracy_government
 	}
 	1178.1.1 = {
 		holder = andechs_1 # Otto von Andechs
@@ -1788,6 +1790,50 @@ c_coburg = {
 		holder = 462749
 	}
 
+}
+
+b_lichtenfels = {
+	839.1.1 = {
+		effect = { 
+			if = {
+				limit = {
+					game_start_date = 867.1.1
+				}
+				set_capital_barony = yes 
+			}
+		}
+		holder = 7910
+	}
+	1066.1.1 = {
+		holder = 7597
+	}
+	1178.1.1 = {
+		holder = andechs_1 # Otto von Andechs
+	}
+	1195.11.8 = {
+		holder = 212605
+	}
+	1212.1.1 = {
+		holder = 7401
+	}
+	1214.4.25 = {
+		holder = 212950
+	}
+	1231.9.15 = {
+		holder = 462756
+	}
+	1253.11.29 = {
+		holder = 462750
+	}
+	1294.2.2 = {
+		holder = 462736
+	}
+	1317.1.1 = {
+		holder = 462740
+	}
+	1323.8.1 = {
+		holder = 462749
+	}
 }
 
 
@@ -3883,6 +3929,8 @@ c_furstenberg = {
 	1307.1.1 = {
 		holder = 462337
 	}
+	
+	
 }
 
 
