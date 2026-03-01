@@ -137,6 +137,9 @@
  norse_gaelic:0 "Norse-Gaelic"
  norse_gaelic_prefix:0 "Norse-Gaelo" 
  norse_gaelic_collective_noun:0 "Norse-Gaelics"
+ dutch:2 "Low Franconian"                              #Dutch
+ dutch_prefix:0 "Low Franconian"                       #Batavo
+ dutch_collective_noun:2 "Low Franconians"             #Dutchmen
 
  ##
  azmeri:0 "Azmeri"

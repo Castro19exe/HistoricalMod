@@ -59,6 +59,15 @@ pdxmesh = {
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
+
+	meshsettings = {
+		name = "unit_germanic_cape_infantry_03"
+		texture_diffuse = "unit_fp1_infantry_02_test_diffuse.dds"
+		texture_normal = "unit_anglo_saxon_infantry_03_normal.dds"
+		texture_specular = "unit_anglo_saxon_infantry_03_test_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 }
 
 entity = {

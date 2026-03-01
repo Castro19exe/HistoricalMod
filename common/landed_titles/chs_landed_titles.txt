@@ -6386,11 +6386,11 @@ e_germany = {
 				color = { 65 65 100 }
 
 				cultural_names = {
-					name_list_swabian = "Nanzig"
-					name_list_franconian = "Nanzig"
-					name_list_bavarian = "Nanzig"
-					name_list_saxon = "Nanzig"
-					name_list_thuringian = "Nanzig"
+					name_list_swabian = Nanzig
+					name_list_franconian = Nanzig
+					name_list_bavarian = Nanzig
+					name_list_saxon = Nanzig
+					name_list_thuringian = Nanzig
 				}
 
 				b_nancy = {
@@ -6399,11 +6399,11 @@ e_germany = {
 					color = { 65 65 100 }
 
 					cultural_names = {
-						name_list_swabian = "Nanzig"
-						name_list_franconian = "Nanzig"
-						name_list_bavarian = "Nanzig"
-						name_list_saxon = "Nanzig"
-						name_list_thuringian = "Nanzig"
+						name_list_swabian = Nanzig
+						name_list_franconian = Nanzig
+						name_list_bavarian = Nanzig
+						name_list_saxon = Nanzig
+						name_list_thuringian = Nanzig
 					}
 				}
 				b_epinal = {
@@ -6719,11 +6719,11 @@ e_germany = {
 					color = { 15 80 220 }
 
 					cultural_names = {
-						name_list_swabian = "Tull"
-						name_list_franconian = "Tull"
-						name_list_bavarian = "Tull"
-						name_list_saxon = "Tull"
-						name_list_thuringian = "Tull"
+						name_list_swabian = Tull
+						name_list_franconian = Tull
+						name_list_bavarian = Tull
+						name_list_saxon = Tull
+						name_list_thuringian = Tull
 					}
 				}
 			}
@@ -10169,13 +10169,9 @@ e_byzantium = {
 
 				#capital = 465 # Zadar
 
-				#italian = "Zara"
-				#greek = "Diadora"
-				#roman = "Diadora"
-
 				cultural_names = {
-					name_list_roman = cn_diadora
 					name_list_greek = cn_diadora
+					name_list_roman = cn_diadora	
 					name_list_italian = cn_zara
 					name_list_cisalpine = cn_zara
 					name_list_sicilian = cn_zara
@@ -10189,8 +10185,8 @@ e_byzantium = {
 					color = { 162 53 53 }
 
 					cultural_names = {
-						name_list_roman = cn_diadora
 						name_list_greek = cn_diadora
+						name_list_roman = cn_diadora	
 						name_list_italian = cn_zara
 						name_list_cisalpine = cn_zara
 						name_list_sicilian = cn_zara
@@ -10204,18 +10200,14 @@ e_byzantium = {
 					color = { 162 53 53 }
 
 					cultural_names = {
-						name_list_croatian = "Nin"
-						name_list_serbian = "Nin"
-					
-						name_list_italian = "Nona"
-						name_list_lombard = "Nona"
-						name_list_cisalpine = "Nona"
-						name_list_sicilian = "Nona"
-						name_list_sardinian = "Nona"
-						name_list_dalmatian = "Nona"
-
-						#name_list_greek = "Nona"
-						name_list_roman = "Nona"
+						name_list_greek = Nona
+						name_list_roman = Nona
+						name_list_italian = Nona
+						name_list_lombard = Nona
+						name_list_cisalpine = Nona
+						name_list_sicilian = Nona
+						name_list_sardinian = Nona
+						name_list_dalmatian = Nona
 					}
 				}
 				b_biograd = {
@@ -10224,15 +10216,12 @@ e_byzantium = {
 					color = { 162 53 53 }
 
 					cultural_names = {
-						name_list_croatian = "Biograd"
-						name_list_serbian = "Biograd"
-					
-						name_list_italian = "Zaravecchia"
-						name_list_lombard = "Zaravecchia"
-						name_list_cisalpine = "Zaravecchia"
-						name_list_sicilian = "Zaravecchia"
-						name_list_sardinian = "Zaravecchia"
-						name_list_dalmatian = "Zaravecchia"
+						name_list_italian = Zaravecchia
+						name_list_lombard = Zaravecchia
+						name_list_cisalpine = Zaravecchia
+						name_list_sicilian = Zaravecchia
+						name_list_sardinian = Zaravecchia
+						name_list_dalmatian = Zaravecchia
 					}
 				}
 				b_obrovac = {
@@ -10241,15 +10230,12 @@ e_byzantium = {
 					color = { 162 53 53 }
 
 					cultural_names = {
-						name_list_croatian = "Obrovac"
-						name_list_serbian = "Obrovac"
-					
-						name_list_italian = "Obrovazzo"
-						name_list_lombard = "Obrovazzo"
-						name_list_cisalpine = "Obrovazzo"
-						name_list_sicilian = "Obrovazzo"
-						name_list_sardinian = "Obrovazzo"
-						name_list_dalmatian = "Obrovazzo"
+						name_list_italian = Obrovazzo
+						name_list_lombard = Obrovazzo
+						name_list_cisalpine = Obrovazzo
+						name_list_sicilian = Obrovazzo
+						name_list_sardinian = Obrovazzo
+						name_list_dalmatian = Obrovazzo
 					}
 				}
 			}
@@ -10259,15 +10245,12 @@ e_byzantium = {
 				#capital = 3548 # Knin
 
 				cultural_names = {
-					name_list_croatian = "Knin"
-					name_list_serbian = "Knin"
-					
-					name_list_italian = "Tenin"
-					name_list_lombard = "Tenin"
-					name_list_cisalpine = "Tenin"
-					name_list_sicilian = "Tenin"
-					name_list_sardinian = "Tenin"
-					name_list_dalmatian = "Tenin"
+					name_list_italian = Tenino
+					name_list_lombard = Tenin
+					name_list_cisalpine = Tenin
+					name_list_sicilian = Teninu
+					name_list_sardinian = Tenino
+					name_list_dalmatian = Tenin
 				}
 
 				b_knin = {
@@ -10276,15 +10259,12 @@ e_byzantium = {
 					color = { 168 76 44 }
 
 					cultural_names = {
-						name_list_croatian = "Knin"
-						name_list_serbian = "Knin"
-						
-						name_list_italian = "Tenin"
-						name_list_lombard = "Tenin"
-						name_list_cisalpine = "Tenin"
-						name_list_sicilian = "Tenin"
-						name_list_sardinian = "Tenin"
-						name_list_dalmatian = "Tenin"
+						name_list_italian = Tenino
+						name_list_lombard = Tenin
+						name_list_cisalpine = Tenin
+						name_list_sicilian = Teninu
+						name_list_sardinian = Tenino
+						name_list_dalmatian = Tenin
 					}
 				}
 				b_bribir = {
@@ -10293,18 +10273,14 @@ e_byzantium = {
 					color = { 168 76 44 }
 
 					cultural_names = {
-						name_list_croatian = "Bribir"
-						name_list_serbian = "Bribir"
-					
-						name_list_italian = "Breberio"
-						name_list_lombard = "Breberio"
-						name_list_cisalpine = "Breberio"
-						name_list_sicilian = "Breberio"
-						name_list_sardinian = "Breberio"
-						name_list_dalmatian = "Breberio"
-
-						#name_list_greek = ""
-						name_list_roman = "Varvaria"
+						name_list_greek = Varvaria
+						name_list_roman = Varvaria
+						name_list_italian = Breberio
+						name_list_lombard = Breberio
+						name_list_cisalpine = Breberio
+						name_list_sicilian = Breberio
+						name_list_sardinian = Breberio
+						name_list_dalmatian = Breberio
 					}
 				}
 				b_sibenik = {
@@ -10313,9 +10289,6 @@ e_byzantium = {
 					color = { 168 76 44 }
 
 					cultural_names = {
-						name_list_croatian = "Šibenik"
-						name_list_serbian = "Šibenik"
-					
 						name_list_italian = "Sebenico"
 						name_list_lombard = "Sebenico"
 						name_list_cisalpine = "Sebenico"
@@ -10330,10 +10303,6 @@ e_byzantium = {
 
 				#capital = 3551 # Sinj
 
-				#italian = "Spalato"
-				#greek = "Spalathos"
-				#roman = "Spalato"
-
 				cultural_names = {
 					name_list_roman = cn_spalato
 					name_list_greek = cn_spalathos
@@ -10346,7 +10315,6 @@ e_byzantium = {
 					name_list_sicilian = cn_spalato
 					name_list_sardinian = cn_spalato
 					name_list_lombard = cn_spalato
-					
 				}
 
 				b_sinjcroat = {
@@ -10378,14 +10346,13 @@ e_byzantium = {
 					color = { 150 80 45 }
 
 					cultural_names = {
+						name_list_greek = cn_spalathos
+						name_list_roman = Spalatum
 						name_list_italian = cn_spalato
 						name_list_cisalpine = cn_spalato
 						name_list_sicilian = cn_spalato
 						name_list_sardinian = cn_spalato
 						name_list_lombard = cn_spalato
-
-						name_list_greek = "Spalathos"
-						name_list_roman = "Spalatum"
 					}
 				}
 				b_solin = {
@@ -10394,9 +10361,6 @@ e_byzantium = {
 					color = { 150 80 45 }
 
 					cultural_names = {
-						name_list_croatian = "Solin"
-						name_list_serbian = "Solin"
-
 						name_list_italian = "Salona"
 						name_list_lombard = "Salona"
 						name_list_cisalpine = "Salona"
@@ -10962,16 +10926,6 @@ e_byzantium = {
 				name_list_serbian = cn_zahumlje
 				name_list_croatian = cn_zahumlje
 				name_list_bosnian = cn_zahumlje
-
-				#name_list_italian = "Bona"
-				#name_list_lombard = "Bona"
-				#name_list_cisalpine = "Bona"
-				#name_list_sicilian = "Bona"
-				#name_list_sardinian = "Bona"
-				#name_list_dalmatian = "Bona"
-				
-				#name_list_greek = "Bona"
-				#name_list_roman = "Bona"
 			}
 
 			c_zachlumia = {
@@ -10983,14 +10937,12 @@ e_byzantium = {
 					name_list_serbian = cn_zahumlje
 					name_list_croatian = cn_zahumlje
 					name_list_bosnian = cn_zahumlje
-
 					name_list_italian = "Bona"
 					name_list_lombard = "Bona"
 					name_list_cisalpine = "Bona"
 					name_list_sicilian = "Bona"
 					name_list_sardinian = "Bona"
 					name_list_dalmatian = "Bona"
-					
 					name_list_greek = "Bona"
 					name_list_roman = "Bona"
 				}
@@ -11007,7 +10959,6 @@ e_byzantium = {
 						name_list_sicilian = "Bona"
 						name_list_sardinian = "Bona"
 						name_list_dalmatian = "Bona"
-						
 						name_list_greek = "Bona"
 						name_list_roman = "Bona"
 					}
@@ -21253,12 +21204,12 @@ e_wendish_empire = {
 				color = { 145 162 132 }
 
 				cultural_names = {
+					name_list_pommeranian = cn_kissinia
 					name_list_polabian = cn_kissinia
-
-					name_list_norse = "Raudstock"
-					name_list_swedish = "Raudstock"
-					name_list_norwegian = "Raudstock"
-					name_list_danish = "Raudstock"
+					name_list_norse = Raudstock
+					name_list_swedish = Raudstock
+					name_list_norwegian = Raudstock
+					name_list_danish = Raudstock
 				}
 
 				b_rostock = {
@@ -21267,12 +21218,12 @@ e_wendish_empire = {
 					color = { 145 162 132 }
 
 					cultural_names = {
+						name_list_pommeranian = cn_roztoc
 						name_list_polabian = cn_roztoc
-
-						name_list_norse = "Raudstock"
-						name_list_swedish = "Raudstock"
-						name_list_norwegian = "Raudstock"
-						name_list_danish = "Raudstock"
+						name_list_norse = Raudstock
+						name_list_swedish = Raudstock
+						name_list_norwegian = Raudstock
+						name_list_danish = Raudstock
 					}
 				}
 				b_gustrow = {
@@ -21281,6 +21232,7 @@ e_wendish_empire = {
 					color = { 145 162 132 }
 
 					cultural_names = {
+						name_list_pommeranian = cn_gustrow
 						name_list_polabian = cn_guscerov
 					}
 				}
@@ -21569,6 +21521,7 @@ e_wendish_empire = {
 
 			cultural_names = {
 				name_list_polabian = cn_luticia
+				name_list_pommeranian = cn_luticia
 			}
 
 			c_brandenburg = {
@@ -21576,6 +21529,7 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_brenna
+					name_list_pommeranian = cn_brenna
 				}
 
 				b_brandenburg = {
@@ -21585,6 +21539,7 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_brenna
+						name_list_pommeranian = cn_brenna
 					}
 				}
 				b_potsdam = {
@@ -21594,6 +21549,7 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_podstupim
+						name_list_pommeranian = cn_podstupim
 					}
 				}
 				b_lehnin = {
@@ -21658,6 +21614,7 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_hevellia
+					name_list_pommeranian = cn_hevellia
 				}
 
 				b_havelberg = {
@@ -21667,6 +21624,7 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_brizania
+						name_list_pommeranian = cn_brizania
 					}
 				}
 				b_klenow = {
@@ -24623,32 +24581,20 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 			color = { 199 114 15 }
 
 			cultural_names = {
-				name_list_norse = "Prag"
-				name_list_swedish = "Prag"
-				name_list_danish = "Prag"
-				name_list_norwegian = "Prag"
-
-				name_list_franconian = "Prag"
-				name_list_thuringian = "Prag"
-				name_list_swabian = "Prag"
-				name_list_bavarian = "Prag"
-				name_list_saxon = "Prag"
-
-				name_list_french = "Prague"
-				name_list_norman = "Prague"
-				name_list_occitan = "Prague"
-				name_list_outremer = "Prague"
-
-				name_list_english = "Prague"
-
-				name_list_pommeranian = "Praga"
-				name_list_polish = "Praga"
-
-				name_list_russian = "Prága"
-
-				name_list_hungarian = "Prága"
-
-				name_list_roman = "Casurgis"
+				name_list_franconian = Prag
+				name_list_swabian = Prag
+				name_list_bavarian = Prag
+				name_list_saxon = Prag
+				name_list_thuringian = Prag
+				name_list_swedish = Prag
+				name_list_danish = Prag
+				name_list_norwegian = Prag
+				name_list_norse = Prag
+				name_list_pommeranian = Praga
+				name_list_polish = Praga
+				name_list_russian = Praga
+				name_list_hungarian = Praga
+				name_list_roman = Casurgis
 			}
 		
 			b_praha = {
@@ -24657,33 +24603,20 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 199 114 15 }
 
 				cultural_names = {
-					name_list_norse = "Prag"
-					name_list_swedish = "Prag"
-					name_list_danish = "Prag"
-					name_list_norwegian = "Prag"
-
-					name_list_franconian = "Prag"
-					name_list_swabian = "Prag"
-					name_list_bavarian = "Prag"
-					name_list_saxon = "Prag"
-					name_list_thuringian = "Prag"
-
-					name_list_french = "Prague"
-					name_list_norman = "Prague"
-					name_list_occitan = "Prague"
-					name_list_outremer = "Prague"
-					name_list_frankish = "Prague"
-
-					name_list_english = "Prague"
-
-					name_list_pommeranian = "Praga"
-					name_list_polish = "Praga"
-
-					name_list_russian = "Prága"
-
-					name_list_hungarian = "Prága"
-
-					name_list_roman = "Casurgis"
+					name_list_franconian = Prag
+					name_list_swabian = Prag
+					name_list_bavarian = Prag
+					name_list_saxon = Prag
+					name_list_thuringian = Prag
+					name_list_swedish = Prag
+					name_list_danish = Prag
+					name_list_norwegian = Prag
+					name_list_norse = Prag
+					name_list_pommeranian = Praga
+					name_list_polish = Praga
+					name_list_russian = Praga
+					name_list_hungarian = Praga
+					name_list_roman = Casurgis
 				}
 
 			}
@@ -24693,17 +24626,15 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 199 114 15 }
 
 				cultural_names = {
-					name_list_norse = "Efrikastali"
-					name_list_swedish = "Övreslott"
-					name_list_danish = "Øvreslot"
-					name_list_norwegian = "Øvreslott"
-
 					name_list_franconian = "Prager Hochburg"
 					name_list_swabian = "Prager Hochburg"
 					name_list_bavarian = "Prager Hochburg"
 					name_list_saxon = "Prager Hochburg"
 					name_list_thuringian = "Prager Hochburg"
-
+					name_list_swedish = "Övreslott"
+					name_list_danish = "Øvreslot"
+					name_list_norwegian = "Øvreslott"
+					name_list_norse = "Efrikastali"
 					name_list_roman = "Visegradensis"
 				}
 			}
@@ -24713,17 +24644,15 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 199 114 15 }
 
 				cultural_names = {
-					name_list_norse = "Beraun"
-					name_list_swedish = "Beraun"
-					name_list_danish = "Beraun"
-					name_list_norwegian = "Beraun"
-
-					name_list_franconian = "Beraun"
-					name_list_swabian = "Beraun"
-					name_list_bavarian = "Beraun"
-					name_list_saxon = "Beraun"
-					name_list_thuringian = "Beraun"
-
+					name_list_franconian = Beraun
+					name_list_swabian = Beraun
+					name_list_bavarian = Beraun
+					name_list_saxon = Beraun
+					name_list_thuringian = Beraun
+					name_list_norse = Beraun
+					name_list_swedish = Beraun
+					name_list_danish = Beraun
+					name_list_norwegian = Beraun
 					name_list_roman = "Beraunium Veronensis"
 				}
 			}
@@ -24733,13 +24662,12 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 199 114 15 }
 
 				cultural_names = {
-					name_list_franconian = "Melnik"
-					name_list_swabian = "Melnik"
-					name_list_bavarian = "Melnik"
-					name_list_saxon = "Melnik"
-					name_list_thuringian = "Melnik"
-
-					name_list_roman = "Melenicus"
+					name_list_franconian = Melnik
+					name_list_swabian = Melnik
+					name_list_bavarian = Melnik
+					name_list_saxon = Melnik
+					name_list_thuringian = Melnik
+					name_list_roman = Melenicus
 				}
 			}
 			b_slany = {
@@ -24838,18 +24766,15 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 215 110 15 }
 
 				cultural_names = {
-					name_list_norse = "Bilin"
-					name_list_swedish = "Bilin"
-					name_list_danish = "Bilin"
-					name_list_norwegian = "Bilin"
-
-					name_list_franconian = "Bilin"
-					name_list_swabian = "Bilin"
-					name_list_bavarian = "Bilin"
-					name_list_saxon = "Bilin"
-					name_list_thuringian = "Bilin"
-
-					name_list_roman = "Belina"
+					name_list_franconian = Bilin
+					name_list_swabian = Bilin
+					name_list_bavarian = Bilin
+					name_list_saxon = Bilin
+					name_list_thuringian = Bilin
+					name_list_swedish = Bilin
+					name_list_danish = Bilin
+					name_list_norwegian = Bilin
+					name_list_norse = Bilin
 				}
 			}
 			b_decin = {
@@ -24858,18 +24783,15 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 215 110 15 }
 
 				cultural_names = {
-					name_list_norse = "Tetschen"
-					name_list_swedish = "Tetschen"
-					name_list_danish = "Tetschen"
-					name_list_norwegian = "Tetschen"
-
-					name_list_franconian = "Tetschen"
-					name_list_swabian = "Tetschen"
-					name_list_bavarian = "Tetschen"
-					name_list_saxon = "Tetschen"
-					name_list_thuringian = "Tetschen"
-
-					name_list_roman = "Dasena"
+					name_list_franconian = Tetschen
+					name_list_swabian = Tetschen
+					name_list_bavarian = Tetschen
+					name_list_saxon = Tetschen
+					name_list_thuringian = Tetschen
+					name_list_swedish = Tetschen
+					name_list_danish = Tetschen
+					name_list_norwegian = Tetschen
+					name_list_norse = Tetschen
 				}
 
 			}
@@ -24916,8 +24838,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 
 				name_list_hungarian = "Szandcz"
 				name_list_mogyer = "Szandcz"
-
-				name_list_roman = "Ziatecum"
 			}
 		
 			b_zatec = {
@@ -24939,8 +24859,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 
 					name_list_hungarian = "Szandcz"
 					name_list_mogyer = "Szandcz"
-
-					name_list_roman = "Ziatecum"
 				}
 			}
 			b_kadan = {
@@ -24979,8 +24897,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_bavarian = "Selz"
 					name_list_saxon = "Selz"
 					name_list_thuringian = "Selz"
-
-					name_list_roman = "Salatium"
 				}
 
 			}
@@ -25000,8 +24916,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_bavarian = "Elbogen"
 					name_list_saxon = "Elbogen"
 					name_list_thuringian = "Elbogen"
-
-					name_list_roman = "Cubitum"
 				}
 			}
 		}
@@ -25031,8 +24945,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				name_list_outremer = "Pilsene"
 				name_list_norman = "Pilsene"
 				name_list_frankish = "Pilsene"
-
-				name_list_roman = "Pilsna"
 			}
 
 			b_plzen = {
@@ -25063,8 +24975,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_outremer = "Pilsene"
 					name_list_norman = "Pilsene"
 					name_list_frankish = "Pilsene"
-
-					name_list_roman = "Pilsna"
 				}
 			}
 			b_stribro = {
@@ -25328,8 +25238,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				name_list_polish = "Bolesławiec"
 				name_list_polabian = "Bolesławiec"
 				name_list_pommeranian = "Bolesławiec"
-
-				name_list_roman = "Hegetmatia"
 			}
 		
 			b_boleslav = {
@@ -25353,8 +25261,6 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_polish = "Bolesławiec"
 					name_list_polabian = "Bolesławiec"
 					name_list_pommeranian = "Bolesławiec"
-
-					name_list_roman = "Hegetmatia"
 				}
 			}
 			b_bezdez = {
@@ -29666,6 +29572,7 @@ e_caspian-pontic_steppe = {
 
 			cultural_names = {
 				name_list_greek = cn_scythia
+				name_list_crimean_gothic = cn_scythia
 				name_list_bolghar = "Vahşi-Stepler"
 				name_list_turkish = "Vahşi-Stepler"
 				name_list_avar = "Vahşi-Stepler"
@@ -29740,6 +29647,7 @@ e_caspian-pontic_steppe = {
 
 			cultural_names = {
 				name_list_greek = cn_southscythia
+				name_list_crimean_gothic = cn_southscythia
 			}
 
 			c_khortytsia = {
@@ -29834,6 +29742,7 @@ e_caspian-pontic_steppe = {
 					name_list_pecheneg = "Altin Tepe"
 					name_list_cuman = "Altin Tepe"
 					name_list_khazar = "Altin Tepe"
+					name_list_kipchak = "Altin Tepe"
 					name_list_crimean_gothic = "Gulþeis Haúhseis"
 					name_list_anglo_saxon = "Gyldenan Hylls"
 				}
@@ -29850,6 +29759,7 @@ e_caspian-pontic_steppe = {
 						name_list_pecheneg = "Altin Tepe"
 						name_list_cuman = "Altin Tepe"
 						name_list_khazar = "Altin Tepe"
+						name_list_kipchak = "Altin Tepe"
 						name_list_crimean_gothic = "Gulþeis Haúhseis"
 						name_list_anglo_saxon = "Gyldenan Hylls"
 					}
@@ -29915,6 +29825,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_tanais
+					name_list_crimean_gothic = cn_tanais
 				}
 
 				b_tana = {
@@ -29922,6 +29833,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_tanais
+						name_list_crimean_gothic = cn_tanais
 					}
 
 					color = { 215 190 55 }
@@ -29932,7 +29844,7 @@ e_caspian-pontic_steppe = {
 					color = { 215 190 55 }
 
 					cultural_names = {
-						name_list_crimean_gothic = "Taganraúg"
+						name_list_crimean_gothic = Tanros
 					}
 				}
 			}
@@ -29964,10 +29876,9 @@ e_caspian-pontic_steppe = {
 			c_kerch = {
 				color = { 124 52 63 }
 
-				cultural_names = {
-					name_list_crimean_gothic = Pantikapeon
+				cultural_names = {	
 					name_list_greek = Pantikapeon
-					name_list_roman = Panticapaeum
+					name_list_crimean_gothic = Pantikapeon
 					name_list_turkish = Keriç
 					name_list_avar = Keriç
 					name_list_pecheneg = Keriç
@@ -29982,9 +29893,8 @@ e_caspian-pontic_steppe = {
 					color = { 124 52 63 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Pantikapeon
 						name_list_greek = Pantikapeon
-						name_list_roman = Panticapaeum
+						name_list_crimean_gothic = Pantikapeon
 						name_list_avar = Keriç
 						name_list_pecheneg = Keriç
 						name_list_cuman = Keriç
@@ -29998,7 +29908,6 @@ e_caspian-pontic_steppe = {
 					color = { 124 52 63 }
 
 					cultural_names = {
-						name_list_roman = Chersonesus
 						name_list_russian = Korsun
 						name_list_ilmenian = Korsun
 						name_list_severian = Korsun
@@ -30208,8 +30117,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = Gorgippia
-					name_list_roman = Gorgippia
-					name_list_crimean_gothic = Tamatarhaims
+					name_list_crimean_gothic = Gorgippia
 					name_list_russian = Anapa
 				}
 
@@ -30218,8 +30126,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = Gorgippia
-						name_list_roman = Gorgippia
-						name_list_crimean_gothic = Tamatarhaims
+						name_list_crimean_gothic = Gorgippia
 						name_list_russian = Anapa
 					}
 
@@ -30235,6 +30142,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_labrys
+						name_list_crimean_gothic = cn_labrys
 					}
 
 					color = { 66 55 10 }
@@ -30244,6 +30152,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_azara
+						name_list_crimean_gothic = cn_azara
 					}
 
 					color = { 66 55 10 }
@@ -30254,6 +30163,7 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_pataroue
+					name_list_crimean_gothic = cn_pataroue
 				}
 
 				b_yaseni = {
@@ -30261,6 +30171,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_pataroue
+						name_list_crimean_gothic = cn_pataroue
 					}
 
 					color = { 83 61 5 }
@@ -30323,7 +30234,6 @@ e_caspian-pontic_steppe = {
 				cultural_names = {
 					name_list_russian = Arkhyz
 					name_list_greek = Aouchis
-					name_list_roman = Auchis
 					name_list_crimean_gothic = Alanbaurgos
 				}
 
@@ -30335,7 +30245,6 @@ e_caspian-pontic_steppe = {
 					cultural_names = {
 						name_list_russian = Arkhyz
 						name_list_greek = Aouchis
-						name_list_roman = Auchis
 						name_list_crimean_gothic = Alanbaurgos
 					}
 				}
@@ -30413,6 +30322,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = cn_torikos
+						name_list_crimean_gothic = cn_torikos
 					}
 
 					color = { 100 44 16 }
@@ -45176,6 +45086,7 @@ e_carpathia = {
 					province = 3976
 
 					color = { 255 92 91 }
+					
 				}
 			}
 			c_szekesfehervar = {
@@ -45190,13 +45101,12 @@ e_carpathia = {
 					name_list_croatian = cn_stolni_biograd
 					name_list_bosnian = cn_stolni_biograd
 					name_list_serbian = cn_stolni_biograd
-
-					name_list_swabian = "Stuhlweissenburg"
-					name_list_swabian = "Stuhlweissenburg"
-					name_list_franconian = "Stuhlweissenburg"
-					name_list_bavarian = "Stuhlweissenburg"
-					name_list_saxon = "Stuhlweissenburg"
-					name_list_thuringian = "Stuhlweissenburg"	
+					name_list_swabian = Stuhlweissenburg
+					name_list_swabian = Stuhlweissenburg
+					name_list_franconian = Stuhlweissenburg
+					name_list_bavarian = Stuhlweissenburg
+					name_list_saxon = Stuhlweissenburg
+					name_list_thuringian = Stuhlweissenburg
 				}
 
 				b_szekesfehervar = {
@@ -45213,6 +45123,12 @@ e_carpathia = {
 						name_list_croatian = cn_stolni_biograd
 						name_list_bosnian = cn_stolni_biograd
 						name_list_serbian = cn_stolni_biograd
+						name_list_swabian = Stuhlweissenburg
+						name_list_swabian = Stuhlweissenburg
+						name_list_franconian = Stuhlweissenburg
+						name_list_bavarian = Stuhlweissenburg
+						name_list_saxon = Stuhlweissenburg
+						name_list_thuringian = Stuhlweissenburg
 					}
 				}
 				b_csakvar = {
@@ -45245,12 +45161,11 @@ e_carpathia = {
 					color = { 255 140 100 }
 
 					cultural_names = {
-						name_list_swabian = "Zolnock"
-						name_list_swabian = "Zolnock"
-						name_list_franconian = "Zolnock"
-						name_list_bavarian = "Zolnock"
-						name_list_saxon = "Zolnock"
-						name_list_thuringian = "Zolnock"
+						name_list_swabian = Zolnock
+						name_list_franconian = Zolnock
+						name_list_bavarian = Zolnock
+						name_list_saxon = Zolnock
+						name_list_thuringian = Zolnock
 					}
 				}
 				b_gyongospata = {

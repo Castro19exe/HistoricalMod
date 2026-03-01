@@ -59,9 +59,9 @@ light_footmen = {
 	ai_quality = { value = culture_ai_weight_skirmishers }
 	
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = skirmishers_asia }
-	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = skirmishers_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = skirmishers_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = skirmishers_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = skirmishers_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = skirmishers_west_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = skirmishers_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = skirmishers_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = skirmishers_finnish }
@@ -114,10 +114,11 @@ bowmen = {
  	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = bowmen_asia } 
  	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = bowmen_asia }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = bowmen_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = bowmen_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = bowmen_west_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = bowmen_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = bowmen_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = bowmen_finnish }
+	illustration = { trigger = { should_use_crimean_gothic_maa_graphics = yes } reference = bowmen_gothic }
 
  	illustration = { reference = bowmen }
 }
@@ -178,9 +179,9 @@ light_horsemen = {
 	}
 
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = light_cavalry_asia }
-	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = light_cavalry_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = light_cavalry_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = light_cavalry_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = light_cavalry_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = light_cavalry_west_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = light_cavalry_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = light_cavalry_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = light_cavalry_finnish }
@@ -234,9 +235,9 @@ pikemen_unit = {
 	}
 
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = pikemen_asia }
-	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = pikemen_asia }
+	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = pikemen_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = pikemen_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = pikemen_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = pikemen_west_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = pikemen_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = pikemen_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = pikemen_finnish }
@@ -290,11 +291,14 @@ armored_footmen = {
 
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = heavy_infantry_asia }
 	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_infantry_japanese }
+	illustration = { trigger = { should_use_byzantine_maa_graphics = yes } reference = heavy_infantry_byzantine }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_infantry_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = heavy_infantry_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = heavy_infantry_west_african }
+	illustration = { trigger = { should_use_east_african_maa_graphics = yes } reference = heavy_infantry_east_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_infantry_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_infantry_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = heavy_infantry_finnish }
+	illustration = { trigger = { should_use_crimean_gothic_maa_graphics = yes } reference = heavy_infantry_gothic }
 	
  	illustration = { reference = heavy_infantry }
 }
@@ -399,7 +403,7 @@ armored_horsemen = {
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = tiefutu_cavalry }
 	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_cavalry_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_cavalry_mena }
-	illustration = { trigger = { should_use_african_maa_graphics = yes } reference = heavy_cavalry_african }
+	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = heavy_cavalry_west_african }
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_cavalry_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_cavalry_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = heavy_cavalry_finnish }

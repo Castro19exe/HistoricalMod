@@ -8,6 +8,14 @@ should_use_japanese_maa_graphics = {
 	has_unit_gfx = japanese_unit_gfx
 }
 
+should_use_byzantine_maa_graphics = {
+	has_unit_gfx = byzantine_unit_gfx
+}
+
+should_use_crimean_gothic_maa_graphics = {
+	has_unit_gfx = crimean_gothic_unit_gfx
+}
+
 should_use_mena_maa_graphics = {
 	OR = {
 		has_unit_gfx = mena_unit_gfx
@@ -17,12 +25,15 @@ should_use_mena_maa_graphics = {
 	}
 }
 
-should_use_african_maa_graphics = {
+should_use_west_african_maa_graphics = {
 	OR = {
 		has_unit_gfx = african_unit_gfx
 		has_unit_gfx = west_african_unit_gfx
-		has_unit_gfx = east_african_unit_gfx
 	}
+}
+
+should_use_east_african_maa_graphics = {
+	has_unit_gfx = east_african_unit_gfx
 }
 
 should_use_indian_maa_graphics = {

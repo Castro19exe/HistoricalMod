@@ -456,6 +456,18 @@ castle_01 = {
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
+	### EASTERN (exception in Székesfehérvár) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_mediterranean_mesh"
+			"building_western_castle_01_b_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
 
 	### SLAVIC ###
 	asset = {
@@ -1175,6 +1187,15 @@ castle_02 = {
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
+	### EASTERN (exception in Székesfehérvár) ###
+	asset = {
+		type = pdxmesh
+		name = "building_western_castle_02_mediterranean_mesh"
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
 
 	### TIBETAN ###
 	asset = {
@@ -1759,6 +1780,15 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
+	}
+	### EASTERN (exception in Székesfehérvár) ###
+	asset = {
+		type = pdxmesh
+		name = "building_western_castle_03_mediterranean_mesh"
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
 	}
 
 	### SLAVIC ###
@@ -2389,6 +2419,15 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
+	}
+	### EASTERN (exception in Székesfehérvár) ###
+	asset = {
+		type = pdxmesh
+		name = "building_western_castle_04_mediterranean_mesh"
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
 	}
 
 	### SLAVIC ###
