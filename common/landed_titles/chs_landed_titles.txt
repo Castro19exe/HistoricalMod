@@ -5643,6 +5643,10 @@ e_germany = {
 			}
 		}
 
+		cultural_names = {
+			name_list_dutch = Holland
+		}
+
 		d_holland = {
 			color = { 235 80 30 }
 

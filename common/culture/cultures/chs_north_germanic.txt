@@ -90,7 +90,7 @@ swedish = {
 }
 
 norwegian = {
-	color = { 0.45 0.7 0.92 }
+	color = { 0.4 0.482 0.858 }
 	created = 1000.1.1
 	parents = { norse }
 	
@@ -131,7 +131,7 @@ norwegian = {
 }
 
 danish = {
-	color = { 0.15 0.4 0.55 }
+	color = { 0.305 0.486 0.831 }
 	created = 1000.1.1
 	parents = { norse }
 	
