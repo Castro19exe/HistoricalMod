@@ -12615,6 +12615,7 @@ culture_levy_big_illustration = {
 					has_cultural_pillar = heritage_caucasian
 				}
 				NOR = {
+					this = culture:anglo_saxon
 					this = culture:norse
 					this = culture:old_saxon
 					this = culture:angle
@@ -12635,6 +12636,7 @@ culture_levy_big_illustration = {
 		trigger = {
 			culture = { 
 				OR = {
+				this = culture:anglo_saxon
 					this = culture:norse
 					this = culture:old_saxon
 					this = culture:angle
