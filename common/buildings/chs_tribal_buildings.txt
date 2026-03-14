@@ -11,6 +11,16 @@ tribe_01 = {
 		asset = {
 			type = pdxmesh
 			names = {
+				"building_emishi_tribal_01_mesh"
+			}
+			requires_dlc_flag = north_pacific_attire
+			graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+			illustration = @holding_illustration_grass
+			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		}
+		asset = {
+			type = pdxmesh
+			names = {
 				building_western_tribal_01_a_mesh
 			}
 			illustration = @holding_illustration_grass
@@ -86,9 +96,9 @@ tribe_01 = {
 			names = {
 				"building_celtic_hillfort_01_mesh"
 			}
-		graphical_cultures = { celtic_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+			graphical_cultures = { celtic_building_gfx }
+			illustration = @holding_illustration_grass
+			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 		}
 		asset = {
 			type = pdxmesh
@@ -191,7 +201,7 @@ tribe_01 = {
 	province_terrain_modifier = {
 		parameter = tribal_holding_fort_level_in_jungle_bonus
 		terrain = jungle
-		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
+		additional_fort_level = 2
 	}
 
 	province_terrain_modifier = {
@@ -231,6 +241,16 @@ tribe_02 = {
 
 	#Meshes (Indented for readability)
 		### GENERIC ### 
+		asset = {
+			type = pdxmesh
+			names = {
+				"building_emishi_tribal_02_mesh"
+			}
+			requires_dlc_flag = north_pacific_attire
+			graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+			illustration = @holding_illustration_grass
+			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		}
 		asset = {
 			type = pdxmesh
 			names = {
@@ -420,7 +440,7 @@ tribe_02 = {
 	province_terrain_modifier = {
 		parameter = tribal_holding_fort_level_in_jungle_bonus
 		terrain = jungle
-		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
+		additional_fort_level = 4
 	}
 
 	province_terrain_modifier = {

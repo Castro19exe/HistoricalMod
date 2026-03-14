@@ -140,8 +140,17 @@ innovation_caballeros = {
 	skill = martial
 	group = culture_group_military
 	culture_era = culture_era_tribal
-	region = world_europe_west_iberia
+	#region = world_europe_west_iberia
 	icon = @caballeros
+	
+	potential = {	
+		AND = {
+			has_cultural_pillar = heritage_iberian
+			NOT = {
+				this = culture:andalusian
+			}
+		}
+	}
 
 	unlock_maa = caballero
 
@@ -297,9 +306,10 @@ innovation_gallowglass = {
 }
 
 innovation_polska_hussar = {
-	icon = @polska_hussar
+	skill = martial
 	group = culture_group_military
 	culture_era = culture_era_late_medieval
+	icon = @polska_hussar
 
 	potential = {	
 		OR = {
@@ -317,4 +327,20 @@ innovation_polska_hussar = {
 
 	flag = global_regional
 	flag = late_medieval_era_regional
+}
+
+innovation_andalusian_jinetes = {
+	skill = martial
+	group = culture_group_military
+	culture_era = culture_era_tribal
+	icon = @maa_01
+
+	potential = {
+		this = culture:andalusian
+	}
+
+	unlock_maa = jinete
+
+	flag = global_regional
+	flag = tribal_era_regional
 }

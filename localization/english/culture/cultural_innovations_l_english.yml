@@ -471,8 +471,14 @@
   # MOD 
   ################## 
 
+  innovation_legionnaires:0 "Palatini"
+  innovation_legionnaires_desc:1 "Elite heavy infantry serving as the emperor's personal guard. Highly trained and well-equipped, they form the backbone of the imperial field army!"
+
   innovation_polska_hussar:0 "Winged Hussars" 
   innovation_polska_hussar_desc:0 "Love of the fatherland is our law. We will accept the military system of Western Europe and combine it with our traditions to foster loyal and powerful heavy cavalry."
   
   innovation_gallowglass: "Gallóglaigh"
   innovation_gallowglass_desc: "Descendants of the Norse-Gaels, the Gallóglaigh are heavily armed warriors ready to face well-equipped opponents."
+
+  innovation_andalusian_jinetes: "Jinetes"
+  innovation_andalusian_jinetes_desc: "The light cavalry of Al-Andalus are renowned for their speed and agility, as well as their skill with javelins."

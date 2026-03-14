@@ -22,7 +22,9 @@
 @illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
 @illustration_slavic_orthodox = "gfx/interface/illustrations/holding_types/temple_norse_orthodox.dds"
 @illustration_celtic_christian = "gfx/interface/illustrations/holding_types/temple_goidelic_christian.dds"
+@illustration_chinese = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
 @illustration_shinto = "gfx/interface/illustrations/holding_types/tgp_shinto_temple.dds"
+@illustration_southeast_asian_pagan = "gfx/interface/illustrations/holding_types/tgp_temple_pagan_se_asia.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time

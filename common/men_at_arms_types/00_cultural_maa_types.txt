@@ -1350,39 +1350,38 @@ gallowglass = {
 	icon = gallowglass
 }
 
-siberian_hunters = {
-	type = skirmishers
+jinete = {
+	type = light_cavalry
 	
-	damage = 10
-	toughness = 10
-	pursuit = 25
-	screen = 20
+	damage = 22
+	toughness = 16
+	pursuit = 30
+	screen = 50
 	
 	terrain_bonus = {
-		forest = { damage = 10 toughness = 4 }
-		taiga = { damage = 10 toughness = 4 }
+		hills = { damage = 15 toughness = 10 }
+		plains = { damage = 10 }
+		drylands = { damage = 10 }
+		mountains = { damage = -8 pursuit = -10 }
+		desert_mountains = { damage = -12 pursuit = -20 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -20 screen = -20 }
 	}
 
 	counters = {
 		archers = 1
-		pikemen = 1
+		gunpowder = 1
 	}
-	
+
 	winter_bonus = {
-		normal_winter = { toughness = 4 screen = 8 }
-		harsh_winter = { toughness = 4 screen = 8 }
+		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	can_recruit = {
-		valid_for_maa_trigger = { PARAMETER = unlock_maa_siberian_hunters }
-	}
-
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
-	provision_cost = @provisions_cost_infantry_cheap
+	buy_cost = { gold = caballero_recruitment_cost }
+	low_maintenance_cost = { gold = caballero_low_maint_cost }
+	high_maintenance_cost = { gold = caballero_high_maint_cost }
+	provision_cost = @provisions_cost_cavalry_cheap
 	
 	stack = 100
-	ai_quality = { value = @cultural_maa_extra_ai_score }
-	icon = siberian_hunters
+	ai_quality = { value = @[cultural_maa_extra_ai_score + 20] }
+	icon = andalusian_jinete
 }

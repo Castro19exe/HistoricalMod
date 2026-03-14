@@ -552,9 +552,9 @@ texticon = {
 }
 
 texticon = {
-    icon = siberian_hunters_icon
+    icon = andalusian_jinete_icon
     iconsize = {
-        texture = "gfx/interface/icons/regimenttypes/siberian_hunters.dds"
+        texture = "gfx/interface/icons/regimenttypes/andalusian_jinete.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16

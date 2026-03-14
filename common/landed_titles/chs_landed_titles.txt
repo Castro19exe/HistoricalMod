@@ -20169,6 +20169,13 @@ e_scandinavia = {
 				b_turku = {
 					province = 179
 					color = { 200 140 0 }
+
+					cultural_names = {
+						name_list_swedish = Åbo
+						name_list_norwegian = Åbo
+						name_list_danish = Åbo
+						name_list_norse = Árbæ
+					}
 				}
 				b_rikala = {
 					province = 178
@@ -20183,13 +20190,43 @@ e_scandinavia = {
 			c_nyland = {
 				color = { 200 190 0 }
 
+				cultural_names = {
+					name_list_finnish = Uusimaa
+					name_list_karelian = Uusimaa
+					name_list_vepsian = Uusimaa
+					name_list_mari = Uusimaa
+					name_list_merya = Uusimaa
+					name_list_meshchera = Uusimaa
+					name_list_mordvin = Uusimaa
+					name_list_muroma = Uusimaa
+					name_list_samoyed = Uusimaa
+					name_list_khanty = Uusimaa
+					name_list_komi = Uusimaa
+					name_list_estonian = Uusimaa
+					name_list_sami = Uusimaa
+				}
+
 				b_porvoo = {
 					province = 175
 					color = { 200 190 0 }
+
+					cultural_names = {
+						name_list_swedish = Borgå
+						name_list_norwegian = Borgå
+						name_list_danish = Borgå
+						name_list_norse = Borgå
+					}
 				}
 				b_espoo = {
 					province = 176
 					color = { 200 190 0 }
+
+					cultural_names = {
+						name_list_swedish = Esbo
+						name_list_norwegian = Esbo
+						name_list_danish = Esbo
+						name_list_norse = Espabýr
+					}
 				}
 				b_raseborg = {
 					province = 177
@@ -20197,6 +20234,9 @@ e_scandinavia = {
 
 					cultural_names = {
 						name_list_swedish = cn_raseborg
+						name_list_norwegian = cn_raseborg
+						name_list_danish = cn_raseborg
+						name_list_norse = cn_raseborg
 					}
 				}
 				b_vehkalahti = {
@@ -20205,6 +20245,9 @@ e_scandinavia = {
 
 					cultural_names = {
 						name_list_swedish = cn_veckelax
+						name_list_norwegian = cn_veckelax
+						name_list_danish = cn_veckelax
+						name_list_norse = cn_veckelax
 					}
 				}
 			}
@@ -20214,6 +20257,8 @@ e_scandinavia = {
 
 				cultural_names = {
 					name_list_swedish = cn_satakunda
+					name_list_norwegian = cn_satakunda
+					name_list_danish = cn_satakunda
 					name_list_norse = cn_satakunda
 				}
 
@@ -50115,11 +50160,35 @@ e_spain = {
 					province = 1929
 
 					color = { 230 185 15 }
+
+					cultural_names = {
+						name_list_bedouin = Sānūyd
+						name_list_maghrebi = Sānūyd
+						name_list_levantine = Sānūyd
+						name_list_egyptian = Sānūyd
+						name_list_andalusian = Sānūyd
+						name_list_yemeni = Sānūyd
+						name_list_baranis = Sānūyd
+						name_list_butr = Sānūyd
+						name_list_zaghawa = Sānūyd
+					}
 				}
 				b_arganda = {
 					province = 1928
 
 					color = { 230 185 15 }
+
+					cultural_names = {
+						name_list_bedouin = Arqāndā
+						name_list_maghrebi = Arqāndā
+						name_list_levantine = Arqāndā
+						name_list_egyptian = Arqāndā
+						name_list_andalusian = Arqāndā
+						name_list_yemeni = Arqāndā
+						name_list_baranis = Arqāndā
+						name_list_butr = Arqāndā
+						name_list_zaghawa = Arqāndā
+					}
 				}
 			}
 			c_molina = {
@@ -50212,10 +50281,34 @@ e_spain = {
 				color = { 195 165 10 }
 				can_be_named_after_dynasty = no
 
+				cultural_names = {
+					name_list_bedouin = "Wadī-ar-Rāml"
+					name_list_maghrebi = "Wadī-ar-Rāml"
+					name_list_levantine = "Wadī-ar-Rāml"
+					name_list_egyptian = "Wadī-ar-Rāml"
+					name_list_andalusian = "Wadī-ar-Rāml"
+					name_list_yemeni = "Wadī-ar-Rāml"
+					name_list_baranis = "Wadī-ar-Rāml"
+					name_list_butr = "Wadī-ar-Rāml"
+					name_list_zaghawa = "Wadī-ar-Rāml"
+				}
+
 				b_malagon = {
 					province = 1960
 
 					color = { 195 165 10 }
+
+					cultural_names = {
+						name_list_bedouin = "Wadī-ar-Rāml"
+						name_list_maghrebi = "Wadī-ar-Rāml"
+						name_list_levantine = "Wadī-ar-Rāml"
+						name_list_egyptian = "Wadī-ar-Rāml"
+						name_list_andalusian = "Wadī-ar-Rāml"
+						name_list_yemeni = "Wadī-ar-Rāml"
+						name_list_baranis = "Wadī-ar-Rāml"
+						name_list_butr = "Wadī-ar-Rāml"
+						name_list_zaghawa = "Wadī-ar-Rāml"
+					}
 				}
 				b_cabaneros = {
 					province = 1961

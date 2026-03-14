@@ -179,6 +179,16 @@ object={
 	transform="4511.996094 0.000000 2202.098633 0.000000 0.066844 0.000000 0.997763 0.897897 0.897897 0.897897
 "}
 object={
+	name="sprawl_dali"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_dali_mesh"
+	count=1
+	transform="6174.376953 0.339600 1991.266968 0.000000 -0.267280 0.000000 0.963619 1.381763 1.381763 1.381763
+"}
+object={
 	name="sprawl_kyiv"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -216,7 +226,7 @@ object={
 	layer="building_layer"
 	pdxmesh="sprawl_thessaloniki_mesh"
 	count=1
-	transform="2267.028320 -0.955566 2429.139648 0.000000 -0.176378 0.000000 0.984323 0.613965 0.613965 0.613965
+	transform="2266.819336 -0.955566 2429.755859 0.000000 -0.176378 0.000000 0.984323 0.613965 0.613965 0.613965
 "}
 object={
 	name="sprawl_toledo"

@@ -7,6 +7,14 @@ k_andalusia = {
 		coat_of_arms = k_andalusia_christian
 	}
 }
+d_toledo = {
+	item = {
+		trigger = {
+			coa_switch_to_iberian_christian_trigger = yes
+		}
+		coat_of_arms = d_toledo_christian
+	}
+}
 b_maqueda = {
 	item = {
 		trigger = {
