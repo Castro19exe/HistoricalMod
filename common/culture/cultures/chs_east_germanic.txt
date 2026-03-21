@@ -99,7 +99,7 @@ ostrogothic = {
 }
 
 crimean_gothic = {
-	color = { 218 190 140 }
+	color = { 171 165 111 }
 	created = 600.1.1
 	parents = { ostrogothic }
 
@@ -108,14 +108,15 @@ crimean_gothic = {
 	language = language_gothic					
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_mountain_homes
+		tradition_stand_and_fight
 		tradition_culture_blending					#lived alongside greeks, huns, other germanic tribes...
-		tradition_stalwart_defenders				#fought off hordes of Huns and Avars for centuries
-		tradition_martial_admiration
+		#tradition_stalwart_defenders				#fought off hordes of Huns and Avars for centuries
 	}
-	#dlc_tradition = {
-	#	trait = tradition_staunch_traditionalists	#these dudes hung about for hundreds of years
-	#	requires_dlc_flag = hybridize_culture
-	#}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists	#these dudes hung about for hundreds of years
+		requires_dlc_flag = hybridize_culture
+	}
 	
 	name_list = name_list_crimean_gothic
 	

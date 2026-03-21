@@ -1375,13 +1375,15 @@ e_britannia = {
 						name_list_norwegian = Lundenborg
 						name_list_danish = Lundenborg
 						name_list_swedish = Lundenborg
-						name_list_scottish = cn_lunnon
+						
 						name_list_welsh = cn_llundein
 						name_list_cornish = cn_llundein
 						name_list_breton = cn_llundein
 						name_list_cumbrian = cn_llundein
 						name_list_pictish = cn_llundein
+						
 						name_list_norman = cn_londres
+						name_list_scottish = cn_lunnon
 						name_list_roman = cn_londinium
 					}
 				}
@@ -1416,8 +1418,8 @@ e_britannia = {
 					color = { 230 5 5 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Breguntford"
-						name_list_old_saxon = "Breguntford"
+						name_list_anglo_saxon = Breguntford
+						name_list_old_saxon = Breguntford
 					}
 				}
 			}
@@ -1590,6 +1592,11 @@ e_britannia = {
 					province = 1553
 
 					color = { 200 25 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Miltun
+						name_list_old_saxon = Miltun
+					}
 				}
 				b_wycombe = {
 					province = 1554
@@ -1657,7 +1664,7 @@ e_britannia = {
 						name_list_norwegian = cn_bamborg
 						name_list_danish = cn_bamborg
 						name_list_swedish = cn_bamborg
-						name_list_norse = cn_bamborg
+						name_list_norse = Bebbanborg
 						name_list_welsh = cn_din_guarie
 						name_list_cumbrian = cn_din_guarie
 						name_list_pictish = cn_din_guarie
@@ -1783,6 +1790,8 @@ e_britannia = {
 					province = 1635
 
 					cultural_names = {
+						name_list_anglo_saxon = cn_carleol
+						name_list_old_saxon = cn_carleol
 						name_list_cumbrian = cn_caer_luel
 						name_list_welsh = cn_caer_luel
 						name_list_pictish = cn_caer_luel
@@ -1790,8 +1799,6 @@ e_britannia = {
 						name_list_cornish = cn_caer_luel
 						name_list_gaelic = cn_cathair_luail
 						name_list_irish = cn_cathair_luail
-						name_list_anglo_saxon = cn_carleol
-						name_list_old_saxon = cn_carleol
 					}
 
 					color = { 240 25 25 }
@@ -1800,16 +1807,31 @@ e_britannia = {
 					province = 1636
 
 					color = { 240 25 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Hwiþeafodhæfen
+						name_list_old_saxon = Hwiþeafodhæfen
+					}
 				}
 				b_furness = {
 					province = 1642
 
 					color = { 240 25 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Fuþernæssa
+						name_list_old_saxon = Fuþernæssa
+					}
 				}
 				b_wigton = {
 					province = 8780
 
 					color = { 240 25 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Wicgetun
+						name_list_old_saxon = Wicgetun
+					}
 				}
 			}
 		}
@@ -1875,11 +1897,21 @@ e_britannia = {
 					province = 1637
 
 					color = { 210 35 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Cyndal
+						name_list_old_saxon = Cyndal
+					}
 				}
 				b_appleby = {
 					province = 1638
 
 					color = { 210 35 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Æppelby
+						name_list_old_saxon = Æppelby
+					}
 				}
 			}
 			c_cheshire = {
@@ -2079,6 +2111,7 @@ e_britannia = {
 			}
 			c_west_riding = {
 				color = { 255 120 35 }
+				
 				cultural_names = {
 					name_list_welsh = cn_elmet
 					name_list_cumbrian = cn_elmet
@@ -2088,18 +2121,19 @@ e_britannia = {
 				}
 
 				b_leeds = {
+					province = 1591
+
+					color = { 255 120 35 }
+
 					cultural_names = {
+						name_list_anglo_saxon = cn_leodis
+						name_list_old_saxon = cn_leodis
 						name_list_welsh = cn_ladenses
 						name_list_cumbrian = cn_ladenses
 						name_list_cornish = cn_ladenses
 						name_list_breton = cn_ladenses
 						name_list_pictish = cn_ladenses
-
-						name_list_anglo_saxon = cn_leodis
 					}
-					province = 1591
-
-					color = { 255 120 35 }
 				}
 				b_doncaster = {
 					province = 1592
@@ -2108,6 +2142,7 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Dunceaster
+						name_list_old_saxon = Dunceaster
 					}
 				}
 				b_halifax = {
@@ -2122,12 +2157,18 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Sceaffeld
+						name_list_old_saxon = Sceaffeld
 					}
 				}
 				b_bolton = {
 					province = 1499
 
 					color = { 255 120 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Boeltun
+						name_list_old_saxon = Boeltun
+					}
 				}
 				b_ripon = {
 					province = 1599
@@ -2140,6 +2181,7 @@ e_britannia = {
 
 				cultural_names = {
 					name_list_anglo_saxon = cn_lindsey
+					name_list_old_saxon = cn_lindsey
 				}
 
 				b_lincoln = {
@@ -2166,6 +2208,11 @@ e_britannia = {
 					province = 1585
 
 					color = { 232 195 74 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Botulftun
+						name_list_old_saxon = Botulftun
+					}
 				}
 				b_bolingsbroke = {
 					province = 1586
@@ -2204,10 +2251,12 @@ e_britannia = {
 					color = { 210 100 0 }
 
 					cultural_names = {
-						name_list_norse = cn_jarnamoda
-						name_list_norwegian = cn_jarnamoda
 						name_list_anglo_saxon = Norþwic
 						name_list_old_saxon = Norþwic
+						name_list_norwegian = cn_jarnamoda
+						name_list_swedish = cn_jarnamoda
+						name_list_danish = cn_jarnamoda
+						name_list_norse = cn_jarnamoda
 					}
 				}
 				b_thetford = {
@@ -2260,8 +2309,8 @@ e_britannia = {
 					color = { 215 125 10 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Suðbyrig
-						name_list_old_saxon = Suðbyrig
+						name_list_anglo_saxon = Suðbyrg
+						name_list_old_saxon = Suðbyrg
 					}
 				}
 				b_blything = {
@@ -2303,11 +2352,21 @@ e_britannia = {
 					province = 1535
 
 					color = { 205 145 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Rædfeld
+						name_list_old_saxon = Rædfeld
+					}
 				}
 				b_papworth = {
 					province = 1536
 
 					color = { 205 145 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Pæpworþ
+						name_list_old_saxon = Pæpworþ
+					}
 				}
 				b_ely = {
 					province = 1537
@@ -2315,8 +2374,12 @@ e_britannia = {
 					color = { 205 145 5 }
 
 					cultural_names = {
-						name_list_norse = cn_linn
+						name_list_anglo_saxon = Elig
+						name_list_old_saxon = Elig
 						name_list_norwegian = cn_linn
+						name_list_swedish = cn_linn
+						name_list_danish = cn_linn
+						name_list_norse = cn_linn
 					}
 				}
 			}
@@ -2338,6 +2401,11 @@ e_britannia = {
 
 			c_warwickshire = {
 				color = { 190 30 30 }
+
+				cultural_names = {
+					name_list_anglo_saxon = Wæringwicscire
+					name_list_old_saxon = Wæringwicscire
+				}
 
 				b_warwick = {
 					province = 1603
@@ -2373,6 +2441,11 @@ e_britannia = {
 			c_leicestershire = {
 				color = { 130 5 25 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Ligeraceasterscire
+					name_list_old_saxon = Ligeraceasterscire
+				}
+
 				b_leicester = {
 					province = 1615
 
@@ -2387,24 +2460,39 @@ e_britannia = {
 					province = 1616
 
 					color = { 130 5 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Middeltun
+						name_list_old_saxon = Middeltun
+					}
 				}
 				b_bosworth = {
 					province = 1617
 
 					color = { 130 5 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Boscworþ
+						name_list_old_saxon = Boscworþ
+					}
 				}
 				b_rutland = {
 					province = 1613
 
 					color = { 130 5 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Rotaland
+						name_list_old_saxon = Rotaland
+					}
 				}
 			}
 			c_nottinghamshire = {
 				color = { 175 0 30 }
 
 				cultural_names = {
-					name_list_anglo_saxon = "Snotinghamscire"
-					name_list_old_saxon = "Snotinghamscire"
+					name_list_anglo_saxon = Snotingahamscire
+					name_list_old_saxon = Snotingahamscire
 				}
 
 				b_nottingham = {
@@ -2413,19 +2501,29 @@ e_britannia = {
 					color = { 175 0 30 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Snotingaham"
-						name_list_old_saxon = "Snotingaham"
+						name_list_anglo_saxon = Snotingaham
+						name_list_old_saxon = Snotingaham
 					}
 				}
 				b_newark = {
 					province = 1619
 
 					color = { 175 0 30 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Niweweorche
+						name_list_old_saxon = Niweweorche
+					}
 				}
 				b_retford = {
 					province = 1620
 
 					color = { 175 0 30 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Redeforde
+						name_list_old_saxon = Redeforde
+					}
 				}
 			}
 			c_staffordshire = {
@@ -2437,8 +2535,8 @@ e_britannia = {
 					color = { 210 90 65 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Stæþford"
-						name_list_old_saxon = "Stæþford"
+						name_list_anglo_saxon = Stæþford
+						name_list_old_saxon = Stæþford
 					}
 				}
 				b_wolverhampton = {
@@ -2447,13 +2545,19 @@ e_britannia = {
 					color = { 210 90 65 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Wulfruneheantun"
+						name_list_anglo_saxon = Wulfruneheantun
+						name_list_old_saxon = Wulfruneheantun
 					}
 				}
 				b_stoke_on_trent = {
 					province = 1629
 
 					color = { 210 90 65 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Stoce
+						name_list_old_saxon = Stoce
+					}
 				}
 			}
 			c_worcestershire = {
@@ -2506,6 +2610,11 @@ e_britannia = {
 					province = 1600
 
 					color = { 125 5 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Hamtun
+						name_list_old_saxon = Hamtun
+					}
 				}
 				b_peterborough = {
 					province = 1601
@@ -2525,12 +2634,19 @@ e_britannia = {
 					province = 1602
 
 					color = { 125 5 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Cytringan
+						name_list_old_saxon = Cytringan
+					}
 				}
 			}
 			c_shropshire = {
 				color = { 241 70 70 }
 
 				cultural_names = {
+					name_list_anglo_saxon = Scrobbesburh
+					name_list_old_saxon = Scrobbesburh
 					name_list_welsh = cn_amwythig
 				}
 
@@ -2549,6 +2665,11 @@ e_britannia = {
 					province = 1647
 
 					color = { 241 55 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Hludhlæw
+						name_list_old_saxon = Hludhlæw
+					}
 				}
 				b_bishops_castle = { #Clun
 					province = 1648
@@ -2570,6 +2691,12 @@ e_britannia = {
 			c_gloucestershire = {
 				color = { 245 85 20 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Gleawceasterscire
+					name_list_old_saxon = Gleawceasterscire
+					name_list_welsh = Caerloyw
+				}
+
 				b_gloucester = {
 					province = 1580
 
@@ -2577,6 +2704,7 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Gleawceaster
+						name_list_old_saxon = Gleawceaster
 						name_list_welsh = Caerloyw
 					}
 				}
@@ -2584,11 +2712,22 @@ e_britannia = {
 					province = 1581
 
 					color = { 245 85 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Brisleah
+						name_list_old_saxon = Brisleah
+					}
 				}
 				b_winchcombe = {
 					province = 1582
 
 					color = { 245 85 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Wincumbe
+						name_list_old_saxon = Wincumbe
+						name_list_welsh = cn_gwynllyw
+					}
 				}
 			}
 			c_wiltshire = {
@@ -2698,7 +2837,7 @@ e_britannia = {
 					
 					cultural_names = {
 						name_list_anglo_saxon = Ulfretun
-					name_list_old_saxon = Ulfretun
+						name_list_old_saxon = Ulfretun
 					}
 				}
 				b_abingdon = {
@@ -2918,14 +3057,29 @@ e_britannia = {
 			c_isle_of_wight = {
 				color = { 250 10 90 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Wihtwara
+					name_list_old_saxon = Wihtwara
+				}
+
 				b_carisbrooke = {
 					province = 1549
 
 					color = { 250 10 90 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Wihtgarasbyrg
+						name_list_old_saxon = Wihtgarasbyrg
+					}
 				}
 			}
 			c_dorset = {
 				color = { 185 0 75 }
+
+				cultural_names = {
+					name_list_anglo_saxon = Dorsæte
+					name_list_old_saxon = Dorsæte
+				}
 
 				b_wareham = {
 					province = 1565
@@ -2978,6 +3132,7 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_anglo_saxon = Bathum
+						name_list_old_saxon = Bathum
 					}
 				}
 				b_winterstoke = {
@@ -3004,6 +3159,11 @@ e_britannia = {
 					province = 1579
 
 					color = { 241 30 75 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Tantun
+						name_list_old_saxon = Tantun
+					}
 				}
 			}
 		}
@@ -3032,6 +3192,11 @@ e_britannia = {
 						}
 						add = @better_than_the_alternatives_score
 					}
+				}
+
+				cultural_names = {
+					name_list_anglo_saxon = Defena
+					name_list_old_saxon = Defena
 				}
 
 				b_exeter = {
@@ -50714,6 +50879,16 @@ e_spain = {
 					province = 1917
 
 					color = { 125 240 15 }
+
+					name_list_bedouin = "al-Mārāz"
+						name_list_maghrebi = "al-Mārāz"
+						name_list_levantine = "al-Mārāz"
+						name_list_egyptian = "al-Mārāz"
+						name_list_andalusian = "al-Mārāz"
+						name_list_yemeni = "al-Mārāz"
+						name_list_baranis = "al-Mārāz"
+						name_list_butr = "al-Mārāz"
+						name_list_zaghawa = "al-Mārāz"
 				}
 			}
 			c_caceres = {
@@ -50869,6 +51044,18 @@ e_spain = {
 					province = 1750
 
 					color = { 73 156 8 }
+
+					cultural_names = {
+						name_list_bedouin = Martulah
+						name_list_maghrebi = Martulah
+						name_list_levantine = Martulah
+						name_list_egyptian = Martulah
+						name_list_andalusian = Martulah
+						name_list_yemeni = Martulah
+						name_list_baranis = Martulah
+						name_list_butr = Martulah
+						name_list_zaghawa = Martulah
+					}
 				}
 			}
 			c_silves = {

@@ -1478,8 +1478,7 @@
  chs_major_decisions.0003.desc:0 "Now the path is clear for greatness, no longer subjects of the Greeks or Bulgars, but architects of our own destiny, forging the foundation of the mighty Serbian Empire."
  chs_major_decisions.0003.a:0 "Now Stronger than ever!"
  
-
-
+ #########   SHOULD NOT BE HERE - MAA Names
  gallowglass:0 "Gallóglaigh"
  gallowglass_flavor:0 "#F Heavily armed warriors of mixed $heritage_goidelic_name$ and $norse$ tradition. $h_gallowglass$ were known for strength in close combat, use of two-handed axes and swords, and service as elite household troops.#!"
 
@@ -1487,4 +1486,4 @@
  winged_hussar_flavor:0 "#F Armed enough in Western European style and mobile in Eastern European style, these Polish cavalry are called 'Winged Hussars' because of their unique wing decorations. These brave cavalry never back down even in front of the Pikemen.#!"
 
  jinete:0 "Jinetes"
- jinete_flavor:0 "#F Light cavalry originating from the Iberian Peninsula, known for their speed and agility. Jinetes were skilled horsemen who excelled in hit-and-run tactics and were often used for scouting and skirmishing.#!"
+ jinete_flavor:0 "#F Andalusian Light cavalry, known for their speed and agility. Jinetes were skilled horsemen who excelled in hit-and-run tactics and were often used for scouting and skirmishing.#!"

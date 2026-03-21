@@ -12602,7 +12602,6 @@ culture_levy_big_illustration = {
 					has_cultural_pillar = heritage_frankish
 					has_cultural_pillar = heritage_west_germanic
 					has_cultural_pillar = heritage_central_germanic
-					has_cultural_pillar = heritage_north_germanic
 					has_cultural_pillar = heritage_north_sea_germanic
 					has_cultural_pillar = heritage_latin
 					has_cultural_pillar = heritage_magyar
@@ -12631,21 +12630,34 @@ culture_levy_big_illustration = {
 		reference = "men_at_arms_big/levies.dds"
 	}
 
-	# --- NORSE (and some other germanics) ---
+	# --- NORSE ---
 	texture = {
 		trigger = {
 			culture = { 
 				OR = {
-				this = culture:anglo_saxon
 					this = culture:norse
 					this = culture:old_saxon
 					this = culture:angle
 					this = culture:jute
-					has_cultural_pillar = heritage_east_germanic
+
 				}
 			} 
 		}
 		reference = "men_at_arms_big/levies_norse.dds"
+	}
+	
+	# --- ANGLO-SAXON and NORTH GERMANIC ---
+	texture = {
+		trigger = {
+			culture = { 
+				OR = {
+					this = culture:anglo_saxon
+					has_cultural_pillar = heritage_north_germanic
+					has_cultural_pillar = heritage_east_germanic
+				}
+			} 
+		}
+		reference = "men_at_arms_big/levies_anglo_saxon.dds"
 	}
 
 	# --- EAST SLAVIC ---
@@ -12834,7 +12846,7 @@ culture_knight_big_illustration = {
 				}
 			}
 		}   		
-		reference = "men_at_arms_big/anglo_saxon_huscarls.dds" 
+		reference = "men_at_arms_big/knights_anglo_saxon.dds" 
 	}
 
 	# --- CRIMEAN-GOTHIC ---
@@ -12854,7 +12866,7 @@ culture_knight_big_illustration = {
 				has_cultural_pillar = heritage_east_slavic
 			}
 		}   		
-		reference = "men_at_arms_big/druzhina.dds" 
+		reference = "men_at_arms_big/heavy_cavalry_east_slavic.dds"
 	}				
 
 	# --- BYZANTINE ---

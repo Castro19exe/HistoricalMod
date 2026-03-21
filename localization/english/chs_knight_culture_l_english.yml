@@ -109,6 +109,3 @@
 
  knight_thane:0 "[Concept( 'knight', '$knight_thane_no_tooltip|q$' )|E]"
  knight_thane_plural:0 "[Concept( 'knight', '$knight_thane_no_tooltip_plural|q$' )|E]"
-
-
-

@@ -908,6 +908,10 @@ task_promote_culture = {
 		scope:county = {
 			is_landless_type_title = no
 			culture != scope:councillor_liege.culture
+			NOT = {
+				scope:councillor_liege.culture = culture:dutch
+				culture = culture:frisian
+			}
 			trigger_if = {
 				limit = {
 					scope:councillor_liege = { has_variable = hold_court_8130_culture_block }
@@ -959,16 +963,13 @@ task_promote_culture = {
 						this = title:c_maragha
 						culture = culture:turkish
 					}
-					culture = { # All AI's are motivated to spread new Hybrid/Divergent cultures
+				culture = { # All AI's are motivated to spread new Hybrid/Divergent cultures
 					OR = {
 						is_hybrid_culture = yes
 						is_divergent_culture = yes
 					}
 					NOT = { # Leave the Welsh alone!
 						this = culture:anglo_saxon
-					}
-					NOT = { # Leave the Frisian alone!
-						culture = culture:dutch
 					}
 					any_parent_culture = {
 						this = scope:county.culture

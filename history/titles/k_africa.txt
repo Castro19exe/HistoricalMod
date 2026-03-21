@@ -3,6 +3,18 @@ k_africa = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	1178.1.1 = { change_development_level = 20 }
+
+	867.1.1 = {
+		de_jure_liege = e_arabia
+	}
+
+	1066.9.15 = {
+		de_jure_liege = e_arabia
+	}
+
+	1178.10.1 = {
+		de_jure_liege = e_arabia
+	}
 	
 	# Vandals
 	435.1.1={

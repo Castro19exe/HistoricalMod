@@ -407,6 +407,7 @@ armored_horsemen = {
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_cavalry_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_cavalry_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = heavy_cavalry_finnish }
+	illustration = { trigger = { should_use_east_slavic_maa_graphics = yes } reference = heavy_cavalry_east_slavic }
 
 	illustration = { reference = heavy_cavalry }
 }
