@@ -1,5 +1,5 @@
 ﻿name_list_copt = {
-#from ck2 coptic name lists, behind the name
+	#from ck2 coptic name lists, behind the name
 	cadet_dynasty_names = {
 		"dynn_Abadir"
 		"dynn_Amoun"

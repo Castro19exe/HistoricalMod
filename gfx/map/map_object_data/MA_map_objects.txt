@@ -16,7 +16,7 @@ object={
 	layer="building_layer"
 	pdxmesh="baghdad_sprawl_mesh"
 	count=1
-	transform="3381.441406 0.000000 2061.404541 0.000000 0.000000 0.000000 0.000000 5.331225 5.331225 5.331225
+	transform="3381.437744 0.000000 2062.264893 0.000000 0.000000 0.000000 0.000000 5.331225 5.331225 5.331225
 "}
 object={
 	name="bamian_buddhas"
@@ -159,16 +159,6 @@ object={
 	transform="680.888245 -0.136475 2280.296387 0.000000 -0.026769 0.000000 0.096350 0.817784 0.817784 0.817784
 "}
 object={
-	name="sprawl_dali"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_dali_mesh"
-	count=1
-	transform="6174.376953 0.339600 1991.266968 0.000000 -0.267280 0.000000 0.963619 1.381763 1.381763 1.381763
-"}
-object={
 	name="sprawl_delhi"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -187,6 +177,26 @@ object={
 	pdxmesh="sprawl_ghazni_mesh"
 	count=1
 	transform="4511.996094 0.000000 2202.098633 0.000000 0.066844 0.000000 0.997763 0.897897 0.897897 0.897897
+"}
+object={
+	name="sprawl_jerusalem"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_jerusalem_mesh"
+	count=1
+	transform="2955.249023 -0.869262 1900.816406 0.000000 0.241813 0.000000 0.970323 1.467078 1.467078 1.467078
+"}
+object={
+	name="sprawl_dali"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_dali_mesh"
+	count=1
+	transform="6174.376953 0.339600 1991.266968 0.000000 -0.267280 0.000000 0.963619 1.381763 1.381763 1.381763
 "}
 object={
 	name="sprawl_kyiv"

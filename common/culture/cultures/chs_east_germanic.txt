@@ -28,6 +28,7 @@
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		35 = caucasian_blond
@@ -56,6 +57,7 @@ gothic = {
 	building_gfx = { norse_building_gfx }
 	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		70 = caucasian_northern_blond
@@ -89,6 +91,7 @@ ostrogothic = {
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		35 = caucasian_blond
@@ -125,6 +128,7 @@ crimean_gothic = {
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	unit_gfx = { crimean_gothic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		25 = caucasian_blond
@@ -153,6 +157,7 @@ vandalic = {
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		35 = caucasian_blond
@@ -181,6 +186,7 @@ burgundian = {
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx fp1_norse_clothing_gfx }
 	unit_gfx = { germanic_unit_gfx }
+	house_coa_frame = house_frame_05
 	
 	ethnicities = {
 		35 = caucasian_blond

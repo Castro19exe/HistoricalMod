@@ -3,6 +3,6 @@
  hispano_roman_history_loc:0 "Formed from [CULTURE.GetName] and several cultures of $iberian_group$ [heritage|E] in the year [DATE.GetYear]"
  vlach_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of $east_slavic_group$ [heritage|E] in the year [DATE.GetYear]"
  afro_roman_history_loc:0 "Formed from [CULTURE.GetName] and several influences from North Africa in the year [DATE.GetYear]"
- russian_history_loc:0 "Formed from the unification of all East Slavic cultures in the year 1000"
+ russian_history_loc:0 "Formed from the unification of the East Slavic cultures in the year 1000"
  copt_history_loc:0 "Formed from [CULTURE.GetName] and Ancient Egyptian in the year [DATE.GetYear]"
  norse_gaelic_history_loc:0 "Formed from [CULTURE.GetName] and Goidelic cultures in the year [DATE.GetYear]"

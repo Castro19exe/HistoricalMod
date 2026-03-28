@@ -36,6 +36,8 @@
 @polska_hussar = "gfx/interface/icons/culture_innovations/innovation_polska_hussar.dds"
 @zweihanders = "gfx/interface/icons/culture_innovations/innovation_zweihanders.dds"
 @valets = "gfx/interface/icons/culture_innovations/innovation_valets.dds"
+@goedendag = "gfx/interface/icons/culture_innovations/innovation_goedendag.dds"
+@andalusian_jinetes = "gfx/interface/icons/culture_innovations/innovation_andalusian_jinetes.dds"
 
 innovation_zweihanders = {
 	skill = martial
@@ -58,7 +60,7 @@ innovation_adaptive_militia = {
 	skill = martial
 	group = culture_group_military
 	culture_era = culture_era_late_medieval
-	icon = @special_maa_02
+	icon = @goedendag
 
 	potential = {
 		has_cultural_parameter = unlock_adaptive_militia_innovation
@@ -333,7 +335,7 @@ innovation_andalusian_jinetes = {
 	skill = martial
 	group = culture_group_military
 	culture_era = culture_era_tribal
-	icon = @maa_01
+	icon = @andalusian_jinetes
 
 	potential = {
 		this = culture:andalusian
