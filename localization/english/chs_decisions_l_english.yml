@@ -1446,37 +1446,6 @@
  ##################
  # MOD 
  ################## 
- create_dalmatian_kingdom_decision:0 "Found Kingdom of Dalmatia"
- create_dalmatian_kingdom_decision_confirm:0 "Gather the realm"
- create_dalmatian_kingdom_decision_desc:0 "Since the dissolution of Julius Nepos realm, our people have been scattered and subjugated by foreign powers. I will unite our people once again."
- create_dalmatian_kingdom_decision_tooltip:0 "Gather the dalmatian people under one [kingdom|E]"
- create_dalmatian_kingdom.preview.titles:0 "[GetTitleByKey('d_dalmatia').GetNameNoTier], [GetTitleByKey('d_ragusa').GetNameNoTier], [GetTitleByKey('d_usora').GetNameNoTier], become [de_jure|E] part of the [GetTitleByKey('k_dalmatia').GetName]"
- create_dalmatian_kingdom.conversion_boost: "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('custom_roman_illyricum').GetName] [region|E] for 35 years: #P +25%#!"
- dalmatian_culture_conversion_task_desc:0 "Promote Culture Boost"
-
- create_illyrian_empire_decision:0 "Unify Illyria"
- create_illyrian_empire_decision_confirm:0 "Illyria will be unified"
- create_illyrian_empire_decision_desc:0 "Since ancient times, the region has been inhabited by various barbarian tribes, experienced Roman rule, and witnessed the presence of many Slavic peoples. However, now, a pivotal opportunity arises to unite Illyria and forge a new destiny."
- create_illyrian_empire_decision_tooltip:0 "Become the first [emperor|E] of Illyria"
- create_illyrian_empire.preview.titles:0 "Every [kingdom|E] [title|E] you [hold|E] or [completely_control|E] will become [de_jure|E] of the [GetTitleByKey('e_illyria').GetName]"
-
- create_serbian_empire_decision:0 "Found the Serbian Empire"
- create_serbian_empire_decision_confirm:0 "No longer a Kingdom but an Empire"
- create_serbian_empire_decision_desc:0 "Our descendants have rooted themselves in these lands for generations, and we aspire to forge a new chapter in history by establishing the majestic realm of the Serbian Empire. Guided by the spirit of our ancestors, we seek to influence and expand our esteemed borders."
- create_serbian_empire_decision_tooltip:0 "Serbs above everyone else"
-
- #########   SHOULD NOT BE HERE 
- chs_major_decisions.0001.t:0 "The Kingdom of Dalmatia"
- chs_major_decisions.0001.desc:0 "Dalmatia, a realm of enchantment and magnificence, where the sun kisses the Adriatic Sea, and history weaves its tapestry through ancient stones."
- chs_major_decisions.0001.a:0 "Perseverantia vincit omnia!"
-
- chs_major_decisions.0002.t:0 "Illyria United"
- chs_major_decisions.0002.desc:0 "Now beggin a new chapter in the history of this land, and is in my power to write it."
- chs_major_decisions.0002.a:0 "United we are stronger!"
-
- chs_major_decisions.0003.t:0 "The Serbian Empire"
- chs_major_decisions.0003.desc:0 "Now the path is clear for greatness, no longer subjects of the Greeks or Bulgars, but architects of our own destiny, forging the foundation of the mighty Serbian Empire."
- chs_major_decisions.0003.a:0 "Now Stronger than ever!"
  
  #########   SHOULD NOT BE HERE - MAA Names
  gallowglass:0 "Gallóglaigh"
@@ -1487,3 +1456,7 @@
 
  jinete:0 "Jinetes"
  jinete_flavor:0 "#F Andalusian Light cavalry, known for their speed and agility. Jinetes were skilled horsemen who excelled in hit-and-run tactics and were often used for scouting and skirmishing.#!"
+
+ german_burgmann:0 "Burgmannen"
+ german_burgmann_flavor:0 "#F These German knights 'Burgmann', who prefer to get off and use a two-handed sword rather than fight on horseback, are soldiers stationed in the fortress and in charge of nearby defense. Encased in mail, these warriors are powerful heavy infantry.#!"
+ 

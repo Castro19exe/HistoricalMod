@@ -193,7 +193,7 @@ language_gothic = {
 		}
 	}
 	
-	color = { 218 190 140 }
+	color = { 171 165 111 }
 }
 
 language_low_german = {

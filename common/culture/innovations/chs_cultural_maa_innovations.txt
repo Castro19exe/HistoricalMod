@@ -38,6 +38,7 @@
 @valets = "gfx/interface/icons/culture_innovations/innovation_valets.dds"
 @goedendag = "gfx/interface/icons/culture_innovations/innovation_goedendag.dds"
 @andalusian_jinetes = "gfx/interface/icons/culture_innovations/innovation_andalusian_jinetes.dds"
+@innovation_german_burgmann = "gfx/interface/icons/culture_innovations/innovation_german_burgmann.dds"
 
 innovation_zweihanders = {
 	skill = martial
@@ -345,4 +346,27 @@ innovation_andalusian_jinetes = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+}
+
+innovation_german_burgmann = {
+	icon = @innovation_german_burgmann
+	group = culture_group_military
+	culture_era = culture_era_early_medieval
+	region = world_europe_west_germania
+	
+	potential = {		
+		OR = {
+			has_cultural_parameter = unlock_maa_burgmann
+			has_cultural_pillar = heritage_central_germanic
+		}
+	}	
+	
+	character_modifier = {
+		garrison_size = 0.1
+	}
+
+	unlock_maa = german_burgmann
+
+	flag = global_regional
+	flag = early_medieval_era_regional
 }

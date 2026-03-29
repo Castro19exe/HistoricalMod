@@ -560,3 +560,13 @@ texticon = {
         fontsize = 16
     }
 }
+
+texticon = {
+	icon = german_burgmann_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/german_burgmann.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

@@ -1,4 +1,4 @@
-@correct_culture_primary_score = 100
+﻿@correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
 @never_primary_score = -1000
@@ -21349,10 +21349,10 @@ e_wendish_empire = {
 						name_list_pommeranian = Racinów
 						name_list_polabian = Racinów
 						name_list_sorbian = Racinów
-						name_list_norse = "Ratsborg"
-						name_list_swedish = "Ratsborg"
-						name_list_norwegian = "Ratsborg"
-						name_list_danish = "Ratsborg"
+						name_list_norse = Ratsborg
+						name_list_swedish = Ratsborg
+						name_list_norwegian = Ratsborg
+						name_list_danish = Ratsborg
 					}
 				}
 				b_schwerin = {
@@ -50446,34 +50446,10 @@ e_spain = {
 				color = { 195 165 10 }
 				can_be_named_after_dynasty = no
 
-				cultural_names = {
-					name_list_bedouin = "Wadī-ar-Rāml"
-					name_list_maghrebi = "Wadī-ar-Rāml"
-					name_list_levantine = "Wadī-ar-Rāml"
-					name_list_egyptian = "Wadī-ar-Rāml"
-					name_list_andalusian = "Wadī-ar-Rāml"
-					name_list_yemeni = "Wadī-ar-Rāml"
-					name_list_baranis = "Wadī-ar-Rāml"
-					name_list_butr = "Wadī-ar-Rāml"
-					name_list_zaghawa = "Wadī-ar-Rāml"
-				}
-
 				b_malagon = {
 					province = 1960
 
 					color = { 195 165 10 }
-
-					cultural_names = {
-						name_list_bedouin = "Wadī-ar-Rāml"
-						name_list_maghrebi = "Wadī-ar-Rāml"
-						name_list_levantine = "Wadī-ar-Rāml"
-						name_list_egyptian = "Wadī-ar-Rāml"
-						name_list_andalusian = "Wadī-ar-Rāml"
-						name_list_yemeni = "Wadī-ar-Rāml"
-						name_list_baranis = "Wadī-ar-Rāml"
-						name_list_butr = "Wadī-ar-Rāml"
-						name_list_zaghawa = "Wadī-ar-Rāml"
-					}
 				}
 				b_cabaneros = {
 					province = 1961
@@ -50608,17 +50584,15 @@ e_spain = {
 					color = { 156 212 68 }
 
 					cultural_names = {
-						name_list_bedouin = "Shantarin"
-						name_list_baranis = "Shantarin"
-						name_list_butr = "Shantarin"
-						name_list_zaghawa = "Shantarin"
-						name_list_levantine = "Shantarin"
-						name_list_egyptian = "Shantarin"
-						name_list_maghrebi = "Shantarin"
-						name_list_andalusian = "Shantarin"
-						name_list_yemeni = "Shantarin"
-
-						name_list_roman = "Scalabis"
+						name_list_bedouin = Shantarin
+						name_list_baranis = Shantarin
+						name_list_butr = Shantarin
+						name_list_zaghawa = Shantarin
+						name_list_levantine = Shantarin
+						name_list_egyptian = Shantarin
+						name_list_maghrebi = Shantarin
+						name_list_andalusian = Shantarin
+						name_list_yemeni = Shantarin
 					}
 				}
 				b_setubal = {
@@ -50636,8 +50610,6 @@ e_spain = {
 						name_list_baranis = "Shātūbār"
 						name_list_butr = "Shātūbār"
 						name_list_zaghawa = "Shātūbār"
-
-						name_list_roman = "Cetobriga"
 					}
 				}
 			}
@@ -51314,11 +51286,6 @@ e_spain = {
 					name_list_maghrebi = cn_al_laqant
 					name_list_andalusian = cn_al_laqant
 					name_list_yemeni = cn_al_laqant
-
-					name_list_castilian = "Alicante"
-					name_list_asturleonese = "Alicante"
-					name_list_galician = "Alicante"
-					name_list_portuguese = "Alicante"
 				}
 				b_alicante = {
 					province = 1853
@@ -51335,11 +51302,6 @@ e_spain = {
 						name_list_maghrebi = cn_al_laqant
 						name_list_andalusian = cn_al_laqant
 						name_list_yemeni = cn_al_laqant
-
-						name_list_castilian = "Alicante"
-						name_list_asturleonese = "Alicante"
-						name_list_galician = "Alicante"
-						name_list_portuguese = "Alicante"
 					}
 				}
 				b_albacete = {
@@ -53438,19 +53400,6 @@ e_maghreb = {
 
 		capital = c_marrakesh # Marrakesh
 
-		ai_primary_priority = {
-			if = {
-				limit = {
-					OR = {
-						culture = culture:butr
-						culture = culture:baranis
-						culture = culture:maghrebi
-					}
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-
 		cultural_names = {
 			name_list_castilian = Morocco
 			name_list_asturleonese = Morocco
@@ -53460,6 +53409,18 @@ e_maghreb = {
 			name_list_catalan = Morocco
 		}
 
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:butr
+						culture = culture:baranis
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		
 		d_marrakesh = {
 			color = { 161 29 14 }
 
@@ -53574,19 +53535,12 @@ e_maghreb = {
 					color = { 166 17 0 }
 
 					cultural_names = {
-						name_list_baranis = "Anfa"
-						name_list_butr = "Anfa
-						name_list_bedouin = "Anfa"
-						name_list_maghrebi = "Anfa"
-						name_list_andalusian = "Anfa"
-						name_list_egyptian = "Anfa"
-						name_list_yemeni = "Anfa"
-						name_list_castilian = "Casablanca"
-						name_list_asturleonese = "Casablanca"
-						name_list_galician = "Casablanca"
-						name_list_portuguese = "Casa Branca"
-						name_list_aragonese = "Casablanca"
-						name_list_catalan = "Casablanca"
+						name_list_castilian = Casablanca
+						name_list_asturleonese = Casablanca
+						name_list_galician = Casablanca
+						name_list_portuguese = Casa Branca
+						name_list_aragonese = Casablanca
+						name_list_catalan = Casablanca
 					}
 				}
 				b_fadala = {
@@ -53815,46 +53769,10 @@ e_maghreb = {
 			c_fes = {
 				color = { 209 54 19 }
 
-				cultural_names = {
-					name_list_baranis = "Fizaz"
-					name_list_butr = "Fizaz"
-
-					name_list_bedouin = "Fas"
-					name_list_maghrebi = "Fas"
-					name_list_andalusian = "Fas"
-					name_list_egyptian = "Fas"
-					name_list_yemeni = "Fas"
-
-					name_list_castilian = "Fez"
-					name_list_asturleonese = "Fez"
-					name_list_galician = "Fez"
-					name_list_portuguese = "Fez"
-					name_list_aragonese = "Fez"
-					name_list_catalan = "Fez"
-				}
-
 				b_fes = {
 					province = 4694
 
 					color = { 209 54 19 }
-
-					cultural_names = {
-						name_list_baranis = "Fizaz"
-						name_list_butr = "Fizaz"
-
-						name_list_bedouin = "Fas"
-						name_list_maghrebi = "Fas"
-						name_list_andalusian = "Fas"
-						name_list_egyptian = "Fas"
-						name_list_yemeni = "Fas"
-
-						name_list_castilian = "Fez"
-						name_list_asturleonese = "Fez"
-						name_list_galician = "Fez"
-						name_list_portuguese = "Fez"
-						name_list_aragonese = "Fez"
-						name_list_catalan = "Fez"
-					}
 				}
 				b_wargha = {
 					province = 4688
@@ -53978,98 +53896,20 @@ e_maghreb = {
 			c_tangiers = {
 				color = { 209 65 46 }
 
-				cultural_names = {
-					name_list_baranis = "Tanjah"
-					name_list_butr = "Tanjah"
-
-					name_list_bedouin = "Tanjah"
-					name_list_maghrebi = "Tanjah"
-					name_list_andalusian = "Tanjah"
-					name_list_egyptian = "Tanjah"
-					name_list_yemeni = "Tanjah"
-
-					name_list_castilian = "Tánger"
-					name_list_asturleonese = "Tánger"
-					name_list_galician = "Tánger"
-					name_list_portuguese = "Tânger"
-					name_list_aragonese = "Tánger"
-					name_list_catalan = "Tánger"
-
-					name_list_roman = "Tingis"
-					name_list_afro_roman = "Tingis"
-				}
-
 				b_tangiers = {
 					province = 4683
 
 					color = { 209 65 46 }
-
-					cultural_names = {
-						name_list_baranis = "Tanjah"
-						name_list_butr = "Tanjah"
-
-						name_list_bedouin = "Tanjah"
-						name_list_maghrebi = "Tanjah"
-						name_list_andalusian = "Tanjah"
-						name_list_egyptian = "Tanjah"
-						name_list_yemeni = "Tanjah"
-
-						name_list_castilian = "Tánger"
-						name_list_asturleonese = "Tánger"
-						name_list_galician = "Tánger"
-						name_list_portuguese = "Tânger"
-						name_list_aragonese = "Tánger"
-						name_list_catalan = "Tánger"
-
-						name_list_roman = "Tingis"
-						name_list_afro_roman = "Tingis"
-					}
 				}
 				b_asila = {
 					province = 4684
 
 					color = { 209 65 46 }
-
-					cultural_names = {
-						name_list_baranis = "Azila"
-						name_list_butr = "Azila"
-
-						name_list_bedouin = "Asilah"
-						name_list_maghrebi = "Asilah"
-						name_list_andalusian = "Asilah"
-						name_list_egyptian = "Asilah"
-						name_list_yemeni = "Asilah"
-
-						name_list_castilian = "Arcila"
-						name_list_asturleonese = "Arcila"
-						name_list_galician = "Arcila"
-						name_list_portuguese = "Arzila"
-						name_list_aragonese = "Arcila"
-						name_list_catalan = "Arcila"
-					}
 				}
 				b_kasr_al-kabir = {
 					province = 4685
 
 					color = { 209 65 46 }
-
-					cultural_names = {
-						name_list_baranis = "Iqsr lkbir"
-						name_list_butr = "Iqsr lkbir"
-
-						name_list_bedouin = "Ksar el-Kebir"
-						name_list_maghrebi = "Ksar el-Kebir"
-						name_list_andalusian = "Ksar el-Kebir"
-						name_list_egyptian = "Ksar el-Kebir"
-						name_list_yemeni = "Ksar el-Kebir"
-
-						name_list_castilian = "Alcazarquivir"
-						name_list_asturleonese = "Alcazarquivir"
-						name_list_galician = "Alcazarquivir"
-						name_list_portuguese = "Alcácer-Quibir"
-						name_list_aragonese = "Alcazarquivir"
-						name_list_catalan = "Alcazarquivir"
-					}
 				}
 				b_tahlit = {
 					province = 4686
@@ -54081,50 +53921,25 @@ e_maghreb = {
 				color = { 219 86 68 }
 
 				cultural_names = {
+					name_list_baranis = cn_sabtah
+					name_list_butr = cn_sabtah
 					name_list_bedouin = cn_sabtah
 					name_list_levantine = cn_sabtah
 					name_list_egyptian = cn_sabtah
 					name_list_maghrebi = cn_sabtah
 					name_list_andalusian = cn_sabtah
 					name_list_yemeni = cn_sabtah
-					name_list_baranis = cn_sabtah
-					name_list_butr = cn_sabtah
 				}
 
 				b_sabta = {
 					province = 4682
 
 					color = { 219 86 68 }
-
-					cultural_names = {
-						name_list_castilian = Ceuta
-						name_list_asturleonese = Ceuta
-						name_list_galician = Ceuta
-						name_list_portuguese = Ceuta
-						name_list_aragonese = Ceuta
-						name_list_catalan = Ceuta
-					}
 				}
 				b_tittawan = {
 					province = 4681
 
 					color = { 219 86 68 }
-
-					cultural_names = {
-						name_list_baranis = "Tittawin"
-						name_list_butr = "Tittawin"
-
-						name_list_bedouin = "Titwan"
-						name_list_maghrebi = "Titwan"
-						name_list_andalusian = "Titwan"
-						name_list_egyptian = "Titwan"
-						name_list_yemeni = "Titwan"
-
-						name_list_castilian = "Tetuán"
-						name_list_asturleonese = "Tetuán"
-						name_list_galician = "Tetuán"
-						name_list_portuguese = "Tétuão"
-					}
 				}
 				b_ghumira = {
 					province = 4680
@@ -54502,32 +54317,10 @@ e_maghreb = {
 			c_algier = {
 				color = { 92 148 52 }
 
-				cultural_names = {
-					name_list_bedouin = "Al-Jazā'ir"
-					name_list_maghrebi = "Al-Jazā'ir"
-					name_list_levantine = "Al-Jazā'ir"
-					name_list_egyptian = "Al-Jazā'ir"
-					name_list_andalusian = "Al-Jazā'ir"
-					name_list_yemeni = "Al-Jazā'ir"
-					name_list_baranis = "Al-Jazā'ir"
-					name_list_butr = "Al-Jazā'ir"
-				}
-
 				b_algiers = {
 					province = 4650
 
 					color = { 92 148 52 }
-
-					cultural_names = {
-						name_list_bedouin = "Al-Jazā'ir"
-						name_list_maghrebi = "Al-Jazā'ir"
-						name_list_levantine = "Al-Jazā'ir"	
-						name_list_egyptian = "Al-Jazā'ir"
-						name_list_andalusian = "Al-Jazā'ir"
-						name_list_yemeni = "Al-Jazā'ir"
-						name_list_baranis = "Al-Jazā'ir"
-						name_list_butr = "Al-Jazā'ir"
-					}
 				}
 				b_medea = {
 					province = 4648
@@ -57345,12 +57138,13 @@ e_arabia = {
 				color = { 102 221 136 }
 
 				cultural_names = {
-					name_list_bedouin = "al-Iskandarīyah"
-					name_list_maghrebi = "al-Iskandarīyah"
-					name_list_levantine = "al-Iskandarīyah"
-					name_list_egyptian = "al-Iskandarīyah"
-					name_list_andalusian = "al-Iskandarīyah"
-					name_list_yemeni = "al-Iskandarīyah"
+					name_list_bedouin = "Al-Iskandarīyah"
+					name_list_maghrebi = "Al-Iskandarīyah"
+					name_list_levantine = "Al-Iskandarīyah"
+					name_list_egyptian = "Al-Iskandarīyah"
+					name_list_andalusian = "Al-Iskandarīyah"
+					name_list_yemeni = "Al-Iskandarīyah"
+					name_list_turkish = "Al-Iskandarīyah"
 				}
 
 				#b_alexandria = {
@@ -57362,12 +57156,13 @@ e_arabia = {
 					color = { 102 221 136 }
 
 					cultural_names = {
-						name_list_bedouin = "al-Iskandarīyah"
-						name_list_maghrebi = "al-Iskandarīyah"
-						name_list_levantine = "al-Iskandarīyah"
-						name_list_egyptian = "al-Iskandarīyah"
-						name_list_andalusian = "al-Iskandarīyah"
-						name_list_yemeni = "al-Iskandarīyah"
+						name_list_bedouin = "Al-Iskandarīyah"
+						name_list_maghrebi = "Al-Iskandarīyah"
+						name_list_levantine = "Al-Iskandarīyah"
+						name_list_egyptian = "Al-Iskandarīyah"
+						name_list_andalusian = "Al-Iskandarīyah"
+						name_list_yemeni = "Al-Iskandarīyah"
+						name_list_turkish = "Al-Iskandarīyah"
 					}
 				}
 				b_al-hamam = {
@@ -57980,6 +57775,9 @@ e_arabia = {
 					name_list_egyptian = "Al-Quds"
 					name_list_andalusian = "Al-Quds"
 					name_list_yemeni = "Al-Quds"
+					name_list_baranis = "Al-Quds"
+					name_list_butr = "Al-Quds"
+					name_list_zaghawa = "Al-Quds"
 				}
 
 				b_jerusalem = {
@@ -57994,6 +57792,9 @@ e_arabia = {
 						name_list_egyptian = "Al-Quds"
 						name_list_andalusian = "Al-Quds"
 						name_list_yemeni = "Al-Quds"
+						name_list_baranis = "Al-Quds"
+						name_list_butr = "Al-Quds"
+						name_list_zaghawa = "Al-Quds"
 					}
 				}
 				b_ar-ramla = {
@@ -58436,28 +58237,10 @@ e_arabia = {
 			c_damascus = {
 				color = { 125 255 6 }
 
-				cultural_names = {
-					name_list_bedouin = Dimashq
-					name_list_maghrebi = Dimashq
-					name_list_levantine = Dimashq
-					name_list_egyptian = Dimashq
-					name_list_andalusian = Dimashq
-					name_list_yemeni = Dimashq
-				}
-
 				b_damascus = {
 					province = 5924
 
 					color = { 125 255 6 }
-
-					cultural_names = {
-						name_list_bedouin = Dimashq
-						name_list_maghrebi = Dimashq
-						name_list_levantine = Dimashq
-						name_list_egyptian = Dimashq
-						name_list_andalusian = Dimashq
-						name_list_yemeni = Dimashq
-					}
 				}
 				b_nawa = {
 					province = 5923

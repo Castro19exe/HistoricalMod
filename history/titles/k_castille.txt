@@ -1,0 +1,831 @@
+k_castille = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
+ 
+	1065.12.26 = {
+		insert_title_history = k_leon
+	}
+	1065.12.27 = {
+		holder = 107500 # Sancho II Fern�ndez
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1109.6.30 = {
+		holder = 207660 # Urraca Alf�nsez Jimena
+	}
+	1126.3.8 = {
+		holder = 207500 # Alfonso VII de Borgo�a
+	}
+	1157.8.21 = {
+		holder = 207520 # Sancho III de Borgo�a
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgo�a
+	}
+	1214.10.8 = {
+		holder = 70230 # Enrique Alf�nsez de Borgo�a
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alf�nsez de Borgo�a
+	}
+	1217.8.31 = {
+		holder = 457620 # Fernando III de Borgo�a
+	}
+	1252.5.30 = {
+		holder = 457540 # Alfonso X de Borgo�a
+	}
+	1284.4.4 = {
+		holder = 457530 # Sancho IV de Borgo�a
+	}
+	1295.4.25 = {
+		holder = 457520 # Fernando IV de Borgo�a
+	}
+	1312.9.7 = {
+		holder = 457500 # Alfonso XI de Borgo�a
+	}
+}
+
+
+d_cantabria = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+ 
+	683.1.1 = {
+		holder = 70010 # Dux Favila
+	}
+	702.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+	}
+	718.1.1 = {
+		liege = k_asturias
+	}
+	730.1.1 = {
+		holder = 70003 # King Alfonso I of Asturias
+	}
+	739.6.15 = {
+		holder = 70011 # Fruela P�rez
+	}
+	741.1.1 = {
+		holder = 0
+	}
+}
+
+
+c_asturias_de_santillana = {
+	702.1.1 = {
+		holder = 70010 # Duke Pedro of Cantabria
+		liege = d_cantabria
+	}
+	730.1.1 = {
+		holder = 70003 # King Alfonso I of Asturias
+	}
+	739.6.15 = {
+		holder = 70011 # Duke Fruela P�rez of Cantabria
+	}
+	741.1.1 = {
+		holder = 70012 # King Aurelio I of Asturias
+	}
+	768.1.1 = {
+		holder = 70013 # King Bermudo I of Asturias
+	}
+	791.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias
+	}
+	842.3.20 = {
+		holder = basque0007 # King Nepociano of Asturias
+	}
+	843.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+	}
+	851.1.15 = {
+		holder = 70017 # King Ordo�o I of Asturias
+	}
+	854.1.1 = {
+		holder = 73763 # Duke Rodrigo of Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Duke Diego Rodr�guez 'Porcelos' of Castilla
+	}
+	885.1.1 = {
+		holder = 200066 # Count Munio Nu�ez of Burgos
+		liege = k_asturias
+	}
+	901.1.1 = {
+		holder = 200071 # Count Gonzalo T�llez of Viscaya
+	}
+	904.1.1 = {
+		holder = 200066 # Count Munio Nu�ez of Burgos (restored)
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 73769 # Count Gonzalo Fern�ndez of Burgos
+	}
+	915.1.1 = {
+		holder = 200074 # Count Fernando D�az of Amaya
+	}
+	920.1.1 = {
+		holder = 200160 # Count Munio Velaz of Burgos
+	}
+	922.1.1 = {
+		holder = 200069 # Count Nu�o Fern�ndez of Amaya
+	}
+	924.1.1 = {
+		holder = galician0174 # Alfonso Godest�iz
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	952.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille
+	}
+	966.1.1 = {
+		holder = castilian0010 # G�mez D�az
+	}
+	987.1.1 = {
+		holder = castilian0021 # Garc�a G�mez
+	}
+	1003.3.3 = {
+		holder = castilian0020 # Munio G�mez
+	}
+	1024.1.1 = {
+		holder = 200079 # Diego Fern�ndez
+	}
+	1025.1.1 = {
+		holder = castilian0204 # Munio Rodr�guez
+	}
+	1029.9.28 = {
+		holder = 70129 # Fort�n Ochoa
+	}
+	1037.9.4 = {
+		holder = 70265 # Munio Gonz�lez
+	}
+	1065.12.27 = {
+		liege = k_castille
+	}
+	1082.1.1 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1085.1.1 = {
+		holder = 72894 # Fruela D�az
+	}
+	1121.12.2 = {
+		holder = 72897 # Diego Froilaz
+	}
+	1140.6.26 = {
+		holder = 72899 # Ramiro Froilaz I
+	}
+	1172.9.13 = {
+		holder = 72905 # Diego Ram�rez I
+	}
+	1185.8.1 = {
+		holder = 72906 # Fruela Ram�rez
+	}
+	1202.9.9 = {
+		holder = 72915 # Nu�o Froilaz
+	}
+	1217.1.1 = {
+		holder = 72916 # Ramiro Froilaz II
+	}
+	1240.1.1 = {
+		holder = 72921 # Gonzalo Ram�rez
+	}
+	1259.1.1 = {
+		holder = 72925 # Ramiro Froilaz III
+	}
+	1268.1.1 = {
+		holder = 72927 # Diego Ram�rez II
+	}
+	1330.1.1 = {
+		holder = 72933 # Rodrigo D�az
+	}
+}
+
+c_amaya = {
+	702.1.1 = {
+		holder = 70010 # Duke Pedro of Cantabria
+		liege = d_cantabria
+	}
+	730.1.1 = {
+		holder = 70003 # King Alfonso I of Asturias
+	}
+	739.6.15 = {
+		holder = 70011 # Duke Fruela P�rez of Cantabria
+	}
+	741.1.1 = {
+		holder = 70012 # King Aurelio I of Asturias
+	}
+	768.1.1 = {
+		holder = 70013 # King Bermudo I of Asturias
+	}
+	791.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias
+	}
+	842.3.20 = {
+		holder = basque0007 # King Nepociano of Asturias
+	}
+	843.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+	}
+	851.1.15 = {
+		holder = 70017 # King Ordo�o I of Asturias
+	}
+	854.1.1 = {
+		holder = 73763 # Duke Rodrigo of Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Duke Diego Rodr�guez 'Porcelos' of Castilla
+	}
+	885.1.1 = {
+		holder = 200066 # Count Munio Nu�ez of Burgos
+		liege = k_asturias
+	}
+	901.1.1 = {
+		holder = 200071 # Count Gonzalo T�llez of Viscaya
+	}
+	904.1.1 = {
+		holder = 200066 # Count Munio Nu�ez of Burgos (restored)
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 73769 # Count Gonzalo Fern�ndez of Burgos
+	}
+	915.1.1 = {
+		holder = 200074 # Fernando D�az
+	}
+	920.1.1 = {
+		holder = 200069 # Nu�o Fern�ndez
+	}
+	927.1.1 = {
+		holder = 72549 # Fernando Ans�rez
+	}
+	929.11.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Duke Ansur Fern�ndez of Castille
+	}
+	945.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille (restored)
+	}
+	970.6.1 = {
+		holder = 107670 # Duke Garc�a I of Castille
+	}
+	995.6.29 = {
+		holder = 107660 # Duke Sancho Garc�a of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke Garc�a II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1109.7.1 = {
+		holder = 72894 # Fruela D�az
+	}
+	1121.12.2 = {
+		holder = 72897 # Diego Froilaz
+	}
+	1140.6.26 = {
+		holder = 72899 # Ramiro Froilaz I
+	}
+	1172.9.13 = {
+		holder = 72905 # Diego Ram�rez I
+	}
+	1185.8.1 = {
+		holder = 72906 # Fruela Ram�rez
+	}
+	1202.9.9 = {
+		holder = 72915 # Nu�o Froilaz
+	}
+	1217.1.1 = {
+		holder = 72916 # Ramiro Froilaz II
+	}
+	1240.1.1 = {
+		holder = 72921 # Gonzalo Ram�rez
+	}
+	1259.1.1 = {
+		holder = 72925 # Ramiro Froilaz III
+	}
+	1268.1.1 = {
+		holder = 72927 # Diego Ram�rez II
+	}
+	1330.1.1 = {
+		holder = 72933 # Rodrigo D�az
+	}
+}
+
+
+d_castilla = {
+	854.1.1 = {
+		holder = 73763 # Rodrigo de Castilla
+		liege = k_asturias
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodr�guez 'Porcelos'
+	}
+	885.1.1 = {
+		holder = 0
+	}
+	931.1.1 = {
+		holder = 107680 # Fern�n Gonz�lez
+		liege = k_leon
+	}
+	944.1.1 = {
+		holder = 72550 # Ansur Fern�ndez
+	}
+	945.1.1 = {
+		holder = 107680 # Fern�n Gonz�lez (restored)
+	}
+	970.6.1 = {
+		holder = 107670 # Garc�a I Fern�ndez
+	}
+	995.6.29 = {
+		holder = 107660 # Sancho Garc�a
+	}
+	1017.2.5 = {
+		holder = 70286 # Garc�a II S�nchez
+		liege = k_navarra
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1035.10.18 = {
+		liege = k_leon
+	}
+	1065.12.27 = {
+		holder = 0
+	}
+}
+
+
+c_burgos = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
+ 
+	858.1.1 = {
+		holder = 200215 # Lubb, placeholder
+		# Nominally under al-Andalus, but in practice very much a frontier.
+		liege = 0
+	}
+	882.1.1 = {
+		holder = 200066 # Mu�o N��ez de Bra�osera
+		liege = d_castilla
+	}
+	884.1.1 = {
+		holder = 73765 # Duke Diego Rodr�guez 'Porcelos' of Castille
+	}
+	885.1.1 = {
+		holder = 200066 # Munio N��ez de Bra�osera (restored)
+		liege = k_asturias
+	}
+	899.1.1 = {
+		holder = 73769 # Gonzalo Fern�ndez
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 200071 # Count Gonzalo T�llez of Viscaya
+	}
+	915.1.1 = {
+		holder = 200160 # Munio Velaz
+	}
+	922.1.1 = {
+		holder = 200069 # Count Nu�o Fern�ndez of Amaya
+	}
+	927.1.1 = {
+		holder = 200070 # Gutierre N��ez
+	}
+	931.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Duke Ansur Fern�ndez of Castille
+	}
+	945.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille (restored)
+	}
+	970.6.1 = {
+		holder = 107670 # Duke Garc�a I of Castille
+	}
+	995.6.29 = {
+		holder = 107660 # Duke Sancho Garc�a of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke Garc�a II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1085.5.25 = {
+		holder = 107570 # Gonzalo N��ez de Lara
+	}
+	1105.12.12 = {
+		holder = 207539 # Pedro Gonz�lez de Lara
+	}
+	1130.10.16 = {
+		holder = 207545 # Nu�o P�rez de Lara
+	}
+	1177.6.1 = {
+		holder = 72377 # Rodrigo Gutierrez de Giron
+	}
+	1217.1.1 = {
+		holder = 72516 # Fernando Fern�ndez de Lara
+	}
+	1230.1.1 = {
+		holder = 72517 # Alvar Fern�ndez de Lara
+	}
+	1240.7.24 = {
+		holder = 72541 # Nu�o Gonz�lez de Lara
+	}
+	1275.5.1 = {
+		holder = 72544 # Juan N��ez de Lara I
+	}
+	1294.4.1 = {
+		holder = 72546 # Juan N��ez de Lara II
+	}
+	1315.9.16 = {
+		holder = 457680 # Juana N��ez de Lara
+	}
+}
+
+b_palencia = {
+	881.1.1 = {
+		holder = 72548 # Ansur
+	}
+	908.1.1 = {
+		holder = 72550 # Ansur Fern�ndez
+	}
+	945.4.3 = {
+		holder = castilian0049 # Fernando Ans�rez
+	}
+	946.1.1 = {
+		holder = castilian0005 # Diego Mu�oz
+	}
+	951.1.1 = {
+		holder = castilian0049 # Fernando Ans�rez (restored)
+	}
+	978.11.24 = {
+		holder = castilian0010 # Count G�mez D�az of Asturias de Santillana
+	}
+	987.1.1 = {
+		holder = castilian0021 # Count Garc�a G�mez of Asturias de Santillana
+	}
+	1003.3.3 = {
+		holder = castilian0020 # Count Munio G�mez of Asturias de Santillana
+	}
+	1024.1.1 = {
+		holder = 200079 # Count Diego Fern�ndez of Asturias de Santillana
+	}
+	1028.1.1 = {
+		holder = castilian0109 # Fernando D�az
+	}
+	1038.1.1 = {
+		holder = 200076 # G�mez D�az
+	}
+	1057.8.11 = {
+		holder = castilian0122 # Fernando G�mez
+	}
+	1130.10.16 = {
+		holder = 207545 # Nu�o P�rez de Lara
+	}
+	1177.6.1 = {
+		holder = 207548 # Fernando N��ez de Lara
+	}
+}
+
+c_valladolid = {
+	865.1.1 = {
+		holder = 200225 # Ya'qub, placeholder
+		# Nominally under al-Andalus, but in practice very much a frontier.
+		liege = 0
+	}
+	890.1.1 = {
+		holder = 200066 # Count Munio N��ez of Burgos
+		liege = k_asturias
+	}
+	899.1.1 = {
+		holder = 73769 # Count Gonzalo Fern�ndez of Burgos
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 200071 # Count Gonzalo T�llez of Viscaya
+	}
+	915.1.1 = {
+		holder = 200160 # Count Munio Velaz of Burgos
+	}
+	922.1.1 = {
+		holder = 200069 # Count Nu�o Fern�ndez of Amaya
+	}
+	927.1.1 = {
+		holder = 200070 # Count Gutierre N��ez of Burgos
+	}
+	931.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Duke Ansur Fern�ndez of Castille
+	}
+	945.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille (restored)
+	}
+	970.6.1 = {
+		holder = 107670 # Duke Garc�a I of Castille
+	}
+	995.6.29 = {
+		holder = 107660 # Duke Sancho Garc�a of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke Garc�a II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	1072.10.7 = {
+		holder = 107640 # Pedro Ans�rez
+	}
+	1119.9.9 = {
+		holder = 107644 # Mayor P�rez
+	}
+	1148.4.23 = {
+		holder = 71390 # Eylo Alvarez
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgo�a
+	}
+	1185.8.16 = {
+		holder = 71399 # Pedro Fern�ndez de Castro I
+	}
+	1214.8.18 = {
+		holder = 72389 # Alvar P�rez de Castro
+	}
+	1240.3.1 = {
+		holder = 72390 # Eylo P�rez de Castro
+	}
+	1243.2.10 = {
+		holder = 72211 # Rodrigo Gir�ldez de Castro
+	}
+	1259.1.1 = {
+		holder = 72214 # Fernando Rodr�guez de Castro II
+	}
+	1280.1.1 = {
+		holder = 72215 # Pedro Fern�ndez de Castro II
+	}
+	1287.1.1 = {
+		holder = 72333 # Giraldo Guill�n
+	}
+	1296.1.1 = {
+		holder = 72449 # Sancho P�rez de Borgo�a
+	}
+	1312.1.1 = {
+		holder = 457531 # Pedro S�nchez de Borgo�a
+	}
+	1319.7.25 = {
+		holder = 457532 # Blanca P�rez de Borgo�a
+	}
+}
+
+
+c_soria = {
+	857.1.1 = {
+		holder = 73988 # Urdun, placeholder
+		# Nominally under al-Andalus, but in practice very much a frontier.
+		liege = 0
+	}
+	882.1.1 = {
+		holder = andalusian0135 # Balashk
+	}
+	#909-959: Local lords
+	959.1.1 = {
+		holder = 107680 # Duke Fern�n Gonz�lez of Castille
+	}
+	970.6.1 = {
+		holder = 107670 # Duke Garc�a I of Castille
+	}
+	979.1.1 = {
+		liege = d_toledo
+	}
+	997.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1010.1.1 = {
+		holder = baranis0092 # Emir Ibn Masarra of Toledo
+	}
+	1012.1.1 = {
+		holder = baranis0094 # Emir Ya'is ibn Muhammad of Toledo
+	}
+	1026.1.1 = {
+		holder = baranis0096 # Emir Abd al-Rahman ibn Manyuh of Toledo
+	}
+	1030.1.1 = {
+		holder = baranis0097 # Emir Abd al-Malik ibn Abd al-Rahman of Toledo
+	}
+	1032.1.1 = {
+		holder = 3922 # Emir al-Zafir of Toledo
+	}
+	1043.1.1 = {
+		holder = 3924 # Emir al-Ma'mun of Toledo
+	}
+	1060.1.1 = {
+		holder = asturleonese0298 # Alfonso Gonz�lez
+		liege = d_castilla
+	}
+	1065.12.27 = {
+		liege = k_castille
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgo�a
+	}
+	1214.10.8 = {
+		holder = 70230 # Enrique Alf�nsez de Borgo�a
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alf�nsez de Borgo�a
+	}
+	1217.8.31 = {
+		holder = 457660 # Alfonso Alf�nsez de Borgo�a
+	}
+	1272.1.6 = {
+		holder = 457540 # Alfonso X de Borgo�a
+	}
+	1284.4.4 = {
+		holder = 457630 # Juan Manuel de Villena
+	}
+}
+
+
+c_cuellar = {
+	866.1.1 = {
+		holder = 73990 # Sabariquh, placeholder
+		# Nominally under al-Andalus, but in practice very much a frontier.
+		liege = 0
+	}
+	891.1.1 = {
+		holder = andalusian0140 # Belay, placeholder
+	}
+	#916 to 975: Local rulers
+	975.1.1 = {
+		holder = 107670 # Duke Garc�a I of Castilla
+	}
+	979.1.1 = {
+		holder = asturleonese0004 # Count Fernando Fla�nez of Salamanca
+		liege = k_leon
+	}
+	986.1.1 = {
+		holder = 107670 # Duke Garc�a I of Castilla (restored)
+		liege = d_castilla
+	}
+ 
+	995.6.29 = {
+		holder = 107660 # Duke Sancho Garc�a of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke Garc�a II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1108.5.30 = {
+		holder = 71364
+	}
+	1160.12.16 = {
+		holder = 72659 # G�mez Garc�a de Aza
+	}
+	1214.10.8 = {
+		holder = 70230 # Enrique Alf�nsez de Borgo�a
+	}
+	1217.6.6 = {
+		holder = 457651 # Berenguela Alf�nsez de Borgo�a
+	}
+	1217.8.31 = {
+		holder = 457660 # Alfonso Alf�nsez de Borgo�a
+	}
+	1272.1.6 = {
+		holder = 457540 # Alfonso X de Borgo�a
+	}
+	1284.4.4 = {
+		holder = 457630 # Juan Manuel de Villena
+	}
+}
+
+
+c_olmedo = {
+	867.1.1 = {
+		holder = 73991 # Adfuns, placeholder
+		# Nominally under al-Andalus, but in practice very much a frontier.
+		liege = 0
+	}
+	892.1.1 = {
+		holder = andalusian0142 # Garsiya, placeholder
+	}
+	#917 to 975: Local rulers
+	975.1.1 = {
+		holder = 107670 # Duke Garc�a I of Castilla
+	}
+	979.1.1 = {
+		holder = asturleonese0004 # Count Fernando Fla�nez of Salamanca
+		liege = k_leon
+	}
+	986.1.1 = {
+		holder = 107670 # Duke Garc�a I of Castilla (restored)
+		liege = d_castilla
+	}
+ 
+	995.6.29 = {
+		holder = 107660 # Duke Sancho Garc�a of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke Garc�a II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of Le�n
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of Le�n
+	}
+	1109.7.1 = {
+		holder = 107644 # Mayor P�rez
+	}
+	1148.4.23 = {
+		holder = 71390 # Eylo Alvarez
+	}
+	1158.8.31 = {
+		holder = 207510 # Alfonso VIII de Borgo�a
+	}
+	1185.8.16 = {
+		holder = 71399 # Pedro Fern�ndez de Castro I
+	}
+	1214.8.18 = {
+		holder = 72389 # Alvar P�rez de Castro
+	}
+	1240.3.1 = {
+		holder = 72390 # Eylo P�rez de Castro
+	}
+	1243.2.10 = {
+		holder = 72211 # Rodrigo Gir�ldez de Castro
+	}
+	1259.1.1 = {
+		holder = 72214 # Fernando Rodr�guez de Castro II
+	}
+	1280.1.1 = {
+		holder = 72215 # Pedro Fern�ndez de Castro II
+	}
+	1287.1.1 = {
+		holder = 72333 # Giraldo Guill�n
+	}
+	1296.1.1 = {
+		holder = 72449 # Sancho P�rez de Borgo�a
+	}
+	1312.1.1 = {
+		holder = 457531 # Pedro S�nchez de Borgo�a
+	}
+	1319.7.25 = {
+		holder = 457532 # Blanca P�rez de Borgo�a
+	}
+}

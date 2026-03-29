@@ -50,8 +50,8 @@ should_use_indian_maa_graphics = {
 
 should_use_turkic_maa_graphics = {
 	OR = {
-		has_cultural_pillar = heritage_turkic
-		has_cultural_pillar = heritage_tocharian
+		has_unit_gfx = oghuz_unit_gfx
+		has_unit_gfx = cuman_unit_gfx
 	}
 }
 

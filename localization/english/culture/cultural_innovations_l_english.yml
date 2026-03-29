@@ -470,7 +470,6 @@
   ##################
   # MOD 
   ################## 
-
   innovation_legionnaires:0 "Palatini"
   innovation_legionnaires_desc:1 "Elite heavy infantry serving as the emperor's personal guard. Highly trained and well-equipped, they form the backbone of the imperial field army!"
 
@@ -482,3 +481,7 @@
 
   innovation_andalusian_jinetes: "Jinetes"
   innovation_andalusian_jinetes_desc: "The light cavalry of Al-Andalus are renowned for their speed and agility, as well as their skill with javelins."
+
+  innovation_german_burgmann:0 "Teutonic Defence-in-Depth" 
+  innovation_german_burgmann_desc:0 "It would be of great help to the defense of the territory if soldiers were stationed in fortresses throughout Germania to defend the castle and the surrounding area. We can train our preferred knights 'Burgmann' by walking and fighting with a large two-handed sword rather than riding a horse."   
+ 
