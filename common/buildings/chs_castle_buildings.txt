@@ -12,7 +12,7 @@
 @holding_illustration_constantinople = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
 @holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/castle_scandinavian.dds"
 @holding_illustration_goidelic = "gfx/interface/illustrations/holding_types/castle_celtic.dds"
-@holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/castle_sahelian.dds"
+@holding_illustration_west_african = "gfx/interface/illustrations/holding_types/castle_west_african.dds"
 @holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/castle_ethiopian.dds"
 @holding_illustration_slavic = "gfx/interface/illustrations/holding_types/castle_slavic.dds"
 @holding_illustration_steppe = "gfx/interface/illustrations/holding_types/castle_steppe.dds"
@@ -495,13 +495,13 @@ castle_01 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_castle_01_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -1123,13 +1123,13 @@ castle_02 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_castle_02_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -1814,20 +1814,13 @@ castle_03 = {
 		graphical_cultures = { celtic_building_gfx }
 	}	
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_castle_03_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { sahelian_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "sahelian_castle_03_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -2453,20 +2446,13 @@ castle_04 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_castle_04_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { sahelian_building_gfx }
-	}
-	asset = {
-		type = pdxmesh
-		name = "sahelian_castle_04_mesh"
-		illustration = @holding_illustration_sahelian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 

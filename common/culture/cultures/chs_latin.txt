@@ -8,10 +8,18 @@
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_imperial_might
-		tradition_formation_fighting
 		tradition_legalistic
-		tradition_poetry
 		tradition_noble_adoption
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
 	}
 	
 	name_list = name_list_roman
@@ -144,11 +152,11 @@ sicilian = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_xenophilic
+		tradition_republican_legacy
 		tradition_swords_for_hire
 		tradition_ruling_caste
+		tradition_xenophilic
 		tradition_poetry
-		tradition_republican_legacy
 	}
 	
 	name_list = name_list_sicilian

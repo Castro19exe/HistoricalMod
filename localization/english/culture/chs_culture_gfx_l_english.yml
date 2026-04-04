@@ -84,7 +84,6 @@
  polish_unit_gfx:0 "Polish"
  roman_unit_gfx:0 "Roman"
  ruthenian_unit_gfx:0 "East Slavic"           #Ruthenian
- sahelian_building_gfx:0 "Sahelian"
  sami_coa_gfx:0 "Sami"
  sami_building_gfx:0 "Sami"
  scottish_coa_gfx:0 "Scottish"
@@ -106,8 +105,9 @@
  volga_finnic_group_coa_gfx:0 "Volga-Finnic"
  welsh_coa_gfx:0 "Cambrian"
  welsh_unit_gfx:0 "Cambrian"
- west_african_unit_gfx:0 "West African"
+ west_african_building_gfx:0 "West African"
  west_african_group_coa_gfx:0 "West African"
+ west_african_unit_gfx:0 "West African"
  west_slavic_group_coa_gfx:0 "West Slavic"
  western_building_gfx:0 "Western European"
  western_clothing_gfx:0 "Continental European"

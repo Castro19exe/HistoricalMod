@@ -80,22 +80,11 @@ walls_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = khans_of_the_steppe
-		names = {
-			#"mpo_mongol_wall_02_mesh"
-			"western_nomadic_wall_01_mesh"
-		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx }
-		graphical_regions = { graphical_steppe }
-		governments = { nomad_government }
-	}
-	asset = {
-		type = pdxmesh
 		names = {
 			"mena_walls_01_a_mesh"
 			"mena_walls_01_b_mesh"
 		}
-		graphical_cultures = { mena_building_gfx berber_group_building_gfx sahelian_building_gfx african_building_gfx }
+		graphical_cultures = { mena_building_gfx berber_group_building_gfx west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -273,17 +262,6 @@ walls_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		requires_dlc_flag = khans_of_the_steppe
-		names = {
-			#"mpo_mongol_wall_02_mesh"
-			"western_nomadic_wall_01_mesh"
-		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx }
-		graphical_regions = { graphical_steppe }
-		governments = { nomad_government }
-	}
-	asset = {
-		type = pdxmesh
 		names = {
 			"mena_walls_02_a_mesh"
 			"mena_walls_02_a_mesh"
@@ -408,7 +386,7 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		name = "african_walls_02_mesh"
-		graphical_cultures = { sahelian_building_gfx african_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -490,17 +468,6 @@ walls_03 = {
 		}
 		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx }
 		graphical_regions = { graphical_western graphical_steppe }
-	}
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = khans_of_the_steppe
-		names = {
-			#"mpo_mongol_wall_02_mesh"
-			"western_nomadic_wall_01_mesh"
-		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx }
-		graphical_regions = { graphical_steppe }
-		governments = { nomad_government }
 	}
 	asset = {
 		type = pdxmesh
@@ -639,7 +606,7 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		name = "african_walls_03_mesh"
-		graphical_cultures = { sahelian_building_gfx african_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -885,7 +852,7 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		name = "african_walls_04_mesh"
-		graphical_cultures = { sahelian_building_gfx african_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {

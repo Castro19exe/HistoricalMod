@@ -12410,7 +12410,7 @@
 302185 = {			#Completely fictional, so Kyi can have proper brothers and sister
 	name = Kuar		#Name based on the possible original Armenian version of Kyi's legend, because why not
 	religion = slavic_pagan
-	culture = russian
+	culture = polian
 	526.1.16 = {
 		birth = 526.1.16
 	}
@@ -12425,7 +12425,7 @@
 	name = Dessenka	#Completely fictional, so Kyi can have proper brothers and sister
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = polian
 	530.4.9 = {
 		birth = 530.4.9
 	}

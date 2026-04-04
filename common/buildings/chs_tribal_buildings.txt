@@ -7,164 +7,165 @@ tribe_01 = {
 	construction_time = slow_construction_time
 
 	#Meshes (Indented for readability)
-		### GENERIC ### 
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_emishi_tribal_01_mesh"
-			}
-			requires_dlc_flag = north_pacific_attire
-			graphical_cultures = { emishi_building_gfx amuric_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	### GENERIC ### 
+	asset = {
+		type = pdxmesh
+		names = {
+			building_western_tribal_01_a_mesh
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				building_western_tribal_01_a_mesh
-			}
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_mena_tribal_01_a_mesh"
-			}
-			graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"mpo_mongol_01_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"mpo_mongol_01_mesh"
-			}
-			graphical_cultures = { steppe_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_india_tribal_01_a_mesh"
-			}
-			graphical_cultures = { indian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { indian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_african_tribal_01_a_mesh"
-			}
-			graphical_cultures = { african_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"fp1_building_norse_tribal_mesh"
-			}
-			requires_dlc_flag = the_northern_lords
-			graphical_cultures = { norse_building_gfx northern_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	# TGP Southeast Asia
+	asset = {
+		type = pdxmesh
+		names = {
+			"tgp_building_se_asia_tribal_01_mesh"
 		}
-		# TGP Southeast Asia
-		asset = {
-			type = pdxmesh
-			names = {
-				"tgp_building_se_asia_tribal_01_mesh"
-			}
-			graphical_cultures = { southeast_asian_building_gfx }
-			illustration = @holding_illustration_seasia
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			building_western_tribal_01_a_mesh
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				building_western_tribal_01_a_mesh
-			}
-			graphical_cultures = { eastern_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_celtic_hillfort_01_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_celtic_hillfort_01_mesh"
-			}
-			graphical_cultures = { celtic_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
 		}
-		asset = {
-			type = pdxmesh
-			names = { 
-				"building_sami_tribal_01_mesh" 
-				"building_sami_tribal_01_b_mesh" 
-			}
-			graphical_cultures = { sami_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { sami_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_tribal_01_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"slavic_tribal_01_mesh"
-			}
-			graphical_cultures = { east_slavic_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"tibetan_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"tibetan_tribal_mesh"
-			}
-			graphical_cultures = { tibetan_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_tribe_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"ethiopian_tribe_mesh"
-			}
-			graphical_cultures = { ethiopian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"guinean_tribal_mesh"
-			}
-			graphical_cultures = { guinean_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"sahelian_tribal_mesh"
+			"building_african_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"sahelian_tribal_mesh"
-			}
-			graphical_cultures = { sahelian_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { west_african_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
 		}
-		asset = {
-			type = pdxmesh
-			names = { 
-				"building_sami_tribal_01_mesh" 
-				"building_sami_tribal_01_b_mesh" 
-			}
-			graphical_cultures = { siberian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { siberian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_emishi_tribal_01_mesh"
 		}
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -240,164 +241,165 @@ tribe_02 = {
 	construction_time = slow_construction_time
 
 	#Meshes (Indented for readability)
-		### GENERIC ### 
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_emishi_tribal_02_mesh"
-			}
-			requires_dlc_flag = north_pacific_attire
-			graphical_cultures = { emishi_building_gfx amuric_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	### GENERIC ### 
+	asset = {
+		type = pdxmesh
+		names = {
+			building_western_tribal_01_a_mesh
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				building_western_tribal_01_a_mesh
-			}
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_mena_tribal_01_a_mesh"
-			}
-			graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"mpo_mongol_02_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"mpo_mongol_02_mesh"
-			}
-			graphical_cultures = { steppe_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { steppe_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mongolian_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_india_tribal_01_a_mesh"
-			}
-			graphical_cultures = { indian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { indian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_african_tribal_01_a_mesh"
-			}
-			graphical_cultures = { african_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"fp1_building_norse_tribal_mesh"
-			}
-			requires_dlc_flag = the_northern_lords
-			graphical_cultures = { norse_building_gfx northern_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	# TGP Southeast Asia
+	asset = {
+		type = pdxmesh
+		names = {
+			"tgp_building_se_asia_tribal_01_mesh"
 		}
-		# TGP Southeast Asia
-		asset = {
-			type = pdxmesh
-			names = {
-				"tgp_building_se_asia_tribal_01_mesh"
-			}
-			graphical_cultures = { southeast_asian_building_gfx }
-			illustration = @holding_illustration_seasia
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { southeast_asian_building_gfx }
+		illustration = @holding_illustration_seasia
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			building_western_tribal_01_a_mesh
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				building_western_tribal_01_a_mesh
-			}
-			graphical_cultures = { eastern_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_celtic_hillfort_02_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"building_celtic_hillfort_02_mesh"
-			}
-			graphical_cultures = { celtic_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { celtic_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
 		}
-		asset = {
-			type = pdxmesh
-			names = { 
-				"building_sami_tribal_01_mesh" 
-				"building_sami_tribal_01_b_mesh" 
-			}
-			graphical_cultures = { sami_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { sami_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"slavic_tribal_01_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"slavic_tribal_01_mesh"
-			}
-			graphical_cultures = { east_slavic_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { east_slavic_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"tibetan_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"tibetan_tribal_mesh"
-			}
-			graphical_cultures = { tibetan_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { tibetan_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"ethiopian_tribe_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"ethiopian_tribe_mesh"
-			}
-			graphical_cultures = { ethiopian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { ethiopian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_tribal_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"guinean_tribal_mesh"
-			}
-			graphical_cultures = { guinean_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { guinean_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"sahelian_tribal_mesh"
+			"building_african_tribal_01_a_mesh"
 		}
-		asset = {
-			type = pdxmesh
-			names = {
-				"sahelian_tribal_mesh"
-			}
-			graphical_cultures = { sahelian_building_gfx }
-			illustration = @holding_illustration_arid
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { west_african_building_gfx }
+		illustration = @holding_illustration_arid
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = { 
+			"building_sami_tribal_01_mesh" 
+			"building_sami_tribal_01_b_mesh" 
 		}
-		asset = {
-			type = pdxmesh
-			names = { 
-				"building_sami_tribal_01_mesh" 
-				"building_sami_tribal_01_b_mesh" 
-			}
-			graphical_cultures = { siberian_building_gfx }
-			illustration = @holding_illustration_grass
-			soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { siberian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_emishi_tribal_02_mesh"
 		}
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 		
 	is_enabled = {
 		building_requirement_tribal = yes

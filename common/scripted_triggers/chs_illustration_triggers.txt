@@ -28,7 +28,7 @@ has_graphical_steppe_culture_group_trigger = {
 has_graphical_african_culture_group_trigger = {
 	OR = {
 		has_building_gfx = african_building_gfx
-		has_building_gfx = sahelian_building_gfx
+		has_building_gfx = west_african_building_gfx
 		has_building_gfx = guinean_building_gfx
 		has_building_gfx = ethiopian_building_gfx
 	}

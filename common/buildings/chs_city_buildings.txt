@@ -11,7 +11,7 @@
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/city_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds"
 @holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
-@holding_illustration_sahelian = "gfx/interface/illustrations/holding_types/city_sahelian.dds"
+@holding_illustration_west_african = "gfx/interface/illustrations/holding_types/city_west_african.dds"
 @holding_illustration_ethiopian = "gfx/interface/illustrations/holding_types/city_ethiopian.dds"
 @holding_illustration_slavic = "gfx/interface/illustrations/holding_types/city_slavic.dds"
 @holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/city_tibetan.dds"
@@ -465,13 +465,13 @@ city_01 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -1143,13 +1143,13 @@ city_02 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_01_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -1797,13 +1797,13 @@ city_03 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -2403,13 +2403,13 @@ city_04 = {
 		graphical_cultures = { celtic_building_gfx }
 	}
 
-	### SAHELIAN ###
+	### WEST AFRICAN ###
 	asset = {
 		type = pdxmesh
 		name = "sahelian_city_02_mesh"
-		illustration = @holding_illustration_sahelian
+		illustration = @holding_illustration_west_african
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 

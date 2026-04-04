@@ -15,7 +15,8 @@
 @illustration_byzantine_pagan = "gfx/interface/illustrations/holding_types/temple_byzantine_pagan.dds"
 @illustration_iranian_islamic = "gfx/interface/illustrations/holding_types/temple_iranian_islamic.dds"
 @illustration_iranian_zoroastrian = "gfx/interface/illustrations/holding_types/fp3_temple_iranian_zoroastrian.dds"
-@illustration_sahelian_islamic = "gfx/interface/illustrations/holding_types/temple_sahelian_islamic.dds"
+@illustration_west_african_christian = "gfx/interface/illustrations/holding_types/temple_west_african_christian.dds"
+@illustration_west_african_islamic = "gfx/interface/illustrations/holding_types/temple_west_african_islamic.dds"
 @illustration_african_pagan = "gfx/interface/illustrations/holding_types/temple_african_pagan.dds"
 @illustration_ethiopian_orthodox = "gfx/interface/illustrations/holding_types/temple_ethiopian_orthodox.dds"
 @illustration_tengri = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds"
@@ -432,23 +433,33 @@ temple_01 = {
 		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
-	# Sahelian Pagan and Islamic
+	# West African Pagan and Islamic
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_01_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_01_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { catholic_gfx orthodox_gfx }
+		graphical_cultures = { west_african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_african_temple_islamic_01_mesh"
+		requires_dlc_flag = holy_buildings
+		illustration = @illustration_west_african_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -1356,23 +1367,33 @@ temple_02 = {
 		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
-	# Sahelian Pagan and Islamic
+	# West African Pagan and Islamic
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_01_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_01_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { catholic_gfx orthodox_gfx }
+		graphical_cultures = { west_african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_african_temple_islamic_01_mesh"
+		requires_dlc_flag = holy_buildings
+		illustration = @illustration_west_african_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -2148,23 +2169,33 @@ temple_03 = {
 		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
-	# Sahelian Pagan and Islamic
+	# West African Pagan and Islamic
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_02_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_02_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { catholic_gfx orthodox_gfx }
+		graphical_cultures = { west_african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_african_temple_islamic_02_mesh"
+		requires_dlc_flag = holy_buildings
+		illustration = @illustration_west_african_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 
@@ -2931,23 +2962,33 @@ temple_04 = {
 		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
-	# Sahelian Pagan and Islamic
+	# West African Pagan and Islamic
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_02_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
 		name = "sahelian_temple_islam_02_mesh"
-		illustration = @illustration_sahelian_islamic
+		illustration = @illustration_west_african_christian
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
+		graphical_faiths = { catholic_gfx orthodox_gfx }
+		graphical_cultures = { west_african_building_gfx }
+		graphical_regions = { graphical_mena }
+	}
+	asset = {
+		type = pdxmesh
+		name = "cp6_building_african_temple_islamic_02_mesh"
+		requires_dlc_flag = holy_buildings
+		illustration = @illustration_west_african_islamic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
-		graphical_cultures = { sahelian_building_gfx }
+		graphical_cultures = { west_african_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 

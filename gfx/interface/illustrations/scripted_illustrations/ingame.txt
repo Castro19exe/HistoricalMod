@@ -12849,16 +12849,6 @@ culture_knight_big_illustration = {
 		reference = "men_at_arms_big/knights_anglo_saxon.dds" 
 	}
 
-	# --- CRIMEAN-GOTHIC ---
-	texture = {
-		trigger = {
-			culture = {
-				has_cultural_pillar = heritage_east_germanic
-			}
-		}   		
-		reference = "men_at_arms_big/heavy_infantry_gothic.dds" 
-	}
-
 	# --- EAST SLAVIC ---
 	texture = {
 		trigger = {

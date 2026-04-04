@@ -15884,7 +15884,6 @@ e_byzantium = {
 					name_list_maghrebi = cn_sarqusa
 					name_list_andalusian = cn_sarqusa
 					name_list_yemeni = cn_sarqusa
-					name_list_norse = "Sýrakus"
 				}
 
 				b_syracusa = {
@@ -15899,7 +15898,6 @@ e_byzantium = {
 						name_list_maghrebi = cn_sarqusa
 						name_list_andalusian = cn_sarqusa
 						name_list_yemeni = cn_sarqusa
-						name_list_norse = "Sýrakus"
 					}
 				}
 				b_lentini = {
@@ -15948,8 +15946,6 @@ e_byzantium = {
 					name_list_andalusian = cn_qasriyana
 					name_list_yemeni = cn_qasriyana
 					name_list_greek = cn_enna
-
-					name_list_norse = "Jónborg"
 				}
 
 				b_castrogiovanni = { # Castrogiovanni
@@ -15965,8 +15961,6 @@ e_byzantium = {
 						name_list_andalusian = cn_qasriyana
 						name_list_yemeni = cn_qasriyana
 						name_list_greek = cn_enna
-
-						name_list_norse = "Jónborg"
 					}
 				}
 				b_agricento = { # Grigenti
@@ -16122,14 +16116,7 @@ e_byzantium = {
 				color = { 230 225 90 }
 
 				cultural_names = {
-					name_list_italian = "Napoli"
-					name_list_lombard = "Napoli"
-					name_list_cisalpine = "Napoli"
-					name_list_sicilian = "Napoli"
-					name_list_sardinian = "Napoli"
-
-					name_list_greek = "Neapolis"
-					name_list_roman = "Neapolis"
+					name_list_greek = Neapolis
 				}
 
 				b_napoli = {
@@ -16138,14 +16125,7 @@ e_byzantium = {
 					color = { 230 225 90 }
 
 					cultural_names = {
-						name_list_italian = "Napoli"
-						name_list_lombard = "Napoli"
-						name_list_cisalpine = "Napoli"
-						name_list_sicilian = "Napoli"
-						name_list_sardinian = "Napoli"
-
-						name_list_greek = "Neapolis"
-						name_list_roman = "Neapolis"
+						name_list_greek = Neapolis
 					}
 				}
 				b_amalfi = {
@@ -16560,19 +16540,13 @@ e_italy = {
 				color = { 180 255 200 }
 
 				cultural_names = {
+					name_list_carantanian = "Gorica"
 					name_list_italian = "Gorizia"
-					name_list_lombard = "Gorizia"
-					name_list_cisalpine = "Gorizia"
-					name_list_sicilian = "Gorizia"
-					name_list_sardinian = "Gorizia"
-					
 					name_list_swabian = "Görz"
 					name_list_franconian = "Görz"
 					name_list_bavarian = "Görz"
 					name_list_saxon = "Görz"
 					name_list_thuringian = "Görz"
-
-					name_list_carantanian = "Gorica"
 				}
 
 				b_gorizia = {
@@ -16581,19 +16555,13 @@ e_italy = {
 					color = { 180 255 200 }
 
 					cultural_names = {
+						name_list_carantanian = "Gorica"
 						name_list_italian = "Gorizia"
-						name_list_lombard = "Gorizia"
-						name_list_cisalpine = "Gorizia"
-						name_list_sicilian = "Gorizia"
-						name_list_sardinian = "Gorizia"
-						
 						name_list_swabian = "Görz"
 						name_list_franconian = "Görz"
 						name_list_bavarian = "Görz"
 						name_list_saxon = "Görz"
 						name_list_thuringian = "Görz"
-
-						name_list_carantanian = "Gorica"
 					}
 				}
 				b_triglavski = { #Tricorno
@@ -16602,19 +16570,16 @@ e_italy = {
 					color = { 180 255 200 }
 
 					cultural_names = {
-						name_list_italian = "Tolmino"
-						name_list_lombard = "Tolmino"
-						name_list_cisalpine = "Tolmino"
-						name_list_sicilian = "Tolmino"
-						name_list_sardinian = "Tolmino"
-						
-						name_list_swabian = "Tolmein"
-						name_list_franconian = "Tolmein"
-						name_list_bavarian = "Tolmein"
-						name_list_saxon = "Tolmein"
-						name_list_thuringian = "Tolmein"
-
-						name_list_carantanian = "Tolmin"
+						name_list_italian = Tolmino
+						name_list_lombard = Tolmino
+						name_list_cisalpine = Tolmino
+						name_list_sicilian = Tolmino
+						name_list_sardinian = Tolmino
+						name_list_swabian = Tolmein
+						name_list_franconian = Tolmein
+						name_list_bavarian = Tolmein
+						name_list_saxon = Tolmein
+						name_list_thuringian = Tolmein
 					}
 				}
 			}
@@ -16734,10 +16699,20 @@ e_italy = {
 			c_turin = {
 				color = { 195 115 135 }
 
+				cultural_names = {
+					name_list_italian = Torino
+					name_list_sicilian = Turinu
+				}
+
 				b_turin = {
 					province = 2041
 
 					color = { 195 115 135 }
+
+					cultural_names = {
+						name_list_italian = Torino
+						name_list_sicilian = Turinu
+					}
 				}
 				b_chieri = {
 					province = 2045
@@ -16871,17 +16846,11 @@ e_italy = {
 				color = { 250 150 220 }
 
 				cultural_names = {
-					name_list_italian = "Trento"
-					name_list_lombard = "Trento"
-					name_list_cisalpine = "Trento"
-					name_list_sicilian = "Trento"
-					name_list_sardinian = "Trento"
-					
-					name_list_swabian = "Trent"
-					name_list_franconian = "Trent"
-					name_list_bavarian = "Trent"
-					name_list_saxon = "Trent"
-					name_list_thuringian = "Trent"
+					name_list_italian = Trento
+					name_list_lombard = Trento
+					name_list_cisalpine = Trento
+					name_list_sicilian = Trento
+					name_list_sardinian = Trento
 				}
 
 				b_trento = {
@@ -16890,17 +16859,11 @@ e_italy = {
 					color = { 250 150 220 }
 
 					cultural_names = {
-						name_list_italian = "Trento"
-						name_list_lombard = "Trento"
-						name_list_cisalpine = "Trento"
-						name_list_sicilian = "Trento"
-						name_list_sardinian = "Trento"
-						
-						name_list_swabian = "Trent"
-						name_list_franconian = "Trent"
-						name_list_bavarian = "Trent"
-						name_list_saxon = "Trent"
-						name_list_thuringian = "Trent"
+						name_list_swabian = Trent
+						name_list_franconian = Trent
+						name_list_bavarian = Trent
+						name_list_saxon = Trent
+						name_list_thuringian = Trent
 					}
 				}
 				b_bolzano = {
@@ -16909,16 +16872,11 @@ e_italy = {
 					color = { 250 150 220 }
 
 					cultural_names = {
-						name_list_italian = "Bolzano"
-						name_list_lombard = "Bolzano"
-						name_list_cisalpine = "Bolzano"
-						name_list_sicilian = "Bolzano"
-
-						name_list_swabian = "Bozen"
-						name_list_franconian = "Bozen"
-						name_list_bavarian = "Bozen"
-						name_list_saxon = "Bozen"
-						name_list_thuringian = "Bozen"
+						name_list_swabian = Bozen
+						name_list_franconian = Bozen
+						name_list_bavarian = Bozen
+						name_list_saxon = Bozen
+						name_list_thuringian = Bozen
 					}
 				}
 				b_val_camonica = {	#Riva AKA Riva del Garda
@@ -16932,15 +16890,13 @@ e_italy = {
 					color = { 250 150 220 }
 
 					cultural_names = {
-						name_list_italian = "Tirano"
-						name_list_lombard = "Tiran"
-						name_list_cisalpine = "Tiran"
-
-						name_list_swabian = "Thiran"
-						name_list_franconian = "Thiran"
-						name_list_bavarian = "Thiran"
-						name_list_saxon = "Thiran"
-						name_list_thuringian = "Thiran"
+						name_list_lombard = Tiran
+						name_list_cisalpine = Tiran
+						name_list_swabian = Thiran
+						name_list_franconian = Thiran
+						name_list_bavarian = Thiran
+						name_list_saxon = Thiran
+						name_list_thuringian = Thiran
 					}
 				}
 			}
@@ -49091,6 +49047,21 @@ e_france = {
 					province = 2018
 
 					color = { 165 50 105 }
+
+					cultural_names = {
+						name_list_occitan = Marselha
+						name_list_aragonese = Marsella
+						name_list_asturleonese = Marsella
+						name_list_galician = Marsella
+						name_list_portuguese = Marselha
+						name_list_castilian = Marsella
+						name_list_catalan = Marsella
+						name_list_cisalpine = Marsiglia
+						name_list_italian = Marsiglia
+						name_list_lombard = Marsiglia
+						name_list_sicilian = Marsiglia
+						name_list_sardinian = Marsiglia
+					}
 				}
 				b_aix = {
 					province = 2023
@@ -49102,17 +49073,12 @@ e_france = {
 				color = { 195 75 90 }
 
 				cultural_names = {
-					name_list_french = "Nice"
-					name_list_occitan = "Nissa"            # Niça or Nissa
-
-					name_list_italian = "Nizza"
-					name_list_lombard = "Nizza"
-					name_list_cisalpine = "Nizza"
-					name_list_sicilian = "Nizza"
-					name_list_sardinian = "Nizza"
-
-					name_list_greek = "Nikaia"
-					name_list_roman = "Nicaea"
+					name_list_occitan = Nissa
+					name_list_italian = Nizza
+					name_list_lombard = Nizza
+					name_list_cisalpine = Nizza
+					name_list_sicilian = Nizza
+					name_list_sardinian = Nizza
 				}
 
 				b_nice = {
@@ -49121,17 +49087,12 @@ e_france = {
 					color = { 195 75 90 }
 
 					cultural_names = {
-						name_list_french = "Nice"
-						name_list_occitan = "Nissa"            # Niça or Nissa
-
-						name_list_italian = "Nizza"
-						name_list_lombard = "Nizza"
-						name_list_cisalpine = "Nizza"
-						name_list_sicilian = "Nizza"
-						name_list_sardinian = "Nizza"
-
-						name_list_greek = "Nikaia"
-						name_list_roman = "Nicaea"
+						name_list_occitan = Nissa
+						name_list_italian = Nizza
+						name_list_lombard = Nizza
+						name_list_cisalpine = Nizza
+						name_list_sicilian = Nizza
+						name_list_sardinian = Nizza
 					}
 				}
 				b_grasse = {
@@ -49140,16 +49101,12 @@ e_france = {
 					color = { 195 75 90 }
 
 					cultural_names = {
-						name_list_french = "Grasse"
-						name_list_occitan = "Grassa"
-
-						name_list_italian = "Grassa"
-						name_list_lombard = "Grassa"
-						name_list_cisalpine = "Grassa"
-						name_list_sicilian = "Grassa"
-						name_list_sardinian = "Grassa"
-
-						name_list_roman = "Podium Grassum"
+						name_list_occitan = Grassa
+						name_list_italian = Grassa
+						name_list_lombard = Grassa
+						name_list_cisalpine = Grassa
+						name_list_sicilian = Grassa
+						name_list_sardinian = Grassa
 					}
 				}
 				b_barcelonnette = {
@@ -49158,16 +49115,12 @@ e_france = {
 					color = { 195 75 90 }
 
 					cultural_names = {
-						name_list_french = "Barcelonnette"
-						name_list_occitan = "Barcilona"             # Barciloneta or Barcilona
-
-						name_list_italian = "Barcellonetta"
-						name_list_lombard = "Barcellonetta"
-						name_list_cisalpine = "Barcellonetta"
-						name_list_sicilian = "Barcellonetta"
-						name_list_sardinian = "Barcellonetta"
-
-						name_list_roman = "Barcino Nova"
+						name_list_occitan = Barcilona
+						name_list_italian = Barcellonetta
+						name_list_lombard = Barcellonetta
+						name_list_cisalpine = Barcellonetta
+						name_list_sicilian = Barcellonetta
+						name_list_sardinian = Barcellonetta
 					}
 				}
 				b_puget = {
@@ -49225,13 +49178,38 @@ e_france = {
 
 			capital = c_savoie # Savoie
 
+			cultural_names = {
+				name_list_cisalpine = Savoia
+				name_list_italian = Savoia
+				name_list_lombard = Savoia
+				name_list_sicilian = Savoia
+				name_list_sardinian = Savoia
+			}
+
+
 			c_savoie = {
 				color = { 81 8 14 }
+
+				cultural_names = {
+					name_list_cisalpine = Savoia
+					name_list_italian = Savoia
+					name_list_lombard = Savoia
+					name_list_sicilian = Savoia
+					name_list_sardinian = Savoia
+				}
 
 				b_moutiers = {
 					province = 2031
 
 					color = { 81 8 14 }
+
+					cultural_names = {
+						name_list_cisalpine = Mostieri
+						name_list_italian = Mostieri
+						name_list_lombard = Mostieri
+						name_list_sicilian = Mostieri
+						name_list_sardinian = Mostieri
+					}
 				}
 				b_saint_michel_de_maurienne = {
 					province = 2029
@@ -49267,11 +49245,11 @@ e_france = {
 				color = { 175 40 65 }
 
 				cultural_names = {
-					name_list_swabian = "Genf"
-					name_list_franconian = "Genf"
-					name_list_bavarian = "Genf"
-					name_list_saxon = "Genf"
-					name_list_thuringian = "Genf"
+					name_list_swabian = Genf
+					name_list_franconian = Genf
+					name_list_bavarian = Genf
+					name_list_saxon = Genf
+					name_list_thuringian = Genf
 				}
 
 				b_geneva = {
@@ -49280,11 +49258,11 @@ e_france = {
 					color = { 175 40 65 }
 
 					cultural_names = {
-						name_list_swabian = "Genf"
-						name_list_franconian = "Genf"
-						name_list_bavarian = "Genf"
-						name_list_saxon = "Genf"
-						name_list_thuringian = "Genf"
+						name_list_swabian = Genf
+						name_list_franconian = Genf
+						name_list_bavarian = Genf
+						name_list_saxon = Genf
+						name_list_thuringian = Genf
 					}
 				}
 				b_annecy = {
@@ -54314,13 +54292,49 @@ e_maghreb = {
 
 			capital = c_algier # Algier
 
+			cultural_names = {
+				name_list_bedouin = "Al-Jazā'ir"
+				name_list_maghrebi = "Al-Jazā'ir"
+				name_list_levantine = "Al-Jazā'ir"
+				name_list_egyptian = "Al-Jazā'ir"
+				name_list_andalusian = "Al-Jazā'ir"
+				name_list_yemeni = "Al-Jazā'ir"
+				name_list_baranis = "Al-Jazā'ir"
+				name_list_butr = "Al-Jazā'ir"
+				name_list_zaghawa = "Al-Jazā'ir"
+			}
+
 			c_algier = {
 				color = { 92 148 52 }
+
+				cultural_names = {
+					name_list_bedouin = "Al-Jazā'ir"
+					name_list_maghrebi = "Al-Jazā'ir"
+					name_list_levantine = "Al-Jazā'ir"
+					name_list_egyptian = "Al-Jazā'ir"
+					name_list_andalusian = "Al-Jazā'ir"
+					name_list_yemeni = "Al-Jazā'ir"
+					name_list_baranis = "Al-Jazā'ir"
+					name_list_butr = "Al-Jazā'ir"
+					name_list_zaghawa = "Al-Jazā'ir"
+				}
 
 				b_algiers = {
 					province = 4650
 
 					color = { 92 148 52 }
+
+					cultural_names = {
+						name_list_bedouin = "Al-Jazā'ir"
+						name_list_maghrebi = "Al-Jazā'ir"
+						name_list_levantine = "Al-Jazā'ir"
+						name_list_egyptian = "Al-Jazā'ir"
+						name_list_andalusian = "Al-Jazā'ir"
+						name_list_yemeni = "Al-Jazā'ir"
+						name_list_baranis = "Al-Jazā'ir"
+						name_list_butr = "Al-Jazā'ir"
+						name_list_zaghawa = "Al-Jazā'ir"
+					}
 				}
 				b_medea = {
 					province = 4648
@@ -65820,6 +65834,11 @@ e_guinea = {
 					province = 8072
 
 					color = { 228 122 130 }
+
+					cultural_names = {
+						name_list_greek = Beninoupolis
+						name_list_crimean_gothic = Beninoupolis
+					}
 				}
 				b_benin = {
 					province = 8071
