@@ -21967,7 +21967,7 @@ e_wendish_empire = {
 				color = { 205 105 105 }
 
 				cultural_names = {
-					name_list_norse = Maríugarðr
+					name_list_norse = "Maríugarðr"
 					name_list_swedish = Marienborg
 					name_list_norwegian = Marienborg
 					name_list_danish = Marienborg
@@ -22005,7 +22005,7 @@ e_wendish_empire = {
 					color = { 205 105 105 }
 
 					cultural_names = {
-						name_list_norse = Maríugarðr
+						name_list_norse = "Maríugarðr"
 						name_list_swedish = Marienborg
 						name_list_norwegian = Marienborg
 						name_list_danish = Marienborg
@@ -58409,6 +58409,15 @@ e_abyssinia = {
 		color = { 120 62 20 }
 
 		capital = c_lasta
+
+		cultural_names = {
+			name_list_bedouin = "Al-Habāsha"
+			name_list_maghrebi = "Al-Habāsha"
+			name_list_levantine = "Al-Habāsha"
+			name_list_egyptian = "Al-Habāsha"
+			name_list_andalusian = "Al-Habāsha"
+			name_list_yemeni = "Al-Habāsha"
+		}
 
 		ai_primary_priority = {
 			if = {
