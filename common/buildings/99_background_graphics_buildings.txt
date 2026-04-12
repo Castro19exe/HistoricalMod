@@ -75,7 +75,7 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx eastern_building_gfx east_slavic_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 	asset = {
@@ -84,7 +84,7 @@ walls_01 = {
 			"mena_walls_01_a_mesh"
 			"mena_walls_01_b_mesh"
 		}
-		graphical_cultures = { mena_building_gfx berber_group_building_gfx west_african_building_gfx african_building_gfx }
+		graphical_cultures = { mena_building_gfx berber_group_building_gfx }
 		graphical_regions = { graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -191,6 +191,12 @@ walls_01 = {
 		}
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_east_asia graphical_steppe }
+	}
+	asset = {
+		type = pdxmesh
+		name = "tribal_walls_01_b_mena_mesh"
+		graphical_cultures = { west_african_building_gfx african_building_gfx }
+		graphical_regions = { graphical_mena }
 	}
 	asset = {
 		type = pdxmesh
@@ -312,7 +318,7 @@ walls_02 = {
 		names = {
 			"ep3_byzantine_walls_02_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx }
+		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -530,7 +536,7 @@ walls_03 = {
 		names = {
 			"ep3_byzantine_walls_03_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx }
+		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -768,7 +774,7 @@ walls_04 = {
 		names = {
 			"ep3_byzantine_walls_04_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx }
+		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {

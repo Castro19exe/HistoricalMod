@@ -5705,7 +5705,7 @@ e_germany = {
 						name_list_bavarian = Oldenburg
 						name_list_saxon = Oldenburg
 						name_list_thuringian = Oldenburg
-						name_list_norse = Brandehuse
+						name_list_norse = Olenborg
 						name_list_danish = Olenborg
 						name_list_swedish = Olenborg
 						name_list_norwegian = Olenborg
@@ -5740,6 +5740,9 @@ e_germany = {
 				color = { 165 95 100 }
 
 				cultural_names = {
+					name_list_norse = Ditmarsken
+					name_list_swedish = Ditmarsken
+					name_list_norwegian = Ditmarsken
 					name_list_danish = Ditmarsken
 				}
 
@@ -5749,6 +5752,9 @@ e_germany = {
 					color = { 165 95 100 }
 
 					cultural_names = {
+						name_list_norse = Ditmarsken
+						name_list_swedish = Ditmarsken
+						name_list_norwegian = Ditmarsken
 						name_list_danish = Ditmarsken
 					}
 				}
@@ -5758,7 +5764,10 @@ e_germany = {
 					color = { 165 95 100 }
 
 					cultural_names = {
-						name_list_danish = "Nymønsted"
+						name_list_norse = Nymønster
+						name_list_swedish = Nymønster
+						name_list_norwegian = Nymønster
+						name_list_danish = Nymønster
 					}
 				}
 				b_itzehoe = {
@@ -5767,7 +5776,10 @@ e_germany = {
 					color = { 165 95 100 }
 
 					cultural_names = {
-						name_list_danish = "Itzehå"
+						name_list_norse = Eselfælt
+						name_list_swedish = Eselfælt
+						name_list_norwegian = Eselfælt
+						name_list_danish = Eselfælt
 					}
 				}
 			}
@@ -5778,6 +5790,10 @@ e_germany = {
 		color = { 245 100 20 }
 
 		capital = c_holland #Holland
+
+		cultural_names = {
+			name_list_dutch = Holland
+		}
 
 		can_create = {
 			trigger_if = {
@@ -5801,10 +5817,6 @@ e_germany = {
 				}
 				add = @correct_culture_primary_score
 			}
-		}
-
-		cultural_names = {
-			name_list_dutch = Holland
 		}
 
 		d_holland = {
@@ -7771,24 +7783,24 @@ e_germany = {
 			capital = c_kranj # Kranj
 
 			cultural_names = {
-				name_list_carantanian = "Kranjska"
-
-				name_list_swabian = "Krain"
-				name_list_franconian = "Krain"
-				name_list_bavarian = "Krain"
-				name_list_saxon = "Krain"
-				name_list_thuringian = "Krain"
+				name_list_carantanian = Kranjska
+				name_list_cisalpine = Carniola
+				name_list_italian = Carniola
+				name_list_lombard = Carniola
+				name_list_sardinian = Carniola
+				name_list_sicilian = Carniola
 			}
 
 			c_kranj = {
 				color = { 95 120 100 }
 
 				cultural_names = {
-					name_list_swabian = "Krainburg"
-					name_list_franconian = "Krainburg"
-					name_list_bavarian = "Krainburg"
-					name_list_saxon = "Krainburg"
-					name_list_thuringian = "Krainburg"
+					name_list_swabian = cn_krainburg
+					name_list_swabian = cn_krainburg
+					name_list_franconian = cn_krainburg
+					name_list_bavarian = cn_krainburg
+					name_list_saxon = cn_krainburg
+					name_list_thuringian = cn_krainburg
 				}
 
 				b_kranj = {
@@ -7824,18 +7836,11 @@ e_germany = {
 				color = { 90 125 115 }
 
 				cultural_names = {
-					name_list_carantanian = "Ljubljana"
-
-					name_list_italian = "Lubiana"
-					name_list_lombard = "Lubiana"
-					name_list_cisalpine = "Lubiana"
-					name_list_sicilian = "Lubiana"
-
-					name_list_swabian = "Laibach"
-					name_list_franconian = "Laibach"
-					name_list_bavarian = "Laibach"
-					name_list_saxon = "Laibach"
-					name_list_thuringian = "Laibach"
+					name_list_carantanian = Ljubljana
+					name_list_italian = Lubiana
+					name_list_lombard = Lubiana
+					name_list_cisalpine = Lubiana
+					name_list_sicilian = Lubiana
 				}
 
 				b_ljubljana = {
@@ -7844,20 +7849,11 @@ e_germany = {
 					color = { 90 125 115 }
 
 					cultural_names = {
-						name_list_carantanian = "Ljubljana"
-
-						name_list_italian = "Lubiana"
-						name_list_lombard = "Lubiana"
-						name_list_cisalpine = "Lubiana"
-						name_list_sicilian = "Lubiana"
-
-						name_list_swabian = "Laibach"
-						name_list_franconian = "Laibach"
-						name_list_bavarian = "Laibach"
-						name_list_saxon = "Laibach"
-						name_list_thuringian = "Laibach"
-
-						name_list_roman = "Labacum"
+						name_list_carantanian = Ljubljana
+						name_list_italian = Lubiana
+						name_list_lombard = Lubiana
+						name_list_cisalpine = Lubiana
+						name_list_sicilian = Lubiana
 					}
 				}
 				b_dobovec = {
@@ -7866,7 +7862,7 @@ e_germany = {
 					color = { 90 125 115 }
 
 					cultural_names = {
-						name_list_carantanian = "Dobovec"
+						name_list_carantanian = Dobovec
 					}
 				}
 				b_rudolfswerde = {
@@ -7876,6 +7872,11 @@ e_germany = {
 
 					cultural_names = {
 						name_list_carantanian = "Novo Mesto"
+						name_list_cisalpine = "Nuova Città"
+						name_list_italian = "Nuova Città"
+						name_list_lombard = "Nuova Città"
+						name_list_sardinian = "Nuova Città"
+						name_list_sicilian = "Nuova Città"
 					}
 				}
 				b_ribnica = {
@@ -7884,7 +7885,7 @@ e_germany = {
 					color = { 90 125 115 }
 
 					cultural_names = {
-						name_list_carantanian = "Ribnica"
+						name_list_carantanian = Ribnica
 					}
 				}
 			}
@@ -7911,9 +7912,6 @@ e_germany = {
 					name_list_bavarian = "Polei"
 					name_list_saxon = "Polei"
 					name_list_thuringian = "Polei"
-
-					name_list_greek = "Pola"
-					name_list_roman = "Pola"
 				}
 
 				b_pula = {
@@ -7936,9 +7934,6 @@ e_germany = {
 						name_list_bavarian = "Polei"
 						name_list_saxon = "Polei"
 						name_list_thuringian = "Polei"
-
-						name_list_greek = "Pola"
-						name_list_roman = "Pola"
 					}
 				}
 				b_piran = {
@@ -7947,14 +7942,12 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_italian = "Pirano"
-						name_list_lombard = "Pirano"
-						name_list_cisalpine = "Pirano"
-						name_list_sicilian = "Pirano"
-						name_list_sardinian = "Pirano"
-						name_list_dalmatian = "Pirano"
-
-						name_list_roman = "Piranum"
+						name_list_italian = Pirano
+						name_list_lombard = Pirano
+						name_list_cisalpine = Pirano
+						name_list_sicilian = Pirano
+						name_list_sardinian = Pirano
+						name_list_dalmatian = Pirano
 					}
 				}
 				b_pazin = {
@@ -7963,15 +7956,12 @@ e_germany = {
 					color = { 75 110 105 }
 
 					cultural_names = {
-						name_list_roman = "Pucinium"
-
 						name_list_italian = "Pisino"
 						name_list_lombard = "Pisino"
 						name_list_cisalpine = "Pisino"
 						name_list_sicilian = "Pisino"
 						name_list_sardinian = "Pisino"
 						name_list_dalmatian = "Pisino"
-
 						name_list_croatian = "Pazin"
 						name_list_carantanian = "Pazin"
 					}
@@ -7988,8 +7978,6 @@ e_germany = {
 						name_list_sicilian = "Albona"
 						name_list_sardinian = "Albona"
 						name_list_dalmatian = "Albona"
-
-						name_list_roman = "Albona"
 					}
 				}
 			}
@@ -21261,7 +21249,7 @@ e_wendish_empire = {
 				name_list_swabian = Mecklenburg
 				name_list_bavarian = Mecklenburg
 				name_list_thuringian = Mecklenburg
-				name_list_norse = Vendland
+				name_list_norse = Mecklenborg
 				name_list_swedish = Mecklenborg
 				name_list_norwegian = Mecklenborg
 				name_list_danish = Mecklenborg
@@ -21286,9 +21274,9 @@ e_wendish_empire = {
 					color = { 165 165 115 }
 
 					cultural_names = {
-						name_list_polabian = cn_veligrad
-						name_list_pommeranian = cn_veligrad
-						name_list_sorbian = cn_veligrad
+						name_list_polabian = Wyszomierz
+						name_list_pommeranian = Wyszomierz
+						name_list_sorbian = Wyszomierz
 						name_list_norse = Vismar
 						name_list_swedish = Vismar
 						name_list_norwegian = Vismar
@@ -27150,8 +27138,6 @@ e_russia = {	#Kievan Rus
 		color = { 70 150 90 }
 
 		capital = c_kiev # Kiev
-
-		definite_form = yes
 
 		ai_primary_priority = {
 			if = {
@@ -53355,7 +53341,16 @@ e_spain = {
 e_maghreb = {
 	color = { 209 63 44 }
 
-	capital = c_kairwan # Kairouan
+	capital = c_marrakesh # Marrakesh
+
+	cultural_names = {
+		name_list_castilian = Morocco
+		name_list_asturleonese = Morocco
+		name_list_galician = Morocco
+		name_list_portuguese = Morocco
+		name_list_aragonese = Morocco
+		name_list_catalan = Morocco
+	}
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes

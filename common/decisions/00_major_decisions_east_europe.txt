@@ -54,18 +54,18 @@ unite_the_eastern_slavs_decision = {
 
 	effect = {
 		gain_heroic_legend_seed_tooltip_effect = yes
-		save_scope_as = western_slav_uniter
+		save_scope_as = eastern_slav_uniter
 
-		show_as_tooltip = { unite_the_western_slavs_decision_effects = yes } #Actually applied in east_europe.0001 - prestige, laws, title, innovation effects
+		show_as_tooltip = { unite_the_eastern_slavs_decision_effects = yes } #Actually applied in east_europe.0003 - prestige, laws, title, innovation effects
 
 		#Events
-		trigger_event = east_europe.0001
+		trigger_event = east_europe.0003
 		every_player = {
 			limit = {
-				this != scope:western_slav_uniter
-				is_within_diplo_range = { CHARACTER = scope:western_slav_uniter }
+				this != scope:eastern_slav_uniter
+				is_within_diplo_range = { CHARACTER = scope:eastern_slav_uniter }
 			}
-			trigger_event = east_europe.0002
+			trigger_event = east_europe.0004
 		}
 
 		#Can only be done once
@@ -75,11 +75,11 @@ unite_the_eastern_slavs_decision = {
 		}
 		set_global_variable = {
 			name = unite_the_eastern_slavs_decision
-			value = scope:western_slav_uniter
+			value = scope:eastern_slav_uniter
 		}
 		set_global_variable = {
 			name = unite_the_eastern_slavs_decision_title
-			value = scope:western_slav_uniter.primary_title
+			value = scope:eastern_slav_uniter.primary_title
 		}
 	}
 	

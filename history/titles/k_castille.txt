@@ -3,8 +3,8 @@ k_castille = {
 	1066.1.1 = { change_development_level = 8 }
 	1178.1.1 = { change_development_level = 24 }
  
-	1065.12.26 = {
-		insert_title_history = k_leon
+	1037.09.04 = {
+		holder = 107510 # Fernando I 'el Magno'
 	}
 	1065.12.27 = {
 		holder = 107500 # Sancho II Fern�ndez

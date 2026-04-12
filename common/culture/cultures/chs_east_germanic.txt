@@ -124,7 +124,7 @@ crimean_gothic = {
 	name_list = name_list_crimean_gothic
 	
 	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { northern_building_gfx }
+	building_gfx = { byzantine_building_gfx }
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	unit_gfx = { crimean_gothic_unit_gfx }

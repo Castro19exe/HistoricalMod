@@ -1,0 +1,40 @@
+east_europe.0003 = {
+	type = character_event
+	title = east_europe.0003.t
+	desc = east_europe.0003.desc
+	theme = realm
+	left_portrait = {
+		character = scope:eastern_slav_uniter
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		unite_the_eastern_slavs_decision_effects = yes
+		legend_seed_great_deed_title_effect = {
+			TITLE = root.primary_title
+		}
+	}
+	
+	option = {
+		name = east_europe.0003.a
+		
+		give_nickname = nick_the_wend
+	}
+}
+
+#Someone united the western slavs
+east_europe.0004 = { 
+	type = character_event
+	title = east_europe.0003.t
+	desc = east_europe.0004.desc
+	theme = realm
+	left_portrait = {
+		character = scope:western_slav_uniter
+		animation = personality_honorable
+	}
+	
+	option = {
+		name = name_i_see
+	}
+}

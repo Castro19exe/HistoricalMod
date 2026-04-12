@@ -1,0 +1,28 @@
+k_italy = {
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_cross_bottony.dds"
+		instance={
+			position={ 0.500000 0.700000 }
+			scale={ 0.500000 0.500000 }
+		}
+
+		instance={
+			position={ 0.710000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.290000 0.300000 }
+			scale={ 0.500000 0.500000 }
+			depth=2.010000
+		}
+
+	}
+}

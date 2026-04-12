@@ -29,7 +29,6 @@ k_andalusia = {
 }
 
 d_toledo = {
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=red
 	color2=white
@@ -38,18 +37,7 @@ d_toledo = {
 		color1=yellow
 		texture="ce_arabic_iberia.dds"
 		instance={
-			position={ 0.500000 0.670000 }
-			scale={ 0.870000 0.870000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=yellow
-		texture="ce_arabic_zayd.dds"
-		instance={
-			position={ 0.500000 0.350000 }
-			scale={ 0.760000 0.760000 }
+			scale={ 0.920000 0.920000 }
 			depth=1.010000
 		}
 

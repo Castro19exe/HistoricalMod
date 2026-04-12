@@ -573,8 +573,6 @@ d_badajoz = {
 	}
 	1150.1.1 = {
 		holder = 0
-	}
-	1212.7.16 = {
 		de_jure_liege = k_leon
 	}
 }
