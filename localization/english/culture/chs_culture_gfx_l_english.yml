@@ -19,7 +19,7 @@
  byzantine_group_coa_gfx:0 "Byzantine"
  byzantine_unit_gfx:0 "Byzantine"
  castilian_coa_gfx:0 "Castilian"
- celtic_building_gfx:0 "Goidelic"             #Celtic/Irish
+ celtic_building_gfx:0 "Goidelic"
  central_african_group_coa_gfx:0 "Central African"
  circumpolar_unit_gfx:0 "Circumpolar"
  crimean_gothic_unit_gfx:0 "Crimean Gothic"
@@ -55,8 +55,8 @@
  indian_unit_gfx:0 "Indian"
  indo_aryan_group_coa_gfx:0 "Indo-Aryan"
  iranian_group_coa_gfx:0 "Iranian"
- irish_coa_gfx:0 "Goidelic"                 #Irish
- irish_unit_gfx:0 "Goidelic"                #Irish
+ irish_coa_gfx:0 "Goidelic"
+ irish_unit_gfx:0 "Goidelic"
  israelite_group_coa_gfx:0 "Israelite"
  latin_group_coa_gfx:0 "Latin"
  leonese_coa_gfx:0 "Leonese"
@@ -74,7 +74,7 @@
  norse_unit_gfx:0 "Norse"
  northern_building_gfx:0 "Northern European"
  northern_clothing_gfx:0 "Northern European"
- northern_unit_gfx:0 "Tribal European"       #Northern European
+ northern_unit_gfx:0 "Tribal European"
  norwegian_coa_gfx:0 "Norwegian"
  occitan_coa_gfx:0 "Occitanian"
  oghuz_coa_gfx:0 "Oghuz"
@@ -83,7 +83,7 @@
  polish_coa_gfx:0 "Polish"
  polish_unit_gfx:0 "Polish"
  roman_unit_gfx:0 "Roman"
- ruthenian_unit_gfx:0 "East Slavic"           #Ruthenian
+ ruthenian_unit_gfx:0 "East Slavic"
  sami_coa_gfx:0 "Sami"
  sami_building_gfx:0 "Sami"
  scottish_coa_gfx:0 "Scottish"
@@ -94,7 +94,7 @@
  steppe_coa_gfx:0 "Eurasian Steppe"
  steppe_unit_gfx:0 "Eurasian Steppe"
  sub_sahran_unit_gfx:0 "Sub-Saharan African"
- scandinavian_unit_gfx:0 "Northern European"   #Scandinavian
+ scandinavian_unit_gfx:0 "Northern European"
  siberian_building_gfx:0 "Siberian"
  swedish_coa_gfx:0 "Swedish"
  tibetan_building_gfx:0 "Tibetan"

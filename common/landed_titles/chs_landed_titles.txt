@@ -29658,6 +29658,7 @@ e_caspian-pontic_steppe = {
 				name_list_saxon = cn_south_jedisan
 				name_list_swabian = cn_south_jedisan
 				name_list_bavarian = cn_south_jedisan
+				name_list_thuringian = cn_south_jedisan
 				name_list_polish = cn_south_jedysan
 				name_list_vlach = cn_south_edisan
 				name_list_greek = cn_south_borysthenes
@@ -29668,18 +29669,41 @@ e_caspian-pontic_steppe = {
 
 				cultural_names = {
 					name_list_greek = cn_olbia
-					name_list_crimean_gothic = Aúdesus
+					name_list_crimean_gothic = cn_olbia
 				}
 
-				b_okachiv = {
+				b_okachiv = { # Fake Okachiv
 					province = 543
 
 					color = { 137 69 13 }
+
+					cultural_names = {
+						name_list_greek = Patzinapolis
+						name_list_crimean_gothic = Patzinapolis
+					}
 				}
 				b_tiraspol = {
 					province = 5267
 
 					color = { 137 69 13 }
+
+					cultural_names = {
+						name_list_russian = Tiraspol
+						name_list_ilmenian = Tiraspol
+						name_list_severian = Tiraspol
+						name_list_volhynian = Tiraspol
+						name_list_croatian = Tiraspol
+						name_list_bosnian = Tiraspol
+						name_list_serbian = Tiraspol
+						name_list_bulgarian = Tiraspol
+						name_list_bolghar = Tirasbolu
+						name_list_turkish = Tirasbolu
+						name_list_avar = Tirasbolu
+						name_list_pecheneg = Tirasbolu
+						name_list_cuman = Tirasbolu
+						name_list_khazar = Tirasbolu
+						name_list_kipchak = Tirasbolu
+					}
 				}
 				b_odessa = {
 					province = 5268
@@ -29687,7 +29711,15 @@ e_caspian-pontic_steppe = {
 					color = { 137 69 13 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Aúdesus
+						name_list_greek = cn_olbia
+						name_list_crimean_gothic = cn_olbia
+						name_list_bolghar = Hacibey
+						name_list_turkish = Hacibey
+						name_list_avar = Hacibey
+						name_list_pecheneg = Hacibey
+						name_list_cuman = Hacibey
+						name_list_khazar = Hacibey
+						name_list_kipchak = Hacibey
 					}
 				}
 				b_olbia_ETEL = {
@@ -29696,13 +29728,35 @@ e_caspian-pontic_steppe = {
 					color = { 137 69 13 }
 				}
 			}
-			c_kherson = {
+			c_kherson = { # Ochakov
 				color = { 125 90 65 }
 
-				b_kherson = {
+				cultural_names = {
+					name_list_greek = Alektor
+					name_list_crimean_gothic = Alektor
+					name_list_vlach = Vozia
+					name_list_russian = Ochakov
+					name_list_ilmenian = Ochakov
+					name_list_severian = Ochakov
+					name_list_volhynian = Ochakov
+					name_list_cisalpine = Lerici
+				}
+
+				b_kherson = { # Ochakov
 					province = 5269
 
 					color = { 125 90 65 }
+
+					cultural_names = {
+						name_list_greek = Alektor
+						name_list_crimean_gothic = Alektor
+						name_list_vlach = Vozia
+						name_list_russian = Ochakov
+						name_list_ilmenian = Ochakov
+						name_list_severian = Ochakov
+						name_list_volhynian = Ochakov
+						name_list_cisalpine = Lerici
+					}
 				}
 				b_kazanka = {
 					province = 5270
@@ -30078,9 +30132,11 @@ e_caspian-pontic_steppe = {
 						name_list_ilmenian = Korsun
 						name_list_severian = Korsun
 						name_list_volhynian = Korsun
+						name_list_avar = Aqyar
 						name_list_pecheneg = Aqyar
 						name_list_cuman = Aqyar
 						name_list_khazar = Aqyar
+						name_list_kipchak = Aqyar
 					}
 				}
 				b_theodosia = {
@@ -30103,12 +30159,10 @@ e_caspian-pontic_steppe = {
 				color = { 110 32 44 }
 
 				cultural_names = {
-					name_list_crimean_gothic = cn_kerkinitis
-					name_list_greek = cn_kerkinitis
-					name_list_russian = cn_kozlov
-					name_list_ilmenian = cn_kozlov
-					name_list_severian = cn_kozlov
-					name_list_volhynian = cn_kozlov
+					name_list_russian = Chernomorskoye
+					name_list_ilmenian = Chernomorskoye
+					name_list_severian = Chernomorskoye
+					name_list_volhynian = Chernomorskoye
 					name_list_bolghar = Selid
 					name_list_turkish = Aqmeçit
 					name_list_avar = Aqmeçit
@@ -30123,9 +30177,12 @@ e_caspian-pontic_steppe = {
 					color = { 110 32 44 }
 
 					cultural_names = {
-						name_list_greek = cn_kerkinitis
-						name_list_crimean_gothic = cn_kerkinitis
-						name_list_russian = cn_kozlov
+						name_list_bolghar = Güzliev
+						name_list_turkish = Güzliev
+						name_list_avar = Güzliev
+						name_list_pecheneg = Güzliev
+						name_list_cuman = Güzliev
+						name_list_khazar = Güzliev
 					}
 				}
 
@@ -30178,23 +30235,28 @@ e_caspian-pontic_steppe = {
 				b_perekop = {
 					province = 5277
 
+					color = { 105 56 64 }
+
 					cultural_names = {
-						name_list_crimean_gothic = cn_taphros
 						name_list_greek = cn_taphros
-						name_list_russian = "Perekop"
+						name_list_crimean_gothic = cn_taphros
+						name_list_russian = Perekop
 						name_list_russian = Perekop
 						name_list_ilmenian = Perekop
 						name_list_severian = Perekop
 						name_list_volhynian = Perekop
 					}
-
-					color = { 105 56 64 }
 				}
 
 				b_dzhankoi = {
 					province = 5331
 
 					color = { 105 56 64 }
+
+					cultural_names = {
+						name_list_greek = Tzankói
+						name_list_crimean_gothic = Tzankói
+					}
 				}
 			}
 		}

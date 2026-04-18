@@ -75,7 +75,7 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx  }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 	asset = {
@@ -431,6 +431,14 @@ walls_02 = {
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
 	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"crimean_gothic_walls_02_mesh"
+		}
+		graphical_cultures = {  }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
 
 	is_enabled = {
 		OR = {
@@ -663,9 +671,11 @@ walls_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "chinese_walls_03_mesh"
-		graphical_cultures = { chinese_building_gfx tibetan_building_gfx }
-		graphical_regions = { graphical_steppe graphical_india }
+		names = {
+			"crimean_gothic_walls_02_mesh"
+		}
+		graphical_cultures = {  }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
 	}
 
 	is_enabled = {
@@ -906,6 +916,14 @@ walls_04 = {
 		}
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"crimean_gothic_walls_02_mesh"
+		}
+		graphical_cultures = {  }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
 	}
 
 	is_enabled = {
