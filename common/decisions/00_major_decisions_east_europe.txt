@@ -34,7 +34,14 @@ unite_the_eastern_slavs_decision = {
 
 	is_valid = {
 		culture = { has_cultural_pillar = heritage_east_slavic }
-		completely_controls_region = ghw_region_russia #Has de jure Lands
+
+		completely_controls = title:k_galicia-volhynia
+		completely_controls = title:k_ruthenia
+		completely_controls = title:k_white_rus
+		completely_controls = title:k_novgorod
+		completely_controls = title:k_opolye
+		completely_controls = title:k_bjarmaland
+
 		custom_description = {
 			text = unite_the_eastern_slavs_decision_tt_1
 			OR = {
@@ -56,7 +63,7 @@ unite_the_eastern_slavs_decision = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		save_scope_as = eastern_slav_uniter
 
-		show_as_tooltip = { unite_the_eastern_slavs_decision_effects = yes } #Actually applied in east_europe.0003 - prestige, laws, title, innovation effects
+		show_as_tooltip = { unite_the_eastern_slavs_decision_effects = yes }
 
 		#Events
 		trigger_event = east_europe.0003
@@ -81,9 +88,12 @@ unite_the_eastern_slavs_decision = {
 			name = unite_the_eastern_slavs_decision_title
 			value = scope:eastern_slav_uniter.primary_title
 		}
+		close_view = {
+			view = decisions
+			player = root
+		}
 	}
 	
-
 	ai_potential = {
 		always = yes
 	}
@@ -183,6 +193,10 @@ unite_the_western_slavs_decision = {
 			name = unite_the_western_slavs_decision_title
 			value = scope:western_slav_uniter.primary_title
 		}
+		close_view = {
+			view = decisions
+			player = root
+		}
 	}
 	
 
@@ -214,7 +228,7 @@ unite_the_southern_slavs_decision = {
 
 	is_shown = {
 		culture = { has_cultural_pillar = heritage_south_slavic }
-		NOT = {
+		NOR = {
 			has_culture = culture:vlach # Not technically Slavic despite being in the South Slavic group.
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions

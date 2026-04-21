@@ -168,6 +168,7 @@
 }
 4134 = {	#BEZDEZ
 	holding = none
+	special_building_slot = trosky_castle_01
 }
 
 ###c_hradec

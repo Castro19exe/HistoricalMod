@@ -12997,7 +12997,7 @@ culture_knight_big_illustration = {
 				} 
 			} 
 		}
-		reference = "men_at_arms_big/tiefutu_cavalry.dds"
+		reference = "men_at_arms_big/heavy_cavalry_asia.dds"
 	}
 
 	# --- JAPANESE ---

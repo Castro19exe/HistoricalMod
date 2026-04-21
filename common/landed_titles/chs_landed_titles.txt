@@ -866,6 +866,12 @@ k_austria = {
 	#roman = "Noricum"
 }
 
+k_carantania = {
+	color = { 90 130 100 }
+
+	capital = c_karnten
+}
+
 k_visigoths = {
 	color = { 116 135 65 }
 
@@ -1177,12 +1183,66 @@ e_north_sea = {
 	}
 }
 
+e_carthage = {
+	color = { 45 0 11 }
+	definite_form = yes
+	can_be_named_after_dynasty = no
+	
+	capital = c_tunis #Tunis 
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
 # TITULAR KINGDOMS
 
 k_pechenegs = {
 	color = { 132 108 72}
 
 	capital = c_odessa # Odessa
+}
+
+
+# Carthage 
+k_carthage = {
+	color = { 0 33 60 }
+
+	capital = c_tunis
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+k_tripolitania = {
+	color = { 150 20 0 }
+
+	capital = c_tripolitana
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+k_mauretania = {
+	color = { 136 14 11 }
+
+	capital = c_algier
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}
+
+k_carthago_nova = {
+	color = { 116 44 2 }
+
+	capital = c_murcia
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 }
 
 # TITULAR DUCHIES
@@ -5239,6 +5299,18 @@ e_britannia = {
 
 		capital = c_isle_of_man	#Mann
 	}
+
+	k_cumbria = {
+		color = { 255 100 35 }
+
+		capital = c_cumberland # Cumberland
+
+		d_cumbria = {
+			color = { 220 130 75 }
+			
+			capital = c_cumberland # Cumberland
+		}
+	}
 }
 
 e_germany = {
@@ -7890,98 +7962,6 @@ e_germany = {
 				}
 			}
 		}
-
-		d_istria = {
-			color = { 75 110 105 }
-
-			c_pula = {
-				color = { 75 110 105 }
-
-				cultural_names = {
-					name_list_carantanian = "Pulj"
-
-					name_list_italian = "Pola"
-					name_list_lombard = "Pola"
-					name_list_cisalpine = "Pola"
-					name_list_sicilian = "Pola"
-					name_list_sardinian = "Pola"
-					name_list_dalmatian = "Puola"
-
-					name_list_swabian = "Polei"
-					name_list_franconian = "Polei"
-					name_list_bavarian = "Polei"
-					name_list_saxon = "Polei"
-					name_list_thuringian = "Polei"
-				}
-
-				b_pula = {
-					province = 2518
-
-					color = { 75 110 105 }
-
-					cultural_names = {
-						name_list_carantanian = "Pulj"
-
-						name_list_italian = "Pola"
-						name_list_lombard = "Pola"
-						name_list_cisalpine = "Pola"
-						name_list_sicilian = "Pola"
-						name_list_sardinian = "Pola"
-						name_list_dalmatian = "Puola"
-
-						name_list_swabian = "Polei"
-						name_list_franconian = "Polei"
-						name_list_bavarian = "Polei"
-						name_list_saxon = "Polei"
-						name_list_thuringian = "Polei"
-					}
-				}
-				b_piran = {
-					province = 2519
-
-					color = { 75 110 105 }
-
-					cultural_names = {
-						name_list_italian = Pirano
-						name_list_lombard = Pirano
-						name_list_cisalpine = Pirano
-						name_list_sicilian = Pirano
-						name_list_sardinian = Pirano
-						name_list_dalmatian = Pirano
-					}
-				}
-				b_pazin = {
-					province = 2520
-
-					color = { 75 110 105 }
-
-					cultural_names = {
-						name_list_italian = "Pisino"
-						name_list_lombard = "Pisino"
-						name_list_cisalpine = "Pisino"
-						name_list_sicilian = "Pisino"
-						name_list_sardinian = "Pisino"
-						name_list_dalmatian = "Pisino"
-						name_list_croatian = "Pazin"
-						name_list_carantanian = "Pazin"
-					}
-				}
-				b_labin = {
-					province = 2522
-
-					color = { 75 110 105 }
-
-					cultural_names = {
-						name_list_italian = "Albona"
-						name_list_lombard = "Albona"
-						name_list_cisalpine = "Albona"
-						name_list_sicilian = "Albona"
-						name_list_sardinian = "Albona"
-						name_list_dalmatian = "Albona"
-					}
-				}
-			}
-		}
 	}
 
 	k_east_francia = {	#Germany
@@ -8656,11 +8636,11 @@ e_germany = {
 				color = { 210 200 220 }
 
 				cultural_names = {
-					name_list_franconian = "Kolmar"
-					name_list_swabian = "Kolmar"
-					name_list_thuringian = "Kolmar"
-					name_list_bavarian = "Kolmar"
-					name_list_saxon = "Kolmar"
+					name_list_franconian = Kolmar
+					name_list_swabian = Kolmar
+					name_list_thuringian = Kolmar
+					name_list_bavarian = Kolmar
+					name_list_saxon = Kolmar
 				}
 
 				b_colmar = {
@@ -8669,11 +8649,11 @@ e_germany = {
 					color = { 210 200 220 }
 
 					cultural_names = {
-						name_list_franconian = "Kolmar"
-						name_list_swabian = "Kolmar"
-						name_list_thuringian = "Kolmar"
-						name_list_bavarian = "Kolmar"
-						name_list_saxon = "Kolmar"
+						name_list_franconian = Kolmar
+						name_list_swabian = Kolmar
+						name_list_thuringian = Kolmar
+						name_list_bavarian = Kolmar
+						name_list_saxon = Kolmar
 					}
 				}
 				b_selestat = {
@@ -9241,10 +9221,6 @@ e_byzantium = {
 
 				#capital = 496 # Constantinople
 
-				cultural_names = {
-					name_list_roman = "Byzantium"
-				}
-
 				b_constantinople = {
 					province = 496
 
@@ -9252,14 +9228,10 @@ e_byzantium = {
 
 					cultural_names = {
 						name_list_turkish = cn_konstantiniyye
-
 						name_list_greek = "Konstantinoupolis"
-						name_list_roman = "Constantinopolis"
-
 						name_list_bulgarian = "Tsargrad"
 						name_list_serbian = "Tsargrad"
 						name_list_russian = "Tsargrad"
-
 						name_list_norse = "Miklagarðr"
 					}
 				}
@@ -17210,6 +17182,97 @@ e_italy = {
 				}
 			}
 		}
+
+		d_istria = {
+			color = { 75 110 105 }
+
+			c_pula = {
+				color = { 75 110 105 }
+				
+				cultural_names = {
+					name_list_carantanian = Pulj
+					name_list_italian = Pola
+					name_list_lombard = Pola
+					name_list_cisalpine = Pola
+					name_list_sicilian = Pola
+					name_list_sardinian = Pola
+					name_list_dalmatian = Puola
+					name_list_swabian = Polei
+					name_list_franconian = Polei
+					name_list_bavarian = Polei
+					name_list_saxon = Polei
+					name_list_thuringian = Polei
+				}
+
+				b_pula = {
+					province = 2518
+
+					color = { 75 110 105 }
+
+					cultural_names = {
+						name_list_carantanian = Pulj
+						name_list_italian = Pola
+						name_list_lombard = Pola
+						name_list_cisalpine = Pola
+						name_list_sicilian = Pola
+						name_list_sardinian = Pola
+						name_list_dalmatian = Puola
+						name_list_swabian = Polei
+						name_list_franconian = Polei
+						name_list_bavarian = Polei
+						name_list_saxon = Polei
+						name_list_thuringian = Polei
+					}
+				}
+				b_piran = {
+					province = 2519
+
+					color = { 75 110 105 }
+
+					cultural_names = {
+						name_list_italian = Pirano
+						name_list_lombard = Pirano
+						name_list_cisalpine = Pirano
+						name_list_sicilian = Pirano
+						name_list_sardinian = Pirano
+						name_list_dalmatian = Pirano
+					}
+				}
+				b_pazin = {
+					province = 2520
+
+					color = { 75 110 105 }
+
+					cultural_names = {
+						name_list_italian = Pisino
+						name_list_lombard = Pisino
+						name_list_cisalpine = Pisino
+						name_list_sicilian = Pisino
+						name_list_sardinian = Pisino
+						name_list_dalmatian = Pisino
+						name_list_swabian = Mitterburg
+						name_list_franconian = Mitterburg
+						name_list_bavarian = Mitterburg
+						name_list_saxon = Mitterburg
+						name_list_thuringian = Mitterburg
+					}
+				}
+				b_labin = {
+					province = 2522
+
+					color = { 75 110 105 }
+
+					cultural_names = {
+						name_list_italian = Albona
+						name_list_lombard = Albona
+						name_list_cisalpine = Albona
+						name_list_sicilian = Albona
+						name_list_sardinian = Albona
+						name_list_dalmatian = Albona
+					}
+				}
+			}
+		}
 	}
 
 	k_sardinia = {	#Sardinia & Corsica
@@ -17280,13 +17343,27 @@ e_italy = {
 
 			capital = c_cagliari # Cagliari
 
+			cultural_names = {
+				name_list_carthaginian = cn_sardinia
+			}
+
+
 			c_cagliari = {
 				color = { 220 160 250 }
+
+				cultural_names = {
+					name_list_carthaginian = cn_caralis
+				}
 
 				b_cagliari = {
 					province = 2653
 
 					color = { 220 160 250 }
+
+					cultural_names = {
+						name_list_carthaginian = cn_caralis
+					}
+
 				}
 				b_iglesias = {
 					province = 2654
@@ -17315,6 +17392,10 @@ e_italy = {
 			}
 			c_gallura = {
 				color = { 195 175 225 }
+
+				cultural_names = {
+					name_list_carthaginian = cn_tibia
+				}
 
 				b_olbia = {
 					province = 2658
@@ -39262,8 +39343,16 @@ e_turan = {
 			c_luobupo = {
 				color = { 70 200 230 }
 
+				cultural_names = {
+					name_list_han = cn_luopubo
+				}
+
 				b_dunhuang = {	#Luobupo
 					province = 1448
+
+					cultural_names = {
+						name_list_han = cn_luopubo
+					}
 
 					color = { 70 200 230 }
 				}
@@ -49993,6 +50082,7 @@ e_spain = {
 					name_list_maghrebi = cn_malaqah
 					name_list_andalusian = cn_malaqah
 					name_list_yemeni = cn_malaqah
+					name_list_carthaginian = cn_malaca
 				}
 
 				b_malaga = {
@@ -50041,6 +50131,7 @@ e_spain = {
 				name_list_maghrebi = cn_isbiliyyah
 				name_list_andalusian = cn_isbiliyyah
 				name_list_yemeni = cn_isbiliyyah
+				name_list_carthaginian = cn_tudetani
 			}
 
 			c_sevilla = {
@@ -50057,6 +50148,7 @@ e_spain = {
 					name_list_maghrebi = cn_isbiliyyah
 					name_list_andalusian = cn_isbiliyyah
 					name_list_yemeni = cn_isbiliyyah
+					name_list_carthaginian = cn_hispalis
 				}
 
 				b_sevilla = {
@@ -50074,6 +50166,7 @@ e_spain = {
 						name_list_maghrebi = cn_isbiliyyah
 						name_list_andalusian = cn_isbiliyyah
 						name_list_yemeni = cn_isbiliyyah
+						name_list_carthaginian = cn_hispalis
 					}
 				}
 				b_carmona = {
@@ -50106,6 +50199,7 @@ e_spain = {
 					name_list_maghrebi = cn_qadis
 					name_list_andalusian = cn_qadis
 					name_list_yemeni = cn_qadis
+					name_list_carthaginian = cn_gades
 				}
 
 				b_cadiz = {
@@ -50123,6 +50217,7 @@ e_spain = {
 						name_list_maghrebi = cn_qadis
 						name_list_andalusian = cn_qadis
 						name_list_yemeni = cn_qadis
+						name_list_carthaginian = cn_gades
 					}
 				}
 				b_tarifa = {
@@ -50150,12 +50245,17 @@ e_spain = {
 					name_list_maghrebi = cn_al_gazirah_al_hadra
 					name_list_andalusian = cn_al_gazirah_al_hadra
 					name_list_yemeni = cn_al_gazirah_al_hadra
+					name_list_carthaginian = cn_calpe
 				}
 
 				b_algeciras = {
 					province = 1845
 
 					color = { 130 175 0 }
+
+					cultural_names = {
+						name_list_carthaginian = cn_calpe
+					}
 				}
 				b_arcos = {
 					province = 1982
@@ -76263,6 +76363,8 @@ e_andong = {
 			color = { 5 170 85 }
 
 			cultural_names = {
+				name_list_korean = cn_yodong
+				name_list_balhae = cn_yodong
 				name_list_khitan = cn_dongjing
 			}
 
@@ -76271,10 +76373,20 @@ e_andong = {
 			c_LIAO_shenyang = {
 				color = { 10 175 90 }
 
+				cultural_names = {
+					name_list_korean = cn_simyang
+					name_list_balhae = cn_simyang
+				}
+
 				b_Liao_Shenyang = {
 					province = 11785
 
 					color = { 10 175 90 }
+
+					cultural_names = {
+						name_list_korean = cn_simyang
+						name_list_balhae = cn_simyang
+					}
 				}
 				b_Liao_Tangzhou = {
 					province = 11784
@@ -76301,10 +76413,20 @@ e_andong = {
 			c_LIAO_yinzhou = {
 				color = { 15 90 50 }
 
+				cultural_names = {
+					name_list_korean = cn_eunju
+					name_list_balhae = cn_eunju
+				}
+
 				b_Liao_Yinzhou = {
 					province = 11782
 
 					color = { 15 90 50 }
+
+					cultural_names = {
+						name_list_korean = cn_eunju
+						name_list_balhae = cn_eunju
+					}
 				}
 				b_Liao_Qizhou = {
 					province = 11781
@@ -76326,10 +76448,20 @@ e_andong = {
 			c_LIAO_zhenzhou = {
 				color = { 30 120 100 }
 
+				cultural_names = {
+					name_list_korean = cn_jinju
+					name_list_balhae = cn_jinju
+				}
+
 				b_Liao_Zhenzhou = {
 					province = 11790
 
 					color = { 30 120 100 }
+
+					cultural_names = {
+						name_list_korean = cn_jinju
+						name_list_balhae = cn_jinju
+					}
 				}
 				b_Liao_Fuping = {
 					province = 11791
@@ -76351,10 +76483,20 @@ e_andong = {
 			c_LIAO_diezhou = {
 				color = { 45 205 175 }
 
+				cultural_names = {
+					name_list_korean = cn_cheopju
+					name_list_balhae = cn_cheopju
+				}
+
 				b_Liao_Diezhou = {
 					province = 11794
 
 					color = { 45 205 175 }
+
+					cultural_names = {
+						name_list_korean = cn_cheopju
+						name_list_balhae = cn_cheopju
+					}
 				}
 				b_Liao_Tongzhou = {
 					province = 11789
@@ -76376,10 +76518,20 @@ e_andong = {
 			c_LIAO_guidezhou = {
 				color = { 35 170 70 }
 
+				cultural_names = {
+					name_list_korean = cn_gwideokju
+					name_list_balhae = cn_gwideokju
+				}
+
 				b_Liao_Guidezhou = {
 					province = 11799
 
 					color = { 35 170 70 }
+
+					cultural_names = {
+						name_list_korean = cn_gwideokju
+						name_list_balhae = cn_gwideokju
+					}
 				}
 				b_Liao_Xiyuan = {
 					province = 11798
@@ -81987,6 +82139,16 @@ k_winideheim = {
 	color = { 158 102 36 }
 
 	capital = c_praha # Praha
+
+	can_create = { always = no }
+}
+
+k_cossack = {
+	color = { 40 160 40 }
+	
+	definite_form = yes
+	
+	capital = c_tana
 
 	can_create = { always = no }
 }

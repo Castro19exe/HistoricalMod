@@ -400,7 +400,7 @@ armored_horsemen = {
 	stack = 50
 	ai_quality = { value = culture_ai_weight_heavy_cavalry }
 
-	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = tiefutu_cavalry }
+	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = heavy_cavalry_asia }
 	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_cavalry_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_cavalry_mena }
 	illustration = { trigger = { should_use_west_african_maa_graphics = yes } reference = heavy_cavalry_west_african }
@@ -496,8 +496,6 @@ crossbowmen = {
 	ai_quality = {
 		value = culture_ai_weight_crossbowmen
 	}
-	
-	holy_order_fallback = yes
 	
 	stack = 100
 
