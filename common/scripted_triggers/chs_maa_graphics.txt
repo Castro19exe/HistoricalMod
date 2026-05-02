@@ -14,6 +14,10 @@ should_use_east_slavic_maa_graphics = {
 	has_unit_gfx = ruthenian_unit_gfx
 }
 
+should_use_hungarian_maa_graphics = {
+	has_unit_gfx = hungarian_unit_gfx
+}
+
 should_use_crimean_gothic_maa_graphics = {
 	has_unit_gfx = crimean_gothic_unit_gfx
 }

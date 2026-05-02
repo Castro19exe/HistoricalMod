@@ -16411,6 +16411,10 @@ e_italy = {
 
 		capital = c_lombardia # Pavia
 
+		cultural_names = {
+			name_list_lombard = Lombardy
+		}
+
 		can_create = {
 			trigger_if = {
 				limit = {
@@ -20337,6 +20341,22 @@ e_scandinavia = {
 
 		capital = c_finland #Turku
 
+		cultural_names = {
+			name_list_finnish = Suomi
+			name_list_karelian = Suomi
+			name_list_vepsian = Suomi
+			name_list_mari = Suomi
+			name_list_merya = Suomi
+			name_list_meshchera = Suomi
+			name_list_mordvin = Suomi
+			name_list_muroma = Suomi
+			name_list_samoyed = Suomi
+			name_list_khanty = Suomi
+			name_list_komi = Suomi
+			name_list_estonian = Soome
+			name_list_sami = Suopma
+		}
+
 		can_create = {
 			trigger_if = {
 				limit = {
@@ -20360,18 +20380,50 @@ e_scandinavia = {
 
 			capital = c_finland #Turku
 
+			cultural_names = {
+				name_list_finnish = Suomi
+				name_list_karelian = Suomi
+				name_list_vepsian = Suomi
+				name_list_mari = Suomi
+				name_list_merya = Suomi
+				name_list_meshchera = Suomi
+				name_list_mordvin = Suomi
+				name_list_muroma = Suomi
+				name_list_samoyed = Suomi
+				name_list_khanty = Suomi
+				name_list_komi = Suomi
+				name_list_estonian = Soome
+				name_list_sami = Suopma
+			}
+
 			c_finland = {
 				color = { 200 140 0 }
+
+				cultural_names = {
+					name_list_finnish = Suomi
+					name_list_karelian = Suomi
+					name_list_vepsian = Suomi
+					name_list_mari = Suomi
+					name_list_merya = Suomi
+					name_list_meshchera = Suomi
+					name_list_mordvin = Suomi
+					name_list_muroma = Suomi
+					name_list_samoyed = Suomi
+					name_list_khanty = Suomi
+					name_list_komi = Suomi
+					name_list_estonian = Soome
+					name_list_sami = Suopma
+				}
 
 				b_turku = {
 					province = 179
 					color = { 200 140 0 }
 
 					cultural_names = {
+						name_list_norse = Árbæ
 						name_list_swedish = Åbo
 						name_list_norwegian = Åbo
 						name_list_danish = Åbo
-						name_list_norse = Árbæ
 					}
 				}
 				b_rikala = {
@@ -29784,6 +29836,8 @@ e_caspian-pontic_steppe = {
 						name_list_cuman = Tirasbolu
 						name_list_khazar = Tirasbolu
 						name_list_kipchak = Tirasbolu
+						name_list_crimean_gothic = Tyrasbaurgos
+						name_list_anglo_saxon = Tyrāsburh
 					}
 				}
 				b_odessa = {

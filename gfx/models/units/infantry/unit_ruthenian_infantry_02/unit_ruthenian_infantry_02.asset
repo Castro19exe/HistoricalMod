@@ -34,25 +34,40 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "unit_ruthenian_infantry_02_diffuse.dds"
-		texture_normal = "unit_ruthenian_infantry_02_normal.dds"
-		texture_specular = "unit_ruthenian_infantry_02_properties.dds"
-		shader = "standard_usercolor"
+		name = "unit_east_slavic_infantry_02_skin"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
+		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
 	meshsettings = {
-		name = "jorodoxShape"
-		index = 1
+		name = "unit_east_slavic_infantry_02_hands"
+		texture_diffuse = "nord_unit_01_diffuse.dds"
+		texture_normal = "nord_unit_01_normal.dds"
+		texture_specular = "nord_unit_01_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "unit_east_slavic_infantry_02_helmet"
 		texture_diffuse = "medium_quality_ruthenian_head_layer_diffuse.dds"
 		texture_normal = "medium_quality_ruthenian_head_layer_normal.dds"
 		texture_specular = "medium_quality_ruthenian_head_layer_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
-
+	
+	meshsettings = {
+		name = "unit_east_slavic_infantry_02_armour"
+		texture_diffuse = "unit_ruthenian_infantry_02_diffuse.dds"
+		texture_normal = "unit_ruthenian_infantry_02_normal.dds"
+		texture_specular = "unit_ruthenian_infantry_02_properties.dds"
+		shader = "standard_usercolor"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 }
 
 entity = {

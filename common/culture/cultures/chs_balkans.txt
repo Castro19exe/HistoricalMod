@@ -15,7 +15,6 @@
 		tradition_pastoralists
 		tradition_zealous_people
 		tradition_hussar
-		tradition_xenophilic
 	}
 	
 	dlc_tradition = {

@@ -105,6 +105,41 @@ mohe = {
 	}
 }
 
+emishi = {
+	color = emishi
+
+	name_order_convention = japanese
+	ethos = ethos_stoic
+	heritage = heritage_ainuic
+	language = language_japonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_hunters
+		tradition_isolationist
+		tradition_forest_fighters
+		tradition_sacred_hunts
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_defiant_ambushers
+		requires_dlc_flag = all_under_heaven
+	}
+
+	name_list = name_list_emishi
+
+	coa_gfx = { japanese_coa_gfx }
+	building_gfx = { emishi_building_gfx amuric_building_gfx }
+	clothing_gfx = { emishi_clothing_gfx ainu_clothing_gfx }
+	unit_gfx = { emishi_unit_gfx japanese_unit_gfx }
+	house_coa_frame = house_japan
+
+	ethnicities = {
+		10 = asian_emishi_ainu
+	}
+}
+
 ainu = {
 	color = ainu
 

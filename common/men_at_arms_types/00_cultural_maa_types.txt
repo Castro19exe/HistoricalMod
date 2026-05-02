@@ -779,6 +779,9 @@ hussar = {
 	stack = 100
 	ai_quality = { value = @[cultural_maa_extra_ai_score + 10] }
 	icon = hussar
+
+	illustration = { trigger = { should_use_hungarian_maa_graphics = yes } reference = hungarian_hussar }
+	illustration = { reference = hussar }
 }
 
 horn_warrior = {
@@ -1324,7 +1327,6 @@ teulu = {
 		reference = light_cavalry
 	}
 }
-
 
 ### MOD ###
 

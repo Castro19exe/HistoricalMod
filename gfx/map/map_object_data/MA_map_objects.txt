@@ -29,16 +29,6 @@ object={
 	transform="4480.949219 0.289795 2285.264160 0.000000 0.314965 0.000000 0.949104 0.647144 0.647144 0.647144
 "}
 object={
-	name="cairo_sprawl"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="cairo_sprawl_mesh"
-	count=1
-	transform="2756.188232 0.000000 1784.374634 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
 	name="constantinople_sprawl"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -87,16 +77,6 @@ object={
 	pdxmesh="prophetic_mosque_mesh"
 	count=1
 	transform="3166.178711 0.000000 1578.700806 0.000000 0.000000 0.000000 0.000000 0.868384 0.868384 0.868384
-"}
-object={
-	name="rome_sprawl"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="rome_sprawl_mesh"
-	count=1
-	transform="1667.360596 0.422119 2504.107666 0.000000 0.000000 0.000000 0.000000 1.100000 1.000000 1.000000
 "}
 object={
 	name="sprawl_alexandria"
@@ -196,7 +176,7 @@ object={
 	layer="building_layer"
 	pdxmesh="sprawl_jerusalem_mesh"
 	count=1
-	transform="2955.249023 -0.869262 1900.816406 0.000000 0.241813 0.000000 0.970323 1.467078 1.467078 1.467078
+	transform="2952.745850 -0.869262 1900.161499 0.000000 0.241813 0.000000 0.970323 1.467078 1.467078 1.467078
 "}
 object={
 	name="sprawl_kyiv"
@@ -247,4 +227,14 @@ object={
 	entity="sprawl_toledo_entity"
 	count=1
 	transform="732.452759 0.000000 2417.891602 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
+"}
+object={
+	name="sprawl_zadar"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="sprawl_zadar_mesh"
+	count=1
+	transform="1822.807739 0.000000 2666.224609 0.000000 0.305862 0.000000 0.952076 0.787036 0.787036 0.787036
 "}

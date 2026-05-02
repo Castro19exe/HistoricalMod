@@ -213,7 +213,7 @@
 		}
 	}
 	1066.1.1 = {
-		culture = persian
+		culture = durdzuk
 		religion = maturidi
 	}
 	1066.1.1 = {
@@ -287,7 +287,7 @@
 ###c_anket
 5309 = {	#Tserlona
 	#city and region according to XVIIIth maps
-	culture = khazar
+	culture = durdzuk
 	religion = kabarism
 	holding = tribal_holding
 	1178.1.1 = {

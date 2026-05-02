@@ -26,3 +26,19 @@ k_italy = {
 
 	}
 }
+
+k_sicily = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=black
+	colored_emblem={
+		color1=black
+		color2=red
+		color3=white
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 1.100000 1.100000 }
+		}
+	}
+}

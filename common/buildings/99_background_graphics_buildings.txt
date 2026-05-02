@@ -1,4 +1,88 @@
-﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
+﻿#Rome
+rome_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_rome2_mesh"
+    }
+    is_enabled = {
+        #Either Late Medieval or the capital of an Emperor
+        this = title:b_roma.title_province
+        OR = {
+            scope:holder = {
+                highest_held_title_tier >= tier_empire
+                capital_county = title:c_roma
+            }
+            has_building_or_higher = "castle_04"
+        }
+    }
+}
+rome_sprawl = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_rome1_mesh"
+    }
+    is_enabled = {
+        this = title:b_roma.title_province
+    }
+}
+#Cairo
+cairo_sprawl4 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_cairo4_mesh"
+    }
+    is_enabled = {
+        this = title:b_cairo.title_province
+        has_building_or_higher = "castle_03"
+        county.development_level >= 50
+    }
+}
+cairo_sprawl3 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_cairo3_mesh"
+    }
+    is_enabled = {
+        this = title:b_cairo.title_province
+        has_building_or_higher = "castle_03"
+    }
+}
+cairo_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_cairo2_mesh"
+    }
+    is_enabled = {
+        this = title:b_cairo.title_province
+        has_building_or_higher = "castle_02"
+    }
+}
+cairo_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_cairo1_mesh"
+    }
+    is_enabled = {
+        this = title:b_cairo.title_province
+    }
+}
+#City of the Army (Itil)
+ordu_sprawl = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "ordu_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "MA_ordu"
+    }
+}
 
 # No Walls
 walls_00 = {
@@ -20,11 +104,31 @@ walls_00 = {
 			has_building_or_higher = "roman_wall_of_lugo_01"
 			has_building_or_higher = "kano_walls_01"
 			has_building_or_higher = "jaisalmer_fort_01"
+			has_building_or_higher = "MA_walls_carcassonne1"
+            has_building_or_higher = "MA_dover_castle"
+            has_building_or_higher = "MA_chateau_gaillard"
+            has_building_or_higher = "MA_nikaea_walls"
+            has_building_or_higher = "MA_sarkel"
+            has_building_or_higher = "temples_angkor_01"
+            this = title:b_london.title_province
+            this = title:b_paris.title_province
+            this = title:b_thessaloniki.title_province
+            this = title:b_antiocheia.title_province
+            this = title:b_constantinople.title_province
+            this = title:b_bruges.title_province
+            this = title:b_praha.title_province
+            this = title:b_szekesfehervar.title_province
+            this = title:b_alexandria.title_province
+            this = title:b_jerusalem.title_province
+            this = title:b_dali_1.title_province
+            this = title:b_castletown.title_province
+            this = title:b_vaticano.title_province
+            this = title:b_zadar.title_province
+            this = title:b_cordoba.title_province
 			# Herders shouldn't have walls
 			scope:holder = {
 				government_has_flag = government_is_herder
 			}
-
 		}
 	}
 }
@@ -33,13 +137,25 @@ walls_00 = {
 walls_01_tribal = {
 	is_graphical_background = yes
 
+
+	#Base Tribal Walls:
 	asset = {
 		type = pdxmesh
 		names = {
 			"tribal_walls_01_a_mesh"
 		}
 	}
-
+	#Specific Tribal Walls:
+	#Emishi:
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_emishi_wall_01_mesh"
+		}
+		requires_dlc_flag = north_pacific_attire
+		#Emishi GFX:
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	}
 	is_enabled = {
 		OR = {
 			is_county_capital = yes
@@ -220,6 +336,15 @@ walls_01 = {
 		}
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_emishi_wall_01_mesh"
+		}
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
 	is_enabled = {
@@ -434,10 +559,11 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"crimean_gothic_walls_02_mesh"
+			"building_emishi_wall_02_mesh"
 		}
-		graphical_cultures = {  }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
 	is_enabled = {
@@ -672,10 +798,11 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"crimean_gothic_walls_02_mesh"
+			"building_emishi_wall_03_mesh"
 		}
-		graphical_cultures = {  }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
 	is_enabled = {
@@ -920,10 +1047,11 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"crimean_gothic_walls_02_mesh"
+			"building_emishi_wall_04_mesh"
 		}
-		graphical_cultures = {  }
-		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+		requires_dlc_flag = north_pacific_attire
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+		graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
 
 	is_enabled = {

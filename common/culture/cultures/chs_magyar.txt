@@ -8,7 +8,6 @@
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_tribe_unity
-		#tradition_horse_lords
 		tradition_zealous_people
 	}
 
@@ -45,8 +44,8 @@ hungarian = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_agrarian
-		tradition_hussar
 		tradition_zealous_people
+		tradition_hussar
 	}
 	
 	name_list = name_list_hungarian

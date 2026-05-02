@@ -400,6 +400,7 @@ armored_horsemen = {
 	stack = 50
 	ai_quality = { value = culture_ai_weight_heavy_cavalry }
 
+	illustration = { trigger = { should_use_hungarian_maa_graphics = yes } reference = heavy_cavalry_hungarian }
 	illustration = { trigger = { should_use_asian_maa_graphics = yes } reference = heavy_cavalry_asia }
 	illustration = { trigger = { should_use_japanese_maa_graphics = yes } reference = heavy_cavalry_japanese }
 	illustration = { trigger = { should_use_mena_maa_graphics = yes } reference = heavy_cavalry_mena }
