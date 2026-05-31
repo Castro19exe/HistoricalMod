@@ -21688,6 +21688,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_koslin
 						name_list_bavarian = cn_koslin
 						name_list_thuringian = cn_koslin
+						name_list_norse = Køslin
+						name_list_swedish = Köslin
+						name_list_norwegian = Køslin
+						name_list_danish = Køslin
 					}
 				}
 				b_lebno = {	#b_lebork
@@ -21701,6 +21705,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_lauenburg
 						name_list_bavarian = cn_lauenburg
 						name_list_thuringian = cn_lauenburg
+						name_list_norse = Lemborg
+						name_list_swedish = Lemborg
+						name_list_norwegian = Lemborg
+						name_list_danish = Lemborg
 					}
 				}
 				b_bytow = {
@@ -21714,6 +21722,10 @@ e_wendish_empire = {
 						name_list_swabian = cn_butow
 						name_list_bavarian = cn_butow
 						name_list_thuringian = cn_butow
+						name_list_norse = Byto
+						name_list_swedish = Byto
+						name_list_norwegian = Byto
+						name_list_danish = Byto
 					}
 				}
 			}
@@ -72155,6 +72167,10 @@ e_deccan = {
 					province = 3271
 
 					color = { 225 175 90 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Raginhaimos
+					}
 				}
 				b_sitawaka = {
 					province = 3277
@@ -72175,10 +72191,18 @@ e_deccan = {
 			c_kandy = { #Malaya Rata
 				color = { 150 135 100 }
 
+				cultural_names = {
+					name_list_crimean_gothic = Malayanbairg
+				}
+
 				b_malaya_rata = { #Samantakuta
 					province = 3288
 
 					color = { 150 135 100 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Malayanbairg
+					}
 				}
 				b_senkadagalapura = {
 					province = 3278
@@ -72201,6 +72225,10 @@ e_deccan = {
 			c_rohana = {
 				color = { 231 200 105 }
 
+				cultural_names = {
+					name_list_crimean_gothic = Iohanna
+				}
+
 				b_magampura = {
 					province = 3266
 
@@ -72210,6 +72238,10 @@ e_deccan = {
 					province = 3267
 
 					color = { 231 200 105 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Katarinoupolis
+					}
 				}
 				b_godawaya = { #Mahagama
 					province = 3268
@@ -72250,6 +72282,10 @@ e_deccan = {
 					province = 3284
 
 					color = { 181 135 55 }
+
+					cultural_names = {
+						name_list_crimean_gothic = Lankiapolis
+					}
 				}
 				b_vavuniya = {
 					province = 3285

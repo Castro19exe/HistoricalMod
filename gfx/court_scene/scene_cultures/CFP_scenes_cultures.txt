@@ -208,7 +208,6 @@ cfp_byzantine_pagan = {
 }
 
 ## VANILLA OVERWRITE WITH CFP SHUNT
-
 mediterranean = {
 	trigger = {
 		NOT = { has_graphical_cfp_court_active_trigger = yes }

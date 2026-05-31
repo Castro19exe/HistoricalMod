@@ -12799,6 +12799,7 @@ culture_knight_big_illustration = {
 					has_cultural_pillar = heritage_central_germanic
 					has_cultural_pillar = heritage_north_germanic
 					has_cultural_pillar = heritage_north_sea_germanic
+					has_cultural_pillar = heritage_east_germanic
 					has_cultural_pillar = heritage_latin
 					has_cultural_pillar = heritage_south_slavic
 					has_cultural_pillar = heritage_west_slavic
@@ -12874,7 +12875,6 @@ culture_knight_big_illustration = {
 			culture = {
 				OR = {
 					has_cultural_pillar = heritage_byzantine
-
 					this = culture:roman
 				}
 			} 

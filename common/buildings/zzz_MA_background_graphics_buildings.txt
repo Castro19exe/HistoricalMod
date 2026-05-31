@@ -1,4 +1,6 @@
-﻿#Rome
+﻿
+# Sprawl
+## Rome
 rome_sprawl2 = {
     is_graphical_background = yes
     asset = {
@@ -27,7 +29,7 @@ rome_sprawl = {
         this = title:b_roma.title_province
     }
 }
-#Cairo
+## Cairo
 cairo_sprawl4 = {
     is_graphical_background = yes
     asset = {
@@ -72,7 +74,7 @@ cairo_sprawl1 = {
         this = title:b_cairo.title_province
     }
 }
-#City of the Army (Itil)
+## City of the Army (Itil)
 ordu_sprawl = {
     is_graphical_background = yes
     asset = {
@@ -84,7 +86,7 @@ ordu_sprawl = {
     }
 }
 
-# No Walls
+# Walls #
 walls_00 = {
 	is_graphical_background = yes
 
@@ -181,7 +183,6 @@ walls_01_tribal = {
 	}
 }
 
-# Here the Fort Level building chains take control of the visuals
 walls_01 = {
 	is_graphical_background = yes
 	
@@ -270,7 +271,7 @@ walls_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		#requires_dlc_flag = all_under_heaven
+		requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_01_mesh"
 		}
@@ -281,7 +282,7 @@ walls_01 = {
 	# TGP Southeast Asia
 	asset = {
 		type = pdxmesh
-		#requires_dlc_flag = all_under_heaven
+		requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_se_asia_wall_01_mesh"
 		}
@@ -291,7 +292,7 @@ walls_01 = {
 	# TGP China
 	asset = {
 		type = pdxmesh
-		#requires_dlc_flag = all_under_heaven
+		requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_chinese_wall_01_mesh"
 		}
@@ -301,7 +302,7 @@ walls_01 = {
 	# TGP Japan
 	asset = {
 		type = pdxmesh
-		#requires_dlc_flag = all_under_heaven
+		requires_dlc_flag = all_under_heaven
 		names = {
 			"tgp_building_japanese_wall_01_mesh"
 		}
