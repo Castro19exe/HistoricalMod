@@ -1,3 +1,4 @@
 heightmap.png filter=lfs diff=lfs merge=lfs -text
 map_data/heightmap.png filter=lfs diff=lfs merge=lfs -text
+gfx/map/terrain filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
