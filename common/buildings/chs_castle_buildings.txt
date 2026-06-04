@@ -568,6 +568,27 @@ castle_01 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_castle_01_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_01_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
+	}
+
 	can_construct_potential = {
 		barony_cannot_construct_holding = no
 	}
@@ -1247,6 +1268,27 @@ castle_02 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_castle_02_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_02_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
+	}
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -1887,6 +1929,27 @@ castle_03 = {
 		graphical_regions = { graphical_mena }
 	}
 
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_castle_03_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_03_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
+	}
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -2516,6 +2579,27 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_castle_04_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_04_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 
 	can_construct_potential = {

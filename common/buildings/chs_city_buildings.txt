@@ -461,7 +461,7 @@ city_01 = {
 		type = pdxmesh
 		name = "building_celtic_city_01_mesh"
 		illustration = @holding_illustration_celtic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/western_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { celtic_building_gfx }
 	}
 
@@ -541,6 +541,27 @@ city_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_city_01_a_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Theodosia) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_city_01_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 561 }
 	}
 	
 	can_construct_potential = {
@@ -1220,6 +1241,27 @@ city_02 = {
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
+
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_city_01_a_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Theodosia) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_city_01_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 561 }
+	}
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1874,6 +1916,27 @@ city_03 = {
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
+
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_city_02_a_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Theodosia) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_city_02_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 561 }
+	}
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2479,6 +2542,27 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mena }
+	}
+
+	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_city_02_a_mesh"
+		requires_dlc_flag = the_northern_lords
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Theodosia) ###
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_city_02_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 561 }
 	}
 
 	can_construct_potential = {

@@ -192,7 +192,7 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx  }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx crimean_gothic_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 	asset = {
@@ -231,7 +231,6 @@ walls_01 = {
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
@@ -389,7 +388,7 @@ walls_02 = {
 			"western_walls_02_a_mesh"
 			"western_walls_02_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx eastern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx eastern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 	asset = {
@@ -428,7 +427,6 @@ walls_02 = {
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
@@ -444,7 +442,7 @@ walls_02 = {
 		names = {
 			"ep3_byzantine_walls_02_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -560,6 +558,24 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
+			"guinean_walls_02_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		names = {
+			"ep3_byzantine_walls_02_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
 			"building_emishi_wall_02_mesh"
 		}
 		requires_dlc_flag = north_pacific_attire
@@ -607,7 +623,7 @@ walls_03 = {
 			"western_walls_03_a_mesh"
 			"western_walls_03_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_steppe }
 	}
 	asset = {
@@ -616,7 +632,7 @@ walls_03 = {
 			"mediterranean_walls_03_a_mesh"
 			"mediterranean_walls_03_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx}
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -625,7 +641,7 @@ walls_03 = {
 			"mena_walls_03_a_mesh"
 			"mena_walls_03_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -655,7 +671,6 @@ walls_03 = {
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
@@ -671,7 +686,7 @@ walls_03 = {
 		names = {
 			"ep3_byzantine_walls_03_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -799,6 +814,24 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
+			"guinean_walls_03_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		names = {
+			"ep3_byzantine_walls_03_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
 			"building_emishi_wall_03_mesh"
 		}
 		requires_dlc_flag = north_pacific_attire
@@ -848,7 +881,7 @@ walls_04 = {
 			"western_walls_04_a_mesh"
 			"western_walls_04_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_western graphical_steppe }
 	}
 	asset = {
@@ -857,7 +890,7 @@ walls_04 = {
 			"mediterranean_walls_04_a_mesh"
 			"mediterranean_walls_04_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
 	asset = {
@@ -866,7 +899,7 @@ walls_04 = {
 			"mena_walls_04_a_mesh"
 			"mena_walls_04_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
 	asset = {
@@ -875,7 +908,7 @@ walls_04 = {
 			"india_walls_04_a_mesh"
 			"india_walls_04_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx berber_group_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 	asset = {
@@ -896,7 +929,6 @@ walls_04 = {
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
@@ -912,7 +944,7 @@ walls_04 = {
 		names = {
 			"ep3_byzantine_walls_04_mesh"
 		}
-		graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
+		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_mena graphical_steppe }
 	}
 	asset = {
@@ -1044,6 +1076,24 @@ walls_04 = {
 		}
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_western graphical_mena graphical_steppe graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"guinean_walls_04_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		names = {
+			"ep3_byzantine_walls_04_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 	asset = {
 		type = pdxmesh
