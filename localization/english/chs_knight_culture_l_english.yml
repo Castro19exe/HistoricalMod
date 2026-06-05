@@ -33,8 +33,8 @@
  knight_bushi_no_tooltip: "Bushi"
  knight_bushi_no_tooltip_plural: "Bushi"
 
- knight_thane_no_tooltip:0 "Thane"
- knight_thane_no_tooltip_plural:0 "Thanes"
+ knight_thane_no_tooltip:0 "Thegn"
+ knight_thane_no_tooltip_plural:0 "Thegns"
  
  # Lowercase versions
  knight_default_no_tooltip_lowercase:0 "knight"
@@ -77,10 +77,10 @@
  knight_bushi_no_tooltip_lowercase_plural_possessive: "bushi"
  knight_bushi_no_tooltip_lowercase_adjective: "bushi"
 
- knight_thane_no_tooltip_lowercase:0 "thane"
- knight_thane_no_tooltip_lowercase_plural:0 "thanes"
- knight_thane_no_tooltip_lowercase_plural_possessive:0 "thanes'"
- knight_thane_no_tooltip_lowercase_adjective:0 "thane"
+ knight_thane_no_tooltip_lowercase:0 "theGN"
+ knight_thane_no_tooltip_lowercase_plural:0 "thegns"
+ knight_thane_no_tooltip_lowercase_plural_possessive:0 "thegns'"
+ knight_thane_no_tooltip_lowercase_adjective:0 "thegn"
 
  #Game Concept versions
  knight_default:0 "[Concept( 'knight', '$knight_default_no_tooltip|q$' )|E]"

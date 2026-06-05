@@ -1149,7 +1149,7 @@
  b_bambasi:0 "Bambasi"
  b_bamberg:0 "Bamberg"
  b_bambuk:0 "Bambuk"
- b_bamburgh:0 "Bamburgh"
+ b_bamburgh:0 "Bebbanburh" #Bamburgh
  b_bamian:1 "Bamian"
  b_bamm:0 "Bamm"
  b_bampur:0 "Bampur"
@@ -7911,7 +7911,7 @@
  b_portoferraio:0 "Portoferraio"
  b_portoguaro:0 "Portoguaro"
  b_portotorres:0 "Porto Torres"
- b_portsmouth:0 "Portsmouth"
+ b_portsmouth:0 "Portesmuða" # Portsmouth
  b_porvoo:0 "Porvoo"
  b_posad:0 "Posad"
  b_poskam:0 "Poskam"

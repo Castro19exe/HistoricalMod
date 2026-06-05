@@ -55,9 +55,5 @@ should_use_turkic_maa_graphics = {
 }
 
 should_use_finnish_maa_graphics = {
-	OR = {
-		has_cultural_pillar = heritage_balto_finnic
-		has_cultural_pillar = heritage_ugro_permian
-		has_cultural_pillar = heritage_volga_finnic
-	}
+	has_unit_gfx = balto_finnic_unit_gfx
 }

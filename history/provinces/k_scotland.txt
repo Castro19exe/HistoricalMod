@@ -240,6 +240,9 @@
 	935.1.1 = {
 		holding = castle_holding
 	}
+	1080.1.1 = { 
+		culture = norse_gaelic # Vikings had settled and intermarried with the local gaelic population
+	}
 }
 1690 = {	#Arran
 	holding = none
@@ -262,6 +265,9 @@
 	}
 	935.1.1 = {
 		holding = castle_holding
+	}
+	1080.1.1 = { 
+		culture = norse_gaelic # Vikings had settled and intermarried with the local gaelic population
 	}
 }
 1693 = {	#Lewis

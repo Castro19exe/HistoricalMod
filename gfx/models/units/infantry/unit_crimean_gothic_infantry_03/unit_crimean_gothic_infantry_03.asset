@@ -54,7 +54,7 @@ pdxmesh = {
 		texture_diffuse = "acg_unit_fp1_infantry_02_diffuse_chainmail_blond.dds"
 		texture_normal = "unit_fp1_infantry_02_normal.dds"
 		texture_specular = "unit_fp1_infantry_02_properties.dds"
-		shader = "standard"
+		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 
@@ -63,7 +63,7 @@ pdxmesh = {
 		texture_diffuse = "acg_upe_unit_scottish_infantry_02_head_diffuse.dds"
 		texture_normal = "acg_upe_unit_scottish_infantry_02_head_normal.dds"
 		texture_specular = "acg_upe_unit_scottish_infantry_02_head_properties.dds"
-		shader = "standard"
+		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
 }

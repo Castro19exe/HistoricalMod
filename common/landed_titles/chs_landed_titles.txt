@@ -1415,13 +1415,11 @@ e_britannia = {
 						name_list_norwegian = Lundenborg
 						name_list_danish = Lundenborg
 						name_list_swedish = Lundenborg
-						
 						name_list_welsh = cn_llundein
 						name_list_cornish = cn_llundein
 						name_list_breton = cn_llundein
 						name_list_cumbrian = cn_llundein
 						name_list_pictish = cn_llundein
-						
 						name_list_norman = cn_londres
 						name_list_scottish = cn_lunnon
 					}
@@ -1599,8 +1597,8 @@ e_britannia = {
 				color = { 200 25 25 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Buccingahamscir
-					name_list_old_saxon = Buccingahamscir
+					name_list_anglo_saxon = cn_buccingahamm
+					name_list_old_saxon = cn_buccingahamm
 				}
 
 				b_buckingham = {
@@ -1699,14 +1697,11 @@ e_britannia = {
 					color = { 245 0 0 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Bebbanburh
-						name_list_old_saxon = Bebbanburh
-
+						name_list_english = Bamburgh
 						name_list_norwegian = cn_bamborg
 						name_list_danish = cn_bamborg
 						name_list_swedish = cn_bamborg
 						name_list_norse = cn_bamborg
-
 						name_list_welsh = cn_din_guarie
 						name_list_cumbrian = cn_din_guarie
 						name_list_pictish = cn_din_guarie
@@ -1896,6 +1891,16 @@ e_britannia = {
 			c_lancashire = {
 				color = { 250 55 5 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Luneceaster
+					name_list_old_saxon = Luneceaster
+					name_list_breton = cn_rheged
+					name_list_cornish = cn_rheged
+					name_list_cumbrian = cn_rheged
+					name_list_welsh = cn_rheged
+					name_list_pictish = cn_rheged
+				}
+
 				b_lancaster = {
 					province = 1639
 
@@ -1960,8 +1965,8 @@ e_britannia = {
 				color = { 255 127 15 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Ceasterscir
-					name_list_old_saxon = Ceasterscir
+					name_list_anglo_saxon = Ceaster
+					name_list_old_saxon = Ceaster
 				}
 
 				b_chester = {
@@ -2157,6 +2162,7 @@ e_britannia = {
 			}
 			c_west_riding = {
 				color = { 255 120 35 }
+				
 				cultural_names = {
 					name_list_welsh = cn_elmet
 					name_list_cumbrian = cn_elmet
@@ -2225,8 +2231,8 @@ e_britannia = {
 				color = { 232 195 74 }
 
 				cultural_names = {
-					name_list_anglo_saxon = cn_lindsey
-					name_list_old_saxon = cn_lindsey
+					name_list_anglo_saxon = cn_Lincylene
+					name_list_old_saxon = cn_Lincylene
 				}
 
 				b_lincoln = {
@@ -2383,6 +2389,11 @@ e_britannia = {
 			c_cambridgeshire = {
 				color = { 205 145 5 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Grantebrycg
+					name_list_old_saxon = Grantebrycg
+				}
+
 				b_cambridge = {
 					province = 1534
 
@@ -2448,8 +2459,8 @@ e_britannia = {
 				color = { 190 30 30 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Wæringwicscire
-					name_list_old_saxon = Wæringwicscire
+					name_list_anglo_saxon = Wæringwic
+					name_list_old_saxon = Wæringwic
 				}
 
 				b_warwick = {
@@ -2487,8 +2498,8 @@ e_britannia = {
 				color = { 130 5 25 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Ligeraceasterscire
-					name_list_old_saxon = Ligeraceasterscire
+					name_list_anglo_saxon = Ligeraceaster
+					name_list_old_saxon = Ligeraceaster
 				}
 
 				b_leicester = {
@@ -2536,8 +2547,8 @@ e_britannia = {
 				color = { 175 0 30 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Snotingahamscire
-					name_list_old_saxon = Snotingahamscire
+					name_list_anglo_saxon = Snotingaham
+					name_list_old_saxon = Snotingaham
 				}
 
 				b_nottingham = {
@@ -2574,6 +2585,11 @@ e_britannia = {
 			c_staffordshire = {
 				color = { 210 90 65 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Stæþford
+					name_list_old_saxon = Stæþford
+				}
+
 				b_stafford = {
 					province = 1627
 
@@ -2608,6 +2624,11 @@ e_britannia = {
 			c_worcestershire = {
 				color = { 160 20 5 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Weogoranceaster
+					name_list_old_saxon = Weogoranceaster
+				}
+
 				b_worcester = {
 					province = 1624
 
@@ -2632,10 +2653,20 @@ e_britannia = {
 			c_huntingdonshire = {
 				color = { 175 40 55 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Hirstingstow
+					name_list_old_saxon = Hirstingstow
+				}
+
 				b_hurstingstone = {
 					province = 1541
 
 					color = { 175 40 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Hirstingstow
+						name_list_old_saxon = Hirstingstow
+					}
 				}
 				b_norman_cross = {
 					province = 1542
@@ -2646,10 +2677,20 @@ e_britannia = {
 					province = 1543
 
 					color = { 175 40 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Lectone
+						name_list_old_saxon = Lectone
+					}
 				}
 			}
 			c_northamptonshire = {
 				color = { 125 5 5 }
+
+				cultural_names = {
+					name_list_anglo_saxon = Hamtun
+					name_list_old_saxon = Hamtun
+				}
 
 				b_northampton = {
 					province = 1600
@@ -2737,8 +2778,8 @@ e_britannia = {
 				color = { 245 85 20 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Gleawceasterscire
-					name_list_old_saxon = Gleawceasterscire
+					name_list_anglo_saxon = Gleawceaster
+					name_list_old_saxon = Gleawceaster
 					name_list_welsh = Caerloyw
 				}
 
@@ -2837,8 +2878,8 @@ e_britannia = {
 				color = { 255 115 15 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Oxnafordscire
-					name_list_old_saxon = Oxnafordscire
+					name_list_anglo_saxon = Oxnaford
+					name_list_old_saxon = Oxnaford
 				}
 
 				b_oxford = {
@@ -2874,6 +2915,11 @@ e_britannia = {
 			}
 			c_berkshire = {
 				color = { 255 100 25 }
+
+				cultural_names = {
+					name_list_anglo_saxon = Bearroc
+					name_list_old_saxon = Bearroc
+				}
 
 				b_reading = {
 					province = 1555
@@ -3105,7 +3151,7 @@ e_britannia = {
 					color = { 230 15 55 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Portesmuða
+						name_list_english = Portsmouth
 					}
 				}
 				b_basingstoke = {
