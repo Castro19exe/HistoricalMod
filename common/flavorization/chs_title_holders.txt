@@ -1,5 +1,4 @@
 ﻿### English ###
-# Feudal
 count_feudal_male_english = {
 	type = character
 	gender = male
@@ -36,7 +35,7 @@ county_feudal_english = {
 }
 
 ### Anglo-Saxon ###
-duke_feudal_anglo_saxon = {
+duke_feudal_male_anglo_saxon = {
 	type = character
 	gender = male
 	special = holder
@@ -206,8 +205,6 @@ barony_feudal_anglo_saxon = {
 		top_liege = no
 	}
 }
-
-### MOD
 
 ### Caucasian Heritage ###
 # Independent dukes of certain culture groups are known as Petty Kings instead of Dukes

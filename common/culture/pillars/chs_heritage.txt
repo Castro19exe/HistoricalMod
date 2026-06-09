@@ -47,13 +47,3 @@ heritage_caucasian = {
 	}
 	audio_parameter = european
 }
-
-heritage_north_sea_germanic = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_north_sea_germanic
-		}
-	}
-	audio_parameter = european
-}

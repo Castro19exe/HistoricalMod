@@ -1697,11 +1697,12 @@ e_britannia = {
 					color = { 245 0 0 }
 
 					cultural_names = {
-						name_list_english = Bamburgh
-						name_list_norwegian = cn_bamborg
-						name_list_danish = cn_bamborg
-						name_list_swedish = cn_bamborg
+						name_list_anglo_saxon = Bebbanburh
+						name_list_old_saxon = Bebbanburh
 						name_list_norse = cn_bamborg
+						name_list_norwegian = cn_bamborg
+						name_list_swedish = cn_bamborg
+						name_list_danish = cn_bamborg
 						name_list_welsh = cn_din_guarie
 						name_list_cumbrian = cn_din_guarie
 						name_list_pictish = cn_din_guarie
@@ -2360,8 +2361,8 @@ e_britannia = {
 					color = { 215 125 10 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Suðbyrg
-						name_list_old_saxon = Suðbyrg
+						name_list_anglo_saxon = Suðburh
+						name_list_old_saxon = Suðburh
 					}
 				}
 				b_blything = {
@@ -2672,6 +2673,11 @@ e_britannia = {
 					province = 1542
 
 					color = { 175 40 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Englaford
+						name_list_old_saxon = Englaford
+					}
 				}
 				b_leightonstone = {
 					province = 1543
@@ -3152,12 +3158,18 @@ e_britannia = {
 
 					cultural_names = {
 						name_list_english = Portsmouth
+						name_list_norman = Portsmouth
 					}
 				}
 				b_basingstoke = {
 					province = 1547
 
 					color = { 230 15 55 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Basingestoches
+						name_list_old_saxon = Basingestoches
+					}
 				}
 				b_christchurch = {
 					province = 1548
@@ -3184,8 +3196,8 @@ e_britannia = {
 					color = { 250 10 90 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Wihtgarasbyrg
-						name_list_old_saxon = Wihtgarasbyrg
+						name_list_anglo_saxon = Wihtgaraburh
+						name_list_old_saxon = Wihtgaraburh
 					}
 				}
 			}
@@ -26534,24 +26546,19 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 160 118 40 }
 
 				cultural_names = {
-					name_list_norse = "Lundinborg"
-					name_list_norwegian = "Lundinborg"
-					name_list_danish = "Lundinborg"
-					name_list_swedish = "Lundinborg"
-
-					name_list_franconian = "Lundenburg"
-					name_list_swabian = "Lundenburg"
-					name_list_bavarian = "Lundenburg"
-					name_list_saxon = "Lundenburg"
-					name_list_thuringian = "Lundenburg"
-
-					name_list_hungarian = "Leventevár"
-					name_list_mogyer = "Leventevár"
-
-					name_list_polish = "Brzeclaw"
-					name_list_polabian = "Brzeclaw"
-
-					name_list_roman = "Parienna"
+					name_list_franconian = Lundenburg
+					name_list_swabian = Lundenburg
+					name_list_bavarian = Lundenburg
+					name_list_saxon = Lundenburg
+					name_list_thuringian = Lundenburg
+					name_list_swedish = Lýndenborg
+                    name_list_norwegian = Lýndenborg
+                    name_list_danish = Lýndenborg
+                    name_list_norse = Lýndenborg
+					name_list_hungarian = Leventevár
+					name_list_mogyer = Leventevár
+					name_list_polish = Brzeclaw
+					name_list_polabian = Brzeclaw
 				}
 			}
 			b_mikulov = {

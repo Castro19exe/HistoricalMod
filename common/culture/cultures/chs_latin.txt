@@ -75,7 +75,7 @@ cisalpine = {
 
 	created = 800.1.1
 
-	parents = { frankish lombard }
+	parents = { lombard frankish }
 	
 	ethos = ethos_communal
 	heritage = heritage_latin
@@ -181,7 +181,7 @@ lombard = { #Italo-Lombards
 
 	created = 650.1.1
 
-	parents = { langobard roman }
+	parents = { roman langobard }
 	
 	ethos = ethos_stoic
 	heritage = heritage_latin

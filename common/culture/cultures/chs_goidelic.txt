@@ -71,8 +71,7 @@ gaelic = {
 norse_gaelic = {
 	color = { 0.5 0.9 0.79 }
 	created = 1080.1.1
-	parents = { norse }
-	history_loc_override = norse_gaelic_history_loc
+	parents = { gaelic norse }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_goidelic

@@ -2,8 +2,8 @@
 	color = { 0.6 0.2 0.1 }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_north_sea_germanic
-	language = language_north_sea_germanic
+	heritage = heritage_west_germanic
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
@@ -35,8 +35,8 @@ angle = {
 	color = { 0.6 0.25 0.15 }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_north_sea_germanic
-	language = language_north_sea_germanic
+	heritage = heritage_west_germanic
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
@@ -67,8 +67,8 @@ jute = {
 	color = { 0.2 0.3 0.5 }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_north_sea_germanic
-	language = language_north_sea_germanic
+	heritage = heritage_west_germanic
+	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_eye_for_an_eye
@@ -136,7 +136,7 @@ anglo_saxon = {
 english = {
 	color = english
 	created = 1150.1.1
-	parents = { norman anglo_saxon }
+	parents = { anglo_saxon norman }
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
@@ -199,5 +199,38 @@ scottish = {
 		15 = caucasian_ginger
 		35 = caucasian_brown_hair
 		25 = caucasian_dark_hair
+	}
+}
+
+frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
+	# Effectively, this culture isn't playable in game
+	color = { 0.7 0.3 0.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_frisian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_fishermen
+		tradition_zealous_people
+		tradition_battlefield_looters
+	}
+	
+	name_list = name_list_frisian
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { hre_unit_gfx }
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		35 = caucasian_blond
+		15 = caucasian_ginger
+		30 = caucasian_brown_hair
+		20 = caucasian_dark_hair
 	}
 }

@@ -114,8 +114,8 @@ basque = {
 
 castilian = {
 	color = castilian
-	created = 800.1.1
-	parents = { hispano_roman visigothic }
+	created = 1037.1.1
+	parents = { asturleonese }
 
 	ethos = ethos_bellicose
 	heritage = heritage_iberian
@@ -155,7 +155,7 @@ castilian = {
 catalan = {
 	color = { 102 255 190 }
 	created = 800.1.1
-	parents = { visigothic south_gallo_roman }
+	parents = { south_gallo_roman visigothic }
 
 	ethos = ethos_courtly
 	heritage = heritage_iberian
@@ -296,7 +296,7 @@ asturleonese = {
 aragonese = {
 	color = { 0.80 0.67 0.24  }
 	created = 1035.10.18
-	parents = { basque catalan }
+	parents = { catalan basque }
 
 	ethos = ethos_bellicose
 	heritage = heritage_iberian

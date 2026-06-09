@@ -11,11 +11,11 @@
 ### Anglo-Saxon ###
 # Feudal / Tribal 
  duke_feudal_male_anglo_saxon:0 "Earl"
- duke_feudal_female_anglo_saxon:0 "Ealdorlady"
+ duke_feudal_female_anglo_saxon:0 "Hlaefdige"
  duchy_feudal_anglo_saxon:0 "Earldom"
  
- count_feudal_male_anglo_saxon:0 "Thegn"
- count_feudal_female_anglo_saxon:0 "Thegna"
+ count_feudal_male_anglo_saxon:0 "High Thegn"
+ count_feudal_female_anglo_saxon:0 "High Thegna"
  county_feudal_anglo_saxon:0 "Scir"
 
  count_republic_male_anglo_saxon:0 "Scirgerefa"
@@ -24,7 +24,7 @@
 
  baron_feudal_male_anglo_saxon:0 "Thegn"
  baron_feudal_female_anglo_saxon:0 "Thegna"
- barony_feudal_anglo_saxon:0 "Thegnland"
+ barony_feudal_anglo_saxon:0 "Burh"
  
  baron_republic_male_anglo_saxon:0 "Reeve"
  baron_republic_female_anglo_saxon:0 "Reeve"
