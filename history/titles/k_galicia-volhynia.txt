@@ -6,6 +6,9 @@ k_galicia-volhynia = {
 	867.1.1 = {
 		de_jure_liege = 0
 	}
+	950.11.1 = {
+		de_jure_liege = e_russia
+	}
 }
 
 d_volhynia = {

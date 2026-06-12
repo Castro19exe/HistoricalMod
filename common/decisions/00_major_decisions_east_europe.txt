@@ -23,6 +23,7 @@ unite_the_eastern_slavs_decision = {
 	desc = unite_the_eastern_slavs_decision_desc
 
 	is_shown = {
+		game_start_date < 950.10.18
 		culture = { has_cultural_pillar = heritage_east_slavic }
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -40,7 +41,6 @@ unite_the_eastern_slavs_decision = {
 		completely_controls = title:k_white_rus
 		completely_controls = title:k_novgorod
 		completely_controls = title:k_opolye
-		completely_controls = title:k_bjarmaland
 
 		custom_description = {
 			text = unite_the_eastern_slavs_decision_tt_1
@@ -50,7 +50,6 @@ unite_the_eastern_slavs_decision = {
 				has_primary_title = title:k_white_rus
 				has_primary_title = title:k_novgorod
 				has_primary_title = title:k_opolye
-				has_primary_title = title:k_bjarmaland
 			}
 		}
 	}

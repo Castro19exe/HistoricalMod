@@ -3157,8 +3157,8 @@ e_britannia = {
 					color = { 230 15 55 }
 
 					cultural_names = {
-						name_list_english = Portsmouth
-						name_list_norman = Portsmouth
+						name_list_norman = "Portsmouth"
+						name_list_english = "Portsmouth"
 					}
 				}
 				b_basingstoke = {
@@ -3186,8 +3186,8 @@ e_britannia = {
 				color = { 250 10 90 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Wihtwara
-					name_list_old_saxon = Wihtwara
+					name_list_anglo_saxon = Wihte
+					name_list_old_saxon = Wihte
 				}
 
 				b_carisbrooke = {
@@ -30808,7 +30808,7 @@ e_caspian-pontic_steppe = {
 				cultural_names = {
 					name_list_russian = Arkhyz
 					name_list_greek = Aouchis
-					name_list_crimean_gothic = Alanbaurgos
+					name_list_crimean_gothic = Alanoupolis
 				}
 
 				b_maghas = {
@@ -30819,7 +30819,7 @@ e_caspian-pontic_steppe = {
 					cultural_names = {
 						name_list_russian = Arkhyz
 						name_list_greek = Aouchis
-						name_list_crimean_gothic = Alanbaurgos
+						name_list_crimean_gothic = Alanoupolis
 					}
 				}
 				b_etzeri = {
@@ -30833,7 +30833,7 @@ e_caspian-pontic_steppe = {
 					color = { 85 50 22 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Baeton
+						name_list_crimean_gothic = Baets
 					}
 				}
 			}
@@ -31015,6 +31015,7 @@ e_caspian-pontic_steppe = {
 				color = { 176 102 16 }
 
 				cultural_names = {
+					name_list_greek = "Cuman Neapolis"
 					name_list_crimean_gothic = "Cuman Neapolis"
 				}
 
@@ -31024,6 +31025,7 @@ e_caspian-pontic_steppe = {
 					color = { 176 102 16 }
 
 					cultural_names = {
+						name_list_greek = "Cuman Neapolis"
 						name_list_crimean_gothic = "Cuman Neapolis"
 					}
 				}
@@ -32368,6 +32370,35 @@ e_volga-ural = {
 					province = 5377
 
 					color = { 95 70 59 }
+
+					cultural_names = {
+						name_list_finnish = Balašböle
+						name_list_karelian = Balašböle
+						name_list_vepsian = Balašböle
+						name_list_mari = Balašböle
+						name_list_merya = Balašböle
+						name_list_meshchera = Balašböle
+						name_list_mordvin = Balašböle
+						name_list_muroma = Balašböle
+						name_list_samoyed = Balašböle
+						name_list_khanty = Balašböle
+						name_list_komi = Balašböle
+						name_list_sami = Balašböle
+						name_list_estonian = Balašböle
+						name_list_bolghar = Balaşay
+						name_list_turkish = Balaşay
+						name_list_avar = Balaşay
+						name_list_pecheneg = Balaşay
+						name_list_cuman = Balaşay
+						name_list_khazar = Balaşay
+						name_list_kipchak = Balaşay
+						name_list_bashkir = Balaşay
+						name_list_chuvash = Balaşay
+						name_list_karluk = Balaşay
+						name_list_kimek = Balaşay
+						name_list_kirghiz = Balaşay
+						name_list_laktan = Balaşay
+					}
 				}
 				b_khoper = {
 					province = 5378
@@ -54433,12 +54464,17 @@ e_maghreb = {
 					name_list_maghrebi = cn_malilah
 					name_list_andalusian = cn_malilah
 					name_list_yemeni = cn_malilah
+					name_list_carthaginian = cn_rusaddir
 				}
 
 				b_melilla = {
 					province = 4678
 
 					color = { 255 79 56 }
+
+					cultural_names = {
+						name_list_carthaginian = cn_rusaddir
+					}
 				}
 				b_nakur = {
 					province = 4679
@@ -54650,6 +54686,10 @@ e_maghreb = {
 			c_orania = {
 				color = { 134 227 0 }
 
+				cultural_names = {
+					name_list_carthaginian = cn_quinea
+				}
+
 				b_oran = {
 					province = 4666
 
@@ -54669,10 +54709,17 @@ e_maghreb = {
 			c_hunyan = {
 				color = { 108 163 28 }
 
+				cultural_names = {
+					name_list_carthaginian = cn_siga
+				}
+
 				b_hunyan = {
 					province = 4669
 
 					color = { 108 163 28 }
+					cultural_names = {
+						name_list_carthaginian = cn_siga
+					}
 				}
 				b_arsgul = {
 					province = 4668

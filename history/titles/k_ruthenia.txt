@@ -40,6 +40,9 @@
 	1068.9.14 = {
 		holder = 650	#Vseslav of Polotsk
 	}
+	1082.11.1 = {
+		de_jure_liege = e_russia
+	}
 	
 	###Fragmentation of Kievan Rus'
 	1069.4.15 = {

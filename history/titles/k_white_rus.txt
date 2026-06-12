@@ -6,6 +6,9 @@ k_white_rus = {
 	867.1.1 = {
 		de_jure_liege = 0
 	}
+	1082.11.1 = {
+		de_jure_liege = e_russia
+	}
 }
 
 c_grodno = {
