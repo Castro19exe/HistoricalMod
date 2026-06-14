@@ -27458,7 +27458,8 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 }
 
 e_russia = {	#Kievan Rus
-	color = { 50 150 55 }
+	#color = { 50 150 55 }
+	color = { 87 144 50 }
 
 	capital = c_kiev # Kiev
 
@@ -29207,12 +29208,12 @@ e_russia = {	#Kievan Rus
 					color = { 87 144 50 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Rastobaurgos
 						name_list_merya = cn_sarskoye_gorodishche
 						name_list_meshchera = cn_sarskoye_gorodishche
 						name_list_muroma = cn_sarskoye_gorodishche
 						name_list_mordvin = cn_sarskoye_gorodishche
 						name_list_mari = cn_sarskoye_gorodishche
+						name_list_crimean_gothic = Rastobaurgos
 					}
 				}
 				b_uglich = {
@@ -29229,20 +29230,84 @@ e_russia = {	#Kievan Rus
 			c_vladimir = {
 				color = { 67 174 67 }
 
+				cultural_names = {
+					name_list_finnish = Voldemär
+					name_list_karelian = Voldemär
+					name_list_vepsian = Voldemär
+					name_list_mari = Voldemär
+					name_list_merya = Voldemär
+					name_list_meshchera = Voldemär
+					name_list_mordvin = Voldemär
+					name_list_muroma = Voldemär
+					name_list_samoyed = Voldemär
+					name_list_khanty = Voldemär
+					name_list_komi = Voldemär
+					name_list_sami = Voldemär
+					name_list_estonian = Voldemär
+				}
+
 				b_vladimir = {
 					province = 582
 
 					color = { 67 174 67 }
+
+					cultural_names = {
+						name_list_finnish = Voldemär
+						name_list_karelian = Voldemär
+						name_list_vepsian = Voldemär
+						name_list_mari = Voldemär
+						name_list_merya = Voldemär
+						name_list_meshchera = Voldemär
+						name_list_mordvin = Voldemär
+						name_list_muroma = Voldemär
+						name_list_samoyed = Voldemär
+						name_list_khanty = Voldemär
+						name_list_komi = Voldemär
+						name_list_sami = Voldemär
+						name_list_estonian = Voldemär
+					}
 				}
 				b_starodub-on-the-klyazma = {
 					province = 583
 
 					color = { 67 174 67 }
+
+					cultural_names = {
+						name_list_finnish = Dubä
+						name_list_karelian = Dubä
+						name_list_vepsian = Dubä
+						name_list_mari = Dubä
+						name_list_merya = Dubä
+						name_list_meshchera = Dubä
+						name_list_mordvin = Dubä
+						name_list_muroma = Dubä
+						name_list_samoyed = Dubä
+						name_list_khanty = Dubä
+						name_list_komi = Dubä
+						name_list_sami = Dubä
+						name_list_estonian = Dubä
+					}
 				}
 				b_volochok = {
 					province = 5236
 
 					color = { 67 174 67 }
+
+					cultural_names = {
+						name_list_finnish = Volotška
+						name_list_karelian = Volotška
+						name_list_vepsian = Volotška
+						name_list_mari = Volotška
+						name_list_merya = Volotška
+						name_list_meshchera = Volotška
+						name_list_mordvin = Volotška
+						name_list_muroma = Volotška
+						name_list_samoyed = Volotška
+						name_list_khanty = Volotška
+						name_list_komi = Volotška
+						name_list_sami = Volotška
+						name_list_estonian = Volotška
+					}
 				}
 				b_sudogda = {
 					province = 5237
@@ -30246,6 +30311,16 @@ e_caspian-pontic_steppe = {
 					province = 5324
 
 					color = { 180 130 50 }
+
+					cultural_names = {
+						name_list_bolghar = "Teñ-Suv"
+						name_list_turkish = "Teñ-Suv"
+						name_list_avar = "Teñ-Suv"
+						name_list_pecheneg = "Teñ-Suv"
+						name_list_cuman = "Teñ-Suv"
+						name_list_khazar = "Teñ-Suv"
+						name_list_kipchak = "Teñ-Suv"
+					}
 				}
 			}
 			c_oleshye = {
@@ -30414,7 +30489,14 @@ e_caspian-pontic_steppe = {
 					color = { 215 190 55 }
 
 					cultural_names = {
-						name_list_crimean_gothic = Tanros
+						name_list_bolghar = Taygan
+						name_list_turkish = Taygan
+						name_list_avar = Taygan
+						name_list_pecheneg = Taygan
+						name_list_cuman = Taygan
+						name_list_khazar = Taygan
+						name_list_kipchak = Taygan
+						name_list_crimean_gothic = Tangon
 					}
 				}
 			}
@@ -30422,18 +30504,45 @@ e_caspian-pontic_steppe = {
 				color = { 240 230 60 }
 
 				cultural_names = {
-					name_list_greek = cn_tanais
+					name_list_bolghar = Küzey
+					name_list_turkish = Küzey
+					name_list_avar = Küzey
+					name_list_pecheneg = Küzey
+					name_list_cuman = Küzey
+					name_list_khazar = Küzey
+					name_list_crimean_gothic = Turgos
 				}
 				
 				b_kuzeytorg = {
 					province = 5328
 
 					color = { 240 230 60 }
+
+					cultural_names = {
+						name_list_bolghar = Küzey
+						name_list_turkish = Küzey
+						name_list_avar = Küzey
+						name_list_pecheneg = Küzey
+						name_list_cuman = Küzey
+						name_list_khazar = Küzey
+						name_list_crimean_gothic = Turgos
+					}
 				}
 				b_ivanovskoye = {
 					province = 5329
 
 					color = { 240 230 60 }
+
+					cultural_names = {
+						name_list_bolghar = Inkerman
+						name_list_turkish = Inkerman
+						name_list_avar = Inkerman
+						name_list_pecheneg = Inkerman
+						name_list_cuman = Inkerman
+						name_list_khazar = Inkerman
+						name_list_kipchak = Inkerman
+						name_list_crimean_gothic = Jvanbaurgos
+					}
 				}
 			}
 		}
@@ -30605,7 +30714,7 @@ e_caspian-pontic_steppe = {
 
 					cultural_names = {
 						name_list_greek = Tzankói
-						name_list_crimean_gothic = Tzankói
+						name_list_crimean_gothic = þankus
 					}
 				}
 			}
@@ -30690,19 +30799,26 @@ e_caspian-pontic_steppe = {
 				color = { 66 55 10 }
 
 				cultural_names = {
-					name_list_greek = cn_tmutarakan
-					name_list_crimean_gothic = cn_tmutarakan
-					name_list_russian = Anapa
+					name_list_bolghar = Tamantarkan
+					name_list_turkish = Tamantarkan
+					name_list_avar = Tamantarkan
+					name_list_pecheneg = Tamantarkan
+					name_list_cuman = Tamantarkan
+					name_list_khazar = Tamantarkan
+					name_list_kipchak = Tamantarkan
+					name_list_bashkir = Tamantarkan
+					name_list_chuvash = Tamantarkan
+					name_list_karluk = Tamantarkan
+					name_list_kimek = Tamantarkan
+					name_list_kirghiz = Tamantarkan
+					name_list_laktan = Tamantarkan
+					name_list_greek = Tamatárcha
+					name_list_georgian = "T'mut'orak'ani"
+					name_list_alan = Matarxa
 				}
 
 				b_tmutarakan = {
 					province = 598
-
-					cultural_names = {
-						name_list_greek = cn_tmutarakan
-						name_list_crimean_gothic = cn_tmutarakan
-						name_list_russian = Anapa
-					}
 
 					color = { 66 55 10 }
 				}
@@ -31008,15 +31124,14 @@ e_caspian-pontic_steppe = {
 			capital = c_itil # Itil
 
 			cultural_names = {
-				name_list_crimean_gothic = Volga
+				name_list_crimean_gothic = Kumania
 			}
 
 			c_itil = {
 				color = { 176 102 16 }
 
 				cultural_names = {
-					name_list_greek = "Cuman Neapolis"
-					name_list_crimean_gothic = "Cuman Neapolis"
+					name_list_crimean_gothic = Kumania
 				}
 
 				b_itil = {
@@ -31025,8 +31140,7 @@ e_caspian-pontic_steppe = {
 					color = { 176 102 16 }
 
 					cultural_names = {
-						name_list_greek = "Cuman Neapolis"
-						name_list_crimean_gothic = "Cuman Neapolis"
+						name_list_crimean_gothic = Kumania
 					}
 				}
 				b_saray = {

@@ -29,3 +29,17 @@
  baron_republic_male_anglo_saxon:0 "Reeve"
  baron_republic_female_anglo_saxon:0 "Reeve"
  barony_republic_anglo_saxon:0 "Burh"
+
+ ### Russian ###
+ # Feudal 
+ emperor_feudal_male_russian:0 "Csar"
+ emperor_feudal_female_russian:0 "Csaritsa"
+ empire_feudal_russian:0 "Csardom"
+
+ king_feudal_male_russian:0 "Grand Prince"
+ king_feudal_female_russian:0 "Grand Princess"
+ kingdom_feudal_russian:0 "Grand Principality"
+
+ duke_feudal_male_russian:0 "Prince"
+ duke_feudal_female_russian:0 "Princess"
+ duchy_feudal_russian:0 "Principality"

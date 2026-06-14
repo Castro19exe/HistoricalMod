@@ -574,8 +574,7 @@ castle_01 = {
 	### GOTHIC ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mesh"
-		requires_dlc_flag = the_northern_lords
+		name = "building_rohan_castle_01_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
@@ -1276,8 +1275,7 @@ castle_02 = {
 	### GOTHIC ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
-		requires_dlc_flag = the_northern_lords
+		name = "building_rohan_castle_02_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
@@ -1939,8 +1937,7 @@ castle_03 = {
 	### GOTHIC ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
-		requires_dlc_flag = the_northern_lords
+		name = "building_rohan_castle_03_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
@@ -2594,7 +2591,6 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "fp1_building_norse_castle_04_mesh"
-		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { crimean_gothic_building_gfx }

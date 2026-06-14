@@ -192,7 +192,7 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx crimean_gothic_building_gfx }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx }
 		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 	asset = {
@@ -336,6 +336,24 @@ walls_01 = {
 		}
 		graphical_cultures = { guinean_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"wall_01_rohan_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_mena graphical_steppe }
+	}
+	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_walls_01_a_mesh"
+			"western_walls_01_b_mesh"
+		}
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 	asset = {
 		type = pdxmesh
@@ -558,7 +576,7 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"guinean_walls_02_mesh"
+			"wall_02_rohan_mesh"
 		}
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
@@ -814,7 +832,7 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"guinean_walls_03_mesh"
+			"wall_03_rohan_mesh"
 		}
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
@@ -1080,7 +1098,7 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"guinean_walls_04_mesh"
+			"wall_04_rohan_mesh"
 		}
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }

@@ -1,5 +1,6 @@
 ﻿###DECISIONS LIST###
 
+#unite_the_eastern_slavs_decision
 #unite_the_western_slavs_decision
 #unite_the_southern_slavs_decision
 #unite_the_slavs_decision
@@ -23,7 +24,7 @@ unite_the_eastern_slavs_decision = {
 	desc = unite_the_eastern_slavs_decision_desc
 
 	is_shown = {
-		game_start_date < 950.10.18
+		game_start_date < 1066.1.1
 		culture = { has_cultural_pillar = heritage_east_slavic }
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -36,22 +37,22 @@ unite_the_eastern_slavs_decision = {
 	is_valid = {
 		culture = { has_cultural_pillar = heritage_east_slavic }
 
-		completely_controls = title:k_galicia-volhynia
-		completely_controls = title:k_ruthenia
-		completely_controls = title:k_white_rus
-		completely_controls = title:k_novgorod
-		completely_controls = title:k_opolye
+		#completely_controls = title:k_galicia-volhynia
+		#completely_controls = title:k_ruthenia
+		#completely_controls = title:k_white_rus
+		#completely_controls = title:k_novgorod
+		#completely_controls = title:k_opolye
 
-		custom_description = {
-			text = unite_the_eastern_slavs_decision_tt_1
-			OR = {
-				has_primary_title = title:k_galicia-volhynia
-				has_primary_title = title:k_ruthenia
-				has_primary_title = title:k_white_rus
-				has_primary_title = title:k_novgorod
-				has_primary_title = title:k_opolye
-			}
-		}
+		#custom_description = {
+		#	text = unite_the_eastern_slavs_decision_tt_1
+		#	OR = {
+		#	    has_primary_title = title:k_galicia-volhynia
+		#		has_primary_title = title:k_ruthenia
+		#		has_primary_title = title:k_white_rus
+		#		has_primary_title = title:k_novgorod
+		#		has_primary_title = title:k_opolye
+		#	}
+		#}
 	}
 	
 	is_valid_showing_failures_only = {
@@ -86,10 +87,6 @@ unite_the_eastern_slavs_decision = {
 		set_global_variable = {
 			name = unite_the_eastern_slavs_decision_title
 			value = scope:eastern_slav_uniter.primary_title
-		}
-		close_view = {
-			view = decisions
-			player = root
 		}
 	}
 	

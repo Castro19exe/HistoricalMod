@@ -1,23 +1,16 @@
 east_europe.0003 = {
 	type = character_event
-	window = big_event_window
 	title = east_europe.0003.t
 	desc = east_europe.0003.desc
-	theme = crown
-	override_effect_2d = { reference = legend_glow }
-	override_background = ep2_travel_farms
+	theme = realm
 	left_portrait = {
 		character = scope:eastern_slav_uniter
 		animation = personality_honorable
-		camera = camera_event_center_very_large
 	}
 
 	immediate = {
 		play_music_cue = "mx_cue_epic_sacral_moment"
 		unite_the_eastern_slavs_decision_effects = yes
-		legend_seed_great_deed_title_effect = {
-			TITLE = root.primary_title
-		}
 	}
 }
 

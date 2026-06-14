@@ -113,7 +113,8 @@ crimean_gothic = {
 	traditions = {
 		tradition_mountain_homes
 		tradition_stand_and_fight
-		tradition_culture_blending					#lived alongside greeks, huns, other germanic tribes...
+		tradition_isolationist
+		#tradition_culture_blending					#lived alongside greeks, huns, other germanic tribes...
 		#tradition_stalwart_defenders				#fought off hordes of Huns and Avars for centuries
 	}
 	dlc_tradition = {

@@ -1,6 +1,7 @@
 ﻿russian = {
 	color = russian
-	history_loc_override = russian_history_loc
+	created = 1139.1.1
+	parents = { polian }
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic

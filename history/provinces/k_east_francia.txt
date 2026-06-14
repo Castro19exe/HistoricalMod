@@ -369,9 +369,12 @@
 
 ###c_dannenberg
 2894 = {	#DANNENBERG
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = castle_holding
+	1066.1.1 = {
+		culture = saxon
+	}
 	1120.1.1 = {
 		religion = catholic
 	}
@@ -393,9 +396,6 @@
 	holding = castle_holding
 	1066.1.1 = {
 		culture = saxon
-	}
-	1120.1.1 = {
-		religion = catholic
 	}
 }
 2907 = {	#GARDELEGEN
