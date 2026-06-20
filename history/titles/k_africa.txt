@@ -3,19 +3,6 @@ k_africa = {
 	867.1.1 = {	change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	1178.1.1 = { change_development_level = 20 }
-	
-	867.1.1 = {
-		de_jure_liege = e_arabia
-	}
-
-	1066.9.15 = {
-		de_jure_liege = e_arabia
-	}
-
-	1178.10.1 = {
-		de_jure_liege = e_arabia
-	}
-
 	# Vandals
 	435.1.1={
 		holder=168796 # Genseric
@@ -1887,20 +1874,9 @@ c_ghadames = {
 	1160.1.22 = {
 		holder = 3211
 	}
-	1163.1.1 = {
-		liege = "d_tunis"
-	}
-	1163.1.1 = {
-		holder = 33012
-	}
-	1172.1.1 = {
-		liege = "d_tripolitania"
-	}
-	1172.1.1 = {
-		holder = 155113
-	}
-	1178.1.1 = {
-		holder = dabbabid_1 # Hamid
+	1162.1.1 = {
+		holder = 248799
+		liege = 0
 	}
 	1187.10.15 = {
 		liege = "d_tunis"

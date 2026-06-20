@@ -1,5 +1,5 @@
 unite_the_eastern_slavs_decision_effects = {
-	#Prestige
+	# Prestige
 	add_prestige = massive_prestige_gain
 
 	# Convert my culture to Russian Culture
@@ -8,11 +8,17 @@ unite_the_eastern_slavs_decision_effects = {
 		reset_culture_creation_date = yes
 	}
 
+	# Innovations
+	culture:russian = {
+		add_random_innovation = culture_group_military
+		add_random_innovation = culture_group_civic
+	}
+
 	# Convert my courtiers to Russian
 	hidden_effect = {
 		every_courtier = {
 			limit = {
-				has_cultural_pillar =  = heritage_east_slavic
+				has_cultural_pillar = heritage_east_slavic
 			}
 			set_culture = culture:russian
 		}
@@ -21,7 +27,7 @@ unite_the_eastern_slavs_decision_effects = {
 	# Convert my vassals to Russian
 	every_vassal_or_below = {
 		limit = {
-			has_cultural_pillar =  = heritage_east_slavic
+			has_cultural_pillar = heritage_east_slavic
 		}
 
 		custom = promote_hungarian_settlement_decision_every_vassal_custom
@@ -31,31 +37,25 @@ unite_the_eastern_slavs_decision_effects = {
 		hidden_effect = {
 			every_courtier = {
 				limit = {
-					has_cultural_pillar =  = heritage_east_slavic
+					has_cultural_pillar = heritage_east_slavic
 				}
 				set_culture = culture:russian
 			}
 		}
 	}
 
-	Innovations
-	culture:russian = {
-		add_random_innovation = culture_group_military
-		add_random_innovation = culture_group_civic
+	# Laws
+	if = {
+		limit = { has_realm_law = crown_authority_0 }
+		add_realm_law_skip_effects = crown_authority_2
 	}
-
-	#Laws
-	#if = {
-	#	limit = { has_realm_law = crown_authority_0 }
-	#	add_realm_law_skip_effects = crown_authority_2
-	#}
-	#else_if = {
-	#	limit = {
-	#		OR = {
-	#			has_realm_law = crown_authority_1
-	#			has_realm_law = crown_authority_2
-	#		}
-	#	}
-	#	add_realm_law_skip_effects = crown_authority_3
-	#}
+	else_if = {
+		limit = {
+			OR = {
+				has_realm_law = crown_authority_1
+				has_realm_law = crown_authority_2
+			}
+		}
+		add_realm_law_skip_effects = crown_authority_3
+	}
 }

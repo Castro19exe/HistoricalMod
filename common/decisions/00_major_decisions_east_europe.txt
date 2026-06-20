@@ -24,7 +24,7 @@ unite_the_eastern_slavs_decision = {
 	desc = unite_the_eastern_slavs_decision_desc
 
 	is_shown = {
-		game_start_date < 1066.1.1
+		game_start_date < 1050.1.1
 		culture = { has_cultural_pillar = heritage_east_slavic }
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -37,22 +37,22 @@ unite_the_eastern_slavs_decision = {
 	is_valid = {
 		culture = { has_cultural_pillar = heritage_east_slavic }
 
-		#completely_controls = title:k_galicia-volhynia
-		#completely_controls = title:k_ruthenia
-		#completely_controls = title:k_white_rus
-		#completely_controls = title:k_novgorod
-		#completely_controls = title:k_opolye
+		completely_controls = title:k_galicia-volhynia
+		completely_controls = title:k_ruthenia
+		completely_controls = title:k_white_rus
+		completely_controls = title:k_novgorod
+		completely_controls = title:k_opolye
 
-		#custom_description = {
-		#	text = unite_the_eastern_slavs_decision_tt_1
-		#	OR = {
-		#	    has_primary_title = title:k_galicia-volhynia
-		#		has_primary_title = title:k_ruthenia
-		#		has_primary_title = title:k_white_rus
-		#		has_primary_title = title:k_novgorod
-		#		has_primary_title = title:k_opolye
-		#	}
-		#}
+		custom_description = {
+			text = unite_the_eastern_slavs_decision_tt_1
+			OR = {
+			    has_primary_title = title:k_galicia-volhynia
+				has_primary_title = title:k_ruthenia
+				has_primary_title = title:k_white_rus
+				has_primary_title = title:k_novgorod
+				has_primary_title = title:k_opolye
+			}
+		}
 	}
 	
 	is_valid_showing_failures_only = {
@@ -63,16 +63,16 @@ unite_the_eastern_slavs_decision = {
 		gain_heroic_legend_seed_tooltip_effect = yes
 		save_scope_as = eastern_slav_uniter
 
-		show_as_tooltip = { unite_the_eastern_slavs_decision_effects = yes }
+		show_as_tooltip = { unite_the_eastern_slavs_decision_effects = yes } #Actually applied in east_europe.0202 - prestige, laws, title, innovation effects
 
 		#Events
-		trigger_event = east_europe.0003
+		trigger_event = east_europe.0202
 		every_player = {
 			limit = {
 				this != scope:eastern_slav_uniter
 				is_within_diplo_range = { CHARACTER = scope:eastern_slav_uniter }
 			}
-			trigger_event = east_europe.0004
+			trigger_event = east_europe.203
 		}
 
 		#Can only be done once
