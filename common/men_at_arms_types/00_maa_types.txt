@@ -299,7 +299,6 @@ armored_footmen = {
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = heavy_infantry_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = heavy_infantry_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = heavy_infantry_finnish }
-	illustration = { trigger = { should_use_crimean_gothic_maa_graphics = yes } reference = heavy_infantry_gothic }
 	
  	illustration = { reference = heavy_infantry }
 }

@@ -12968,13 +12968,23 @@ culture_knight_big_illustration = {
 					has_cultural_pillar = heritage_nivkh
 					has_cultural_pillar = heritage_hunnic
 					has_cultural_pillar = heritage_ainuic
+				} 
+			} 
+		}
+		reference = "men_at_arms_big/keshig.dds"
+	}
 
+	# --- MAGYAR ---
+	texture = {
+		trigger = { 
+			culture = { 
+				OR = {
 					this = culture:mogyer
 					any_parent_culture_or_above = { this = culture:mogyer }
 				} 
 			} 
 		}
-		reference = "men_at_arms_big/heavy_cavalry_turkic.dds"
+		reference = "men_at_arms_big/heavy_cavalry_magyar.dds"
 	}
 
 	# --- FINNO-UGRIC ---

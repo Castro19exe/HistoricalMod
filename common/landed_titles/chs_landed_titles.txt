@@ -2232,8 +2232,8 @@ e_britannia = {
 				color = { 232 195 74 }
 
 				cultural_names = {
-					name_list_anglo_saxon = cn_Lincylene
-					name_list_old_saxon = cn_Lincylene
+					name_list_anglo_saxon = cn_lindsey
+					name_list_old_saxon = cn_lindsey
 				}
 
 				b_lincoln = {
@@ -2242,8 +2242,8 @@ e_britannia = {
 					color = { 232 195 74 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Lincylene
-						name_list_old_saxon = Lincylene
+						name_list_anglo_saxon = cn_lindsey
+						name_list_old_saxon = cn_lindsey
 					}
 				}
 				b_stamford = {
@@ -2287,6 +2287,8 @@ e_britannia = {
 			cultural_names = {
 				name_list_norse = cn_jarnamoda
 				name_list_norwegian = cn_jarnamoda
+				name_list_swedish = cn_jarnamoda
+				name_list_danish = cn_jarnamoda
 			}
 
 			c_norfolk = {
@@ -2295,6 +2297,8 @@ e_britannia = {
 				cultural_names = {
 					name_list_norse = cn_jarnamoda
 					name_list_norwegian = cn_jarnamoda
+					name_list_swedish = cn_jarnamoda
+					name_list_danish = cn_jarnamoda
 				}
 
 				b_norwich = {
@@ -2644,11 +2648,21 @@ e_britannia = {
 					province = 1625
 
 					color = { 160 20 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Eofeshamm
+						name_list_old_saxon = Eofeshamm
+					}
 				}
 				b_kidderminster = {
 					province = 1626
 
 					color = { 160 20 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Chedeminstre
+						name_list_old_saxon = Chedeminstre
+					}
 				}
 			}
 			c_huntingdonshire = {
@@ -2769,6 +2783,8 @@ e_britannia = {
 					color = { 241 55 25 }
 
 					cultural_names = {
+						name_list_anglo_saxon = Biscopesceaster
+						name_list_old_saxon = Biscopesceaster
 						name_list_welsh = cn_clun
 					}
 				}
@@ -19597,22 +19613,22 @@ e_scandinavia = {
 			capital = c_slesvig
 
 			cultural_names = {
-				name_list_franconian = "Schleswig"
-				name_list_saxon = "Sleswig"
-				name_list_swabian = "Schleswig"
-				name_list_bavarian = "Schleswig"
-				name_list_thuringian = "Schleswig"
+				name_list_franconian = Schleswig
+				name_list_saxon = Sleswig
+				name_list_swabian = Schleswig
+				name_list_bavarian = Schleswig
+				name_list_thuringian = Schleswig
 			}
 
 			c_slesvig = {
 				color = { 216 89 60 }
 
 				cultural_names = {
-					name_list_franconian = "Schleswig"
-					name_list_saxon = "Sleswig"
-					name_list_swabian = "Schleswig"
-					name_list_bavarian = "Schleswig"
-					name_list_thuringian = "Schleswig"
+					name_list_franconian = Schleswig
+					name_list_saxon = Sleswig
+					name_list_swabian = Schleswig
+					name_list_bavarian = Schleswig
+					name_list_thuringian = Schleswig
 				}
 
 				b_hedeby = {
@@ -19622,11 +19638,11 @@ e_scandinavia = {
 
 					cultural_names = {
 						name_list_norse = cn_heidabyr
-						name_list_franconian = "Haithabu"
-						name_list_saxon = "Haithabu"
-						name_list_swabian = "Haithabu"
-						name_list_bavarian = "Haithabu"
-						name_list_thuringian = "Haithabu"
+						name_list_franconian = Haithabu
+						name_list_saxon = Haithabu
+						name_list_swabian = Haithabu
+						name_list_bavarian = Haithabu
+						name_list_thuringian = Haithabu
 					}
 				}
 				b_aabenraa = {

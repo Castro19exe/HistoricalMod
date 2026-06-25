@@ -34,7 +34,6 @@
 @plenary_assemblies = "gfx/interface/icons/culture_innovations/innovation_plenary_assemblies.dds"
 @siege_crossbow = "gfx/interface/icons/culture_innovations/innovation_auh_ballista.dds"
 
-
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"

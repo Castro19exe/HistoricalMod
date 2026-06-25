@@ -1,7 +1,5 @@
 ﻿russian = {
 	color = russian
-	created = 1139.1.1
-	parents = { polian }
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
