@@ -59,14 +59,14 @@ object={
 	transform="8208.791016 -0.575195 2843.641357 0.000000 0.463493 0.000000 0.886100 0.792671 0.792671 0.792671
 "}
 object={
-	name="nalanda_university"
+	name="mahabodhi"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
 	generated_content=no
 	layer="building_layer"
-	pdxmesh="nalanda_university_mesh"
+	pdxmesh="mahabodhi_mesh"
 	count=1
-	transform="5421.731934 0.000000 1873.760864 0.000000 -0.091354 0.000000 -0.995819 1.382998 1.382998 1.382998
+	transform="5386.408203 0.000000 1852.859009 0.000000 0.503513 0.000000 -0.863989 1.012402 1.012402 1.012402
 "}
 object={
 	name="prophetic_mosque"
@@ -147,16 +147,6 @@ object={
 	pdxmesh="sprawl_dali_mesh"
 	count=1
 	transform="6174.376953 0.339600 1991.266968 0.000000 -0.267280 0.000000 0.963619 1.381763 1.381763 1.381763
-"}
-object={
-	name="sprawl_delhi"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_delhi_mesh"
-	count=1
-	transform="4965.073242 0.000000 2010.214966 0.000000 -0.035384 0.000000 -0.999374 0.810596 0.810596 0.810596
 "}
 object={
 	name="sprawl_ghazni"

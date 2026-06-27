@@ -21,8 +21,9 @@
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/castle_berber.dds"
 @holding_illustration_african = "gfx/interface/illustrations/holding_types/castle_african.dds"
 
-@holding_illustration_mena_mediterranean = "gfx/interface/illustrations/holding_types/castle_mena_mediterranean.dds"
 @holding_illustration_mediterranean_indian = "gfx/interface/illustrations/holding_types/castle_mediterranean_indian.dds"
+@holding_illustration_mena_mediterranean = "gfx/interface/illustrations/holding_types/castle_mena_mediterranean.dds"
+@holding_illustration_mena_indian = "gfx/interface/illustrations/holding_types/castle_mena_indian.dds"
 @holding_illustration_steppe_mediterranean = "gfx/interface/illustrations/holding_types/castle_steppe_mediterranean.dds"
 
 castle_01 = {
@@ -148,7 +149,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mena_castle_01_indian_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_mena_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
@@ -816,7 +817,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mena_castle_02_indian_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_mena_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1479,7 +1480,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mena_castle_03_indian_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_mena_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2133,7 +2134,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mena_castle_04_indian_mesh"
-		illustration = @holding_illustration_mena
+		illustration = @holding_illustration_mena_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_india }

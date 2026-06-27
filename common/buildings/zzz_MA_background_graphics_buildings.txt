@@ -1,5 +1,4 @@
-﻿
-# Sprawl
+﻿# Sprawl
 ## Rome
 rome_sprawl2 = {
     is_graphical_background = yes
@@ -61,7 +60,10 @@ cairo_sprawl2 = {
     }
     is_enabled = {
         this = title:b_cairo.title_province
-        has_building_or_higher = "castle_02"
+        OR = {
+            has_building_or_higher = "castle_02"
+            has_variable = MA_fatimid_cairo_already #Since in 1066 cairo is still castle_01
+        }
     }
 }
 cairo_sprawl1 = {
@@ -85,8 +87,144 @@ ordu_sprawl = {
         has_building_or_higher = "MA_ordu"
     }
 }
+#Devagiri/Daulatabad
+devagiri_sprawl3 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "devagiri3_mesh"
+    }
+    is_enabled = {
+        this = title:b_devagiri.title_province
+        county.development_level >= 40
+    }
+}
+devagiri_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "devagiri2_mesh"
+    }
+    is_enabled = {
+        this = title:b_devagiri.title_province
+        county.development_level >= 20
+    }
+}
+devagiri_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "devagiri1_mesh"
+    }
+    is_enabled = {
+        this = title:b_devagiri.title_province
+    }
+}
+#Nalanda
+MA_nalanda_university = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "nalanda_university_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "nalanda_university"
+    }
+}
+#Patna - Pataliputra
+patna_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_patna2_mesh"
+    }
+    is_enabled = {
+        this = title:b_pataliputra.title_province
+        county.development_level >= 40
+    }
+}
+patna_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_patna1_mesh"
+    }
+    is_enabled = {
+        this = title:b_pataliputra.title_province
+    }
+}
+#Chittogarh
+MA_chittorgarh = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "chittorgarh_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "MA_chittorgarh"
+        this = title:b_chitrakut.title_province
+    }
+}
+#Tanjavur
+tanjavur_sprawl = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "tanjavur_sprawl_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "brihadeeswarar_temple_01"
+        this = title:b_tanjavur.title_province
+    }
+}
+#Delhi
+delhi_sprawl4 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "delhi4_mesh"
+    }
+    is_enabled = {
+        this = title:b_indraprastha.title_province
+        has_building_or_higher = "castle_04"
+    }
+}
+delhi_sprawl3 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "delhi3_mesh"
+    }
+    is_enabled = {
+        this = title:b_indraprastha.title_province
+        has_building_or_higher = "castle_03"
+    }
+}
+delhi_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "delhi2_mesh"
+    }
+    is_enabled = {
+        this = title:b_indraprastha.title_province
+        OR = {
+            has_building_or_higher = "castle_02"
+        }
+    }
+}
+delhi_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "delhi1_mesh"
+    }
+    is_enabled = {
+        this = title:b_indraprastha.title_province
+    }
+}
 
-# Walls #
+# Walls
 walls_00 = {
 	is_graphical_background = yes
 
@@ -127,6 +265,7 @@ walls_00 = {
             this = title:b_vaticano.title_province
             this = title:b_zadar.title_province
             this = title:b_cordoba.title_province
+			this = title:b_baghdad.title_province
 			# Herders shouldn't have walls
 			scope:holder = {
 				government_has_flag = government_is_herder
@@ -182,7 +321,7 @@ walls_01_tribal = {
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
 	}
 }
-
+# Here the Fort Level building chains take control of the visuals
 walls_01 = {
 	is_graphical_background = yes
 	
