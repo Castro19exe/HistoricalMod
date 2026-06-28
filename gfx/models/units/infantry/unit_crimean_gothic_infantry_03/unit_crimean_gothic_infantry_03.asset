@@ -52,17 +52,17 @@ pdxmesh = {
 		}
 	}
 
-	meshsettings = {
-		name = "unit_germanic_facial_hair_03"
-		texture_diffuse = "acg_unit_fp1_infantry_02_diffuse_chainmail_blond.dds"
-		texture_normal = "unit_fp1_infantry_02_normal.dds"
-		texture_specular = "unit_fp1_infantry_02_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-		additional_shader_defines = {
-			"MAP_LIGHTING_HACK"
-		}
-	}
+	#meshsettings = {
+	#	name = "unit_germanic_facial_hair_03"
+	#	texture_diffuse = "acg_unit_fp1_infantry_02_diffuse_chainmail_blond.dds"
+	#	texture_normal = "unit_fp1_infantry_02_normal.dds"
+	#	texture_specular = "unit_fp1_infantry_02_properties.dds"
+	#	shader = "standard_usercolor"
+	#	shader_file = "gfx/FX/pdxmesh.shader"
+	#	additional_shader_defines = {
+	#		"MAP_LIGHTING_HACK"
+	#	}
+	#}
 
 	meshsettings = {
 		name = "unit_scottish_helmet_02"

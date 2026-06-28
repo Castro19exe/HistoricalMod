@@ -182,7 +182,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_01_indian_mesh"
-		illustration = @holding_illustration_mediterranean_indian
+		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -891,7 +891,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_02_indian_mesh"
-		illustration = @holding_illustration_mediterranean_indian
+		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1554,7 +1554,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_03_indian_mesh"
-		illustration = @holding_illustration_mediterranean_indian
+		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2208,7 +2208,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "building_mediterranean_castle_04_indian_mesh"
-		illustration = @holding_illustration_mediterranean_indian
+		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mediterranean_building_gfx caucasian_building_gfx }
 		graphical_regions = { graphical_india }
