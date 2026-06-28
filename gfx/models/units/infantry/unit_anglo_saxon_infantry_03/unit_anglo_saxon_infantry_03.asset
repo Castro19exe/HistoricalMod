@@ -48,15 +48,21 @@ pdxmesh = {
 		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 
 	meshsettings = {
 		name = "unit_germanic_cape_infantry_03"
-		texture_diffuse = "unit_fp1_infantry_02_test_diffuse.dds"
+		texture_diffuse = "unit_anglo_saxon_infantry_03_diffuse.dds"
 		texture_normal = "unit_anglo_saxon_infantry_03_normal.dds"
-		texture_specular = "unit_anglo_saxon_infantry_03_test_properties.dds"
+		texture_specular = "unit_anglo_saxon_infantry_03_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 }
 

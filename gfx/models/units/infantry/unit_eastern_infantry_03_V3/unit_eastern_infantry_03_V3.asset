@@ -51,6 +51,9 @@ pdxmesh = {
 		texture_specular = "acg_hre_helmet_03_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 
 	meshsettings = {
@@ -60,6 +63,9 @@ pdxmesh = {
 		texture_specular = "acg_upe_unit_hre_infantry_03_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 }
 

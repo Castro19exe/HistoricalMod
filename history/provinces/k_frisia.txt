@@ -2,9 +2,13 @@
 ##d_holland ###################################
 ###c_holland
 2406 = {	#AMSTERDAM
-	culture = dutch
+	culture = frisian
 	religion = catholic
 	holding = castle_holding
+
+	1150.1.1 = {
+		culture = dutch
+	}
 }
 2404 = {	#DELFT
 	holding = none
@@ -30,9 +34,6 @@
 	culture = frisian
 	religion = catholic
 	holding = castle_holding
-	1100.1.1 = {
-		culture = dutch
-	}
 }
 2408 = {	#EDAM
 	holding = none
@@ -49,9 +50,13 @@
 
 ###c_zeeland
 2112 = {	#MIDDELBURG
-	culture = dutch
+	culture = frisian
 	religion = catholic
 	holding = castle_holding
+
+	1060.1.1 = {
+		culture = dutch
+	}
 }
 2113 = {	#BERGEN OP ZOOM
 	holding = none
@@ -128,7 +133,7 @@
 
 ###c_oversticht
 2421 = {	#ZWOLLE
-	culture = dutch
+	culture = saxon
 	religion = catholic
 	holding = castle_holding
 }
@@ -153,7 +158,7 @@
 
 ###c_groningen
 2417 = {	#GRONINGEN
-	culture = dutch
+	culture = saxon
 	religion = catholic
 	holding = castle_holding
 }

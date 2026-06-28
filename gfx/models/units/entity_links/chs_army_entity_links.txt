@@ -178,13 +178,13 @@ sub_saharan_army_03 = {
 	entity = unit_sub_saharan_infantry_03_entity
 }
 
-# fp1
+# fp1 - Norse
 
 fp1_army_01 = {
 	type = army
 	requires_dlc_flag = the_northern_lords
 	graphical_cultures = { norse_unit_gfx }
-	entity = unit_fp1_infantry_01_entity
+	entity = unit_norse_infantry_01_entity
 }
 
 fp1_army_02 = {
@@ -192,7 +192,7 @@ fp1_army_02 = {
 	requires_dlc_flag = the_northern_lords
 	quality = @tier2_quality
 	graphical_cultures = { norse_unit_gfx }
-	entity = unit_fp1_infantry_02_entity
+	entity = unit_norse_infantry_02_entity
 }
 
 fp1_army_03 = {
@@ -203,7 +203,8 @@ fp1_army_03 = {
 	entity = unit_fp1_infantry_03_entity
 }
 
-# fp2
+# fp2 - Iberian
+
 fp2_army_christian_01 = {
 	type = army
 	requires_dlc_flag = the_fate_of_iberia
@@ -250,7 +251,7 @@ fp2_army_muslim_03 = {
 	entity = unit_fp2_iberian_muslim_infantry_03_entity
 }
 
-# FP3
+# FP3 - Iranian
 
 fp3_army_01 = {
 	type = army
