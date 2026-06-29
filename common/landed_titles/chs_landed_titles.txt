@@ -59675,10 +59675,48 @@ e_abyssinia = {
 			c_dongola = {
 				color = { 145 150 80 }
 
+				cultural_names = {
+					name_list_daju = Doñqal
+					name_list_ethiopian = Doñqal
+					name_list_nubian = Doñqal
+					name_list_welayta = Doñqal
+					name_list_afar = Doongola
+					name_list_beja = Doongola
+					name_list_somali = Doongola
+					name_list_bedouin = Dunqulā
+					name_list_maghrebi = Dunqulā
+					name_list_levantine = Dunqulā
+					name_list_egyptian = Dunqulā
+					name_list_andalusian = Dunqulā
+					name_list_yemeni = Dunqulā
+					name_list_baranis = Doungoula
+					name_list_butr = Doungoula
+					name_list_zaghawa = Doungoula
+				}
+
 				b_old_dongola = {
 					province = 6344
 
 					color = { 145 150 80 }
+
+					cultural_names = {
+						name_list_daju = Tungul
+						name_list_ethiopian = Tungul
+						name_list_nubian = Tungul
+						name_list_welayta = Tungul
+						name_list_afar = Tungul
+						name_list_beja = Tungul
+						name_list_somali = Tungul
+						name_list_bedouin = "Dunqulā al-'Ajūz"
+						name_list_maghrebi = "Dunqulā al-'Ajūz"
+						name_list_levantine = "Dunqulā al-'Ajūz"
+						name_list_egyptian = "Dunqulā al-'Ajūz"
+						name_list_andalusian = "Dunqulā al-'Ajūz"
+						name_list_yemeni = "Dunqulā al-'Ajūz"
+						name_list_baranis = Toungoul
+						name_list_butr = Toungoul
+						name_list_zaghawa = Toungoul
+					}
 				}
 				b_tumbus = {
 					province = 6341
@@ -59694,6 +59732,25 @@ e_abyssinia = {
 					province = 6343
 
 					color = { 145 150 80 }
+
+					cultural_names = {
+						name_list_daju = Doñqal
+						name_list_ethiopian = Doñqal
+						name_list_nubian = Doñqal
+						name_list_welayta = Doñqal
+						name_list_afar = Doongola
+						name_list_beja = Doongola
+						name_list_somali = Doongola
+						name_list_bedouin = Dunqulā
+						name_list_maghrebi = Dunqulā
+						name_list_levantine = Dunqulā
+						name_list_egyptian = Dunqulā
+						name_list_andalusian = Dunqulā
+						name_list_yemeni = Dunqulā
+						name_list_baranis = Doungoula
+						name_list_butr = Doungoula
+						name_list_zaghawa = Doungoula
+					}
 				}
 				b_debba = {
 					province = 6345

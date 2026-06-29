@@ -76,7 +76,7 @@ object={
 	layer="building_layer"
 	pdxmesh="prophetic_mosque_mesh"
 	count=1
-	transform="3166.178711 0.000000 1578.700806 0.000000 0.000000 0.000000 0.000000 0.868384 0.868384 0.868384
+	transform="3166.178711 0.109985 1578.700806 0.000000 0.000000 0.000000 0.000000 0.868384 0.868384 0.868384
 "}
 object={
 	name="sprawl_alexandria"
