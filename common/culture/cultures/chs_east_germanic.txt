@@ -132,9 +132,9 @@ crimean_gothic = {
 	house_coa_frame = house_frame_05
 	
 	ethnicities = {
-		25 = caucasian_blond
+		20 = caucasian_blond
 		5 = caucasian_ginger
-		35 = caucasian_brown_hair
+		40 = caucasian_brown_hair
 		35 = caucasian_dark_hair
 	}
 }

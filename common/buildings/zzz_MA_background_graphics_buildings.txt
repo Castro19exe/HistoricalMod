@@ -153,8 +153,8 @@ patna_sprawl1 = {
         this = title:b_pataliputra.title_province
     }
 }
-#Chittogarh
-MA_chittorgarh = {
+#Chittorgarh
+chittorgarh_sprawl = {
     is_graphical_background = yes
     asset = {
         type = pdxmesh
