@@ -8481,8 +8481,8 @@
  b_rudnik:0 "Rudnik"
  b_rudolfswerde:0 "Rudolfswerde"
  b_ruffec:0 "Ruffec"
- b_rugard:0 "Rugard"
- b_rugen:0 "Rügen"
+ b_rugard:0 "Rugard" 
+ b_rugen:0 "Bergen" # Rügen
  b_rugenwalde:0 "Rügenwalde"
  b_ruhna:0 "Ruhna"
  b_rujno:0 "Rujno"
@@ -14881,8 +14881,8 @@
  c_weimar_adj:0 "Weimarian"
  c_weissenburg:0 "Weissenburg"
  c_weissenburg_adj:0 "Weissenburger"
- c_werle:0 "Werle"
- c_werle_adj:0 "Werlian"
+ c_werle:0 "Warinen" # Werle
+ c_werle_adj:0 "Warinenian" # Werlen
  c_west-tokharestan:0 "West-Tokharestan"
  c_west-tokharestan_adj:0 "West-Tokharestani"
  c_west_dvina:1 "West Dvina"

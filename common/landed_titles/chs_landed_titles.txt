@@ -9055,6 +9055,12 @@ e_germany = {
 					province = 3019
 
 					color = { 195 85 65 }
+
+					cultural_names = {
+						name_list_polabian = Lipsk
+						name_list_polish = Lipsk
+						name_list_pommeranian = Lipsk
+					}
 				}
 				b_halle = {
 					province = 3018
@@ -21470,16 +21476,15 @@ e_wendish_empire = {
 			capital = c_mecklenburg #Wismar
 
 			cultural_names = {
-				name_list_polabian = cn_veletia
 				name_list_franconian = Mecklenburg
 				name_list_saxon = Mecklenburg
 				name_list_swabian = Mecklenburg
 				name_list_bavarian = Mecklenburg
 				name_list_thuringian = Mecklenburg
-				name_list_norse = Mecklenborg
-				name_list_swedish = Mecklenborg
-				name_list_norwegian = Mecklenborg
-				name_list_danish = Mecklenborg
+				name_list_norse = Miklaborg
+				name_list_swedish = Miklaborg
+				name_list_norwegian = Miklaborg
+				name_list_danish = Miklaborg
 			}
 
 			c_mecklenburg = {
@@ -21487,12 +21492,12 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_obotritia
+					name_list_polish = cn_obotritia
 					name_list_pommeranian = cn_obotritia
-					name_list_sorbian = cn_obotritia
-					name_list_norse = Mecklenborg
-					name_list_swedish = Mecklenborg
-					name_list_norwegian = Mecklenborg
-					name_list_danish = Mecklenborg
+					name_list_norse = Miklaborg
+					name_list_swedish = Miklaborg
+					name_list_norwegian = Miklaborg
+					name_list_danish = Miklaborg
 				}
 
 				b_wismar = {
@@ -21503,7 +21508,6 @@ e_wendish_empire = {
 					cultural_names = {
 						name_list_polabian = Wyszomierz
 						name_list_pommeranian = Wyszomierz
-						name_list_sorbian = Wyszomierz
 						name_list_norse = Vismar
 						name_list_swedish = Vismar
 						name_list_norwegian = Vismar
@@ -21519,7 +21523,6 @@ e_wendish_empire = {
 						name_list_polish = Racinów
 						name_list_pommeranian = Racinów
 						name_list_polabian = Racinów
-						name_list_sorbian = Racinów
 						name_list_norse = Ratsborg
 						name_list_swedish = Ratsborg
 						name_list_norwegian = Ratsborg
@@ -21533,8 +21536,8 @@ e_wendish_empire = {
 
 					cultural_names = {
 						name_list_polabian = cn_zwierzyn
+						polish = cn_zwierzyn
 						name_list_pommeranian = cn_zwierzyn
-						name_list_sorbian = cn_zwierzyn
 					}
 				}
 				b_parchim = {
@@ -21645,10 +21648,12 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_warnabia
-					name_list_norse = Verle
-					name_list_swedish = Verle
-					name_list_norwegian = Verle
-					name_list_danish = Verle
+					name_list_polish = cn_warnabia
+					name_list_pommeranian = cn_warnabia
+					name_list_norse = Værinar
+					name_list_swedish = Værinar
+					name_list_norwegian = Værinar
+					name_list_danish = Værinar
 				}
 
 				b_werle = {
@@ -21657,9 +21662,9 @@ e_wendish_empire = {
 					color = { 170 185 140 }
 
 					cultural_names = {
+						name_list_polabian = Orle
 						name_list_polish = Orle
 						name_list_pommeranian = Orle
-						name_list_polabian = Orle
 						name_list_norse = Verle
 						name_list_swedish = Verle
 						name_list_norwegian = Verle
@@ -22095,10 +22100,12 @@ e_wendish_empire = {
 
 				cultural_names = {
 					name_list_polabian = cn_ukria
-					name_list_norse = Bærlyn
-					name_list_swedish = Bärlyn
-					name_list_norwegian = Bærlyn
-					name_list_danish = Bærlyn
+					name_list_polish = cn_ukria
+					name_list_pommeranian = cn_ukria
+					name_list_norse = Bjøryn
+					name_list_swedish = Björyn
+					name_list_norwegian = Bjøryn
+					name_list_danish = Bjøryn
 				}
 
 				b_berlin = {
@@ -22107,10 +22114,13 @@ e_wendish_empire = {
 					color = { 80 110 80 }
 
 					cultural_names = {
-						name_list_norse = Bærlyn
-						name_list_swedish = Bärlyn
-						name_list_norwegian = Bærlyn
-						name_list_danish = Bærlyn
+						name_list_polabian = Brljin
+						name_list_polish = Brljin
+						name_list_pommeranian = Brljin
+						name_list_norse = Bjøryn
+						name_list_swedish = Björyn
+						name_list_norwegian = Bjøryn
+						name_list_danish = Bjøryn
 					}
 				}
 				b_botzow = {
