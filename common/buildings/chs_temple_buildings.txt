@@ -522,7 +522,7 @@ temple_01 = {
 	# Eastern Pagan
 	asset = {
 		type = pdxmesh
-		name = "slavic_temple_01_mesh"
+		name = "west_slavic_temple_01_mesh"
 		illustration = @illustration_eastern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
@@ -530,7 +530,7 @@ temple_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "slavic_temple_01_mesh"
+		name = "west_slavic_temple_01_mesh"
 		illustration = @illustration_eastern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
@@ -1456,7 +1456,7 @@ temple_02 = {
 	# Eastern Pagan
 	asset = {
 		type = pdxmesh
-		name = "slavic_temple_01_mesh"
+		name = "west_slavic_temple_01_mesh"
 		illustration = @illustration_eastern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }
@@ -1464,7 +1464,7 @@ temple_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "slavic_temple_01_mesh"
+		name = "west_slavic_temple_01_mesh"
 		illustration = @illustration_eastern_pagan
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "pagan_gfx" }

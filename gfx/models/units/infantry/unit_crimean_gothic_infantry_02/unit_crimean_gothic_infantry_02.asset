@@ -48,15 +48,9 @@ pdxmesh = {
 		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
-	}
-
-	meshsettings = {
-		name = "unit_eastern_beard_02"
-		texture_diffuse = "acg_upe_unit_scottish_infantry_02_diffuse_blo.dds"
-		texture_normal = "acg_upe_unit_scottish_infantry_02_normal_v2.dds"
-		texture_specular = "acg_upe_unit_scottish_infantry_02_properties_v2.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 
 	meshsettings = {
@@ -66,6 +60,9 @@ pdxmesh = {
 		texture_specular = "acg_upe_unit_hre_infantry_02_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 }
 

@@ -2708,8 +2708,8 @@ e_britannia = {
 				color = { 125 5 5 }
 
 				cultural_names = {
-					name_list_anglo_saxon = Hamtun
-					name_list_old_saxon = Hamtun
+					name_list_anglo_saxon = Norþhamtun
+					name_list_old_saxon = Norþhamtun
 				}
 
 				b_northampton = {
@@ -2718,8 +2718,8 @@ e_britannia = {
 					color = { 125 5 5 }
 
 					cultural_names = {
-						name_list_anglo_saxon = Hamtun
-						name_list_old_saxon = Hamtun
+						name_list_anglo_saxon = Norþhamtun
+						name_list_old_saxon = Norþhamtun
 					}
 				}
 				b_peterborough = {
