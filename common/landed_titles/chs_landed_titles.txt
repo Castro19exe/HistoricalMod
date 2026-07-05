@@ -21600,6 +21600,16 @@ e_wendish_empire = {
 					province = 2810
 
 					color = { 163 162 145 }
+
+					cultural_names = {
+						name_list_polish = Strzałów
+						name_list_pommeranian = Strzałów
+						name_list_polabian = Strzałów
+						name_list_norse = Strålsund
+						name_list_swedish = Strålsund
+						name_list_norwegian = Strålsund
+						name_list_danish = Strålsund
+					}
 				}
 			}
 			c_rostock = {
