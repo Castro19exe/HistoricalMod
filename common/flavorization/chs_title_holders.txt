@@ -216,6 +216,7 @@ emperor_feudal_male_russian = {
 	priority = 102
 	governments = { feudal_government tribal_government  }
 	name_lists = { name_list_russian }
+	religions = { christianity_religion }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -228,6 +229,7 @@ emperor_feudal_female_russian = {
 	priority = 102
 	governments = { feudal_government tribal_government  }
 	name_lists = { name_list_russian }
+	religions = { christianity_religion }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -238,6 +240,7 @@ empire_feudal_russian = {
 	priority = 102
 	governments = { feudal_government tribal_government  }
 	name_lists = { name_list_russian }
+	religions = { christianity_religion }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -306,6 +309,46 @@ duchy_feudal_russian = {
 	priority = 27
 	governments = { feudal_government  }
 	name_lists = { name_list_russian }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+
+### Bulgarian ###
+# Feudal
+emperor_feudal_male_bulgarian = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government administrative_government }
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+emperor_feudal_female_bulgarian = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government administrative_government }
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+empire_feudal_bulgarian = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government administrative_government }
+	name_lists = { name_list_bulgarian }
+	religions = { christianity_religion }
 	flavourization_rules = { 
 		top_liege = no
 	}

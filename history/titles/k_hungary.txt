@@ -6,14 +6,6 @@
 	867.1.1 = {
 		de_jure_liege = 0
 	}
-
-	1066.9.15 = {
-		de_jure_liege = 0
-	}
-
-	1178.10.1 = {
-		de_jure_liege = 0
-	}
 	
 	685.1.1 = {
 		holder = 146154
@@ -176,7 +168,7 @@
 
 d_visegrad = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146172
 		government = tribal_government
 	}
@@ -827,7 +819,7 @@ c_hewes = {
 
 d_somogy = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146172
 	}
 	808.1.1 = {
@@ -2819,7 +2811,7 @@ d_transylvania = {
 		holder = 146151
 	}
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 	}
 	812.1.1 = {
 		holder = 146152
@@ -3381,7 +3373,7 @@ c_hunyad = {
 
 d_bihar = {
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146153
 		government = tribal_government
 	}
@@ -3788,7 +3780,7 @@ c_szatmar = {
 
 d_temes = {
 	804.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146153
 		government = tribal_government
 	}
@@ -4214,7 +4206,7 @@ c_csanad = {
 
 d_bacs = {
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146172
 		government = tribal_government
 	}
@@ -4471,7 +4463,7 @@ d_gyor = {
 	1178.1.1 = { change_development_level = 15 }
 
 	805.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 		holder = 146172
 	}
 	808.1.1 = {
@@ -5015,7 +5007,7 @@ c_szerem = {
 		holder = lampardas_1 # Andronikos lampardas
 	}
 	1185.1.1 = {
-		liege = "k_bulgaria"
+		liege = "e_bulgaria"
 	}
 	1185.1.1 = {
 		holder = 217502 #Kaloyan

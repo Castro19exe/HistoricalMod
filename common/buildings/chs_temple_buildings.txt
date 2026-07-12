@@ -21,11 +21,11 @@
 @illustration_ethiopian_orthodox = "gfx/interface/illustrations/holding_types/temple_ethiopian_orthodox.dds"
 @illustration_tengri = "gfx/interface/illustrations/holding_types/mpo_temple_steppe.dds"
 @illustration_magyar_christian = "gfx/interface/illustrations/holding_types/temple_magyar_christian.dds"
-@illustration_slavic_orthodox = "gfx/interface/illustrations/holding_types/temple_norse_orthodox.dds"
 @illustration_celtic_christian = "gfx/interface/illustrations/holding_types/temple_goidelic_christian.dds"
 @illustration_chinese = "gfx/interface/illustrations/holding_types/tgp_chinese_pagoda.dds"
 @illustration_shinto = "gfx/interface/illustrations/holding_types/tgp_shinto_temple.dds"
 @illustration_southeast_asian_pagan = "gfx/interface/illustrations/holding_types/tgp_temple_pagan_se_asia.dds"
+@illustration_caucasian_orthodox = "gfx/interface/illustrations/holding_types/temple_caucasian_orthodox.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time
@@ -610,7 +610,7 @@ temple_01 = {
 		type = pdxmesh
 		name = "cp6_building_caucasian_temple_orthodox_01_mesh"
 		requires_dlc_flag = holy_buildings
-		illustration = @illustration_orthodox
+		illustration = @illustration_caucasian_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_cultures = { caucasian_building_gfx } #+2 compared to building_mediterranean_temple_orthodox_01_mesh
@@ -1544,7 +1544,7 @@ temple_02 = {
 		type = pdxmesh
 		name = "cp6_building_caucasian_temple_orthodox_01_mesh"
 		requires_dlc_flag = holy_buildings
-		illustration = @illustration_orthodox
+		illustration = @illustration_caucasian_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_cultures = { caucasian_building_gfx } #+2 compared to building_mediterranean_temple_orthodox_01_mesh
@@ -2347,7 +2347,7 @@ temple_03 = {
 		type = pdxmesh
 		name = "cp6_building_caucasian_temple_orthodox_02_mesh"
 		requires_dlc_flag = holy_buildings
-		illustration = @illustration_orthodox
+		illustration = @illustration_caucasian_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_cultures = { caucasian_building_gfx } #+2 compared to building_mediterranean_temple_orthodox_01_mesh
@@ -3140,7 +3140,7 @@ temple_04 = {
 		type = pdxmesh
 		name = "cp6_building_caucasian_temple_orthodox_02_mesh"
 		requires_dlc_flag = holy_buildings
-		illustration = @illustration_orthodox
+		illustration = @illustration_caucasian_orthodox
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_cultures = { caucasian_building_gfx } #+2 compared to building_mediterranean_temple_orthodox_01_mesh

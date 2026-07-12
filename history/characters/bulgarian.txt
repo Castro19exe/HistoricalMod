@@ -1571,7 +1571,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 10
-	religion = "tengri_pagan"
+	religion = tengri_pagan
 	culture = "bulgarian"
 	trait = ambitious	#Can't say he didn't aim high in all areas of his life.
 	trait = callous	#Blinded his own son, threatened to blind the others, ruthlessly broke pagan revolts throughout his reign. Rarely mean, but utterly pragmatic.
@@ -1642,7 +1642,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "tengri_pagan"
-	culture = "bulgarian"
+	culture = "bolghar"
 	trait = brave
 	trait = arrogant
 	trait = education_martial_2
@@ -2057,7 +2057,7 @@
 
 159126 = {
 	name = "Zvinica" #father of Presian I
-	dynasty = 591
+	dynasty = 8636
 	religion = "tengri_pagan"
 	culture = "bolghar"
 	father = 159124

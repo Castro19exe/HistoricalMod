@@ -4,14 +4,9 @@
 	1178.1.1 = { change_development_level = 24 }
 
 	867.1.1 = {
-		de_jure_liege = 0
+		de_jure_liege = e_bulgaria
 	}
-
-	1066.9.15 = {
-		de_jure_liege = 0
-	}
-
-	1178.10.1 = {
+	1100.1.1 = {
 		de_jure_liege = 0
 	}
 }
@@ -20,7 +15,7 @@ c_campulung = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -77,7 +72,7 @@ c_polovragi = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -132,7 +127,7 @@ c_tabla_butii = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -188,7 +183,7 @@ c_tabla_butii = {
 d_muntenia = {
 	860.1.1 = {
 		holder = vlach_000005
-		liege = k_bulgaria
+		liege = e_bulgaria
 	}
 	898.12.30 = {
 		holder = 0
@@ -199,7 +194,7 @@ c_giurgiu = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -260,7 +255,7 @@ c_bucuresti = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -317,7 +312,7 @@ c_calarasi = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -374,7 +369,7 @@ c_buzau = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -434,7 +429,7 @@ c_braila = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -494,7 +489,7 @@ c_targu_jiu = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -549,7 +544,7 @@ c_severin = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -606,7 +601,7 @@ c_calafat = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {
@@ -663,7 +658,7 @@ c_craiova = {
 	###Part of 1st Bulgarian Empire
 	852.1.1 = {
 		holder = 70382 #Boris
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	860.1.1 = {

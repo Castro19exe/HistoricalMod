@@ -4,14 +4,9 @@
 	1178.1.1 = { change_development_level = 8 }
 
 	867.1.1 = {
-		de_jure_liege = 0
+		de_jure_liege = e_bulgaria
 	}
-
-	1066.9.15 = {
-		de_jure_liege = 0
-	}
-
-	1178.10.1 = {
+	1100.1.1 = {
 		de_jure_liege = 0
 	}
 }
@@ -257,7 +252,7 @@ c_galati = {
 	#Under Bulgarian Empire
 	867.1.1 = {
 		holder = 302119	#Mihai Brodnici
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	885.2.19 = {
@@ -286,7 +281,7 @@ c_stoenesti = {
 	#Under Bulgarian Empire
 	867.1.1 = {
 		holder = 302119	#Mihai Brodnici
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	885.2.19 = {
@@ -330,7 +325,7 @@ c_tigheci = {
 	#Tigheci Republic
 	867.1.1 = {
 		holder = 302117
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	#Pecheneg rule
@@ -348,7 +343,7 @@ c_cetatea_alba = {
 	#Tigheci Republic
 	867.1.1 = {
 		holder = 302117
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	935.1.1 = {
@@ -371,7 +366,7 @@ c_chilia = {
 	#Tigheci Republic
 	867.1.1 = {
 		holder = 302117
-		liege = k_bulgaria
+		liege = e_bulgaria
 		government = tribal_government
 	}
 	#Pecheneg rule

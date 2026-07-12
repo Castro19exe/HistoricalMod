@@ -9169,6 +9169,21 @@ e_germany = {
 	}
 }
 
+e_bulgaria = {
+	color = { 112 87 92 }
+
+	capital = c_dorostorum
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:bulgarian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
 e_illyria = {
 	color = { 180 35 0 }
 
@@ -11965,10 +11980,24 @@ e_byzantium = {
 
 				#capital = 507 # Nikopolis
 
+				cultural_names = {
+					name_list_croatian = Nikopol
+					name_list_bosnian = Nikopol
+					name_list_serbian = Nikopol
+					name_list_bulgarian = Nikopol
+				}
+
 				b_nikopolis = {
 					province = 507
 
 					color = { 80 55 68 }
+
+					cultural_names = {
+						name_list_croatian = Nikopol
+						name_list_bosnian = Nikopol
+						name_list_serbian = Nikopol
+						name_list_bulgarian = Nikopol
+					}
 				}
 				b_pliven = {
 					province = 3679
@@ -11991,15 +12020,27 @@ e_byzantium = {
 
 				#capital = 508	# Silistra / Dorostorum
 
+				cultural_names = {
+					name_list_greek = Douróstolon
+				}
+
 				b_preslav = {
 					province = 3689
 
 					color = { 108 100 80 }
+
+					cultural_names = {
+						name_list_greek = Ioannoúpolis
+					}
 				}
 				b_dorostorum = {
 					province = 508
 
 					color = { 108 100 80 }
+
+					cultural_names = {
+						name_list_greek = Douróstolon
+					}
 				}
 				b_tutrakan = {
 					province = 3685
@@ -12015,6 +12056,15 @@ e_byzantium = {
 					province = 3687
 
 					color = { 108 100 80 }
+
+					cultural_names = {
+						name_list_bavarian = Razburg
+						name_list_franconian = Razburg
+						name_list_german = Razburg
+						name_list_saxon = Razburg
+						name_list_swabian = Razburg
+						name_list_thuringian Razburg
+					}
 				}
 				b_sborishte = {
 					province = 3688
@@ -12368,15 +12418,36 @@ e_byzantium = {
 
 			capital = c_philippopolis # Philippopolis / Plovdiv
 
+			cultural_names = {
+				name_list_croatian = Plovdiv
+				name_list_bosnian = Plovdiv
+				name_list_serbian = Plovdiv
+				name_list_bulgarian = Plovdiv
+			}
+
 			c_philippopolis = {
 				color = { 85 110 110 }
 
 				#capital = 493 # Philippopolis / Plovdiv
 
+				cultural_names = {
+					name_list_croatian = Plovdiv
+					name_list_bosnian = Plovdiv
+					name_list_serbian = Plovdiv
+					name_list_bulgarian = Plovdiv
+				}
+
 				b_philippopolis = {
 					province = 493
 
 					color = { 75 100 110 }
+
+					cultural_names = {
+						name_list_croatian = Plovdiv
+						name_list_bosnian = Plovdiv
+						name_list_serbian = Plovdiv
+						name_list_bulgarian = Plovdiv
+					}
 				}
 				b_tsepina = {
 					province = 3623
@@ -12528,6 +12599,10 @@ e_byzantium = {
 					province = 3620
 
 					color = { 50 75 85 }
+
+					cultural_names = {
+						name_list_greek = Smolianí
+					}
 				}
 				b_ustra = {
 					province = 3621
@@ -22041,8 +22116,9 @@ e_wendish_empire = {
 				color = { 115 135 115 }
 
 				cultural_names = {
-					name_list_polabian = cn_brenna
-					name_list_pommeranian = cn_brenna
+					name_list_polabian = Branibor
+					name_list_polish = Branibor
+					name_list_pommeranian = Branibor
 				}
 
 				b_brandenburg = {
@@ -22051,8 +22127,9 @@ e_wendish_empire = {
 					color = { 115 135 115 }
 
 					cultural_names = {
-						name_list_polabian = cn_brenna
-						name_list_pommeranian = cn_brenna
+						name_list_polabian = Branibor
+						name_list_polish = Branibor
+						name_list_pommeranian = Branibor
 					}
 				}
 				b_potsdam = {

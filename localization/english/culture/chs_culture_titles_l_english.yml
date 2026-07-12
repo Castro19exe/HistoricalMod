@@ -3,13 +3,11 @@
 #############################################
 
 ### English ###
-# Feudal / Tribal 
  count_feudal_male_english:0 "Earl"
  count_feudal_female_english:0 "Countess"
  county_feudal_english:0 "Earldom"
 
 ### Anglo-Saxon ###
-# Feudal / Tribal 
  duke_feudal_male_anglo_saxon:0 "Eorl"
  duke_feudal_female_anglo_saxon:0 "Hlaefdige"
  duchy_feudal_anglo_saxon:0 "Eorldom"
@@ -31,7 +29,6 @@
  barony_republic_anglo_saxon:0 "Burh"
 
  ### Russian ###
- # Feudal 
  emperor_feudal_male_russian:0 "Csar"
  emperor_feudal_female_russian:0 "Csaritsa"
  empire_feudal_russian:0 "Csardom"
@@ -43,3 +40,8 @@
  duke_feudal_male_russian:0 "Prince"
  duke_feudal_female_russian:0 "Princess"
  duchy_feudal_russian:0 "Principality"
+
+ ### Bulgarian ###
+ emperor_feudal_male_bulgarian:0 "Csar"
+ emperor_feudal_female_bulgarian:0 "Csaritsa"
+ empire_feudal_bulgarian:0 "Csardom"

@@ -142,42 +142,6 @@ language_vainakh = {
 	color = { 160 40 29 }
 }
 
-language_arpitan  = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_arpitan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_arpitan }
-			multiply = 10
-		}
-	}
-	
-	color = { 255 110 105 }
-}
-
-language_japanese  = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_japanese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_japanese }
-			multiply = 10
-		}
-	}
-	
-	color = { 234 35 35 }
-}
-
 language_gothic = {
 	type = language
 	is_shown = {
@@ -193,7 +157,7 @@ language_gothic = {
 		}
 	}
 	
-	color = { 171 165 111 }
+	color = { 142 139 112 }
 }
 
 language_low_german = {
@@ -265,7 +229,7 @@ language_east_germanic = {
 		}
 	}
 	
-	color = { 218 210 53 }
+	color = { 137 152 154 }
 }
 
 language_lechitic = {
