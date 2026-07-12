@@ -356,7 +356,7 @@
 	female = yes
 	dna = 6863_ingrid_bjornsdottir
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	father = 163108 #Björn Ironside
 	mother = 6839
 	trait = intellect_good_2
@@ -1016,7 +1016,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	trait = calm
 	trait = humble
 	trait = cynical
@@ -3559,7 +3559,7 @@
 	dna = 163108_bjorn_ironside
 	dynasty_house = house_munso #Munsö <- Björn is founder
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	martial = 7
 	stewardship = 5
 	diplomacy = 8
