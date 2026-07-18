@@ -5438,7 +5438,7 @@ e_germany = {
 	k_saxony = {
 		color = { 120 25 25 }
 
-		capital = c_dessau
+		capital = c_minden
 
 		can_create = {
 			trigger_if = {
@@ -8961,10 +8961,22 @@ e_germany = {
 			c_dessau = {
 				color = { 195 105 80 }
 
+				cultural_names = {
+					name_list_polish = Desawa
+					name_list_pommeranian = Desawa
+					name_list_polabian = Desawa
+				}
+
 				b_dessau = {
 					province = 3023
 
 					color = { 195 105 80 }
+
+					cultural_names = {
+						name_list_polish = Desawa
+						name_list_pommeranian = Desawa
+						name_list_polabian = Desawa
+					}
 				}
 				b_zerbst = {
 					province = 3172
@@ -8972,6 +8984,8 @@ e_germany = {
 					color = { 195 105 80 }
 
 					cultural_names = {
+						name_list_polish = cn_ciervisti
+						name_list_pommeranian = cn_ciervisti
 						name_list_polabian = cn_ciervisti
 					}
 				}
@@ -9013,6 +9027,12 @@ e_germany = {
 					province = 3176
 
 					color = { 175 90 75 }
+
+					cultural_names = {
+						name_list_polish = Gomierzów
+						name_list_pommeranian = Gomierzów
+						name_list_polabian = Gomierzów
+					}
 				}
 			}
 			c_blankenburg = {
@@ -11913,10 +11933,18 @@ e_byzantium = {
 
 				#capital = 499 # Turnovo
 
+				cultural_names = {
+					name_list_greek = Paristrion
+				}
+
 				b_turnovo = {
 					province = 499
 
 					color = { 103 78 91 }
+
+					cultural_names = {
+						name_list_greek = Paristrion
+					}
 				}
 				b_cherven = {
 					province = 3682
@@ -12021,7 +12049,7 @@ e_byzantium = {
 				#capital = 508	# Silistra / Dorostorum
 
 				cultural_names = {
-					name_list_greek = Douróstolon
+					name_list_greek = Dourostolon
 				}
 
 				b_preslav = {
@@ -12030,7 +12058,7 @@ e_byzantium = {
 					color = { 108 100 80 }
 
 					cultural_names = {
-						name_list_greek = Ioannoúpolis
+						name_list_greek = "Megale Peristhlaba"
 					}
 				}
 				b_dorostorum = {
@@ -12039,7 +12067,7 @@ e_byzantium = {
 					color = { 108 100 80 }
 
 					cultural_names = {
-						name_list_greek = Douróstolon
+						name_list_greek = Dourostolon
 					}
 				}
 				b_tutrakan = {
@@ -12136,10 +12164,28 @@ e_byzantium = {
 
 				#capital = 510 # Constanta
 
+				cultural_names = {
+					name_list_croatian = Kjustendža
+					name_list_bosnian = Kjustendža
+					name_list_serbian = Kjustendža
+					name_list_bulgarian = Kjustendža
+					name_list_vlach = Constanța
+					name_list_greek = Tomis
+				}
+
 				b_constanta = {
 					province = 510
 
 					color = { 75 100 80 }
+
+					cultural_names = {
+						name_list_croatian = Kjustendža
+						name_list_bosnian = Kjustendža
+						name_list_serbian = Kjustendža
+						name_list_bulgarian = Kjustendža
+						name_list_vlach = Constanța
+						name_list_greek = Tomis
+					}
 				}
 				b_tulcha = {
 					province = 3694
@@ -12163,7 +12209,10 @@ e_byzantium = {
 				#capital = 498 # Mesembria
 
 				cultural_names = {
-					name_list_bulgarian = "Nesebar"
+					name_list_croatian = Nesebar
+					name_list_bosnian = Nesebar
+					name_list_serbian = Nesebar
+					name_list_bulgarian = Nesebar
 				}
 
 				b_mesembria = {
@@ -12172,7 +12221,10 @@ e_byzantium = {
 					color = { 55 75 65 }
 
 					cultural_names = {
-						name_list_bulgarian = "Nesebar"
+						name_list_croatian = Nesebar
+						name_list_bosnian = Nesebar
+						name_list_serbian = Nesebar
+						name_list_bulgarian = Nesebar
 					}
 				}
 				b_varna = {
@@ -12372,8 +12424,7 @@ e_byzantium = {
 				#capital = 471 # Ohrid / Lychidnus
 
 				cultural_names = {
-					name_list_greek = "Lychnidos"
-					name_list_roman = "Lychnidus"
+					name_list_greek = Achrida
 				}
 
 				b_ohrid = {
@@ -12382,8 +12433,7 @@ e_byzantium = {
 					color = { 135 90 110 }
 
 					cultural_names = {
-						name_list_greek = "Lychnidos"
-						name_list_roman = "Lychnidus"
+						name_list_greek = Achrida
 					}
 				}
 				b_bitola = {
@@ -12392,18 +12442,29 @@ e_byzantium = {
 					color = { 135 90 110 }
 
 					cultural_names = {
-						name_list_greek = "Voutelion"
+						name_list_greek = Voutelion
 					}
 				}
 				b_devol = {
 					province = 3639
 
 					color = { 135 90 110 }
+
+					cultural_names = {
+						name_list_greek = Deavolis
+					}
 				}
 				b_kastoria = {
 					province = 3640
 
 					color = { 135 90 110 }
+
+					cultural_names = {
+						name_list_croatian = Kostur
+						name_list_bosnian = Kostur
+						name_list_serbian = Kostur
+						name_list_bulgarian = Kostur
+					}
 				}
 				b_goritsa = {
 					province = 3641
@@ -12585,10 +12646,18 @@ e_byzantium = {
 
 				#capital = 3618 # Zherkovo / Modern Kardzhali
 
+				cultural_names = {
+					name_list_greek = Kartzali
+				}
+
 				b_zherkovo = {
 					province = 3618
 
 					color = { 50 75 85 }
+
+					cultural_names = {
+						name_list_greek = Kartzali
+					}
 				}
 				b_lyutitsa = {
 					province = 3619
@@ -12601,6 +12670,10 @@ e_byzantium = {
 					color = { 50 75 85 }
 
 					cultural_names = {
+						name_list_croatian = Smoljan
+						name_list_bosnian = Smoljan
+						name_list_serbian = Smoljan
+						name_list_bulgarian = Smoljan
 						name_list_greek = Smolianí
 					}
 				}
@@ -12625,10 +12698,22 @@ e_byzantium = {
 
 				#capital = 3617 # Nevrokop
 
+				cultural_names = {
+					name_list_croatian = Slavej
+					name_list_bosnian = Slavej
+					name_list_serbian = Slavej
+					name_list_bulgarian = Slavej
+					name_list_greek = Rodopi
+				}
+
 				b_nevropkop = {
 					province = 3617
 
 					color = { 75 100 110 }
+
+					cultural_names = {
+						name_list_greek = Nevrokopi
+					}
 				}
 				b_kalyatta = {
 					province = 3614
@@ -18552,6 +18637,13 @@ e_scandinavia = {
 			c_halsingland = {
 				color = { 60 70 235 }
 
+				cultural_names = {
+					name_list_norse = Hælsingaland
+					name_list_swedish = Hälsingland
+                    name_list_norwegian = Hælsingland
+                    name_list_danish = Hælsingland
+				}
+
 				b_norale = { #(Norrala)
 					province = 360
 
@@ -21662,13 +21754,23 @@ e_wendish_empire = {
 					color = { 163 162 145 }
 
 					cultural_names = {
-						name_list_polabian = cn_arkona
-						name_list_polish = cn_arkona
-						name_list_pommeranian = cn_arkona
-						name_list_norse = Rygen
-						name_list_swedish = Rygen
-						name_list_norwegian = Rygen
-						name_list_danish = Rygen
+						#name_list_polabian = cn_arkona
+						#name_list_polish = cn_arkona
+						#name_list_pommeranian = cn_arkona
+						##################################
+
+						name_list_polish = Gardziec
+						name_list_pommeranian = Gardziec
+						name_list_polabian = Gardziec
+						name_list_franconian = Bergen
+						name_list_saxon = Bergen
+						name_list_swabian = Bergen
+						name_list_bavarian = Bergen
+						name_list_thuringian = Bergen
+						name_list_norse = Bjorg
+						name_list_swedish = Bergen
+						name_list_norwegian = Bergen
+						name_list_danish = Bergen
 					}
 				}
 				b_stralsund = {
@@ -27503,6 +27605,23 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 			c_brene = {
 				color = { 235 170 165 }
 
+				cultural_names = {
+					name_list_bavarian = Brehna
+					name_list_franconian = Brehna
+					name_list_german = Brehna
+					name_list_saxon = Brehna
+					name_list_swabian = Brehna
+					name_list_thuringian = Brehna
+					name_list_norse = Brenæ
+					name_list_swedish = Brenæ
+					name_list_norwegian = Brenæ
+					name_list_danish = Brenæ
+					name_list_dutch = Breene
+					name_list_polish = Brzyn
+					name_list_pommeranian = Brzyn
+					name_list_polabian = Brzyn
+				}
+
 				b_torgau = {
 					province = 3025
 
@@ -27512,6 +27631,23 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					province = 3175
 
 					color = { 235 170 165 }
+
+					cultural_names = {
+						name_list_bavarian = Brehna
+						name_list_franconian = Brehna
+						name_list_german = Brehna
+						name_list_saxon = Brehna
+						name_list_swabian = Brehna
+						name_list_thuringian = Brehna
+						name_list_norse = Brenæ
+						name_list_swedish = Brenæ
+						name_list_norwegian = Brenæ
+						name_list_danish = Brenæ
+						name_list_dutch = Breene
+						name_list_polish = Brzyn
+						name_list_pommeranian = Brzyn
+						name_list_polabian = Brzyn
+					}
 				}
 				b_duben = {
 					province = 3024
@@ -46628,7 +46764,6 @@ e_carpathia = {
 					cultural_names = {
 						name_list_slovien = "Miškovec"
 						name_list_polish = "Miszkolc"
-
 						name_list_swabian = "Mischkolz"
 						name_list_swabian = "Mischkolz"
 						name_list_franconian = "Mischkolz"

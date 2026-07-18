@@ -223,6 +223,51 @@ delhi_sprawl1 = {
         this = title:b_indraprastha.title_province
     }
 }
+#Turnovo
+turnovo_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "turnovo_sprawl2_mesh"
+    }
+    is_enabled = {
+        this = title:b_turnovo.title_province
+        county.development_level >= 30
+    }
+}
+turnovo_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "turnovo_sprawl1_mesh"
+    }
+    is_enabled = {
+        this = title:b_turnovo.title_province
+    }
+}
+#Orange Theater
+orange_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "orange_theater2_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "MA_orange_theater2"
+        this = title:b_orange.title_province
+    }
+}
+orange_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "orange_theater1_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "MA_orange_theater1"
+        this = title:b_orange.title_province
+    }
+}
 
 # Walls
 walls_00 = {

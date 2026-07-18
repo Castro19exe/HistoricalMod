@@ -373,7 +373,6 @@
 		holding = castle_holding
 	}
 	1120.1.1 = {
-		culture = saxon
 		religion = catholic
 	}
 }
@@ -402,7 +401,6 @@
 		holding = castle_holding
 	}
 	1120.1.1 = {
-		culture = saxon
 		religion = catholic
 	}
 }
@@ -441,7 +439,6 @@
 		holding = church_holding
 	}
 	1120.1.1 = {
-		culture = saxon
 		religion = catholic
 	}
 }

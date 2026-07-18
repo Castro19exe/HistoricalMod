@@ -102,10 +102,10 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		holding = castle_holding
 	}
 	1090.1.1 = {
+		culture = swedish
 		religion = catholic
 	}
 }
@@ -545,10 +545,10 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		holding = castle_holding
 	}
 	1085.1.1 = {
+		culture = swedish
 		religion = catholic
 	}
 }
@@ -568,10 +568,10 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		holding = castle_holding
 	}
 	1090.1.1 = {
+		culture = swedish
 		religion = catholic
 	}
 }
@@ -590,11 +590,11 @@
 	culture = svear
 	religion = norse_pagan
 	holding = tribal_holding
-	1066.1.1 = {
-		culture = swedish
-	}
 	1090.1.1 = {
 		religion = catholic
+	}
+	1100.1.1 = {
+		culture = swedish
 	}
 }
 365 = {		#SIOBORADH aka S�br�

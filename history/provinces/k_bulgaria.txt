@@ -30,8 +30,11 @@
 	#City founded in the middle age (unsure when)
 }
 3668 = {	#Zajecar
-	holding = city_holding
+	holding = tribal_holding
 	#Likely settled by slavs in th VIIth
+	1066.1.1 = {
+		holding = city_holding
+	}
 }
 3669 = {	#Petrus
 	holding = none
@@ -534,8 +537,11 @@
 	holding = church_holding
 }
 3620 = {	#Smolyan
-	holding = city_holding
+	holding = tribal_holding
 	#Settled by slavs in the VIIth
+	1066.1.1 = {
+		holding = city_holding
+	}
 }
 3621 = {	#Ustra
 	holding = none

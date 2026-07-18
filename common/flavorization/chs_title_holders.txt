@@ -234,17 +234,6 @@ emperor_feudal_female_russian = {
 		top_liege = no
 	}
 }
-empire_feudal_russian = {
-	type = title
-	tier = empire
-	priority = 102
-	governments = { feudal_government tribal_government  }
-	name_lists = { name_list_russian }
-	religions = { christianity_religion }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
 king_feudal_male_russian = {
 	type = character
 	gender = male
@@ -333,17 +322,6 @@ emperor_feudal_female_bulgarian = {
 	type = character
 	gender = female
 	special = holder
-	tier = empire
-	priority = 102
-	governments = { feudal_government tribal_government administrative_government }
-	name_lists = { name_list_bulgarian }
-	religions = { christianity_religion }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-empire_feudal_bulgarian = {
-	type = title
 	tier = empire
 	priority = 102
 	governments = { feudal_government tribal_government administrative_government }

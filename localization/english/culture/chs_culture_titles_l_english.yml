@@ -31,7 +31,6 @@
  ### Russian ###
  emperor_feudal_male_russian:0 "Csar"
  emperor_feudal_female_russian:0 "Csaritsa"
- empire_feudal_russian:0 "Csardom"
 
  king_feudal_male_russian:0 "Grand Prince"
  king_feudal_female_russian:0 "Grand Princess"
@@ -44,4 +43,3 @@
  ### Bulgarian ###
  emperor_feudal_male_bulgarian:0 "Csar"
  emperor_feudal_female_bulgarian:0 "Csaritsa"
- empire_feudal_bulgarian:0 "Csardom"

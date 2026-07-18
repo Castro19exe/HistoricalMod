@@ -394,7 +394,7 @@
 	name = "Frirek"
 	dynasty = 818 # Jute
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163113
 	855.1.1 = {
 		birth = yes
@@ -408,7 +408,7 @@
 	name = "Eirikr" # Hårik II of Denmark
 	dynasty = 818 # Jute
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	810.1.1 = {
 		birth = yes
 	}
@@ -422,7 +422,7 @@
 	dynasty = 818 # Jute
 	female = yes
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 6866
 	844.1.1 = {
 		birth = yes
@@ -870,7 +870,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = "norse_pagan"
-	culture = norse
+	culture = geat
 	trait = content
 	trait = education_martial_2
 	father = 194052
@@ -890,7 +890,7 @@
 	intrigue = 3
 	stewardship = 5
 	religion = "norse_pagan"
-	culture = norse
+	culture = geat
 	trait = education_martial_2
 	father = 194049
 	840.1.1 = {
@@ -908,7 +908,7 @@
 	name = "T_orfinn"
 	dynasty = 823 # Väse
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	840.1.1 = {
 		birth = "840.1.1"
 	}
@@ -921,7 +921,7 @@
 	name = "Vagn"
 	dynasty = 824 # Njudunge
 	religion = "norse_pagan"
-	culture = norse
+	culture = geat
 	847.1.1 = {
 		birth = "847.1.1"
 	}
@@ -937,7 +937,7 @@
 	name = "Steinn"
 	dynasty = 825 # Gute
 	religion = "norse_pagan"
-	culture = norse
+	culture = gute
 	father = 194048
 	841.1.1 = {
 		birth = "841.1.1"
@@ -3641,7 +3641,7 @@
 	father = 194004 # Sigurd Ring
 	mother = 194056 # Alfhild of Alfheim
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	martial = 9
 	stewardship = 7
 	diplomacy = 5
@@ -3739,7 +3739,7 @@
 	dna = 163110_sigurdr_snake_in_the_eye
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok (aka this Sigurdr's granddad)
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	
 	martial = 6
 	stewardship = 8
@@ -3795,7 +3795,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	trait = brave
 	father = 163110 #Sigurdr Snake-in-the-eye
 	mother = 6861 #Blaeja
@@ -3817,7 +3817,7 @@
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	female = yes
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163110 #Sigurdr Snake-in-the-eye
 	mother = 6861 #Blaeja
 	trait = charming
@@ -3835,7 +3835,7 @@
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	female = yes
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163110 #Sigurdr Snake-in-the-eye
 	mother = 6861 #Blaeja
 	864.1.1 = {
@@ -3852,7 +3852,7 @@
 	dna = 163111_ivar_the_boneless
 	dynasty_house = house_british_isles_ivaring
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	martial = 6
 	stewardship = 8
 	diplomacy = 6
@@ -4031,7 +4031,7 @@
 	dna = 163112_halfdan_whiteshirt
 	dynasty_house = house_hvitserk
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	martial = 7
 	stewardship = 6
 	diplomacy = 4
@@ -4166,7 +4166,7 @@
 	name = "Ubbe" # Ragnarsson
 	dynasty_house = house_ubbing
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	martial = 6
 	stewardship = 4
 	diplomacy = 5
@@ -4336,7 +4336,7 @@
 	name = "Bagsecg"
 	dynasty = 818
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	martial = 7
 	stewardship = 4
 	diplomacy = 4
@@ -4758,7 +4758,7 @@
 	#placeholder
 	dynasty = 1030
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	815.1.1 = {
 		birth = "815.1.1"
 	}
@@ -4773,7 +4773,7 @@
 	#placeholder
 	dynasty = 1030
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	father = 167718
 	845.1.1 = {
 		birth = "845.1.1"
@@ -4807,7 +4807,7 @@
 	#placeholder
 	dynasty = 1031
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	810.1.1 = {
 		birth = "810.1.1"
 	}
@@ -4822,7 +4822,7 @@
 	#placeholder
 	dynasty = 1031
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	father = 167721
 	845.1.1 = {
 		birth = "845.1.1"
@@ -6426,7 +6426,7 @@
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	father = 194028
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	trait = intellect_good_1
 	trait = brave
 	trait = education_martial_3
@@ -6447,7 +6447,7 @@
 	name = HjO_rvardr
 	dynasty = 821 # Ulfing
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	722.10.1 = {
 		birth = "722.10.1"
 	}
@@ -6459,7 +6459,7 @@
 	name = "T_orfinn"
 	dynasty = 825 # Gute
 	religion = "norse_pagan"
-	culture = norse
+	culture = gute
 	731.1.1 = {
 		birth = yes
 	}
@@ -6499,7 +6499,7 @@
 	name = "Oddr"
 	dynasty = 822
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	731.1.1 = {
 		birth = yes
 	}
@@ -6985,7 +6985,7 @@
 	name = "Oddr"
 	dynasty = 825 # Gute
 	religion = "norse_pagan"
-	culture = norse
+	culture = gute
 	father = 194007
 	761.1.1 = {
 		birth = yes
@@ -6998,7 +6998,7 @@
 	name = "FroT_i"
 	dynasty = 825 # Gute
 	religion = "norse_pagan"
-	culture = norse
+	culture = gute
 	father = 194046
 	789.1.1 = {
 		birth = yes
@@ -7011,7 +7011,7 @@
 	name = "Skuli"
 	dynasty = 825 # Gute
 	religion = "norse_pagan"
-	culture = norse
+	culture = gute
 	father = 194047
 	820.1.1 = {
 		birth = yes
@@ -7024,7 +7024,7 @@
 	name = "Hrafn"
 	dynasty = 822
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	father = 194050
 	800.1.1 = {
 		birth = yes
@@ -7037,7 +7037,7 @@
 	name = "Hrafn"
 	dynasty = 822
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	father = 194010
 	750.1.1 = {
 		birth = yes
@@ -7050,7 +7050,7 @@
 	name = "HO_gne"
 	dynasty = 821
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	father = 194005
 	760.1.1 = {
 		birth = yes
@@ -7063,7 +7063,7 @@
 	name = "Hildur"
 	dynasty = 821
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	father = 194051
 	802.1.1 = {
 		birth = yes
@@ -7076,7 +7076,7 @@
 	name = "Tjudmund"
 	dynasty = 822
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	father = 194010
 	755.1.1 = {
 		birth = yes

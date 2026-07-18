@@ -50,7 +50,11 @@
 }
 
 norwegian = {
-	color = { 0.4 0.482 0.858 }
+	#color = { 0.305 0.486 0.831 }
+	#color = { 0.15 0.4 0.55 }
+
+	color = { 0.42 0.486 0.85 }
+	
 	created = 1030.1.1
 	parents = { norse }
 	
@@ -132,7 +136,7 @@ icelandic = {
 }
 
 geat = {
-	color = { 0.411 0.619 0.807 }
+	color = { 0.4 0.522 0.702 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_north_germanic
@@ -268,7 +272,7 @@ swedish = {
 }
 
 dane = {
-	color = { 0.305 0.486 0.831 }
+	color = { 0.15 0.4 0.55 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -314,7 +318,7 @@ dane = {
 }
 
 danish = {
-	color = { 0.305 0.486 0.831 }
+	color = { 0.15 0.4 0.55 }
 	created = 1000.1.1
 	parents = { dane }
 	
