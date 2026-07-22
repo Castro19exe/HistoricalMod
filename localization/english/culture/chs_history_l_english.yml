@@ -4,3 +4,5 @@
  vlach_history_loc:0 "Formed from [CULTURE.GetName] and an unknown culture of Slavic [heritage|E] in the year [DATE.GetYear]"
  afro_roman_history_loc:0 "Formed from [CULTURE.GetName] and several influences from North Africa in the year [DATE.GetYear]"
  copt_history_loc:0 "Formed from [CULTURE.GetName] and Ancient Egyptian in the year [DATE.GetYear]"
+ norse_gaelic_history_loc:0 "Formed from [CULTURE.GetName] and vikings settlers in the year [DATE.GetYear]"
+ norman_history_loc:0 "Formed from [CULTURE.GetName] and vikings settlers in the year [DATE.GetYear]"

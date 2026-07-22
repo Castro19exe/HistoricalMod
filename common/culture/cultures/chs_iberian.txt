@@ -1,39 +1,4 @@
-﻿hispano_roman = {
-	color = { 207 44 29 }
-	created = 212.1.1 	# when given citizenship by rome although probably happens pre 0 AD 
-	parents = { roman }	# custom loc as there were multiple pre-roman hispanic cultures
-
-	history_loc_override = hispano_roman_history_loc
-
-	ethos = ethos_courtly
-	heritage = heritage_latin
-	language = language_latin
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_imperial_might
-		tradition_legalistic
-		tradition_metal_craftsmanship
-		tradition_noble_adoption
-	}
-	dlc_tradition = {
-		trait = tradition_culture_blending	
-		requires_dlc_flag = royal_court
-	}
-	
-	name_list = name_list_hispano_roman
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
-	building_gfx = { byzantine_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { byzantine_unit_gfx } 
-	
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
-andalusian = {
+﻿andalusian = {
 	color = { 0.4 0.6 0.1 }
 	created = 800.1.1
 	parents = { bedouin hispano_roman }

@@ -12855,7 +12855,7 @@ culture_knight_big_illustration = {
 				has_cultural_pillar = heritage_east_slavic
 			}
 		}   		
-		reference = "men_at_arms_big/knights_east_slavic.dds"
+		reference = "men_at_arms_big/heavy_cavalry_east_slavic.dds"
 	}
 
 	# --- HUNGARIAN ---

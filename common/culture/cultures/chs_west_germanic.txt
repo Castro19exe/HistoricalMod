@@ -110,14 +110,15 @@ anglo_saxon = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
-		tradition_city_keepers
+		tradition_castle_keepers
 		tradition_hird
+		tradition_martial_admiration
 	}
 	
 	name_list = name_list_anglo_saxon
 
 	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
+	building_gfx = { anglo_saxon_building_gfx } 
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { anglo_saxon_unit_gfx }
@@ -187,7 +188,7 @@ scottish = {
 	name_list = name_list_scottish
 	
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
+	building_gfx = { scottish_building_gfx }
 	clothing_gfx = { northern_clothing_gfx } 
 	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { scottish_unit_gfx }

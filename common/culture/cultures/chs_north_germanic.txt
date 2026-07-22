@@ -136,7 +136,7 @@ icelandic = {
 }
 
 geat = {
-	color = { 0.4 0.522 0.702 }
+	color = { 0.411 0.619 0.807 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_north_germanic
@@ -272,7 +272,7 @@ swedish = {
 }
 
 dane = {
-	color = { 0.15 0.4 0.55 }
+	color = { 0.278 0.525 0.671 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -359,7 +359,7 @@ danish = {
 }
 
 gute = {
-	color = { 0.513 0.615 0.905 }
+	color = { 0.576 0.737 0.871 }
 
 	parents = { geat }
 
@@ -409,7 +409,7 @@ gute = {
 }
 
 gutish = {
-	color = { 0.513 0.615 1 }
+	color = { 0.76 0.91 0.99 }
 
 	parents = { gute }
 

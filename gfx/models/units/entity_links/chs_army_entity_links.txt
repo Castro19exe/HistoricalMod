@@ -612,7 +612,8 @@ cuman_army_05 = {
 african_army_01 = {
 	type = army
 	graphical_cultures = { african_unit_gfx southeast_asian_unit_gfx }
-	entity = unit_tribal_african_infantry_01_entity
+	#entity = unit_tribal_african_infantry_01_entity
+	entity = unit_caucasian_infantry_03_entity
 }
 
 # West African
@@ -737,4 +738,25 @@ irish_army_03 = {
 	quality = @tier3_quality
 	graphical_cultures = { irish_unit_gfx }
 	entity = unit_irish_infantry_03_entity
+}
+
+# Caucasian
+caucasian_army_01 = {
+	type = army
+	graphical_cultures = { caucasian_unit_gfx }
+	entity = unit_byzantine_infantry_01_entity
+}
+
+caucasian_army_02 = {
+	type = army
+	quality = @tier2_quality
+	graphical_cultures = { caucasian_unit_gfx }
+	entity = unit_caucasian_infantry_02_entity
+}
+
+caucasian_army_03 = {
+	type = army
+	quality = @tier3_quality
+	graphical_cultures = { caucasian_unit_gfx }
+	entity = unit_caucasian_infantry_03_entity
 }

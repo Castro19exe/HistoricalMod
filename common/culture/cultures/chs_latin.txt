@@ -1,44 +1,4 @@
-﻿roman = {
-	color = { 0.8 0.1 0.1 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_latin
-	language = language_latin
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_imperial_might
-		tradition_legalistic
-		tradition_noble_adoption
-	}
-	dlc_tradition = {
-		trait = tradition_ep3_roman_ceremonies
-		requires_dlc_flag = roads_to_power
-		fallback = tradition_byzantine_succession
-	}
-	dlc_tradition = {
-		trait = tradition_ep3_cultivated_sophistication
-		requires_dlc_flag = roads_to_power
-		fallback = tradition_legalistic
-	}
-	
-	name_list = name_list_roman
-
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
-	building_gfx = { byzantine_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { byzantine_unit_gfx }
-	house_coa_frame = house_frame_22
-	house_coa_mask_offset = { 0.0 0.11 }
-	house_coa_mask_scale = { 0.85 0.85 }
-
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
-italian = {
+﻿italian = {
 	color = italian
 	parents = { roman }
 	created = 650.1.1
@@ -242,5 +202,276 @@ venetian = {
 		8 = mediterranean
 		1 = caucasian_blond
 		1 = caucasian_brown_hair
+	}
+}
+
+###
+
+roman = {
+	color = { 0.8 0.1 0.1 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_noble_adoption
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+north_gallo_roman = {
+	color = { 0.75 0.2 0.1 }
+	created = 212.1.1 # when given citizenship by rome although probably happens pre 0 AD 
+	parents = { gaulish roman }
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_might
+		tradition_formation_fighting
+		tradition_legalistic
+		
+		tradition_noble_adoption
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		20 = caucasian_blond
+		5 = caucasian_ginger
+		15 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		50 = mediterranean
+	}
+}
+
+south_gallo_roman = {
+	color = { 0.75 0.15 0.1 }
+	created = 212.1.1 # when given citizenship by rome although probably happens pre 0 AD 
+	parents = { gaulish roman }
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_poetry
+		
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		20 = caucasian_blond
+		5 = caucasian_ginger
+		15 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		50 = mediterranean
+	}
+}
+
+afro_roman = {
+	color = { 209 48 33 }
+	parents = { roman } 									# with some berber culture
+	created = 212.1.1
+	history_loc_override = afro_roman_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_imperial_might
+		tradition_african_tolerance
+		tradition_legalistic
+		tradition_family_entrepreneurship
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_afro_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		1 = arab
+		10 = african
+		5 = mediterranean_byzantine
+	}
+}
+
+hispano_roman = {
+	color = { 207 44 29 }
+	created = 212.1.1 	# when given citizenship by rome although probably happens pre 0 AD 
+	parents = { roman }	# custom loc as there were multiple pre-roman hispanic cultures
+
+	history_loc_override = hispano_roman_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_metal_craftsmanship
+		tradition_noble_adoption
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending	
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx } 
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+illyrian_roman = {
+	color = { 0.8 0.23 0.2 }
+
+	parents = { illyrian roman }
+
+	created = 212.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_mountain_homes
+		tradition_noble_adoption
+	}
+	
+	name_list = name_list_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+daco_roman = {
+	color = { 0.75 0.2 0.2 }
+
+	parents = { dacian roman }
+
+	created = 212.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_imperial_might
+		tradition_legalistic
+		tradition_poetry
+		
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_daco_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx byzantine_group_coa_gfx } 
+	building_gfx = { byzantine_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { byzantine_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
 	}
 }
