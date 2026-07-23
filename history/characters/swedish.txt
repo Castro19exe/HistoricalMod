@@ -376,7 +376,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = "norse_pagan"
-	culture = "swedish"
+	culture = "svear"
 	trait = education_learning_3
 	1040.1.2 = {
 		birth = "1040.1.2"
@@ -4589,7 +4589,7 @@
 	name = "Tengil"
 	dynasty = 1055
 	religion = "norse_pagan"
-	culture = "swedish"
+	culture = "gutish"
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -4619,7 +4619,7 @@
 	name = "Jossi"
 	dynasty = guldtupp
 	religion = "norse_pagan"
-	culture = "swedish"
+	culture = "gutish"
 	martial = 3
 	diplomacy = 5
 	intrigue = 7
@@ -4912,7 +4912,7 @@
 	#placeholder
 	dynasty = 495
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 100536
 	mother = 167630
 	1066.1.1 = {
@@ -4931,7 +4931,7 @@
 	#placeholder
 	dynasty = 495
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 100536
 	mother = 167630
 	1068.1.1 = {
@@ -6397,7 +6397,7 @@
 	#placeholder
 	dynasty = 9520
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 167368
 	mother = 167648
 	1140.1.1 = {
@@ -6417,7 +6417,7 @@
 	#placeholder
 	dynasty = 9520
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 167372
 	mother = 167377
 	1160.1.1 = {
@@ -6436,7 +6436,7 @@
 	#placeholder
 	dynasty = 9520
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 167372
 	mother = 167377
 	1161.1.1 = {
@@ -6455,7 +6455,7 @@
 	#placeholder
 	dynasty = 9520
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	trait = twin
 	father = 167372
 	mother = 167377
@@ -6475,7 +6475,7 @@
 	#placeholder
 	dynasty = 9520
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	trait = twin
 	father = 167372
 	mother = 167377
@@ -6497,7 +6497,7 @@
 	female = yes
 	dynasty = 9517
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	father = 167323
 	mother = 167639
 	1142.1.1 = {
@@ -6776,7 +6776,7 @@
 	#placeholder
 	female = yes
 	religion = "catholic"
-	culture = "swedish"
+	culture = "gutish"
 	1048.1.1 = {
 		birth = "1048.1.1"
 	}

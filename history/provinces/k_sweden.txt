@@ -47,10 +47,10 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		holding = castle_holding
 	}
 	1085.1.1 = {
+		culture = swedish
 		religion = catholic
 	}
 }
@@ -104,8 +104,8 @@
 	1066.1.1 = {
 		holding = castle_holding
 	}
-	1090.1.1 = {
-		culture = swedish
+	1100.1.1 = {
+		#culture = swedish
 		religion = catholic
 	}
 }
@@ -450,10 +450,10 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		holding = castle_holding
 	}
 	1123.1.1 = {
+		culture = swedish
 		religion = catholic
 		#Around the time of the "crusade" against Sm�land
 	}
@@ -481,9 +481,11 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		religion = catholic
 		holding = castle_holding
+	}
+	1090.1.1 = {
+		culture = swedish
 	}
 }
 312 = {		#JONKOPING
@@ -506,9 +508,11 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		culture = swedish
 		religion = catholic
 		holding = castle_holding
+	}
+	1090.1.1 = {
+		culture = swedish
 	}
 }
 300 = {		#LIONGBY	aka Ljungby

@@ -349,7 +349,7 @@
 	}
 }
 1592 = {	#Doncaster
-	holding = city_holding
+	holding = castle_holding
 }
 1593 = {	#Halifax
 	holding = none
@@ -363,8 +363,8 @@
 		holding = castle_holding
 	}
 }
-1499 = {	#York
-	holding = castle_holding
+1499 = {	#Bolton
+	holding = city_holding
 }
 1599 = {	#Ripon
 	holding = church_holding

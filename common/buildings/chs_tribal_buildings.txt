@@ -58,7 +58,7 @@ tribe_01 = {
 			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx anglo_saxon_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -292,7 +292,7 @@ tribe_02 = {
 			"fp1_building_norse_tribal_mesh"
 		}
 		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx northern_building_gfx }
+		graphical_cultures = { norse_building_gfx northern_building_gfx anglo_saxon_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}

@@ -263,7 +263,7 @@
 	name = "Holmger"
 	dynasty = 833
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	838.1.1 = {
 		birth = yes
 	}
@@ -276,7 +276,7 @@
 	name = "Frirek"
 	dynasty = 834
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	837.1.1 = {
 		birth = yes
 	}
@@ -289,7 +289,7 @@
 	name = "Arni"
 	dynasty = 835
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "danish"
 	845.1.1 = {
 		birth = yes
 	}
@@ -315,7 +315,7 @@
 	name = "Sveinn"
 	dynasty = 838
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "geat"
 	843.1.1 = {
 		birth = yes
 	}
@@ -1448,7 +1448,7 @@
 	intrigue = 7
 	stewardship = 5
 	religion = "catholic"
-	culture = norse
+	culture = gute
 	trait = education_learning_2
 	980.1.1 = {
 		birth = "980.1.1"
@@ -1469,7 +1469,7 @@
 	intrigue = 6
 	stewardship = 8
 	religion = "catholic"
-	culture = norse
+	culture = gute
 	trait = chaste
 	trait = education_learning_2
 	father = 100532
@@ -1494,7 +1494,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = "catholic"
-	culture = norse
+	culture = gute
 	trait = lustful
 	trait = wrathful
 	trait = education_intrigue_2
@@ -1538,7 +1538,7 @@
 	intrigue = 7
 	stewardship = 8
 	religion = "catholic"
-	culture = norse
+	culture = gute
 	trait = greedy
 	trait = humble
 	trait = education_stewardship_3
@@ -1605,7 +1605,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	trait = just
 	trait = cynical
 	trait = education_stewardship_3
@@ -1635,7 +1635,7 @@
 	intrigue = 8
 	stewardship = 6
 	religion = "catholic"
-	culture = norse
+	culture = dane
 	trait = ambitious
 	trait = education_martial_3
 	father = 101502 # Harald Blåtand
@@ -1668,7 +1668,7 @@
 	intrigue = 7
 	stewardship = 7
 	religion = "catholic"
-	culture = norse
+	culture = dane
 	trait = greedy
 	trait = clubfooted
 	trait = education_intrigue_2
@@ -4580,7 +4580,7 @@
 	intrigue = 5
 	stewardship = 4
 	religion = "catholic"
-	culture = norse
+	culture = danish
 	trait = education_diplomacy_3
 	trait = wrathful
 	trait = gregarious
@@ -5183,7 +5183,7 @@
 	name = "Halfdan"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168647
 	750.1.1 = {
 		birth = "750.1.1"
@@ -5198,7 +5198,7 @@
 	name = "Haraldr"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167776
 	780.1.1 = {
 		birth = "780.1.1"
@@ -5216,7 +5216,7 @@
 	name = "Anulo"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167776
 	782.1.1 = {
 		birth = "783.1.1"
@@ -5231,7 +5231,7 @@
 	name = "Ragnfrid"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167776
 	786.1.1 = {
 		birth = "786.1.1"
@@ -5246,7 +5246,7 @@
 	name = "Hemming"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167776
 	790.1.1 = {
 		birth = "790.1.1"
@@ -5262,7 +5262,7 @@
 	name = "GuT_frith"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	820.1.1 = {
 		birth = "820.1.1"
@@ -6090,7 +6090,7 @@
 	name = "Halfdan"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	800.1.1 = {
 		birth = yes
@@ -6105,7 +6105,7 @@
 	female = yes
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	812.1.1 = {
 		birth = yes
@@ -6119,7 +6119,7 @@
 	name = "SigfriT_"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	825.1.1 = {
 		birth = yes
@@ -6135,7 +6135,7 @@
 	name = "Haraldr"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168633
 	855.1.1 = {
 		birth = yes
@@ -6151,7 +6151,7 @@
 	name = "Gorm"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168633
 	870.1.1 = {
 		birth = yes
@@ -6167,7 +6167,7 @@
 	name = "Hrolfr"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	828.1.1 = {
 		birth = yes
@@ -6181,7 +6181,7 @@
 	name = "Halfdan"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 167777
 	830.1.1 = {
 		birth = yes
@@ -6195,7 +6195,7 @@
 	name = "SigfriT_"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168635
 	900.1.1 = {
 		birth = yes
@@ -6211,7 +6211,7 @@
 	name = "Haraldr"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168638
 	930.1.1 = {
 		birth = yes
@@ -6229,7 +6229,7 @@
 	name = "Sigvard"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168639
 	962.1.1 = {
 		birth = yes
@@ -6247,7 +6247,7 @@
 	name = "T_orgil"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168639
 	964.1.1 = {
 		birth = yes
@@ -6296,7 +6296,7 @@
 	name = "Haraldr"
 	dynasty = 9552
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	710.1.1 = {
 		birth = yes
 	}
@@ -6309,7 +6309,7 @@
 	name = "SigurT_r"
 	dynasty = 9613
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	800.1.1 = {
 		birth = yes
 	}
@@ -6326,7 +6326,7 @@
 	female = yes
 	dynasty = 9613
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168648
 	mother = 168632
 	830.1.1 = {
@@ -6342,7 +6342,7 @@
 	name = "Guttorm"
 	dynasty = 9613
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "dane"
 	father = 168648
 	mother = 168632
 	839.1.1 = {
@@ -6406,7 +6406,7 @@
 	dynasty = 102013 # Skjöldung
 	martial = 10
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	father = 194035
 	mother = 194034
 	690.6.12 = {
@@ -6511,7 +6511,7 @@
 	name = "Haukr"
 	dynasty = 1045019
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	741.1.1 = {
 		birth = yes
 	}
@@ -6680,7 +6680,7 @@
 	name = "Randver"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194029
 	700.1.1 = {
 		birth = yes
@@ -6694,7 +6694,7 @@
 	name = "Valdar"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194030
 	668.1.1 = {
 		birth = yes
@@ -6708,7 +6708,7 @@
 	name = "Olafr"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194031
 	640.1.1 = {
 		birth = yes
@@ -6722,7 +6722,7 @@
 	name = "Ingjald"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194032
 	620.1.1 = {
 		birth = yes
@@ -6736,7 +6736,7 @@
 	name = "Anundr"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	570.1.1 = {
 		birth = yes
 	}
@@ -6749,7 +6749,7 @@
 	name = "Ingild"
 	dynasty = 490 #af Sigurd, father of Ragnarr Lodbrok
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	female = yes
 	father = 194029
 	700.1.1 = {
@@ -6781,7 +6781,7 @@
 	name = "HrO_rekr"
 	dynasty = 102013
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	665.1.1 = {
 		birth = yes
 	}
@@ -6793,7 +6793,7 @@
 	name = "T_rA_ndr"
 	dynasty = 102013
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	father = 194003
 	mother = 194033
 	730.1.1 = {
@@ -6807,7 +6807,7 @@
 	name = "HrO_rekr"
 	dynasty = 102013
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	father = 194003
 	mother = 194033
 	733.1.1 = {
@@ -6823,7 +6823,7 @@
 194038 = {
 	name = "RO_gnfriT_"
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	female = yes
 	738.1.1 = {
 		birth = yes
@@ -6839,7 +6839,7 @@
 	name = "T_orolfr"
 	dynasty = 102013
 	religion = norse_pagan
-	culture = norse
+	culture = dane
 	father = 194037
 	mother = 194038
 	758.1.1 = {
@@ -7089,7 +7089,7 @@
 	name = "Alfr"
 	dynasty = 1045021
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	730.1.1 = {
 		birth = yes
 	}
@@ -7101,7 +7101,7 @@
 	name = "Eirikr"
 	dynasty = 1045021
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194054
 	mother = 194059
 	750.1.1 = {
@@ -7143,7 +7143,7 @@
 	female = yes
 	dynasty = 1045021
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 194054
 	mother = 194059
 	768.12.12 = {

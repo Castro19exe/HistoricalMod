@@ -119,10 +119,10 @@ icelandic = {
 
 	name_list = name_list_norwegian
 	
-	coa_gfx = { norwegian_coa_gfx western_coa_gfx }
+	coa_gfx = { norse_coa_gfx norwegian_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { scandinavian_unit_gfx }
+	unit_gfx = { norse_unit_gfx }
 	house_coa_frame = house_frame_21
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 1.0 1.0 }
@@ -272,7 +272,7 @@ swedish = {
 }
 
 dane = {
-	color = { 0.278 0.525 0.671 }
+	color = { 0.224 0.506 0.671 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic

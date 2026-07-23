@@ -2096,13 +2096,11 @@ e_britannia = {
 					color = { 255 95 20 }
 
 					cultural_names = {
+						name_list_anglo_saxon = cn_eoforwic
 						name_list_norse = cn_jorvik
 						name_list_norwegian = cn_jorvik
 						name_list_swedish = cn_jorvik
 						name_list_danish = cn_jorvik
-
-						name_list_anglo_saxon = cn_eoforwic
-
 						name_list_breton = cn_efrog
 						name_list_cornish = cn_efrog
 						name_list_cumbrian = cn_efrog
@@ -2143,22 +2141,46 @@ e_britannia = {
 				color = { 255 139 15 }
 
 				b_pockington = {
-					cultural_names = {
-						name_list_anglo_saxon = cn_poclintun
-					}
 					province = 1588
 
 					color = { 255 160 59 }
+
+					cultural_names = {
+						name_list_anglo_saxon = cn_poclintun
+						name_list_old_saxon = cn_poclintun
+						name_list_swedish = Pokklinge
+						name_list_norwegian = Pokklinge
+						name_list_danish = Pokklinge
+						name_list_norse = Pokklinge
+					}
 				}
 				b_cottingham = {
 					province = 1589
 
 					color = { 255 139 15 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Cottingaham
+						name_list_old_saxon = Cottingaham
+						name_list_swedish = Kottingaheimr
+						name_list_norwegian = Kottingaheimr
+						name_list_danish = Kottingaheimr
+						name_list_norse = Kottingaheimr
+					}
 				}
 				b_bridlington = {
 					province = 1590
 
 					color = { 255 139 15 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Bretlingtun
+						name_list_old_saxon = Bretlingtun
+						name_list_swedish = Bretlingstað
+						name_list_norwegian = Bretlingstað
+						name_list_danish = Bretlingstað
+						name_list_norse = Bretlingstað
+					}
 				}
 			}
 			c_west_riding = {
@@ -4530,6 +4552,22 @@ e_britannia = {
 					province = 1678
 
 					color = { 198 70 23 }
+
+					cultural_names = {
+						name_list_irish = Deadard
+						name_list_gaelic = Deadard
+						name_list_pictish = Deadard
+						name_list_welsh = "Din God"
+						name_list_cumbrian = "Din God"
+						name_list_cornish = "Din God"
+						name_list_breton = "Din God"
+						name_list_anglo_saxon = Gedweorð
+						name_list_old_saxon = Gedweorð
+						name_list_swedish = Jeddaborg
+						name_list_norwegian = Jeddaborg
+						name_list_danish = Jeddaborg
+						name_list_norse = Jeddaborg
+					}
 				}
 				b_selkirk = {
 					province = 1740
@@ -11488,8 +11526,16 @@ e_byzantium = {
 
 			capital = c_rashka # Novo Trgovište
 
+			cultural_names = {
+				name_list_greek = Raskia
+			}
+
 			c_rashka = {
 				color = { 103 88 51 }
+
+				cultural_names = {
+					name_list_greek = Raskia
+				}
 
 				b_novotrgoviste = {
 					province = 502
@@ -11685,10 +11731,18 @@ e_byzantium = {
 
 			#capital = 469 # Ribnica / Podgorica
 
+			cultural_names = {
+				name_list_greek = Diokleia
+			}
+
 			c_duklja = {
 				color = { 129 94 13 }
 
 				#capital = 469 # Ribnica / Podgorica
+
+				cultural_names = {
+					name_list_greek = Diokleia
+				}
 
 				b_ribnicapodgorica = {
 					province = 469
@@ -11732,19 +11786,14 @@ e_byzantium = {
 					color = { 155 105 5 }
 
 					cultural_names = {
-						name_list_serbian = "Bar"
-
-						name_list_arberian = "Tivar"
-
-						name_list_italian = "Tivar"
-						name_list_lombard = "Tivar"
-						name_list_cisalpine = "Tivar"
-						name_list_sicilian = "Tivar"
-						name_list_sardinian = "Tivar"
-						name_list_dalmatian = "Tivar"
-
-						name_list_greek = "Antivarion"
-						name_list_roman = "Antibarum"
+						name_list_serbian = Bar
+						name_list_italian = Tivar
+						name_list_lombard = Tivar
+						name_list_cisalpine = Tivar
+						name_list_sicilian = Tivar
+						name_list_sardinian = Tivar
+						name_list_dalmatian = Tivar
+						name_list_greek = Thivarion
 					}
 				}
 				b_ulcinj = {
@@ -11753,18 +11802,14 @@ e_byzantium = {
 					color = { 155 105 5 }
 
 					cultural_names = {
-						name_list_serbian = "Ulcinj"
-
-						name_list_arberian = "Ulqin"
-
-						name_list_italian = "Dulcigno"
-						name_list_lombard = "Dulcigno"
-						name_list_cisalpine = "Dulcigno"
-						name_list_sicilian = "Dulcigno"
-						name_list_sardinian = "Dulcigno"
-						name_list_dalmatian = "Dulcigno"
-
-						name_list_roman = "Ulcinium"
+						name_list_serbian = Ulcinj
+						name_list_italian = Dulcigno
+						name_list_lombard = Dulcigno
+						name_list_cisalpine = Dulcigno
+						name_list_sicilian = Dulcigno
+						name_list_sardinian = Dulcigno
+						name_list_dalmatian = Dulcigno
+						name_list_greek = Oulkinion
 					}
 				}
 				b_cattaro = { # Kotor
@@ -11773,17 +11818,13 @@ e_byzantium = {
 					color = { 155 105 5 }
 
 					cultural_names = {
-						name_list_croatian = "Kotor"
-						name_list_serbian = "Kotor"
-
-						name_list_italian = "Cattaro"
-						name_list_lombard = "Cattaro"
-						name_list_cisalpine = "Cattaro"
-						name_list_sicilian = "Cattaro"
-						name_list_sardinian = "Cattaro"
-						name_list_dalmatian = "Cattaro"
-
-						name_list_roman = "Ascrivium"
+						name_list_italian = Cattaro
+						name_list_lombard = Cattaro
+						name_list_cisalpine = Cattaro
+						name_list_sicilian = Cattaro
+						name_list_sardinian = Cattaro
+						name_list_dalmatian = Cattaro
+						name_list_greek = Askrivion
 					}
 				}
 			}
@@ -11796,6 +11837,10 @@ e_byzantium = {
 					province = 3572
 
 					color = { 140 90 35 }
+
+					cultural_names = {
+						name_list_greek = Tervounia
+					}
 				}
 				b_onogost = {
 					province = 3571
@@ -11808,16 +11853,13 @@ e_byzantium = {
 					color = { 140 90 35 }
 
 					cultural_names = {
-						name_list_serbian = "Risan"
-
-						name_list_italian = "Risano"
-						name_list_lombard = "Risano"
-						name_list_cisalpine = "Risano"
-						name_list_sicilian = "Risano"
-						name_list_sardinian = "Risano"
-						name_list_dalmatian = "Risano"
-
-						name_list_roman = "Risinium"
+						name_list_italian = Risano
+						name_list_lombard = Risano
+						name_list_cisalpine = Risano
+						name_list_sicilian = Risano
+						name_list_sardinian = Risano
+						name_list_dalmatian = Risano
+						name_list_greek = Rizon
 					}
 				}
 			}
@@ -12293,10 +12335,18 @@ e_byzantium = {
 
 				#capital = 3658 # Vranje
 
+				cultural_names = {
+					name_list_greek = "Morava"
+				}
+
 				b_vranje = {
 					province = 3658
 
 					color = { 120 110 110 }
+
+					cultural_names = {
+						name_list_greek = Vrántze
+					}
 				}
 				b_glubocica = {
 					province = 3657
@@ -12320,20 +12370,36 @@ e_byzantium = {
 
 				#capital = 3656 # Velbazhd
 
+				cultural_names = {
+					name_list_greek = Paphtalia
+				}
+
 				b_velbazhd = {
 					province = 3656
 
 					color = { 145 135 135 }
+
+					cultural_names = {
+						name_list_greek = Paphtalia
+					}
 				}
 				b_bosilegrad = {
 					province = 3654
 
 					color = { 145 135 135 }
+
+					cultural_names = {
+						name_list_greek = Vosilepolis
+					}
 				}
 				b_kratovo = {
 					province = 3655
 
 					color = { 145 135 135 }
+
+					cultural_names = {
+						name_list_greek = Tranatura
+					}
 				}
 			}
 
@@ -12559,10 +12625,26 @@ e_byzantium = {
 
 				#capital = 3632 # Beroe / Boruy
 
+				cultural_names = {
+					name_list_croatian = Boruj
+					name_list_bosnian = Boruj
+					name_list_serbian = Boruj
+					name_list_bulgarian = Boruj
+					name_list_greek = Beroia
+				}
+
 				b_beroe = {
 					province = 3632
 
 					color = { 65 90 130 }
+
+					cultural_names = {
+						name_list_croatian = Boruj
+						name_list_bosnian = Boruj
+						name_list_serbian = Boruj
+						name_list_bulgarian = Boruj
+						name_list_greek = Beroia
+					}
 				}
 				b_janitsa = {
 					province = 3633
@@ -12582,7 +12664,7 @@ e_byzantium = {
 				#capital = 3628 # Burgas
 
 				cultural_names = {
-					name_list_greek = "Pyrgos"
+					name_list_greek = Pyrgos
 				}
 
 				b_burgas = {
@@ -12591,7 +12673,7 @@ e_byzantium = {
 					color = { 60 100 100 }
 
 					cultural_names = {
-						name_list_greek = "Pyrgos"
+						name_list_greek = Pyrgos
 					}
 				}
 				b_sozopol = {
@@ -12600,7 +12682,7 @@ e_byzantium = {
 					color = { 60 100 100 }
 
 					cultural_names = {
-						name_list_greek = "Apollonia"
+						name_list_greek = Apollonia
 					}
 				}
 				b_potamuskastel = {
@@ -12688,7 +12770,7 @@ e_byzantium = {
 					color = { 50 75 85 }
 					
 					cultural_names = {
-						name_list_greek = Gougoútka
+						name_list_greek = Gougoutka
 					}
 				}
 			}
@@ -19653,6 +19735,13 @@ e_scandinavia = {
 					province = 77
 
 					color = { 220 15 20 }
+
+					cultural_names = {
+						name_list_norse = Roþnæ
+						name_list_swedish = Rönne
+						name_list_norwegian = Rønne
+						name_list_danish = Rønne
+					}
 				}
 			}
 			c_blekinge = {
@@ -19662,6 +19751,13 @@ e_scandinavia = {
 					province = 78
 
 					color = { 220 30 20 }
+
+					cultural_names = {
+						name_list_norse = Bleking
+						name_list_swedish = Blekinge
+						name_list_norwegian = Blekinge
+						name_list_danish = Blekinge
+					}
 				}
 				b_ronneby = {
 					province = 79
@@ -51306,10 +51402,30 @@ e_spain = {
 				color = { 195 165 10 }
 				can_be_named_after_dynasty = no
 
+				cultural_names = {
+					name_list_bedouin = Malaghūn
+					name_list_maghrebi = Malaghūn
+					name_list_levantine = Malaghūn
+					name_list_egyptian = Malaghūn
+					name_list_andalusian = Malaghūn
+					name_list_yemeni = Malaghūn
+					name_list_baranis = Malaghūn
+				}
+
 				b_malagon = {
 					province = 1960
 
 					color = { 195 165 10 }
+
+					cultural_names = {
+						name_list_bedouin = Malaghūn
+						name_list_maghrebi = Malaghūn
+						name_list_levantine = Malaghūn
+						name_list_egyptian = Malaghūn
+						name_list_andalusian = Malaghūn
+						name_list_yemeni = Malaghūn
+						name_list_baranis = Malaghūn
+					}
 				}
 				b_cabaneros = {
 					province = 1961
@@ -52404,6 +52520,18 @@ e_spain = {
 					province = 1949
 
 					color = { 0 100 35 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_urqub
+						name_list_baranis = cn_al_urqub
+						name_list_butr = cn_al_urqub
+						name_list_zaghawa = cn_al_urqub
+						name_list_levantine = cn_al_urqub
+						name_list_egyptian = cn_al_urqub
+						name_list_maghrebi = cn_al_urqub
+						name_list_andalusian = cn_al_urqub
+						name_list_yemeni = cn_al_urqub
+					}
 				}
 				b_ventadelmoro = { #Iniesta
 					province = 1950
@@ -52419,6 +52547,16 @@ e_spain = {
 					province = 1964
 
 					color = { 0 100 35 }
+
+					cultural_names = {
+						name_list_bedouin = "al-Qāsr"
+						name_list_maghrebi = "al-Qāsr"
+						name_list_levantine = "al-Qāsr"
+						name_list_egyptian = "al-Qāsr"
+						name_list_andalusian = "al-Qāsr"
+						name_list_yemeni = "al-Qāsr"
+						name_list_baranis = "al-Qāsr"
+					}
 				}
 			}
 		}
@@ -52984,6 +53122,18 @@ e_spain = {
 					province = 1892
 
 					color = { 155 115 50 }
+
+					cultural_names = {
+						name_list_bedouin = cn_al_qannis
+						name_list_baranis = cn_al_qannis
+						name_list_butr = cn_al_qannis
+						name_list_zaghawa = cn_al_qannis
+						name_list_levantine = cn_al_qannis
+						name_list_egyptian = cn_al_qannis
+						name_list_maghrebi = cn_al_qannis
+						name_list_andalusian = cn_al_qannis
+						name_list_yemeni = cn_al_qannis
+					}
 				}
 				b_caspe = {
 					province = 1883

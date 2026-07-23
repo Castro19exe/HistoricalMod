@@ -21,6 +21,7 @@
 @holding_illustration_berber = "gfx/interface/illustrations/holding_types/castle_berber.dds"
 @holding_illustration_african = "gfx/interface/illustrations/holding_types/castle_african.dds"
 @holding_illustration_anglo_saxon = "gfx/interface/illustrations/holding_types/castle_anglo_saxon.dds"
+@holding_illustration_crimean_gothic = "gfx/interface/illustrations/holding_types/castle_crimean_gothic.dds"
 
 @holding_illustration_mediterranean_indian = "gfx/interface/illustrations/holding_types/castle_mediterranean_indian.dds"
 @holding_illustration_mena_mediterranean = "gfx/interface/illustrations/holding_types/castle_mena_mediterranean.dds"
@@ -316,15 +317,6 @@ castle_01 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
 		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { byzantine_building_gfx }
-		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_01_a_mesh"
-		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -391,15 +383,6 @@ castle_01 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_01_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { steppe_building_gfx }
-		provinces = { 496 }
-	}
 
 	# SOUTHEAST ASIA #
 	asset = {
@@ -457,18 +440,6 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
-	}
-	### EASTERN (exception in Székesfehérvár) ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_western_castle_01_mediterranean_mesh"
-			"building_western_castle_01_b_mediterranean_mesh"
-		}
-		illustration = @holding_illustration_magyar
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_building_gfx }
-		provinces = { 3805 }
 	}
 
 	### EAST SLAVIC ###
@@ -577,12 +548,45 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_01_mesh"
-		illustration = @holding_illustration_norse
+		illustration = @holding_illustration_crimean_gothic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
 	}
-	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
+
+	### ANGLO-SAXON ###
+	asset = {
+		type = pdxmesh
+		name = "anglo_saxon_castle_01_mesh"
+		illustration = @holding_illustration_anglo_saxon
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
+	}
+
+	### exception ###
+	# Constantinople
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_01_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { byzantine_building_gfx steppe_building_gfx }
+		provinces = { 496 } 
+	}
+	# Székesfehérvár
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_01_mediterranean_mesh"
+			"building_western_castle_01_b_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
+	# Crimea
 	asset = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_01_a_mesh"
@@ -591,15 +595,6 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
 		provinces = { 562 560 }
-	}
-
-	### ANGLO-SAXON ###
-	asset = {
-		type = pdxmesh
-		name = "western_city_01_b_mesh"
-		illustration = @holding_illustration_anglo_saxon
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
 	}
 
 	can_construct_potential = {
@@ -1029,15 +1024,6 @@ castle_02 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_02_a_mesh"
 		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { byzantine_building_gfx }
-		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_02_a_mesh"
-		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1103,16 +1089,6 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/chinese_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_east_asia }
-	}
-	### EP3 Byzantine ###
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_02_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { steppe_building_gfx }
-		provinces = { 496 }
 	}
 
 	# SOUTHEAST ASIA #
@@ -1220,15 +1196,6 @@ castle_02 = {
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	### EASTERN (exception in Székesfehérvár) ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_02_mediterranean_mesh"
-		illustration = @holding_illustration_magyar
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { eastern_building_gfx }
-		provinces = { 3805 }
-	}
 
 	### TIBETAN ###
 	asset = {
@@ -1287,20 +1254,10 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_02_mesh"
-		illustration = @holding_illustration_norse
+		illustration = @holding_illustration_crimean_gothic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
-	}
-	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_02_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { crimean_gothic_building_gfx }
-		provinces = { 562 560 }
 	}
 
 	### ANGLO-SAXON ###
@@ -1310,6 +1267,39 @@ castle_02 = {
 		illustration = @holding_illustration_anglo_saxon
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
+	}
+
+	### exception ###
+	# Constantinople
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_02_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { byzantine_building_gfx steppe_building_gfx }
+		provinces = { 496 } 
+	}
+	# Székesfehérvár
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_02_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
+	# Crimea
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_02_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 
 	can_construct_potential = {
@@ -1701,15 +1691,6 @@ castle_03 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_03_a_mesh"
 		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { byzantine_building_gfx }
-		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_03_a_mesh"
-		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -1776,15 +1757,6 @@ castle_03 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_east_asia }
 	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_03_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { steppe_building_gfx }
-		provinces = { 496 }
-	}
 
 	# SOUTHEAST ASIA #
 	asset = {
@@ -1842,15 +1814,6 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
-	}
-	### EASTERN (exception in Székesfehérvár) ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_03_mediterranean_mesh"
-		illustration = @holding_illustration_magyar
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { eastern_building_gfx }
-		provinces = { 3805 }
 	}
 
 	### EAST SLAVIC ###
@@ -1958,20 +1921,10 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_03_mesh"
-		illustration = @holding_illustration_norse
+		illustration = @holding_illustration_crimean_gothic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
-	}
-	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_03_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { crimean_gothic_building_gfx }
-		provinces = { 562 560 }
 	}
 
 	### ANGLO-SAXON ###
@@ -1981,6 +1934,39 @@ castle_03 = {
 		illustration = @holding_illustration_anglo_saxon
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
+	}
+
+	### exception ###
+	# Constantinople
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_03_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { byzantine_building_gfx steppe_building_gfx }
+		provinces = { 496 } 
+	}
+	# Székesfehérvár
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_03_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
+	# Crimea
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_03_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 
 	can_construct_potential = {
@@ -2364,15 +2350,6 @@ castle_04 = {
 		type = pdxmesh
 		name = "ep3_byzantine_castle_04_a_mesh"
 		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { byzantine_building_gfx }
-		provinces = { 496 }
-	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_04_a_mesh"
-		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_byzantine
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
@@ -2439,15 +2416,6 @@ castle_04 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_east_asia }
 	}
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_04_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_constantinople
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { steppe_building_gfx }
-		provinces = { 496 }
-	}
 
 	# SOUTHEAST ASIA #
 	asset = {
@@ -2504,15 +2472,6 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { eastern_building_gfx }
 		graphical_regions = { graphical_mediterranean }
-	}
-	### EASTERN (exception in Székesfehérvár) ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_04_mediterranean_mesh"
-		illustration = @holding_illustration_magyar
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { eastern_building_gfx }
-		provinces = { 3805 }
 	}
 
 	### EAST SLAVIC ###
@@ -2620,20 +2579,10 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "fp1_building_norse_castle_04_mesh"
-		illustration = @holding_illustration_norse
+		illustration = @holding_illustration_crimean_gothic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { crimean_gothic_building_gfx }
 		graphical_regions = { graphical_mediterranean graphical_mena graphical_india graphical_steppe }
-	}
-	### GOTHIC (exception in Pantikapeon and Chersonisos) ###
-	asset = {
-		type = pdxmesh
-		name = "ep3_byzantine_castle_04_a_mesh"
-		requires_dlc_flag = roads_to_power
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
-		graphical_cultures = { crimean_gothic_building_gfx }
-		provinces = { 562 560 }
 	}
 
 	### ANGLO-SAXON ###
@@ -2643,6 +2592,39 @@ castle_04 = {
 		illustration = @holding_illustration_anglo_saxon
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
+	}
+
+	### exception ###
+	# Constantinople
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_04_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_constantinople
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { byzantine_building_gfx steppe_building_gfx }
+		provinces = { 496 } 
+	}
+	# Székesfehérvár
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_western_castle_04_mediterranean_mesh"
+		}
+		illustration = @holding_illustration_magyar
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { eastern_building_gfx }
+		provinces = { 3805 }
+	}
+	# Crimea
+	asset = {
+		type = pdxmesh
+		name = "ep3_byzantine_castle_04_a_mesh"
+		requires_dlc_flag = roads_to_power
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+		provinces = { 562 560 }
 	}
 
 	can_construct_potential = {

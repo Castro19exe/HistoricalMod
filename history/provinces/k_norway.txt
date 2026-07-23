@@ -383,10 +383,8 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = {
-		culture = norwegian
-	}
 	1070.1.1 = {
+		culture = norwegian
 		religion = catholic
 	}
 }
@@ -402,11 +400,8 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = {
-		culture = norwegian
-		#religion = catholic
-	}
 	1070.1.1 = {
+		culture = norwegian
 		religion = catholic
 	}
 }
@@ -425,10 +420,8 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = {
-		culture = norwegian
-	}
 	1070.1.1 = {
+		culture = norwegian
 		religion = catholic
 	}
 }

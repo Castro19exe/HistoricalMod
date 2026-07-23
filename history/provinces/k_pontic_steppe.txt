@@ -385,7 +385,7 @@
 ##d_crimea ###################################
 ###c_kerch
 562 = {		#Kerch
-	culture = crimean_gothic
+	culture = greek
 	religion = orthodox
 	holding = castle_holding
 	867.1.1 = {
