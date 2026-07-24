@@ -12562,7 +12562,7 @@
 	name = Igor
 	dynasty = 2001038	#Polochanin
 	religion = slavic_pagan
-	culture = ilmenian
+	culture = polochan
 	843.10.16 = {
 		birth = 843.10.16
 	}
@@ -12574,7 +12574,7 @@
 	name = Iliya
 	dynasty = 2001038	#Polochanin
 	religion = slavic_pagan
-	culture = ilmenian
+	culture = polochan
 	father = 302196
 	865.8.13 = {
 		birth = 865.8.13
@@ -12587,7 +12587,7 @@
 	name = Nikita
 	dynasty = 2001038	#Polochanin
 	religion = slavic_pagan
-	culture = russian
+	culture = polochan
 	father = 302197
 	893.12.20 = {
 		birth = 893.12.20
@@ -12600,7 +12600,7 @@
 	name = Rogvolod		#Ragnvald of Polotsk
 	dynasty = 1029118
 	religion = slavic_pagan
-	culture = russian	#originally from Sweden, but no mention of when (or even if) he slavicized
+	culture = polochan	#originally from Sweden, but no mention of when (or even if) he slavicized
 	920.1.2 = {
 		birth = 920.1.2
 	}

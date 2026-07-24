@@ -545,7 +545,6 @@ walls_01 = {
 		type = pdxmesh
 		names = {
 			"western_walls_01_a_mesh"
-			#"anglo_saxon_wall_02_mesh"
 		}
 		illustration = @holding_illustration_anglo_saxon
 		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
@@ -1043,7 +1042,6 @@ walls_03 = {
 		graphical_cultures = { anglo_saxon_building_gfx scottish_building_gfx }
 		graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	}
-
 
 	is_enabled = {
 		scope:holder = {

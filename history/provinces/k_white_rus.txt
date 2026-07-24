@@ -174,7 +174,7 @@
 ##d_polotsk ###################################
 ###c_polotsk
 5129 = {	#Polotsk
-	culture = ilmenian
+	culture = polochan
 	religion = slavic_pagan
 	holding = tribal_holding
 	985.1.1 = {
