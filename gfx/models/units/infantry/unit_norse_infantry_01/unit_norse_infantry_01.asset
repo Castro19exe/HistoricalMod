@@ -56,7 +56,7 @@ pdxmesh = {
 
 	meshsettings = {
 		name = "unit_norse_facial_hair_02"
-		texture_diffuse = "unit_germanic_infantry_03_diffuse.dds"
+		texture_diffuse = "unit_fp1_infantry_blond_02_diffuse.dds"
 		texture_normal = "unit_fp1_infantry_02_normal.dds"
 		texture_specular = "unit_fp1_infantry_02_properties.dds"
 		shader = "standard_usercolor"

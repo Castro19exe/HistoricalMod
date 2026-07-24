@@ -2114,27 +2114,54 @@ e_britannia = {
 					color = { 255 95 20 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Escardeburh"
-						name_list_norse = "Skarðaborg"
-						name_list_norwegian = "Skarðaborg"
-						name_list_swedish = "Skarðaborg"
-						name_list_danish = "Skarðaborg"	
+						name_list_anglo_saxon = Escardeburh
+						name_list_norse = Skarðaborg
+						name_list_norwegian = Skarðaborg
+						name_list_swedish = Skarðaborg
+						name_list_danish = Skarðaborg"
 					}
 				}
 				b_whitby = {
 					province = 1597
 
 					color = { 255 95 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Streoneshalh
+						name_list_old_saxon = Streoneshalh
+						name_list_swedish = Hvítabýr
+						name_list_norwegian = Hvítabýr
+						name_list_danish = Hvítabýr
+						name_list_norse = Hvítabýr
+					}
 				}
 				b_richmond = {
 					province = 1598
 
 					color = { 255 95 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Sceon
+						name_list_old_saxon = Sceon
+						name_list_swedish = Gillingar
+						name_list_norwegian = Gillingar
+						name_list_danish = Gillingar
+						name_list_norse = Gillingar
+					}
 				}
 				b_yarlestre = {
 					province = 1500
 
 					color = { 255 95 20 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Topeclive
+						name_list_old_saxon = Topeclive
+						name_list_swedish = Jarlestre
+						name_list_norwegian = Jarlestre
+						name_list_danish = Jarlestre
+						name_list_norse = Jarlestre
+					}
 				}
 			}
 			c_east_riding = {
@@ -2195,19 +2222,23 @@ e_britannia = {
 				}
 
 				b_leeds = {
+					province = 1591
+
+					color = { 255 120 35 }
+
 					cultural_names = {
+						name_list_anglo_saxon = cn_leodis
+						name_list_old_saxon = cn_leodis
+						name_list_swedish = Lýðs
+						name_list_norwegian = Lýðs
+						name_list_danish = Lýðs
+						name_list_norse = Lýðs
 						name_list_welsh = cn_ladenses
 						name_list_cumbrian = cn_ladenses
 						name_list_cornish = cn_ladenses
 						name_list_breton = cn_ladenses
 						name_list_pictish = cn_ladenses
-						
-						name_list_anglo_saxon = cn_leodis
-						name_list_old_saxon = cn_leodis
 					}
-					province = 1591
-
-					color = { 255 120 35 }
 				}
 				b_doncaster = {
 					province = 1592
@@ -2217,6 +2248,10 @@ e_britannia = {
 					cultural_names = {
 						name_list_anglo_saxon = Dunceaster
 						name_list_old_saxon = Dunceaster
+						name_list_swedish = Dunceaster
+						name_list_norwegian = Dunceaster
+						name_list_danish = Dunceaster
+						name_list_norse = Dunceaster
 					}
 				}
 				b_halifax = {
@@ -2232,6 +2267,10 @@ e_britannia = {
 					cultural_names = {
 						name_list_anglo_saxon = Sceaffeld
 						name_list_old_saxon = Sceaffeld
+						name_list_swedish = Skeþfelt
+						name_list_norwegian = Skeþfelt
+						name_list_danish = Skeþfelt
+						name_list_norse = Skeþfelt
 					}
 				}
 				b_bolton = {
@@ -2242,12 +2281,25 @@ e_britannia = {
 					cultural_names = {
 						name_list_anglo_saxon = Boeltun
 						name_list_old_saxon = Boeltun
+						name_list_swedish = Bústaður
+						name_list_norwegian = Bústaður
+						name_list_danish = Bústaður
+						name_list_norse = Bústaður
 					}
 				}
 				b_ripon = {
 					province = 1599
 
 					color = { 255 120 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Inhrypum
+						name_list_old_saxon = Inhrypum
+						name_list_swedish = Rípum
+						name_list_norwegian = Rípum
+						name_list_danish = Rípum
+						name_list_norse = Rípum
+					}
 				}
 			}
 			c_lincolnshire = {
@@ -2286,17 +2338,39 @@ e_britannia = {
 					cultural_names = {
 						name_list_anglo_saxon = Botulftun
 						name_list_old_saxon = Botulftun
+						name_list_swedish = Bótulfsteinn
+						name_list_norwegian = Bótulfsteinn
+						name_list_danish = Bótulfsteinn
+						name_list_norse = Bótulfsteinn
 					}
 				}
 				b_bolingsbroke = {
 					province = 1586
 
 					color = { 232 195 74 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Bolingborc
+						name_list_old_saxon = Bolingborc
+						name_list_swedish = Bolingborc
+						name_list_norwegian = Bolingborc
+						name_list_danish = Bolingborc
+						name_list_norse = Bolingborc
+					}
 				}
 				b_grimsby = {
 					province = 1587
 
 					color = { 232 195 74 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Grimesby
+						name_list_old_saxon = Grimesby
+						name_list_swedish = Grímsbýr
+						name_list_norwegian = Grímsbýr
+						name_list_danish = Grímsbýr
+						name_list_norse = Grímsbýr
+					}
 				}
 			}
 		}
@@ -52446,6 +52520,15 @@ e_spain = {
 					province = 1851
 
 					color = { 27 130 60 }
+
+					cultural_names = {
+						name_list_bedouin = Qarṭāj
+						name_list_maghrebi = Qarṭāj
+						name_list_levantine = Qarṭāj
+						name_list_egyptian = Qarṭāj
+						name_list_andalusian = Qarṭāj
+						name_list_yemeni = Qarṭāj
+					}
 				}
 				b_aguilas = {
 					province = 1850

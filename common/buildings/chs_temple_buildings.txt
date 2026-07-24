@@ -2444,7 +2444,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"celtic_temple_christian_01_b_mesh"
+			"magyar_temple_christian_02_mesh"
 		}
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
@@ -3262,7 +3262,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"celtic_temple_christian_01_b_mesh"
+			"magyar_temple_christian_02_mesh"
 		}
 		illustration = @illustration_northern_christian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }

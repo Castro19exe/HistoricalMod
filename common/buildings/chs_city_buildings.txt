@@ -8,7 +8,7 @@
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_city_norse.dds"
 @holding_illustration_scandinavian = "gfx/interface/illustrations/holding_types/city_scandinavian.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds"
-@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/city_iranian.dds"
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds"
 @holding_illustration_celtic = "gfx/interface/illustrations/holding_types/city_celtic.dds"
 @holding_illustration_west_african = "gfx/interface/illustrations/holding_types/city_west_african.dds"
