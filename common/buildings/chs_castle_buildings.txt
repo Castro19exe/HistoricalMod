@@ -463,8 +463,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"brythonic_castle_01_a_mesh"
-			"brythonic_castle_01_b_mesh"
+			"slavic_castle_01_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
@@ -545,6 +544,13 @@ castle_01 = {
 	}
 
 	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_rohan_castle_01_mesh"
+		illustration = @holding_illustration_crimean_gothic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 0 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+	}
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_01_mesh"
@@ -1128,7 +1134,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"brythonic_castle_02_mesh"
+			"slavic_castle_01_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
@@ -1251,6 +1257,13 @@ castle_02 = {
 	}
 
 	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_rohan_castle_02_mesh"
+		illustration = @holding_illustration_crimean_gothic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 1 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+	}
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_02_mesh"
@@ -1837,7 +1850,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"brythonic_castle_03_mesh"
+			"slavic_castle_01_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
@@ -1918,6 +1931,13 @@ castle_03 = {
 	}
 
 	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "building_rohan_castle_03_mesh"
+		illustration = @holding_illustration_crimean_gothic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 2 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+	}
 	asset = {
 		type = pdxmesh
 		name = "building_rohan_castle_03_mesh"
@@ -2495,7 +2515,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"brythonic_castle_04_mesh"
+			"slavic_castle_01_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
@@ -2576,6 +2596,13 @@ castle_04 = {
 	}
 
 	### GOTHIC ###
+	asset = {
+		type = pdxmesh
+		name = "fp1_building_norse_castle_04_mesh"
+		illustration = @holding_illustration_crimean_gothic
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_cultures = { crimean_gothic_building_gfx }
+	}
 	asset = {
 		type = pdxmesh
 		name = "fp1_building_norse_castle_04_mesh"

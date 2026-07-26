@@ -2118,7 +2118,7 @@ e_britannia = {
 						name_list_norse = Skarðaborg
 						name_list_norwegian = Skarðaborg
 						name_list_swedish = Skarðaborg
-						name_list_danish = Skarðaborg"
+						name_list_danish = Skarðaborg
 					}
 				}
 				b_whitby = {
@@ -2222,10 +2222,6 @@ e_britannia = {
 				}
 
 				b_leeds = {
-					province = 1591
-
-					color = { 255 120 35 }
-
 					cultural_names = {
 						name_list_anglo_saxon = cn_leodis
 						name_list_old_saxon = cn_leodis
@@ -2239,6 +2235,10 @@ e_britannia = {
 						name_list_breton = cn_ladenses
 						name_list_pictish = cn_ladenses
 					}
+
+					province = 1591
+
+					color = { 255 120 35 }
 				}
 				b_doncaster = {
 					province = 1592
@@ -3269,8 +3269,10 @@ e_britannia = {
 					color = { 230 15 55 }
 
 					cultural_names = {
-						name_list_norman = "Portsmouth"
-						name_list_english = "Portsmouth"
+						name_list_english = Portsmouth
+						name_list_scottish = Portsmouth
+						name_list_norman = Portsmouth
+						name_list_french = Portsmouth
 					}
 				}
 				b_basingstoke = {
@@ -4502,25 +4504,26 @@ e_britannia = {
 				name_list_cornish = cn_gododdin
 				name_list_cumbrian = cn_gododdin
 				name_list_welsh = cn_gododdin
+				name_list_irish = Lodainn
+				name_list_gaelic = Lodainn
 			}
 
 			c_lothian = {
 				color = { 185 90 25 }
 
 				cultural_names = {
-					name_list_irish = "Lodainn"
-					name_list_gaelic = "Lodainn"
-					name_list_pictish = "Lodainn"
-					name_list_welsh = "Lleuddiniawn"
-					name_list_cumbrian = "Lleuddiniawn"
-					name_list_cornish = "Lleuddiniawn"
-					name_list_breton = "Lleuddiniawn"
+					name_list_breton = cn_gododdin
+					name_list_cornish = cn_gododdin
+					name_list_cumbrian = cn_gododdin
 					name_list_anglo_saxon = "Loðene"
 					name_list_old_saxon = "Loðene"
 					name_list_norse = "Loðene"
 					name_list_swedish = "Loðene"
                     name_list_norwegian = "Loðene"
                     name_list_danish = "Loðene"
+					name_list_irish = "Lodainn"
+					name_list_gaelic = "Lodainn"
+					name_list_pictish = "Lodainn"
 				}
 
 				b_edinburgh = {
@@ -4611,6 +4614,8 @@ e_britannia = {
 						name_list_norwegian = Barrvík
 						name_list_danish = Barrvík
 						name_list_norse = Barrvík
+						name_list_irish = Bearaig
+						name_list_gaelic = Bearaig
 					}
 				}
 			}
@@ -4652,29 +4657,88 @@ e_britannia = {
 			c_linlithgowshire = {
 				color = { 185 115 25 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Linliþgow
+					name_list_old_saxon = Linliþgow
+					name_list_swedish = Liþgæ
+					name_list_norwegian = Liþgæ
+					name_list_danish = Liþgæ
+					name_list_norse = Liþgæ
+					name_list_irish = "Gleann Iucha"
+					name_list_gaelic = "Gleann Iucha"
+					name_list_pictish = "Gleann Iucha"
+				}
+
 				b_linlithgow = {
 					province = 1731
 
 					color = { 185 115 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Linliþgow
+						name_list_old_saxon = Linliþgow
+						name_list_swedish = Liþgæ
+						name_list_norwegian = Liþgæ
+						name_list_danish = Liþgæ
+						name_list_norse = Liþgæ
+						name_list_irish = "Gleann Iucha"
+						name_list_gaelic = "Gleann Iucha"
+						name_list_pictish = "Gleann Iucha"
+					}
 				}
 				b_queensferry = {
 					province = 1732
 
 					color = { 185 115 25 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Cwenesferie
+						name_list_old_saxon = Cwenesferie
+						name_list_swedish = Drottningarferja
+						name_list_norwegian = Drottningarferja
+						name_list_danish = Drottningarferja
+						name_list_norse = Drottningarferja
+						name_list_irish = "Cas Faoileas"
+						name_list_gaelic = "Cas Faoileas"
+					}
 				}
 				b_falkirk = {
 					province = 1733
 
 					color = { 185 115 25 }
+
+					cultural_names = {
+						name_list_irish = "An Eaglais Bhreac"
+						name_list_gaelic = "An Eaglais Bhreac"
+						name_list_pictish = "An Eaglais Bhreac"
+					}
 				}
 			}
 			c_lanarkshire = {
 				color = { 195 100 35 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Lanerc
+					name_list_old_saxon = Lanerc
+					name_list_swedish = Lannarpfylki
+                    name_list_norwegian = Lannarpfylki
+                    name_list_danish = Lannarpfylki
+                    name_list_norse = Lannarpfylki
+				}
+
 				b_lanark = {
 					province = 1737
 
 					color = { 195 100 35 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Lanerc
+						name_list_old_saxon = Lanerc
+						name_list_swedish = Lannarpfylki
+						name_list_norwegian = Lannarpfylki
+						name_list_danish = Lannarpfylki
+						name_list_norse = Lannarpfylki
+					}
 				}
 				b_cadyou = {
 					province = 1738
@@ -10275,15 +10339,18 @@ e_byzantium = {
 					color = { 206 66 158 }
 
 					cultural_names = {
-						name_list_greek = "Athina"
-						name_list_roman = "Athenae"
-						name_list_norse = "Aþena"
+						name_list_greek = Athina
+						name_list_norse = Aþena
 					}
 				}
 				b_thebeshellas = {
 					province = 3730
 
 					color = { 206 66 158 }
+
+					cultural_names = {
+						name_list_greek = Thivai
+					}
 				}
 				b_megara = {
 					province = 3731
@@ -19864,34 +19931,63 @@ e_scandinavia = {
 			c_aarhus = {
 				color = { 155 50 26 }
 
+				cultural_names = {
+					name_list_norse = Áróss
+					name_list_swedish = Århus
+					name_list_norwegian = Århus
+					name_list_danish = Århus
+				}
+
 				b_aarhus = {
 					province = 57
 
 					color = { 155 50 26 }
 
 					cultural_names = {
-						name_list_swedish = cn_arhus
+						name_list_norse = Áróss
+						name_list_swedish = Århus
+						name_list_norwegian = Århus
+						name_list_danish = Århus
 					}
 				}
 				b_jelling = {
 					province = 58
 
 					color = { 155 50 26 }
+
+					cultural_names = {
+						name_list_norse = Jalangr
+					}
 				}
 				b_djursland = {
 					province = 226
 
 					color = { 155 50 26 }
+
+					cultural_names = {
+						name_list_norse = Djúrsaland
+						name_list_swedish = Djursland
+						name_list_norwegian = Djursland
+						name_list_danish = Djursland
+					}
 				}
 			}
 
 			c_viborg = {
 				color = { 175 40 56 }
 
+				cultural_names = {
+					name_list_norse = Véborg
+				}
+
 				b_viborg = {
 					province = 56
 
 					color = { 175 40 56 }
+
+					cultural_names = {
+						name_list_norse = Véborg
+					}
 				}
 				b_ormstrup = {
 					province = 222
@@ -19946,6 +20042,13 @@ e_scandinavia = {
 					province = 224
 
 					color = { 165 9 64 }
+
+					cultural_names = {
+						name_list_norse = Røndaróss
+						name_list_swedish = Randers
+						name_list_norwegian = Randers
+						name_list_danish = Randers
+					}
 				}
 			}
 		}
@@ -52522,12 +52625,12 @@ e_spain = {
 					color = { 27 130 60 }
 
 					cultural_names = {
-						name_list_bedouin = Qarṭāj
-						name_list_maghrebi = Qarṭāj
-						name_list_levantine = Qarṭāj
-						name_list_egyptian = Qarṭāj
-						name_list_andalusian = Qarṭāj
-						name_list_yemeni = Qarṭāj
+						name_list_bedouin = "Qarṭāj"
+						name_list_maghrebi = "Qarṭāj"
+						name_list_levantine = "Qarṭāj"
+						name_list_egyptian = "Qarṭāj"
+						name_list_andalusian = "Qarṭāj"
+						name_list_yemeni = "Qarṭāj"
 					}
 				}
 				b_aguilas = {

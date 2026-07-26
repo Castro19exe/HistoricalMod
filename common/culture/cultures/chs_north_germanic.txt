@@ -409,7 +409,7 @@ gute = {
 }
 
 gutish = {
-	color = { 0.76 0.91 0.99 }
+	color = { 0.631 0.847 0.96 }
 
 	parents = { gute }
 

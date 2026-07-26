@@ -42,7 +42,7 @@ pdxmesh = {
 	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
 
 	meshsettings = {
-		name = "norse_sca_unit_basic_skin"
+		name = "norse_unit_basic_skin"
 		texture_diffuse = "nord_unit_01_diffuse.dds"
 		texture_normal = "nord_unit_01_normal.dds"
 		texture_specular = "nord_unit_01_properties.dds"
@@ -52,9 +52,9 @@ pdxmesh = {
 			"MAP_LIGHTING_HACK"
 		}
 	}
-
+unit_fp1_infantry_blond_02_diffuse
 	meshsettings = {
-		name = "unit_norse_facial_hair_01"
+		name = "unit_norse_facial_hair_02"
 		texture_diffuse = "unit_fp1_infantry_blond_02_diffuse.dds"
 		texture_normal = "unit_fp1_infantry_02_normal.dds"
 		texture_specular = "unit_fp1_infantry_02_properties.dds"

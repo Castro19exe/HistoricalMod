@@ -224,7 +224,7 @@
 	name = "Ivar"
 	dynasty = 830
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	838.1.1 = {
 		birth = yes
 	}
@@ -237,7 +237,7 @@
 	name = "GuT_mundr"
 	dynasty = 831
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	835.1.1 = {
 		birth = yes
 	}
@@ -289,7 +289,7 @@
 	name = "Arni"
 	dynasty = 835
 	religion = "norse_pagan"
-	culture = "danish"
+	culture = "dane"
 	845.1.1 = {
 		birth = yes
 	}
@@ -477,7 +477,7 @@
 	name = "Ingfrid"
 	female = yes
 	religion = norse_pagan
-	culture = norse
+	culture = geat
 	848.1.1 = {
 		birth = yes
 	}
@@ -4791,7 +4791,7 @@
 	#placeholder
 	female = yes
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	850.1.1 = {
 		birth = "850.1.1"
 	}
@@ -4840,7 +4840,7 @@
 	#placeholder
 	female = yes
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	850.1.1 = {
 		birth = "850.1.1"
 	}
