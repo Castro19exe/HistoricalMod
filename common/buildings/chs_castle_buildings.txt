@@ -463,7 +463,8 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"slavic_castle_01_mesh"
+			"brythonic_castle_01_a_mesh"
+			"brythonic_castle_01_b_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
@@ -1134,7 +1135,7 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"slavic_castle_01_mesh"
+			"brythonic_castle_02_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 1 } }
@@ -1850,7 +1851,7 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"slavic_castle_01_mesh"
+			"brythonic_castle_03_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 2 } }
@@ -2515,7 +2516,7 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"slavic_castle_01_mesh"
+			"brythonic_castle_04_mesh"
 		}
 		illustration = @holding_illustration_goidelic
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }

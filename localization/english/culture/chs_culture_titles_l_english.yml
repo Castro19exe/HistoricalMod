@@ -1,13 +1,10 @@
 ﻿l_english:
-
-#############################################
-
-### English ###
+ ### English ###
  count_feudal_male_english:0 "Earl"
  count_feudal_female_english:0 "Countess"
  county_feudal_english:0 "Earldom"
 
-### Anglo-Saxon ###
+ ### Anglo-Saxon ###
  duke_feudal_male_anglo_saxon:0 "Eorl"
  duke_feudal_female_anglo_saxon:0 "Hlaefdige"
  duchy_feudal_anglo_saxon:0 "Eorldom"
@@ -43,3 +40,8 @@
  ### Bulgarian ###
  emperor_feudal_male_bulgarian:0 "Csar"
  emperor_feudal_female_bulgarian:0 "Csaritsa"
+ 
+ ### Caucasian ###
+ duke_independent_caucasian:0 "Petty King"
+ duke_independent_female_caucasian:0 "Petty Queen"
+ duchy_independent_caucasian:0 "Petty Kingdom"

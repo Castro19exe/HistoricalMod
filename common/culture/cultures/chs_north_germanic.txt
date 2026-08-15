@@ -50,11 +50,7 @@
 }
 
 norwegian = {
-	#color = { 0.305 0.486 0.831 }
-	#color = { 0.15 0.4 0.55 }
-
-	color = { 0.42 0.486 0.85 }
-	
+	color = { 0.42 0.486 0.85 }	
 	created = 1030.1.1
 	parents = { norse }
 	
@@ -64,9 +60,9 @@ norwegian = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_things
 		tradition_storytellers
 		tradition_runestones
-		tradition_things
 		tradition_maritime_mercantilism
 	}
 	# FP1 Traditions
@@ -104,17 +100,17 @@ icelandic = {
 	language = language_norse
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	traditions = {
+		tradition_things
+		tradition_isolationist
+		tradition_runestones
+		tradition_fishermen
+	}
 	# FP1 Traditions
 	dlc_tradition = {
 		trait = tradition_fp1_coastal_warriors
 		requires_dlc_flag = the_northern_lords
 		fallback = tradition_hird
-	}
-	traditions = {
-		tradition_isolationist
-		tradition_fishermen
-		tradition_things
-		tradition_runestones
 	}
 
 	name_list = name_list_norwegian
@@ -242,9 +238,9 @@ swedish = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_zealous_people
-		tradition_runestones
 		tradition_things
+		tradition_zealous_people
+		tradition_runestones	
 	}
 	# FP1 Traditions
 	dlc_tradition = {
@@ -272,7 +268,7 @@ swedish = {
 }
 
 dane = {
-	color = { 0.224 0.506 0.671 }
+	color = { 0.286 0.573 0.741 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -360,10 +356,8 @@ danish = {
 
 gute = {
 	color = { 0.576 0.737 0.871 }
-
-	parents = { geat }
-
 	created = 550.1.1
+	parents = { geat }
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_north_germanic
@@ -409,11 +403,9 @@ gute = {
 }
 
 gutish = {
-	color = { 0.631 0.847 0.96 }
-
-	parents = { gute }
-
+	color = { 0.612 0.859 0.988 }
 	created = 1000.1.1
+	parents = { gute }
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_north_germanic
@@ -432,11 +424,6 @@ gutish = {
 		fallback = tradition_hird
 	}
 	dlc_tradition = {
-		trait = tradition_fp1_performative_honour
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_poetry
-	}
-	dlc_tradition = {
 		trait = tradition_fp1_northern_stories
 		requires_dlc_flag = the_northern_lords
 		fallback = tradition_runestones
@@ -445,10 +432,12 @@ gutish = {
 	name_list = name_list_norse
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx epe_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
-	house_coa_frame = house_frame_05
+	building_gfx = { northern_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { scandinavian_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 1.0 1.0 }
 	
 	ethnicities = {
 		70 = caucasian_northern_blond

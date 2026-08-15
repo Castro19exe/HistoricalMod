@@ -49,16 +49,6 @@ object={
 	transform="2721.298096 0.000000 1774.406006 0.000000 0.000000 0.000000 0.000000 1.200989 1.200989 1.200989
 "}
 object={
-	name="kofuku_ji"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="kofuku_ji_mesh"
-	count=1
-	transform="8208.791016 -0.575195 2843.641357 0.000000 0.463493 0.000000 0.886100 0.792671 0.792671 0.792671
-"}
-object={
 	name="mahabodhi"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -107,16 +97,6 @@ object={
 	pdxmesh="sprawl_antioch_mesh"
 	count=1
 	transform="3000.730225 -0.955566 2160.907715 0.000000 -0.130666 0.000000 0.991427 1.163625 1.163625 1.163625
-"}
-object={
-	name="sprawl_anuradhapura"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_anuradhapura_mesh"
-	count=1
-	transform="5323.985352 0.000000 880.295654 0.000000 0.000000 0.000000 1.000000 0.750000 0.750000 0.750000
 "}
 object={
 	name="sprawl_bruges"

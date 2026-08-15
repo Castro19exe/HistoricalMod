@@ -4,3 +4,8 @@
 	motto = dynn_Wessex_motto
 	dynasty = 1047006
 }
+
+house_oskyldr = { # Sigurdr cadets
+	name = "dynn_Oskyldr"
+	dynasty = 7516
+}

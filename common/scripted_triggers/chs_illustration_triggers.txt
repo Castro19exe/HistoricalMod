@@ -15,7 +15,12 @@ has_graphical_mena_culture_group_trigger = {
 }
 
 has_graphical_northern_culture_group_trigger = {
-	has_building_gfx = northern_building_gfx
+	OR = {
+		has_building_gfx = northern_building_gfx
+		has_building_gfx = anglo_saxon_building_gfx
+		has_building_gfx = scottish_building_gfx
+		has_building_gfx = crimean_gothic_building_gfx
+	}
 }
 
 has_graphical_steppe_culture_group_trigger = {

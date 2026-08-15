@@ -158,7 +158,7 @@ chrobatian = {
 }
 
 tiverian = {
-	color = { 0.6 0.9 0.39 }
+	color = { 0.57 0.89 0.39 }
 	
 	ethos = ethos_courtly
 	heritage = heritage_east_slavic
@@ -188,7 +188,7 @@ tiverian = {
 }
 
 dregovichian = {
-	color = { 0.31 0.55 0.31 }
+	color = { 0.46 0.75 0.3 }
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
 	language = language_east_slavic
@@ -347,7 +347,7 @@ polian = {
 }
 
 drevlian = {
-	color = { 0.624 0.839 0.624 }
+	color = { 0.59 0.9 0.624 }
 	ethos = ethos_bureaucratic
 	heritage = heritage_east_slavic
 	language = language_east_slavic

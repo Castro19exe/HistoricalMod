@@ -18,6 +18,11 @@ sub_suebi_03 = {
 	name = "dynn_Miroing"
 	culture = "suebi"
 }
+7516 = {
+	prefix = "dynnp_af"
+	name = "dynn_Oskyldr"
+	culture = "norse"
+}
 9616 = {
 	prefix = "dynnp_af"
 	name = "dynn_Burgundy"

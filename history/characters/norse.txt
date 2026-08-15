@@ -49,7 +49,7 @@
 	name = "Yngvar" # AKA Igor, son of Rurik
 	dynasty = 705
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 40605
 	mother = 6863
 	875.1.1 = {
@@ -436,7 +436,7 @@
 	name = "Halfdan"
 	dynasty_house = house_oskyldr
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	father = 6811
 	mother = 6872
 	864.1.1 = {
@@ -451,7 +451,7 @@
 	name = "Sif"
 	female = yes
 	religion = norse_pagan
-	culture = norse
+	culture = svear
 	847.1.1 = {
 		birth = yes
 	}
@@ -663,66 +663,12 @@
 	}
 }
 
-40697 = {
- 	name = "Umila" #Fictional mother of Rurik
- 	female = yes
-	dynasty = norse_roden #Fictional dynasty for Rurik's family, to have them in a single dynasty, but keep Rurik as the founder of the Rurikid dynasty.
- 	religion = "norse_pagan"
-	culture = norse
-	803.1.1 = {
-		birth = yes
-	}
-	855.1.1 = {
-		death = yes
-	}
-}
-
-
-302221 = { #Brother of Rurik Rurikd
-	name = "SignjO_tr"	#Sineus
-	dynasty = norse_roden
-	religion = norse_pagan
-	culture = norse
-	trait = deceitful
-	trait = gregarious
-	trait = ambitious
-	mother = 40697
-	833.1.1 = {
-		birth = yes
-		effect = { give_nickname = nick_blue_snake }
-	}
-	862.1.2 = {
-		death = yes
-	}
-}
-
-302222 = { #Brother of Rurik Rurikd
-	name = "T_O_rvar"		#Truvor
-	dynasty = norse_roden
-	religion = norse_pagan
-	trait = just
-	trait = compassionate
-	trait = ambitious
-	mother = 40697
-	culture = norse
-	834.1.1 = {
-		birth = yes
-		effect = {
-			give_nickname = nick_the_loyal
-		}
-	}
-	862.1.2 = {
-		death = yes
-	}
-}
-
-
 40605 = {
 	name = "Hrœrekr" # Rurik, legendary founder of Rus. Probably known as Hrörekr  by his Norse contemporaries.
 	dna = 40605_rurik_rurikid
 	dynasty = 705
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	diplomacy = 12
 	martial = 8
 	stewardship = 8
@@ -735,7 +681,7 @@
 	trait = education_martial_4
 	trait = brave
 	sexuality = heterosexual
-	mother = 40697
+	#mother = 40697
 	830.1.1 = {
 		birth = yes
 		effect = {
@@ -794,9 +740,8 @@
 	name = "Helgi"		#Oleg the Seer
 	dna = 40606_helgi_the_seer
 	dynasty = 705
-	religion = slavic_pagan
-	culture = norse
-	father = 40605 #Rurik (wasn't actually his son but his "kinsman" who ruled between Rurik and Rurik's son Yngvar)
+	religion = norse_pagan
+	culture = svear
 	diplomacy = 9
 	martial = 9
 	learning = 9
@@ -805,7 +750,7 @@
 	trait = education_martial_3
 	trait = greedy
 	trait = stubborn
-	trait = legitimized_bastard #fiction
+	#trait = legitimized_bastard #fiction
 	850.1.1 = {
 		birth = yes
 	}
@@ -3961,7 +3906,7 @@
 	name = "Barid" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
 	dynasty_house = house_british_isles_ivaring
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163111 #Ivar the Boneless
 	mother = 306011 #Fictional wife of Ivar
 	trait = gregarious
@@ -3984,7 +3929,7 @@
 	name = "SigfroT_" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
 	dynasty_house = house_british_isles_ivaring
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163111 #Ivar the Boneless
 	mother = 306011 #Fictional wife of Ivar
 	
@@ -4006,7 +3951,7 @@
 	name = "Sigtrygg" #Son of the viking Ímar some scholars believe to be Ivar the Boneless
 	dynasty_house = house_british_isles_ivaring
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163111 #Ivar the Boneless
 	mother = 306011 #Fictional wife of Ivar
 	trait = beauty_good_2
@@ -4121,7 +4066,7 @@
 	dna = 306010_saga
 	female = yes
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	trait = honest
 	trait = ambitious
 	trait = patient
@@ -4146,7 +4091,7 @@
 	name = "Ragnarr" # Fictional son of Halfdan Hvitserk's
 	dynasty_house = house_hvitserk
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk'
 	mother = 306009 #Fictional wife of Halfdan
 	trait = legitimized_bastard
@@ -4195,7 +4140,7 @@
 	dna = "6811_dyre_kiev"
 	dynasty_house = house_oskyldr
 	religion = "norse_pagan"
-	culture = norse
+	culture = svear
 	diplomacy = 9
 	martial = 9
 	stewardship = 6
@@ -4206,8 +4151,6 @@
 	trait = gregarious
 	trait = education_diplomacy_4
 	trait = intellect_good_3
-	trait = bastard_founder
-	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk', not certain. Other suggestion is Björn Ironside
 	845.1.1 = {
 		give_nickname = nick_the_stranger # Oskyldr -> Askold
 		birth = yes
@@ -4709,7 +4652,7 @@
 	#placeholder
 	dynasty = 1029
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	810.1.1 = {
 		birth = "810.1.1"
 	}
@@ -4724,7 +4667,7 @@
 	#placeholder
 	dynasty = 1029
 	religion = "norse_pagan"
-	culture = "norse"
+	culture = "svear"
 	father = 167715
 	840.1.1 = {
 		birth = "840.1.1"
@@ -5622,7 +5565,7 @@
 	name = "SigfriT_" #Fictional son
 	dynasty_house = house_hvitserk
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk'
 	mother = 306009 #Fictional wife of Halfdan
 	trait = legitimized_bastard
@@ -5643,7 +5586,7 @@
 	dna = 168336_gudfrid
 	dynasty_house = house_hvitserk
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk' (fictionally - Gudfrid existed but wasn't Halfdan's son)
 	mother = 306009 #Fictional wife of Halfdan
 	trait = legitimized_bastard
@@ -5908,7 +5851,7 @@
 	name = "GuT_friT_" #Fictional? Or the grandson of Ìmair AKA maybe-Ivar
 	dynasty_house = house_british_isles_ivaring
 	religion = "norse_pagan"
-	culture = norse
+	culture = dane
 	father = 163111 #Ivar the Boneless
 	mother = 306011 #Fictional wife of Ivar
 	867.1.1 = {

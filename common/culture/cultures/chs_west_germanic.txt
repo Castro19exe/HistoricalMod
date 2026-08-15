@@ -202,7 +202,7 @@ english = {
 }
 
 scottish = {
-	color = { 0.8 0.44 0.0 }
+	color = { 0.715 0.395 0.0 }
 	created = 1150.1.1
 	parents = { anglo_saxon }
 	

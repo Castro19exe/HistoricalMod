@@ -268,6 +268,28 @@ orange_sprawl1 = {
         this = title:b_orange.title_province
     }
 }
+#Anuradhapura
+anuradhapura_sprawl = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "sprawl_anuradhapura_mesh"
+    }
+    is_enabled = {
+        this = title:b_anuradhapura.title_province
+    }
+}
+#Kofuku-ji
+kofuku_ji_sprawl = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "kofuku_ji_mesh"
+    }
+    is_enabled = {
+        has_building_or_higher = "kofuku_ji_01"
+    }
+}
 
 # Walls
 walls_00 = {
@@ -493,7 +515,10 @@ walls_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "western_walls_00_mesh"
+		names = {
+			"celtic_wall_01_a_mesh"
+			"brythonic_wall_01_mesh"
+		}
 		graphical_cultures = { celtic_building_gfx }
 		graphical_regions = { graphical_western }
 	}
@@ -724,7 +749,7 @@ walls_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "western_walls_00_mesh"
+		name = "celtic_wall_02_mesh"
 		graphical_cultures = { celtic_building_gfx }
 		graphical_regions = { graphical_western }
 	}
@@ -986,7 +1011,7 @@ walls_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "western_walls_00_mesh"
+		name = "celtic_wall_02_mesh"
 		graphical_cultures = { celtic_building_gfx }
 		graphical_regions = { graphical_western }
 	}
@@ -1252,7 +1277,7 @@ walls_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "western_walls_00_mesh"
+		name = "celtic_wall_02_mesh"
 		graphical_cultures = { celtic_building_gfx }
 		graphical_regions = { graphical_western }
 	}
