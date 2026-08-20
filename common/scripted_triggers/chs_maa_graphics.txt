@@ -18,10 +18,6 @@ should_use_hungarian_maa_graphics = {
 	has_unit_gfx = hungarian_unit_gfx
 }
 
-should_use_crimean_gothic_maa_graphics = {
-	has_unit_gfx = crimean_gothic_unit_gfx
-}
-
 should_use_mena_maa_graphics = {
 	OR = {
 		has_unit_gfx = mena_unit_gfx

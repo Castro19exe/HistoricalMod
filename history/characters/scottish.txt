@@ -5395,7 +5395,7 @@
 	intrigue = 5
 	stewardship = 5
 	religion = "catholic"
-	culture = "scottish"
+	culture = "gaelic"
 	trait = education_diplomacy_2
 	trait = drunkard
 	1035.1.1 = {

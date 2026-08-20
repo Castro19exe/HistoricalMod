@@ -119,7 +119,6 @@ bowmen = {
 	illustration = { trigger = { should_use_indian_maa_graphics = yes } reference = bowmen_indian }
 	illustration = { trigger = { should_use_turkic_maa_graphics = yes } reference = bowmen_turkic }
 	illustration = { trigger = { should_use_finnish_maa_graphics = yes } reference = bowmen_finnish }
-	illustration = { trigger = { should_use_crimean_gothic_maa_graphics = yes } reference = bowmen_gothic }
 
  	illustration = { reference = bowmen }
 }

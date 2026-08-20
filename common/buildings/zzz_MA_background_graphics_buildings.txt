@@ -290,6 +290,53 @@ kofuku_ji_sprawl = {
         has_building_or_higher = "kofuku_ji_01"
     }
 }
+#Palermo
+palermo_sprawl4 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "palermo4_mesh"
+    }
+    is_enabled = {
+        this = title:b_palermo.title_province
+        county.development_level >= 60
+    }
+}
+palermo_sprawl3 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "palermo3_mesh"
+    }
+    is_enabled = {
+        this = title:b_palermo.title_province
+        county.development_level >= 40
+    }
+}
+palermo_sprawl2 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "palermo2_mesh"
+    }
+    is_enabled = {
+        this = title:b_palermo.title_province
+        OR = {
+            has_building_or_higher = "castle_02"
+            has_variable = MA_kalsa_already #Since in 1066 Balarm is still castle_01
+        }
+    }
+}
+palermo_sprawl1 = {
+    is_graphical_background = yes
+    asset = {
+        type = pdxmesh
+        name = "palermo1_mesh"
+    }
+    is_enabled = {
+        this = title:b_palermo.title_province
+    }
+}
 
 # Walls
 walls_00 = {

@@ -19808,10 +19808,18 @@ e_scandinavia = {
 			c_sjaelland = {
 				color = { 216 50 50 }
 
+				cultural_names = {
+					name_list_norse = Sjáland
+				}
+
 				b_roskilde = {
 					province = 63
 
 					color = { 216 50 50 }
+
+					cultural_names = {
+						name_list_norse = Hróarskelda
+					}
 				}
 				b_helsingora = {
 					province = 433
@@ -22571,9 +22579,9 @@ e_wendish_empire = {
 				color = { 115 135 115 }
 
 				cultural_names = {
-					name_list_polabian = Branibor
-					name_list_polish = Branibor
-					name_list_pommeranian = Branibor
+					name_list_polish = Branibórz
+					name_list_pommeranian = Branibórz
+					name_list_polabian = Branibórz
 				}
 
 				b_brandenburg = {
@@ -22582,9 +22590,9 @@ e_wendish_empire = {
 					color = { 115 135 115 }
 
 					cultural_names = {
-						name_list_polabian = Branibor
-						name_list_polish = Branibor
-						name_list_pommeranian = Branibor
+						name_list_polish = Branibórz
+						name_list_pommeranian = Branibórz
+						name_list_polabian = Branibórz
 					}
 				}
 				b_potsdam = {
@@ -54443,6 +54451,18 @@ e_spain = {
 					province = 1785
 
 					color = { 240 180 75 }
+
+					cultural_names = {
+						name_list_bedouin = cn_yant_yaqub
+						name_list_baranis = cn_yant_yaqub
+						name_list_butr = cn_yant_yaqub
+						name_list_zaghawa = cn_yant_yaqub
+						name_list_levantine = cn_yant_yaqub
+						name_list_egyptian = cn_yant_yaqub
+						name_list_maghrebi = cn_yant_yaqub
+						name_list_andalusian = cn_yant_yaqub
+						name_list_yemeni = cn_yant_yaqub
+					}
 				}
 				b_betanzos = {
 					province = 1786
