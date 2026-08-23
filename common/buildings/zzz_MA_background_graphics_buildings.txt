@@ -447,8 +447,8 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx }
-		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx byzantine_building_gfx caucasian_building_gfx eastern_building_gfx east_slavic_building_gfx siberian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_siberia }
 	}
 	asset = {
 		type = pdxmesh
@@ -664,8 +664,8 @@ walls_02 = {
 			"western_walls_02_a_mesh"
 			"western_walls_02_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx caucasian_building_gfx eastern_building_gfx }
-		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx caucasian_building_gfx eastern_building_gfx siberian_building_gfx }
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india graphical_siberia }
 	}
 	asset = {
 		type = pdxmesh
@@ -899,8 +899,8 @@ walls_03 = {
 			"western_walls_03_a_mesh"
 			"western_walls_03_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
-		graphical_regions = { graphical_western graphical_steppe }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx siberian_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe graphical_siberia }
 	}
 	asset = {
 		type = pdxmesh
@@ -1157,8 +1157,8 @@ walls_04 = {
 			"western_walls_04_a_mesh"
 			"western_walls_04_a_mesh"
 		}
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx }
-		graphical_regions = { graphical_western graphical_steppe }
+		graphical_cultures = { western_building_gfx mediterranean_building_gfx norse_building_gfx northern_building_gfx caucasian_building_gfx siberian_building_gfx }
+		graphical_regions = { graphical_western graphical_steppe graphical_siberia }
 	}
 	asset = {
 		type = pdxmesh

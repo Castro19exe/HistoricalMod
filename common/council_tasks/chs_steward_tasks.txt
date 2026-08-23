@@ -912,6 +912,10 @@ task_promote_culture = {
 				scope:councillor_liege.culture = culture:dutch
 				culture = culture:frisian
 			}
+			NOT = {
+				scope:councillor_liege.culture = culture:castilian
+				culture = culture:asturleonese
+			}
 			trigger_if = {
 				limit = {
 					scope:councillor_liege = { has_variable = hold_court_8130_culture_block }

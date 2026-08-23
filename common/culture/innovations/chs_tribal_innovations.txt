@@ -34,6 +34,7 @@
 @plenary_assemblies = "gfx/interface/icons/culture_innovations/innovation_plenary_assemblies.dds"
 @siege_crossbow = "gfx/interface/icons/culture_innovations/innovation_auh_ballista.dds"
 
+
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
@@ -81,6 +82,10 @@ innovation_motte = { # Earthworks in-game
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_catapult = {
@@ -105,6 +110,10 @@ innovation_catapult = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_barracks = {
@@ -121,6 +130,10 @@ innovation_barracks = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_mustering_grounds = {
@@ -136,6 +149,10 @@ innovation_mustering_grounds = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_bannus = {
@@ -149,12 +166,16 @@ innovation_bannus = {
 
 	character_modifier = {
 		levy_reinforcement_rate = 0.15
-		active_accolades = 1
+		accolades = 1
 		herd_conversion = 0.005
 	}
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_quilted_armor = {
@@ -172,6 +193,10 @@ innovation_quilted_armor = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_development_01 = {
@@ -188,6 +213,10 @@ innovation_development_01 = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_currency_01 = {
@@ -203,6 +232,10 @@ innovation_currency_01 = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 #culture_group_civic
@@ -220,6 +253,10 @@ innovation_gavelkind = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_crop_rotation = {
@@ -236,6 +273,10 @@ innovation_crop_rotation = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_city_planning = {
@@ -256,6 +297,10 @@ innovation_city_planning = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_casus_belli = {
@@ -269,6 +314,10 @@ innovation_casus_belli = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_plenary_assemblies = {
@@ -287,6 +336,10 @@ innovation_plenary_assemblies = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_ledger = {
@@ -304,6 +357,10 @@ innovation_ledger = {
 
 	flag = global_regular
 	flag = tribal_era_regular
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 ### culture_group_regional ###
@@ -327,6 +384,10 @@ innovation_table_of_princes = {
 	
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_longboats = {
@@ -347,6 +408,10 @@ innovation_longboats = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_elephantry = {
@@ -363,6 +428,10 @@ innovation_elephantry = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_war_camels = {
@@ -379,6 +448,10 @@ innovation_war_camels = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_wootz_steel = {
@@ -395,6 +468,10 @@ innovation_wootz_steel = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }
 
 innovation_african_canoes = {
@@ -414,4 +491,8 @@ innovation_african_canoes = {
 
 	flag = global_regional
 	flag = tribal_era_regional
+
+	ai_weight_for_fascination = {
+		value = 100
+	}
 }

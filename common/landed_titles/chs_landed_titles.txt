@@ -19805,6 +19805,10 @@ e_scandinavia = {
 
 			capital = c_sjaelland # Sjaelland
 
+			cultural_names = {
+				name_list_norse = Sjáland
+			}
+
 			c_sjaelland = {
 				color = { 216 50 50 }
 
@@ -19818,7 +19822,7 @@ e_scandinavia = {
 					color = { 216 50 50 }
 
 					cultural_names = {
-						name_list_norse = Hróarskelda
+						name_list_norse = Hróiskelda
 					}
 				}
 				b_helsingora = {
@@ -19832,15 +19836,15 @@ e_scandinavia = {
 					color = { 216 50 50 }
 
 					cultural_names = {
-						name_list_english = "Copenhagen"
-						name_list_franconian = "Kopenhagen"
-						name_list_saxon = "Kopenhagen"
-						name_list_swabian = "Kopenhagen"
-						name_list_bavarian = "Kopenhagen"
-						name_list_thuringian = "Kopenhagen"
-						name_list_norwegian = "Køpmannæhafn"
-						name_list_swedish = "Køpmannæhafn"
-						name_list_danish = "Køpmannæhafn"
+						name_list_english = Copenhagen
+						name_list_franconian = Kopenhagen
+						name_list_saxon = Kopenhagen
+						name_list_swabian = Kopenhagen
+						name_list_bavarian = Kopenhagen
+						name_list_thuringian = Kopenhagen
+						name_list_norwegian = Køpmannæhafn
+						name_list_swedish = Köpmannæhafn
+						name_list_danish = Køpmannæhafn
 					}
 				}
 				b_naestved = {
@@ -19848,8 +19852,10 @@ e_scandinavia = {
 					color = { 216 50 50 }
 
 					cultural_names = {
-						name_list_swedish = cn_nastved
 						name_list_norse = cn_naestved
+						name_list_swedish = cn_nastved
+						name_list_norwegian = Næstved
+						name_list_danish = Næstved
 					}
 				}
 				b_slagelse = {
@@ -19910,6 +19916,10 @@ e_scandinavia = {
 					province = 71
 
 					color = { 215 5 5 }
+
+					cultural_names = {
+						name_list_norse = Þrelæborg
+					}
 				}
 				b_tommerup = {
 					province = 72
@@ -20114,13 +20124,20 @@ e_scandinavia = {
 					color = { 165 9 64 }
 
 					cultural_names = {
+						name_list_norse = Álaborg
 						name_list_swedish = cn_alborg
+						name_list_norwegian = cn_alborg
+						name_list_danish = cn_alborg
 					}
 				}
 				b_lindholm = {
 					province = 55
 
 					color = { 165 9 64 }
+
+					cultural_names = {
+						name_list_norse = Lindaholmr
+					}
 				}
 				b_randros = {
 					province = 224
@@ -20213,6 +20230,10 @@ e_scandinavia = {
 					province = 434
 
 					color = { 160 43 17 }
+
+					cultural_names = {
+						name_list_norse = Kaldýng
+					}
 				}
 			}
 
@@ -20223,6 +20244,10 @@ e_scandinavia = {
 					province = 60
 
 					color = { 186 96 76 }
+
+					cultural_names = {
+						name_list_norse = Rípar
+					}
 				}
 				b_varde = {
 					province = 83
@@ -20494,6 +20519,12 @@ e_scandinavia = {
 
 			c_trandheim = {
 				color = { 130 22 85 }
+
+				cultural_names = {
+					name_list_swedish = Trondheim
+                    name_list_norwegian = Trondheim
+                    name_list_danish = Trondheim
+				}
 
 				b_nidaros = {
 					province = 270
@@ -27155,17 +27186,13 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					name_list_norwegian = "Nikolsborg"
 					name_list_danish = "Nikolsborg"
 					name_list_swedish = "Nikolsborg"
-
 					name_list_franconian = "Nikolsburg"
 					name_list_swabian = "Nikolsburg"
 					name_list_bavarian = "Nikolsburg"
 					name_list_saxon = "Nikolsburg"
 					name_list_thuringian = "Nikolsburg"
-
 					name_list_hungarian = "Miklósvár"
 					name_list_mogyer = "Miklósvár"
-
-					name_list_roman = "Nicolspurga"
 				}
 			}
 		}
@@ -45985,30 +46012,100 @@ e_carpathia = {
 			c_suceava = {
 				color = { 210 200 70 }
 
+				cultural_names = {
+					name_list_russian = Suchava
+					name_list_mogyer = Söç
+					name_list_bolghar = Söç
+					name_list_turkish = Söç
+					name_list_avar = Söç
+					name_list_pecheneg = Söç
+					name_list_cuman = Söç
+					name_list_khazar = Söç
+					name_list_kipchak = Söç
+				}
+
 				b_suceava = {
 					province = 545
 
 					color = { 210 200 70 }
+
+					cultural_names = {
+						name_list_russian = Suchava
+						name_list_mogyer = Söçvaşaru
+						name_list_bolghar = Söçvaşaru
+						name_list_turkish = Söçvaşaru
+						name_list_avar = Söçvaşaru
+						name_list_pecheneg = Söçvaşaru
+						name_list_cuman = Söçvaşaru
+						name_list_khazar = Söçvaşaru
+						name_list_kipchak = Söçvaşaru
+					}
 				}
 				b_baia = {
 					province = 5034
 
 					color = { 210 200 70 }
+
+					cultural_names = {
+						name_list_russian = Banya
+						name_list_bolghar = Boğdanbaňa
+						name_list_turkish = Boğdanbaňa
+						name_list_avar = Boğdanbaňa
+						name_list_pecheneg = Boğdanbaňa
+						name_list_cuman = Boğdanbaňa
+						name_list_khazar = Boğdanbaňa
+						name_list_kipchak = Boğdanbaňa
+					}
 				}
 				b_vatra_dornei = {
 					province = 5035
 
 					color = { 210 200 70 }
+
+					cultural_names = {
+						name_list_russian = Dorney
+						name_list_mogyer = Vatra
+						name_list_bolghar = Vatra
+						name_list_turkish = Vatra
+						name_list_avar = Vatra
+						name_list_pecheneg = Vatra
+						name_list_cuman = Vatra
+						name_list_khazar = Vatra
+						name_list_kipchak = Vatra
+					}
 				}
 				b_campulung_moldovenesc = {
 					province = 5036
 
 					color = { 210 200 70 }
+
+					cultural_names = {
+						name_list_russian = Dovropol
+						name_list_mogyer = Kunmezö
+						name_list_bolghar = Kunmezö
+						name_list_turkish = Kunmezö
+						name_list_avar = Kunmezö
+						name_list_pecheneg = Kunmezö
+						name_list_cuman = Kunmezö
+						name_list_khazar = Kunmezö
+						name_list_kipchak = Kunmezö
+					}
 				}
 				b_siret = {
 					province = 5037
 
 					color = { 210 200 70 }
+
+					cultural_names = {
+						name_list_mogyer = Şeret
+						name_list_bolghar = Şeret
+						name_list_turkish = Şeret
+						name_list_avar = Şeret
+						name_list_pecheneg = Şeret
+						name_list_cuman = Şeret
+						name_list_khazar = Şeret
+						name_list_kipchak = Şeret
+					}
 				}
 			}
 			c_neamnt = {
@@ -46018,6 +46115,10 @@ e_carpathia = {
 					province = 5031
 
 					color = { 210 160 70 }
+
+					cultural_names = {
+						name_list_russian = Nyamts
+					}
 				}
 				b_targu_neamnt = {
 					province = 5032
@@ -46028,6 +46129,17 @@ e_carpathia = {
 					province = 5033
 
 					color = { 210 160 70 }
+
+					cultural_names = {
+						name_list_mogyer = Rumanvaşaru
+						name_list_bolghar = Rumanvaşaru
+						name_list_turkish = Rumanvaşaru
+						name_list_avar = Rumanvaşaru
+						name_list_pecheneg = Rumanvaşaru
+						name_list_cuman = Rumanvaşaru
+						name_list_khazar = Rumanvaşaru
+						name_list_kipchak = Rumanvaşaru
+					}
 				}
 			}
 			c_dorohoi = {
@@ -46047,10 +46159,18 @@ e_carpathia = {
 			c_hotin = {
 				color = { 205 192 10 }
 
+				cultural_names = {
+					name_list_russian = Khotyn
+				}
+
 				b_hotin = {
 					province = 5040
 
 					color = { 205 192 10 }
+
+					cultural_names = {
+						name_list_russian = Khotyn
+					}
 				}
 				b_tetina = {
 					province = 5041
@@ -46061,6 +46181,10 @@ e_carpathia = {
 					province = 5042
 
 					color = { 205 192 10 }
+
+					cultural_names = {
+						name_list_russian = Chernivtsi
+					}
 				}
 			}
 		}
@@ -46072,26 +46196,43 @@ e_carpathia = {
 			c_iasi = {
 				color = { 190 160 30 }
 
+				cultural_names = {
+					name_list_russian = Yas
+				}
+
 				b_iasi = {
 					province = 541
 
 					color = { 190 160 30 }
+
+					cultural_names = {
+						name_list_russian = Yas
+					}
 				}
 				b_ungheni = {
 					province = 5023
 
 					color = { 190 160 30 }
+
+					cultural_names = {
+						name_list_russian = Ungen
+					}
 				}
 				b_falesti = {
 					province = 5024
 
 					color = { 190 160 30 }
+
+					cultural_names = {
+						name_list_russian = Falesht
+					}
 				}
 			}
 			c_orhei = {
 				color = { 172 149 58 }
 
 				cultural_names = {
+					name_list_russian = Orgeyev
 					name_list_mogyer = "Örheý"
 					name_list_bolghar = "Örheý"
 					name_list_turkish = "Örheý"
@@ -46107,6 +46248,7 @@ e_carpathia = {
 					color = { 172 149 58 }
 
 					cultural_names = {
+						name_list_russian = Orgeyev
 						name_list_mogyer = "Örheý"
 						name_list_bolghar = "Örheý"
 						name_list_turkish = "Örheý"
@@ -46126,6 +46268,7 @@ e_carpathia = {
 				color = { 148 120 15 }
 
 				cultural_names = {
+					name_list_russian = Soroky
 					name_list_mogyer = Şarkad
 					name_list_bolghar = Şarkad
 					name_list_turkish = Şarkad
@@ -46142,6 +46285,7 @@ e_carpathia = {
 					color = { 148 120 15 }
 
 					cultural_names = {
+						name_list_russian = Soroky
 						name_list_mogyer = Şarkad
 						name_list_bolghar = Şarkad
 						name_list_turkish = Şarkad
@@ -46158,6 +46302,7 @@ e_carpathia = {
 					color = { 148 120 15 }
 
 					cultural_names = {
+						name_list_russian = Beltsi
 						name_list_mogyer = Belçe
 						name_list_bolghar = Belçe
 						name_list_turkish = Belçe
@@ -46281,20 +46426,46 @@ e_carpathia = {
 					province = 5011
 
 					color = { 180 235 40 }
+
+					cultural_names = {
+						name_list_russian = Biendery
+						name_list_mogyer = Bender
+						name_list_bolghar = Bender
+						name_list_turkish = Bender
+						name_list_avar = Bender
+						name_list_pecheneg = Bender
+						name_list_cuman = Bender
+						name_list_khazar = Bender
+						name_list_kipchak = Bender
+					}
 				}
 			}
 			c_chilia = {
 				color = { 180 210 40 }
 
 				cultural_names = {
-					name_list_greek = cn_aepolium
+					name_list_russian = Kiliya
+					name_list_bolghar = Kilya
+					name_list_turkish = Kilya
+					name_list_avar = Kilya
+					name_list_pecheneg = Kilya
+					name_list_cuman = Kilya
+					name_list_khazar = Kilya
+					name_list_kipchak = Kilya
 				}
 
 				b_chilia = {
 					province = 5012
 
 					cultural_names = {
-						name_list_greek = cn_aepolium
+						name_list_russian = Kiliya
+						name_list_bolghar = Kilya
+						name_list_turkish = Kilya
+						name_list_avar = Kilya
+						name_list_pecheneg = Kilya
+						name_list_cuman = Kilya
+						name_list_khazar = Kilya
+						name_list_kipchak = Kilya
 					}
 
 					color = { 175 230 40 }
@@ -46330,7 +46501,7 @@ e_carpathia = {
 	k_hungary = {
 		color = { 250 120 90 }
 
-		capital	= c_visegrad
+		capital	= c_esztergom # The real first hungarian capital, not visegrad
 
 		ai_primary_priority = {
 			if = {
@@ -46341,11 +46512,47 @@ e_carpathia = {
 			}
 		}
 
-		d_visegrad = {
+		d_visegrad = { # Esztergom
 			color = { 245 125 95 }
 
-			capital = c_visegrad
+			capital = c_esztergom
 
+			c_esztergom = {
+				color = { 255 92 91 }
+
+				cultural_names = {
+					name_list_czech = cn_ostrihom
+					name_list_slovien = cn_ostrihom
+					name_list_polish = cn_ostrihom
+					name_list_pommeranian = cn_ostrihom
+					name_list_polabian = cn_ostrihom
+					name_list_croatian = cn_ostrihom
+					name_list_bosnian = cn_ostrihom
+					name_list_serbian = cn_ostrihom
+				}
+
+				b_esztergom = {
+					province = 3808
+
+					color = { 255 92 91 }
+
+					cultural_names = {
+						name_list_czech = cn_ostrihom
+						name_list_slovien = cn_ostrihom
+						name_list_polish = cn_ostrihom
+						name_list_pommeranian = cn_ostrihom
+						name_list_polabian = cn_ostrihom
+						name_list_croatian = cn_ostrihom
+						name_list_bosnian = cn_ostrihom
+						name_list_serbian = cn_ostrihom
+					}
+				}
+				b_beny = {
+					province = 3976
+
+					color = { 255 92 91 }
+				}
+			}
 			c_visegrad = {
 				color = { 245 125 95 }
 
@@ -46404,42 +46611,6 @@ e_carpathia = {
 					province = 3916
 
 					color = { 245 95 85 }
-				}
-			}
-			c_esztergom = {
-				color = { 255 92 91 }
-
-				cultural_names = {
-					name_list_czech = cn_ostrihom
-					name_list_slovien = cn_ostrihom
-					name_list_polish = cn_ostrihom
-					name_list_pommeranian = cn_ostrihom
-					name_list_polabian = cn_ostrihom
-					name_list_croatian = cn_ostrihom
-					name_list_bosnian = cn_ostrihom
-					name_list_serbian = cn_ostrihom
-				}
-
-				b_esztergom = {
-					province = 3808
-
-					color = { 255 92 91 }
-
-					cultural_names = {
-						name_list_czech = cn_ostrihom
-						name_list_slovien = cn_ostrihom
-						name_list_polish = cn_ostrihom
-						name_list_pommeranian = cn_ostrihom
-						name_list_polabian = cn_ostrihom
-						name_list_croatian = cn_ostrihom
-						name_list_bosnian = cn_ostrihom
-						name_list_serbian = cn_ostrihom
-					}
-				}
-				b_beny = {
-					province = 3976
-
-					color = { 255 92 91 }
 				}
 			}
 			c_szekesfehervar = {
@@ -58681,10 +58852,24 @@ e_arabia = {
 
 			capital = c_alexandria
 
+			cultural_names = {
+				name_list_greek = Alexandreia
+				name_list_copt = Alexandreia
+				name_list_bedouin = "Al-Iskandarīyah"
+				name_list_maghrebi = "Al-Iskandarīyah"
+				name_list_levantine = "Al-Iskandarīyah"
+				name_list_egyptian = "Al-Iskandarīyah"
+				name_list_andalusian = "Al-Iskandarīyah"
+				name_list_yemeni = "Al-Iskandarīyah"
+				name_list_turkish = "Al-Iskandarīyah"
+			}
+
 			c_alexandria = {
 				color = { 102 221 136 }
 
 				cultural_names = {
+					name_list_greek = Alexandreia
+					name_list_copt = Alexandreia
 					name_list_bedouin = "Al-Iskandarīyah"
 					name_list_maghrebi = "Al-Iskandarīyah"
 					name_list_levantine = "Al-Iskandarīyah"
@@ -58703,6 +58888,8 @@ e_arabia = {
 					color = { 102 221 136 }
 
 					cultural_names = {
+						name_list_greek = Alexandreia
+						name_list_copt = Alexandreia
 						name_list_bedouin = "Al-Iskandarīyah"
 						name_list_maghrebi = "Al-Iskandarīyah"
 						name_list_levantine = "Al-Iskandarīyah"
@@ -59358,6 +59545,18 @@ e_arabia = {
 					province = 5966
 
 					color = { 176 190 140 }
+
+					cultural_names = {
+						name_list_bedouin = "Al-Khalīl"
+						name_list_maghrebi = "Al-Khalīl"
+						name_list_levantine = "Al-Khalīl"
+						name_list_egyptian = "Al-Khalīl"
+						name_list_andalusian = "Al-Khalīl"
+						name_list_yemeni = "Al-Khalīl"
+						name_list_baranis = "Al-Khalīl"
+						name_list_butr = "Al-Khalīl"
+						name_list_zaghawa = "Al-Khalīl"
+					}
 				}
 			}
 			c_ghazza = {

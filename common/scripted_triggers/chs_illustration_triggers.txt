@@ -1,6 +1,4 @@
-﻿### My Mod
-
-has_graphical_eastern_culture_group_trigger = {
+﻿has_graphical_eastern_culture_group_trigger = {
 	OR = {
 		has_building_gfx = east_slavic_building_gfx
 		has_building_gfx = eastern_building_gfx

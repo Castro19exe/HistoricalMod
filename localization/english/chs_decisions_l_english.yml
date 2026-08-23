@@ -1835,20 +1835,10 @@
  create_cossack_kingdom_decision_confirm: "Gather all free men!"
  create_cossack_tribal_tooltip: "All [nomadic_holdings|E] in the [realm|E] will become [tribal_holdings|E]"
 
-
  ##################
  # MOD 
  ################## 
 
- #UNITE THE EASTERN SLAVS
- unite_the_eastern_slavs_decision:1 "Unite the East Slavs"
- unite_the_eastern_slavs_decision_tooltip:1 "Unite the Eastern Slavs under one ruler"
- unite_the_eastern_slavs_decision_desc:0 "Uniting the tribes will allow us to stand strong against the foreign forces that threaten our lands. Over the years we scattered, dividing ourselves into many tribes. Its's time to stand together as one."
- unite_the_eastern_slavs_decision_tt_1:1 "Your Primary Title is the Kingdom of Galicia-Volhynia, Kievan Rus', White Rus', Novgorod, Vladimir or Bjarmaland"
- unite_the_eastern_slavs_decision_titles_tt:2 ""
- unite_the_eastern_slavs_decision_titles_empire_tt:2 ""
- unite_the_eastern_slavs_decision_confirm:1 "Unite the East Slavs"
- 
  #########   SHOULD NOT BE HERE - MAA Names
  gallowglass:0 "Gallóglaigh"
  gallowglass_flavor:0 "#F Heavily armed warriors of mixed $heritage_goidelic_name$ and $norse$ tradition. $h_gallowglass$ were known for strength in close combat, use of two-handed axes and swords, and service as elite household troops.#!"

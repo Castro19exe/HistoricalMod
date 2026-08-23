@@ -463,7 +463,7 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"brythonic_castle_01_a_mesh"
+			#"brythonic_castle_01_a_mesh"
 			"brythonic_castle_01_b_mesh"
 		}
 		illustration = @holding_illustration_goidelic

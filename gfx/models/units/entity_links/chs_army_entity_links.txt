@@ -680,7 +680,7 @@ berber_army_03 = {
 balto_finnic_army_01 = {
 	type = army
 	graphical_cultures = { balto_finnic_unit_gfx }
-	entity = unit_northern_pagan_infantry_01_entity
+	entity = unit_norse_infantry_01_entity
 }
 
 balto_finnic_army_02 = {
