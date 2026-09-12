@@ -10,9 +10,8 @@
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_republican_legacy
-		tradition_city_keepers
 		tradition_poetry
-		tradition_parochialism
+		tradition_formation_fighting
 	}
 	
 	name_list = name_list_italian
@@ -26,7 +25,7 @@
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		10 = mediterranean
+		100 = mediterranean
 	}
 }
 
@@ -61,9 +60,9 @@ cisalpine = {
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		8 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
+		80 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_brown_hair
 	}
 }
 
@@ -95,7 +94,7 @@ sardinian = {
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		10 = mediterranean
+		100 = mediterranean
 	}
 }
 
@@ -130,9 +129,9 @@ sicilian = {
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		7 = mediterranean
-		2 = mediterranean_byzantine
-		1 = arab
+		70 = mediterranean
+		20 = mediterranean_byzantine
+		10 = arab
 	}	
 }
 
@@ -165,14 +164,14 @@ lombard = { #Italo-Lombards
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		8 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
+		80 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_brown_hair
 	}
 }
 
 venetian = {
-	color = { 0.26 0.52 0.52 }
+	color = { 0.89 0.92 0.6 }
 	created = 950.1.1
 	parents = { cisalpine }
 	
@@ -199,13 +198,11 @@ venetian = {
 	house_coa_mask_scale = { 0.85 0.85 }
 	
 	ethnicities = {
-		8 = mediterranean
-		1 = caucasian_blond
-		1 = caucasian_brown_hair
+		80 = mediterranean
+		10 = caucasian_blond
+		10 = caucasian_brown_hair
 	}
 }
-
-###
 
 roman = {
 	color = { 0.8 0.1 0.1 }
@@ -216,9 +213,9 @@ roman = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_imperial_might
-		tradition_legalistic
 		tradition_noble_adoption
+		tradition_legalistic
+		tradition_formation_fighting
 	}
 	dlc_tradition = {
 		trait = tradition_ep3_roman_ceremonies
@@ -243,7 +240,7 @@ roman = {
 	house_coa_mask_scale = { 0.85 0.85 }
 
 	ethnicities = {
-		10 = mediterranean
+		100 = mediterranean
 	}
 }
 
@@ -258,7 +255,7 @@ north_gallo_roman = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_formation_fighting
 		tradition_legalistic
 		
@@ -300,7 +297,7 @@ south_gallo_roman = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_legalistic
 		tradition_poetry
 		
@@ -341,7 +338,7 @@ afro_roman = {
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_african_tolerance
 		tradition_legalistic
 		tradition_family_entrepreneurship
@@ -381,7 +378,7 @@ hispano_roman = {
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_legalistic
 		tradition_metal_craftsmanship
 		tradition_noble_adoption
@@ -416,7 +413,7 @@ illyrian_roman = {
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_legalistic
 		tradition_mountain_homes
 		tradition_noble_adoption
@@ -450,7 +447,7 @@ daco_roman = {
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_imperial_might
+		tradition_formation_fighting
 		tradition_legalistic
 		tradition_poetry
 		

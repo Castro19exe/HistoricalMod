@@ -20118,13 +20118,20 @@ e_scandinavia = {
 			c_aalborg = {
 				color = { 165 9 64 }
 
+				cultural_names = {
+					name_list_norse = Alabu
+					name_list_swedish = cn_alborg
+					name_list_norwegian = cn_alborg
+					name_list_danish = cn_alborg
+				}
+
 				b_aalborg = {
 					province = 81
 
 					color = { 165 9 64 }
 
 					cultural_names = {
-						name_list_norse = Álaborg
+						name_list_norse = Alabu
 						name_list_swedish = cn_alborg
 						name_list_norwegian = cn_alborg
 						name_list_danish = cn_alborg
@@ -20198,7 +20205,10 @@ e_scandinavia = {
 					color = { 216 89 60 }
 
 					cultural_names = {
+						name_list_norse = Opnøraa
 						name_list_swedish = cn_abenra
+						name_list_norwegian = cn_abenra
+						name_list_danish = cn_abenra
 						name_list_franconian = cn_apenrade
 						name_list_saxon = cn_apenrade
 						name_list_swabian = cn_apenrade
@@ -20210,6 +20220,15 @@ e_scandinavia = {
 					province = 84
 
 					color = { 216 89 60 }
+
+					cultural_names = {
+						name_list_bavarian = Hausenbruck
+						name_list_franconian = Hausenbruck
+						name_list_german = Hausenbruck
+						name_list_saxon = Hausenbruck
+						name_list_swabian = Hausenbruck
+						name_list_thuringian = Hausenbruck
+					}
 				}
 			}
 
@@ -20225,6 +20244,16 @@ e_scandinavia = {
 					province = 227
 
 					color = { 160 43 17 }
+
+					cultural_names = {
+						name_list_norse = Tafle
+						name_list_bavarian = Taulow
+						name_list_franconian = Taulow
+						name_list_german = Taulow
+						name_list_saxon = Taulow
+						name_list_swabian = Taulow
+						name_list_thuringian = Taulow
+					}
 				}
 				b_kolding = {
 					province = 434
