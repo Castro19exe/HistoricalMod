@@ -3,7 +3,7 @@
 ###c_ravenna
 2546 = {	#RAVENNA
 	culture = cisalpine
-	religion = catholic
+	rite = roman_rite
 	holding = church_holding
 	504.1.1 = {
 		special_building_slot = apollinare_nuovo
@@ -11,6 +11,9 @@
 	}
 	900.1.1 = {
 		culture = italian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 2549 = {	#IMOLA
@@ -26,9 +29,12 @@
 ###c_bologna
 2542 = {	#BOLOGNA
 	culture = cisalpine
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	special_building_slot = generic_university
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -50,8 +56,11 @@
 ###c_ferrara
 2527 = {	#FERRARA
 	culture = cisalpine
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2526 = {	#POMPOSA
 	holding = church_holding
@@ -63,10 +72,13 @@
 ###c_casentino
 2553 = {	#CASENTINO
 	culture = cisalpine
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	900.1.1 = {
 		culture = italian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 2552 = {	#MONTEFELTRO
@@ -74,7 +86,7 @@
 }
 2551 = {	#CAMALDOLI
 	holding = none
-	1010 = {
+	1025.1.1 = {
 		holding = church_holding
 	}
 }
@@ -83,8 +95,11 @@
 ###c_ancona
 2594 = {	#ANCONA
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
@@ -105,8 +120,11 @@
 ###c_urbino
 2555 = {	#URBINO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2584 = {	#CIVITAS CASTELLI = Citta di Castello
 	holding = city_holding
@@ -118,8 +136,11 @@
 ###c_fermo
 2598 = {	#FERMO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2597 = {	#ASCOLI PICENO
 	holding = church_holding
@@ -132,8 +153,11 @@
 ###c_spoleto
 2585 = {	#SPOLETO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2581 = {	#ASSISSI
 	holding = none
@@ -145,8 +169,11 @@
 ###c_orvieto
 2568 = {	#ORVIETO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2566 = {	#PERUGIA
 	holding = church_holding
@@ -155,8 +182,11 @@
 ###c_teramo
 2596 = {	#TERAMO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2588 = {	#RIETI
 	holding = city_holding
@@ -165,10 +195,13 @@
 ###c_lanciano
 2604 = {	#LANCIANO
 	culture = lombard
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	1022.1.1 = {
 		culture = sicilian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 2603 = {	#CLUIELI
@@ -181,8 +214,11 @@
 ###c_abruzzi
 2600 = {	#AVEZZANO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2595 = {	#ATRI
 	holding = church_holding
@@ -192,7 +228,7 @@
 ###c_roma
 2575 = {	#ROMA
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	#
 	buildings = {
@@ -201,6 +237,9 @@
 	}
 	special_building = the_colosseum_01
 	duchy_capital_building = aurelian_walls_01
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			castle_02
@@ -209,18 +248,37 @@
 			cereal_fields_02
 		}
 	}
+	
 }
 2576 = {	#OSTIA
-	holding = city_holding
+	holding = church_holding
+	effect = {
+		if = {
+			limit = {
+				has_pam_dlc_trigger = yes
+			}
+			add_special_building_slot = pam_lateran_basilica_01
+		}
+	}
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 		}
 	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_pam_dlc_trigger = yes
+				}
+				add_special_building = pam_lateran_basilica_01
+				}
+		}
+	}
 }
 2577 = {	#VATICAN
 	holding = church_holding
-	special_building = holy_site_cathedral_01 # Represents Old St. Peter's Basilica, started in early 4th century.
+	special_building = holy_site_st_peters_basilica_01 # Old St. Peter's Basilica, started in early 4th century.
 }
 2578 = {	#PALO
 	holding = none
@@ -235,8 +293,11 @@
 ###c_viterbo
 2572 = {	#VITERBO
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2573 = {	#SUTRI
 	holding = church_holding
@@ -248,8 +309,11 @@
 ###c_tivoli
 2589 = {	#TIVOLI
 	culture = italian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2590 = {	#VELLETRI
 	holding = church_holding

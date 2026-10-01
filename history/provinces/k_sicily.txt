@@ -4,11 +4,11 @@
 ###c_palermo
 2635 = {	#PALERMO
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	856.9.1 = {
 		culture = maghrebi
-		religion = ashari
+		rite = maliki
 	}
 	# History
 	867.1.1 = {
@@ -16,6 +16,9 @@
 			common_tradeport_01
 			curtain_walls_01
 		}
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -26,11 +29,11 @@
 	}
 	1071.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 	1178.1.1 = {
 		culture = maghrebi
-		religion = ashari # "Throughout the twelfth century, Muslims probably constituted the majority of the population in Palermo"
+		rite = maliki
 	}
 }
 2636 = {	#TRAPANI
@@ -50,19 +53,19 @@
 ###c_messina
 2633 = {	#MESSINA
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	869.1.1 = {
 		culture = maghrebi
-		religion = ashari
+		rite = maliki
 	}
 	1057.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 	1178.1.1 = {
 		culture = greek # "an overwhelmingly Greek city, whose character only began to change through immigration from the mainland in the later twelfth century"
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 2634 = {	#CEFALU
@@ -75,11 +78,11 @@
 ###c_siracusa
 2638 = {	#SYRACUSE
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	904.1.1 = {
 		culture = maghrebi
-		religion = ashari
+		rite = maliki
 	}
 	1066.1.1 = {
 		buildings = {
@@ -90,7 +93,7 @@
 	}
 	1116.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2643 = {	#LENTINI
@@ -103,15 +106,15 @@
 ###c_agrigento
 2640 = {	#CASTROGIOVANNI
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	874.1.24 = {
 		culture = maghrebi
-		religion = ashari
+		rite = maliki
 	}
 	1102.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2637 = {	#AGRICENTO
@@ -124,15 +127,15 @@
 ###c_malta
 2646 = {	#MALTA
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	895.1.1 = {
 		culture = maghrebi
-		religion = ashari
+		rite = maliki
 	}
 	1127.1.1 = {
-		religion = catholic
-		#culture = sicilian
+		rite = roman_rite
+		culture = sicilian
 	}
 }
 
@@ -140,8 +143,15 @@
 ###c_benevento
 2609 = {	#BENEVENTO
 	culture = lombard
-	religion = catholic
+	rite = beneventan_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1058.1.1 = {
+		#The Beneventan chant and observances were condemned at Montecassino under Pope Stephen IX in favor of the Roman practice
+		rite = roman_rite
+	}
 	1098.1.1 = { culture = sicilian }
 }
 2669 = {	#ALIFE
@@ -164,15 +174,15 @@
 ###c_foggia
 2610 = {	#LUCERA
 	culture = lombard
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
 	915.1.1 = {
 		culture = greek
-		religion = orthodox
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2605 = {	#LARINO
@@ -186,27 +196,36 @@
 ###c_capua
 2606 = {	#CAPUA
 	culture = lombard
-	religion = catholic
+	rite = beneventan_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1058.1.1 = {
+		rite = roman_rite
+	}
 	1098.1.1 = { culture = sicilian }
 }
 2593 = {	#GAETA
 	holding = city_holding
 }
 2602 = {	#CASSINO
-	holding = none
+	holding = church_holding
 }
 
 ###c_napoli
 2608 = {	#NAPOLI
 	culture = greek
-	religion = orthodox
+	rite = roman_rite
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 			curtain_walls_01
 		}
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -218,7 +237,7 @@
 	}
 	1139.4.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2611 = {	#AMALFI
@@ -243,8 +262,11 @@
 ###c_apulia
 2619 = {	#TRANI
 	culture = lombard
-	religion = catholic
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1057.1.1 = { culture = sicilian }
 	1066.1.1 = {
 		buildings = {
@@ -267,8 +289,11 @@
 ###c_bari
 2623 = {	#BARI
 	culture = lombard
-	religion = catholic
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1057.1.1 = { culture = sicilian }
 }
 2624 = {	#MATERA
@@ -281,11 +306,14 @@
 ###c_lecce
 8755 = {	#LECCE
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1074.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2622 = {	#BRINDISI
@@ -299,13 +327,19 @@
 ###c_salerno
 2612 = {	#SALERNO
 	culture = lombard
-	religion = catholic
+	rite = beneventan_rite
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 			curtain_walls_01
 		}
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1058.1.1 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -328,8 +362,11 @@
 ###c_camarda
 2631 = {	#CAMARDA
 	culture = lombard
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1091.1.1 = { culture = sicilian	}
 }
 2632 = {	#STIGLIANO
@@ -340,37 +377,46 @@
 ###c_reggio_calabria
 2627 = {
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1055.1.1 = { culture = sicilian }
-	1074.1.1 = { religion = catholic }
+	1074.1.1 = { rite = roman_rite }
 	1178.1.1 = {
 		culture = greek
-		religion = orthodox
+		rite = byzantine_rite
 	}
 }
 2626 = {	#SQUILLUCE
-	holding = city_holding
+	holding = church_holding	#Italo-Greek monasteries of Calabria
 	850.1.1 = {
 		special_building_slot = cattolica_stilo
 	}
 	920.1.1 = {
 		special_building = cattolica_stilo
+		holding = city_holding #restore setup in later start dates
 	}
 }
 8751 = {	#TROPEA
-	holding = church_holding
-	#set as church_holding to have all 3 holding types
+	holding = city_holding
+	920.1.1 = {
+		holding = church_holding
+	}
 }
 
 ###c_cosenza
 2628 = {	#COSENZA
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1074.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2630 = {	#CASTROVILLARI
@@ -386,11 +432,14 @@
 ###c_rossano
 2629 = {	#ROSSANO
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1074.1.1 = {
 		culture = sicilian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 2625 = {	#COTRONE

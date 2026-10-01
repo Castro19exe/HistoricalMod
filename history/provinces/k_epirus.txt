@@ -3,8 +3,11 @@
 ###c_nicopolis
 473 = {		#Arta
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3699 = {	#Sivista
 	holding = none
@@ -20,8 +23,11 @@
 ###c_epeiros
 3708 = {	#Ioannina
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3706 = {	#Konitsa
 	holding = none
@@ -38,8 +44,11 @@
 ###c_aetolia
 475 = {		#Hellas
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3697 = {	#Prousos
 	holding = none
@@ -52,9 +61,11 @@
 ###c_metzovo
 3702 = {	#Metzovo
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
-	
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		culture = vlach
 	}
@@ -73,8 +84,11 @@
 ###c_dyrrachion
 470 = {		#Dyrrachion
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -90,8 +104,11 @@
 ###c_arbanon
 3720 = {	#Kruj�
 	culture = albanian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3718 = {	#Mat
 	holding = none
@@ -107,8 +124,11 @@
 ###c_debar
 3724 = {	#Debar
 	culture = albanian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3723 = {	#Peshkopi
 	holding = church_holding
@@ -120,8 +140,11 @@
 ###c_antipatreia / Albanian Toskeria
 3713 = {	#Antipatreia
 	culture = albanian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3714 = {	#Skrapar
 	holding = city_holding
@@ -140,8 +163,11 @@
 ###c_avlonas
 3711 = {	#Avlonas
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3712 = {	#Himara
 	holding = city_holding
@@ -151,8 +177,11 @@
 ###c_cephalonia
 474 = {		#Cephalonia
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3696 = {	#Zakynthos
 	holding = city_holding
@@ -161,8 +190,11 @@
 ###c_buthrotum
 472 = {		#�peiros
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3710 = {	#Corfu
 	holding = city_holding

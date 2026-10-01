@@ -3,10 +3,13 @@
 ###c_campulung
 515 = {		#Targoviste
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 }
 5009 = {	#Campulung
@@ -25,14 +28,17 @@
 ###c_polovragi
 5005 = {	#Polovragi
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 5006 = {	#Govora
 	holding = none
@@ -44,14 +50,17 @@
 ###c_tabla_butii
 4989 = {	#Tabla Butii
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4980 = {	#Zoresti
 	holding = none
@@ -64,15 +73,18 @@
 ###c_giurgiu
 4990 = {	#Giurgiu
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		culture = vlach
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 514 = {		#Turnu
 	holding = none
@@ -96,15 +108,18 @@
 ###c_bucuresti
 4995 = {	#Bucuresti
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		culture = vlach
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4996 = {	#Targsor
 	holding = none
@@ -113,15 +128,18 @@
 ###c_calarasi
 4997 = {	#Calarasi
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		culture = vlach
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4998 = {	#Radovanu
 	holding = none
@@ -136,15 +154,18 @@
 ###c_buzau
 5000 = {	#Buzau
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		culture = vlach
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 5001 = {	#Slobozia
 	holding = none
@@ -156,15 +177,18 @@
 ###c_braila
 5003 = {	#Braila
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		culture = vlach
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 5004 = {	#Ramnicu Sarat
 	holding = none
@@ -174,14 +198,17 @@
 ###c_targu_jiu
 4978 = {	#Targu Jiu
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4979 = {	#Baia de Arama
 	holding = none
@@ -193,14 +220,17 @@
 ###c_severin
 516 = {		#Severin
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4975 = {	#Orsova
 	holding = none
@@ -218,14 +248,17 @@
 ###c_calafat
 4981 = {	#Calafat
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4982 = {	#Cujmir
 	holding = none
@@ -240,14 +273,17 @@
 ###c_craiova
 4985 = {	#Craiova
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		religion = orthodox
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
+	# 1150.1.1 = {
+		# religion = orthodox
+	# }
 }
 4986 = {	#Corabia
 	holding = none

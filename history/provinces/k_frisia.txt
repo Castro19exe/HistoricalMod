@@ -3,11 +3,10 @@
 ###c_holland
 2406 = {	#AMSTERDAM
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
-
-	1150.1.1 = {
-		culture = dutch
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 2404 = {	#DELFT
@@ -32,8 +31,11 @@
 ###c_westfriesland
 2405 = {	#HAARLEM
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2408 = {	#EDAM
 	holding = none
@@ -51,9 +53,11 @@
 ###c_zeeland
 2112 = {	#MIDDELBURG
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
-
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1060.1.1 = {
 		culture = dutch
 	}
@@ -72,8 +76,11 @@
 ###c_guelders
 2450 = {	#GELDERN
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2103 = {	#NIJMEGEN
 	holding = city_holding
@@ -85,8 +92,11 @@
 ###c_arnhem
 2428 = {	#ARNHEM
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2427 = {	#APELDOORN
 	holding = city_holding
@@ -101,8 +111,11 @@
 ###c_zutphen
 2429 = {	#ZUTPHEN
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2432 = {	#BORCULO
 	holding = none
@@ -121,8 +134,11 @@
 ###c_nedersticht
 2424 = {	#UTRECHT
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2451 = {	#AMERSFOORT
 	holding = none
@@ -134,8 +150,11 @@
 ###c_oversticht
 2421 = {	#ZWOLLE
 	culture = saxon
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2416 = {	#KAMPEN
 	holding = none
@@ -159,8 +178,11 @@
 ###c_groningen
 2417 = {	#GRONINGEN
 	culture = saxon
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2420 = {	#ASSEN
 	holding = none
@@ -179,8 +201,11 @@
 ###c_dokkum
 2414 = {	#DOKKUM
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2415 = {	#APPPINGEDAM
 	holding = none
@@ -195,8 +220,11 @@
 ###c_ostfriesland
 2418 = {	#EMDEN
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2437 = {	#WILHELMSHAVEN
 	holding = none
@@ -211,8 +239,11 @@
 ###c_frisia
 2413 = {	#LEEUWARDEN
 	culture = frisian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2410 = {	#STAVEREN
 	holding = none

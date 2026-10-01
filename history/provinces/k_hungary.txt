@@ -3,11 +3,11 @@
 ###c_visegrad
 3803 = {	#Buda
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -15,6 +15,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 522 = {		#Pest
@@ -42,15 +45,20 @@
 ###c_komarom
 3809 = {	#Komarom
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3916 = {	#Batorkeszi
@@ -66,15 +74,20 @@
 ###c_esztergom
 3808 = {	#Esztergom
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -92,15 +105,20 @@
 ###c_szekesfehervar
 3805 = {	#Szekesfehervar
 	culture = avar
-	religion = catholic
+	rite = tengri_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3806 = {	#Csakvar
@@ -119,7 +137,7 @@
 ###c_hewes
 523 = {		#Hewes
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -127,10 +145,13 @@
 		#Date used to switch ti feudal_government in title history
 	}
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3867 = {	#Tur
@@ -161,15 +182,20 @@
 ###c_somogy
 3835 = {	#Somogyvar
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3836 = {	#Kaposvar
@@ -198,15 +224,20 @@
 ###c_kolon
 3827 = {	#Kolon
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3828 = {	#Egerszeg AKA modern day Zalaegerszeg
@@ -226,15 +257,20 @@
 ###c_tolna
 3839 = {	#Tolna
 	culture = avar
-	religion = catholic
+	rite = tengri_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3840 = {	#Simontornya
@@ -253,15 +289,20 @@
 ###c_baranya
 3842 = {	#Baranyavar
 	culture = avar
-	religion = catholic
+	rite = tengri_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3843 = {	#Siklos
@@ -290,8 +331,14 @@
 ###c_nyitra
 3831 = {	#Nyitra
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3832 = {	#Pecsen
 	holding = none
@@ -312,14 +359,17 @@
 ###c_gemer
 524 = {		#Gemer
 	culture = slovien
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	
-	853.1.1 = {
-		religion = catholic
+	875.1.1 = {
+		rite = roman_rite
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3858 = {	#Murany aka Mur�n aka Mur�nyalja
@@ -343,11 +393,14 @@
 ###c_orava
 525 = {		#Orava
 	culture = slovien
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3810 = {	#Twardosczino aka Tvrdo��n aka Turdossin
@@ -358,8 +411,14 @@
 ###c_trenscen
 3811 = {	#Trenscen
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3812 = {	#Puho aka P�chov
 	holding = none
@@ -389,8 +448,14 @@
 ###c_lipto
 3854 = {	#Liptoujvar
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3855 = {	#Nemetlipcse
 	holding = none
@@ -404,8 +469,14 @@
 ###c_zolyom
 3856 = {	#Zolyom
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3857 = {	#Breznobanya
 	holding = none
@@ -415,8 +486,14 @@
 ###c_bars
 3846 = {	#Bars
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3847 = {	#Kormocbanya AKA Kremnica
 	holding = none
@@ -430,8 +507,14 @@
 ###c_hont
 3848 = {	#Hont
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3849 = {	#Nograd
 	holding = city_holding
@@ -454,8 +537,14 @@
 ###c_poszony
 3815 = {	#Poszony
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -477,15 +566,18 @@
 ###c_ungvar
 3897 = {	#Ungvar
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = tribal_holding
 	
-	900.1.1 = { religion = catholic }
+	900.1.1 = { rite = roman_rite }
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	950.1.1 = { culture = hungarian }
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3895 = {	#Nagyberezna AKA modern Velykyi Bereznyi
 	holding = none
@@ -495,15 +587,18 @@
 ###c_zemplen
 3885 = {	#Zemplen
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = tribal_holding
 	
-	900.1.1 = { religion = catholic }
+	900.1.1 = { rite = roman_rite }
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	950.1.1 = { culture = hungarian }
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3886 = {	#Szerencs
 	holding = none
@@ -534,14 +629,17 @@
 ###c_borsod
 3870 = {	#Borsod
 	culture = slovien
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3871 = {	#Miskolc
@@ -552,14 +650,17 @@
 ###c_saris
 533 = {		#Saris
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}	
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3860 = {	#Barfta
@@ -569,8 +670,14 @@
 ###c_spis
 3862 = {	#Locse
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = castle_holding
+	875.1.1 = {
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3861 = {	#Kesmark AKA Ke�marok
 	holding = none
@@ -580,14 +687,17 @@
 ###c_abauj
 538 = {		#Abauj
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	
-	861.1.1 = {
-		religion = catholic
+	875.1.1 = {
+		rite = roman_rite
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3876 = {	#Kassa aka Ko�ice
@@ -603,11 +713,11 @@
 ###c_marmaros
 539 = {		#Marmaros
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = tribal_holding
 	
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -615,6 +725,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3914 = {	#Tecso aka modern Tiachiv
@@ -647,11 +760,11 @@
 ###c_bereg
 537 = {		#Bereg
 	culture = chrobatian # White Croats
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = tribal_holding
 	
 	900.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -659,6 +772,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3913 = {	#Nagyszolos AKA Vynohradiv
@@ -685,7 +801,7 @@
 ###c_feher
 519 = {		#Feher
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -733,7 +849,7 @@
 ###c_szekelyfold
 540 = {		#Szekelyf�ld
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -742,7 +858,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
-		religion = catholic
+		}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3929 = {	#Marosvasarhely aka T�rgu Mures
@@ -765,7 +883,7 @@
 ###c_barcasag
 3942 = {	#Brasso
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -793,7 +911,7 @@
 ###c_fogaras
 3940 = {	#Fogaras
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -809,7 +927,7 @@
 ###c_torda
 3924 = {	#Torda
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 
 	867.1.1 = {
@@ -851,14 +969,18 @@
 ###c_beszterce
 3919 = {	#Beszterce
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
-		culture = hungarian
-		religion = catholic
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
+	}
+	950.1.1 = {
+		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3920 = {	#Radna AKA Rodna
@@ -884,7 +1006,7 @@
 ###c_hunyad
 3931 = {	#Vajdahunyad
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	
 	935.1.1 = {
@@ -909,11 +1031,11 @@
 ###c_bihar
 520 = {		#Bihar / b_nagyvarad
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -921,6 +1043,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3899 = {	#Gyozeg
@@ -950,11 +1075,11 @@
 ###c_zarand
 3903 = {	#Zarand
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -962,6 +1087,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3904 = {	#Nagyhalmagy AKA Halmagiu
@@ -980,11 +1108,11 @@
 ###c_bekes
 3873 = {	#Bekes
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -992,6 +1120,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3874 = {	#Svarvas AKA Szarvas
@@ -1006,11 +1137,11 @@
 ###c_szabolcs
 3889 = {	#Szabolcs
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1018,6 +1149,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3890 = {	#Ny�r AKA Ny�regyh�za
@@ -1039,11 +1173,11 @@
 ###c_szatmar
 3907 = {	#Szatmar
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1051,6 +1185,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3908 = {	# Nagybanya AKA Baia Mare
@@ -1082,11 +1219,11 @@
 ###c_temes
 517 = {		#Temes
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1094,6 +1231,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3880 = {	#Lugos AKA Lugoj
@@ -1115,11 +1255,11 @@
 ###c_arad
 3905 = {	#Arad
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1127,6 +1267,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3906 = {	#Lippa AKA Lipova
@@ -1141,11 +1284,11 @@
 ###c_krasso
 3882 = {	#Kraso
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = magyar_pagan
+		rite = magyar_pagan
 		culture = mogyer
 	}
 	935.1.1 = {
@@ -1154,7 +1297,7 @@
 	}
 	1178.1.1 = {
 		culture = hungarian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3883 = {	#Ersomlyo
@@ -1168,11 +1311,11 @@
 ###c_keve
 3877 = {	#Kevevar
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = magyar_pagan
+		rite = magyar_pagan
 		culture = mogyer
 	}
 	935.1.1 = {
@@ -1181,7 +1324,7 @@
 	}
 	1178.1.1 = {
 		culture = hungarian
-		religion = catholic
+		rite = roman_rite
 	}
 }
 3878 = {	#Pancsova	AKA Pancevo
@@ -1201,11 +1344,11 @@
 ###c_csanad
 521 = {		#Csanad
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1213,6 +1356,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3872 = {	#Szeged
@@ -1231,11 +1377,11 @@
 ###c_bacs
 518 = {		#Bacs
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1243,6 +1389,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3830 = {	#Titel
@@ -1257,11 +1406,11 @@
 ###c_bodrog
 3863 = {	#Bodrog
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1269,6 +1418,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3864 = {	#Zenta	AKA Senta
@@ -1285,11 +1437,11 @@
 ###c_csongrad
 3865 = {	#Csongrad
 	culture = avar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	holding = tribal_holding
 	
 	890.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -1297,6 +1449,9 @@
 	}
 	950.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3866 = {	#Kiskunhalas
@@ -1312,15 +1467,20 @@
 ###c_gyor
 3823 = {	#Gyor
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3822 = {	#Moson	AKA Mosonmagyar�v�r
@@ -1335,15 +1495,20 @@
 ###c_sopron
 3817 = {	#Sopron
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3818 = {	#Kapuvar
@@ -1362,15 +1527,20 @@
 ###c_vas
 3820 = {	#Vasvar
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
 	1000.1.1 = {
 		culture = hungarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3821 = {	#Kormend
@@ -1385,9 +1555,11 @@
 ###c_veszprem
 3826 = {	#Veszprem
 	culture = slovien
-	religion = catholic
+	rite = slavic_pagan
 	holding = tribal_holding
-	
+	830.1.1 = {
+		rite = roman_rite
+	}
 	935.1.1 = {
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
@@ -1395,10 +1567,16 @@
 	1000.1.1 = {
 		culture = hungarian
 	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
-3824 = {	#Zirc
+3824 = {	#Pannonhalma, formerly Zirc
 	holding = none
-	#1st mention in late XIIth
+	#Major monastery built here
+	996.1.1 = {
+		holding = church_holding
+	}
 }
 3825 = {	#Vasarhely
 	holding = none
@@ -1409,8 +1587,11 @@
 ###c_szerem
 3739 = {	#Szerem
 	culture = serbian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3611 = {	#Ilok
 	holding = none

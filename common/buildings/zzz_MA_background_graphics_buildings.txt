@@ -437,6 +437,7 @@ walls_01_tribal = {
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
 	}
 }
+
 # Here the Fort Level building chains take control of the visuals
 walls_01 = {
 	is_graphical_background = yes

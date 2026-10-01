@@ -3,7 +3,7 @@
 ###c_sjaelland
 63 = {		#ROSKILDE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	867.1.1 = {
 		buildings = {
@@ -12,10 +12,13 @@
 	}
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 	}
 	980.1.1 = {
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -53,14 +56,17 @@
 ###c_fyn
 65 = {		#ODENSE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 	}
 	988.1.1 ={
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 66 = {		#SVENDBORG
@@ -76,11 +82,14 @@
 ###c_lolland_falster
 67 = {		#NYKOBING
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		holding = castle_holding
@@ -94,15 +103,18 @@
 ###c_skane
 70 = {		#LUND
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	special_building_slot = lund_cathedral_01
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 	}
 	1020.1.1 = {
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -137,11 +149,14 @@
 ###c_halland
 74 = {		#HALMSTAD
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		holding = castle_holding
@@ -157,25 +172,31 @@
 ###c_bornholm
 77 = {		#RONNE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 	}
 	1000.1.1 = {
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 
 ###c_blekinge
 78 = {		#BREGNE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		holding = castle_holding
@@ -198,12 +219,15 @@
 ###c_aarhus
 57 = {		#AARHUS
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 58 = {		#JELLING
@@ -219,12 +243,15 @@
 ###c_viborg
 56 = {		#VIBORG
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 222 = {		#ORMSTRUP
@@ -234,12 +261,15 @@
 ###c_ringkobing
 82 = {		#RINGKOBING
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 221 = {		#HOLSTEBRO
@@ -258,7 +288,7 @@
 ###c_aalborg
 81 = {		#AALBORG
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
@@ -278,7 +308,7 @@
 ###c_slesvig
 62 = {		#HEDEBY
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	special_building_slot = danevirke_01
 	700.1.1 = {
@@ -286,8 +316,11 @@
 	}
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -313,12 +346,15 @@
 ###c_vorbasse
 59 = {		#VORBASSE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 227 = {		#TAULOV
@@ -334,12 +370,15 @@
 ###c_ribe
 60 = {		#RIBE
 	culture = dane
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	965.1.1 = {
 		culture = danish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {

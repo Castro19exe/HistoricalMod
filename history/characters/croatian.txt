@@ -5,12 +5,15 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 4
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = greedy
 	trait = education_intrigue_2
 	1046.1.1 = {
 		birth = "1046.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1097.1.1 = {
 		death = "1097.1.1"
@@ -24,7 +27,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = zealous
 	trait = education_intrigue_2
@@ -44,7 +47,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = chaste
 	trait = education_learning_3
@@ -64,7 +67,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = generous
 	trait = education_intrigue_2
@@ -84,7 +87,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = calm
 	trait = education_martial_2
@@ -104,7 +107,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = wrathful
 	trait = education_intrigue_3
@@ -124,7 +127,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = brave
 	trait = education_diplomacy_2
@@ -144,7 +147,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = calm
 	trait = education_martial_4
@@ -164,7 +167,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = zealous
 	trait = education_learning_2
@@ -184,7 +187,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 7
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = gluttonous
 	trait = education_stewardship_2
@@ -204,7 +207,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = cynical
 	trait = education_intrigue_2
@@ -224,7 +227,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = craven
 	trait = education_martial_3
@@ -245,7 +248,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 4
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = education_diplomacy_3
 	father = 8634
@@ -266,7 +269,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = diligent
 	trait = education_diplomacy_2
@@ -286,7 +289,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = greedy
 	trait = education_martial_3
@@ -306,7 +309,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = humble
 	trait = zealous
@@ -327,7 +330,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = diligent
 	trait = brave
@@ -338,6 +341,9 @@
 	}
 	1018.1.1 = {
 		add_spouse = 20380
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1058.1.1 = {
 		death = "1058.1.1"
@@ -352,7 +358,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = just
 	trait = calm
@@ -363,6 +369,9 @@
 	mother = 20380
 	1020.1.2 = {
 		birth = "1020.1.2"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1062.1.1 = {
 		give_nickname = nick_the_great
@@ -382,7 +391,7 @@
 	intrigue = 6
 	stewardship = 7
 	trait = sickly
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 8622
 	mother = 8630
@@ -401,7 +410,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = cynical
 	trait = greedy
@@ -410,6 +419,9 @@
 	mother = 20380
 	1022.1.1 = {
 		birth = "1022.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1059.1.1 = {
 		death = "1059.1.1"
@@ -423,7 +435,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 4
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = chaste
 	trait = weak
@@ -432,6 +444,9 @@
 	father = 8624
 	1038.1.1 = {
 		birth = "1038.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1089.1.1 = {
 		trait = infirm
@@ -449,7 +464,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = diligent
 	trait = zealous
@@ -458,6 +473,9 @@
 	father = 8608
 	1030.1.1 = {
 		birth = "1030.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1064.1.1 = {
 		add_spouse = 475
@@ -478,11 +496,14 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = education_diplomacy_2
 	1045.1.1 = {
 		birth = "1045.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1095.1.1 = {
 		death = "1095.1.1"
@@ -497,7 +518,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = lustful
 	trait = education_learning_3
@@ -520,7 +541,7 @@
 	diplomacy = 9
 	intrigue = 7
 	stewardship = 7
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = just
 	trait = education_diplomacy_3
@@ -539,7 +560,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = generous
 	trait = education_intrigue_2
@@ -560,7 +581,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = calm
 	trait = ill
@@ -581,7 +602,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = wrathful
 	trait = education_intrigue_1
@@ -597,10 +618,13 @@
 32590 = {
 	name = "Budec" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	1020.1.1 = {
 		birth = "1020.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1070.1.1 = {
 		death = "1070.1.1"
@@ -610,11 +634,14 @@
 32591 = {
 	name = "Strezinja" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 32590
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -624,7 +651,7 @@
 32592 = {
 	name = "Vukilo" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32591
 	1055.1.1 = {
@@ -637,7 +664,7 @@
 32593 = {
 	name = "Marmonja" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32592
 	1072.1.1 = {
@@ -651,7 +678,7 @@
 32594 = {
 	name = "Bogdan" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32593
 	1090.1.1 = {
@@ -665,7 +692,7 @@
 32595 = {
 	name = "Grgur" #bishop of Knin
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 220002
 	1165.1.1 = {
@@ -679,7 +706,7 @@
 32596 = {
 	name = "Vuicin" #count of Split
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 220002
 	1166.1.1 = {
@@ -692,7 +719,7 @@
 32597 = {
 	name = "Pribina" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 220002
 	1167.1.1 = {
@@ -705,7 +732,7 @@
 32598 = {
 	name = "Marko"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 220002
 	1168.1.1 = {
@@ -719,7 +746,7 @@
 32599 = {
 	name = "Budislav"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32598
 	1185.1.1 = {
@@ -732,7 +759,7 @@
 32600 = {
 	name = "Obrad"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32598
 	1186.1.1 = {
@@ -746,7 +773,7 @@
 32601 = {
 	name = "Vukesa"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32599
 	1220.1.1 = {
@@ -760,7 +787,7 @@
 32602 = {
 	name = "Ugrin"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32599
 	1225.1.1 = {
@@ -774,7 +801,7 @@
 32603 = {
 	name = "Juraj"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32597
 	1185.1.1 = {
@@ -788,7 +815,7 @@
 32604 = {
 	name = "Grgur" #count of Split
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32597
 	1186.1.1 = {
@@ -801,7 +828,7 @@
 32605 = {
 	name = "Stjepan" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32597
 	1187.1.1 = {
@@ -815,7 +842,7 @@
 32606 = {
 	name = "Vucina"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32597
 	1188.1.1 = {
@@ -829,7 +856,7 @@
 32607 = {
 	name = "Miroslav"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32604
 	1230.1.1 = {
@@ -842,7 +869,7 @@
 32608 = {
 	name = "Marko" #count of Split
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32604
 	1232.1.1 = {
@@ -855,7 +882,7 @@
 32609 = {
 	name = "Martin"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32604
 	1233.1.1 = {
@@ -869,7 +896,7 @@
 32610 = {
 	name = "Stjepan" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32605
 	1208.1.1 = {
@@ -883,7 +910,7 @@
 32611 = {
 	name = "Jakov"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32605
 	1210.1.1 = {
@@ -897,7 +924,7 @@
 32612 = {
 	name = "Stjepan"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32607
 	1250.1.1 = {
@@ -911,7 +938,7 @@
 32613 = {
 	name = "Illija"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32607
 	1252.1.1 = {
@@ -925,7 +952,7 @@
 32614 = {
 	name = "Slavogost"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32607
 	1254.1.1 = {
@@ -939,7 +966,7 @@
 32615 = {
 	name = "Mihajlo"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32614
 	1274.1.1 = {
@@ -953,7 +980,7 @@
 32616 = {
 	name = "Pavao"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32614
 	1275.1.1 = {
@@ -967,7 +994,7 @@
 32617 = {
 	name = "Grgur"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32614
 	1276.1.1 = {
@@ -981,7 +1008,7 @@
 32618 = {
 	name = "Juraj" #count of Zadar
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32610
 	1246.1.1 = {
@@ -995,7 +1022,7 @@
 32619 = {
 	name = "Mladen" #count of Split
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32610
 	1247.1.1 = {
@@ -1010,7 +1037,7 @@
 	name = "Stanislava"
 	female = yes
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32610
 	1258.1.1 = {
@@ -1024,7 +1051,7 @@
 32622 = {
 	name = "Ivan"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32610
 	1265.1.1 = {
@@ -1038,7 +1065,7 @@
 32623 = {
 	name = "Daniel"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32611
 	1230.1.1 = {
@@ -1052,7 +1079,7 @@
 32624 = {
 	name = "Radoslav"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32611
 	1232.1.1 = {
@@ -1066,7 +1093,7 @@
 32625 = {
 	name = "Mladen" #count of Zagreb, duke of Croatia
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 470001
 	1270.1.1 = {
@@ -1080,7 +1107,7 @@
 32626 = {
 	name = "Marko"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 470004
 	mother = 470005
@@ -1095,7 +1122,7 @@
 32627 = {
 	name = "Mikula"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32626
 	1330.1.1 = {
@@ -1110,7 +1137,7 @@
 	name = "Katarina"
 	female = yes
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 470004
 	mother = 470005
@@ -1125,7 +1152,7 @@
 32629 = {
 	name = "Pribko"
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 470003
 	mother = 470023
@@ -1141,7 +1168,7 @@
 	name = "Katarina"
 	female = yes
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 470003
 	mother = 470023
@@ -1158,7 +1185,7 @@
 32631 = {
 	name = "Vid" #count of Veglia
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 219991
 	1172.1.1 = {
@@ -1172,7 +1199,7 @@
 32632 = {
 	name = "Henrik"
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 219991
 	1175.1.1 = {
@@ -1187,7 +1214,7 @@
 32633 = {
 	name = "Vid"
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32631
 	1192.1.1 = {
@@ -1201,7 +1228,7 @@
 32634 = {
 	name = "Treci" #count of Veglia
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32631
 	1190.1.1 = {
@@ -1215,7 +1242,7 @@
 32635 = {
 	name = "Treci" #count of Veglia
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32633
 	1212.1.1 = {
@@ -1229,7 +1256,7 @@
 32636 = {
 	name = "Dujma" #count of Veglia
 	dynasty = croatian_krcki
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 32635
 	1255.1.1 = {
@@ -1247,7 +1274,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = greedy
 	trait = arrogant
@@ -1268,7 +1295,7 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = greedy
 	trait = lustful
@@ -1289,7 +1316,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = clubfooted
 	trait = calm
@@ -1313,7 +1340,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = lustful
 	trait = education_intrigue_2
@@ -1333,7 +1360,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = arrogant
 	trait = education_intrigue_2
@@ -1356,7 +1383,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = arrogant
 	trait = education_martial_2
@@ -1380,7 +1407,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = brave
 	trait = education_martial_2
@@ -1402,7 +1429,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = lustful
 	trait = zealous
@@ -1423,7 +1450,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = lustful
 	trait = zealous
@@ -1448,7 +1475,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = lustful
 	trait = arrogant
@@ -1469,7 +1496,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_martial_2
 	father = 470003
@@ -1489,7 +1516,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = chaste
 	trait = arrogant
@@ -1508,7 +1535,7 @@
 	name = "Katarina"
 	female = yes
 	dynasty = 18005
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = chaste
 	trait = arrogant
@@ -1531,7 +1558,7 @@
 	diplomacy = 5
 	intrigue = 4
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = gluttonous
 	trait = greedy
@@ -1552,7 +1579,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_intrigue_2
 	1113.1.1 = {
@@ -1570,7 +1597,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_stewardship_2
 	father = 219990
@@ -1589,7 +1616,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 219990
 	1159.1.1 = {
@@ -1607,7 +1634,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_martial_2
 	father = 32636
@@ -1626,7 +1653,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = chaste
 	trait = lazy
@@ -1651,7 +1678,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = greedy
 	trait = temperate
@@ -1673,7 +1700,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = lustful
 	trait = zealous
@@ -1690,10 +1717,13 @@
 93539 = {
 	name = "Ugra"
 	dynasty = 100464
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	1050.1.1 = {
 		birth = "1050.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1104.1.1 = {
 		death = "1104.1.1"
@@ -1703,7 +1733,7 @@
 93540 = {
 	name = "Sergije"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93539
 	1070.1.1 = {
@@ -1717,7 +1747,7 @@
 93541 = {
 	name = "Ugrin"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93539
 	1072.1.1 = {
@@ -1731,7 +1761,7 @@
 93542 = {
 	name = "Klaudije"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93539
 	1075.1.1 = {
@@ -1745,7 +1775,7 @@
 93543 = {
 	name = "Dominik"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93542
 	1093.1.1 = {
@@ -1759,7 +1789,7 @@
 93544 = {
 	name = "Ampudin"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93543
 	1125.1.1 = {
@@ -1773,7 +1803,7 @@
 93545 = {
 	name = "Mavro"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93544
 	1145.1.1 = {
@@ -1787,7 +1817,7 @@
 93546 = {
 	name = "Suban"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93544
 	1147.1.1 = {
@@ -1801,7 +1831,7 @@
 93547 = {
 	name = "KA_lA_n"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93544
 	1149.1.1 = {
@@ -1815,7 +1845,7 @@
 93548 = {
 	name = "Dominik"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93545
 	1165.1.1 = {
@@ -1829,7 +1859,7 @@
 93549 = {
 	name = "Andrija"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93545
 	1166.1.1 = {
@@ -1843,7 +1873,7 @@
 93550 = {
 	name = "Branko"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93545
 	1167.1.1 = {
@@ -1857,7 +1887,7 @@
 93553 = {
 	name = "Merkurije"
 	dynasty = 100464
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93550
 	1185.1.1 = {
@@ -1871,7 +1901,7 @@
 93554 = {
 	name = "Stjepan"
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	1150.1.1 = {
 		birth = "1150.1.1"
@@ -1884,7 +1914,7 @@
 93555 = {
 	name = "Branko"
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93554
 	1170.1.1 = {
@@ -1900,7 +1930,7 @@
 	name = "Stjepan"
 	#placeholder
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	1080.1.1 = {
 		birth = "1080.1.1"
@@ -1914,7 +1944,7 @@
 	name = "Petar"
 	#placeholder
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93556
 	1100.1.1 = {
@@ -1930,7 +1960,7 @@
 	name = "Dvonimir"
 	#placeholder
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93557
 	1120.1.1 = {
@@ -1945,7 +1975,7 @@
 	name = "Petar"
 	#placeholder
 	dynasty = 7376
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	father = 93558
 	1140.1.1 = {
@@ -1963,7 +1993,7 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 6
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = chaste
 	trait = craven
@@ -1983,14 +2013,14 @@
 74045 = {
 	name = "Gostomil"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146179
 	826.1.1 = {
 		birth = "826.1.1"
 	}
 	861.1.1 = {
-		religion = "catholic"
+		rite = roman_rite
 	}
 	890.1.1 = {
 		death = "890.1.1"
@@ -2000,14 +2030,14 @@
 74046 = {
 	name = "Ljutomisl"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 74045
 	851.1.1 = {
 		birth = "851.1.1"
 	}
 	861.1.1 = {
-		religion = "catholic"
+		rite = roman_rite
 	}
 	918.1.1 = {
 		death = "918.1.1"
@@ -2017,7 +2047,7 @@
 167855 = {
 	name = "Domagoj"
 	dynasty = 100462
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 146006
 	820.1.1 = {
@@ -2034,7 +2064,7 @@
 167856 = {
 	name = "Iljko"
 	dynasty = 100462
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 167855
 	845.1.1 = {
@@ -2048,7 +2078,7 @@
 167857 = {
 	name = "Branimir"
 	dynasty = 100462
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 167855
 	850.1.1 = {
@@ -2062,7 +2092,7 @@
 168292 = {
 	name = "Senulat"
 	dynasty = 9586
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	730.1.1 = {
 		birth = "730.1.1"
@@ -2076,14 +2106,14 @@
 168293 = {
 	name = "Silimir"
 	dynasty = 9586
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 168292
 	750.1.1 = {
 		birth = "750.1.1"
 	}
 	791.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	796.1.1 = {
 		death = "796.1.1"
@@ -2093,14 +2123,14 @@
 168294 = {
 	name = "Vojnomir"
 	dynasty = 9586
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 168292
 	752.1.1 = {
 		birth = "752.1.1"
 	}
 	791.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	810.1.1 = {
 		death = "810.1.1"
@@ -2110,7 +2140,7 @@
 168295 = {
 	name = "Ljudevit"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168294
 	775.1.1 = {
@@ -2124,7 +2154,7 @@
 168296 = {
 	name = "Vladin"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168293
 	780.1.1 = {
@@ -2139,7 +2169,7 @@
 168297 = {
 	name = "Visedrag"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168293
 	785.1.1 = {
@@ -2153,7 +2183,7 @@
 168298 = {
 	name = "Ratimir"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168297
 	805.1.1 = {
@@ -2167,7 +2197,7 @@
 168299 = {
 	name = "Braslav"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168296
 	825.1.1 = {
@@ -2181,7 +2211,7 @@
 168307 = {
 	name = "Pribunja"
 	dynasty = 9586
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 168299
 	850.1.1 = {
@@ -2200,7 +2230,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	trait = lustful
 	trait = wrathful
@@ -2210,6 +2240,9 @@
 	mother = 20380
 	1041.1.1 = {
 		birth = "1041.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		employer = 8622
@@ -2223,7 +2256,7 @@
 	name = "Klaudija"
 	female = yes
 	dynasty = 512
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_intrigue_3
 	father = 8628
@@ -2239,7 +2272,7 @@
 183007 = {
 	name = "Radovan"
 	dynasty = 512
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "croatian"
 	trait = education_diplomacy_2
 	father = 8628
@@ -2254,7 +2287,7 @@
 146000 = {
 	name = "Mislav"
 	dynasty = 512
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 146001
 	800.1.1 = {
@@ -2268,7 +2301,7 @@
 146001 = {
 	name = "Vladislav"
 	dynasty = 512
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 146002
 	780.1.1 = {
@@ -2282,14 +2315,14 @@
 146002 = {
 	name = "Klonimir"
 	dynasty = 512
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146004
 	760.1.1 = {
 		birth = "760.1.1"
 	}
 	780.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	815.1.1 = {
 		death = "815.1.1"
@@ -2299,14 +2332,14 @@
 146003 = {
 	name = "Borna"
 	dynasty = 512
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146004
 	758.1.1 = {
 		birth = "758.1.1"
 	}
 	780.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	821.1.1 = {
 		death = "821.1.1"
@@ -2316,14 +2349,14 @@
 146004 = {
 	name = "Viseslav"
 	dynasty = 512
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146005
 	738.1.1 = {
 		birth = "738.1.1"
 	}
 	780.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	802.1.1 = {
 		death = "802.1.1"
@@ -2333,7 +2366,7 @@
 146005 = {
 	name = "Budimir"
 	dynasty = 512
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 
 	718.1.1 = {
@@ -2347,7 +2380,7 @@
 146006 = {
 	name = "Dobimir"
 	dynasty = 100462
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 146007
 	790.1.1 = {
@@ -2361,7 +2394,7 @@
 146007 = {
 	name = "Krepimir"
 	dynasty = 100462
-	religion = "catholic"
+	rite = roman_rite
 	culture = "croatian"
 	father = 146008
 	759.1.1 = {
@@ -2375,14 +2408,14 @@
 146008 = {
 	name = "Pridislav"
 	dynasty = 100462
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 
 	731.1.1 = {
 		birth = "731.1.1"
 	}
 	780.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	792.1.1 = {
 		death = "792.1.1"
@@ -2391,7 +2424,7 @@
 146179 = {
 	name = "Vitimir"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146180
 	798.1.1 = {
@@ -2405,7 +2438,7 @@
 146180 = {
 	name = "Drzislav"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146181
 	777.1.1 = {
@@ -2419,7 +2452,7 @@
 146181 = {
 	name = "Sebeslav"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146182
 	759.1.1 = {
@@ -2433,7 +2466,7 @@
 146182 = {
 	name = "Hranislav"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146184
 	741.1.1 = {
@@ -2447,7 +2480,7 @@
 146183 = {
 	name = "Dragomir"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 	father = 146184
 	743.1.1 = {
@@ -2461,7 +2494,7 @@
 146184 = {
 	name = "Tvrdoslav"
 	dynasty = 12284
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "chrobatian"
 
 	719.1.1 = {
@@ -2474,7 +2507,7 @@
 146009 = {
 	name = "Petar"
 	dynasty = 9560
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146010
 	761.1.1 = {
@@ -2488,7 +2521,7 @@
 146010 = {
 	name = "Beloje"
 	dynasty = 9560
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 
 	729.1.1 = {
@@ -2502,7 +2535,7 @@
 146011 = {
 	name = "Mislav"
 	dynasty = 1022356
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 
 	725.1.1 = {
@@ -2516,7 +2549,7 @@
 146012 = {
 	name = "Miroslav"
 	dynasty = 1022356
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146011
 	755.1.1 = {
@@ -2530,7 +2563,7 @@
 146013 = {
 	name = "Milorad"
 	dynasty = 1022356
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "croatian"
 	father = 146012
 	790.1.1 = {
@@ -2538,5 +2571,20 @@
 	}
 	843.1.1 = {
 		death = "843.1.1"
+	}
+}
+
+#Fictional abbot
+glagolitic_1 = {
+	name = "Lovro"
+	rite = roman_rite
+	culture = "croatian"
+	trait = devoted
+	trait = education_learning_2
+	1040.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
 	}
 }

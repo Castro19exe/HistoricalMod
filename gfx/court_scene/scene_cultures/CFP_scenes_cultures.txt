@@ -2,6 +2,7 @@
 cfp_papal = {
 	trigger = {
 		has_graphical_cfp_papal_culture_group_trigger = yes
+		NOT = { has_pam_dlc_trigger = yes }
 	}
 }
 
@@ -413,33 +414,6 @@ western = {
 					government_has_flag = government_is_nomadic
 				}
 				tgp_is_ceremonial_regent_trigger = no
-			}
-			NOT = { primary_title ?= title:h_china }
-		}
-	}
-}
-
-japanese = {
-	trigger = {
-		NOT = {
-			government_has_flag = government_is_nomadic
-		}
-		capital_county ?= {
-			OR = {
-				culture = { has_graphical_japanese_culture_group_trigger = yes }
-				title_province = { steppe_building_gfx_use_japanese_trigger = yes }
-			}
-		}
-		# Is not Ceremonial Liege
-		#tgp_realm_has_ceremonial_liege_trigger = yes
-		#tgp_has_ceremonial_liege_title_trigger = no
-		trigger_if = {
-			limit = {
-				has_tgp_dlc_trigger = yes
-				NOT = {
-					government_has_flag = government_is_nomadic
-				}
-				#tgp_is_ceremonial_regent_trigger = no
 			}
 			NOT = { primary_title ?= title:h_china }
 		}

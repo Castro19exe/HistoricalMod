@@ -3,7 +3,7 @@
 ###c_upland
 341 = {		#SIGTUNA
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	special_building = temple_of_uppsala_01 # Yes, Uppsala has its own holding, but we place it here to allow it to be held by the county owner directly.
 	867.1.1 = {
@@ -25,7 +25,7 @@
 		}
 	}
 	1090.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 342 = {		#UPPSALA
@@ -44,14 +44,14 @@
 ###c_gastrikland
 354 = {		#GAVLE
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1085.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 355 = {		#OKLABO	aka Ockelbo
@@ -66,11 +66,11 @@
 ###c_sodermannaland
 339 = {		#STRIGINES	aka Str�ngn�s
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -99,14 +99,13 @@
 ###c_aland
 216 = {		#SUND
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1100.1.1 = {
-		#culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 217 = {		#JOMALA
@@ -117,14 +116,14 @@
 ###c_vastmanland
 346 = {		#VAESTRAAROS aka V�straaros / V�ster�s
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
 		holding = castle_holding
 	}
 	1080.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 347 = {		#ARBUGA	aka Arbug� / Arboga
@@ -150,11 +149,11 @@
 323 = {		#TINGVALLA
 	#Marketplace and hub of the viking age around modern day Karlstad
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -171,14 +170,14 @@
 ###c_dalarna aka �vre Dalarna
 351 = {		#MOR	aka Morum, Mora
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
 		holding = castle_holding
 	}
 	1085.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 }
 352 = {		#MOLUNGR	aka Malung
@@ -199,7 +198,7 @@
 ###c_dalabergslagen
 350 = {		#FALENE	aka Falun
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	867.1.1 = {
 		special_building_slot = falun_mines_01
@@ -209,7 +208,7 @@
 	}
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -235,14 +234,14 @@
 ###c_vastergotland
 317 = {		#LODOSE
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
 	}
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 319 = {		#FALKOPING
@@ -271,12 +270,12 @@
 ###c_skara
 8723 = {	#L�CK�	aka Lidk�ping
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 316 = {		#SKARA
@@ -297,11 +296,11 @@
 ###c_dal
 321 = {		#DALABORG
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -312,11 +311,11 @@
 ###c_nordmark
 8731 = {	#NORDMARK
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -332,11 +331,11 @@
 330 = {		#SUDHERKOPING
 	#Large medieval centre, definite proof from the 12th century
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -361,11 +360,11 @@
 	#Second Diocese in Sweden, next to Skara.
 	#Norse Pagan Holy Site.
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = church_holding
 	}
 }
@@ -383,11 +382,11 @@
 ###c_narke	aka Neeric
 327 = {		#ORABRO aka �rebro
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -407,11 +406,11 @@
 ###c_more
 307 = {		#KALMAR
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -425,11 +424,11 @@
 ###c_sevede
 8727 = {	#STEGHOLM
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -447,14 +446,14 @@
 ###c_varend
 302 = {		#VAXJO
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1123.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		#Around the time of the "crusade" against Sm�land
 	}
 }
@@ -478,14 +477,14 @@
 ###c_njudung
 335 = {		#WISINGHNSO aka Visings�
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		religion = catholic
 		holding = castle_holding
 	}
-	1090.1.1 = {
+	1123.1.1 = {
 		culture = swedish
+		rite = roman_rite
 	}
 }
 312 = {		#JONKOPING
@@ -505,14 +504,14 @@
 ###c_finnveden
 301 = {		#WARNNAMO	aka V�rnamo
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
-		religion = catholic
 		holding = castle_holding
 	}
-	1090.1.1 = {
+	1123.1.1 = {
 		culture = swedish
+		rite = roman_rite
 	}
 }
 300 = {		#LIONGBY	aka Ljungby
@@ -526,11 +525,11 @@
 ###c_oland
 314 = {		#BORGHOLM
 	culture = geat
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 		holding = castle_holding
 	}
 }
@@ -546,14 +545,14 @@
 ###c_halsingland
 360 = {		#NORALE aka Norrala
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1085.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 357 = {		#BALDANAS aka Bolln�s
@@ -569,14 +568,14 @@
 ###c_medelpad
 361 = {		#SEILANGER aka Sel�nger
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1090.1.1 = {
 		culture = swedish
-		religion = catholic
+		rite = roman_rite
 	}
 }
 362 = {		#HAFRA aka Haver�
@@ -592,10 +591,10 @@
 ###c_angermanland
 366 = {		#SOLATUMUM aka Sollefte�
 	culture = svear
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	1090.1.1 = {
-		religion = catholic
+		rite = roman_rite
 	}
 	1100.1.1 = {
 		culture = swedish
@@ -615,7 +614,7 @@
 ###c_gutland
 369 = {		#WYSBU aka Visby
 	culture = gute
-	religion = norse_pagan
+	rite = norse_pagan
 	holding = tribal_holding
 	867.1.1 = {
 		special_building_slot = visby_ringmur_01
@@ -625,7 +624,7 @@
 	}
 	1066.1.1 = {
 		culture = gutish
-		religion = catholic
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {

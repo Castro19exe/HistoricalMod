@@ -900,16 +900,6 @@ gutish = {
 	}
 }
 
-venetian = {
-	trigger = {
-		culture = { has_cultural_pillar = heritage_latin }
-		any_sub_realm_county = {
-			culture = { has_cultural_pillar = heritage_latin }
-			duchy = title:d_venice
-		}
-	}
-}
-
 mervi = {
 	trigger = {
 		culture = { has_cultural_pillar = heritage_iranian }

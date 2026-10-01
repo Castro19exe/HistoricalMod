@@ -3,7 +3,7 @@
 ###c_byzantion
 496 = {		#Constantinople / Former Byzantion
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	# History	
 	769.1.1 = {
@@ -13,6 +13,9 @@
 		}
 		special_building = hagia_sophia_01
 		duchy_capital_building = theodosian_walls_01
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -32,8 +35,11 @@
 ###c_kalliopolis
 495 = {		#Kaliopolis
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	#1374 - Ottomans
 }
 3766 = {	#Ainos AKA Enez
@@ -52,8 +58,11 @@
 ###c_brysis
 497 = {		#Thrake	
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	#1374 - Ottomans
 }
 3760 = {	#Arkadiopolis AKA L�leburgaz
@@ -76,13 +85,16 @@
 ###c_mosynopolis
 492 = {		#Strymon	
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 	}
 	1050.1.1 = {
-		religion = orthodox
+		rite = byzantine_rite
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 }
 3767 = {	#Xanthia AKA Xanthi
@@ -101,8 +113,11 @@
 ###c_serres
 3771 = {	#Serres
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3770 = {	#Siderokastron
 	holding = none
@@ -122,8 +137,11 @@
 ###c_naxos
 484 = {		#Naxos
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3757 = {	#Thera AKA Santorini
 	holding = none
@@ -140,12 +158,15 @@
 ###c_abydos
 744 = {		#Abydos
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding	
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 		}
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -172,8 +193,11 @@
 ###c_lesbos
 487 = {		#Lesbos
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3752 = {	#Lemnos
 	holding = city_holding
@@ -186,8 +210,11 @@
 ###c_chios
 486 = {		#Chios
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3754 = {	#Samos
 	holding = city_holding
@@ -196,8 +223,11 @@
 ###c_rhodos
 483 = {		#Rhodos
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			hill_forts_01
@@ -220,19 +250,19 @@
 ###c_thessalonika
 490 = {		#Thessalonike / b_thessaloniki
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	634.1.1 = {
 		special_building_slot = hagios_demetrios
 		special_building = hagios_demetrios
-		#buildings = {
-		#	castle_04
-		#}
 	}
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
 		}
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -266,12 +296,15 @@
 ###c_chalkidike
 491 = {		#Polygyros
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	867.1.1 = {
 		#Placed here to let the county holder control the mine
 		special_building_slot = siderokausia_mines_01
 		special_building = siderokausia_mines_01
+	}
+	1054.7.16 = {
+		rite = byzantine_rite
 	}
 }
 3775 = {	#Rendina AKA Eion
@@ -295,8 +328,11 @@
 ###c_veria
 3784 = {	#Veria
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3781 = {	#Maglen
 	holding = none
@@ -316,8 +352,11 @@
 ###c_thessalia
 489 = {		#Thessalia
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	#1205 - 4th crusade, kingdom of Thessaloniki
 	#1225 - To the despotate of Epirus and Serbian empire
 	#1393 - Conquest by the Ottomans
@@ -337,8 +376,11 @@
 ###c_demetrias
 488 = {		#Demetrias
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3789 = {	#Velestino
 	holding = none
@@ -351,8 +393,11 @@
 ###c_neopatras
 3793 = {	#Neopatras
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3791 = {	#Domokos
 	holding = church_holding
@@ -367,8 +412,11 @@
 ###c_thessaliotis
 3797 = {	#Trikala
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3795 = {	#Grevena
 	holding = none

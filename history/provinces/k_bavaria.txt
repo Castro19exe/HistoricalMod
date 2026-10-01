@@ -3,13 +3,16 @@
 ###c_regensburg
 2964 = {	#REGENSBURG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
 			farm_estates_01
 			barracks_01
 		}
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -42,8 +45,11 @@
 ###c_munchen
 2945 = {	#MUNCHEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2946 = {	#AHEIM
 	holding = none
@@ -58,8 +64,11 @@
 ###c_eschenlohe
 2949 = {	#ESCHENLOHE
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2948 = {	#TOLZ
 	holding = none
@@ -69,8 +78,11 @@
 ###c_rothenburg
 2942 = {	#ROTHENBURG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2943 = {	#FREISING
 	holding = city_holding
@@ -82,8 +94,11 @@
 ###c_geisenhausen
 2957 = {	#GEISENHAUSEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2958 = {	#ERDING
 	holding = church_holding
@@ -92,8 +107,11 @@
 ###c_frontenhausen
 2959 = {	#FRONTENHAUSEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2961 = {	#DORNBERG
 	holding = none
@@ -114,8 +132,11 @@
 ###c_falkenstein
 2956 = {	#FALKENSTEIN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2984 = {	#MARQUARTSTEIN
 	holding = none
@@ -127,8 +148,11 @@
 ###c_ingolstadt
 2883 = {	#INGOLSTADT
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2940 = {	#MUNCHSMUNSTER
 	holding = church_holding
@@ -140,25 +164,31 @@
 ###c_passau
 2960 = {	#PASSAU
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2969 = {	#WALDKIRCHEN
 	holding = none
 }
 2970 = {	#SCHARDING
-	holding = church_holding
+	holding = city_holding
 }
 2968 = {	#DEGGENDORF
-	holding = city_holding
+	holding = church_holding
 }
 
 ##d_nordgau ###################################
 ###c_eichstadt
 2878 = {	#EICHTSTAD
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2879 = {	#HIRSCHBERG
 	holding = none
@@ -170,8 +200,11 @@
 ###c_leuchtenburg
 2990 = {	#LEUCHTENBURG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2994 = {	#KULMBACH
 	holding = none
@@ -183,8 +216,11 @@
 ###c_parsberg
 2987 = {	#PARSBERG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2986 = {	#LENGENFELD
 	holding = none
@@ -199,8 +235,11 @@
 ###c_hohenburg
 2989 = {	#HOHENBURG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2967 = {	#CHAM
 	holding = church_holding
@@ -213,8 +252,11 @@
 ###c_salzburg
 2975 = {	#SALZBURG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2973 = {	#BRAUNAU
 	holding = none
@@ -235,8 +277,11 @@
 ###c_berchtesgaden
 2977 = {	#BERCHTESGADEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2985 = {	#LAUKENTAL
 	holding = none
@@ -248,8 +293,11 @@
 ###c_hallstatt
 3135 = {	#HALLSTATT
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3130 = {	#LIEZEN
 	holding = none
@@ -264,12 +312,15 @@
 ###c_linz
 3131 = {	#LINZ
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
 			curtain_walls_01
 		}
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -293,8 +344,11 @@
 ###c_schaumberg
 2971 = {	#SCHAUMBERG
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2979 = {	#STRASSWALCHEN
 	holding = none
@@ -310,8 +364,11 @@
 ###c_augsburg
 2778 = {	#AUGSBURG
 	culture = swabian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -334,8 +391,11 @@
 ###c_alpsee
 2782 = {	#SCHONGAU
 	culture = swabian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2781 = {	#PEITING
 	holding = city_holding
@@ -347,8 +407,11 @@
 ###c_kempten
 2783 = {	#KEMPTEN
 	culture = swabian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2776 = {	#MARSETTEN
 	holding = church_holding
@@ -360,8 +423,11 @@
 ###c_ravensburg
 2786 = {	#RAVENSBURG
 	culture = swabian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2787 = {	#BREGENZ
 	holding = none
@@ -370,8 +436,11 @@
 ###c_burgau
 2777 = {	#BURGAU
 	culture = swabian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2775 = {	#KIRCHBERG
 	holding = none
@@ -384,10 +453,13 @@
 ###c_graz
 3117 = {	#GRAZ
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	950.1.1 = {
 		culture = bavarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3111 = {	#KOFLACH
@@ -416,10 +488,13 @@
 ###c_pitten
 3092 = {	#PITTEN
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	950.1.1 = {
 		culture = bavarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3120 = {	#OBERWART
@@ -432,8 +507,11 @@
 ###c_liebnitz
 3109 = {	#LIEBNITZ
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3103 = {	#MARIBOR
 	holding = none
@@ -448,10 +526,13 @@
 ###c_murzzuschlag
 3121 = {	#MURZZUSCHLAG
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	950.1.1 = {
 		culture = bavarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3119 = {	#OSTFURSTENFELD
@@ -462,8 +543,11 @@
 ###c_vienna
 3086 = {	#VIENNA
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3085 = {	#ERNSTBRUNN
 	holding = none
@@ -490,8 +574,11 @@
 ###c_hohenau
 3081 = {	#HOHENAU
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3079 = {	#LAA
 	holding = none
@@ -507,8 +594,11 @@
 ###c_sankt_polten
 3089 = {	#SANKT POLTEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = church_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3122 = {	#MARIAZELL
 	holding = none
@@ -523,8 +613,11 @@
 ###c_freistadt
 3073 = {	#FREISTADT
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3090 = {	#SPITZ
 	holding = city_holding
@@ -543,8 +636,11 @@
 ###c_amstetten
 3093 = {	#AMSTETTEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3124 = {	#WAIDHOFEN
 	holding = none
@@ -553,8 +649,11 @@
 ###c_krems
 3088 = {	#KREMS
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3075 = {	#WILD
 	holding = none
@@ -576,9 +675,12 @@
 ###c_innsbruck
 2950 = {	#INNSBRUCK
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	special_building_slot = schwaz_mines_01
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2954 = {	#BOZEN = Bolzano
 	holding = city_holding
@@ -590,8 +692,11 @@
 ###c_brixen
 2955 = {	#BRIXEN
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2952 = {	#BRUNECK
 	holding = none
@@ -601,8 +706,11 @@
 ###c_lienz
 3134 = {	#LIENZ
 	culture = bavarian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3137 = {	#OBERVALLACH
 	holding = none
@@ -621,8 +729,11 @@
 ###c_karnten
 3105 = {	#KLAGENFURT
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3113 = {	#SANKT VEIT
 	holding = church_holding
@@ -637,10 +748,13 @@
 ###c_kammersberg
 3128 = {	#KAMMERSBERG
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	950.1.1 = {
 		culture = bavarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3114 = {	#MURAU
@@ -663,10 +777,13 @@
 ###c_knittelfeld
 3125 = {	#KNITTELFELD
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	950.1.1 = {
 		culture = bavarian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 3112 = {	#JUDENBURG
@@ -685,8 +802,11 @@
 ###c_villach
 3099 = {	#VILLACH
 	culture = carantanian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3127 = {	#FELDKIRCHEN
 	holding = church_holding
@@ -700,24 +820,31 @@
 ###c_kranj
 3100 = {	#KRANJ
 	culture = carantanian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
-3102 = {	#KRSKO
+3102 = {	#KRSKO, currently CILLI
 	holding = none
+	#Žiče Charterhouse, important for Cistercians
+	1155.1.1 = {
+		holding = church_holding
+	}
 }
 3101 = {	#KAMNIK
 	holding = none
-	1050.1.1 = {
-		holding = city_holding
-	}
 }
 
 ###c_ljubljana
 3096 = {	#LJUBLJANA
 	culture = carantanian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 3097 = {	#DOBOVEC
 	holding = none
@@ -733,8 +860,11 @@
 ###c_pula
 2518 = {	#PULA
 	culture = dalmatian
-	religion = catholic
+	rite = roman_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2519 = {	#PIRAN
 	holding = city_holding

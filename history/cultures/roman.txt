@@ -1,7 +1,3 @@
-# Lombard & Cisalpine
-
-# Italian, Sicilian & Sardinian in separate files
-
 867.1.1 = {
 	discover_innovation = innovation_bannus
 	discover_innovation = innovation_catapult

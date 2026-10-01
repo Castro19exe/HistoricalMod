@@ -3,10 +3,13 @@
 ###c_luxembourg
 2082 = {	#LUXEMBOURG
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	1000.1.1 = {
 		culture = franconian
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 2090 = {	#BASTOGNE
@@ -25,8 +28,11 @@
 ###c_bouillon
 2091 = {	#BOUILLON
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2686 = {	#CHINY
 	holding = none
@@ -47,8 +53,11 @@
 ###c_liege
 2097 = {	#LIEGE
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2094 = {	#LA ROCHE
 	holding = none
@@ -60,8 +69,11 @@
 ###c_namur
 2098 = {	#NAMUR
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2116 = {	#DINANT
 	holding = city_holding
@@ -74,8 +86,11 @@
 ###c_brabant
 2105 = {	#LEUVEN
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2107 = {	#BRUSSELS
 	holding = city_holding
@@ -87,8 +102,11 @@
 ###c_antwerpen
 2106 = {	#ANTWERP
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2108 = {	#ROSENDAAL
 	holding = none
@@ -103,8 +121,11 @@
 ###c_hainaut
 2117 = {	#MONS
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2127 = {	#TOURNAI
 	holding = city_holding
@@ -119,8 +140,11 @@
 ###c_cambray
 2118 = {	#CAMBRAI
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2121 = {	# MALBODEN
 	holding = church_holding
@@ -133,7 +157,7 @@
 ###c_aachen
 2092 = {	#AACHEN
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	special_building = palace_of_aachen_01
 	867.1.1 = {
@@ -141,6 +165,9 @@
 			curtain_walls_01
 			hunting_grounds_01
 		}
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -169,8 +196,11 @@
 ###c_cleves
 2104 = {	#KLEVE
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2102 = {	#GLADBACH
 	holding = none
@@ -191,8 +221,11 @@
 ###c_maastricht
 2099 = {	#MAASTRICHT
 	culture = dutch
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2100 = {	#EINDHOVEN
 	holding = none
@@ -205,8 +238,11 @@
 ###c_trier
 2083 = {	#TRIER
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -228,13 +264,16 @@
 ###c_nancy
 2709 = {	#NANCY
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2078 = {	#EPINAL
 	holding = church_holding
 }
-2713 = {	#BLANKENBERG = LÜNSTADT / LUNEVILLE
+2713 = {	#BLANKENBERG = Lï¿½NSTADT / LUNEVILLE
 	holding = none
 	950.1.1 = {
 		holding = city_holding
@@ -248,8 +287,11 @@
 ###c_metz
 2708 = {	#METZ
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2698 = {	#SAARBURG
 	holding = none
@@ -270,8 +312,11 @@
 ###c_saarbrucken
 2704 = {	#SAARBRUCKEN
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2726 = {	#ZWEIBRUCKEN
 	holding = none
@@ -286,8 +331,11 @@
 ###c_puttlingen
 2710 = {	#PUTTLINGEN
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2712 = {	#FINSTIGEN
 	holding = none
@@ -296,8 +344,11 @@
 ###c_neufchateau
 2384 = {	#NEUFCHATEAU
 	culture = french
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2715 = {	#VAUDEMONT
 	holding = city_holding
@@ -310,13 +361,16 @@
 ###c_cologne
 2088 = {	#COLOGNE
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
 	special_building_slot = holy_site_cologne_cathedral_01
 	867.1.1 = {
 		buildings = {
 			cereal_fields_01
 		}
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		buildings = {
@@ -340,8 +394,11 @@
 ###c_dortmund
 2673 = {	#DORTMUND
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2677 = {	#ESSEN
 	holding = church_holding
@@ -356,8 +413,11 @@
 ###c_arnsberg
 2680 = {	#ARNSBERG
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2681 = {	#BILSTEIN
 	holding = none
@@ -366,8 +426,11 @@
 ###c_mark
 2679 = {	#MARK
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2678 = {	#HAGEN
 	holding = none
@@ -382,8 +445,11 @@
 ###c_koblenz
 2084 = {	#KOBLENZ
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2086 = {	#ADENAU
 	holding = none
@@ -401,8 +467,11 @@
 ###c_bergh
 2433 = {	#BERGH
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2688 = {	#SIEGBURG
 	holding = city_holding
@@ -411,8 +480,11 @@
 ###c_sayn
 2689 = {	#SAYN
 	culture = franconian
-	religion = catholic
+	rite = carolingian_christianity
 	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 2690 = {	#WIED
 	holding = none

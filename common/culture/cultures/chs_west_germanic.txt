@@ -144,7 +144,7 @@ anglo_saxon = {
 	traditions = {
 		tradition_the_witenagemot
 		tradition_martial_admiration
-		tradition_castle_keepers
+		tradition_city_keepers
 		tradition_hird
 	}
 	

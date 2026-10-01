@@ -12,15 +12,18 @@
 ###c_vidin
 506 = {		#Vidin
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	893.1.1 = {
-		religion = orthodox
 		#Defeat of Vladimir's pagan uprising
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
 	}
 	950.1.1 = {
 		holding = castle_holding
 		# the construction of the Baba Vida Castle started in the 10th century
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
 	}
 }
 3667 = {	#Kladovo
@@ -47,15 +50,18 @@
 ###c_branicevo
 3664 = {	#Branicevo
 	culture = vlach
-	religion = orthodox
+	rite = byzantine_rite
 	holding = tribal_holding
 	893.1.1 = {
-		religion = orthodox
 		#Defeat of Vladimir's pagan uprising
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
 	}
 	1050.1.1 = {
 		holding = castle_holding
 		#By the early 12th century it was the fortified center of a BYZ doukaton
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
 	}
 }
 3665 = {	#Kucevo
@@ -69,8 +75,14 @@
 ###c_turnovo aka Tarnovgrad
 499 = {		#Tyrnovo	
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 3682 = {	#Cherven
 	holding = none
@@ -94,8 +106,14 @@
 ###c_sredets
 500 = {		#Serdica	aka modern day Sofia
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 3671 = {	#Meldi
 	holding = none
@@ -107,16 +125,28 @@
 }
 3673 = {	#Stipon / linked to Gate of Trajan, near Ihtiman
 	holding = castle_holding
+	1020.1.1 = {
+		holding = none # to balance adding church holding
+	}
 }
 3674 = {	#Rila
 	holding = none
+	1000.1.1 = {
+		holding = church_holding	#Rila monastery
+	}
 }
 
 ###c_nikopolis
 507 = {		#Nikopolis
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -140,10 +170,16 @@
 ###c_dorostorum
 3689 = {	#Preslav
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	#1st Bulgarian Empire capital
 	#Plundered and ravaged in the 960, but still existed
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 508 = {		#Dorostotum	
 	holding = castle_holding
@@ -167,8 +203,14 @@
 ###c_vratsa
 3678 = {	#Vratsa
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 3675 = {	#Lom
 	holding = none
@@ -184,8 +226,14 @@
 ###c_aytos
 3691 = {	#Aytos
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 3690 = {	#Provadiya
 	holding = church_holding
@@ -200,7 +248,7 @@
 ###c_constanta
 510 = {		#Constantia	
 	culture = bulgarian
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -208,8 +256,11 @@
 		}
 	}
 	893.1.1 = {
-		religion = orthodox
 		#Defeat of Vladimir's pagan uprising
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
 	}
 	1066.1.1 = {
 		buildings = {
@@ -237,11 +288,14 @@
 ###c_mesembria
 498 = {		#Mesembria
 	culture = bulgarian
-	religion = slavic_pagan
+	rite = slavic_pagan
 	holding = castle_holding
 	893.1.1 = {
-		religion = orthodox
 		#Defeat of Vladimir's pagan uprising
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
 	}
 }
 3693 = {	#Varna
@@ -255,8 +309,14 @@
 ###c_naissus
 501 = {		#Naissus	
 	culture = bulgarian
-	religion = orthodox	
+	rite = byzantine_rite
 	holding = tribal_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 	1066.1.1 = {
 		holding = castle_holding
 		# Not many traces of fortifications before the 12th century, but since the town fell back into Byzantine hands during the 11th century we can at least assume it was not tribal anymore
@@ -291,8 +351,14 @@
 ###c_pomoravlje
 3658 = {	#Vranje
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	893.1.1 = {
+		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
+	}
+	1054.7.16 = {
+		rite = slavic_rite	#Great Schism; still valid under orthodox
+	}
 }
 3657 = {	#Glubocica / Gllobo�ica
 	holding = none
@@ -308,10 +374,10 @@
 ###c_velbazhd
 3656 = {	#Velbazhd
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 		#Appeared in the region in the Xth century
 	}
 }
@@ -325,10 +391,10 @@
 ###c_pirin
 3653 = {	#Melnik
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 		#Appeared in the region in the Xth century
 	}
 }
@@ -339,10 +405,10 @@
 ###c_strumica
 3650 = {	#Strumica
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 		#Appeared in the region in the Xth century
 	}
 }
@@ -359,10 +425,10 @@
 ###c_skopje
 3643 = {	#Skopje
 	culture = bulgarian
-	religion = orthodox
-	holding = tribal_holding
+	rite = byzantine_rite
+	holding = castle_holding
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 		#Appeared in the region in the Xth century
 	}
 }
@@ -398,7 +464,7 @@
 ###c_ohrid
 471 = {		#Ochrid
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
 	550.1.1 = {
 		special_building_slot = sofia_ohrid
@@ -407,7 +473,7 @@
 		special_building = sofia_ohrid
 	}
 	950.1.1 = {
-		religion = bogomilist
+		rite = bogomilist_rite
 		#Appeared in the region in the Xth century
 	}
 }
@@ -417,6 +483,9 @@
 }
 3639 = {	#Devol
 	holding = none
+	1000.1.1 = {
+		holding = church_holding	#Monastery school of St Clement of Ohrid
+	}
 }
 3640 = {	#Kastoria
 	holding = none
@@ -429,8 +498,11 @@
 ###c_philippopolis
 493 = {		#Philippopolis
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3623 = {	#Tsepina
 	holding = castle_holding
@@ -448,8 +520,11 @@
 ###c_kran
 3636 = {	#Kran
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3635 = {	#Sliven
 	holding = city_holding
@@ -466,8 +541,11 @@
 ###c_beroe
 3632 = {	#Beroe
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3633 = {	#Janitsa
 	holding = none
@@ -480,8 +558,11 @@
 ###c_burgas
 3628 = {	#Burgas
 	culture = greek
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -505,8 +586,11 @@
 ###c_adrianopolis
 494 = {		#Adrianopolis
 	culture = greek
-	religion = orthodox	
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -516,7 +600,7 @@
 	}
 	1382.1.1 = {
 		culture = turkish
-		religion = ashari
+		rite = hanafi
 	}
 }
 3626 = {	#Mezeshka
@@ -530,8 +614,11 @@
 ###c_zherkovo
 3618 = {	#Zherkovo
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 }
 3619 = {	#Lyutitsa
 	holding = church_holding
@@ -558,9 +645,11 @@
 ###c_rhodopes
 3617 = {	#Nevrokop
 	culture = bulgarian
-	religion = orthodox
+	rite = byzantine_rite
 	holding = castle_holding
-
+	1054.7.16 = {
+		rite = byzantine_rite
+	}
 	1066.1.1 = {
 		culture = vlach
 	}
