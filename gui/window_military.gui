@@ -1651,7 +1651,7 @@ types ArmiesView
 				layoutpolicy_horizontal = expanding
 				icon = {
 					name = "icon_levies"
-					texture = "[GetIllustration( 'culture_levy_big_illustration' ).GetTexture( GetPlayer.MakeScope )]"
+					texture = "[GetIllustration( 'culture_levy_big_illustration' ).GetTexture( GetPlayer.MakeScope )]"    ### Jimmywhite: edited
 					size = { 246 136 }
 					modify_texture = {
 						texture = "gfx/interface/component_masks/mask_rough_edges.dds"
@@ -1839,7 +1839,7 @@ types ArmiesView
 				layoutpolicy_horizontal = expanding
 				icon = {
 					name = "icon_knights"
-					texture = "[GetIllustration( 'culture_knight_big_illustration' ).GetTexture( GetPlayer.MakeScope )]"
+					texture = "[GetIllustration( 'culture_knight_big_illustration' ).GetTexture( GetPlayer.MakeScope )]"     ### Jimmywhite:edited
 					size = { 246 136 }
 					modify_texture = {
 						texture = "gfx/interface/component_masks/mask_rough_edges.dds"

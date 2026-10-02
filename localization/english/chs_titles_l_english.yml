@@ -16401,9 +16401,9 @@
  e_wendish_empire_article:0 "the "
  e_wendish_empire:2 "Baltic Empire"
  e_wendish_empire_adj:1 "Baltic"
- e_west_slavia:0 "West-Slavia"
- e_west_slavia_adj:0 "West-Slavic"
- e_west_slavia_pre:0 "West-Slavo"
+ e_west_slavia:0 "Wenedia" # West-Slavia
+ e_west_slavia_adj:0 "Wenedic" # West-Slavic
+ e_west_slavia_pre:0 "Wenedo" # West-Slavo
  k_abyssinia:0 "Abyssinia"
  k_abyssinia_adj:0 "Abyssinian"
  k_afghanistan:0 "Afghanistan"

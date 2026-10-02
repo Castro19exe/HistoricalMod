@@ -1,4 +1,4 @@
-# Historical Mod ![CK3Version](https://img.shields.io/badge/CK3-1.19.0.6-blue)
+# Historical Mod ![CK3Version](https://img.shields.io/badge/CK3-1.20.0.0-blue)
 
 ### Historical accuracy • New cultures • New models • Immersive decisions • Enhanced worldbuilding
 

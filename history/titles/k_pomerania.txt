@@ -1,15 +1,7 @@
 k_pomerania = {
-	867.1.1 = {
-		de_jure_liege = 0
-	}
-
-	1066.9.15 = {
-		de_jure_liege = 0
-	}
-
-	1178.10.1 = {
-		de_jure_liege = 0
-	}
+	867.1.1 = { de_jure_liege = "e_west_slavia" }
+	1066.9.15 = { de_jure_liege = "e_west_slavia" }
+	1178.10.1 = { de_jure_liege = "e_west_slavia" }
 }
 
 d_pommerania = {
@@ -1765,16 +1757,7 @@ c_prenzlau = {
 }
 
 k_sorbia = {
-	867.1.1 = {
-		de_jure_liege = 0
-		#de_jure_liege = "e_west_slavia"
-	}
-
-	1066.9.15 = {
-		de_jure_liege = 0
-	}
-
-	1178.10.1 = {
-		de_jure_liege = 0
-	}
+	867.1.1 = { de_jure_liege = "e_west_slavia" }
+	1066.9.15 = { de_jure_liege = 0 }
+	1178.10.1 = { de_jure_liege = 0 }
 }

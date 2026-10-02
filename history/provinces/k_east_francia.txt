@@ -9,7 +9,6 @@
 		holding = castle_holding
 	}
 	1120.1.1 = {
-		culture = saxon
 		rite = roman_rite
 	}
 }
@@ -111,9 +110,6 @@
 	holding = castle_holding
 	1054.7.16 = {
 		rite = roman_rite
-	}
-	1120.1.1 = {
-		culture = saxon
 	}
 	1066.1.1 = {
 		buildings = {

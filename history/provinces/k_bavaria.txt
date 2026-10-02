@@ -573,10 +573,11 @@
 
 ###c_hohenau
 3081 = {	#HOHENAU
-	culture = bavarian
+	culture = slovien
 	rite = carolingian_christianity
 	holding = castle_holding
 	1054.7.16 = {
+		culture = bavarian
 		rite = roman_rite
 	}
 }

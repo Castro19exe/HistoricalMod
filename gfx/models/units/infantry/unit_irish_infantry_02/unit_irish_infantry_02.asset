@@ -10,12 +10,15 @@ pdxmesh = {
 	animation = { id = "besiege_animation" 					type = "../animations/infantry_01_besiege.anim" }
 	animation = { id = "spawn_animation" 					type = "../animations/infantry_01_spawn.anim" }
 	animation = { id = "despawn_animation" 					type = "../animations/infantry_01_despawn.anim" }
+	animation = { id = "gathering_army_viking_animation" 	type = "../animations/infantry_01_gathering_army_viking.anim" }
 	animation = { id = "gathering_army_animation" 			type = "../animations/infantry_01_gathering_army.anim" }
 	animation = { id = "moving_standard_animation" 			type = "../animations/infantry_01_moving_standard.anim" }
 	animation = { id = "moving_battle_animation" 			type = "../animations/infantry_01_moving_battle.anim" }
 	animation = { id = "moving_retreat_animation" 			type = "../animations/infantry_01_moving_retreat.anim" }
 	animation = { id = "victorious_combat_animation" 		type = "../animations/infantry_01_victorious_combat.anim" }
 	animation = { id = "victorious_siege_animation" 		type = "../animations/infantry_01_victorious_siege.anim" }
+	animation = { id = "infantry_male_sick_moving" 			type = "../animations/infantry_male_sick_moving.anim" }
+	animation = { id = "infantry_male_sick_idle" 			type = "../animations/infantry_male_sick_idle.anim" }
 	
 	# Transitions
 	animation = { id = "idle_tx_battle_axes_animation" 		type = "../animations/infantry_01_idle_tx_battle_axes.anim" }
@@ -40,6 +43,9 @@ pdxmesh = {
 		texture_specular = "nord_unit_01_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 
 	meshsettings = {
@@ -49,6 +55,9 @@ pdxmesh = {
 		texture_specular = "acg_upe_unit_irish_infantry_02_helmet_properties.dds"
 		shader = "standard"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}
 
 	meshsettings = {
@@ -58,6 +67,9 @@ pdxmesh = {
 		texture_specular = "acg_upe_unit_irish_infantry_02_properties.dds"
 		shader = "standard_usercolor"
 		shader_file = "gfx/FX/pdxmesh.shader"
+		additional_shader_defines = {
+			"MAP_LIGHTING_HACK"
+		}
 	}	
 	
 }
@@ -335,62 +347,4 @@ entity = {
 			sound = { soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_combat_winlose_tx_even_defensive"}
 		}
 	}
-}
-
-###Irish shield 2
-
-pdxmesh = {
-	name = "unit_irish_infantry_02_shield_mesh"
-	file = "unit_irish_infantry_02_shield.mesh"
-
-	meshsettings = {
-		name = "jorodoxShape"
-		index = 0
-		texture_diffuse = "acg_upe_unit_irish_infantry_02_shield_diffuse.dds"
-		texture_normal = "acg_upe_unit_irish_infantry_02_shield_normal.dds"
-		texture_specular = "acg_upe_unit_irish_infantry_02_shield_properties.dds"
-		shader = "standard_usercolor"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
-}
-
-entity = {
-	name = "unit_irish_infantry_02_shield_entity"
-	pdxmesh = "unit_irish_infantry_02_shield_mesh"
-	scale = 0.06
-
-	state = { name = "even_offensive_seq_1"
-
-		state_time = 5
-		event = { time = 3.6  particle = "units/weapon_impact_wood" keep_particle = yes }
-
-	}
-	
-	state = { name = "even_defensive_seq_1"
-		state_time = 5
-		event = { time = 0.6  particle = "units/weapon_impact_wood" keep_particle = yes }
-		event = { time = 2.6  particle = "units/weapon_impact_wood" keep_particle = yes }
-
-	}
-	state = { name = "winlose_defensive_seq_1"
-		state_time = 5
-		event = { time = 0.30  particle = "units/weapon_impact_wood" keep_particle = yes }
-		event = { time = 1.30  particle = "units/weapon_impact_wood" keep_particle = yes }
-		event = { time = 2.05  particle = "units/weapon_impact_wood" keep_particle = yes }
-
-	}	
-	
-	state = { name = "even_winlose_tx_defensive_1"
-
-		state_time = 5
-		event = { time = 1.1  particle = "units/weapon_impact_wood" keep_particle = yes }
-
-	}
-	state = { name = "winlose_even_tx_defensive_1"
-
-		state_time = 5
-		event = { time = 0.2  particle = "units/weapon_impact_wood" keep_particle = yes }
-		event = { time = 1.2  particle = "units/weapon_impact_wood" keep_particle = yes }
-
-	}	
 }

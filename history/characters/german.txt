@@ -2,7 +2,7 @@
 168760 = {
 	name = "Achiulf"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	240.1.1 = {
 		birth = yes
@@ -15,7 +15,7 @@
 168761 = {
 	name = "Ermanaric"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168760
 	266.1.1 = {
@@ -28,7 +28,7 @@
 168762 = {
 	name = "Hunimund"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168761
 	300.1.1 = {
@@ -41,7 +41,7 @@
 168763 = {
 	name = "Thorismund"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168762
 	340.1.1 = {
@@ -55,7 +55,7 @@
 168764 = {
 	name = "Berimund"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168763
 	390.1.1 = {
@@ -71,7 +71,7 @@
 168765 = {
 	name = "Wideric"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "ostrogothic"
 	father = 168764
 	440.1.1 = {
@@ -84,7 +84,7 @@
 168766 = {
 	name = "Eutharic"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168765
 	480.1.1 = {
@@ -100,7 +100,7 @@
 168767 = {
 	name = "Wultulf"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168760
 	280.1.1 = {
@@ -113,7 +113,7 @@
 168768 = {
 	name = "Winithar"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168767
 	320.1.1 = {
@@ -126,7 +126,7 @@
 168769 = {
 	name = "Wandalar"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "gothic"
 	father = 168768
 	370.1.1 = {
@@ -142,7 +142,7 @@
 168770 = {
 	name = "Walamir"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "ostrogothic"
 	father = 168769
 	425.1.1 = {
@@ -155,7 +155,7 @@
 168771 = {
 	name = "Widimir"
 	dynasty = 9617
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "ostrogothic"
 	father = 168769
 	427.1.1 = {
@@ -168,7 +168,7 @@
 168772 = {
 	name = "Widimir"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168771
 	450.1.1 = {
@@ -181,7 +181,7 @@
 168773 = {
 	name = "Theodemir"
 	dynasty = 9617
-	religion = "catholic"
+	rite = "norse_pagan"
 	culture = "ostrogothic"
 	father = 168769
 	429.1.1 = {
@@ -194,7 +194,7 @@
 168774 = {
 	name = "Theodis"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168773
 	450.1.1 = {
@@ -207,7 +207,7 @@
 168775 = {
 	name = "Theoderic"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168773
 	454.1.1 = {
@@ -226,7 +226,7 @@
 168776 = {
 	name = "Theodimund"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168773
 	451.1.1 = {
@@ -240,7 +240,7 @@
 	name = "Amalfrida"
 	female = yes
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168773
 	455.1.1 = {
@@ -257,7 +257,7 @@
 	name = "Theodegotha"
 	dynasty=9617
 	female=yes
-	religion="catholic"
+	rite = roman_rite
 	culture="ostrogothic"
 	trait="bastard"
 	father=168775
@@ -271,7 +271,7 @@
 168778 = {
 	name = "Theodahad"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	mother = 168777
 	480.1.1 = {
@@ -285,7 +285,7 @@
 	name = "Amalaberga"
 	female = yes
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	mother = 168777
 	495.1.1 = {
@@ -298,7 +298,7 @@
 168780 = {
 	name = "Theodegisel"
 	dynasty = 9617
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	father = 168778
 	510.1.1 = {
@@ -312,7 +312,7 @@
 	name = "Theodenantha"
 	female=yes
 	dynasty=9617
-	religion="catholic"
+	rite = roman_rite
 	culture="ostrogothic"
 	father=168778
 	512.1.1 = {
@@ -325,7 +325,7 @@
 168782 = {
 	name="Amalafrida"
 	dynasty=9617
-	religion="catholic"
+	rite = roman_rite
 	culture="ostrogothic"
 	mother=168779
 	511.1.1 = {
@@ -339,7 +339,7 @@
 ## Start of various goths
 7761 = {
 	name = "Athalaric"
-	religion = "catholic"
+	rite = roman_rite
 	culture = "ostrogothic"
 	trait = diligent
 	trait = calm
@@ -349,7 +349,7 @@
 		birth = "470.1.1"
 	}
 	530.1.1 = {
-		name = "Bonifatius"
+		name = "Bonifatius_regnal"
 	# AKA: Athalaric
 	}
 	532.1.1 = {
@@ -359,7 +359,7 @@
 
 214107={
 	name="Vitiges"
-	religion="catholic"
+	rite = roman_rite
 	culture="ostrogothic"
 	500.1.1={
 		birth=yes
@@ -376,7 +376,7 @@
 168793 = {
 	name="Godegisel"
 	dynasty=9618
-	religion="norse_pagan"
+	rite = "norse_pagan"
 	culture="vandalic"
 	350.1.1 = {
 		birth=yes
@@ -388,14 +388,14 @@
 168794 = {
 	name="Gunderic"
 	dynasty=9618
-	religion="norse_pagan"
+	rite = "norse_pagan"
 	culture="vandalic"
 	father=168793
 	370.1.1 = {
 		birth=yes
 	}
 	410.1.1 = {
-		religion=catholic
+		rite=roman_rite
 	}
 	428.1.1 = {
 		death=yes
@@ -404,7 +404,7 @@
 168795 = {
 	name="Gelimer"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168794
 	425.1.1 = {
@@ -417,7 +417,7 @@
 168796 = {
 	name="Geiseric"
 	dynasty=9618
-	religion="norse_pagan"
+	rite = "norse_pagan"
 	culture="vandalic"
 	trait= legitimized_bastard
 	father=168793
@@ -425,7 +425,7 @@
 		birth=yes
 	}
 	410.1.1 = {
-		religion=catholic
+		rite=roman_rite
 	}
 	477.1.25 = {
 		death=yes
@@ -434,7 +434,7 @@
 168797 = {
 	name="Huneric"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168796
 	420.1.1 = {
@@ -450,7 +450,7 @@
 168798 = {
 	name="Hilderic"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168797
 	mother=168799
@@ -464,7 +464,7 @@
 168800 = {
 	name="Theoderic"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168796
 	421.1.1 = {
@@ -477,7 +477,7 @@
 168801 = {
 	name="Geiso"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168796
 	422.1.1 = {
@@ -490,7 +490,7 @@
 168802 = {
 	name="Gundamund" 
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168801
 	460.1.1 = {
@@ -504,7 +504,7 @@
 168803 = {
 	name="Thrasamund"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168801
 	462.1.1 = {
@@ -517,7 +517,7 @@
 168804 = {
 	name="Gelaris"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168801
 	463.1.1 = {
@@ -530,7 +530,7 @@
 168805 = {
 	name="Gelimer"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168804
 	490.1.1 = {
@@ -543,7 +543,7 @@
 168806 = {
 	name="Tzazo"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168804
 	492.1.1 = {
@@ -556,7 +556,7 @@
 168807 = {
 	name="Gunthimer"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168804
 	493.1.1 = {
@@ -569,7 +569,7 @@
 168808 = {
 	name="Gibamund"
 	dynasty=9618
-	religion="catholic"
+	rite = roman_rite
 	culture="vandalic"
 	father=168807
 	510.1.1 = {
@@ -584,7 +584,7 @@
 variousgoths001 = {
 	name="Theodahad" #Unknown parent of Theudis, used to create a nephew
 	dynasty=sub_ostrogothic
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"
 	
 	460.1.1 = {
@@ -597,7 +597,7 @@ variousgoths001 = {
 variousgoths002 = {
 	name="Thorismund" #Unknown brother of Theudis, used to create a nephew
 	dynasty=sub_ostrogothic
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"
 	father=variousgoths001
 	480.1.1 = {
@@ -610,7 +610,7 @@ variousgoths002 = {
 variousgoths003 = {
 	name="Hildebad"	#Ildibad, king of Italy
 	dynasty=sub_ostrogothic
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"
 	father=variousgoths002
 	500.1.1 = {
@@ -623,7 +623,7 @@ variousgoths003 = {
 variousgoths004 = {
 	name="Berimund"	#Unknown brother of Ildibad, used to create a nephew
 	dynasty=sub_ostrogothic
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"
 	father=variousgoths002
 	498.1.1 = {
@@ -636,7 +636,7 @@ variousgoths004 = {
 variousgoths005 = {
 	name="Baduila"	#Totila, king of Italy
 	dynasty=sub_ostrogothic
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"
 	father=variousgoths004
 	516.1.1 = {
@@ -649,7 +649,7 @@ variousgoths005 = {
 
 variousgoths006 = {
 	name="Eraric"	#king of Italy
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"	#Rugian
 	510.1.1 = {
 		birth = yes
@@ -661,7 +661,7 @@ variousgoths006 = {
 
 variousgoths007 = {
 	name="Thila"	#king of Italy
-	religion="catholic"
+	rite="catholic"
 	culture="ostrogothic"	#Rugian
 	522.1.1 = {
 		birth = yes
@@ -674,7 +674,7 @@ variousgoths007 = {
 variousgoths009 = {
 	name = "Theodora" # Unknown name, daughter of Theodoric I of the Visigoths
 	dynasty = 1046035 # Balthing Dynasty
-	religion = catholic
+	rite = catholic
 	culture = visigothic
 	female=yes
 	father = 200287 # King Teodorico I of the Visigoths
@@ -693,7 +693,7 @@ variousgoths009 = {
 suebi001 = {
 	name="Hermeric"	#king of Suebi
 	dynasty=royal_suebi
-	religion="norse_pagan"
+	rite="norse_pagan"
 	culture="suebi"
 	385.1.1 = {	# Unknown
 		birth = yes
@@ -706,7 +706,7 @@ suebi001 = {
 suebi002 = {
 	name="Rechila"	#king of Suebi
 	dynasty=royal_suebi
-	religion="norse_pagan"
+	rite="norse_pagan"
 	culture="suebi"
 	father=suebi001
 	405.1.1 = {	# Unknown, but born outside galicia and hence before 410 when the suebi invaded
@@ -720,14 +720,14 @@ suebi002 = {
 suebi003 = {
 	name="Rechiar"	#king of Suebi
 	dynasty=royal_suebi
-	religion="norse_pagan"
+	rite="norse_pagan"
 	culture="suebi"
 	father=suebi002
 	425.1.1 = {	# Unknown
 		birth = yes
 	}
 	445.12.1 = {	#Date unknown
-		religion=catholic
+		rite=catholic
 		add_spouse=variousgoths009
 	}	
 	456.12.1 = {
@@ -737,7 +737,7 @@ suebi003 = {
 
 suebi004 = {
 	name="Agiwulf"	#king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="visigothic"
 	425.1.1 = {	# Unknown
 		birth = yes
@@ -750,7 +750,7 @@ suebi004 = {
 suebi005 = {
 	name="Maldras"	#king of Suebi
 	dynasty=sub_suebi
-	religion="norse_pagan"
+	rite="norse_pagan"
 	culture="suebi"
 	409.1.1 = {	# Unknown
 		birth = yes
@@ -763,14 +763,14 @@ suebi005 = {
 suebi006 = {
 	name="Remismund" #king of Suebi
 	dynasty=sub_suebi
-	religion="norse_pagan"
+	rite="norse_pagan"
 	culture="suebi"
 	father=suebi005
 	429.1.1 = {	# Unknown
 		birth = yes
 	}
 	466.1.1 = {
-		religion=catholic
+		rite=catholic
 	}
 	469.1.1 = { 
 		death = yes
@@ -779,7 +779,7 @@ suebi006 = {
 
 suebi007 = {
 	name="Hermeneric" #king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	430.1.1 = {	# Unknown
 		birth = yes
@@ -791,7 +791,7 @@ suebi007 = {
 
 suebi008 = {
 	name="Veremund" #king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	465.1.1 = {	# Unknown
 		birth = yes
@@ -803,7 +803,7 @@ suebi008 = {
 
 suebi009 = {
 	name="Theodemund" #king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	500.1.1 = {	# Unknown
 		birth = yes
@@ -816,7 +816,7 @@ suebi009 = {
 suebi010 = {
 	name="Chararic" #king of Suebi
 	dynasty=sub_suebi_02
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	510.1.1 = {	# Unknown
 		birth = yes
@@ -829,7 +829,7 @@ suebi010 = {
 suebi011 = {
 	name="Ariamir" #king of Suebi
 	dynasty=sub_suebi_02
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	father=suebi010
 	530.1.1 = {	# Unknown
@@ -842,7 +842,7 @@ suebi011 = {
 
 suebi012 = {
 	name="Theodemir" #king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	535.1.1 = {	# Unknown
 		birth = yes
@@ -855,7 +855,7 @@ suebi012 = {
 suebi013 = {
 	name="Miro" #king of Suebi
 	dynasty=sub_suebi_03
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	550.1.1 = {	# Unknown
 		birth = yes
@@ -867,7 +867,7 @@ suebi013 = {
 
 suebi014 = {
 	name="Siseguntia"
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	female=yes
 	550.1.1 = {	# Unknown
@@ -884,7 +884,7 @@ suebi014 = {
 suebi015 = {
 	name="Eboric" #king of Suebi 
 	dynasty=sub_suebi_03
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	father=suebi013
 	mother=suebi014
@@ -898,7 +898,7 @@ suebi015 = {
 
 suebi016 = {
 	name="Audeca" #king of Suebi
-	religion="catholic"
+	rite="catholic"
 	culture="suebi"
 	549.1.1 = {	# Unknown
 		birth = yes

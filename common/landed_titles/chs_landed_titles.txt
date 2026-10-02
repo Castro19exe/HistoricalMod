@@ -47531,6 +47531,25 @@ e_carpathia = {
 			color = { 245 125 95 }
 
 			capital = c_esztergom
+
+			cultural_names = {
+				name_list_czech = cn_ostrihom
+				name_list_slovien = cn_ostrihom
+				name_list_polish = cn_ostrihom
+				name_list_pommeranian = cn_ostrihom
+				name_list_polabian = cn_ostrihom
+				name_list_croatian = cn_ostrihom
+				name_list_bosnian = cn_ostrihom
+				name_list_serbian = cn_ostrihom
+				name_list_mogyer = Iztörgam
+				name_list_bolghar = Iztörgam
+				name_list_turkish = Iztörgam
+				name_list_avar = Estrigin
+				name_list_pecheneg = Iztörgam
+				name_list_cuman = Iztörgam
+				name_list_khazar = Iztörgam
+				name_list_kipchak = Iztörgam
+			}
 			
 			c_visegrad = {
 				color = { 245 125 95 }
@@ -47604,6 +47623,14 @@ e_carpathia = {
 					name_list_croatian = cn_ostrihom
 					name_list_bosnian = cn_ostrihom
 					name_list_serbian = cn_ostrihom
+					name_list_mogyer = Iztörgam
+					name_list_bolghar = Iztörgam
+					name_list_turkish = Iztörgam
+					name_list_avar = Estrigin
+					name_list_pecheneg = Iztörgam
+					name_list_cuman = Iztörgam
+					name_list_khazar = Iztörgam
+					name_list_kipchak = Iztörgam
 				}
 
 				b_esztergom = {
@@ -47620,6 +47647,14 @@ e_carpathia = {
 						name_list_croatian = cn_ostrihom
 						name_list_bosnian = cn_ostrihom
 						name_list_serbian = cn_ostrihom
+						name_list_mogyer = Iztörgam
+						name_list_bolghar = Iztörgam
+						name_list_turkish = Iztörgam
+						name_list_avar = Estrigin
+						name_list_pecheneg = Iztörgam
+						name_list_cuman = Iztörgam
+						name_list_khazar = Iztörgam
+						name_list_kipchak = Iztörgam
 					}
 				}
 				b_beny = {

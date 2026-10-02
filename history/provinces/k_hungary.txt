@@ -107,7 +107,7 @@
 	culture = avar
 	rite = tengri_pagan
 	holding = tribal_holding
-	830.1.1 = {
+	890.1.1 = {
 		rite = roman_rite
 	}
 	935.1.1 = {
@@ -259,7 +259,7 @@
 	culture = avar
 	rite = tengri_pagan
 	holding = tribal_holding
-	830.1.1 = {
+	890.1.1 = {
 		rite = roman_rite
 	}
 	935.1.1 = {
@@ -291,7 +291,7 @@
 	culture = avar
 	rite = tengri_pagan
 	holding = tribal_holding
-	830.1.1 = {
+	890.1.1 = {
 		rite = roman_rite
 	}
 	935.1.1 = {
