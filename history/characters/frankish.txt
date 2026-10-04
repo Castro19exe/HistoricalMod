@@ -4669,7 +4669,6 @@ frankish0006 = {
 	}
 	840.6.20 = {
 		name = "GuilhE_m"
-		culture = occitan
 	}
 	850.1.1 = {
 		death = yes
@@ -4693,7 +4692,6 @@ frankish0006 = {
 	}
 	840.6.20 = {
 		name = "Bernat"
-		culture = occitan
 	}
 	844.5.1 = {
 		death = yes

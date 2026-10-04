@@ -251,7 +251,7 @@
 	
 }
 2576 = {	#OSTIA
-	holding = church_holding
+	holding = city_holding
 	effect = {
 		if = {
 			limit = {
@@ -272,7 +272,7 @@
 					has_pam_dlc_trigger = yes
 				}
 				add_special_building = pam_lateran_basilica_01
-				}
+			}
 		}
 	}
 }

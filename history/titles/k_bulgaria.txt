@@ -209,6 +209,7 @@ k_bulgaria = {
 	1178.1.1 = { change_development_level = 24 }
 }
 
+
 d_vidin = {
 	330.1.1 = {
 		liege = "e_byzantium"

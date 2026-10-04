@@ -63,7 +63,6 @@
 		rite = byzantine_rite
 	}
 	1066.1.1 = {
-		culture = greek
 		rite = roman_rite
 	}
 }

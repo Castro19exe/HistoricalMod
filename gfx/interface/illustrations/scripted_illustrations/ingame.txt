@@ -12616,6 +12616,10 @@ culture_levy_big_illustration = {
 				NOR = {
 					this = culture:anglo_saxon
 					this = culture:norse
+					this = culture:svear
+					this = culture:geat
+					this = culture:gute
+					this = culture:dane
 					this = culture:old_saxon
 					this = culture:angle
 					this = culture:jute
@@ -12800,6 +12804,10 @@ culture_knight_big_illustration = {
 				NOR = {	
 					this = culture:roman
 					this = culture:norse
+					this = culture:svear
+					this = culture:geat
+					this = culture:gute
+					this = culture:dane
 					this = culture:anglo_saxon
 					this = culture:old_saxon
 					this = culture:angle
@@ -12822,10 +12830,6 @@ culture_knight_big_illustration = {
 					this = culture:geat
 					this = culture:gute
 					this = culture:dane
-					this = culture:anglo_saxon
-					this = culture:old_saxon
-					this = culture:angle
-					this = culture:jute
 				}
 			}
 		} 

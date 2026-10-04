@@ -386,6 +386,7 @@ c_calatrava = {
 	1147.1.1 = {
 		holder = castilian0229 # Pedro de Menezes
 		liege = k_castille
+		government = feudal_government
 	}
 	1171.1.1 = {
 		holder = 142308 # Tello de Menezes
@@ -515,6 +516,7 @@ c_almader = {
 	1147.1.1 = {
 		holder = castilian0229 # Pedro de Menezes
 		liege = k_castille
+		government = feudal_government
 	}
 	1171.1.1 = {
 		holder = 142308 # Tello de Menezes
@@ -2118,7 +2120,7 @@ c_toledo = {
 	}
 	1080.5.25 = {
 		holder = toledo_archbishop_3 # Pascual
-		government = theocracy_government
+		government = ecclesiastical_government
 		liege = k_castille
 	}
 	1086.1.1 = {
@@ -2338,6 +2340,7 @@ c_molina = {
 	1129.1.1 = {
 		holder = 207539 # Pedro Gonz�lez de Lara
 		liege = k_castille
+		government = feudal_government
 	}
 	1130.10.16 = {
 		holder = 207541 # Manrique P�rez de Lara
@@ -2456,6 +2459,7 @@ c_cuenca = {
 	}
 	1158.8.31 = {
 		holder = 207510 # Alfonso VIII de Borgo�a
+		government = feudal_government
 	}
 	1164.7.9 = {
 		holder = 207540 # Pedro Manrique de Lara
@@ -2542,6 +2546,7 @@ c_malagon = {
 	1085.5.25 = {
 		holder = 108500 # Alfonso VI de Borgo�a
 		liege = k_castille
+		government = feudal_government
 	}
 	1147.1.1 = {
 		holder = castilian0229 # Pedro de Menezes

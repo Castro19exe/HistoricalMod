@@ -9,22 +9,45 @@
 601 = {
 	name = "Olga"	#Saint Olga
 	female = yes
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	890.6.5 = {
 		birth = "890.6.5"
 	}
 	959.10.12 = {
-		religion = orthodox
+		# rite = roman_rite
+		#She was baptized in Constantinople
+		rite = byzantine_rite
 	}
 	969.7.11 = {
 		death = "969.7.11"
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {	
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:547 #	Kiev
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
+
 602 = {
 	name = "Sviatoslav"	#Svyatoslav, son of Igor & St Olga
 	dynasty = 705
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = polian
 	trait = education_martial_2
 	father = 600
@@ -42,7 +65,7 @@
 604 = {
 	name = "Yaropolk"	#Yaropolk I
 	dynasty = 705
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = polian
 	father = 602
 	mother = 599
@@ -56,7 +79,7 @@
 606 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = polian
 	father = 602
 	mother = 599
@@ -74,7 +97,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = polian
 	trait = greedy
 	trait = zealous
@@ -92,19 +115,39 @@
 		remove_spouse = 609
 	}
 	989.5.19 = {
-		religion = orthodox
+		rite = slavic_rite	#Slavonic liturgy of the early Rus' sees
 		add_spouse = 41100
 	}
 	1015.7.15 = {
 		give_nickname = nick_the_great
 		death = yes
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {	
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:5083 #	Actually Kiev, Church of the Tithes
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 	
 ###
 6825 = {
 	name = "Yaropolk"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	trait = content
 	trait = cynical
@@ -120,7 +163,7 @@
 
 6826 = {
 	name = "Gostomysl"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = radimichian
 	dynasty = 1029137
 	father = 160139
@@ -136,7 +179,7 @@
 
 6829 = {
 	name = "Vsemil"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	trait = content
 	dynasty = 1029136
@@ -151,7 +194,7 @@
 
 6831 = {
 	name = "Svetozar"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	trait = content
 	dynasty = 1029136
@@ -166,7 +209,7 @@
 
 6832 = {
 	name = "Radoslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	trait = content
 	dynasty = 1029136
@@ -180,7 +223,7 @@
 }
 6833 = {
 	name = "Sviatopolk"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	trait = content
 	dynasty = 1029136
@@ -195,7 +238,7 @@
 
 6835 = {
 	name = "Dobrozhir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 160058
@@ -211,7 +254,7 @@
 6859 = {
 	name = "Yelisey"
 	dynasty = 1029116
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	father = 160051
 	trait = content
@@ -226,7 +269,7 @@
 6868 = {
 	name = "Vsebor"
 	dynasty = 1029117
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = russian
 	trait = content
 	father = 160064
@@ -240,7 +283,7 @@
 
 6869 = {
 	name = "Radoslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160134
@@ -255,7 +298,7 @@
 
 6870 = {
 	name = "Yaropolk"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = radimichian
 	trait = content
 	dynasty = 1029137
@@ -270,7 +313,7 @@
 
 6889 = {
 	name = Yemelyan # Fantasy
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = russian
 	trait = content
 	dynasty = 704
@@ -285,7 +328,7 @@
 122503 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 686
 	mother = 40601
@@ -294,13 +337,14 @@
 	}
 	1093.1.2 = {
 		death = "1093.1.2"
+		dynasty_house = house_rurikid_iziaslavich
 	}
 }
 
 125000 = {
 	name = "Vseslav"	#Vseslav I Iziaslavich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 616
 	994.1.2 = {
@@ -314,7 +358,7 @@
 125001 = {
 	name = "Iziaslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 672	#Glebovich
 	mother = 125095
@@ -329,7 +373,7 @@
 125002 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 672	#Glebovich
 	mother = 125095
@@ -344,7 +388,7 @@
 125003 = {
 	name = "Rogvolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 680
 	1100.1.2 = {
@@ -361,7 +405,7 @@
 125004 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125003
 	mother = 125135
@@ -376,7 +420,7 @@
 125005 = {
 	name = "Vseslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125003
 	mother = 125135
@@ -391,7 +435,7 @@
 125006 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 680
 	1105.1.2 = {
@@ -406,7 +450,7 @@
 	name = "Yevpraxia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	trait = education_learning_3
@@ -419,20 +463,24 @@
 	}
 }
 
+#St Euphrosyne of Polotsk
 125008 = {
 	name = "Yefrosinia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	trait = education_learning_3
+	trait = devoted
+	trait = chaste
 	father = 682
 	1110.1.2 = {
 		birth = "1110.1.2"
 	}
 	1173.1.2 = {
 		death = "1173.1.2"
+		trait = saint
 	}
 }
 
@@ -440,7 +488,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222560
 	mother = 125220
@@ -455,7 +503,7 @@
 125010 = {
 	name = "Briachislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222560
 	mother = 125220
@@ -471,7 +519,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125010
 	1221.1.2 = {
@@ -485,7 +533,7 @@
 125012 = {
 	name = "Iziaslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125010
 	1222.1.2 = {
@@ -499,7 +547,7 @@
 125013 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125010
 	1223.1.2 = {
@@ -513,7 +561,7 @@
 125014 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125013
 	1245.1.2 = {
@@ -527,7 +575,7 @@
 125015 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125010
 	1225.1.2 = {
@@ -541,7 +589,7 @@
 125016 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125015
 	1265.1.2 = {
@@ -555,7 +603,7 @@
 125017 = {
 	name = "Vsevolod"	#Vsevolod Vladimirovich, brother of Yaroslav the Wise
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	mother = 609
@@ -570,7 +618,7 @@
 125018 = {
 	name = "Stanislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	986.1.2 = {
@@ -584,7 +632,7 @@
 125019 = {
 	name = "Sviatoslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	982.1.2 = {
@@ -599,7 +647,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222545
 	1098.1.2 = {
@@ -613,7 +661,7 @@
 125021 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222545
 	1100.1.2 = {
@@ -627,7 +675,7 @@
 125022 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222545
 	1120.1.2 = {
@@ -641,7 +689,7 @@
 125023 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222545
 	1125.1.2 = {
@@ -655,7 +703,7 @@
 125024 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9130
 	1090.1.2 = {
@@ -669,7 +717,7 @@
 125025 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222504
 	trait = bastard
@@ -689,8 +737,8 @@
 
 125027 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 684
 	mother = 7061
@@ -704,8 +752,8 @@
 
 125028 = {
 	name = "Viacheslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 684
 	mother = 7061
@@ -720,8 +768,8 @@
 125029 = {
 	name = "Anna"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1090.1.2 = {
@@ -734,8 +782,8 @@
 
 125030 = {
 	name = "Briachislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1104.1.2 = {
@@ -748,8 +796,8 @@
 
 125031 = {
 	name = "Iziaslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1105.1.2 = {
@@ -762,8 +810,8 @@
 
 125032 = {
 	name = "Mstislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	trait = bastard
@@ -777,8 +825,8 @@
 
 125033 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -792,8 +840,8 @@
 
 125034 = {
 	name = "Sviatopolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -807,8 +855,8 @@
 
 125035 = {
 	name = "Yaropolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -822,8 +870,8 @@
 
 125036 = {
 	name = "Gleb"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -838,7 +886,7 @@
 125037 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125036
 	1180.1.2 = {
@@ -852,7 +900,7 @@
 125038 = {
 	name = "Alexandr"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125036
 	1185.1.2 = {
@@ -866,7 +914,7 @@
 125039 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125037
 	1200.1.2 = {
@@ -880,7 +928,7 @@
 125040 = {
 	name = "Feodor"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125037
 	1205.1.2 = {
@@ -894,7 +942,7 @@
 125041 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125037
 	1215.1.2 = {
@@ -908,7 +956,7 @@
 125042 = {
 	name = "Demid"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125037
 	1225.1.2 = {
@@ -922,7 +970,7 @@
 125043 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125041
 	1250.1.2 = {
@@ -936,10 +984,13 @@
 125044 = {
 	name = "Kilikia"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1028.1.2 = {
 		birth = "1028.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1069.1.2 = {
 		death = "1069.1.2"
@@ -948,8 +999,8 @@
 
 125045 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 656
 	1074.1.2 = {
@@ -965,8 +1016,8 @@
 
 125046 = {
 	name = "Sviatoslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 125045
 	mother = 125020
@@ -983,8 +1034,8 @@
 
 125047 = {
 	name = "Iziaslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 656
 	1076.1.2 = {
@@ -997,8 +1048,8 @@
 
 125048 = {
 	name = "Vsevolod"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 656
 	1078.1.2 = {
@@ -1014,8 +1065,8 @@
 
 125049 = {
 	name = "Sviatoslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 656
@@ -1032,8 +1083,8 @@
 
 125050 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 656
 	1082.1.2 = {
@@ -1046,8 +1097,8 @@
 
 125052 = {
 	name = "Oleg"	#Oleg II Sviatoslavich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -1063,7 +1114,7 @@
 	name = "Agrippina"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 98015
 	mother = 98012
@@ -1079,7 +1130,7 @@
 	name = "Yelizaveta"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 98015
 	mother = 98012
@@ -1095,7 +1146,7 @@
 	name = "Feodora"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222520
 	mother = 222521
@@ -1110,7 +1161,7 @@
 125057 = {
 	name = "Bela"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 98015
 	mother = 98012
@@ -1125,7 +1176,7 @@
 125058 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 98015
 	mother = 98012
@@ -1140,7 +1191,7 @@
 125059 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222654
 	mother = 125104
@@ -1155,7 +1206,7 @@
 125060 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125059
 	1245.1.2 = {
@@ -1169,7 +1220,7 @@
 125061 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125059
 	1247.1.2 = {
@@ -1184,7 +1235,7 @@
 	name = "Olga"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125059
 	1250.1.2 = {
@@ -1198,7 +1249,7 @@
 125063 = {
 	name = "Simeon"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222654
 	mother = 125104
@@ -1214,7 +1265,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222654
 	mother = 125104
@@ -1229,7 +1280,7 @@
 125065 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222652
 	mother = 221523
@@ -1245,7 +1296,7 @@
 	name = "Agafya"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222652
 	mother = 221523
@@ -1261,7 +1312,7 @@
 	name = "Yevfimia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222655
 	mother = 222656
@@ -1276,8 +1327,8 @@
 125068 = {
 	name = "Zvenislava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222602
 	mother = 222603
@@ -1291,8 +1342,8 @@
 
 125069 = {
 	name = "Igor"	#Igor II of Kiev
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 660	#Olgovych
 	mother = 125051
@@ -1306,8 +1357,8 @@
 
 125070 = {
 	name = "Oleg"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222632
 	mother = 222633
@@ -1327,8 +1378,8 @@
 
 125071 = {
 	name = "Sviatoslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 125070
 	1166.1.2 = {
@@ -1342,7 +1393,7 @@
 125072 = {
 	name = "Iziaslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222635
 	1186.1.2 = {
@@ -1357,7 +1408,7 @@
 	name = "Agafya"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222638
 	mother = 125138
@@ -1372,7 +1423,7 @@
 125074 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222637
 	1200.1.2 = {
@@ -1386,7 +1437,7 @@
 125075 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125074
 	1230.1.2 = {
@@ -1400,7 +1451,7 @@
 125076 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125075
 	1260.1.2 = {
@@ -1414,7 +1465,7 @@
 125077 = {
 	name = "Terentiy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125076
 	1290.1.2 = {
@@ -1427,8 +1478,8 @@
 
 125078 = {
 	name = "Yuriy"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 662	#Yaroslavich
 	1095.1.2 = {
@@ -1443,7 +1494,7 @@
 	name = "Yevdokia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222775
 	1200.1.2 = {
@@ -1457,7 +1508,7 @@
 125080 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222775
 	1205.1.2 = {
@@ -1471,7 +1522,7 @@
 125081 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125080
 	1221.1.2 = {
@@ -1485,8 +1536,8 @@
 125082 = {
 	name = "Yefrosinia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222675
 	1125.1.2 = {
@@ -1500,8 +1551,8 @@
 125083 = {
 	name = "Vseslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -1516,7 +1567,7 @@
 125084 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222745
 	mother = 125083
@@ -1531,7 +1582,7 @@
 125085 = {
 	name = "Ingvar"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222752
 	1210.1.2 = {
@@ -1545,7 +1596,7 @@
 125086 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222752
 	1215.1.2 = {
@@ -1559,7 +1610,7 @@
 125087 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 125086
@@ -1574,7 +1625,7 @@
 125088 = {
 	name = "Feodor"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125087
 	1255.1.2 = {
@@ -1588,7 +1639,7 @@
 125089 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125087
 	1262.1.2 = {
@@ -1602,7 +1653,7 @@
 125090 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125089
 	1280.1.2 = {
@@ -1617,7 +1668,7 @@
 	name = "Olena"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222652
 	mother = 221523
@@ -1631,8 +1682,8 @@
 
 125093 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 630
 	mother = 125092
@@ -1648,8 +1699,8 @@
 	name = "Yevpraxia"
 	# AKA: Eupraxia
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 630
 	mother = 125092
@@ -1664,8 +1715,8 @@
 125095 = {
 	name = "Anastasia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 684
 	mother = 7061
@@ -1679,8 +1730,8 @@
 
 125096 = {
 	name = "Iziaslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1694,8 +1745,8 @@
 
 125097 = {
 	name = "Sviatoslav"		#Svyatoslav I Vladimirovich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1709,8 +1760,8 @@
 
 125098 = {
 	name = "Roman"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1729,7 +1780,7 @@
 	name = "Irina"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9128
 	1088.1.2 = {
@@ -1744,7 +1795,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9128
 	1097.1.2 = {
@@ -1757,8 +1808,8 @@
 
 125101 = {
 	name = "Yaropolk"	#Yaropolk II of Kiev / Smolensk / Pereyaslavl
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1772,8 +1823,8 @@
 
 125102 = {
 	name = "Viacheslav"		#Vyacheslavl I Vladimirovich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1788,8 +1839,8 @@
 125103 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1805,7 +1856,7 @@
 	name = "Olena"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222520
 	mother = 222521
@@ -1820,8 +1871,8 @@
 125105 = {
 	name = "Agafya"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -1835,8 +1886,8 @@
 
 125106 = {
 	name = "Andrei"		#Andrey Vladimirovich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	1102.8.11 = {
@@ -1849,8 +1900,8 @@
 
 125107 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 125106
 	1120.1.2 = {
@@ -1867,8 +1918,8 @@
 125108 = {
 	name = "Anna"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222632
 	mother = 222633
@@ -1883,8 +1934,8 @@
 125109 = {
 	name = "Yevpraxia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -1899,8 +1950,8 @@
 125110 = {
 	name = "Anna"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 125049
 	mother = 125029
@@ -1915,8 +1966,8 @@
 125111 = {
 	name = "Rogneda"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -1931,8 +1982,8 @@
 125112 = {
 	name = "Xenia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -1946,8 +1997,8 @@
 
 125113 = {
 	name = "Sviatopolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -1962,7 +2013,7 @@
 125114 = {
 	name = "Daniil"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222520
 	mother = 125053
@@ -1983,7 +2034,7 @@
 125115 = {
 	name = "Irakli"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2000,7 +2051,7 @@
 	dynasty = 705
 	martial = 8
 	diplomacy = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2018,7 +2069,7 @@
 125117 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 471511
 	mother = 125221
@@ -2033,7 +2084,7 @@
 125118 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 473516
 	mother = 125157
@@ -2049,7 +2100,7 @@
 	name = "Anastasia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125116
 	mother = 98037
@@ -2065,7 +2116,7 @@
 	name = "Sviatoslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 125116
@@ -2081,7 +2132,7 @@
 125121 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2097,7 +2148,7 @@
 	name = "Svarnas"
 	# AKA: Shvarn
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2115,7 +2166,7 @@
 125123 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2131,7 +2182,7 @@
 	name = "Pereyaslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2147,7 +2198,7 @@
 	name = "Dobroslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2163,7 +2214,7 @@
 	name = "Sofia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125114
 	mother = 125147
@@ -2178,7 +2229,7 @@
 125127 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222520
 	mother = 125053
@@ -2196,7 +2247,7 @@
 125128 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125127
 	mother = 125189
@@ -2215,7 +2266,7 @@
 	name = "Olga"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125127
 	mother = 125189
@@ -2229,8 +2280,8 @@
 
 125130 = {
 	name = "Alexandr"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222524
 	1173.1.2 = {
@@ -2247,7 +2298,7 @@
 125131 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125130
 	mother = 125141
@@ -2261,8 +2312,8 @@
 
 125132 = {
 	name = "Ingvar"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222622
 	mother = 222623
@@ -2277,7 +2328,7 @@
 125133 = {
 	name = "Iziaslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125132
 	1180.1.2 = {
@@ -2292,7 +2343,7 @@
 	name = "Gremislava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125132
 	1190.1.2 = {
@@ -2306,8 +2357,8 @@
 125135 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222525
 	mother = 30201
@@ -2322,7 +2373,7 @@
 125136 = {
 	name = "Sviatoslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222610
 	1180.1.2 = {
@@ -2336,7 +2387,7 @@
 125137 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222610
 	1185.1.2 = {
@@ -2350,8 +2401,8 @@
 125138 = {
 	name = "Yaroslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -2366,8 +2417,8 @@
 125139 = {
 	name = "Vseslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -2383,7 +2434,7 @@
 	name = "Marina"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222588
 	1210.1.2 = {
@@ -2397,8 +2448,8 @@
 125141 = {
 	name = "Olga"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222588
 	1175.1.2 = {
@@ -2411,8 +2462,8 @@
 
 125142 = {
 	name = "Sviatoslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1141.1.2 = {
@@ -2426,8 +2477,8 @@
 125143 = {
 	name = "Agafya"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1150.1.2 = {
@@ -2441,8 +2492,8 @@
 125144 = {
 	name = "Feodosia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -2457,7 +2508,7 @@
 125146 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222589
 	mother = 125145
@@ -2473,7 +2524,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222589
 	mother = 125145
@@ -2489,7 +2540,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222589
 	mother = 125145
@@ -2505,7 +2556,7 @@
 	name = "Rostislava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222589
 	mother = 125145
@@ -2519,8 +2570,8 @@
 
 125150 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222582
 	mother = 125144
@@ -2535,7 +2586,7 @@
 125151 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125150
 	1200.1.2 = {
@@ -2548,8 +2599,8 @@
 
 125152 = {
 	name = "Konstantin"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222570
 	1190.1.2 = {
@@ -2562,8 +2613,8 @@
 
 125153 = {
 	name = "Feodor"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222570
 	1193.1.2 = {
@@ -2577,7 +2628,7 @@
 125154 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125153
 	1210.1.2 = {
@@ -2591,7 +2642,7 @@
 125155 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125154
 	1235.1.2 = {
@@ -2605,7 +2656,7 @@
 125156 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125154
 	1237.1.2 = {
@@ -2620,7 +2671,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472505
 	1290.1.2 = {
@@ -2634,7 +2685,7 @@
 125158 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472794
 	mother = 125177
@@ -2649,10 +2700,10 @@
 125159 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = chaste
-	trait = scholar
+	trait = erudite
 	father = 472794
 	mother = 472795
 	1282.1.2 = {
@@ -2665,8 +2716,8 @@
 
 125160 = {
 	name = "Ivan"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -2680,8 +2731,8 @@
 
 125161 = {
 	name = "Iziaslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222676
 	mother = 222677
@@ -2696,8 +2747,8 @@
 125162 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -2712,8 +2763,8 @@
 125163 = {
 	name = "Anna"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 125047
 	1130.1.2 = {
@@ -2727,8 +2778,8 @@
 125164 = {
 	name = "Zabava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222600
 	mother = 222601
@@ -2742,8 +2793,8 @@
 
 125165 = {
 	name = "Iziaslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222702
 	mother = 125163
@@ -2757,8 +2808,8 @@
 
 125166 = {
 	name = "Vasilko"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -2772,8 +2823,8 @@
 
 125167 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -2787,8 +2838,8 @@
 
 125168 = {
 	name = "Sviatoslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -2804,7 +2855,7 @@
 	name = "Agafya"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222610
 	1190.1.2 = {
@@ -2818,7 +2869,7 @@
 125170 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222686
 	mother = 125169
@@ -2837,7 +2888,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125081
 	1237.1.2 = {
@@ -2851,7 +2902,7 @@
 125172 = {
 	name = "Alexandr"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472813
 	1286.1.2 = {
@@ -2866,7 +2917,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472813
 	1283.1.2 = {
@@ -2880,7 +2931,7 @@
 125174 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222686
 	mother = 125169
@@ -2895,7 +2946,7 @@
 125175 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125174
 	1229.1.2 = {
@@ -2909,7 +2960,7 @@
 125176 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125174
 	1230.1.2 = {
@@ -2924,7 +2975,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125175
 	1246.1.2 = {
@@ -2938,7 +2989,7 @@
 125178 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222686
 	mother = 125169
@@ -2957,7 +3008,7 @@
 	name = "Yevdokia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222752
 	1216.1.2 = {
@@ -2971,7 +3022,7 @@
 125180 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125178
 	mother = 125179
@@ -2986,7 +3037,7 @@
 125181 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125178
 	mother = 125179
@@ -3001,7 +3052,7 @@
 125182 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -3016,7 +3067,7 @@
 125183 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -3031,7 +3082,7 @@
 125184 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -3049,7 +3100,7 @@
 125185 = {
 	name = "Vsevolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125184
 	mother = 125066
@@ -3067,7 +3118,7 @@
 125186 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125184
 	mother = 125066
@@ -3082,7 +3133,7 @@
 125187 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125184
 	mother = 125066
@@ -3098,7 +3149,7 @@
 	name = "Feodora"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125184
 	mother = 125066
@@ -3114,7 +3165,7 @@
 	name = "Dobrava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125184
 	mother = 125066
@@ -3129,7 +3180,7 @@
 125190 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -3148,7 +3199,7 @@
 	name = "Yevdokia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222655
 	mother = 222656
@@ -3163,7 +3214,7 @@
 125192 = {
 	name = "Sviatoslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 222670
@@ -3182,7 +3233,7 @@
 125193 = {
 	name = "Dmitriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125192
 	mother = 125079
@@ -3197,7 +3248,7 @@
 125194 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125193
 	1250.1.2 = {
@@ -3211,7 +3262,7 @@
 125195 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125194
 	1290.1.2 = {
@@ -3225,7 +3276,7 @@
 125196 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -3240,7 +3291,7 @@
 125197 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125196
 	1230.1.2 = {
@@ -3254,7 +3305,7 @@
 125198 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125197
 	1260.1.2 = {
@@ -3268,7 +3319,7 @@
 125199 = {
 	name = "Feodor"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125198
 	1290.1.2 = {
@@ -3282,7 +3333,7 @@
 125200 = {
 	name = "Dmitriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125199
 	1320.1.2 = {
@@ -3296,7 +3347,7 @@
 125201 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125199
 	1322.1.2 = {
@@ -3310,7 +3361,7 @@
 125202 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125199
 	1324.1.2 = {
@@ -3324,7 +3375,7 @@
 125203 = {
 	name = "Feodor"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -3340,7 +3391,7 @@
 	name = "Mikhail"
 	# AKA: Mikhail 'Khorobrit'
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -3355,7 +3406,7 @@
 125205 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125204
 	1245.1.2 = {
@@ -3369,7 +3420,7 @@
 125206 = {
 	name = "Daniil"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -3384,7 +3435,7 @@
 125207 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -3399,7 +3450,7 @@
 125208 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125207
 	1254.1.2 = {
@@ -3413,7 +3464,7 @@
 125209 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -3429,7 +3480,7 @@
 125210 = {
 	name = "Vasiliy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472844
 	mother = 472845
@@ -3444,7 +3495,7 @@
 125211 = {
 	name = "Dmitriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472844
 	mother = 472845
@@ -3459,7 +3510,7 @@
 125212 = {
 	name = "Alexandr"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125211
 	1270.1.2 = {
@@ -3474,7 +3525,7 @@
 	name = "Ivan"
 	# AKA: Ivan 'Bolshoy'
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125211
 	1272.1.2 = {
@@ -3492,7 +3543,7 @@
 	name = "Ivan"
 	# AKA: Ivan 'Menshoy'
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125211
 	1274.1.2 = {
@@ -3507,7 +3558,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125211
 	1268.1.2 = {
@@ -3522,7 +3573,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472804
 	1290.1.2 = {
@@ -3536,7 +3587,7 @@
 125217 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472914
 	mother = 125125
@@ -3551,7 +3602,7 @@
 125218 = {
 	name = "Sviatoslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472864
 	mother = 472865
@@ -3566,8 +3617,8 @@
 125219 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222676
 	mother = 222677
@@ -3582,8 +3633,8 @@
 125220 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1165.1.2 = {
@@ -3598,7 +3649,7 @@
 	name = "Xenia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472864
 	mother = 472865
@@ -3613,7 +3664,7 @@
 125222 = {
 	name = "Alexandr"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472804
 	1286.1.2 = {
@@ -3627,7 +3678,7 @@
 125223 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125222
 	1302.1.2 = {
@@ -3641,7 +3692,7 @@
 125224 = {
 	name = "Konstantin"
 	dynasty = 11101
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1095.1.2 = {
 		birth = "1095.1.2"
@@ -3657,7 +3708,7 @@
 125225 = {
 	name = "Yakun"
 	dynasty = 11102
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1110.1.2 = {
 		birth = "1110.1.2"
@@ -3673,7 +3724,7 @@
 125226 = {
 	name = "Sudila"
 	dynasty = 11103
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1100.1.2 = {
 		birth = "1100.1.2"
@@ -3689,7 +3740,7 @@
 125227 = {
 	name = "Nezhata"
 	dynasty = 11104
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1100.1.2 = {
 		birth = "1100.1.2"
@@ -3705,7 +3756,7 @@
 125228 = {
 	name = "Zakhariya"
 	dynasty = 11105
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1120.1.2 = {
 		birth = "1120.1.2"
@@ -3720,7 +3771,7 @@
 
 125229 = {
 	name = "Yakun"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1120.1.2 = {
 		birth = "1120.1.2"
@@ -3736,7 +3787,7 @@
 125230 = {
 	name = "Zhiroslav"
 	dynasty = 11103
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125226
 	1120.1.2 = {
@@ -3753,7 +3804,7 @@
 125231 = {
 	name = "Ivanko"
 	dynasty = 11105
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125228
 	1140.1.2 = {
@@ -3767,13 +3818,12 @@
 125232 = {
 	name = "Zavid"
 	dynasty = 11106
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
+	stewardship = 8
+	trait = education_stewardship_3
 	1130.1.2 = {
 		birth = "1130.1.2"
-	}
-	1136.1.2 = {
-		capital = "c_novgorod"
 	}
 	1180.1.2 = {
 		death = "1180.1.2"
@@ -3783,13 +3833,10 @@
 125233 = {
 	name = "Mikhalko"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1155.1.2 = {
 		birth = "1155.1.2"
-	}
-	1155.1.2 = {
-		capital = "c_novgorod"
 	}
 	1205.1.2 = {
 		death = "1205.1.2"
@@ -3799,13 +3846,10 @@
 125234 = {
 	name = "Miroshko"
 	dynasty = 11108
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1154.1.2 = {
 		birth = "1154.1.2"
-	}
-	1154.1.2 = {
-		capital = "c_novgorod"
 	}
 	1204.1.2 = {
 		death = "1204.1.2"
@@ -3815,14 +3859,11 @@
 125235 = {
 	name = "Dmitriy"
 	dynasty = 11108
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125234
 	1170.1.2 = {
 		birth = "1170.1.2"
-	}
-	1170.1.2 = {
-		capital = "c_novgorod"
 	}
 	1220.1.2 = {
 		death = "1220.1.2"
@@ -3832,14 +3873,11 @@
 125236 = {
 	name = "Tverdislav"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125233
 	1175.1.2 = {
 		birth = "1175.1.2"
-	}
-	1175.1.2 = {
-		capital = "c_novgorod"
 	}
 	1225.1.2 = {
 		death = "1225.1.2"
@@ -3848,14 +3886,11 @@
 
 125237 = {
 	name = "Dmitriy"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125229
 	1150.1.2 = {
 		birth = "1150.1.2"
-	}
-	1150.1.2 = {
-		capital = "c_novgorod"
 	}
 	1212.1.2 = {
 		death = "1212.1.2"
@@ -3865,14 +3900,11 @@
 125238 = {
 	name = "Yuriy"
 	dynasty = 11105
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125231
 	1160.1.2 = {
 		birth = "1160.1.2"
-	}
-	1160.1.2 = {
-		capital = "c_novgorod"
 	}
 	1216.1.2 = {
 		death = "1216.1.2"
@@ -3881,13 +3913,10 @@
 
 125239 = {
 	name = "Simeon"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1160.1.2 = {
 		birth = "1160.1.2"
-	}
-	1160.1.2 = {
-		capital = "c_novgorod"
 	}
 	1219.7.2 = {
 		death = "1219.7.2"
@@ -3896,14 +3925,11 @@
 
 125240 = {
 	name = "Ivanko"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125237
 	1170.1.2 = {
 		birth = "1170.1.2"
-	}
-	1170.1.2 = {
-		capital = "c_novgorod"
 	}
 	1229.1.2 = {
 		death = "1229.1.2"
@@ -3913,14 +3939,11 @@
 125241 = {
 	name = "Feodor"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125233
 	1175.1.2 = {
 		birth = "1175.1.2"
-	}
-	1175.1.2 = {
-		capital = "c_novgorod"
 	}
 	1225.1.2 = {
 		death = "1225.1.2"
@@ -3929,13 +3952,10 @@
 
 125242 = {
 	name = "Sudimir"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1175.1.2 = {
 		birth = "1175.1.2"
-	}
-	1175.1.2 = {
-		capital = "c_novgorod"
 	}
 	1226.1.2 = {
 		death = "1226.1.2"
@@ -3945,13 +3965,10 @@
 125243 = {
 	name = "Vnezd"
 	# AKA: Vnezd Vodovik
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1180.1.2 = {
 		birth = "1180.1.2"
-	}
-	1180.1.2 = {
-		capital = "c_novgorod"
 	}
 	1231.1.2 = {
 		death = "1231.1.2"
@@ -3961,17 +3978,11 @@
 125244 = {
 	name = "Stepan"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125236
 	1195.1.2 = {
 		birth = "1195.1.2"
-	}
-	1195.1.2 = {
-		capital = "c_novgorod"
-	}
-	1240.1.1 = {
-		capital = "c_novgorod"
 	}
 	1243.1.2 = {
 		death = "1243.1.2"
@@ -3980,13 +3991,10 @@
 
 125245 = {
 	name = "Sbyslav"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1200.1.2 = {
 		birth = "1200.1.2"
-	}
-	1200.1.2 = {
-		capital = "c_novgorod"
 	}
 	1250.1.2 = {
 		death = "1250.1.2"
@@ -3996,7 +4004,7 @@
 125246 = {
 	name = "Onaniya"
 	dynasty = 11109
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1200.1.2 = {
 		birth = "1200.1.2"
@@ -4012,7 +4020,7 @@
 125247 = {
 	name = "Mikhalko"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125244
 	1215.1.2 = {
@@ -4029,7 +4037,7 @@
 125248 = {
 	name = "Mikhail"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125241
 	1195.1.2 = {
@@ -4046,7 +4054,7 @@
 125249 = {
 	name = "Pavsha"
 	dynasty = 11109
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125246
 	1220.1.2 = {
@@ -4063,7 +4071,7 @@
 125250 = {
 	name = "Mikhail"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125247
 	1235.1.2 = {
@@ -4080,7 +4088,7 @@
 125251 = {
 	name = "Simeon"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125248
 	1225.1.2 = {
@@ -4097,7 +4105,7 @@
 125252 = {
 	name = "Andrei"
 	dynasty = 11110
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1250.1.2 = {
 		birth = "1250.1.2"
@@ -4113,7 +4121,7 @@
 125253 = {
 	name = "Yuriy"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125247
 	1240.1.2 = {
@@ -4130,7 +4138,7 @@
 125254 = {
 	name = "Simeon"
 	dynasty = 11110
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1255.1.2 = {
 		birth = "1255.1.2"
@@ -4146,7 +4154,7 @@
 125255 = {
 	name = "Mikhail"
 	dynasty = 11109
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125249
 	1250.1.2 = {
@@ -4163,7 +4171,7 @@
 125256 = {
 	name = "Varfolomei"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125253
 	1280.1.2 = {
@@ -4180,7 +4188,7 @@
 125257 = {
 	name = "Danila"
 	dynasty = 1042648
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1290.1.2 = {
 		birth = "1290.1.2"
@@ -4195,7 +4203,7 @@
 
 125258 = {
 	name = "Feodor"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1290.1.2 = {
 		birth = "1290.1.2"
@@ -4211,7 +4219,7 @@
 125259 = {
 	name = "Matvei"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125256
 	1300.1.2 = {
@@ -4228,7 +4236,7 @@
 125260 = {
 	name = "Feodor"
 	dynasty = 1042648
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125257
 	1310.1.2 = {
@@ -4247,11 +4255,14 @@
 	# AKA: Dobronega Maria
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	1012.1.2 = {
 		birth = "1012.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1087.1.2 = {
 		death = "1087.1.2"
@@ -4265,12 +4276,15 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = education_martial_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4284,12 +4298,15 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = arrogant
 	trait = education_diplomacy_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4303,11 +4320,14 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4321,12 +4341,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = education_intrigue_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4340,12 +4363,15 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = hunchbacked
 	trait = education_intrigue_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4359,13 +4385,16 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = zealous
 	trait = education_diplomacy_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4379,12 +4408,15 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = education_learning_3
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4398,12 +4430,15 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = education_martial_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4417,13 +4452,16 @@
 	diplomacy = 8
 	intrigue = 4
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = arrogant
 	trait = education_martial_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4437,12 +4475,15 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = gluttonous
 	trait = education_learning_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4456,13 +4497,16 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = lisping
 	trait = education_intrigue_1
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4476,13 +4520,16 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = clubfooted
 	trait = education_intrigue_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4496,12 +4543,15 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = temperate
 	trait = education_learning_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4515,7 +4565,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = greedy
@@ -4524,6 +4574,9 @@
 	trait = education_martial_3
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4537,12 +4590,15 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = hunchbacked
 	trait = education_martial_3
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4556,12 +4612,15 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = education_learning_3
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4575,12 +4634,15 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = deceitful
 	trait = education_martial_2
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -4594,7 +4656,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 4
-	religion = "ashari"
+	rite = shafii
 	culture = "russian"
 	trait = education_learning_2
 	1039.1.1 = {
@@ -4612,7 +4674,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 7
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "russian"
 	trait = wrathful
 	trait = greedy
@@ -4632,7 +4694,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = wrathful
 	trait = honest
@@ -4648,8 +4710,8 @@
 219532 = {
 	name = "Predslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1088.1.2 = {
@@ -4667,7 +4729,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_martial_2
 	1150.1.1 = {
@@ -4685,7 +4747,7 @@
 	diplomacy = 4
 	intrigue = 8
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_2
 	1150.1.1 = {
@@ -4703,7 +4765,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = ill
 	trait = education_martial_2
@@ -4722,7 +4784,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = chaste
 	trait = deceitful
@@ -4742,7 +4804,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = calm
 	trait = education_intrigue_1
@@ -4761,7 +4823,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_2
 	1150.1.1 = {
@@ -4779,7 +4841,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_1
 	1150.1.1 = {
@@ -4797,7 +4859,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = lazy
 	trait = cynical
@@ -4817,7 +4879,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_2
 	1150.1.1 = {
@@ -4835,7 +4897,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = wrathful
 	trait = education_learning_2
@@ -4854,7 +4916,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = education_learning_2
@@ -4873,7 +4935,7 @@
 	diplomacy = 5
 	intrigue = 7
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = education_martial_3
@@ -4892,7 +4954,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = lustful
 	trait = calm
@@ -4909,8 +4971,10 @@
 222500 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	stewardship = 6
+	rite = slavic_rite
 	culture = "russian"
+	stewardship = 8
 	father = 222502
 	mother = 219525
 	1135.1.2 = {
@@ -4927,8 +4991,8 @@
 222501 = {
 	name = "Olga"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -4944,7 +5008,7 @@
 	name = "Vladimir"
 	# AKA: Vladimirko
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9128
 	1104.1.2 = {
@@ -4961,11 +5025,13 @@
 222504 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
+	trait = education_stewardship_1
 	trait = lustful
 	trait = gluttonous
 	trait = lazy
+	trait = profligate
 	father = 222500
 	mother = 222501
 	1151.1.4 = {
@@ -4973,6 +5039,11 @@
 	}
 	1167.1.4 = {
 		add_spouse = 222505
+	}
+	1172.1.1 = {
+		effect = {
+			set_relation_rival = character:222500 # his father, Yaroslav
+		}
 	}
 	1199.1.4 = {
 		death = "1199.1.4"
@@ -4983,8 +5054,8 @@
 	name = "Boleslava"
 	# AKA: Bolyeslava
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -4999,7 +5070,7 @@
 222506 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = bastard
 	father = 222500
@@ -5016,7 +5087,7 @@
 	# AKA: Vyacheslava
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222500
 	mother = 222501
@@ -5031,7 +5102,7 @@
 222510 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222511
 	1150.1.2 = {
@@ -5045,7 +5116,7 @@
 222511 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222512
 	1120.1.2 = {
@@ -5059,7 +5130,7 @@
 222512 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9128
 	1098.1.2 = {
@@ -5072,8 +5143,8 @@
 
 222520 = {
 	name = "Roman"		#Roman the Great
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222522
 	mother = 221514
@@ -5097,8 +5168,8 @@
 222521 = {
 	name = "Predslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -5112,8 +5183,8 @@
 
 222522 = {
 	name = "Mstislav"	#Mstislav II of Kiev / Mstislavl Izyaslavich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222525
 	mother = 30201
@@ -5131,8 +5202,8 @@
 222524 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222522
 	mother = 221514
@@ -5147,8 +5218,8 @@
 222525 = {
 	name = "Iziaslav"	#Iziaslav II of Kiev / Pereyaslavl / Turov / Rostov / Volhynia
 	# AKA: Izyaslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -5166,8 +5237,8 @@
 222530 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	trait = bastard
 	father = 222522
@@ -5181,8 +5252,8 @@
 
 222531 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222522
 	mother = 221514
@@ -5196,8 +5267,8 @@
 
 222540 = {
 	name = "Ivan"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -5211,8 +5282,8 @@
 
 222542 = {
 	name = "Yuriy"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222544
 	mother = 125902
@@ -5231,7 +5302,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222545
 	1099.1.2 = {
@@ -5244,8 +5315,8 @@
 
 222544 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1072.1.2 = {
@@ -5269,7 +5340,7 @@
 	name = "Vsevolod"
 	# AKA: Vsyevolod
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 668
 	1075.1.2 = {
@@ -5286,8 +5357,8 @@
 222546 = {
 	name = "Pribislava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222544
 	mother = 125111
@@ -5303,7 +5374,7 @@
 	name = "Vladimir"
 	# AKA: Volodar
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222552
 	mother = 222553
@@ -5319,7 +5390,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222552
 	mother = 222553
@@ -5335,7 +5406,7 @@
 	name = "Vseslav"
 	# AKA: Vsyeslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222554		#Vasilkovich
 	1120.1.2 = {
@@ -5352,8 +5423,8 @@
 222553 = {
 	name = "Olga"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_2
 	father = 222577
@@ -5369,7 +5440,7 @@
 222554 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 682
 	1100.1.2 = {
@@ -5383,7 +5454,7 @@
 222560 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222562		#Briachislavich
 	1165.1.2 = {
@@ -5401,7 +5472,7 @@
 	name = "Briachislav"
 	# AKA: Bryachislav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222554		#Vasilkovich
 	1142.1.2 = {
@@ -5415,8 +5486,8 @@
 222570 = {
 	name = "Davyd"
 	# AKA: David
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1140.1.2 = {
@@ -5429,8 +5500,8 @@
 
 222572 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -5446,8 +5517,8 @@
 	name = "Yefrosinia"
 	# AKA: Yevfrosinia
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222576
@@ -5461,12 +5532,12 @@
 
 222574 = {
 	name = "Mstislav"	#Son of  Vladimir II Monomakh
-	dynasty = 705
+	dynasty_house = house_rurikid_vsevolodovich
 	martial = 7
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -5488,7 +5559,7 @@
 	name = "Liubava"
 	female = yes
 	dynasty = 511
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9300
 	1100.1.2 = {
@@ -5501,9 +5572,10 @@
 
 222577 = {
 	name = "Roman"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
+	stewardship = 8
 	father = 222572
 	1138.1.2 = {
 		birth = "1138.1.2"
@@ -5519,8 +5591,8 @@
 222578 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222632
 	mother = 222633
@@ -5534,8 +5606,8 @@
 
 222579 = {
 	name = "Rurik"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1140.1.2 = {
@@ -5552,8 +5624,8 @@
 222581 = {
 	name = "Anna"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
@@ -5567,11 +5639,13 @@
 
 222582 = {
 	name = "Mstislav"	#"The_Brave"
-	dynasty = 705
+	dynasty_house = house_rurikid_vsevolodovich
 	martial = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
+	trait = education_martial_2
 	trait = brave
+	trait = generous
 	father = 222572
 	1142.1.2 = {
 		birth = "1142.1.2"
@@ -5589,7 +5663,7 @@
 	name = "Iziaslav"
 	# AKA: Izyaslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222570
 	1165.1.2 = {
@@ -5603,7 +5677,7 @@
 222585 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222570
 	1167.1.2 = {
@@ -5616,8 +5690,8 @@
 
 222586 = {
 	name = "Yaropolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222577		#Romanovich
 	mother = 222578
@@ -5631,8 +5705,8 @@
 
 222587 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -5649,8 +5723,8 @@
 
 222588 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -5664,8 +5738,8 @@
 
 222589 = {
 	name = "Mstislav"	#"The_Bold" or "The_Daring"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222582
 	mother = 125144
@@ -5682,8 +5756,8 @@
 
 222590 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222592
 	1160.1.2 = {
@@ -5696,8 +5770,8 @@
 
 222592 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222576
@@ -5712,8 +5786,8 @@
 222593 = {
 	name = "Ingeborg"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -5728,24 +5802,25 @@
 222594 = {
 	name = "Malfrida"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
-	1101.1.2 = {
-		birth = "1101.1.2"
+	1105.1.2 = {
+		birth = yes
 	}
-	1138.1.2 = {
-		death = "1138.1.2"
+	1150.1.2 = {
+		death = yes
 	}
 }
 
 222600 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
+	stewardship = 8
 	father = 222602
 	mother = 222603
 	1139.1.2 = {
@@ -5763,7 +5838,7 @@
 	name = "Yefrosinia"
 	# AKA: Eufrosinia
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1151.1.4 = {
 		birth = "1151.1.4"
@@ -5776,10 +5851,11 @@
 222602 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
-	father = 660	#Olgovich
+	trait = lustful # "He had many concubines and indulged more in pleasures than in affairs"
+	father = 660 # Olgovich
 	mother = 125051
 	1084.1.2 = {
 		birth = "1084.1.2"
@@ -5796,8 +5872,8 @@
 	name = "Maria"
 	# AKA: Agafia
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -5811,26 +5887,26 @@
 
 222606 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222600
 	mother = 222601
-	1174.6.24 = {
-		birth = "1174.6.24"
+	1171.6.24 = {
+		birth = yes
 	}
 	1195.6.24 = {
 		add_spouse = 222690
 	}
 	1215.1.2 = {
-		death = "1215.1.2"
+		death = yes
 	}
 }
 
 222607 = {
 	name = "Yaropolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222600
 	mother = 222601
@@ -5844,8 +5920,8 @@
 
 222610 = {
 	name = "Mstislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222577
 	mother = 222578
@@ -5860,8 +5936,8 @@
 222620 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222622
 	mother = 222623
@@ -5879,23 +5955,23 @@
 222621 = {
 	name = "Malfrida"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222542
 	mother = 222543
-	1115.1.2 = {
-		birth = "1115.1.2"
+	1139.1.2 = {
+		birth = yes
 	}
-	1137.1.2 = {
-		death = "1137.1.2"
+	1186.1.2 = {
+		death = yes
 	}
 }
 
 222622 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222525
 	mother = 30201
@@ -5913,8 +5989,8 @@
 222630 = {
 	name = "Igor"	#Igor Svyatoslavich
 	#Baptism name = Yury
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222632
 	mother = 222633
@@ -5934,7 +6010,7 @@
 	# AKA: Eufrosinia
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222500
 	mother = 222501
@@ -5949,8 +6025,8 @@
 222632 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	trait = arbitrary
 	trait = education_diplomacy_3
@@ -5969,8 +6045,8 @@
 
 222635 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222630
 	1170.1.2 = {
@@ -5986,8 +6062,8 @@
 
 222636 = {
 	name = "Oleg"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222630
 	1175.1.2 = {
@@ -6000,8 +6076,8 @@
 
 222637 = {
 	name = "Roman"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222630
 	1178.1.2 = {
@@ -6015,8 +6091,8 @@
 222638 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222630
 	1177.1.2 = {
@@ -6032,8 +6108,8 @@
 
 222639 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222630
 	1179.1.2 = {
@@ -6046,8 +6122,8 @@
 
 222640 = {
 	name = "Vsyevolod"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222632
 	mother = 222633
@@ -6065,8 +6141,8 @@
 222641 = {
 	name = "Olga"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222702
 	mother = 125163
@@ -6081,9 +6157,11 @@
 222650 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
+	stewardship = 8
+	trait = family_first
 	father = 222602
 	mother = 222603
 	1117.1.2 = {
@@ -6091,6 +6169,11 @@
 	}
 	1143.1.2 = {
 		add_spouse = 222651
+	}
+	1178.1.1 = {
+		effect = {
+			set_relation_rival = { target = character:222570 } # Davyd Rostislavich
+		}
 	}
 	1194.7.27 = {
 		death = "1194.7.27"
@@ -6101,7 +6184,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222554
 	1125.1.2 = {
@@ -6115,8 +6198,8 @@
 222652 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -6134,7 +6217,7 @@
 222654 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 222652
@@ -6152,8 +6235,8 @@
 
 222655 = {
 	name = "Gleb"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -6172,8 +6255,8 @@
 	name = "Anastasia"
 	# AKA: Olga
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222579
 	mother = 222581
@@ -6188,7 +6271,7 @@
 222657 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222655
 	mother = 222656
@@ -6202,8 +6285,8 @@
 
 222658 = {
 	name = "Mstislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -6220,8 +6303,8 @@
 
 222660 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -6240,8 +6323,8 @@
 	name = "Prebrana"
 	# AKA: Elyena
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222682
 	mother = 222683
@@ -6256,12 +6339,14 @@
 222670 = {
 	name = "Vsevolod"	#"the_Big_Nest"
 	# AKA: Vsyevolod 'Bolshoe Gnesdo'
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
+	trait = education_diplomacy_3
 	trait = lustful
 	trait = just
-	trait = zealous
+	trait = patient
+	stewardship = 9
 	father = 222672
 	mother = 222674
 	1154.1.2 = {
@@ -6269,6 +6354,18 @@
 	}
 	1174.1.2 = {
 		add_spouse = 222671
+	}
+	1177.2.20 = {
+		effect = {
+			imprison = {
+				target = character:222745 # Roman of Ryazan
+				type = house_arrest
+			}
+			imprison = {
+				target = character:222740 # Igor of Ryazan
+				type = house_arrest
+			}
+		}
 	}
 	1209.1.2 = {
 		add_spouse = 125009
@@ -6281,10 +6378,10 @@
 222672 = {
 	name = "Yuriy"		#Dolgorukiy
 	# AKA: Yuri
-	dynasty = 705
+	dynasty_house = house_rurikid_vsevolodovich
 	martial = 8
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = ambitious
 	father = 666	#vladimirovich
@@ -6305,8 +6402,8 @@
 
 222675 = {
 	name = "Rostislav"	#Rostislav II Yurevich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -6320,9 +6417,9 @@
 
 222676 = {
 	name = "Andrei"		#Saint Andrei Dolgorukiy
-	dynasty = 705
+	dynasty_house = house_rurikid_vsevolodovich
 	martial = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = ambitious
 	trait = zealous
@@ -6335,7 +6432,9 @@
 		add_spouse = 222677
 	}
 	1174.6.29 = {
-		death = "1174.6.29"
+		death = {
+			death_reason = death_murder
+		}
 	}
 }
 
@@ -6343,7 +6442,7 @@
 	name = "Ulita"
 	female = yes
 	dynasty = 170
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1120.1.2 = {
 		birth = "1120.1.2"
@@ -6355,8 +6454,8 @@
 
 222678 = {
 	name = "Boris"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -6370,8 +6469,8 @@
 
 222681 = {
 	name = "Mstislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -6385,8 +6484,8 @@
 
 222682 = {
 	name = "Mikhail"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672	#Yuryevich
 	mother = 222674
@@ -6404,7 +6503,7 @@
 222683 = {
 	name = "Fevronia"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1150.1.2 = {
 		birth = "1150.1.2"
@@ -6417,7 +6516,7 @@
 222686 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -6434,9 +6533,9 @@
 
 222687 = {
 	name = "Mstislav"
-	dynasty = 705
+	dynasty_house = house_rurikid_vsevolodovich
 	martial = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222676
 	mother = 222677
@@ -6452,7 +6551,7 @@
 	name = "Sbyslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -6468,7 +6567,7 @@
 	name = "Vseslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -6484,7 +6583,7 @@
 	name = "Verkhoslava"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -6498,10 +6597,12 @@
 
 222700 = {
 	name = "Vladimir"	#Vladimir III Glebovich
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	stewardship = 6
+	rite = slavic_rite
 	culture = "russian"
 	trait = brave
+	stewardship = 8
 	father = 222702
 	mother = 125163
 	1157.1.2 = {
@@ -6517,8 +6618,8 @@
 
 222702 = {
 	name = "Gleb"		#Gleb Yuryevich of Kiev
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222672
 	mother = 222673
@@ -6535,8 +6636,8 @@
 
 222710 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222681
 	1155.1.2 = {
@@ -6550,8 +6651,8 @@
 222720 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222722
 	1176.1.2 = {
@@ -6564,8 +6665,8 @@
 
 222722 = {
 	name = "Mstislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	trait = arrogant
 	trait = education_learning_2
@@ -6580,8 +6681,8 @@
 
 222730 = {
 	name = "Yaropolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222675
 	1132.1.2 = {
@@ -6597,8 +6698,8 @@
 
 222740 = {
 	name = "Igor"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6616,8 +6717,8 @@
 222741 = {
 	name = "Agrafena"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1150.1.2 = {
@@ -6630,8 +6731,8 @@
 
 222742 = {
 	name = "Gleb"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222744
 	1120.1.2 = {
@@ -6647,8 +6748,8 @@
 
 222744 = {
 	name = "Rostislav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 662
 	1100.1.2 = {
@@ -6661,8 +6762,8 @@
 
 222745 = {
 	name = "Roman"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6679,8 +6780,8 @@
 
 222746 = {
 	name = "Yaroslav"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6697,8 +6798,8 @@
 
 222747 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6713,8 +6814,8 @@
 222748 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6728,8 +6829,8 @@
 
 222751 = {
 	name = "Roman"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222740
 	mother = 222741
@@ -6744,7 +6845,7 @@
 222752 = {
 	name = "Ingvar"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222740
 	mother = 222741
@@ -6760,7 +6861,7 @@
 	name = "Yuriy"
 	# AKA: Yuri
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222740
 	mother = 222741
@@ -6776,7 +6877,7 @@
 	name = "Mikhail"
 	# AKA: Kur
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222748
 	1186.1.2 = {
@@ -6793,7 +6894,7 @@
 222755 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222747
 	1185.1.2 = {
@@ -6807,8 +6908,8 @@
 222757 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 662
 	1088.1.1 = {
@@ -6822,8 +6923,8 @@
 222760 = {
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222742
 	mother = 125082
@@ -6837,8 +6938,8 @@
 
 222770 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222772
 	1165.1.2 = {
@@ -6852,8 +6953,8 @@
 222772 = {
 	name = "Yuriy"
 	# AKA: Yuri
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222774
 	1145.1.2 = {
@@ -6866,8 +6967,8 @@
 
 222774 = {
 	name = "Vladimir"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222757
 	1120.1.2 = {
@@ -6880,8 +6981,8 @@
 
 222775 = {
 	name = "Davyd"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222772		#Yuryevich
 	1170.1.2 = {
@@ -6895,8 +6996,8 @@
 222781 = {
 	name = "Sbyslava"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 652
 	1080.1.2 = {
@@ -6910,7 +7011,7 @@
 222790 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222792		#Volodarovich
 	1141.1.2 = {
@@ -6924,7 +7025,7 @@
 222792 = {
 	name = "Volodar"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 672	#Glebovich
 	mother = 125095
@@ -6945,7 +7046,7 @@
 222795 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 672	#Glebovich
 	mother = 125095
@@ -6963,8 +7064,8 @@
 222796 = {
 	name = "Sofia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_iziaslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222544
 	mother = 125902
@@ -6980,7 +7081,7 @@
 	name = "Sofia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222792		#Volodarovich
 	mother = 221511
@@ -6995,7 +7096,7 @@
 222798 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222795		#Rostislavich
 	mother = 222796
@@ -7011,7 +7112,7 @@
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222795		#Rostislavich
 	mother = 222796
@@ -7026,7 +7127,7 @@
 222801 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222799
 	1170.1.2 = {
@@ -7040,7 +7141,7 @@
 222810 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222792		#Volodarovich
 	mother = 221511
@@ -7055,8 +7156,8 @@
 222822 = {
 	name = "Vsevolod"
 	# AKA: Vsyevolod
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222574
 	mother = 222575
@@ -7075,8 +7176,8 @@
 	name = "Verkhoslava"
 	# AKA: Vierkuslava
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = education_diplomacy_3
@@ -7094,8 +7195,8 @@
 	name = "Yelena"
 	# AKA: Elena
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222572
 	1150.1.2 = {
@@ -7109,8 +7210,8 @@
 222826 = {
 	name = "Yevdokia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222525
 	mother = 30201
@@ -7125,15 +7226,19 @@
 222828 = {
 	name = "Yuriy"
 	# AKA: Yuri 'Bogolyubsky'
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
+	trait = education_stewardship_1
 	trait = lifestyle_reveler
 	trait = lustful
 	father = 222676
 	mother = 222677
 	1160.1.2 = {
 		birth = "1160.1.2"
+	}
+	1178.1.1 = {
+		employer = 216524
 	}
 	1185.1.2 = {
 		add_spouse = 466517
@@ -7150,7 +7255,7 @@
 	name = "Yevpraxia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 626
 	mother = 761
@@ -7166,10 +7271,13 @@
 	name = "Predslava"
 	# AKA: Predlava
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1047.1.2 = {
 		birth = "1047.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1097.1.2 = {
 		death = "1097.1.2"
@@ -7180,7 +7288,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 630
@@ -7190,16 +7298,20 @@
 	}
 	1112.11.2 = {
 		death = "1112.11.2"
+		dynasty_house = house_rurikid_vsevolodovich
 	}
 }
 
 40603 = {
 	name = "Sofia"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1035.1.2 = {
 		birth = "1035.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1085.1.2 = {
 		death = "1085.1.2"
@@ -7209,7 +7321,7 @@
 40604 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650
 	mother = 40603
@@ -7225,11 +7337,19 @@
 	name = "Agatha"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	1015.1.2 = {
 		birth = "1015.1.2"
+		trait = adventurer_follower
+		effect = {
+			learn_language_of_culture = culture:hungarian
+			learn_language_of_culture = culture:anglo_saxon
+		}
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1093.1.2 = {
 		death = "1093.1.2"
@@ -7243,7 +7363,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_2
 	1280.1.2 = {
@@ -7261,7 +7381,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = lazy
 	trait = humble
@@ -7278,7 +7398,7 @@
 471511 = {
 	name = "Yuriy"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125116
 	mother = 98037
@@ -7299,7 +7419,7 @@
 471512 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 471511
 	mother = 125986
@@ -7316,7 +7436,7 @@
 	# AKA: Maria
 	female = yes
 	dynasty = 705
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "russian"
 	father = 471511
 	1292.1.2 = {
@@ -7334,7 +7454,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_diplomacy_2
 	1300.1.1 = {
@@ -7352,7 +7472,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = lazy
 	trait = generous
@@ -7374,7 +7494,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = chaste
 	trait = lazy
@@ -7395,7 +7515,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = education_intrigue_1
@@ -7414,7 +7534,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = inbred
@@ -7434,7 +7554,7 @@
 	diplomacy = 7
 	intrigue = 6
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = calm
 	trait = education_martial_3
@@ -7453,7 +7573,7 @@
 	diplomacy = 8
 	intrigue = 5
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = education_learning_3
@@ -7472,7 +7592,7 @@
 	diplomacy = 7
 	intrigue = 4
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_diplomacy_2
 	1300.1.1 = {
@@ -7489,7 +7609,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = education_learning_3
@@ -7508,7 +7628,7 @@
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = wrathful
 	trait = honest
@@ -7528,7 +7648,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = education_martial_2
@@ -7547,7 +7667,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = inbred
@@ -7567,7 +7687,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_diplomacy_3
 	1300.1.1 = {
@@ -7585,7 +7705,7 @@
 	diplomacy = 4
 	intrigue = 4
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = calm
 	trait = temperate
@@ -7605,7 +7725,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = education_diplomacy_3
@@ -7624,7 +7744,7 @@
 	diplomacy = 7
 	intrigue = 8
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = deceitful
 	trait = education_learning_3
@@ -7643,7 +7763,7 @@
 	diplomacy = 5
 	intrigue = 5
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = arbitrary
 	trait = brave
@@ -7663,7 +7783,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = chaste
 	trait = wrathful
@@ -7684,7 +7804,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = generous
 	trait = greedy
@@ -7704,7 +7824,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_2
 	1300.1.1 = {
@@ -7722,7 +7842,7 @@
 	diplomacy = 6
 	intrigue = 5
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_1
 	1300.1.1 = {
@@ -7740,7 +7860,7 @@
 	diplomacy = 6
 	intrigue = 8
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = hunchbacked
@@ -7760,7 +7880,7 @@
 	diplomacy = 8
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = just
 	trait = calm
@@ -7781,7 +7901,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_intrigue_1
 	1300.1.1 = {
@@ -7799,7 +7919,7 @@
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = honest
 	trait = education_martial_3
@@ -7814,7 +7934,7 @@
 472500 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472502
 	1290.1.2 = {
@@ -7829,7 +7949,7 @@
 	name = "Alexandr"
 	# AKA: Aleksandr
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472504
 	1258.1.2 = {
@@ -7843,7 +7963,7 @@
 472504 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125154
 	1234.1.2 = {
@@ -7857,7 +7977,7 @@
 472505 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472504
 	1262.1.2 = {
@@ -7872,7 +7992,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472502
 	1291.1.2 = {
@@ -7887,7 +8007,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472502
 	1295.1.2 = {
@@ -7902,7 +8022,7 @@
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472500
 	1318.1.2 = {
@@ -7917,7 +8037,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472500
 	1320.1.2 = {
@@ -7931,7 +8051,7 @@
 472510 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472511
 	1295.1.2 = {
@@ -7946,7 +8066,7 @@
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472504
 	1265.1.2 = {
@@ -7961,7 +8081,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472511
 	1300.1.2 = {
@@ -7976,7 +8096,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472511
 	1305.1.2 = {
@@ -7991,7 +8111,7 @@
 	name = "Alexandr"
 	# AKA: Aleksandr
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472510
 	1320.1.2 = {
@@ -8007,7 +8127,7 @@
 	# AKA: Yevpraksia
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472514
 	1325.1.2 = {
@@ -8021,7 +8141,7 @@
 472518 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472515
 	1330.1.2 = {
@@ -8035,7 +8155,7 @@
 472520 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472522
 	1305.1.2 = {
@@ -8049,7 +8169,7 @@
 472522 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472524
 	1280.1.2 = {
@@ -8063,7 +8183,7 @@
 472524 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125087
 	1260.1.2 = {
@@ -8077,7 +8197,7 @@
 472625 = {
 	name = "Oleg"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472520
 	1330.1.2 = {
@@ -8092,7 +8212,7 @@
 	name = "Alexandr"
 	# AKA: Aleksandr
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472632
 	1302.1.2 = {
@@ -8106,7 +8226,7 @@
 472632 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472524
 	1285.1.2 = {
@@ -8120,7 +8240,7 @@
 472634 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472630
 	1320.1.2 = {
@@ -8134,7 +8254,7 @@
 472635 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472630
 	1322.1.2 = {
@@ -8149,7 +8269,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472630
 	1324.1.2 = {
@@ -8163,7 +8283,7 @@
 472640 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472792
 	1301.1.2 = {
@@ -8178,7 +8298,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitri
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472782
 	1310.1.2 = {
@@ -8193,7 +8313,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472784
 	1290.1.2 = {
@@ -8207,7 +8327,7 @@
 472784 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125061
 	1270.1.2 = {
@@ -8221,7 +8341,7 @@
 472785 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472782
 	1315.1.2 = {
@@ -8235,7 +8355,7 @@
 472786 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472782
 	1330.1.2 = {
@@ -8250,7 +8370,7 @@
 	name = "Simeon"
 	# AKA: Semyon
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472780
 	1335.1.2 = {
@@ -8265,7 +8385,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = ambitious
 	trait = wrathful
@@ -8285,7 +8405,7 @@
 	name = "Davyd"
 	# AKA: David
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472794
 	mother = 472795
@@ -8301,7 +8421,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = zealous
 	father = 125154
@@ -8322,7 +8442,7 @@
 472800 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472802
 	1312.1.2 = {
@@ -8340,7 +8460,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472840
 	mother = 472841
@@ -8356,7 +8476,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472804
 	1291.1.2 = {
@@ -8370,7 +8490,7 @@
 472804 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472814
 	1255.7.30 = {
@@ -8385,7 +8505,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472802
 	1311.1.2 = {
@@ -8403,7 +8523,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 13
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1311.1.2 = {
 		birth = "1311.1.2"
@@ -8416,7 +8536,7 @@
 472808 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472800
 	mother = 472801
@@ -8431,7 +8551,7 @@
 472809 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472800
 	mother = 472801
@@ -8447,7 +8567,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472800
 	mother = 472801
@@ -8462,7 +8582,7 @@
 472812 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472806
 	mother = 472807
@@ -8478,7 +8598,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472814
 	mother = 125171
@@ -8493,7 +8613,7 @@
 472814 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125170
 	mother = 125064
@@ -8511,7 +8631,7 @@
 472820 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472822
 	mother = 472823
@@ -8526,7 +8646,7 @@
 472822 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472824
 	mother = 472825
@@ -8545,7 +8665,7 @@
 	name = "Olga"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472794
 	mother = 125177
@@ -8560,7 +8680,7 @@
 472824 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125170
 	mother = 125064
@@ -8579,7 +8699,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472822
 	mother = 472823
@@ -8595,7 +8715,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472820
 	1315.1.2 = {
@@ -8610,7 +8730,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472820
 	1320.1.2 = {
@@ -8625,7 +8745,7 @@
 	name = "Ivan"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472832
 	1310.1.2 = {
@@ -8640,7 +8760,7 @@
 	name = "Feodor"
 	# AKA: Ivan
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472834
 	mother = 472835
@@ -8656,7 +8776,7 @@
 	name = "Davyd"
 	# AKA: David
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125207
 	1252.1.2 = {
@@ -8674,7 +8794,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472794
 	mother = 125177
@@ -8690,7 +8810,7 @@
 	name = "Ivan"
 	dynasty = 705
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_stewardship_4
 	father = 472843
@@ -8711,7 +8831,7 @@
 472841 = {
 	name = "Yelena"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1290.1.2 = {
 		birth = "1290.1.2"
@@ -8725,7 +8845,7 @@
 	name = "Ulyana"
 	# AKA: Yulyana
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1300.1.2 = {
 		birth = "1300.1.2"
@@ -8738,7 +8858,7 @@
 472843 = {
 	name = "Daniil"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472844
 	mother = 472845
@@ -8758,7 +8878,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -8783,7 +8903,7 @@
 	# AKA: Aleksandra
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125010
 	1220.1.2 = {
@@ -8797,7 +8917,7 @@
 472846 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472844
 	mother = 472845
@@ -8816,7 +8936,7 @@
 	name = "Vasilisa"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472813
 	1277.1.2 = {
@@ -8831,7 +8951,7 @@
 	name = "Yuriy"
 	# AKA: Yuri
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472843
 	1281.1.2 = {
@@ -8851,7 +8971,7 @@
 472849 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472843
 	1300.1.2 = {
@@ -8866,7 +8986,7 @@
 	name = "Simeon"
 	# AKA: Semyon
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = arrogant
 	father = 472840
@@ -8886,7 +9006,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472851
 	mother = 472852
@@ -8901,7 +9021,7 @@
 472854 = {
 	name = "Daniil"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472840
 	mother = 472841
@@ -8916,7 +9036,7 @@
 472855 = {
 	name = "Ivan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = beauty_good_1
 	father = 472840
@@ -8932,7 +9052,7 @@
 472856 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472840
 	mother = 472841
@@ -8948,7 +9068,7 @@
 	name = "Yevdokia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472840
 	mother = 472841
@@ -8964,7 +9084,7 @@
 	name = "Feodosia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472840
 	mother = 472842
@@ -8979,7 +9099,7 @@
 472860 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472862
 	mother = 472863
@@ -8998,7 +9118,7 @@
 	name = "Sofia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472848
 	mother = 125216
@@ -9013,7 +9133,7 @@
 472862 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472864
 	mother = 472865
@@ -9032,7 +9152,7 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472813
 	1280.1.2 = {
@@ -9046,7 +9166,7 @@
 472864 = {
 	name = "Yaroslav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -9066,7 +9186,7 @@
 	# AKA: Ksyenia
 	female = yes
 	dynasty = 101802
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1240.1.2 = {
 		birth = "1240.1.2"
@@ -9080,7 +9200,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = wrathful
 	father = 472862
@@ -9100,7 +9220,7 @@
 	name = "Alexandr"
 	# AKA: Aleksandr
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472862
 	mother = 472863
@@ -9119,7 +9239,7 @@
 	name = "Anastasia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 471511
 	1301.1.2 = {
@@ -9134,7 +9254,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472862
 	mother = 472863
@@ -9153,7 +9273,7 @@
 	name = "Yelena"
 	# AKA: Yelyena
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1310.1.2 = {
 		birth = "1310.1.2"
@@ -9167,7 +9287,7 @@
 	name = "Feodor"
 	# AKA: Fedor
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9182,7 +9302,7 @@
 472874 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9198,7 +9318,7 @@
 	name = "Vsevolod"
 	# AKA: Vsyevolod
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9213,7 +9333,7 @@
 472876 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9228,7 +9348,7 @@
 472877 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9244,7 +9364,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9260,7 +9380,7 @@
 	name = "Ulyana"
 	# AKA: Yulyana
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472868
 	mother = 472869
@@ -9276,7 +9396,7 @@
 	name = "Simeon"
 	# AKA: Semyon
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472860
 	mother = 472861
@@ -9292,7 +9412,7 @@
 	name = "Yeremey"
 	# AKA: Eremei
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472860
 	mother = 472861
@@ -9307,7 +9427,7 @@
 472883 = {
 	name = "Mikhail"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472871
 	mother = 472872
@@ -9323,7 +9443,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472871
 	mother = 472872
@@ -9339,7 +9459,7 @@
 	name = "Yaroslav"
 	dynasty = 705
 	martial = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222670
 	mother = 222671
@@ -9357,7 +9477,7 @@
 472910 = {
 	name = "Konstantin"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472912
 	mother = 472913
@@ -9376,7 +9496,7 @@
 	name = "Yelena"
 	# AKA: Elyena
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1300.1.2 = {
 		birth = "1300.1.2"
@@ -9390,7 +9510,7 @@
 	name = "Vasiliy"
 	# AKA: Vasilii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472914
 	mother = 125125
@@ -9408,7 +9528,7 @@
 472913 = {
 	name = "Yelena"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1270.1.2 = {
 		birth = "1270.1.2"
@@ -9421,7 +9541,7 @@
 472914 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472885
 	mother = 125149
@@ -9440,7 +9560,7 @@
 	name = "Alexandr"
 	# AKA: Aleksandr
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472912
 	mother = 472913
@@ -9455,7 +9575,7 @@
 472917 = {
 	name = "Andrei"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472910
 	mother = 472911
@@ -9471,7 +9591,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitrii
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 472910
 	mother = 472911
@@ -9486,7 +9606,7 @@
 473502 = {
 	name = "Olga"
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1275.1.2 = {
 		birth = "1275.1.2"
@@ -9500,7 +9620,7 @@
 	name = "Maria"
 	# AKA: Marija
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1310.1.2 = {
 		birth = "1310.1.2"
@@ -9514,7 +9634,7 @@
 	name = "Maria"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125016
 	1300.1.2 = {
@@ -9528,7 +9648,7 @@
 473516 = {
 	name = "Lev"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 471511
 	mother = 125986
@@ -9548,7 +9668,7 @@
 	# AKA: Eufemia
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 473516
 	mother = 125157
@@ -9567,7 +9687,7 @@
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 5
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "russian"
 	trait = gluttonous
 	trait = education_learning_2
@@ -9586,7 +9706,7 @@
 	diplomacy = 4
 	intrigue = 7
 	stewardship = 4
-	religion = "catholic"
+	rite = "roman_rite"
 	culture = "russian"
 	trait = wrathful
 	trait = honest
@@ -9602,7 +9722,7 @@
 603 = {
 	name = "Malusha"	#Mother of Vladimir the Great
 	female = yes
-	religion = "norse_pagan"
+	rite = "norse_pagan"
 	culture = "russian"
 	944.1.2 = {
 		birth = "944.1.2"
@@ -9617,7 +9737,7 @@
 	# AKA: Ragnhild
 	female = yes
 	dynasty = 1029118
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 302199
 	960.1.2 = {
@@ -9632,7 +9752,7 @@
 	name = "Sviatopolk"		#Sviatopolk the Accursed
 	# AKA: Svyatopolk
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = greedy
 	trait = wrathful
@@ -9659,9 +9779,9 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 8
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
-	trait = scholar
+	trait = erudite
 	trait = education_stewardship_4
 	father = 608
 	mother = 609
@@ -9684,7 +9804,7 @@
 	name = "Iziaslav"	#Son of Vladimir the Great & Rogneda of Polotsk
 	# AKA: Izyaslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	mother = 609
@@ -9699,7 +9819,7 @@
 618 = {
 	name = "Mstislav"	#Mstislav the Bold of Chernigov
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	983.1.2 = {
@@ -9716,11 +9836,14 @@
 620 = {
 	name = "Sudislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	987.1.2 = {
 		birth = "987.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1063.1.2 = {
 		death = "1063.1.2"
@@ -9731,7 +9854,7 @@
 	name = "Vysheslav"
 	# AKA: Vycheslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	977.1.2 = {
@@ -9745,7 +9868,7 @@
 624 = {
 	name = "Boris"	#Saint Boris Vladimirovich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	986.1.2 = {
@@ -9760,7 +9883,7 @@
 	name = "Gleb"	#Saint Gleb Vladimirovich
 	# AKA: St
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 608
 	987.1.2 = {
@@ -9775,7 +9898,7 @@
 	name = "Iziaslav"
 	# AKA: Izyaslav	// rules Kiev in 1066
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
@@ -9784,6 +9907,9 @@
 	}
 	1045.1.2 = {
 		add_spouse = 761
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1066.1.1 = {	#Extreme tension in Kievan Rus, period of civil wars
 		effect = {
@@ -9816,6 +9942,7 @@
 	}
 	1078.10.3 = {
 		death = "1078.10.3"
+		dynasty_house = house_rurikid_iziaslavich
 	}
 }
 
@@ -9823,12 +9950,15 @@
 	name = "Anna"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
 	1032.1.2 = {
 		birth = "1032.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1075.1.2 = {
 		death = "1075.1.2"
@@ -9841,7 +9971,7 @@
 	dynasty = 705
 	diplomacy = 8
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
@@ -9850,6 +9980,9 @@
 	}
 	1045.1.2 = {
 		add_spouse = 125044
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1066.1.1 = {	#Extreme tension in Kievan Rus, period of civil wars
 		effect = {
@@ -9883,15 +10016,16 @@
 	}
 	1076.12.27 = {
 		death = "1076.12.27"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 630 = {
 	name = "Vsevolod"	#Vsevolod I Yaroslavich of Kiev
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
-	trait = scholar
+	trait = erudite
 	father = 612
 	mother = 100511
 	1030.1.2 = {
@@ -9899,6 +10033,9 @@
 	}
 	1046.1.2 = {
 		add_spouse = 1727
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1066.1.1 = {	#Extreme tension in Kievan Rus, period of civil wars
 		effect = {
@@ -9931,6 +10068,7 @@
 	}
 	1093.4.13 = {
 		death = "1093.4.13"
+		dynasty_house = house_rurikid_vsevolodovich
 	}
 }
 
@@ -9940,7 +10078,7 @@
 	# AKA: Elizaveta
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
@@ -9950,6 +10088,9 @@
 			add_character_flag = has_scripted_appearance
 		}	
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1067.1.5 = {
 		death = "1067.1.5"
 	}
@@ -9958,7 +10099,7 @@
 634 = {
 	name = "Vladimir"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
@@ -9974,12 +10115,15 @@
 	name = "Anastasia"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
 	1023.1.2 = {
 		birth = "1023.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1074.1.2 = {
 		death = "1074.1.2"
@@ -9989,12 +10133,15 @@
 638 = {
 	name = "Igor"	#Igor Yaroslavich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
 	1037.1.2 = {
 		birth = "1037.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1060.1.2 = {
 		death = "1060.1.2"
@@ -10005,7 +10152,7 @@
 	name = "Briachislav"
 	# AKA: Bryachislav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 616
 	997.1.2 = {
@@ -10020,7 +10167,7 @@
 	name = "Yevstafiy"
 	# AKA: Yevstafyi
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 618
 	mother = 122502
@@ -10035,7 +10182,7 @@
 650 = {
 	name = "Vseslav"	#Vseslav II Briacheslavich of Polotsk
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = cynical
 	trait = education_martial_3
@@ -10045,6 +10192,9 @@
 	}
 	1053.1.2 = {
 		add_spouse = 40603
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1066.1.1 = {	#Extreme tension in Kievan Rus, period of civil wars
 		effect = {			
@@ -10078,12 +10228,15 @@
 652 = {
 	name = "Sviatopolk"	#Svyatopolk Iziaslavichi
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = legitimized_bastard
 	father = 626
 	1050.11.8 = {
 		birth = "1050.11.8"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1113.4.16 = {
 		death = "1113.4.16"
@@ -10093,52 +10246,64 @@
 654 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 628
 	mother = 125044
 	1046.1.2 = {
 		birth = "1046.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1078.5.30 = {
 		death = "1078.5.30"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 656 = {
 	name = "Davyd"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 628	#Sviatoslavich
 	mother = 125044
 	1050.1.2 = {
 		birth = "1050.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1123.1.2 = {
 		death = "1123.1.2"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 658 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 628
 	mother = 125044
 	1048.1.2 = {
 		birth = "1048.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1079.8.2 = {
 		death = "1079.8.2"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 660 = {
 	name = "Oleg"	#Oleg Svyatoslavich of Chernigov
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = ambitious
 	trait = cynical
@@ -10147,19 +10312,23 @@
 	1053.1.2 = {
 		birth = "1053.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1084.1.2 = {
 		add_spouse = 125051
 	}
 	1115.8.1 = {
 		death = "1115.8.1"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 662 = {
 	name = "Yaroslav"
 	#AKA Konstantin of Murom / Constantine of Murom
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 628	#Sviatoslavich
 	mother = 1353
@@ -10178,7 +10347,7 @@
 	diplomacy = 9
 	intrigue = 6
 	stewardship = 9
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = intellect_good_3
 	father = 630
@@ -10186,18 +10355,22 @@
 	1053.1.2 = {
 		birth = "1053.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1074.1.2 = {
 		add_spouse = 127
 	}
 	1125.5.19 = {
 		death = "1125.5.19"
+		dynasty_house = house_rurikid_vsevolodovich
 	}
 }
 
 668 = {
 	name = "Davyd"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 638
 	1055.1.2 = {
@@ -10210,12 +10383,24 @@
 
 670 = {
 	name = "Rostislav"	#Rostislav of Tmutarakan
+	dna = "670_rostislav_tmutarakan"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	trait = impatient
+	trait = ambitious
+	trait = diligent
 	father = 634
 	1038.1.2 = {
 		birth = "1038.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1057.1.1 = {
 		add_spouse = 41201
@@ -10228,12 +10413,15 @@
 672 = {
 	name = "Gleb"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650	 #Vseslavich
 	mother = 40603
 	1053.1.2 = {
 		birth = "1053.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1090.1.2 = {
 		add_spouse = 125095
@@ -10246,7 +10434,7 @@
 674 = {
 	name = "Roman"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650
 	mother = 40603
@@ -10261,7 +10449,7 @@
 676 = {
 	name = "Davyd"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650
 	mother = 40603
@@ -10277,7 +10465,7 @@
 	name = "Briachislav"
 	# AKA: Boris
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 676
 	1080.1.2 = {
@@ -10294,7 +10482,7 @@
 680 = {
 	name = "Rogvolod"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650
 	mother = 40603
@@ -10310,7 +10498,7 @@
 	name = "Sviatoslav"
 	# AKA: Svyatoslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 650
 	mother = 40603
@@ -10325,12 +10513,15 @@
 684 = {
 	name = "Yaropolk"	#Yaropolk Iziaslavich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 626
 	mother = 761
 	1043.1.1 = {
 		birth = "1043.1.1"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1075.1.1 = {
 		add_spouse = 7061
@@ -10343,12 +10534,15 @@
 686 = {
 	name = "Mstislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 626
 	mother = 761	
 	1047.1.2 = {
 		birth = "1047.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1062.1.2 = {
 		add_spouse = 40601
@@ -10392,13 +10586,16 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_martial_2
 	trait = wrathful
 	trait = brave
 	1012.1.2 = {
 		birth = "1012.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1062.1.2 = {
 		death = "1062.1.2"
@@ -10412,7 +10609,7 @@
 	diplomacy = 6
 	intrigue = 7
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_martial_3
 	trait = temperate
@@ -10420,6 +10617,9 @@
 	father = 90135
 	1042.1.2 = {
 		birth = "1042.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1092.1.2 = {
 		death = "1092.1.2"
@@ -10433,7 +10633,7 @@
 	diplomacy = 5
 	intrigue = 8
 	stewardship = 4
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_martial_3
 	trait = deceitful
@@ -10441,6 +10641,9 @@
 	father = 90135
 	1050.1.2 = {
 		birth = "1050.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1100.1.2 = {
 		death = "1100.1.2"
@@ -10453,7 +10656,7 @@
 	diplomacy = 7
 	intrigue = 7
 	stewardship = 6
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_2
 	trait = calm
@@ -10472,11 +10675,12 @@
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 9
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_3
 	trait = zealous
 	trait = humble
+	trait = devoted
 	983.1.2 = {
 		birth = "983.1.2"
 	}
@@ -10486,23 +10690,28 @@
 }
 
 90140 = {
-	name = "Theodosius"
+	name = "Feodosiy"
 	dynasty = 20081
 	martial = 4
 	diplomacy = 6
 	intrigue = 6
 	stewardship = 9
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_3
 	trait = zealous
 	trait = just
 	trait = temperate
+	trait = devoted
 	1036.1.2 = {
 		birth = "1036.1.2"
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1086.1.2 = {
 		death = "1086.1.2"
+		trait = saint
 	}
 }
 
@@ -10513,12 +10722,15 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_3
 	trait = calm
 	1016.1.2 = {
 		birth = "1016.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1066.1.2 = {
 		death = "1066.1.2"
@@ -10532,7 +10744,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "baltic_pagan"
+	rite = "baltic_pagan"
 	culture = "russian"
 	trait = education_learning_4
 	trait = wrathful
@@ -10553,7 +10765,7 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "baltic_pagan"
+	rite = "baltic_pagan"
 	culture = "russian"
 	trait = education_learning_2
 	father = 90146
@@ -10572,13 +10784,16 @@
 	diplomacy = 4
 	intrigue = 5
 	stewardship = 7
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = education_learning_1
 	trait = zealous
 	trait = possessed_1
 	1040.1.2 = {
 		birth = "1040.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1090.1.2 = {
 		death = "1090.1.2"
@@ -10588,7 +10803,7 @@
 9126 = {
 	name = "Rurik"	#Riurik / Riuryk / Ryurik Rotislavich / Rostislavich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 670
 	mother = 41201
@@ -10603,7 +10818,7 @@
 9128 = {
 	name = "Volodar"	#Volodar Rostislavich
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 670
 	mother = 41201
@@ -10618,7 +10833,7 @@
 9130 = {
 	name = "Vasilko"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 670
 	mother = 41201
@@ -10638,12 +10853,15 @@
 	name = "Viacheslav"
 	# AKA: Vyacheslav
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 612
 	mother = 100511
 	1036.1.2 = {
 		birth = "1036.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1057.1.2 = {
 		death = "1057.1.2"
@@ -10653,11 +10871,14 @@
 9134 = {
 	name = "Boris"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 9132
 	1054.1.2 = {
 		birth = "1054.1.2"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1078.10.3 = {
 		death = "1078.10.3"
@@ -10668,7 +10889,7 @@
 	name = "Dmitriy"
 	# AKA: Dmitry
 	dynasty = 511
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1061.1.2 = {
 		birth = "1061.1.2"
@@ -10681,7 +10902,7 @@
 98015 = {
 	name = "Rostislav"
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222654
 	mother = 125104
@@ -10700,7 +10921,7 @@
 	name = "Kunigunda"
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 98015
 	mother = 98012
@@ -10715,8 +10936,8 @@
 98018 = {
 	name = "Euphemia"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 666
 	mother = 127
@@ -10736,7 +10957,7 @@
 	diplomacy = 5
 	intrigue = 6
 	stewardship = 5
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 222500
 	mother = 222501
@@ -10751,8 +10972,8 @@
 96095 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_sviatoslavich
+	rite = slavic_rite
 	culture = "russian"
 	father = 660
 	mother = 125051
@@ -10769,7 +10990,7 @@
 	dna = 161257_queen_wyszeslawa
 	female = yes
 	dynasty = 705 # Rurikovich
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 628
 	mother = 125044
@@ -10779,14 +11000,18 @@
 			add_character_flag = has_scripted_appearance
 		}	
 	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
 	1099.1.1 = {
 		death = "1099.1.1"
+		dynasty_house = house_rurikid_sviatoslavich
 	}
 }
 
 159718 = {
 	name = "Vyacheslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029167
 	father = 194138
@@ -10800,7 +11025,7 @@
 
 159719 = {
 	name = "Iziaslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
@@ -10814,7 +11039,7 @@
 
 159720 = {
 	name = "Bogdan"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	trait = content
@@ -10833,7 +11058,7 @@
 	name = "Boryslav"
 	dynasty = 9125
 	father = 82258
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	trait = bastard_founder
 	824.1.1 = {
@@ -10850,7 +11075,7 @@
 	name = "Bogdan"
 	dynasty = 9125
 	father = 82266
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	846.1.1 = {
 		birth = "846.1.1"
@@ -10866,7 +11091,7 @@
 	name = "Yaroslav"
 	dynasty = 9125
 	father = 82267
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	910.1.1 = {
 		birth = "910.1.1"
@@ -10882,7 +11107,7 @@
 	name = "Bronislav"
 	dynasty = 9125
 	father = 82266
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	848.1.1 = {
 		birth = "848.1.1"
@@ -10898,7 +11123,7 @@
 	name = "Vlastimil"
 	dynasty = 9125
 	father = 82269
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	909.1.1 = {
 		birth = "909.1.1"
@@ -10915,7 +11140,7 @@
 	name = "Ctibor"
 	dynasty = 9125
 	father = 82266
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	850.1.1 = {
 		birth = "850.1.1"
@@ -10931,7 +11156,7 @@
 	name = "Miroslav"
 	dynasty = 9125
 	father = 82271
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "polish"
 	911.1.1 = {
 		birth = "911.1.1"
@@ -10943,7 +11168,7 @@
 
 160049 = {
 	name = "Vsevolod"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 194133
@@ -10956,7 +11181,7 @@
 }
 160050 = {
 	name = "Putimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
@@ -10969,7 +11194,7 @@
 }
 160051 = {
 	name = "Radigost"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
@@ -10983,7 +11208,7 @@
 160052 = {
 	name = "Radoslav"
 	dynasty = 1029116
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	father = 160051
 	trait = content
@@ -10996,7 +11221,7 @@
 }
 160053 = {
 	name = "Samovlad"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
@@ -11009,7 +11234,7 @@
 }
 160054 = {
 	name = "Premsyl"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160050
@@ -11022,7 +11247,7 @@
 }
 160055 = {
 	name = "Ljuboslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029136
 	father = 160057
@@ -11035,7 +11260,7 @@
 }
 160056 = {
 	name = "Krasimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029136
 	father = 160057
@@ -11048,7 +11273,7 @@
 }
 160057 = {
 	name = "Zbignev"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029136
 	father = 194131
@@ -11061,7 +11286,7 @@
 }
 160058 = {
 	name = "Samovlad"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 160055
@@ -11074,7 +11299,7 @@
 }
 160062 = {
 	name = "Gostevid"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 160057
@@ -11087,7 +11312,7 @@
 }
 160064 = {
 	name = "Dobromir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	father = 194135
@@ -11100,7 +11325,7 @@
 }
 160091 = {
 	name = "Ladimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6829
@@ -11113,7 +11338,7 @@
 }
 160092 = {
 	name = "Radogor"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6829
@@ -11126,7 +11351,7 @@
 }
 160093 = {
 	name = "Svyatogor"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6831
@@ -11139,7 +11364,7 @@
 }
 160094 = {
 	name = "Tihomir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6831
@@ -11152,7 +11377,7 @@
 }
 160095 = {
 	name = "Godoslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6832
@@ -11165,7 +11390,7 @@
 }
 160096 = {
 	name = "Vyacheslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6832
@@ -11178,7 +11403,7 @@
 }
 160097 = {
 	name = "Dobrovlad"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6833
@@ -11191,7 +11416,7 @@
 }
 160098 = {
 	name = "Zhiroslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6833
@@ -11204,7 +11429,7 @@
 }
 160099 = {
 	name = "Zvonimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = radimichian
 	dynasty = 1029137
 	father = 6826
@@ -11217,7 +11442,7 @@
 }
 160100 = {
 	name = "Velimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = radimichian
 	dynasty = 1029137
 	father = 6826
@@ -11230,7 +11455,7 @@
 }
 160101 = {
 	name = "Bryacheslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	father = 159720
@@ -11243,7 +11468,7 @@
 }
 160102 = {
 	name = "Venceslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	father = 159720
@@ -11256,7 +11481,7 @@
 }
 160103 = {
 	name = "Yaroslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	father = 6825
@@ -11269,7 +11494,7 @@
 }
 160104 = {
 	name = "Budimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029117
 	father = 6825
@@ -11282,7 +11507,7 @@
 }
 160105 = {
 	name = "Mladan"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 159719
@@ -11295,7 +11520,7 @@
 }
 160106 = {
 	name = "Radomysl"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 159719
@@ -11308,7 +11533,7 @@
 }
 160107 = {
 	name = "Svetovid"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 6859
@@ -11321,7 +11546,7 @@
 }
 160108 = {
 	name = "Predrag"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 6859
@@ -11334,7 +11559,7 @@
 }
 160109 = {
 	name = "Svyatogor"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6835
@@ -11347,7 +11572,7 @@
 }
 160110 = {
 	name = "Tverdimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	dynasty = 1029136
 	father = 6835
@@ -11361,7 +11586,7 @@
 
 160134 = {
 	name = "Radomir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 160049
@@ -11375,7 +11600,7 @@
 
 160135 = {
 	name = "Stanislav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 6869
@@ -11388,7 +11613,7 @@
 }
 160136 = {
 	name = "Vlastimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	dynasty = 1029116
 	father = 6869
@@ -11401,7 +11626,7 @@
 }
 160137 = {
 	name = "Rostislav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = russian
 	dynasty = 1029117
 	father = 6868
@@ -11414,7 +11639,7 @@
 }
 160138 = {
 	name = "Kazimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = russian
 	dynasty = 1029117
 	father = 6868
@@ -11427,7 +11652,7 @@
 }
 160139 = {
 	name = "Velimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = radimichian
 	dynasty = 1029137
 	father = 194141
@@ -11440,7 +11665,7 @@
 }
 160140 = {
 	name = "Svetoslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029137
 	father = 6870
@@ -11453,7 +11678,7 @@
 }
 160141 = {
 	name = "Zvonimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029137
 	father = 6870
@@ -11468,7 +11693,7 @@
 168530 = {
 	name = "Sofia" #real name unknown
 	female = yes
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	trait = bastard
 	father = 608
@@ -11484,7 +11709,7 @@
 	name = "Anastasia" #Anastasia Aleksandrovna
 	female = yes
 	dynasty = 705
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125130
 	mother = 125141
@@ -11498,8 +11723,8 @@
 
 170099 = {
 	name = "Iaropolk"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222525
 	mother = 30201
@@ -11517,8 +11742,8 @@
 170100 = {
 	name = "Maria"
 	female = yes
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 222650
 	mother = 222651
@@ -11532,8 +11757,8 @@
 
 170101 = {
 	name = "Vasilko"
-	dynasty = 705
-	religion = "orthodox"
+	dynasty_house = house_rurikid_vsevolodovich
+	rite = slavic_rite
 	culture = "russian"
 	father = 170099
 	1153.1.2 = {
@@ -11548,7 +11773,7 @@
 }
 194131 = {
 	name = "Vysheslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029136
 	720.1.1 = {
@@ -11560,7 +11785,7 @@
 }
 194132 = {
 	name = "Rodislav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029136
 	father = 194131
@@ -11573,7 +11798,7 @@
 }
 194133 = {
 	name = "Svetozar"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029116
 	750.1.1 = {
@@ -11585,7 +11810,7 @@
 }
 194134 = {
 	name = "Igor"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029117
 	738.1.1 = {
@@ -11597,7 +11822,7 @@
 }
 194135 = {
 	name = "Igor"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "ilmenian"
 	dynasty = 1029117
 	father = 194134
@@ -11611,7 +11836,7 @@
 194136 = {
 	name = "Briachislav"
 	dynasty = 1029167
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	733.1.1 = {
 		birth = yes
@@ -11623,7 +11848,7 @@
 194137 = {
 	name = "Svetozar"
 	dynasty = 1029167
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 194136
 	770.1.1 = {
@@ -11636,7 +11861,7 @@
 194138 = {
 	name = "Gleb"
 	dynasty = 1029167
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = russian
 	father = 194137
 	810.1.1 = {
@@ -11650,7 +11875,7 @@
 	name = "Dobrava"
 	female = yes
 	dynasty = 1045024
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	750.1.1 = {
 		birth = yes
@@ -11662,7 +11887,7 @@
 194140 = {
 	name = "Stanislav"
 	dynasty = 1029137
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = radimichian
 	733.1.1 = {
 		birth = yes
@@ -11674,7 +11899,7 @@
 194141 = {
 	name = "Igor"
 	dynasty = 1029137
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = radimichian
 	father = 194140
 	770.1.1 = {
@@ -11687,7 +11912,7 @@
 194177 = {
 	name = "Ivan"
 	dynasty = 11107
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 125244
 	1217.1.2 = {
@@ -11700,7 +11925,7 @@
 194184 = {
 	name = "Vselovod"
 	dynasty = 101803 # Mstislavich
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1188.1.1 = {
 		birth = yes
@@ -11712,7 +11937,7 @@
 194185 = {
 	name = "Vselovod"
 	dynasty = 101803 # Mstislavich
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 194184
 	1210.5.5 = {
@@ -11725,7 +11950,7 @@
 194186 = {
 	name = "Yaropolk"
 	dynasty = 101803 # Mstislavich
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	father = 194184
 	1212.4.5 = {
@@ -11739,7 +11964,7 @@
 302134 = {
 	name = "Briachislav"
 	dynasty = 1045031	#Ulichs
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	834.11.20 = {
 		birth = "834.11.20"
@@ -11755,7 +11980,7 @@
 	name = "Olena"
 	female = yes
 	dynasty = 1045031	#Ulichs
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	838.3.12 = {
 		birth = "838.3.12"
@@ -11767,7 +11992,7 @@
 302136 = {
 	name = "Lev"
 	dynasty = 1045031	#Ulichs
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = "russian"
 	father = 302134
 	mother = 302135
@@ -11782,7 +12007,7 @@
 302137 = {
 	name = "Vladislav"
 	dynasty = 2001027	#Tivertsi
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	839.3.23 = {
 		birth = "839.3.23"
@@ -11797,7 +12022,7 @@
 302138 = {
 	name = "Ulyana"
 	female = yes
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	842.6.1 = {
 		birth = "842.6.1"
@@ -11810,7 +12035,7 @@
 	name = "Ulyana"
 	female = yes
 	dynasty = 2001027	#Tivertsi
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = ilmenian
 	father = 302137
 	mother = 302138
@@ -11824,10 +12049,13 @@
 302140 = {
 	name = "Vysheslav"
 	dynasty = 2001027	#Tivertsi
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = "russian"
 	1040.9.16 = {
 		birth = "1040.9.16"
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1101.2.3 = {
 		death = "1101.2.3"
@@ -11839,7 +12067,7 @@
 302142 = {		#Berestye tribe
 	name = Ruslan
 	dynasty = 2001028	#Betula
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	823.11.9 = {
 		birth = 823.11.9
@@ -11851,7 +12079,7 @@
 302143 = {
 	name = Vysheslav
 	dynasty = 2001028	#Betula
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302142
 	846.5.3 = {
@@ -11864,7 +12092,7 @@
 302144 = {
 	name = Rogvolod
 	dynasty = 2001028	#Betula
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302142
 	849.7.14 = {
@@ -11877,7 +12105,7 @@
 302145 = {
 	name = Demid
 	dynasty = 2001028	#Betula
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302142
 	851.10.20 = {
@@ -11891,7 +12119,7 @@
 302146 = {		#Luchans tribe
 	name = Pyotr
 	dynasty = 2001029	#Luchanev
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	842.9.28 = {
 		birth = 842.9.28
@@ -11904,7 +12132,7 @@
 302147 = {		#Buzhans tribe
 	name = Igor
 	dynasty = 2001030	#Buzhanko
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = russian
 	837.8.16 = {
 		birth = 837.8.16
@@ -11917,7 +12145,7 @@
 302148 = {		#Chrobatians tribe
 	name = Gavriil
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	830.10.27 = {
 		birth = 830.10.27
@@ -11929,7 +12157,7 @@
 302149 = {		#Chrobatians tribe
 	name = Alexei
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302148
 	853.5.30 = {
@@ -11943,7 +12171,7 @@
 	name = Irina
 	female = yes
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302148
 	855.10.6 = {
@@ -11957,7 +12185,7 @@
 302151 = {		#Podolians tribe
 	name = Vasilko
 	dynasty = 2001034	#Podolianiv
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = tiverian
 	846.10.11 = {
 		birth = 846.10.11
@@ -11972,7 +12200,7 @@
 302152 = {		#Podolians tribe
 	name = Yekaterina
 	female = yes
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = tiverian
 	848.1.22 = {
 		birth = 848.1.22
@@ -11984,7 +12212,7 @@
 302153 = {		#Podolians tribe
 	name = Svetozar
 	dynasty = 2001034	#Podolianiv
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = tiverian
 	father = 302151
 	mother = 302152
@@ -11999,7 +12227,7 @@
 302154 = {		#Drevlians tribe
 	name = Kirill
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	818.3.8 = {
 		birth = 818.3.8
@@ -12011,7 +12239,7 @@
 302155 = {
 	name = Nikita
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	father = 302154
 	848.12.20 = {
@@ -12024,7 +12252,7 @@
 302156 = {
 	name = Trifon
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	father = 302154
 	850.10.14 = {
@@ -12037,7 +12265,7 @@
 302157 = {
 	name = Andronov
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	father = 302155
 	877.5.5 = {
@@ -12050,7 +12278,7 @@
 302158 = {
 	name = Kirill
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	father = 302155
 	878.12.23 = {
@@ -12064,7 +12292,7 @@
 	name = Irina
 	female = yes
 	dynasty = 2001031	#Drevlianin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = drevlian
 	father = 302157
 	907.3.16 = {
@@ -12077,10 +12305,13 @@
 302160 = {
 	name = Dmitriy
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1045.6.20 = {
 		birth = 1045.6.20
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1107.4.16 = {
 		death = 1107.4.16
@@ -12089,7 +12320,7 @@
 302161 = {
 	name = Davyd
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302160
 	1071.2.14 = {
@@ -12103,7 +12334,7 @@
 	name = Darya
 	female = yes
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302160
 	1072.11.13 = {
@@ -12116,7 +12347,7 @@
 302163 = {
 	name = Simeon
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302161
 	1101.10.23 = {
@@ -12129,7 +12360,7 @@
 302164 = {
 	name = Konstantin
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302163
 	1130.8.15 = {
@@ -12143,7 +12374,7 @@
 	name = Ulyana
 	female = yes
 	dynasty = 2001031	#Drevlianin
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302163
 	1133.4.30 = {
@@ -12157,7 +12388,7 @@
 302166 = {		#Volhynians tribe
 	name = Svetozar
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	803.7.12 = {
 		birth = 803.7.12
@@ -12169,7 +12400,7 @@
 302167 = {
 	name = Yuriy
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302166
 	834.5.16 = {
@@ -12182,7 +12413,7 @@
 302168 = {
 	name = Boris
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302166
 	837.2.20 = {
@@ -12195,7 +12426,7 @@
 302169 = {
 	name = Feodot
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = volhynian
 	father = 302167
 	864.11.30 = {
@@ -12208,7 +12439,7 @@
 302170 = {
 	name = Ivan
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = russian
 	father = 302169
 	891.4.12 = {
@@ -12221,7 +12452,7 @@
 302171 = {
 	name = Yuriy
 	dynasty = 2001033	#Volhynsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = russian
 	father = 302170
 	926.5.15 = {
@@ -12234,10 +12465,13 @@
 302172 = {
 	name = Vasiliy
 	dynasty = 2001033	#Volhynsky
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1016.3.13 = {
 		birth = 1016.3.13
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1068.10.22 = {
 		death = 1068.10.22
@@ -12246,11 +12480,14 @@
 302173 = {
 	name = Volodar
 	dynasty = 2001033	#Volhynsky
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302172
 	1042.8.17 = {
 		birth = 1042.8.17
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1091.7.4 = {
 		death = 1091.7.4
@@ -12260,11 +12497,14 @@
 	name = Anastasia
 	female = yes
 	dynasty = 2001033	#Volhynsky
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302172
 	1047.5.16 = {
 		birth = 1047.5.16
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1110.12.25 = {
 		death = 1110.12.25
@@ -12274,7 +12514,7 @@
 302175 = {		#Chrobatians tribe/Kiev vassals bis
 	name = Mikhail
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302148
 	879.1.4 = {
@@ -12287,7 +12527,7 @@
 302176 = {
 	name = Simeon
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302175
 	909.4.27 = {
@@ -12300,14 +12540,14 @@
 302177 = {
 	name = Stepan
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302176
 	941.7.12 = {
 		birth = 941.7.12
 	}
 	989.1.2 = {
-		religion = orthodox
+		rite = roman_rite
 	}
 	992.4.10 = {
 		death = 992.4.10
@@ -12316,14 +12556,14 @@
 302178 = {
 	name = Mikhail
 	dynasty = 2001032	#Chrobatiovsky
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = chrobatian
 	father = 302177
 	975.8.14 = {
 		birth = 975.8.14
 	}
 	989.1.2 = {
-		religion = orthodox
+		rite = roman_rite
 	}
 	1041.3.3 = {
 		death = 1041.3.3
@@ -12332,11 +12572,14 @@
 302179 = {
 	name = Lev
 	dynasty = 2001032	#Chrobatiovsky
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302178
 	1005.11.13 = {
 		birth = 1005.11.13
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1062.3.3 = {
 		death = 1041.3.3
@@ -12345,11 +12588,14 @@
 302180 = {
 	name = Lev
 	dynasty = 2001032	#Chrobatiovsky
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302179
 	1037.11.13 = {
 		birth = 1037.11.13
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1082.6.10 = {
 		death = 1082.6.10
@@ -12359,10 +12605,13 @@
 302181 = {
 	name = Stanislav
 	dynasty = 2001035	#Novak
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1004.4.20 = {
 		birth = 1004.4.20
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1065.11.15 = {
 		death = 1065.11.15
@@ -12371,11 +12620,14 @@
 302182 = {
 	name = Pavel
 	dynasty = 2001035	#Novak
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302181
 	1037.6.13 = {
 		birth = 1037.6.13
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1090.8.26 = {
 		death = 1090.8.26
@@ -12384,11 +12636,14 @@
 302183 = {
 	name = Roman
 	dynasty = 2001035	#Novak
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302181
 	1040.12.8 = {
 		birth = 1040.12.8
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1097.3.11 = {
 		death = 1097.3.11
@@ -12397,7 +12652,7 @@
 302184 = {
 	name = Igor
 	dynasty = 2001035	#Novak
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	989.6.7 = {
 		birth = 989.6.7
@@ -12409,7 +12664,7 @@
 #Legendary early Kiev rulers
 302185 = {			#Completely fictional, so Kyi can have proper brothers and sister
 	name = Kuar		#Name based on the possible original Armenian version of Kyi's legend, because why not
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	526.1.16 = {
 		birth = 526.1.16
@@ -12424,7 +12679,7 @@
 302186 = {
 	name = Dessenka	#Completely fictional, so Kyi can have proper brothers and sister
 	female = yes
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	530.4.9 = {
 		birth = 530.4.9
@@ -12436,7 +12691,7 @@
 302187 = {
 	name = Kyi		#Legendary 1st ruler of Kiev
 	dynasty = 2001036	#Kyivy
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	father = 302185
 	mother = 302186
@@ -12450,7 +12705,7 @@
 302188 = {
 	name = Shchek	#Kyi's brother
 	dynasty = 2001036	#Kyivy
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	father = 302185
 	mother = 302186
@@ -12464,7 +12719,7 @@
 302189 = {
 	name = Khoryv	#Kyi's brother
 	dynasty = 2001036	#Kyivy
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	father = 302185
 	mother = 302186
@@ -12479,7 +12734,7 @@
 	name = Lybid	#Kyi's sister
 	female = yes
 	dynasty = 2001036	#Kyivy
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polian
 	father = 302185
 	mother = 302186
@@ -12494,10 +12749,13 @@
 302191 = {
 	name = Viacheslav
 	dynasty = 2001028	#Betula
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1031.7.16 = {
 		birth = 1031.7.16
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1093.8.22 = {
 		death = 1093.8.22
@@ -12506,7 +12764,7 @@
 302192 = {
 	name = Svetozar
 	dynasty = 2001028	#Betula
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302191
 	1067.4.14 = {
@@ -12519,7 +12777,7 @@
 302193 = {
 	name = Iakov
 	dynasty = 2001028	#Betula
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302192
 	1096.1.11 = {
@@ -12532,7 +12790,7 @@
 302194 = {
 	name = Ilya
 	dynasty = 2001028	#Betula
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	father = 302193
 	1125.6.14 = {
@@ -12546,10 +12804,13 @@
 302195 = {
 	name = Ivan
 	dynasty = 2001037	#Trembovliv
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1033.9.8 = {
 		birth = 1033.9.8
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1096.8.18 = {
 		death = 1096.8.18
@@ -12561,7 +12822,7 @@
 302196 = {		#Polochans tribe in 867
 	name = Igor
 	dynasty = 2001038	#Polochanin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polochan
 	843.10.16 = {
 		birth = 843.10.16
@@ -12573,7 +12834,7 @@
 302197 = {		#Polochans tribe in 867
 	name = Iliya
 	dynasty = 2001038	#Polochanin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polochan
 	father = 302196
 	865.8.13 = {
@@ -12586,7 +12847,7 @@
 302198 = {		#Polochans tribe in 867
 	name = Nikita
 	dynasty = 2001038	#Polochanin
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = polochan
 	father = 302197
 	893.12.20 = {
@@ -12597,12 +12858,15 @@
 	}
 }
 302199 = {
-	name = Rogvolod		#Ragnvald of Polotsk
+	name = "Ragnvald"		#Ragnvald of Polotsk
 	dynasty = 1029118
-	religion = slavic_pagan
-	culture = polochan	#originally from Sweden, but no mention of when (or even if) he slavicized
+	rite = slavic_pagan
+	culture = svear	#originally from Sweden, but no mention of when (or even if) he slavicized
 	920.1.2 = {
 		birth = 920.1.2
+	}
+	940.1.1 = {
+		culture = polochan
 	}
 	978.6.15 = {
 		death = 978.6.15
@@ -12612,7 +12876,7 @@
 302200 = {
 	name = Voislav
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	836.3.20 = {
 		birth = 836.3.20
@@ -12627,7 +12891,7 @@
 302201 = {
 	name = Liubava
 	female = yes
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	841.7.28 = {
 		birth = 841.7.28
@@ -12640,7 +12904,7 @@
 	name = Tatyana
 	female = yes
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	father = 302200
 	mother = 302201
@@ -12655,7 +12919,7 @@
 	name = Varvara
 	female = yes
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	father = 302200
 	mother = 302201
@@ -12670,7 +12934,7 @@
 	name = Premyslava
 	female = yes
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	mother = 302203
 	893.1.14 = {
@@ -12683,7 +12947,7 @@
 302205 = {
 	name = Sudislav
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	mother = 302204
 	918.10.1 = {
@@ -12696,7 +12960,7 @@
 302206 = {
 	name = Voislav
 	dynasty = 1029117	#Dregovich
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = dregovichian
 	father = 302205
 	948.6.3 = {
@@ -12709,10 +12973,13 @@
 302207 = {
 	name = Ivan
 	dynasty = 1029117	#Dregovich
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1044.3.5 = {
 		birth = 1044.3.5
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1104.8.30 = {
 		death = 1104.8.30
@@ -12721,10 +12988,13 @@
 302208 = {
 	name = Gavriil
 	dynasty = 2001040	#Izslutska
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1040.7.14 = {
 		birth = 1040.7.14
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1098.12.27 = {
 		death = 1098.12.27
@@ -12734,7 +13004,7 @@
 302209 = {
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	822.11.15 = {
 		birth = 822.11.15
@@ -12752,7 +13022,7 @@
 302210 = {
 	name = Olena
 	female = yes
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	825.1.29 = {
 		birth = 825.1.29
@@ -12764,7 +13034,7 @@
 302211 = {
 	name = Darya
 	female = yes
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	830.11.14 = {
 		birth = 830.11.14
@@ -12776,7 +13046,7 @@
 302212 = {
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302210
@@ -12791,7 +13061,7 @@
 	name = Gradislava
 	female = yes
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302210
@@ -12806,7 +13076,7 @@
 	name = Dobroslava
 	female = yes
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302210
@@ -12820,7 +13090,7 @@
 302215 = {
 	name = Vyshata
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302210
@@ -12835,7 +13105,7 @@
 	name = Predslava
 	female = yes
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302211
@@ -12849,7 +13119,7 @@
 302217 = {
 	name = Ruslan
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302211
@@ -12863,7 +13133,7 @@
 302218 = {
 	name = Yaroslav
 	dynasty = 2001039	#Krivichi
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = krivichian
 	father = 302209
 	mother = 302211
@@ -12880,7 +13150,7 @@
 302219 = {
 	name = Ingvar
 	dynasty = 2001041	#Pskovych
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = ilmenian
 	831.7.23 = {
 		birth = 831.7.23
@@ -12892,7 +13162,7 @@
 302220 = {
 	name = Boris
 	dynasty = 2001041	#Pskovych
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = ilmenian
 	father = 302219
 	854.11.2 = {
@@ -12908,7 +13178,7 @@
 194145 = {
 	name = "Volodar"
 	dynasty = 1029118
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = vyatichian
 	733.1.1 = {
 		birth = yes
@@ -12920,7 +13190,7 @@
 194146 = {
 	name = "Iliya"
 	dynasty = 1029118
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = vyatichian
 	father = 194145
 	770.1.1 = {
@@ -12932,7 +13202,7 @@
 }
 160063 = {
 	name = "Bojan"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 194146
@@ -12945,7 +13215,7 @@
 }
 6834 = {
 	name = "Zhavoronok"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 160063
@@ -12958,7 +13228,7 @@
 }
 160059 = {
 	name = "Vladislav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
@@ -12971,7 +13241,7 @@
 }
 160060 = {
 	name = "Dragan"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
@@ -12984,7 +13254,7 @@
 }
 160061 = {
 	name = "Gradimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 6834
@@ -12997,7 +13267,7 @@
 }
 302242 = {
 	name = "Dobromir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 194146
@@ -13010,7 +13280,7 @@
 }
 302243 = {
 	name = "Volodar"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 302242
@@ -13023,7 +13293,7 @@
 }
 302244 = {
 	name = "Iliya"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = vyatichian
 	dynasty = 1029118
 	father = 302242
@@ -13040,7 +13310,7 @@
 194142 = {
 	name = "Sviatoslav"
 	dynasty = 1029138
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = severian
 	733.1.1 = {
 		birth = yes
@@ -13052,7 +13322,7 @@
 194143 = {
 	name = "Volodar"
 	dynasty = 1029138
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = severian
 	770.6.4 = {
 		birth = yes
@@ -13064,7 +13334,7 @@
 194144 = {
 	name = "Svetozar"
 	dynasty = 1029138
-	religion = slavic_pagan
+	rite = slavic_pagan
 	culture = severian
 	father = 194143
 	802.4.5 = {
@@ -13076,7 +13346,7 @@
 }
 159721 = {
 	name = "Tatimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 194144
@@ -13089,7 +13359,7 @@
 }
 6860 = {
 	name = "Berimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	trait = content
 	dynasty = 1029138
@@ -13103,7 +13373,7 @@
 }
 160111 = {
 	name = "Mechislav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 159721
@@ -13116,7 +13386,7 @@
 }
 160112 = {
 	name = "Kreslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 159721
@@ -13129,7 +13399,7 @@
 }
 160113 = {
 	name = "Vadim"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 159721
@@ -13142,7 +13412,7 @@
 }
 160089 = {
 	name = "Izbygnev"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 6860
@@ -13155,7 +13425,7 @@
 }
 160090 = {
 	name = "Krasimir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = severian
 	dynasty = 1029138
 	father = 6860
@@ -13171,7 +13441,7 @@
 #
 302245 = {
 	name = "Jaromir"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	802.11.28 = {
@@ -13183,7 +13453,7 @@
 }
 302246 = {
 	name = "Dragan"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	father = 302245
@@ -13196,7 +13466,7 @@
 }
 302247 = {
 	name = "Sviatoslav"
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = krivichian
 	dynasty = 2001039	#Krivichi (unrelated by blood to other Kirivichi, but same tribe)
 	father = 302245
@@ -13212,11 +13482,14 @@
 #
 302257 = {
 	name = "Voislav"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001047	#Okansky
 	1028.6.17 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1080.11.29 = {
 		death = yes
@@ -13224,7 +13497,7 @@
 }
 302258 = {
 	name = "Nikita"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001047	#Okansky
 	father = 302257
@@ -13237,7 +13510,7 @@
 }
 302259 = {
 	name = "Ivan"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001048	#Kromsky
 	1128.4.14 = {
@@ -13249,7 +13522,7 @@
 }
 302260 = {
 	name = "Simeon"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001048	#Kromsky
 	father = 302259
@@ -13265,11 +13538,14 @@
 #
 302261 = {
 	name = "Yuri"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001049	#Timerovich
 	991.8.13 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1054.11.21 = {
 		death = yes
@@ -13277,12 +13553,15 @@
 }
 302262 = {
 	name = "Koz_ma"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001049	#Timerovich
 	father = 302261
 	1017.3.12 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1082.7.1 = {
 		death = yes
@@ -13290,12 +13569,15 @@
 }
 302263 = {
 	name = "Kirill"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001049	#Timerovich
 	father = 302262
 	1045.12.14 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1095.2.18 = {
 		death = yes
@@ -13304,7 +13586,7 @@
 #
 302264 = {
 	name = "Stepan"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001050	#Zalesky
 	998.11.25 = {
@@ -13316,12 +13598,15 @@
 }
 302265 = {
 	name = "Iliya"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001050	#Zalesky
 	father = 302264
 	1018.3.27 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1059.5.15 = {
 		death = yes
@@ -13329,12 +13614,15 @@
 }
 302266 = {
 	name = "Lev"
-	religion = "orthodox"
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001050	#Zalesky
 	father = 302265
 	1041.1.9 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1099.10.28 = {
 		death = yes
@@ -13343,11 +13631,14 @@
 #
 302417 = {
 	name = "Briachislav"
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1039.1.14 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1057.12.2 = {
 		add_spouse = 302418
@@ -13359,10 +13650,13 @@
 302418 = {
 	name = "Anastasia"
 	female = yes
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	1037.6.9 = {
 		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
 	}
 	1109.6.6 = {
 		death = yes
@@ -13372,7 +13666,7 @@
 	name = "Ivan"
 	father = 302417
 	mother = 302418
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1063.1.6 = {
@@ -13386,7 +13680,7 @@
 	name = "Daniil"
 	father = 302417
 	mother = 302418
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1064.4.9 = {
@@ -13400,7 +13694,7 @@
 	name = "Fedot"
 	father = 302417
 	mother = 302418
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1066.5.16 = {
@@ -13413,7 +13707,7 @@
 302422 = {
 	name = "Briachislav"
 	father = 302419
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1093.5.24 = {
@@ -13426,9 +13720,10 @@
 302423 = {
 	name = "Ivan"
 	father = 302422
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
+	stewardship = 6
 	1119.2.14 = {
 		birth = yes
 	}
@@ -13439,7 +13734,7 @@
 302424 = {
 	name = "Vasilko"
 	father = 302423
-	religion = orthodox
+	rite = slavic_rite
 	culture = russian
 	dynasty = 2001076	# Vologdovich
 	1146.11.13 = {
@@ -13453,7 +13748,7 @@
 256045 = {			#fictional, d_drevlians
 	name = Dobroslav
 	dynasty = 2004001	#Medvjedich
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = drevlian
 	833.1.1 = {
 		birth = yes
@@ -13467,12 +13762,103 @@
 256043 = {			#fictional, d_moldova & d
 	name = Mstislav
 	dynasty = 1061020	#Dniprich
-	religion = "slavic_pagan"
+	rite = "slavic_pagan"
 	culture = tiverian
 	840.1.1 = {
 		birth = yes
 	}
 	900.1.1 = {
+		death = yes
+	}
+}
+
+#the Venerable Polycarp of Pechersk
+kyivan_studite_1 = {
+	name = "Polikarp"
+	female = no
+	rite = slavic_rite
+	culture = "russian"
+	trait = education_learning_3
+	trait = theologian
+	trait = lifestyle_scholar
+	trait = devoted
+	1105.1.1 = {
+		birth = yes
+	}
+	1182.7.24 = {
+		death = yes
+		trait = saint
+	}
+}
+
+#Fictional Novgorod monk
+yuriev_1 = {
+	name = "Kirill"
+	female = no
+	rite = slavic_rite
+	culture = "russian"
+	trait = education_stewardship_3
+	trait = devoted
+	961.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = slavic_rite
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+#St. Barlaam of Khutyn
+yuriev_2 = {
+	name = "Barlaam"
+	female = no
+	rite = slavic_rite
+	culture = "russian"
+	trait = education_stewardship_2
+	trait = devoted
+	trait = generous
+	trait = improvident
+	1112.1.1 = {
+		birth = yes
+	}
+	1192.11.6 = {
+		death = yes
+		trait = saint
+	}
+}
+
+#Abbess Yevdokiya, sister of St Euphrosyne of Polotsk
+euphrosynian_1 = {
+	name = "Yevdokiya"
+	female = yes
+	dynasty = 705
+	father = 682
+	rite = slavic_rite
+	culture = "russian"
+	trait = education_learning_2
+	trait = devoted
+	1112.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+#Fictional nun
+nativity_1 = {
+	name = "Maria"
+	female = yes
+	rite = slavic_rite
+	culture = "russian"
+	trait = education_learning_2
+	trait = devoted
+	1142.1.1 = {
+		birth = yes
+	}
+	1214.1.1 = {
 		death = yes
 	}
 }
