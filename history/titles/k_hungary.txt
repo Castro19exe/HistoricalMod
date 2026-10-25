@@ -2,11 +2,7 @@
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 8 }
 	1178.1.1 = { change_development_level = 24 }
-
-	867.1.1 = {
-		de_jure_liege = 0
-	}
-	
+		
 	685.1.1 = {
 		holder = 146154
 	}
@@ -562,9 +558,9 @@ c_esztergom = {
 	1066.1.1 = {
 		holder = 20356
 	}
-	1158.1.1 = {
+	1161.1.1 = {
 		holder = esztergom_archbishop_1 # Lucas, archbishop of Esztergom
-		government = theocracy_government
+		government = ecclesiastical_government
 	}
 	1196.4.23 = {
 		holder = 219501
@@ -4950,6 +4946,7 @@ d_syrmia = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
+					empty_treasury_when_abandoning_landed_life_effect = yes
 					change_government = feudal_government
 				}
 			}

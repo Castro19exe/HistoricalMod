@@ -1,0 +1,12 @@
+﻿l_english:
+ gallowglass:0 "Gallóglaigh"
+ gallowglass_flavor:0 "#F Heavily armed warriors of mixed $heritage_goidelic_name$ and $norse$ tradition. $h_gallowglass$ were known for strength in close combat, use of two-handed axes and swords, and service as elite household troops.#!"
+
+ winged_hussar:0 "Winged Hussars" 
+ winged_hussar_flavor:0 "#F Armed enough in Western European style and mobile in Eastern European style, these Polish cavalry are called 'Winged Hussars' because of their unique wing decorations. These brave cavalry never back down even in front of the Pikemen.#!"
+
+ jinete:0 "Jinetes"
+ jinete_flavor:0 "#F Andalusian Light cavalry, known for their speed and agility. Jinetes were skilled horsemen who excelled in hit-and-run tactics and were often used for scouting and skirmishing.#!"
+
+ german_burgmann:0 "Burgmannen"
+ german_burgmann_flavor:0 "#F These German knights 'Burgmann', who prefer to get off and use a two-handed sword rather than fight on horseback, are soldiers stationed in the fortress and in charge of nearby defense. Encased in mail, these warriors are powerful heavy infantry.#!"

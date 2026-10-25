@@ -55978,6 +55978,16 @@ e_spain = {
 					province = 1756
 
 					color = { 182 108 45 }
+
+					cultural_names = {
+						name_list_bedouin = Ūbīdash
+						name_list_maghrebi = Ūbīdash
+						name_list_levantine = Ūbīdash
+						name_list_egyptian = Ūbīdash
+						name_list_andalusian = Ūbīdash
+						name_list_yemeni = Ūbīdash
+						name_list_baranis = Ūbīdash
+					}
 				}
 			}
 			c_viseu = {
@@ -60016,6 +60026,17 @@ e_arabia = {
 			color = { 3 255 74 }
 
 			capital = c_damietta
+
+			cultural_names = {
+				name_list_bedouin = "Asafi an-Nīl"
+				name_list_maghrebi = "Asafi an-Nīl"
+				name_list_levantine = "Asafi an-Nīl"
+				name_list_egyptian = "Asafi an-Nīl"
+				name_list_andalusian = "Asafi an-Nīl"
+				name_list_yemeni = "Asafi an-Nīl"
+				name_list_baranis = "Asif n Nnil"
+				name_list_butr = "Asif n Nnil"
+			}
 
 			c_damietta = {
 				color = { 12 255 83 }
