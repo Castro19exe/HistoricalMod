@@ -20,7 +20,7 @@
 	1169.1.1 = { # "The Irish Church within the Norman area was European in style and more responsive to papal authority. Beyond this area, the old Irish Church remained isolated and more autonomous than it had been prior to 1169."
 		rite = roman_rite
 	}
-	#1178.1.1 = { culture = norwegian } # "The Hiberno-Norse Ostmen remained a distinct group in Dublin by living in Ostmantown for more than half a century after the Anglo-Norman invasion."
+	1178.1.1 = { culture = norse_gaelic } # "The Hiberno-Norse Ostmen remained a distinct group in Dublin by living in Ostmantown for more than half a century after the Anglo-Norman invasion."
 }
 29 = {	#WICKLOW
 	holding = none

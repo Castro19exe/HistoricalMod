@@ -7208,7 +7208,7 @@
 	name = "Tryggve"
 	dynasty = 1045020
 	rite = norse_pagan
-	culture = norse
+	culture = dane
 	733.1.1 = {
 		birth = yes
 	}

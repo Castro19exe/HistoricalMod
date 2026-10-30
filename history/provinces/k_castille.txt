@@ -9,14 +9,14 @@
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { 
+	800.1.1 = {
 		culture = asturleonese 
 	}
 	1037.1.1 = {
 		culture = castilian 
 	}
 	1054.7.16 = {
-		rite = roman_rite
+		rite = mozarabic_church
 	}
 	1066.1.1 = {
 		buildings = {
@@ -54,7 +54,7 @@
 		culture = castilian 
 	}
 	1066.1.1 = {
-		rite = roman_rite
+		rite = mozarabic_church
 	}
 	1178.1.1 = {
 		rite = roman_rite
@@ -75,12 +75,12 @@
 1901 = {	# SORIA
 	#Misc
 	culture = visigothic
-	religion = mozarabic_church
+	rite = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	800.1.1 = { culture = asturleonese }
+	800.1.1 = { culture = andalusian }
 	1037.1.1 = { culture = castilian }
 	950.1.1 = { rite = roman_rite }
 	1066.1.1 = {
@@ -154,13 +154,13 @@
 1801 = {	# SANTIALLANA
 	# Misc
 	culture = visigothic
-	rite = roman_rite
+	rite = mozarabic_church
 	
 	# History
 	800.1.1 = { culture = asturleonese }
 	1037.1.1 = { culture = castilian }
 	1054.7.16 = {
-		rite = roman_rite
+		rite = mozarabic_church
 	}
 	# Council of Burgos, 1080: Alfonso VI abolishes the Hispanic rite in Leon-Castile
 	1080.1.1 = {
@@ -184,7 +184,7 @@
 1814 = {	# AMAYA
 	# Misc
 	culture = visigothic
-	rite = roman_rite
+	rite = mozarabic_church
 	
 	holding = castle_holding
 	
@@ -192,7 +192,7 @@
 	800.1.1 = { culture = asturleonese }
 	1037.1.1 = { culture = castilian }
 	1054.7.16 = {
-		rite = roman_rite
+		rite = mozarabic_church
 	}
 	1178.1.1 = {
 		rite = roman_rite

@@ -262,7 +262,7 @@
 ###c_apulia
 2619 = {	#TRANI
 	culture = lombard
-	rite = byzantine_rite
+	rite = beneventan_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = roman_rite
@@ -289,7 +289,7 @@
 ###c_bari
 2623 = {	#BARI
 	culture = lombard
-	rite = byzantine_rite
+	rite = beneventan_rite
 	holding = castle_holding
 	1054.7.16 = {
 		rite = roman_rite

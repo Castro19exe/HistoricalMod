@@ -3795,7 +3795,7 @@ e_britannia = {
 					cultural_names = {
 						name_list_anglo_saxon = Scrobbesburh
 						name_list_old_saxon = Scrobbesburh
-						name_list_welsh = Amwythig
+						name_list_welsh = cn_amwythig
 					}
 				}
 				b_ludlow = {
@@ -4119,8 +4119,8 @@ e_britannia = {
 					color = { 225 105 10 }
 
 					cultural_names = {
-						name_list_anglo_saxon = "Hlæwes"
-						name_list_old_saxon = "Hlæwes"
+						name_list_anglo_saxon = Hlæwes
+						name_list_old_saxon = Hlæwes
 					}
 				}
 				b_chichester = {
@@ -4350,6 +4350,11 @@ e_britannia = {
 
 			capital = c_devon
 
+			cultural_names = {
+				name_list_anglo_saxon = Cornwealas
+				name_list_old_saxon = Cornwealas
+			}
+			
 			ai_primary_priority = {
 				if = {
 					limit = {
@@ -4362,6 +4367,11 @@ e_britannia = {
 			c_devon = {
 				color = { 170 60 10 }
 
+				cultural_names = {
+					name_list_anglo_saxon = Defena
+					name_list_old_saxon = Defena
+				}
+
 				ai_primary_priority = {
 					if = {
 						limit = {
@@ -4370,35 +4380,63 @@ e_britannia = {
 						add = @better_than_the_alternatives_score
 					}
 				}
-
-				cultural_names = {
-					name_list_anglo_saxon = Defena
-					name_list_old_saxon = Defena
-				}
-
+				
 				b_exeter = {
 					province = 1569
 
 					color = { 170 60 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Exanceaster
+						name_list_old_saxon = Exanceaster
+						name_list_swedish = Vökvaborg
+						name_list_norwegian = Vøkvaborg
+						name_list_danish = Vøkvaborg
+						name_list_norse = Vøkvaborg
+					}
 				}
 				b_totnes = {
 					province = 1570
 
 					color = { 170 60 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Tottaness
+						name_list_old_saxon = Tottaness
+					}
 				}
 				b_okehampton = {
 					province = 1571
 
 					color = { 170 60 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Ocmundtune
+						name_list_old_saxon = Ocmundtune
+						name_list_swedish = Ockmunnur
+						name_list_norwegian = Ockmunnur
+						name_list_danish = Ockmunnur
+						name_list_norse = Ockmunnur
+					}
 				}
 				b_barnstaple = {
 					province = 1572
 
 					color = { 170 60 10 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Bardanstapol
+						name_list_old_saxon = Bardanstapol
+					}
 				}
 			}
 			c_cornwall = {
 				color = { 150 55 5 }
+
+				cultural_names = {
+					name_list_anglo_saxon = Cornwealas
+					name_list_old_saxon = Cornwealas
+				}
 
 				ai_primary_priority = {
 					if = {
@@ -4409,21 +4447,39 @@ e_britannia = {
 					}
 				}
 
-
 				b_launceston = {
 					province = 1573
 
 					color = { 150 55 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Dunheafod
+						name_list_old_saxon = Dunheafod
+						name_list_swedish = Svengård
+						name_list_norwegian = Svengård
+						name_list_danish = Svengård
+						name_list_norse = Svengård
+					}
 				}
 				b_tintagel = {
 					province = 1574
 
 					color = { 150 55 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Tintagæl
+						name_list_old_saxon = Tintagæl
+					}
 				}
 				b_helston = {
 					province = 1575
 
 					color = { 150 55 5 }
+
+					cultural_names = {
+						name_list_anglo_saxon = Henlistun
+						name_list_old_saxon = Henlistun
+					}
 				}
 			}
 		}
@@ -22579,7 +22635,7 @@ e_wendish_empire = {
 
 	capital = c_vidzeme # Riga
 
-	definite_form = yes
+	#definite_form = yes
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -23162,9 +23218,9 @@ e_wendish_empire = {
 					color = { 163 162 145 }
 
 					cultural_names = {
-						name_list_polish = Gardziec
-						name_list_pommeranian = Gardziec
-						name_list_polabian = Gardziec
+						name_list_polish = Korenica
+						name_list_pommeranian = Korenica
+						name_list_polabian = Korenica
 						name_list_franconian = Bergen
 						name_list_saxon = Bergen
 						name_list_swabian = Bergen
@@ -23615,6 +23671,7 @@ e_wendish_empire = {
 			#capital = 3166 #Brandenburg
 
 			cultural_names = {
+				name_list_polish = cn_luticia
 				name_list_polabian = cn_luticia
 				name_list_pommeranian = cn_luticia
 			}
@@ -23623,9 +23680,9 @@ e_wendish_empire = {
 				color = { 115 135 115 }
 
 				cultural_names = {
-					name_list_polish = Branibórz
-					name_list_pommeranian = Branibórz
-					name_list_polabian = Branibórz
+					name_list_polish = cn_brenna
+					name_list_pommeranian = cn_brenna
+					name_list_polabian = cn_brenna
 				}
 
 				b_brandenburg = {
@@ -23634,9 +23691,9 @@ e_wendish_empire = {
 					color = { 115 135 115 }
 
 					cultural_names = {
-						name_list_polish = Branibórz
-						name_list_pommeranian = Branibórz
-						name_list_polabian = Branibórz
+						name_list_polish = cn_brenna
+						name_list_pommeranian = cn_brenna
+						name_list_polabian = cn_brenna
 					}
 				}
 				b_potsdam = {
@@ -25294,7 +25351,7 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 
 	capital = c_krakowska # Krakowska
 
-	definite_form = yes
+	#definite_form = yes
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -25351,11 +25408,11 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 				color = { 137 6 20 }
 
 				cultural_names = {
-					name_list_franconian = "Krakau"
-					name_list_saxon = "Krakau"
-					name_list_swabian = "Krakau"
-					name_list_bavarian = "Krakau"
-					name_list_thuringian = "Krakau"
+					name_list_franconian = Krakau
+					name_list_saxon = Krakau
+					name_list_swabian = Krakau
+					name_list_bavarian = Krakau
+					name_list_thuringian = Krakau
 				}
 
 				b_krakow = {
@@ -25364,11 +25421,11 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					color = { 137 6 20 }
 
 					cultural_names = {
-						name_list_franconian = "Krakau"
-						name_list_saxon = "Krakau"
-						name_list_swabian = "Krakau"
-						name_list_bavarian = "Krakau"
-						name_list_thuringian = "Krakau"
+						name_list_franconian = Krakau
+						name_list_saxon = Krakau
+						name_list_swabian = Krakau
+						name_list_bavarian = Krakau
+						name_list_thuringian = Krakau
 					}
 				}
 				b_olsztyn = {
@@ -25932,11 +25989,11 @@ e_west_slavia = { # West Slavs: Polish, Polabian, Czech, etc.
 					color = { 150 40 25 }
 
 					cultural_names = {
-						name_list_franconian = "Warschau"
-						name_list_saxon = "Warschau"
-						name_list_swabian = "Warschau"
-						name_list_bavarian = "Warschau"
-						name_list_thuringian = "Warschau"
+						name_list_franconian = Warschau
+						name_list_saxon = Warschau
+						name_list_swabian = Warschau
+						name_list_bavarian = Warschau
+						name_list_thuringian = Warschau
 					}
 				}
 				b_liw = {
@@ -63795,13 +63852,31 @@ e_azania = {
 
 			capital = c_mombasa
 
+			cultural_names = {
+				name_list_east_bantu = Mwita
+				name_list_swahili = Mwita
+				name_list_portuguese = Mombaça
+			}
+
 			c_mombasa = {
 				color = { 253 234 159 }
+
+				cultural_names = {
+					name_list_east_bantu = Mwita
+					name_list_swahili = Mwita
+					name_list_portuguese = Mombaça
+				}
 
 				b_mombasa = {
 					province = 12786
 
 					color = { 253 234 159 }
+
+					cultural_names = {
+						name_list_east_bantu = Mwita
+						name_list_swahili = Mwita
+						name_list_portuguese = Mombaça
+					}
 				}
 				b_mtwapa = {
 					province = 12784

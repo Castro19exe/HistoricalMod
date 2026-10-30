@@ -171,8 +171,6 @@ croatian = {
 
 serbian = {
 	color = {  0.36 0.1 0.04 }
-	created = 650.1.1
-	parents = { sorbian }
 	
 	ethos = ethos_communal
 	heritage = heritage_south_slavic

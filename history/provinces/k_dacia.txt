@@ -72,11 +72,10 @@
 ##d_muntenia ###################################
 ###c_giurgiu
 4990 = {	#Giurgiu
-	culture = bulgarian
+	culture = vlach
 	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
-		culture = vlach
 		holding = castle_holding
 	}
 	1054.7.16 = {
@@ -107,11 +106,10 @@
 
 ###c_bucuresti
 4995 = {	#Bucuresti
-	culture = bulgarian
+	culture = vlach
 	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
-		culture = vlach
 		holding = castle_holding
 	}
 	1054.7.16 = {
@@ -127,11 +125,10 @@
 
 ###c_calarasi
 4997 = {	#Calarasi
-	culture = bulgarian
+	culture = vlach
 	rite = byzantine_rite
 	holding = tribal_holding
-	935.1.1 = {
-		culture = vlach
+	935.1.1 = { 
 		holding = castle_holding
 	}
 	1054.7.16 = {
@@ -153,11 +150,10 @@
 
 ###c_buzau
 5000 = {	#Buzau
-	culture = bulgarian
+	culture = vlach
 	rite = byzantine_rite
 	holding = tribal_holding
-	935.1.1 = {
-		culture = vlach
+	935.1.1 = { 
 		holding = castle_holding
 	}
 	1054.7.16 = {
@@ -176,11 +172,10 @@
 
 ###c_braila
 5003 = {	#Braila
-	culture = bulgarian
+	culture = vlach
 	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
-		culture = vlach
 		holding = castle_holding
 	}
 	1054.7.16 = {

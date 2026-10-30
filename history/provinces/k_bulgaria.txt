@@ -247,7 +247,7 @@
 ##d_dobrudja ###################################
 ###c_constanta
 510 = {		#Constantia	
-	culture = bulgarian
+	culture = bolghar
 	rite = slavic_pagan
 	holding = castle_holding
 	867.1.1 = {
@@ -257,6 +257,7 @@
 	}
 	893.1.1 = {
 		#Defeat of Vladimir's pagan uprising
+		culture = bulgarian
 		rite = slavic_rite	#Council of Preslav; Old Church Slavonic liturgy
 	}
 	1054.7.16 = {

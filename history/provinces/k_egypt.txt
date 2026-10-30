@@ -258,7 +258,6 @@
 	#}
 	1066.1.1 = {
 		buildings = {
-			castle_02
 			cereal_fields_02
 			#orchards_01
 			regimental_grounds_01
@@ -299,7 +298,7 @@
 ###c_fayyum
 6060 = {	#AL-FAYYUM
 	culture = copt
-	religion = coptic
+	rite = coptic_rite
 	holding = castle_holding
 	1170.1.1 = {
 		culture = egyptian

@@ -1581,7 +1581,7 @@
 	intrigue = 8
 	stewardship = 10
 	rite = "tengri_pagan"
-	culture = "bulgarian"
+	culture = "bolghar"
 	trait = ambitious	#Can't say he didn't aim high in all areas of his life.
 	trait = callous	#Blinded his own son, threatened to blind the others, ruthlessly broke pagan revolts throughout his reign. Rarely mean, but utterly pragmatic.
 	trait = cynical	#Converted for political reasons.
@@ -1592,6 +1592,9 @@
 	}
 	841.1.1 = {
 		add_spouse = 168075
+	}
+	855.1.1 = {
+		culture = "bulgarian"
 	}
 	855.1.1 = {
 		effect = {

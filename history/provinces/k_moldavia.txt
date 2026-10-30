@@ -272,7 +272,7 @@
 ##d_bugeac ###################################
 ###c_tigheci
 5015 = {	#Tigheci
-	culture = tiverian
+	culture = bolghar
 	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
@@ -301,7 +301,7 @@
 
 ###c_cetatea_alba
 512 = {		#Cetatea Alba
-	culture = tiverian
+	culture = bolghar
 	rite = byzantine_rite
 	holding = tribal_holding
 	1066.1.1 = {
@@ -321,7 +321,7 @@
 
 ###c_chilia
 5012 = {	#Chilia
-	culture = tiverian
+	culture = bolghar
 	rite = byzantine_rite
 	holding = tribal_holding
 	935.1.1 = {
@@ -341,7 +341,7 @@
 	}
 	1178.1.1 = {
 		culture = vlach
-		rite = orthodox
+		rite = byzantine_rite
 	}
 }
 5013 = {	#Oblucita
