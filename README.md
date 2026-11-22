@@ -11,6 +11,7 @@ Historical Mod enhances Crusader Kings III with greater historical accuracy, exp
 
 ## Required DLCs:
 <p align="left">
+  <a href="https://store.steampowered.com/app/4232910/Crusader_Kings_III_Silk_Silver/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4232910/cc86db7eb82ed26c62277261fc21f2892d5a5659/header.jpg?t=1794935063" alt="Silk & Silver" width="150"></a>
   <a href="https://store.steampowered.com/app/3315530/Crusader_Kings_III_All_Under_Heaven/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3315530/e64322e3ee5b9221a7e15b2667098f7f93077b04/header.jpg?t=1768904480" alt="All Under Heaven" width="150"></a>
   <a href="https://store.steampowered.com/app/2671070/Crusader_Kings_III_Roads_to_Power/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2671070/header.jpg?t=1732731490" alt="Roads to Power DLC" width="150"></a>
   <a href="https://store.steampowered.com/app/1303182/Crusader_Kings_III_Royal_Court/"><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1303182/header.jpg?t=1732731924" alt="Royal Court DLC" width="150"></a>

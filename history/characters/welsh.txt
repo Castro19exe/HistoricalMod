@@ -5470,7 +5470,7 @@
 159348 = {
 	name = "Tewdos"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159347
 	700.1.1 = {
@@ -5483,7 +5483,7 @@
 159349 = {
 	name = "Maredudd"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159348
 	730.1.1 = {
@@ -5496,7 +5496,7 @@
 159350 = {
 	name = "Owain"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159349
 	760.1.1 = {
@@ -5510,7 +5510,7 @@
 	name = "Tangwystyl"
 	female = yes
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159350
 	790.1.1 = {
@@ -5523,7 +5523,7 @@
 159352 = {
 	name = "Bledrig"
 	dynasty = welsh_ap_bleddri
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	trait = peasant_leader	#Not in the sense of being a rebel, but he was either a villein or an elevated villein. Possibly simply the son of one.
 	790.1.1 = {
@@ -5539,7 +5539,7 @@
 159353 = {
 	name = "Hyfaidd"
 	dynasty = welsh_ap_bleddri
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159352
 	mother = 159351
@@ -5553,7 +5553,7 @@
 159354 = {
 	name = "Llywarch"
 	dynasty = welsh_ap_bleddri
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159353
 	850.1.1 = {
@@ -5567,7 +5567,7 @@
 	name = "Elen"
 	female = yes
 	dynasty = welsh_ap_bleddri
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159354
 	880.1.1 = {
@@ -5583,7 +5583,7 @@
 159356 = {
 	name = "Rhain"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159349
 	755.1.1 = {
@@ -5596,7 +5596,7 @@
 159357 = {
 	name = "Triffyn"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159356
 	770.1.1 = {
@@ -5609,7 +5609,7 @@
 159358 = {
 	name = "Awst"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159346
 	680.1.1 = {
@@ -5622,7 +5622,7 @@
 159359 = {
 	name = "Elwystyl"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159358
 	710.1.1 = {
@@ -5635,7 +5635,7 @@
 159360 = {
 	name = "Tewdwr"
 	dynasty_house = house_british_isles_dyfed #Dyfed
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159347
 	701.1.1 = {
@@ -5648,7 +5648,7 @@
 159361 = {
 	name = "Rhodri"
 	dynasty = welsh_ap_bleddri
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159353
 	851.1.1 = {
@@ -5661,7 +5661,7 @@
 159362 = {
 	name = "Rhodri" #ap Hywel
 	dynasty_house = house_british_isles_dinefwr #Dinefrw
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 81823 #Hywel Dda
 	mother = 159355 #Elen of Dyfed
@@ -5675,7 +5675,7 @@
 159363 = {
 	name = "Nowy"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159360
 	721.1.1 = {
@@ -5688,7 +5688,7 @@
 159364 = {
 	name = "Gruffydd"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159363
 	750.1.1 = {
@@ -5701,7 +5701,7 @@
 159365 = {
 	name = "Tewdwr"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159364
 	780.1.1 = {
@@ -5714,7 +5714,7 @@
 159366 = {
 	name = "Elisedd"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159365
 	810.1.1 = {
@@ -5727,7 +5727,7 @@
 159367 = {
 	name = "Gruffydd"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159366
 	850.1.1 = {
@@ -5740,7 +5740,7 @@
 159368 = {
 	name = "Tewdwr"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159367
 	870.1.1 = {
@@ -5753,7 +5753,7 @@
 159369 = {
 	name = "Gwylog"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159368
 	900.1.1 = {
@@ -5766,7 +5766,7 @@
 159370 = {
 	name = "Elisedd"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159369
 	930.1.1 = {
@@ -5779,7 +5779,7 @@
 159371 = {
 	name = "Gruffydd"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159370
 	960.1.1 = {
@@ -5792,7 +5792,7 @@
 159372 = {
 	name = "Selyf"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159371
 	980.1.1 = {
@@ -5805,11 +5805,14 @@
 159373 = {
 	name = "Einion"
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159372
 	1000.1.1 = {
 		birth = "1000.1.1"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1070.1.1 = {
 		death = "1070.1.1"
@@ -5819,7 +5822,7 @@
 	name = "Elinor" #
 	female = yes
 	dynasty_house = house_british_isles_brycheiniog
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159373
 	1020.1.1 = {
@@ -5827,6 +5830,9 @@
 	}
 	1035.1.1 = {
 		add_spouse = 159312
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1080.1.1 = {
 		death = "1080.1.1"
@@ -5837,7 +5843,7 @@
 	name = "Elen" #ferch Rhodri Mawr
 	female = yes
 	dynasty_house = house_british_isles_aberffraw #Aberffraw
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 81831 #Rhodri Mawr
 	855.1.1 = {
@@ -5854,7 +5860,7 @@
 	diplomacy = 3
 	intrigue = 4
 	stewardship = 5
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159312
 	mother = 159374
@@ -5862,6 +5868,9 @@
 	trait = education_martial_2
 	1035.1.2 = {
 		birth = "1035.1.2"
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1090.1.2 = {
 		death = "1090.1.2"
@@ -5871,11 +5880,14 @@
 	name = "Elinor" #ferch Drymbenog
 	female = yes
 	dynasty = 1042817
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	father = 159519
 	1050.1.1 = {
 		birth = "1050.1.1"	#unknown
+	}
+	1054.7.16 = {
+		rite = roman_rite
 	}
 	1066.1.1 = {
 		add_spouse = 159292
@@ -5886,7 +5898,7 @@
 }
 159424 = {
 	name = "Caradog"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 545 #Caradoc
 	240.1.1 = {
@@ -5898,7 +5910,7 @@
 }
 159425 = {
 	name = "Meurig"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 545 #Caradoc
 	father = 159424
@@ -5911,7 +5923,7 @@
 }
 159426 = {
 	name = "Dynod"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 545 #Caradoc
 	father = 159424
@@ -5925,7 +5937,7 @@
 159427 = {
 	name = "Ursula"
 	female = yes
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 545 #Caradoc
 	father = 159426
@@ -5950,7 +5962,7 @@
 }
 159429 = {
 	name = "Eudaf" #Hen
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 1029001 #Prydain
 	father = 159428
@@ -5964,7 +5976,7 @@
 159430 = {
 	name = "Elen"
 	female = yes
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 1029001 #Prydain
 	father = 159429
@@ -5980,7 +5992,7 @@
 }
 159431 = {
 	name = "Cynan_Meiriadog"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159472
@@ -5993,7 +6005,7 @@
 }
 159432 = {
 	name = "Cadfan"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159431
@@ -6007,7 +6019,7 @@
 }
 159472 = {
 	name = "Geraint"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty = 1029001 #Prydain
 	father = 159428
@@ -6020,7 +6032,7 @@
 }
 159435 = {
 	name = "Gwrfawr"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159432
@@ -6033,7 +6045,7 @@
 }
 159436 = {
 	name = "Tudwal"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159435
@@ -6050,7 +6062,7 @@
 
 159437 = {
 	name = "Cynfawr"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159436
@@ -6065,7 +6077,7 @@
 
 159438 = {
 	name = "Custennin" #Constantine of Cornwall
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159437
@@ -6078,7 +6090,7 @@
 }
 159439 = {
 	name = "Erbin"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159438
@@ -6091,7 +6103,7 @@
 }
 159440 = {
 	name = "Geraint" #Llyngesic
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159439
@@ -6107,7 +6119,7 @@
 }
 159441 = {
 	name = "Cadwy"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159440
@@ -6121,7 +6133,7 @@
 }
 159442 = {
 	name = "Custennin"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159441
@@ -6136,12 +6148,17 @@
 }
 159443 = {
 	name = "Geraint"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159442
 	530.1.1 = {
 		birth = "530.1.1"
+	}
+	577.1.1 = {
+		name = "Gereint"
+		culture = "breton"
+		dynasty_house = house_british_isles_dyfnaint #Devnent
 	}
 	598.1.1 = {
 		death = "598.1.1"
@@ -6149,7 +6166,7 @@
 }
 159444 = {
 	name = "Bledrig"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159442
@@ -6169,12 +6186,17 @@
 159751 = {
 	name = "Newlyna"
 	female = yes
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159442
 	540.1.1 = {
 		birth = "540.1.1"
+	}
+	577.1.1 = {
+		name = "Neulenna"
+		culture = "breton"
+		dynasty_house = house_british_isles_dyfnaint #Devnent
 	}
 	590.1.1 = {
 		death = "590.1.1"
@@ -6182,7 +6204,7 @@
 }
 159752 = {
 	name = "Dywel"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159442
@@ -6201,7 +6223,7 @@
 159753 = {
 	name = "Enid"
 	female = yes
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	#dynasty = 0 #
 	453.1.1 = {
@@ -6213,7 +6235,7 @@
 }
 159754 = {
 	name = "Ermind"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159439
@@ -6226,7 +6248,7 @@
 }
 159755 = {
 	name = "Dywel"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	dynasty_house = house_british_isles_dyfnaint #Dyfnaint
 	father = 159439
@@ -6239,7 +6261,7 @@
 }
 159697 = {
 	name = "Iudon"
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "welsh"
 	dynasty_house = house_british_isles_dyfed #Dyfed
 	father = 159349
@@ -6254,7 +6276,7 @@
 159807 = {
 	name = "Macsen" # Wledig, or, as he is better known, Emperor Magnus Maximus, pretender to the WRE
 	dynasty = 1029129 #Gwent
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "roman"
 	325.1.1 = {
 		birth = yes
@@ -6270,7 +6292,7 @@
 	name = "Severa" #
 	female = yes
 	dynasty = 1029129 #Gwent
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "briton"
 	father = 159807
 	mother = 159430

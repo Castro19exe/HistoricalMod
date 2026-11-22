@@ -213,10 +213,10 @@
 			add_gold = 250
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 600
+				levies = 400
 				men_at_arms = {
 					type = armored_footmen
-					stacks = 2
+					stacks = 1
 				}
 				men_at_arms = {
 					type = onager
@@ -227,7 +227,7 @@
 			}
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 600
+				levies = 400
 				men_at_arms = {
 					type = light_footmen
 					stacks = 2
@@ -237,10 +237,14 @@
 			}
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 600
+				levies = 400
+				men_at_arms = {
+					type = armored_footmen
+					stacks = 1
+				}
 				men_at_arms = {
 					type = onager
-					stacks = 2
+					stacks = 1
 				}
 				location = province:270
 				inheritable = no
@@ -412,7 +416,6 @@
 	rite = roman_rite
 	culture = "norwegian"
 	trait = zealous
-	trait = hunchbacked
 	trait = twin
 	trait = forgiving
 	trait = shrewd
@@ -445,7 +448,6 @@
 	rite = roman_rite
 	culture = "norwegian"
 	trait = lustful
-	trait = lisping
 	trait = twin
 	trait = forgiving
 	trait = shrewd
@@ -912,50 +914,6 @@
 	}
 }
 
-144632 = {
-	name = "Teitur"
-	dynasty = 101891
-	rite = roman_rite
-	culture = "icelandic"
-	father = 20579
-	1041.1.1 = {
-		birth = "1041.1.1"
-	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	1111.1.1 = {
-		death = "1111.1.1"
-	}
-}
-
-144633 = {
-	name = "Hallur"
-	dynasty = 101891
-	rite = "roman_rite"
-	culture = "icelandic"
-	father = 144632
-	1075.1.1 = {
-		birth = "1075.1.1"
-	}
-	1150.1.1 = {
-		death = "1150.1.1"
-	}
-}
-
-144647 = {
-	name = "Gissur"
-	dynasty = 101891
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 202012
-	1208.1.1 = {
-		birth = "1208.1.1"
-	}
-	1268.1.12 = {
-		death = "1268.1.12"
-	}
-}
 
 200003 = {
 	name = "StyrbjO_rn"
@@ -1256,46 +1214,6 @@
 	}
 }
 
-202011 = {
-	name = "Gissur"
-	dynasty = 101891
-	martial = 6
-	diplomacy = 8
-	intrigue = 5
-	stewardship = 5
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = deceitful
-	trait = education_diplomacy_2
-	father = 144633
-	1125.1.1 = {
-		birth = "1125.1.1"
-	}
-	1206.6.27 = {
-		death = "1206.6.27"
-	}
-}
-
-202012 = {
-	name = "Thorvaldur"
-	dynasty = 101891
-	martial = 6
-	diplomacy = 8
-	intrigue = 6
-	stewardship = 5
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = generous
-	trait = calm
-	trait = education_learning_2
-	father = 202011
-	1155.1.1 = {
-		birth = "1155.1.1"
-	}
-	1235.9.1 = {
-		death = "1235.9.1"
-	}
-}
 
 202013 = {
 	name = "Halkjell"
@@ -1353,28 +1271,6 @@
 	}
 }
 
-202018 = {
-	name = "ThorlA_kur"
-	# AKA: Thorlakur
-	dynasty = 101908
-	martial = 6
-	diplomacy = 6
-	intrigue = 9
-	stewardship = 7
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = chaste
-	trait = arrogant
-	trait = zealous
-	trait = education_learning_1
-	father = 202017
-	1133.1.1 = {
-		birth = "1133.1.1"
-	}
-	1183.1.1 = {
-		death = "1183.1.1"
-	}
-}
 
 202019 = {
 	name = "Ragnheid"
@@ -1463,55 +1359,6 @@
 	}
 }
 
-202023 = {
-	name = "Sigrid"
-	female = yes
-	dynasty = 101892
-	martial = 5
-	diplomacy = 8
-	intrigue = 7
-	stewardship = 8
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = education_intrigue_1
-	father = 202024
-	mother = 202025
-	1151.1.1 = {
-		birth = "1151.1.1"
-	}
-	1183.1.1 = {
-		death = "1183.1.1"
-	}
-}
-
-202024 = {
-	name = "JO_n"
-	# AKA: Jon
-	dynasty = 101892
-	martial = 6
-	diplomacy = 8
-	intrigue = 7
-	stewardship = 8
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = calm
-	trait = just
-	trait = education_learning_2
-	father = 202026
-	mother = 202027
-	1124.1.1 = {
-		birth = "1124.1.1"
-	}
-	1146.1.1 = {
-		add_spouse = 202025
-	}
-	1171.1.1 = {
-		add_spouse = 202019
-	}
-	1197.1.1 = {
-		death = "1197.1.1"
-	}
-}
 
 202025 = {
 	name = "Halldora"
@@ -1531,27 +1378,6 @@
 	}
 }
 
-202026 = {
-	name = "Loftur"
-	dynasty = 101892
-	martial = 6
-	diplomacy = 5
-	intrigue = 7
-	stewardship = 6
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = education_learning_3
-	father = 20581
-	1076.1.1 = {
-		birth = "1076.1.1"
-	}
-	1120.1.1 = {
-		add_spouse = 202027
-	}
-	1133.1.1 = {
-		death = "1133.1.1"
-	}
-}
 
 202027 = {
 	name = "Tora"
@@ -1574,53 +1400,6 @@
 	}
 }
 
-202028 = {
-	name = "SE_mund"
-	# AKA: Saemund
-	dynasty = 101892
-	martial = 4
-	diplomacy = 7
-	intrigue = 5
-	stewardship = 6
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = humble
-	trait = honest
-	trait = calm
-	trait = education_learning_3
-	father = 202024
-	mother = 202025
-	1154.1.1 = {
-		birth = "1154.1.1"
-	}
-	1222.11.7 = {
-		death = "1222.11.7"
-	}
-}
-
-202029 = {
-	name = "PA_ll"
-	# AKA: Pall
-	dynasty = 101892
-	martial = 6
-	diplomacy = 7
-	intrigue = 6
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = bastard
-	trait = honest
-	trait = chaste
-	trait = education_learning_4
-	father = 202024
-	mother = 202019
-	1170.1.1 = {
-		birth = "1170.1.1"
-	}
-	1210.1.1 = {
-		death = "1210.1.1"
-	}
-}
 
 202030 = {
 	name = "BA_rd"
@@ -2358,91 +2137,6 @@
 	}
 }
 
-20579 = {
-	name = "Isleifur"
-	dynasty = 101891
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 5
-	rite = roman_rite
-	culture = "norse"
-	trait = diligent
-	trait = education_intrigue_2
-	1006.1.1 = {
-		birth = "1006.1.1"
-	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	1080.6.5 = {
-		death = "1080.6.5"
-	}
-}
-
-20580 = {
-	name = "Sigfus"
-	dynasty = 101892
-	martial = 8
-	diplomacy = 8
-	intrigue = 4
-	stewardship = 5
-	rite = roman_rite
-	culture = "norse"
-	trait = greedy
-	trait = arbitrary
-	trait = calm
-	trait = honest
-	trait = education_learning_2
-	1038.1.1 = {
-		birth = "1038.1.1"
-	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	1088.1.1 = {
-		death = "1088.1.1"
-	}
-}
-
-20581 = {
-	name = "Saemundr"
-	dynasty = 101892
-	martial = 7
-	diplomacy = 8
-	intrigue = 7
-	stewardship = 7
-	rite = "roman_rite"
-	culture = "icelandic"
-	trait = education_learning_2
-	father = 20580
-	1056.1.1 = {
-		birth = "1056.1.1"
-	}
-	1120.1.1 = {
-		death = "1120.1.1"
-	}
-}
-
-214001 = {
-	name = "Aufrick"
-	female = yes
-	dynasty_house = house_british_isles_crovan
-	martial = 7
-	diplomacy = 7
-	intrigue = 5
-	stewardship = 3
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220021
-	mother = 220045
-	1164.1.1 = {
-		birth = "1164.1.1"
-	}
-	1214.1.1 = {
-		death = "1214.1.1"
-	}
-}
 
 220020 = {
 	name = "Haraldr"
@@ -2472,85 +2166,6 @@
 	}
 }
 
-220021 = {
-	name = "GudrOEd"
-	# AKA: Gudrod 'Svarte' Olafsson
-	dynasty_house = house_british_isles_crovan
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	trait = greedy
-	trait = cynical
-	trait = education_martial_2
-	father = 220023
-	mother = 220024
-	1135.1.11 = {
-		birth = "1135.1.11"
-	}
-	1155.1.1 = {
-		add_spouse = 220045
-	}
-	1164.1.1 = {
-		give_nickname = nick_the_black
-	}
-	1187.11.23 = {
-		death = "1187.11.23"
-	}
-}
-
-220022 = {
-	name = "RO_gnvaldr"
-	# AKA: Ragnvald Gudrodsson
-	dynasty_house = house_british_isles_crovan
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	trait = greedy
-	trait = arrogant
-	trait = bossy
-	trait = education_martial_2
-	disallow_random_traits = yes
-	father = 220021
-	mother = 220045
-	1164.1.1 = {
-		birth = "1164.1.1"
-	}
-	1185.1.1 = {
-		add_spouse = 220047
-	}
-	1229.1.1 = {
-		death = "1229.1.1"
-	}
-}
-
-220023 = {
-	name = "Olaf"
-	# AKA: Olaf 'Raude' Gudrodsson
-	dynasty_house = house_british_isles_crovan
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 5788
-	1095.1.1 = {
-		birth = "1095.1.1"
-	}
-	1135.1.1 = {
-		add_spouse = 220024
-	}
-	1153.1.1 = {
-		death = "1153.1.1"
-	}
-}
-
 220025 = {
 	name = "IngebjO_rg"
 	female = yes
@@ -2567,26 +2182,6 @@
 	}
 	1119.1.1 = {
 		death = "1119.1.1"
-	}
-}
-
-220026 = {
-	name = "Ragnhildr"
-	female = yes
-	dynasty_house = house_british_isles_crovan
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220023
-	mother = 220025
-	1117.1.11 = {
-		birth = "1117.1.11"
-	}
-	1166.1.11 = {
-		death = "1166.1.11"
 	}
 }
 
@@ -2691,48 +2286,6 @@
 	}
 	1216.1.1 = {
 		death = "1216.1.1"
-	}
-}
-
-220046 = {
-	name = "Olaf"
-	# AKA: Olaf 'Svarte' Gudrodsson
-	dynasty_house = house_british_isles_crovan
-	martial = 6
-	diplomacy = 6
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	trait = wrathful
-	trait = education_stewardship_2
-	father = 220021
-	mother = 220045
-	1173.1.1 = {
-		birth = "1173.1.1"
-	}
-	1237.1.1 = {
-		death = "1237.1.1"
-	}
-}
-
-220048 = {
-	name = "GudrOEd"
-	# AKA: Gudrod Ragnvaldsson
-	dynasty_house = house_british_isles_crovan
-	martial = 6
-	diplomacy = 7
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220022
-	mother = 220047
-	1186.1.1 = {
-		birth = "1186.1.1"
-	}
-	1227.1.1 = {
-		death = "1227.1.1"
 	}
 }
 
@@ -2855,26 +2408,6 @@
 	}
 	1139.11.12 = {
 		death = "1139.11.12"
-	}
-}
-
-232686 = {
-	name = "Uspak"
-	dynasty = 25046
-	martial = 7
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	trait = brave
-	trait = education_martial_2
-	father = 232683
-	1174.1.1 = {
-		birth = "1174.1.1"
-	}
-	1229.1.1 = {
-		death = "1229.1.1"
 	}
 }
 
@@ -4223,61 +3756,6 @@
 	}
 }
 
-5787 = {
-	name = "Helga"
-	# AKA: Helga 'Fairhair'
-	female = yes
-	dynasty_house = house_british_isles_crovan
-	martial = 6
-	diplomacy = 9
-	intrigue = 4
-	stewardship = 5
-	rite = roman_rite
-	culture = "norwegian"
-	trait = education_intrigue_2
-	father = 5793
-	1051.1.2 = {
-		birth = "1051.1.2"
-	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	1101.1.2 = {
-		death = "1101.1.2"
-	}
-}
-
-5788 = {
-	name = "GudrOEd"
-	# AKA: Gudrod 'Mearanach'
-	dna = "5788_gudrod_western_isles"
-	dynasty_house = house_british_isles_crovan
-	martial = 7
-	diplomacy = 8
-	intrigue = 4
-	stewardship = 5
-	learning = 3
-	rite = roman_rite
-	culture = "norwegian"
-	trait = education_diplomacy_2
-	trait = lustful
-	trait = arrogant
-	trait = brave
-	father = 5793
-	1049.1.2 = {
-		birth = "1049.1.2"
-	}
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	1062.1.2 = {
-		add_spouse = 102536
-	}
-	1099.1.2 = {
-		death = "1099.1.2"
-	}
-}
-
 6905 = {
 	name = "MagnU_s" # Lagaböter
 	dynasty = 499
@@ -4400,8 +3878,7 @@
 	dynasty = 461
 	rite = "roman_rite"
 	culture = "norwegian"
-	trait = lustful
-	trait = lisping
+	trait = pensive
 	trait = education_learning_2
 	father = 102539
 	mother = 161327
@@ -4413,66 +3890,6 @@
 	}
 }
 
-7392 = {
-	name = "MagnU_s"
-	dynasty_house = house_british_isles_crovan
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220046
-	1195.1.1 = {
-		birth = "1195.1.1"
-	}
-	1265.1.1 = {
-		death = "1265.1.1"
-	}
-}
-
-7393 = {
-	name = "Ragnall"
-	dynasty_house = house_british_isles_crovan
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220046
-	1194.1.1 = {
-		birth = "1194.1.1"
-	}
-	1249.1.1 = {
-		death = "1249.1.1"
-	}
-}
-
-7394 = {
-	name = "Haraldr"
-	dynasty_house = house_british_isles_crovan
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 220046
-	1193.1.1 = {
-		birth = "1193.1.1"
-	}
-	1248.1.1 = {
-		death = "1248.1.1"
-	}
-}
-
-7395 = {
-	name = "Lagmann"
-	dynasty_house = house_british_isles_crovan
-	martial = 5
-	diplomacy = 5
-	intrigue = 5
-	stewardship = 4
-	rite = "roman_rite"
-	culture = "norwegian"
-	father = 5788
-	1094.1.1 = {
-		birth = "1094.1.1"
-	}
-	1110.1.1 = {
-		death = "1110.1.1"
-	}
-}
-
 83240 = {
 	name = "T_orgils"
 	dynasty = 9213
@@ -4481,10 +3898,13 @@
 	intrigue = 4
 	stewardship = 8
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse"
 	father = 83244
 	1069.1.1 = {
 		birth = "1069.1.1"
+	}
+	1080.1.1 = {
+		culture = "norse_gael"
 	}
 	1141.7.1 = {
 		death = "1141.7.1"
@@ -4499,7 +3919,7 @@
 	intrigue = 5
 	stewardship = 6
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83240
 	1102.1.1 = {
 		birth = "1102.1.1"
@@ -4517,7 +3937,7 @@
 	intrigue = 4
 	stewardship = 5
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83240
 	1104.1.1 = {
 		birth = "1104.1.1"
@@ -4535,7 +3955,7 @@
 	intrigue = 4
 	stewardship = 5
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83241
 	1124.1.1 = {
 		birth = "1124.1.1"
@@ -4553,12 +3973,15 @@
 	intrigue = 4
 	stewardship = 7
 	rite = roman_rite
-	culture = "norwegian"
+	culture = "norse"
 	1041.1.1 = {
 		birth = "1041.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1080.1.1 = {
+		culture = "norse_gael"
 	}
 	1110.7.1 = {
 		death = "1110.7.1"
@@ -4573,10 +3996,13 @@
 	intrigue = 4
 	stewardship = 7
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse"
 	father = 83244
 	1072.1.1 = {
 		birth = "1072.1.1"
+	}
+	1080.1.1 = {
+		culture = "norse_gael"
 	}
 	1115.7.1 = {
 		death = "1115.7.1"
@@ -4591,7 +4017,7 @@
 	intrigue = 6
 	stewardship = 4
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83245
 	1093.1.1 = {
 		birth = "1093.1.1"
@@ -4609,7 +4035,7 @@
 	intrigue = 6
 	stewardship = 4
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83246
 	1114.1.1 = {
 		birth = "1114.1.1"
@@ -4627,7 +4053,7 @@
 	intrigue = 6
 	stewardship = 4
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83246
 	1133.1.1 = {
 		birth = "1133.1.1"
@@ -4645,7 +4071,7 @@
 	intrigue = 4
 	stewardship = 4
 	rite = "roman_rite"
-	culture = "norwegian"
+	culture = "norse_gael"
 	father = 83241
 	1131.1.1 = {
 		birth = "1131.1.1"

@@ -1308,7 +1308,7 @@ barber_tent_01 = {
 		epidemic_travel_danger = -10
 		negate_health_penalty_add = 0.2
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.1
 	}
 
 	parameters = {
@@ -1360,7 +1360,7 @@ barber_tent_02 = {
 		epidemic_travel_danger = -5
 		negate_health_penalty_add = 0.2
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.1
 	}
 
 	parameters = {
@@ -1412,7 +1412,7 @@ barber_tent_03 = {
 		epidemic_travel_danger = -5
 		negate_health_penalty_add = 0.2
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.05
 	}
 
 	parameters = {
@@ -1465,7 +1465,7 @@ barber_tent_04 = {
 		epidemic_travel_danger = -7
 		negate_health_penalty_add = 0.2
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.05
 	}
 
 	parameters = {
@@ -1519,7 +1519,7 @@ barber_tent_05 = {
 		epidemic_travel_danger = -7
 		negate_health_penalty_add = 0.2
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.05
 	}
 
 	parameters = {
@@ -1574,7 +1574,7 @@ barber_tent_06 = {
 		epidemic_travel_danger = -10
 		negate_health_penalty_add = 0.5
 		hard_casualty_modifier = -0.03
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.05
 	}
 
 	parameters = {
@@ -3441,7 +3441,7 @@ mess_tent_brewers = { # Brewers
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.3
+		domicile_monthly_gold_add = 0.1
 		courtier_opinion = 10
 		epidemic_resistance = 5
 	}
@@ -3500,7 +3500,7 @@ mess_tent_curers = { # Curers
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.1
 		provisions_capacity_mult = 0.5
 		supply_capacity_mult = 0.25
 	}
@@ -3554,7 +3554,7 @@ mess_tent_bakers = { # Bakers
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_add = 0.2
+		domicile_monthly_gold_add = 0.1
 		courtier_opinion = 10
 		skirmishers_pursuit_mult = 0.4
 		light_cavalry_pursuit_mult = 0.4
@@ -4509,7 +4509,7 @@ proving_grounds_02 = {
 
 	character_modifier = {
 		maa_damage_mult = 0.01
-		men_at_arms_recruitment_cost = -0.05
+		men_at_arms_recruitment_cost = -0.03
 	}
 
 	parameters = {
@@ -4610,7 +4610,7 @@ proving_grounds_04 = {
 	character_modifier = {
 		men_at_arms_limit = 1
 		maa_damage_mult = 0.02
-		men_at_arms_recruitment_cost = -0.05
+		men_at_arms_recruitment_cost = -0.03
 	}
 
 	parameters = {
@@ -4714,7 +4714,7 @@ proving_grounds_06 = {
 
 	character_modifier = {
 		maa_damage_mult = 0.04
-		men_at_arms_recruitment_cost = -0.05
+		men_at_arms_recruitment_cost = -0.04
 	}
 
 	parameters = {

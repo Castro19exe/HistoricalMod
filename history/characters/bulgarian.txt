@@ -134,7 +134,7 @@
 			add_gold = 200
 			if = {
 				limit = {
-					has_dlc_feature = roads_to_power
+					has_playable_adventurer_dlc_trigger = yes
 				}
 				change_government = landless_adventurer_government
 				spawn_army = {

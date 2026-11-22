@@ -1,7 +1,7 @@
 ﻿k_hungary = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 		
 	685.1.1 = {
 		holder = 146154
@@ -337,17 +337,17 @@ c_visegrad = {
 
 c_komarom = {
 	801.1.1 = {
-		change_development_level = 4
+		change_prosperity_level = 4
 	}
 	
 	1001.1.1 = {
-		change_development_level = 7
+		change_prosperity_level = 7
 	}
 	
 	1101.1.1 = {
-		change_development_level = 11
+		change_prosperity_level = 11
 	}
-	1178.1.1 = { change_development_level = 24 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	685.1.1 = {
 		liege = "k_hungary"
@@ -481,9 +481,9 @@ c_komarom = {
 }
 
 c_esztergom = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 26 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 26 }
 
 	685.1.1 = {
 		liege = "k_hungary"
@@ -593,17 +593,17 @@ c_esztergom = {
 
 c_szekesfehervar = {
 	801.1.1 = {
-		change_development_level = 4
+		change_prosperity_level = 4
 	}
 	
 	1001.1.1 = {
-		change_development_level = 7
+		change_prosperity_level = 7
 	}
 	
 	1101.1.1 = {
-		change_development_level = 11
+		change_prosperity_level = 11
 	}
-	1178.1.1 = { change_development_level = 24 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	685.1.1 = {
 		liege = "k_hungary"
@@ -1289,9 +1289,9 @@ c_baranya = {
 }
 
 d_nyitra = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 13 }
+	867.1.1 = { change_prosperity_level = 4 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 13 }
 	
 	830.1.1 = {
 		de_jure_liege = "k_moravia"
@@ -1375,9 +1375,9 @@ d_nyitra = {
 }
 
 c_nyitra = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	741.1.1 = {
 		liege = "d_moravia"
@@ -1934,9 +1934,9 @@ c_hont = {
 }
 
 c_poszony = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 14 }
 	
 	685.1.1 = {
 		liege = "k_hungary"
@@ -2409,9 +2409,9 @@ c_saris = {
 }
 
 c_spis = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 4 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	739.1.1 = {
 		liege = d_ungvar
@@ -4446,17 +4446,17 @@ c_csongrad = {
 
 d_gyor = {
 	801.1.1 = {
-		change_development_level = 4
+		change_prosperity_level = 4
 	}
 	
 	1001.1.1 = {
-		change_development_level = 7
+		change_prosperity_level = 7
 	}
 	
 	1101.1.1 = {
-		change_development_level = 11
+		change_prosperity_level = 11
 	}
-	1178.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_prosperity_level = 15 }
 
 	805.1.1 = {
 		liege = "e_bulgaria"
@@ -5057,10 +5057,6 @@ c_vukovar = {
 	
 	829.1.1 = {
 		holder = 168299
-	}
-	
-	864.1.1 = {
-		holder = 8601
 	}
 	
 	1060.1.1 = {

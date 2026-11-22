@@ -271,15 +271,21 @@
 100536 = {
 	name = "Botstain"
 	dynasty = 495
-	martial = 5
-	diplomacy = 7
-	intrigue = 5
-	stewardship = 7
 	rite = roman_rite
 	culture = "gutish"
-	trait = education_learning_2
 	father = 100538
 	mother = 100535
+	diplomacy = 6
+	martial = 3
+	stewardship = 10
+	intrigue = 5
+	learning = 11
+	prowess = 7
+	trait = education_learning_3
+	trait = wrathful
+	trait = ambitious
+	trait = patient
+	disallow_random_traits = yes
 	1047.1.1 = {
 		birth = "1047.1.1"
 	}
@@ -344,21 +350,31 @@
 100540 = {
 	name = "Olaf"
 	dynasty = 494
-	martial = 4
-	diplomacy = 7
-	intrigue = 8
-	stewardship = 6
 	rite = roman_rite
 	culture = "swedish"
-	trait = cynical
-	trait = education_intrigue_2
 	father = 100539
 	mother = 100534
+	diplomacy = 8
+	martial = 5
+	stewardship = 10
+	intrigue = 11
+	learning = 5
+	prowess = 9
+	trait = education_intrigue_2
+	trait = cynical
+	trait = patient
+	trait = ambitious
+	disallow_random_traits = yes
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			learn_language = language_central_germanic
+		}
 	}
 	1080.1.1 = {
 		death = "1080.1.1"
@@ -5103,11 +5119,32 @@
 	culture = "swedish"
 	father = 167304
 	mother = 167633
+	diplomacy = 11
+	martial = 5
+	stewardship = 12
+	intrigue = 7
+	learning = 3
+	prowess = 4
+	trait = education_stewardship_3
+	trait = arrogant
+	trait = vengeful
+	trait = ambitious
+	disallow_random_traits = yes
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
 	1158.1.1 = {
 		add_spouse = 167634
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 23 }
+			learn_language = language_central_germanic
+		}
 	}
 	1200.1.1 = {
 		death = "1200.1.1"
@@ -5179,8 +5216,24 @@
 	culture = "swedish"
 	father = 167306
 	mother = 167634
+	diplomacy = 5
+	martial = 7
+	stewardship = 8
+	intrigue = 3
+	learning = 6
+	prowess = 7
+	trait = education_diplomacy_3
+	trait = diligent
+	trait = gregarious
+	trait = honest
+	disallow_random_traits = yes
 	1160.1.1 = {
 		birth = "1160.1.1"
+	}
+	1178.10.1 = {
+		effect = {
+			learn_language = language_east_slavic
+		}
 	}
 	1187.1.1 = {
 		add_spouse = 167635
@@ -5460,11 +5513,34 @@
 	culture = "swedish"
 	father = 167323
 	mother = 167639
+	diplomacy = 6
+	martial = 4
+	stewardship = 15
+	intrigue = 10
+	learning = 5
+	prowess = 3
+	health = 5.25
+	trait = education_stewardship_3
+	trait = gregarious
+	trait = generous
+	trait = gluttonous
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
 	1159.1.1 = {
 		add_spouse = 167640
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 100
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 17 }
+			learn_language = language_central_germanic
+		}
 	}
 	1199.1.1 = {
 		death = "1199.1.1"
@@ -5482,6 +5558,17 @@
 	culture = "swedish"
 	father = 167324
 	mother = 167640
+	diplomacy = 4
+	martial = 5
+	stewardship = 11
+	intrigue = 8
+	learning = 5
+	prowess = 9
+	trait = education_stewardship_2
+	trait = patient
+	trait = ambitious
+	trait = shy
+	disallow_random_traits = yes
 	1160.1.1 = {
 		birth = "1160.1.1"
 	}
@@ -5605,6 +5692,17 @@
 	culture = "swedish"
 	father = 167330
 	mother = 167641
+	diplomacy = 5
+	martial = 5
+	stewardship = 11
+	intrigue = 7
+	learning = 10
+	prowess = 5
+	trait = education_learning_3
+	trait = wrathful
+	trait = ambitious
+	trait = patient
+	disallow_random_traits = yes
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
@@ -5613,6 +5711,15 @@
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 23 }
+		}
 	}
 	1098.1.1 = {
 		death = "1098.1.1"
@@ -5648,7 +5755,7 @@
 	name = "Olaf"
 	#placeholder
 	dynasty = 9518
-	rite = "roman_rite"
+	rite = roman_rite
 	culture = "swedish"
 	father = 167330
 	mother = 167641
@@ -5674,6 +5781,18 @@
 	culture = "swedish"
 	father = 167331
 	mother = 167317
+	diplomacy = 9
+	martial = 5
+	stewardship = 10
+	intrigue = 7
+	learning = 6
+	prowess = 9
+	trait = education_diplomacy_3
+	trait = humble
+	trait = just
+	trait = gregarious
+	trait = beauty_bad_1
+	disallow_random_traits = yes
 	1050.1.1 = {
 		birth = "1050.1.1"
 	}
@@ -5682,6 +5801,11 @@
 	}
 	1066.1.1 = {
 		add_spouse = 167642
+	}
+	1066.9.15 = {
+		effect = {
+			learn_language = language_central_germanic
+		}
 	}
 	1107.1.1 = {
 		death = "1107.1.1"
@@ -5797,11 +5921,33 @@
 	culture = "swedish"
 	father = 167339
 	mother = 167305
+	diplomacy = 10
+	martial = 7
+	stewardship = 12
+	intrigue = 3
+	learning = 4
+	prowess = 3
+	trait = education_diplomacy_3
+	trait = brave
+	trait = chaste
+	trait = ambitious
+	trait = lifestyle_poet
+	disallow_random_traits = yes
 	1145.1.1 = {
 		birth = "1145.1.1"
 	}
 	1164.1.1 = {
 		add_spouse = 167644
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 18 }
+			learn_language = language_central_germanic
+		}
 	}
 	1200.1.1 = {
 		death = "1200.1.1"
@@ -6122,6 +6268,19 @@
 	culture = "swedish"
 	father = 167351
 	mother = 167655
+	diplomacy = 15
+	martial = 6
+	stewardship = 13
+	intrigue = 7
+	learning = 5
+	prowess = 5
+	trait = education_diplomacy_2
+	trait = eccentric
+	trait = trusting
+	trait = arbitrary
+	trait = lifestyle_blademaster
+	trait = beauty_bad_1
+	disallow_random_traits = yes
 	1130.1.1 = {
 		birth = "1130.1.1"
 	}
@@ -6220,13 +6379,35 @@
 	dynasty = 9519
 	rite = "roman_rite"
 	culture = "swedish"
-	trait = legitimized_bastard
 	father = 167353
+	diplomacy = 8
+	martial = 2
+	stewardship = 11
+	intrigue = 7
+	learning = 8
+	prowess = 6
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = arrogant
+	trait = generous
+	trait = legitimized_bastard
+	trait = rakish
+	disallow_random_traits = yes
 	1150.1.1 = {
 		birth = "1150.1.1"
 	}
 	1166.1.1 = {
 		add_spouse = 167658
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 23 }
+			learn_language = language_east_slavic
+		}
 	}
 	1200.1.1 = {
 		death = "1200.1.1"
@@ -6526,11 +6707,33 @@
 	culture = "gutish"
 	father = 167368
 	mother = 167648
+	diplomacy = 4
+	martial = 4
+	stewardship = 13
+	intrigue = 13
+	learning = 5
+	prowess = 4
+	health = 5.25
+	trait = education_stewardship_4
+	trait = gluttonous
+	trait = gregarious
+	trait = compassionate
+	trait = lifestyle_traveler
+	disallow_random_traits = yes
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
 	1158.1.1 = {
 		add_spouse = 167377
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 100
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 7 }
+		}
 	}
 	1193.1.1 = {
 		death = "1193.1.1"
@@ -6546,10 +6749,32 @@
 	culture = "gutish"
 	father = 167372
 	mother = 167377
+	diplomacy = 7
+	martial = 8
+	stewardship = 9
+	intrigue = 5
+	learning = 4
+	prowess = 12
+	trait = education_martial_2
+	trait = brave
+	trait = wrathful
+	trait = honest
+	trait = lifestyle_traveler
+	trait = scarred
+	disallow_random_traits = yes
 	1160.1.1 = {
 		birth = "1160.1.1"
 	}
 	
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -10 }
+		}
+	}
 	1210.1.1 = {
 		death = "1210.1.1"
 	}
@@ -8548,6 +8773,32 @@
 		death = yes
 	}
 }
+
+swedish_bagge_1 = {
+	name = "Sten"
+	dynasty = swedish_bagge
+	religion = "catholic"
+	culture = "swedish"
+	1031.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_small } }
+				add_realm_law_skip_effects = company_size_small
+			}
+		}
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
 #Fictional Abbess
 baltic_cistercian_1 = {
 	name = "Margareta"

@@ -901,6 +901,7 @@
 	}
 	803.1.1 = {
 		death = yes
+		name = "Anselm_regnal"
 		trait = saint
 	}
 }
@@ -1035,7 +1036,7 @@
 		birth = yes
 	}
 	839.8.1 = {
-		death = yes
+		death = { death_reason = death_assassination killer = 145216 } # Radelchis
 	}
 }
 
@@ -3726,15 +3727,18 @@
 	dynasty = 7184
 	rite = beneventan_rite
 	culture = lombard
-
 	father = 163075
 	mother = 190292
-
+	trait = callous
 	819.1.1 = {
 		birth = yes
 	}
+	859.1.1 = {
+		add_spouse = 168401
+	}
 	862.1.1 = {
-		death = yes
+		give_nickname = nick_the_rapacious
+		death = { death_reason = death_battle }
 	}
 }
 
@@ -4222,30 +4226,54 @@
 }
 
 168416 = {
-	name = "Ursus" # Ursus Ursidi
+	name = "Oursous" # Ursus Ursidi
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
-	800.1.1 = {
+	culture = greek
+	795.1.1 = {
 		birth = yes
 	}
-	850.1.1 = {
+	852.1.1 = {
 		death = yes
 	}
 }
 
 168417 = {
-	name = "Leo" # Leo Ursidi
+	name = "Leonta" # Leo Ursidi
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-	trait = education_stewardship_1
+	culture = greek
 
 	father = 168416
+	diplomacy = 5
+	martial = 3
+	stewardship = 8
+	intrigue = 8
+	learning = 3
+	prowess = 3
+	trait = education_stewardship_2
+	trait = impatient
+	trait = lustful
+	trait = diligent
+	trait = rakish
+	trait = shrewd
+	disallow_random_traits = yes
 
 	830.1.1 = {
 		birth = yes
+	}
+	849.1.1 = {
+		add_spouse = greek_konstantos_2
+	}
+	867.1.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 3 }
+			learn_language = language_arabic
+		}
 	}
 	880.1.1 = {
 		death = yes
@@ -4256,13 +4284,32 @@
 	name = "Manso" # Manso (I) Ursidi, Duke of Amalfi (898-914)
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-	trait = education_diplomacy_2
-
+	culture = greek
 	father = 168417
-
+	mother = greek_konstantos_2
+	diplomacy = 9
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 5
+	trait = education_diplomacy_2
+	trait = just
+	trait = humble
+	trait = gregarious
+	disallow_random_traits = yes
 	850.1.1 = {
 		birth = yes
+	}
+	867.1.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -20 }
+			learn_language = language_arabic
+		}
 	}
 	914.1.1 = {
 		trait = devoted
@@ -4273,13 +4320,11 @@
 }
 
 168419 = {
-	name = "Mastalo" # Mastalo (I) Ursidi, Duke of Amalfi (914-930 & 947-954)
+	name = "Mastalos" # Mastalo (I) Ursidi, Duke of Amalfi (914-930 & 947-954)
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168418
-
 	880.1.1 = {
 		birth = yes
 	}
@@ -4289,13 +4334,11 @@
 }
 
 168420 = {
-	name = "Constantinus" # Constantinus Ursidi
+	name = "Konstantinos" # Constantinus Ursidi
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168418
-
 	890.1.1 = {
 		birth = yes
 	}
@@ -4308,10 +4351,8 @@
 	name = "Leo" # Leo (I) Ursidi, Duke of Amalfi (930-931)
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168419
-
 	900.1.1 = {
 		birth = yes
 	}
@@ -4324,10 +4365,8 @@
 	name = "Ioannes" # Ioannes (I) Ursidi, Duke of Amalfi (931-947)
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168419
-
 	902.1.1 = {
 		birth = yes
 	}
@@ -4340,10 +4379,8 @@
 	name = "Mastalo" # Mastalo (II) Ursidi, Duke of Amalfi (954-958)
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168422
-
 	935.1.1 = {
 		birth = yes
 	}
@@ -4406,9 +4443,21 @@
 	dynasty = 9593
 	rite = roman_rite
 	culture = lombard
-	trait = education_diplomacy_2
 
 	father = 168425
+	diplomacy = 9
+	martial = 7
+	stewardship = 13
+	intrigue = 8
+	learning = 5
+	prowess = 2
+	health = 5.25
+	trait = education_diplomacy_2
+	trait = gluttonous
+	trait = gregarious
+	trait = trusting
+	trait = scaly
+	disallow_random_traits = yes
 
 	1005.1.1 = {
 		birth = yes
@@ -4418,6 +4467,15 @@
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 100
+				subtract = current_weight
+			}
+			learn_language = language_arabic
+		}
 	}
 	1075.1.1 = {
 		death = yes
@@ -4467,16 +4525,35 @@
 	dynasty = 9593
 	rite = roman_rite
 	culture = lombard
-	trait = education_learning_1
 
 	father = 168427
 	mother = 168429
+	diplomacy = 5
+	martial = 4
+	stewardship = 10
+	intrigue = 6
+	learning = 14
+	prowess = 7
+	trait = education_learning_1
+	trait = stubborn
+	trait = lazy
+	trait = calm
+	disallow_random_traits = yes
 
 	1040.1.1 = {
 		birth = yes
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 3 }
+		}
 	}
 	1090.1.1 = {
 		death = yes
@@ -4543,14 +4620,12 @@
 }
 
 168434 = {
-	name = "Sergius" # Sergius Ursidi
+	name = "Sergios" # Sergius Ursidi
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
+	culture = greek
 	trait = education_diplomacy_2
-
 	father = 168416
-
 	835.1.1 = {
 		birth = yes
 	}
@@ -4560,14 +4635,12 @@
 }
 
 168435 = {
-	name = "Anasthasius" # Anasthasius Ursidi
+	name = "Anastasios" # Anastasius Ursidi
 	dynasty = 9593
 	rite = roman_rite
-	culture = lombard
+	culture = greek
 	trait = education_learning_1
-
 	father = 168416
-
 	838.1.1 = {
 		birth = yes
 	}
@@ -4578,29 +4651,55 @@
 
 
 168436 = {
-	name = "Musco" # Musco Musconidi
+	name = "Mouskos" # Musco Musconidi
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
+	culture = greek
+	diplomacy = 9
+	martial = 3
+	stewardship = 13
+	intrigue = 3
+	learning = 4
+	prowess = 3
 	trait = education_stewardship_2
-
-	830.1.1 = {
+	trait = compassionate
+	trait = honest
+	trait = cynical
+	disallow_random_traits = yes
+	822.1.1 = {
 		birth = yes
 	}
-	890.1.1 = {
+	867.1.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 23 }
+		}
+	}
+	876.1.1 = {
 		death = yes
 	}
 }
 
 168437 = {
-	name = "Sergius" # Sergius Musconidi
+	name = "Sergios" # Sergius Musconidi
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
-	trait = education_stewardship_2
-
+	culture = greek
 	father = 168436
-
+	diplomacy = 9
+	martial = 2
+	stewardship = 11
+	intrigue = 7
+	learning = 3
+	prowess = 4
+	trait = education_stewardship_2
+	trait = calm
+	trait = arbitrary
+	trait = diligent
+	disallow_random_traits = yes
 	848.1.1 = {
 		birth = yes
 	}
@@ -4610,13 +4709,11 @@
 }
 
 168438 = {
-	name = "Musco" # Musco Musconidi
+	name = "Mouskos" # Musco Musconidi
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168437
-
 	880.1.1 = {
 		birth = yes
 	}
@@ -4626,13 +4723,11 @@
 }
 
 168439 = {
-	name = "Sergius" # Sergius (II) Musconidi, Duke of Amalfi (958-966)
+	name = "Sergios" # Sergius (II) Musconidi, Duke of Amalfi (958-966)
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	father = 168438
-
 	905.1.1 = {
 		birth = yes
 	}
@@ -4658,13 +4753,11 @@
 }
 
 168441 = {
-	name = "Ioannes" # Ioannes Musconidi
+	name = "Ioann" # Ioannes Musconidi
 	dynasty = 9592
 	rite = roman_rite
 	culture = lombard
-
 	father = 168439
-
 	945.1.1 = {
 		birth = yes
 	}
@@ -5107,10 +5200,20 @@
 	dynasty = 9592
 	rite = roman_rite
 	culture = lombard
-	trait = education_intrigue_3
 
 	father = 168454
 	mother = 168496
+	diplomacy = 4
+	martial = 3
+	stewardship = 7
+	intrigue = 9
+	learning = 4
+	prowess = 10
+	trait = education_intrigue_4
+	trait = ambitious
+	trait = stubborn
+	trait = paranoid
+	disallow_random_traits = yes
 
 	1015.1.1 = {
 		birth = yes
@@ -5287,15 +5390,30 @@
 	dynasty = 9592
 	rite = roman_rite
 	culture = lombard
-	trait = education_stewardship_1
 
 	father = 168466
+	diplomacy = 7
+	martial = 7
+	stewardship = 13
+	intrigue = 3
+	learning = 4
+	prowess = 10
+	trait = education_stewardship_1
+	trait = forgiving
+	trait = arrogant
+	trait = lustful
+	disallow_random_traits = yes
 
 	1032.1.1 = {
 		birth = yes
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			learn_language = language_greek
+		}
 	}
 	1072.1.1 = {
 		death = yes
@@ -5326,11 +5444,9 @@
 	name = "Ioannes" # Ioannes Musconidi
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
+	culture = greek
 	trait = education_diplomacy_2
-
 	father = 168436
-
 	849.1.1 = {
 		birth = yes
 	}
@@ -5343,11 +5459,9 @@
 	name = "Adelfer" # Adelfer Musconidi
 	dynasty = 9592
 	rite = roman_rite
-	culture = lombard
+	culture = greek
 	trait = education_martial_2
-
 	father = 168436
-
 	850.1.1 = {
 		birth = yes
 	}
@@ -5357,12 +5471,10 @@
 }
 
 168479 = {
-	name = "Maurus"
+	name = "Kounarios"
 	dynasty = 9594
-
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	800.1.1 = {
 		birth = yes
 	}
@@ -5372,34 +5484,47 @@
 }
 
 168480 = {
-	name = "Maurus"
+	name = "Mauros"
 	dynasty = 9594
-
 	father = 168479
-
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	820.1.1 = {
 		birth = yes
 	}
 	866.1.1 = {
-		death = yes
+		death = { death_reason = death_assassination killer = 163089 } # Sergios Spartenos of Napoli
 	}
 }
 
 168481 = {
-	name = "Stefanus"
+	name = "Oursous" # Stephanos
 	dynasty = 9594
-	trait = education_stewardship_1
-
 	father = 168480
-
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
+	diplomacy = 3
+	martial = 2
+	stewardship = 14
+	intrigue = 11
+	learning = 6
+	prowess = 8
+	trait = education_stewardship_2
+	trait = generous
+	trait = patient
+	trait = humble
+	disallow_random_traits = yes
 	840.1.1 = {
 		birth = yes
+	}
+	867.1.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			learn_language = language_arabic
+		}
 	}
 	900.1.1 = {
 		death = yes
@@ -5407,14 +5532,11 @@
 }
 
 168482 = {
-	name = "Maurus"
+	name = "Mauros"
 	dynasty = 9594
-
 	father = 168481
-
 	rite = roman_rite
-	culture = lombard
-
+	culture = greek
 	875.1.1 = {
 		birth = yes
 	}
@@ -5424,13 +5546,11 @@
 }
 
 168483 = {
-	name = "Sergius"
+	name = "Sergios"
 	dynasty = 9594
-
 	father = 168482
-
 	rite = roman_rite
-	culture = lombard
+	culture = greek
 
 	900.1.1 = {
 		birth = yes
@@ -5499,6 +5619,19 @@
 
 	rite = roman_rite
 	culture = lombard
+	diplomacy = 7
+	martial = 4
+	stewardship = 16
+	intrigue = 8
+	learning = 8
+	prowess = 1
+	health = 5.25
+	trait = education_stewardship_2
+	trait = gregarious
+	trait = generous
+	trait = gluttonous
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
 
 	1020.1.1 = {
 		birth = yes
@@ -5508,6 +5641,16 @@
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 100
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 17 }
+			learn_language = language_arabic
+		}
 	}
 	1080.1.1 = {
 		death = yes
@@ -5541,12 +5684,34 @@
 
 	rite = roman_rite
 	culture = lombard
+	diplomacy = 5
+	martial = 13
+	stewardship = 12
+	intrigue = 6
+	learning = 5
+	prowess = 8
+	trait = education_martial_2
+	trait = content
+	trait = arrogant
+	trait = cynical
+	trait = lifestyle_poet
+	disallow_random_traits = yes
 
 	1040.1.1 = {
 		birth = yes
 	}
 	1054.7.16 = {
 		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 33 }
+			learn_language = language_greek
+		}
 	}
 	1080.1.1 = {
 		death = yes
@@ -10849,7 +11014,7 @@ guarna_16 = {
 	}
 }
 
-#Benedictine Abbot
+# Benedictine Abbot
 benedictine_1 = {
 	name = "Berthari"
 	female = no
@@ -10861,6 +11026,412 @@ benedictine_1 = {
 		birth = yes
 	}
 	883.10.22 = {
+		death = yes
+	}
+}
+
+
+# Merchant Families (GDP)
+
+sclinillo_1 = {
+	name = "Leo"
+	dynasty = lombard_sclinillo
+	rite = roman_rite
+	culture = lombard
+	father = sclinillo_2
+	diplomacy = 7
+	martial = 5
+	stewardship = 13
+	intrigue = 13
+	learning = 4
+	prowess = 8
+	trait = education_stewardship_2
+	trait = patient
+	trait = zealous
+	trait = trusting
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 8 }
+		}
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+sclinillo_2 = {
+	name = "Urso"
+	dynasty = lombard_sclinillo
+	rite = roman_rite
+	culture = lombard
+	diplomacy = 3
+	martial = 2
+	stewardship = 13
+	intrigue = 11
+	learning = 6
+	prowess = 2
+	health = 5.25
+	trait = education_stewardship_4
+	trait = content
+	trait = gluttonous
+	trait = greedy
+	trait = gout_ridden
+	disallow_random_traits = yes
+	1010.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 70
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 2 }
+		}
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+galloppo_1 = {
+	name = "Leo"
+	dynasty = lombard_galloppo
+	rite = roman_rite
+	culture = lombard
+	father = galloppo_2
+	diplomacy = 5
+	martial = 5
+	stewardship = 13
+	intrigue = 8
+	learning = 5
+	prowess = 5
+	trait = education_stewardship_2
+	trait = zealous
+	trait = generous
+	trait = compassionate
+	trait = pilgrim
+	disallow_random_traits = yes
+	1030.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			learn_language = language_greek
+		}
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+galloppo_2 = {
+	name = "Manso"
+	dynasty = lombard_galloppo
+	rite = roman_rite
+	culture = lombard
+	father = galloppo_3
+	diplomacy = 13
+	martial = 5
+	stewardship = 10
+	intrigue = 6
+	learning = 3
+	prowess = 7
+	trait = education_diplomacy_3
+	trait = callous
+	trait = wrathful
+	trait = trusting
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
+	1005.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 18 }
+		}
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+galloppo_3 = {
+	name = "Leo"
+	dynasty = lombard_galloppo
+	rite = roman_rite
+	culture = lombard
+	980.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+ferafalcone_1 = {
+	name = "Sergius"
+	dynasty = lombard_ferafalcone
+	rite = roman_rite
+	culture = lombard
+	diplomacy = 4
+	martial = 10
+	stewardship = 9
+	intrigue = 3
+	learning = 3
+	prowess = 15
+	trait = education_martial_3
+	trait = brave
+	trait = impatient
+	trait = ambitious
+	trait = lifestyle_traveler
+	trait = scarred
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			learn_language = language_arabic
+		}
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+surrentino_1 = {
+	name = "Taurus"
+	dynasty = lombard_surrentino
+	rite = roman_rite
+	culture = lombard
+	father = surrentino_2
+	diplomacy = 12
+	martial = 7
+	stewardship = 9
+	intrigue = 7
+	learning = 5
+	prowess = 10
+	trait = education_diplomacy_2
+	trait = zealous
+	trait = greedy
+	trait = honest
+	trait = pilgrim
+	trait = one_eyed
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -25 }
+		}
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+surrentino_2 = {
+	name = "Sergius"
+	dynasty = lombard_surrentino
+	rite = roman_rite
+	culture = lombard
+	diplomacy = 12
+	martial = 4
+	stewardship = 15
+	intrigue = 5
+	learning = 7
+	prowess = 5
+	health = 5.25
+	trait = education_stewardship_3
+	trait = content
+	trait = gluttonous
+	trait = greedy
+	trait = gout_ridden
+	disallow_random_traits = yes
+	1010.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 70
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 2 }
+		}
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+mancarella_1 = {
+	name = "Giovanni"
+	dynasty = lombard_mancarella
+	rite = roman_rite
+	culture = italian
+	diplomacy = 12
+	martial = 6
+	stewardship = 13
+	intrigue = 3
+	learning = 5
+	prowess = 6
+	trait = education_stewardship_4
+	trait = arbitrary
+	trait = paranoid
+	trait = cynical
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 5 }
+			learn_language = language_greek
+		}
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+manco_1 = {
+	name = "Ioann"
+	dynasty = lombard_manco
+	rite = roman_rite
+	culture = lombard
+	father = manco_2
+	diplomacy = 7
+	martial = 2
+	stewardship = 9
+	intrigue = 11
+	learning = 5
+	prowess = 5
+	trait = education_stewardship_3
+	trait = gregarious
+	trait = arrogant
+	trait = diligent
+	disallow_random_traits = yes
+	1040.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -22 }
+		}
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+
+manco_2 = {
+	name = "Marini"
+	dynasty = lombard_manco
+	rite = roman_rite
+	culture = lombard
+	diplomacy = 7
+	martial = 12
+	stewardship = 12
+	intrigue = 6
+	learning = 6
+	prowess = 7
+	health = 5.25
+	trait = education_martial_3
+	trait = gluttonous
+	trait = stubborn
+	trait = lustful
+	disallow_random_traits = yes
+	1010.1.1 = {
+		birth = yes
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1066.9.15 = {
+		effect = {
+			change_current_weight = {
+				value = 70
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -3 }
+			learn_language = language_arabic
+		}
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+lombard_dauferidi_1 = {
+	name = "Pilitrud"
+	female = yes
+	dynasty = 1022178
+	father = 163091
+	mother = lombard0067
+	rite = roman_rite
+	culture = lombard
+	857.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
 		death = yes
 	}
 }

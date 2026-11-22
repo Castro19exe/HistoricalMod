@@ -1,7 +1,7 @@
 ﻿k_moldavia = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 5 }
-	1178.1.1 = { change_development_level = 8 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 5 }
+	1178.1.1 = { change_prosperity_level = 8 }
 }
 
 d_bukovina = {
@@ -300,9 +300,9 @@ c_stoenesti = {
 }
 
 d_bugeac = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 2 }
-	1178.1.1 = { change_development_level = 4 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 2 }
+	1178.1.1 = { change_prosperity_level = 4 }
 	
 	#Pecheneg rule
 	1066.1.1 = {

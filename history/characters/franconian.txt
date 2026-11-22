@@ -2429,9 +2429,7 @@
 		rite = roman_rite
 	}
 	1066.1.1 = {
-		effect = {
-			create_betrothal = character:7003 # Ida
-		}
+		create_betrothal = 7003 # Ida
 	}
 	1071.1.1 = {
 		add_spouse = 7003 # Ida
@@ -3031,7 +3029,7 @@
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1080.1.1 = {
+	1075.1.1 = {
 		death = yes
 	}
 }
@@ -9922,9 +9920,7 @@ hohenlohe_2 = {
 	}
 	1065.1.1 = {
 		give_nickname = nick_the_hunchback
-		effect = {
-			create_betrothal = character:7757
-		}
+		create_betrothal = 7757
 	}
 	1069.1.1 = {
 		add_spouse = 7757
@@ -16327,6 +16323,7 @@ hohenlohe_2 = {
 
 206920 = {
 	name = "Adelheid"
+	father = vianden_friedrich_1
 	female = yes
 	dynasty = 283
 	martial = 7
@@ -20272,6 +20269,32 @@ maurian_benedictine_1 = {
 	}
 }
 
+franconian_koln_1 = {
+	name = "Siegbert" # Sigebodo
+	dynasty = franconian_koln
+	religion = catholic
+	culture = franconian
+	trait = education_stewardship_3
+	1041.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_small } }
+				add_realm_law_skip_effects = company_size_small
+			}
+		}
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+
 #abbot of Prum
 gorze_1 = {
 	name = "Ruprecht"
@@ -20283,6 +20306,33 @@ gorze_1 = {
 		birth = yes
 	}
 	1068.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_1 = {
+	name = "Moses" # III
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_6 # Qalonimus III
+	trait = education_learning_3
+	991.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_small } }
+				add_realm_law_skip_effects = company_size_small
+			}
+		}
+	}
+	1089.1.1 = {
 		death = yes
 	}
 }
@@ -20302,6 +20352,20 @@ gorze_2 = {
 	}
 }
 
+ashkenazi_qalonimus_2 = {
+	name = "Qalonimus" # IV
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_1 # Moses III
+	1031.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+
 #The abbot of Lorsch
 ottonian_benedictine_1 = {
 	name = "Udalrich"
@@ -20313,6 +20377,76 @@ ottonian_benedictine_1 = {
 		birth = yes
 	}
 	1075.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_3 = {
+	name = "Hananeel" # II
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_1 # Moses III
+	1033.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_4 = {
+	name = "Ithiel" # II
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_1 # Moses III
+	1035.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_5 = {
+	name = "Yekuthiel"
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_1 # Moses III
+	trait = education_learning_3
+	1037.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_6 = {
+	name = "Qalonimus" # III
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	966.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+
+ashkenazi_qalonimus_7 = {
+	name = "Hananeel" # I
+	dynasty = ashkenazi_qalonimus
+	religion = rabbinic_faith
+	culture = ashkenazi
+	father = ashkenazi_qalonimus_6 # Qalonimus III
+	988.1.1 = {
+		birth = yes
+	}
+	1037.1.1 = {
 		death = yes
 	}
 }
@@ -22496,6 +22630,179 @@ von_bingen_1 = {
 		}
 	}
 	1179.1.1 = {
+		death = yes
+	}
+}
+
+vianden_bertolf = {
+	name = "Bertolf"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	1050.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+
+vianden_gerhard = {
+	name = "Gerhard"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_bertolf
+	1070.1.1 = {
+		birth = yes
+	}
+	1124.1.1 = {
+		death = yes
+	}
+}
+
+vianden_friedrich_1 = {
+	name = "Friedrich"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_gerhard
+	1100.1.1 = {
+		birth = yes
+	}
+	1152.1.1 = {
+		death = yes
+	}
+}
+
+vianden_siegfried = {
+	name = "Siegfried"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_friedrich_1
+	1125.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+
+vianden_gerhard_prum = {
+	name = "Gerhard"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_friedrich_1
+	1135.1.1 = {
+		birth = yes
+	}
+	1212.1.1 = {
+		death = yes
+	}
+}
+
+vianden_friedrich_3 = {
+	name = "Friedrich"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_friedrich_2
+	1160.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+echternach_reginbert = {
+	name = "Reginbert"
+	rite = "roman_rite"
+	culture = "franconian"
+	1010.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+echternach_ludwig = {
+	name = "Ludwig"
+	rite = "roman_rite"
+	culture = "franconian"
+	1125.1.1 = {
+		birth = yes
+	}
+	1181.1.1 = {
+		death = yes
+	}
+}
+
+echternach_867 = {
+	name = "Friedrich"
+	rite = "carolingian_christianity"
+	culture = "franconian"
+	826.4.13 = {
+		birth = yes
+	}
+	878.11.17 = {
+		death = yes
+	}
+}
+
+verdun_hatto = {
+	name = "Hatto"
+	rite = "carolingian_christianity"
+	culture = "franconian"
+	805.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+vianden_friedrich_2 = {
+	name = "Friedrich"
+	dynasty = 283
+	rite = "roman_rite"
+	culture = "franconian"
+	father = vianden_friedrich_1
+	1128.1.1 = {
+		birth = yes
+	}
+	1188.1.1 = {
+		death = yes
+	}
+}
+
+augsburg_bishop_embriko = {
+	name = "Embriko"
+	rite = roman_rite
+	culture = franconian
+	trait = devoted
+	trait = education_learning_3
+	1010.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+
+eichstatt_bishop_otgar = {
+	name = "Otgar"
+	rite = roman_rite
+	culture = franconian
+	trait = devoted
+	trait = education_learning_3
+	810.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
 		death = yes
 	}
 }

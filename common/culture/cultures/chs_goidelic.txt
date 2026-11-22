@@ -68,12 +68,11 @@ gaelic = {
 	}
 }
 
-norse_gaelic = {
-	color = { 0.5 0.9 0.79 }
+norse_gael = {
+	#color = { 0.5 0.9 0.79 }
+	color = norse_gael
 	created = 1080.1.1
-	parents = { gaelic }
-
-	history_loc_override = norse_gaelic_history_loc
+	parents = { norse gaelic }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_goidelic
@@ -81,15 +80,21 @@ norse_gaelic = {
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
+		tradition_things
 		tradition_seafaring
-		tradition_strong_kinship
-		tradition_concubines
-		tradition_storytellers
+		tradition_maritime_mercantilism
+		tradition_warriors_by_merit
+	}
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_practiced_pirates
 	}
 
-	name_list = name_list_gaelic
+	name_list = name_list_norse_gael
 	
-	coa_gfx = { irish_coa_gfx western_coa_gfx }
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { celtic_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { irish_unit_gfx }
@@ -98,8 +103,8 @@ norse_gaelic = {
 	house_coa_mask_scale = { 0.9 0.9 }
 	
 	ethnicities = {
-		20 = caucasian_blond
-		30 = caucasian_ginger
+		25 = caucasian_northern_blond
+		25 = caucasian_ginger
 		30 = caucasian_brown_hair
 		20 = caucasian_dark_hair
 	}

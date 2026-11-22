@@ -91,7 +91,8 @@ norwegian = {
 }
 
 icelandic = {
-	color = { 0.71 0.83 0.94 }
+	#color = { 0.71 0.83 0.94 }
+	color = { 140 200 240 }
 	created = 1090.1.1
 	parents = { norse }
 	
@@ -102,26 +103,24 @@ icelandic = {
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_things
-		tradition_isolationist
-		tradition_runestones
-		tradition_fishermen
+		tradition_storytellers
+		tradition_seafaring
+		tradition_eye_for_an_eye
 	}
 	# FP1 Traditions
 	dlc_tradition = {
-		trait = tradition_fp1_coastal_warriors
+		trait = tradition_fp1_performative_honour
 		requires_dlc_flag = the_northern_lords
-		fallback = tradition_hird
+		fallback = tradition_poetry
 	}
 
-	name_list = name_list_norwegian
+	name_list = name_list_icelandic
 	
-	coa_gfx = { norse_coa_gfx norwegian_coa_gfx western_coa_gfx }
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
+	unit_gfx = { norse_unit_gfx western_coa_gfx }
 	house_coa_frame = house_frame_21
-	house_coa_mask_offset = { 0.0 0.055 }
-	house_coa_mask_scale = { 1.0 1.0 }
 	
 	ethnicities = {
 		70 = caucasian_northern_blond
@@ -431,7 +430,7 @@ gutish = {
 	
 	name_list = name_list_norse
 	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
 	building_gfx = { northern_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { scandinavian_unit_gfx }

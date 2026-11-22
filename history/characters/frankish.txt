@@ -2601,7 +2601,26 @@
 	
 	592.3.28 = {
 		death = yes
-		trait = saint
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2348 #Chalon
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 
@@ -2838,7 +2857,26 @@
 	
 	656.2.1 = {
 		death = yes
-		trait = saint
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2708 #Metz
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 
 }
@@ -3222,6 +3260,26 @@
 	
 	544.1.1 = {
 		death = yes
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2333 #Paris
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 
@@ -3241,6 +3299,26 @@
 	}
 	523.1.1 = {
 		death = yes
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2038 #Martigny / Saint-Maurice d'Agaune
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 
@@ -4114,7 +4192,26 @@
 	
 	815.5.21 = {
 		death = "815.5.21"
-		trait = saint
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2219 #Lodeve / Gellone
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 	
 }

@@ -1,7 +1,7 @@
 ﻿k_dacia = {
-	867.1.1 = { change_development_level = 3 }
-	1066.1.1 = { change_development_level = 7 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 3 }
+	1066.1.1 = { change_prosperity_level = 7 }
+	1178.1.1 = { change_prosperity_level = 24 }
 }
 
 c_campulung = {

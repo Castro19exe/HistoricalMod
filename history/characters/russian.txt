@@ -3807,6 +3807,17 @@
 	rite = slavic_rite
 	culture = "russian"
 	father = 125228
+	diplomacy = 12
+	martial = 6
+	stewardship = 9
+	intrigue = 6
+	learning = 6
+	prowess = 4
+	trait = education_diplomacy_3
+	trait = calm
+	trait = temperate
+	trait = ambitious
+	disallow_random_traits = yes
 	1140.1.2 = {
 		birth = "1140.1.2"
 	}
@@ -3820,10 +3831,24 @@
 	dynasty = 11106
 	rite = slavic_rite
 	culture = "russian"
-	stewardship = 8
+	diplomacy = 5
+	martial = 4
+	stewardship = 10
+	intrigue = 15
+	learning = 4
+	prowess = 8
 	trait = education_stewardship_3
+	trait = diligent
+	trait = generous
+	trait = trusting
+	disallow_random_traits = yes
 	1130.1.2 = {
 		birth = "1130.1.2"
+	}
+	1178.10.1 = {
+		effect = {
+			learn_language = language_norse
+		}
 	}
 	1180.1.2 = {
 		death = "1180.1.2"
@@ -3835,8 +3860,29 @@
 	dynasty = 11107
 	rite = slavic_rite
 	culture = "russian"
+	diplomacy = 10
+	martial = 3
+	stewardship = 12
+	intrigue = 6
+	learning = 4
+	prowess = 10
+	trait = education_diplomacy_3
+	trait = ambitious
+	trait = gregarious
+	trait = brave
+	disallow_random_traits = yes
 	1155.1.2 = {
 		birth = "1155.1.2"
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -35 }
+			learn_language = language_finnic
+		}
 	}
 	1205.1.2 = {
 		death = "1205.1.2"
@@ -3848,6 +3894,17 @@
 	dynasty = 11108
 	rite = slavic_rite
 	culture = "russian"
+	diplomacy = 7
+	martial = 2
+	stewardship = 10
+	intrigue = 10
+	learning = 6
+	prowess = 3
+	trait = education_intrigue_3
+	trait = patient
+	trait = ambitious
+	trait = cynical
+	disallow_random_traits = yes
 	1154.1.2 = {
 		birth = "1154.1.2"
 	}
@@ -3903,8 +3960,28 @@
 	rite = slavic_rite
 	culture = "russian"
 	father = 125231
+	diplomacy = 13
+	martial = 5
+	stewardship = 10
+	intrigue = 5
+	learning = 3
+	prowess = 8
+	trait = education_stewardship_3
+	trait = stubborn
+	trait = patient
+	trait = lazy
+	disallow_random_traits = yes
 	1160.1.2 = {
 		birth = "1160.1.2"
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 8 }
+		}
 	}
 	1216.1.2 = {
 		death = "1216.1.2"
@@ -11742,7 +11819,7 @@
 170100 = {
 	name = "Maria"
 	female = yes
-	dynasty_house = house_rurikid_vsevolodovich
+	dynasty_house = house_rurikid_sviatoslavich
 	rite = slavic_rite
 	culture = "russian"
 	father = 222650
@@ -11965,7 +12042,7 @@
 	name = "Briachislav"
 	dynasty = 1045031	#Ulichs
 	rite = "slavic_pagan"
-	culture = "russian"
+	culture = "tiverian"
 	834.11.20 = {
 		birth = "834.11.20"
 	}
@@ -11981,7 +12058,7 @@
 	female = yes
 	dynasty = 1045031	#Ulichs
 	rite = "slavic_pagan"
-	culture = "russian"
+	culture = "tiverian"
 	838.3.12 = {
 		birth = "838.3.12"
 	}
@@ -11993,7 +12070,7 @@
 	name = "Lev"
 	dynasty = 1045031	#Ulichs
 	rite = "slavic_pagan"
-	culture = "russian"
+	culture = "tiverian"
 	father = 302134
 	mother = 302135
 	855.3.15 = {
@@ -13859,6 +13936,64 @@ nativity_1 = {
 		birth = yes
 	}
 	1214.1.1 = {
+		death = yes
+	}
+}
+
+miroslavich_1 = {
+	name = "Dmitriy"
+	dynasty = 11102
+	rite = slavic_rite
+	culture = "russian"
+	father = 125225
+	diplomacy = 3
+	martial = 3
+	stewardship = 13
+	intrigue = 4
+	learning = 7
+	prowess = 6
+	trait = education_stewardship_3
+	trait = callous
+	trait = paranoid
+	trait = cynical
+	disallow_random_traits = yes
+	1150.1.2 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 5 }
+		}
+	}
+	1213.1.2 = {
+		death = yes
+	}
+}
+
+novgorod_vassal_1 = {
+	name = "Radoslav"
+	rite = slavic_rite
+	culture = "russian"
+	1024.4.11 = {
+		birth = yes
+	}
+	1081.9.3 = {
+		death = yes
+	}
+}
+
+novgorod_vassal_2 = {
+	name = "Svetozar"
+	rite = slavic_rite
+	culture = "russian"
+	1033.10.2 = {
+		birth = yes
+	}
+	1089.5.27 = {
 		death = yes
 	}
 }

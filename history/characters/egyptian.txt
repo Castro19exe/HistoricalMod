@@ -1950,8 +1950,6 @@ extra_fatimids_1 = {
 		death = yes
 	}
 }
-
-#Fictional monk
 desert_father_1 = {
 	name = "Lot"
 	female = no
@@ -1968,8 +1966,6 @@ desert_father_1 = {
 		death = yes
 	}
 }
-
-#Fictional monk
 desert_father_2 = {
 	name = "Carion"
 	female = no
@@ -1984,8 +1980,6 @@ desert_father_2 = {
 		death = yes
 	}
 }
-
-#Fictional monk
 desert_father_3 = {
 	name = "Shenouda"
 	female = no
@@ -2001,8 +1995,6 @@ desert_father_3 = {
 		death = yes
 	}
 }
-
-#Gebre Menfes Kidus, the Egyptian Christian saint who championed monasticism in Abyssinia
 bahitawi_1 = {
 	name = "Gebre_Menfes_Kidus"
 	female = no
@@ -2024,5 +2016,294 @@ bahitawi_1 = {
 	923.1.1 = {
 		death = yes
 		trait = saint
+	}
+}
+
+bookmark_wuhsha_al_dallala = {
+	dna = bookmark_dna_wuhsha_al_dallala
+	name = "Karima"
+	female = yes
+	dynasty = wuhsha_karimid_dynasty
+	rite = rabbinism
+	culture = mustaarabi
+	father = bookmark_wuhsha_al_dallala_2 # Ammar
+	diplomacy = 13
+	martial = 3
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	trait = education_stewardship_3
+	trait = vengeful
+	trait = calm
+	trait = callous
+	trait = shrewd
+	disallow_random_traits = yes
+	1042.1.1 = {
+		birth = yes
+		give_nickname = nick_wuhsha_al_dallala
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_creditor } }
+				add_realm_law_skip_effects = company_purpose_creditor
+			}
+			add_character_modifier = {
+				modifier = wuhsha_al_dallala_modifier 
+			}
+		}
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
+bookmark_wuhsha_al_dallala_2 = {
+	name = "Amram"
+	rite = rabbinism
+	culture = mustaarabi
+	father = bookmark_wuhsha_al_dallala_3 # Ezra
+	1005.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}
+
+bookmark_wuhsha_al_dallala_3 = {
+	name = "Ezra"
+	rite = rabbinism
+	culture = mustaarabi
+	976.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+# Hassun — Abu Sa'id's father, a lowborn refugee from Ashkelon. Dead before the 1066 start.
+bookmark_wuhsha_al_dallala_4 = {
+	name = "Hassun"
+	rite = rabbinism
+	culture = mustaarabi
+	1025.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+# Abu Sa'id - Karima's illegitimate son
+bookmark_wuhsha_al_dallala_5 = {
+	dna = bookmark_dna_wuhsha_al_dallala_5
+	name = "Abu_Sa_id"
+	dynasty = wuhsha_karimid_dynasty
+	rite = rabbinism
+	culture = mustaarabi
+	father = bookmark_wuhsha_al_dallala_4
+	mother = bookmark_wuhsha_al_dallala
+	trait = wild_oat
+	1061.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_1 = {
+	name = "Yosef"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_2 # Awkal
+	976.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_2 = {
+	name = "_Awkal"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	932.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_3 = {
+	name = "Hillel"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_1 # Yosef
+	1010.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_large } }
+				add_realm_law_skip_effects = company_size_large
+			}
+		}
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_4 = {
+	name = "Binyamin"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_1 # Yosef
+	1014.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_5 = {
+	name = "Manasseh"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_1 # Yosef
+	1018.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_6 = {
+	name = "Khalaf"
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_1 # Yosef
+	1024.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_awkalid_7 = {
+	name = "Yehudit"
+	female = yes
+	dynasty = egyptian_awkalid
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_awkalid_1 # Yosef
+	1022.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_nissim_1 = {
+	name = "Nahray"
+	dynasty = egyptian_nissim
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_nissim_2 # Nissim
+	trait = education_stewardship_4
+	trait = diligent
+	1025.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_medium } }
+				add_realm_law_skip_effects = company_size_medium
+			}
+		}
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_nissim_2 = {
+	name = "Nissim"
+	dynasty = egyptian_nissim
+	rite = rabbinism
+	culture = mustaarabi
+	995.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_al_lebdi_1 = {
+	name = "Moshe"
+	dynasty = egyptian_al_lebdi
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_al_lebdi_2 # Avraham
+	trait = education_stewardship_3
+	trait = ambitious
+	1132.1.1 = {
+		birth = yes
+	}
+	1198.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_al_lebdi_2 = {
+	name = "Avraham"
+	dynasty = egyptian_al_lebdi
+	rite = rabbinism
+	culture = mustaarabi
+	father = egyptian_al_lebdi_3 # Yosef
+	1100.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+
+egyptian_al_lebdi_3 = {
+	name = "Yosef"
+	dynasty = egyptian_al_lebdi
+	rite = rabbinism
+	culture = mustaarabi
+	1070.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
 	}
 }

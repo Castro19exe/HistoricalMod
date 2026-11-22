@@ -1,7 +1,7 @@
 ﻿e_bulgaria = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 5 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	632.1.1 = {
 		holder = 159117
@@ -204,9 +204,9 @@
 }
 
 k_bulgaria = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 5 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 }
 
 
@@ -314,9 +314,9 @@ d_vidin = {
 
 
 c_vidin = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 20 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 9 }
+	1178.1.1 = { change_prosperity_level = 20 }
 	
 	330.1.1 = {
 		liege = "d_vidin"
@@ -691,9 +691,9 @@ d_turnovo = {
 }
 
 c_turnovo = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 34 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 9 }
+	1178.1.1 = { change_prosperity_level = 34 }
 	
 	330.1.1 = {
 		liege = "d_turnovo"
@@ -857,9 +857,9 @@ c_turnovo = {
 
 
 c_sredets = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 20 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 9 }
+	1178.1.1 = { change_prosperity_level = 20 }
 	
 	330.1.1 = {
 		liege = "d_turnovo"
@@ -984,9 +984,9 @@ c_sredets = {
 
 
 c_nikopolis = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	330.1.1 = {
 		liege = "d_turnovo"
@@ -1151,9 +1151,9 @@ c_nikopolis = {
 
 
 c_dorostorum = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 7 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	330.1.1 = {
 		liege = "d_turnovo"
@@ -1817,9 +1817,9 @@ d_dobrudja = {
 
 
 c_constanta = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 7 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	330.1.1 = {
 		liege = "d_dobrudja"
@@ -2162,9 +2162,9 @@ d_bulgaria = {
 
 
 c_naissus = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 20 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 9 }
+	1178.1.1 = { change_prosperity_level = 20 }
 	
 	330.1.1 = {
 		liege = "d_vidin"
@@ -2200,6 +2200,7 @@ c_naissus = {
 		liege = "d_vidin"
 		#holder = 70383
 		holder = vlach_000003
+		government = tribal_government
 	}
 	1066.1.1 = {
 		liege = d_rashka	#as theme of Sirmium
@@ -2817,7 +2818,7 @@ c_skopje = {
 }
 
 c_ohrid = {
-	1178.1.1 = { change_development_level = 34 }
+	1178.1.1 = { change_prosperity_level = 34 }
 
 	330.1.1 = {
 		liege = "d_dyrrachion"
@@ -3418,9 +3419,9 @@ c_beroe = {
 
 
 c_burgas = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 7 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	#330.1.1 = {
 	#	liege = "d_thracesia"
@@ -3485,9 +3486,9 @@ c_burgas = {
 
 
 c_adrianopolis = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 6 }
+	1066.1.1 = { change_prosperity_level = 9 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	330.1.1 = {
 		liege = "d_strymon"

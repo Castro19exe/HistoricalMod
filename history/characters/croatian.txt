@@ -95,6 +95,12 @@
 	824.1.1 = {
 		birth = "824.1.1"
 	}
+	864.1.1 = {
+		employer = 70490
+	}
+	866.9.24 = {
+		employer = 1700
+	}
 	879.5.1 = {
 		death = "879.5.1"
 	}
@@ -115,6 +121,12 @@
 	822.1.1 = {
 		birth = "822.1.1"
 	}
+	864.1.1 = {
+		employer = 70490
+	}
+	866.9.24 = {
+		employer = 1700
+	}
 	872.1.1 = {
 		death = "872.1.1"
 	}
@@ -134,6 +146,12 @@
 	father = 8600
 	846.1.1 = {
 		birth = "846.1.1"
+	}
+	864.1.1 = {
+		employer = 70490
+	}
+	866.9.24 = {
+		employer = 1700
 	}
 	910.1.1 = {
 		death = "910.1.1"
@@ -1254,7 +1272,7 @@
 }
 
 32636 = {
-	name = "Dujma" #count of Veglia
+	name = "Dujam" #count of Veglia
 	dynasty = croatian_krcki
 	rite = "roman_rite"
 	culture = "croatian"
@@ -1573,7 +1591,7 @@
 }
 
 219990 = {
-	name = "Dujma" #count of Veglia
+	name = "Dujam" #count of Veglia
 	dynasty = croatian_krcki
 	martial = 7
 	diplomacy = 5
@@ -1603,6 +1621,9 @@
 	father = 219990
 	1148.1.1 = {
 		birth = "1148.1.1"
+	}
+	1178.1.1 = {
+		employer = michele_5
 	}
 	1231.1.1 = {
 		death = "1231.1.1"
@@ -1647,7 +1668,7 @@
 }
 
 470021 = {
-	name = "Dujma" #count of Veglia
+	name = "Dujam" #count of Veglia
 	dynasty = croatian_krcki #Frankopan
 	martial = 4
 	diplomacy = 6
@@ -2222,10 +2243,99 @@
 	}
 }
 
+madii_1 = {
+	name = "Madije"
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	965.1.1 = {
+		birth = "965.1.1"
+	}
+	1030.1.1 = {
+		death = "1030.1.1"
+	}
+}
+
+madii_2 = {
+	name = "Grgur"
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	father = madii_1
+	990.1.1 = {
+		birth = "990.1.1"
+	}
+	1040.1.1 = {
+		death = "1040.1.1"
+	}
+}
+
+madii_3 = {
+	name = "Vekenega"
+	female = yes
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	father = madii_1
+	1000.1.1 = {
+		birth = "1000.1.1"
+	}
+	1060.1.1 = {
+		death = "1060.1.1"
+	}
+}
+
+madii_4 = {
+	name = "NeZ_a"
+	female = yes
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	father = madii_1
+	1008.1.1 = {
+		birth = "1008.1.1"
+	}
+	1070.1.1 = {
+		death = "1070.1.1"
+	}
+}
+
+zadar_dujam_1 = {
+	name = "Dujam"
+	rite = roman_rite
+	culture = "croatian"
+	995.1.1 = {
+		birth = "995.1.1"
+	}
+	1025.1.1 = {
+		add_spouse = madii_3
+	}
+	1050.1.1 = {
+		death = "1050.1.1"
+	}
+}
+
+zadar_andrija_1 = {
+	name = "Andrija"
+	rite = roman_rite
+	culture = "croatian"
+	1022.1.1 = {
+		birth = "1022.1.1"
+	}
+	1045.1.1 = {
+		add_spouse = 20382
+	}
+	1065.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
 20382 = {
 	name = "Cicca"
 	female = yes
-	dynasty = 512
+	dynasty = madii
 	martial = 4
 	diplomacy = 5
 	intrigue = 8
@@ -2236,19 +2346,80 @@
 	trait = wrathful
 	trait = greedy
 	trait = education_martial_3
-	father = 8620
-	mother = 20380
-	1041.1.1 = {
-		birth = "1041.1.1"
+	father = zadar_dujam_1
+	mother = madii_3
+	1028.1.1 = {
+		birth = "1028.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
 	}
 	1066.1.1 = {
 		employer = 8622
+		trait = devoted
+	}
+	1096.1.1 = {
+		death = "1096.1.1"
+	}
+}
+
+madii_5 = {
+	name = "Domnana"
+	female = yes
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	father = zadar_andrija_1
+	mother = 20382
+	1046.1.1 = {
+		birth = "1046.1.1"
+	}
+	1066.1.1 = {
+		employer = 8622
+		trait = devoted
 	}
 	1090.1.1 = {
 		death = "1090.1.1"
+	}
+}
+
+madii_6 = {
+	name = "Vekenega"
+	female = yes
+	dynasty = madii
+	rite = roman_rite
+	culture = "croatian"
+	father = zadar_andrija_1
+	mother = 20382
+	1049.1.1 = {
+		birth = "1049.1.1"
+	}
+	1066.1.2 = {
+		employer = 32591
+	}
+	1072.6.1 = {
+		trait = devoted
+	}
+	1111.9.27 = {
+		death = "1111.9.27"
+	}
+}
+
+zadar_dobroslav_1 = {
+	name = "Dobroslav"
+	rite = roman_rite
+	culture = "croatian"
+	1042.1.1 = {
+		birth = "1042.1.1"
+	}
+	1065.1.1 = {
+		add_spouse = madii_6
+	}
+	1066.1.2 = {
+		employer = 32591
+	}
+	1072.1.1 = {
+		death = "1072.1.1"
 	}
 }
 
@@ -2571,6 +2742,542 @@
 	}
 	843.1.1 = {
 		death = "843.1.1"
+	}
+}
+
+gundulic_1 = {
+	name = "Mihovil"
+	dynasty = croatian_gundulic
+	religion = catholic
+	culture = croatian
+	diplomacy = 12
+	martial = 2
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 4
+	trait = education_stewardship_4
+	trait = wrathful
+	trait = stubborn
+	trait = gregarious
+	disallow_random_traits = yes
+	1141.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			learn_language = language_greek
+		}
+	}
+	1201.1.1 = {
+		death = yes
+	}
+}
+
+gundulic_2 = {
+	name = "Ivan"
+	dynasty = croatian_gundulic
+	religion = catholic
+	culture = croatian
+	father = gundulic_1
+	1171.1.1 = {
+		birth = yes
+	}
+	1234.1.1 = {
+		death = yes
+	}
+}
+
+gundulic_3 = {
+	name = "Grubesa"
+	dynasty = croatian_gundulic
+	religion = catholic
+	culture = croatian
+	father = gundulic_1
+	1174.1.1 = {
+		birth = yes
+	}
+	1256.1.1 = {
+		death = yes
+	}
+}
+
+gundulic_4 = {
+	name = "Damjan"
+	dynasty = croatian_gundulic
+	religion = catholic
+	culture = croatian
+	father = gundulic_1
+	1177.1.1 = {
+		birth = yes
+	}
+	1222.1.1 = {
+		death = yes
+	}
+}
+
+lukarevic_1 = {
+	name = "Lukar"
+	dynasty = croatian_lukarevic
+	religion = catholic
+	culture = croatian
+	diplomacy = 11
+	martial = 2
+	stewardship = 12
+	intrigue = 8
+	learning = 7
+	prowess = 3
+	health = 5.25
+	trait = education_stewardship_2
+	trait = greedy
+	trait = arrogant
+	trait = ambitious
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
+	1135.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 100
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 42 }
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+crijevic_1 = {
+	name = "Lampre"
+	dynasty = croatian_crijevic
+	religion = catholic
+	culture = croatian
+	diplomacy = 11
+	martial = 7
+	stewardship = 11
+	intrigue = 6
+	learning = 7
+	prowess = 8
+	trait = education_diplomacy_3
+	trait = trusting
+	trait = just
+	trait = ambitious
+	trait = reclusive
+	disallow_random_traits = yes
+	1145.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 28 }
+		}
+	}
+	1205.1.1 = {
+		death = yes
+	}
+}
+
+bundic_1 = {
+	name = "Savin"
+	dynasty = croatian_bundic
+	religion = catholic
+	culture = croatian
+	diplomacy = 7
+	martial = 7
+	stewardship = 10
+	intrigue = 8
+	learning = 8
+	prowess = 3
+	trait = education_stewardship_3
+	trait = diligent
+	trait = impatient
+	trait = honest
+	trait = strong
+	disallow_random_traits = yes
+	1148.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 3 }
+		}
+	}
+	1206.1.1 = {
+		death = yes
+	}
+}
+
+budacic_1 = {
+	name = "Dobre"
+	dynasty = croatian_budacic
+	religion = catholic
+	culture = croatian
+	diplomacy = 11
+	martial = 7
+	stewardship = 10
+	intrigue = 8
+	learning = 8
+	prowess = 4
+	trait = education_stewardship_3
+	trait = diligent
+	trait = humble
+	trait = arbitrary
+	disallow_random_traits = yes
+	1143.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 3 }
+			learn_language = language_italian
+		}
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
+
+binculici_1 = {
+	name = "Teodor"
+	dynasty = croatian_binculici
+	religion = catholic
+	culture = croatian
+	diplomacy = 6
+	martial = 8
+	stewardship = 12
+	intrigue = 8
+	learning = 7
+	prowess = 9
+	trait = education_martial_3
+	trait = arrogant
+	trait = ambitious
+	trait = zealous
+	trait = lifestyle_reveler
+	disallow_random_traits = yes
+	1141.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 13 }
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+bobalic_1 = {
+	name = "Stjepan"
+	dynasty = croatian_bobalic
+	religion = catholic
+	culture = croatian
+	diplomacy = 5
+	martial = 5
+	stewardship = 15
+	intrigue = 7
+	learning = 6
+	prowess = 9
+	trait = education_stewardship_3
+	trait = fickle
+	trait = deceitful
+	trait = arrogant
+	trait = lifestyle_mystic
+	disallow_random_traits = yes
+	1141.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			learn_language = language_italian
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+bucinic_1 = {
+	name = "Mutimir"
+	dynasty = croatian_bucinic
+	religion = catholic
+	culture = croatian
+	diplomacy = 10
+	martial = 7
+	stewardship = 9
+	intrigue = 3
+	learning = 5
+	prowess = 6
+	trait = education_stewardship_3
+	trait = temperate
+	trait = gregarious
+	trait = humble
+	disallow_random_traits = yes
+	1141.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+getaldic_1 = {
+	name = "Ognjen"
+	dynasty = croatian_getaldic
+	religion = catholic
+	culture = croatian
+	diplomacy = 3
+	martial = 11
+	stewardship = 8
+	intrigue = 3
+	learning = 6
+	prowess = 11
+	trait = education_martial_3
+	trait = arrogant
+	trait = stubborn
+	trait = impatient
+	trait = confider
+	trait = hunchbacked
+	disallow_random_traits = yes
+	1144.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 28 }
+			learn_language = language_italian
+		}
+	}
+	1204.1.1 = {
+		death = yes
+	}
+}
+
+kaboga_1 = {
+	name = "Zvonimir"
+	dynasty = croatian_kaboga
+	religion = catholic
+	culture = croatian
+	diplomacy = 13
+	martial = 3
+	stewardship = 12
+	intrigue = 3
+	learning = 3
+	prowess = 4
+	trait = education_stewardship_4
+	trait = vengeful
+	trait = arrogant
+	trait = fickle
+	disallow_random_traits = yes
+	1146.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 38 }
+			learn_language = language_italian
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+martinusic_1 = {
+	name = "Matej"
+	dynasty = croatian_martinusic
+	religion = catholic
+	culture = croatian
+	diplomacy = 4
+	martial = 7
+	stewardship = 11
+	intrigue = 10
+	learning = 6
+	prowess = 5
+	trait = education_intrigue_3
+	trait = callous
+	trait = forgiving
+	trait = ambitious
+	trait = one_eyed
+	disallow_random_traits = yes
+	1143.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 18 }
+			learn_language = language_italian
+		}
+	}
+	1204.1.1 = {
+		death = yes
+	}
+}
+
+palmotic_1 = {
+	name = "Andrija"
+	dynasty = croatian_palmotic
+	religion = catholic
+	culture = croatian
+	diplomacy = 5
+	martial = 13
+	stewardship = 13
+	intrigue = 3
+	learning = 4
+	prowess = 9
+	trait = education_martial_3
+	trait = honest
+	trait = arbitrary
+	trait = calm
+	trait = scarred
+	disallow_random_traits = yes
+	1141.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 13 }
+			learn_language = language_greek
+		}
+	}
+	1202.1.1 = {
+		death = yes
+	}
+}
+
+prodanelic_1 = {
+	name = "Ladislav"
+	dynasty = croatian_prodanelic
+	religion = catholic
+	culture = croatian
+	diplomacy = 9
+	martial = 3
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	prowess = 7
+	trait = education_stewardship_2
+	trait = just
+	trait = diligent
+	trait = calm
+	trait = journaller
+	disallow_random_traits = yes
+	1144.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			learn_language = language_italian
+		}
+	}
+	1206.1.1 = {
+		death = yes
+	}
+}
+
+ranjina_1 = {
+	name = "Ivanis"
+	dynasty = croatian_ranjina
+	religion = catholic
+	culture = croatian
+	diplomacy = 4
+	martial = 6
+	stewardship = 9
+	intrigue = 15
+	learning = 5
+	prowess = 7
+	trait = education_intrigue_2
+	trait = cynical
+	trait = just
+	trait = patient
+	trait = beauty_good_2
+	disallow_random_traits = yes
+	1139.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = -30
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = -25 }
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+saraka_1 = {
+	name = "Dmitar"
+	dynasty = croatian_saraka
+	religion = catholic
+	culture = croatian
+	diplomacy = 11
+	martial = 4
+	stewardship = 10
+	intrigue = 4
+	learning = 4
+	prowess = 3
+	trait = education_diplomacy_2
+	trait = generous
+	trait = stubborn
+	trait = patient
+	trait = lifestyle_traveler
+	trait = rakish
+	disallow_random_traits = yes
+	1136.1.1 = {
+		birth = yes
+	}
+	1178.10.1 = {
+		effect = {
+			change_current_weight = {
+				value = 35
+				subtract = current_weight
+			}
+			target_weight_modifier_effect = { VALUE = 33 }
+			learn_language = language_italian
+		}
+	}
+	1199.1.1 = {
+		death = yes
 	}
 }
 

@@ -16,6 +16,9 @@
 	1010.1.2 = {
 		birth = "1010.1.2"
 	}
+	1054.7.16 = {
+		religion = catholic
+	}
 	1055.1.2 = {
 		death = "1055.1.2"
 	}
@@ -262,7 +265,7 @@
 }
 
 10056 = {
-	name = "Judikael"
+	name = "Iudicael"
 	# AKA: Judikael
 	dynasty_house = house_nantes
 	martial = 4
@@ -1519,7 +1522,7 @@
 }
 
 91248 = {
-	name = "Judikael" #Judikael/Juhael
+	name = "Iudicael" #Judikael/Juhael
 	dynasty_house = house_rennes #Rennes
 	rite = carolingian_christianity
 	culture = "breton"
@@ -1564,7 +1567,7 @@
 }
 
 91251 = {
-	name = "Judikael"
+	name = "Iudicael"
 	dynasty_house = house_rennes #Rennes
 	rite = carolingian_christianity
 	culture = "breton"
@@ -4298,6 +4301,7 @@
 	}
 	545.1.1 = {
 		death = "545.1.1"
+		trait = saint
 	}
 }
 159757 = {

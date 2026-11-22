@@ -349,7 +349,9 @@
 	stewardship = 4
 	rite = roman_rite
 	culture = anglo_saxon
-	trait = cynical
+	trait = zealous
+	trait = compassionate
+	trait = generous
 	trait = education_learning_2
 	father = 110
 	mother = 41101
@@ -7312,6 +7314,68 @@ pastoral_benedictine_1 = {	#Fictional, based on name of Abbbot of St Albans in s
 	}
 }
 
+anglo_saxon_finchale_1 = { # St. Godric
+	name = "Godric"
+	dynasty = anglo_saxon_walpole # Finchale
+	religion = catholic
+	culture = anglo_saxon
+	father = anglo_saxon_finchale_2
+	mother = anglo_saxon_finchale_3
+	1065.1.1 = {
+		birth = yes
+	}
+	1170.5.21 = {
+		trait = education_stewardship_3
+		trait = devoted
+		trait = theologian
+		trait = lifestyle_mystic
+		trait = pilgrim
+		death = yes
+	}
+}
+
+anglo_saxon_finchale_2 = {
+	name = "E_thelweard"
+	dynasty = anglo_saxon_walpole # Finchale
+	religion = catholic
+	culture = anglo_saxon
+	trait = education_stewardship_2
+	1031.1.1 = {
+		birth = yes
+	}
+	1064.1.1 = {
+		add_spouse = anglo_saxon_finchale_3
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = { NOT = { has_realm_law = company_purpose_caravaneer } }
+				add_realm_law_skip_effects = company_purpose_caravaneer
+			}
+			if = {
+				limit = { NOT = { has_realm_law = company_size_small } }
+				add_realm_law_skip_effects = company_size_small
+			}
+		}
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+anglo_saxon_finchale_3 = {
+	name = "Eadwenna"
+	female = yes
+	religion = catholic
+	culture = anglo_saxon
+	1045.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+
 #Abbot of Glastonbury
 edgaric_1 = {
 	name = "Aethelnoth"
@@ -7431,15 +7495,34 @@ walpurga_6 = {
 	trait = zealous
 	trait = stubborn
 	trait = diligent
-	673.1.1 = {
+	675.1.1 = {
 		birth = yes
 	}
 	700.1.1 = {
-		name = "Boniface"
+		name = "Boniface_regnal"
 	}
-	754.6.5 = {
-		trait = saint
-		death = { death_reason = death_fight }
+	754.1.1 = {
+		death = yes
+		effect_even_if_dead = {
+			pam_canonize_saint_effect = {	
+				CANONIZER = root
+				CANDIDATE = root
+				CONSECRATION_PROVINCE = province:2924 #Fulda
+				PRESET = yes
+			}
+			religion:christianity_religion = {
+				every_faith = {
+					limit = {
+						is_non_chalcedonianism_christian_faith = no
+						main_rite = {
+							is_rite_enabled = yes
+						}
+						NOT = { has_saint_character = root }
+					}
+					add_saint = { character = root }
+				}
+			}
+		}
 	}
 }
 

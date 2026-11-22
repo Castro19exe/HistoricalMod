@@ -1,7 +1,7 @@
 k_valencia = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	852.10.14 = {
 		holder = 73812 # Musa ibn Musa
@@ -95,7 +95,7 @@ d_valencia = {
 
 
 c_valencia = {
-	1178.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_prosperity_level = 13 }
 
 	798.1.1 = {
 		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
@@ -1267,9 +1267,9 @@ c_alarcon = {
 
 
 d_mallorca = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 6 }
-	1178.1.1 = { change_development_level = 9 }
+	867.1.1 = { change_prosperity_level = 4 }
+	1066.1.1 = { change_prosperity_level = 6 }
+	1178.1.1 = { change_prosperity_level = 9 }
  
 	711.1.1 = {
 		de_jure_liege = k_valencia

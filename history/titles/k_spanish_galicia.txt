@@ -1,7 +1,7 @@
 ﻿k_spanish_galicia = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 5 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	1065.12.26 = {
 		insert_title_history = k_leon
@@ -260,9 +260,9 @@ c_coruna = {
 }
 
 c_santiago = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 7 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	741.1.1 = {
 		holder = 70011 # Duke Fruela Pérez of Cantabria
@@ -355,25 +355,15 @@ c_santiago = {
 		holder = 109500 # García I Jimena
 		liege = k_spanish_galicia
 	}
-	#1071.10.1 = {
-	#	holder = 107500 # King Sancho II of Castille
-	#}
-	#1072.10.7 = {
-	#	holder = 108500 # King Alfonso VI of León
-	#}
 	1092.5.1 = {
-	#	holder = 298 # Raymond de Bourgogne
 		liege = d_galicia
 	}
-	#1107.9.20 = {
-	#	holder = 207500 # Alfonso VII de Borgoña
-	#}
  
 	#Bishops of Santiago
  
-	1126.3.8 = {
+	1120.2.27 = {
 		holder = 232021 # Diego Gelmirez
-		government = theocracy_government
+		government = ecclesiastical_government
 		liege = k_leon
 	}
 	1140.1.1 = {
@@ -489,25 +479,12 @@ c_tui = {
 		holder = 109500 # King García II of Galicia
 		liege = k_spanish_galicia
 	}
-	#1071.10.1 = {
-	#	holder = 107500 # King Sancho II of Castille
-	#}
-	#1072.10.7 = {
-	#	holder = 108500 # King Alfonso VI of León
-	#}
-	#1092.5.1 = {
-	#	holder = 298 # Raymond de Bourgogne
-	#	liege = d_galicia
-	#}
-	#1107.9.20 = {
-	#	holder = 207500 # Alfonso VII de Borgoña
-	#}
  
 	#Bishops of Santiago
  
 	1126.3.8 = {
 		holder = 232021 # Diego Gelmirez
-		government = theocracy_government
+		government = ecclesiastical_government
 		liege = k_leon
 	}
 	1140.1.1 = {
@@ -624,12 +601,6 @@ c_astorga = {
 	1109.1.1 = {
 		holder = 71321 # Sancho Ovéquiz de León
 	}
-	#1113.1.1 = {
-	#	holder = 71329 # Alvaro, Señor de Santibáñez
-	#}
-	#1129.1.1 = {
-	#	holder = 71330 # Bermudo Alvarez
-	#}
 	1156.1.1 = {
 		holder = 72398 # Fernando Gutiérrez de Castro
 		liege = "k_leon"
@@ -711,9 +682,6 @@ c_monterrei = {
 	1105.12.13 = {
 		holder = 142023 # Sancho Núñez de Celanova
 	}
-	#1130.1.1 = {
-	#	holder = 71330 # Bermudo Alvarez
-	#}
 	1156.1.1 = {
 		holder = 72398 # Fernando Gutiérrez de Castro
 	}
@@ -1065,6 +1033,7 @@ c_castelo_branco = {
 	}
 	1139.7.29 = {
 		liege = k_portugal
+		government = feudal_government
 	}
 	1190.3.25 = {
 		holder = 142010 # Mendo Gonçales de Sousa
@@ -1220,13 +1189,14 @@ c_porto = {
 		holder = 6531 # Henri de Bourgogne
 		liege = d_porto
 	}
-	1112.5.22 = {
-		holder = 207661 # Teresa Alfónsez Jimena
+	1110.1.1 = {
+		holder = lanhoso_1 # Fafila Lucido Lanhoso
 	}
-	1128.6.24 = {
-		holder = 209503 # Afonso I de Bourgogne
+	1145.1.1 = {
+		holder = lanhoso_3 # Godinho Fafes Lanhoso
 	}
-	1139.7.29 = {
+	1175.1.1 = {
+		holder = lanhoso_8 # Fafila Godins Lanhoso
 		liege = k_portugal
 	}
 	1185.12.6 = {

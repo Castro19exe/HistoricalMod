@@ -5,9 +5,9 @@ k_pomerania = {
 }
 
 d_pommerania = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	#750.1.1 = {
 	#	holder = 194071
@@ -49,7 +49,7 @@ d_pommerania = {
 	1156.5.7 = {
 		holder = 221710 #Bogislaw I
 	}
-	1168.1.1 = {
+	1185.1.1 = {
 		liege = "k_denmark"
 	}
 	1187.3.18 = {
@@ -78,9 +78,9 @@ d_pommerania = {
 
 
 c_stettin = {
-	867.1.1 = { change_development_level = 4 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_prosperity_level = 4 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 14 }
 	
 	###867 Pomeranian tribes
 	500.1.1 = {
@@ -131,10 +131,67 @@ c_stettin = {
 	}
 }
 
+c_pyrzyce = {
+	867.1.1 = { change_prosperity_level = 4 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 14 }
+	
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302071		#Lucjan Pyritzi
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+}
+
+d_kolobrzeg = {
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
+}
+
+
 c_kolobrzeg = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	###867 Pommeranian tribes
 	500.1.1 = {
@@ -162,6 +219,70 @@ c_kolobrzeg = {
 		holder = 221700 #Wartislaw I
 	}
 	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1160.1.1 = {
+		holder = 221715 #Kazimierz I
+	}
+	1180.11.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
+	}
+	1220.4.1 = {
+		holder = 451953 #Barnim I
+	}
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
+	}
+	1294.1.1 = {
+		holder = 451950 #Otton
+	}
+		
+	
+	
+	
+
+}
+
+c_nowogard = {
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
+	
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+	}
+	867.1.1 = {
+		holder = 302070
+	}
+	
+	###1066
+	1066.1.1 = {
+		holder = 30522 #Siemomysl
+	liege = d_pommerania
+	}
+	1068.1.1 = {
+		holder = 30523 #Swantibor
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221700 #Wartislaw I
+	}
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
+	}
+	1160.1.1 = {
+		holder = 221715 #Kazimierz I
+	}
+	1180.11.1 = {
 		holder = 221710 #Bogislaw I
 	}
 	1187.3.18 = {
@@ -231,9 +352,9 @@ c_soldin = {
 }
 
 c_cammin = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	###867 Pommeranian tribes
 	500.1.1 = {
@@ -254,63 +375,80 @@ c_cammin = {
 	1092.1.1 = {
 		holder = 30524 #Gwienomir
 	}
-	
 	1106.1.1 = {
 		holder = 221703 #Swietopelk I
 	}
 	1122.1.1 = {
-		holder = 221718 #Ratibor I
+		holder = 221700 #Wartislaw I
 	}
-	1156.5.7 = {
-		holder = 221723 #Swietopelk II
+	1136.1.1 = {
+		holder = 221710 #Bogislaw I
 	}
-	1175.1.20 = {
-		holder = 221719 #Wratislaw I
+	1160.1.1 = {
+		holder = 221715 #Kazimierz I
 	}
-	1182.1.1 = {
-		holder = 221720 #Bogislaw
+	1180.11.1 = {
+		holder = 221710 #Bogislaw I
 	}
-	1224.1.1 = {
-		holder = 221721 #Ratibor II
+	1187.3.18 = {
+		holder = 221712 #Bogislaw II
 	}
-	
-	
-	1228.1.1 = {
-		liege = "d_pomerelia"
+	1220.4.1 = {
+		holder = 451953 #Barnim I
 	}
-	1228.1.1 = {
-		holder = 30452 #Wartislaw I
+	1278.2.14 = {
+		holder = 471660 #Bogislaw
 	}
-	1233.5.4 = {
-		holder = 30451 #Swietopelk II
-	}
-	1266.1.10 = {
-		holder = 30453 #Sambor II
-	}
-	1270.1.1 = {
-		holder = 30459 #Wartislaw II
-	}
-	1271.1.1 = {
-		holder = 30458 #Mszczuj II
+	1294.1.1 = {
+		holder = 451950 #Otton
 	}
 	
-	1294.12.25 = {
-		holder = 30538  #Swenzo
-	}
 	
-	1308.1.1 = {
-		holder = 30540  #Piotr
-	}
-	1308.11.13 = {
-		liege = "d_pommerania"
-	}
-	1327.1.1 = {
-		holder = 30541 #Jasko
-	}
+	
+	
+
 }
 
 
 c_pila = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302071		#Lucjan Pyritzi
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30524
+		government = feudal_government
+	}
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1113.1.1 = {
+		holder = 302019 #Pawel Ciolek
+		liege = k_poland
+	}
+	1127.3.12 = {
+		holder = 302021 #Jaroslaw Ciolek
+	}
+	1165.2.22 = {
+		holder = 302022 #Jan Ciolek
+	}
+	1177.1.1 = {
+		holder = 221561 #Odon of Poznan
+	}
+	1185.12.21 = {
+		holder = 302025 #Jaroslaw Ciolek
+	}
+}
+
+c_szczecinek = {
 	###867 Pommeranian tribes
 	500.1.1 = {
 		liege = 0
@@ -382,30 +520,28 @@ c_landsberg = {
 	1106.1.1 = {
 		holder = 221703 #Swietopelk I
 	}
-	1122.1.1 = {
-		holder = 221700 #Wartislaw I
+	1113.1.1 = {
+		holder = 302019 #Pawel Ciolek
+		liege = k_poland
 	}
-	1136.1.1 = {
-		holder = 221710 #Bogislaw I
+	1127.3.12 = {
+		holder = 302021 #Jaroslaw Ciolek
 	}
-	1187.3.18 = {
-		holder = 221712 #Bogislaw II
+	1165.2.22 = {
+		holder = 302022 #Jan Ciolek
 	}
-	1220.4.1 = {
-		holder = 451953 #Barnim I
+	1177.1.1 = {
+		holder = 221561 #Odon of Poznan
 	}
-	1278.2.14 = {
-		holder = 471660 #Bogislaw
-	}
-	1294.1.1 = {
-		holder = 451950 #Otton
+	1185.12.21 = {
+		holder = 302025 #Jaroslaw Ciolek
 	}
 }
 
 d_nordmark = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 5 }
-	1178.1.1 = { change_development_level = 9 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 5 }
+	1178.1.1 = { change_prosperity_level = 9 }
 	
 	#750.1.1 = {
 	#	holder = 194062
@@ -468,11 +604,11 @@ d_nordmark = {
 	1160.8.2 = {
 		holder = 452004 #Przybyslaw Niklotid
 	}
-	1168.1.1 = {
-		liege = "k_denmark"
-	}
 	1178.12.1 = {
 		holder = 452003 #Heinrich Borwin I
+	}
+	1185.1.1 = {
+		liege = "k_denmark"
 	}
 	1227.1.28 = {
 		holder = 452001 #Johann I Niklotid
@@ -488,6 +624,38 @@ d_nordmark = {
 	}
 	1329.1.27 = {
 		holder = 451980 #Albrecht I Niklotid
+	}
+}
+
+d_rugen = {
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 5 }
+	1178.1.1 = { change_prosperity_level = 9 }
+
+	1093.1.1 = {
+		liege = 0
+		holder = 30481 #Wartislaw Wizlawid
+	}
+	1125.1.1 = {
+		holder = 30482 #Rostislav Wizlawid
+	}
+	1141.1.1 = {
+		holder = 221734 #Wizlaw Wizlawid
+	}
+	1163.1.1 = {
+		holder = 221730 #Testislaw
+	}
+	1168.6.15 = {
+		liege = "k_denmark"
+	}
+	1170.1.1 = {
+		holder = 221735 #Jaromar I
+	}
+	1218.1.1 = {
+		holder = 221736 #Barnuta
+	}
+	1221.1.1 = {
+		holder = 221737 #Wizlaw I
 	}
 }
 
@@ -560,6 +728,96 @@ c_mecklenburg = {
 	}
 }
 
+c_ratzeburg = {
+	837.1.1 = {
+		holder = 194064
+		government = tribal_government
+	}
+	866.1.1 = {
+		holder = 184001
+	}
+	1043.1.1 = {
+		liege = d_nordmark
+		holder = 20584 #Krutoj
+	}
+	1093.1.1 = {
+		holder = 8402 #Henrik
+	}
+	1127.6.7 = {
+		holder = 30509 #Kanut
+	}
+	1128.1.1 = {
+		holder = 30508 #Swietopelk
+	}
+	1129.1.1 = {
+		holder = 30512 #Zvinike
+	}
+	1129.7.1 = {
+		holder = 201513 #Knud
+	}
+	1131.1.13 = {
+		holder = 452005 #Niklot
+	}
+	1160.8.2 = {
+		holder = 452004 #Przybyslaw
+	}
+	1164.1.2 = {
+		liege = d_angria
+		holder = 31785 #Bernhard
+	}
+}
+
+c_schwerin = {
+	866.1.1 = {
+		holder = 184001 #Msciwoj
+	}
+	1043.1.1 = {
+		liege = d_nordmark
+		holder = 20584 #Krutoj
+	}
+	1093.1.1 = {
+		holder = 8402 #Henrik
+	}
+	1127.6.7 = {
+		holder = 30509 #Kanut
+	}
+	1128.1.1 = {
+		holder = 30508 #Swietopelk
+	}
+	1129.1.1 = {
+		holder = 30512 #Zvinike
+	}
+	1129.7.1 = {
+		holder = 201513 #Knud
+	}
+	1131.1.13 = {
+		holder = 452005 #Niklot
+	}
+	1160.1.1 = {
+		liege = d_angria
+		holder = hagen_gunzelin #Gunzelin
+		government = feudal_government
+	}
+	1185.6.18 = {
+		holder = 33266
+	}
+	1220.5.25 = {
+		holder = 33269
+	}
+	1247.1.1 = {
+		holder = 33271
+	}
+	1297.1.1 = {
+		holder = 33277
+	}
+	1323.6.23 = {
+		holder = 33278
+	}
+	1327.1.1 = {
+		holder = 33287
+	}
+}
+
 
 b_ratzeburg = {
 	1202.1.1 = {
@@ -585,39 +843,6 @@ b_ratzeburg = {
 	1322.4.22 = {
 		holder = 33344
 	}
-
-}
-
-
-b_schwerin = {
-	1167.1.1 = {
-		holder = 33265
-	}
-	1185.6.18 = {
-		holder = 33266
-	}
-	1220.5.25 = {
-		holder = 33269
-	}
-	1247.1.1 = {
-		holder = 33271
-	}
-	1297.1.1 = {
-		holder = 33277
-	}
-	1323.6.23 = {
-		holder = 33278
-	}
-	1327.1.1 = {
-		holder = 33287
-	}
-	
-	
-	
-	
-	
-	
-	
 
 }
 
@@ -759,6 +984,36 @@ c_rugen = {
 
 }
 
+c_stralsund = {
+	867.1.1 = {
+		holder = 302073 #Oldrich
+	}
+	1043.1.1 = {
+		liege = d_nordmark
+		holder = 20584 #Krutoj
+	}
+	1066.1.1 = {
+		holder = 8420 #Przybyslaw
+	}
+	1093.1.1 = {
+		liege = 0
+		holder = 30481 #Wartislaw
+	}
+	1125.1.1 = {
+		holder = 30482 #Rostislav
+	}
+	1141.1.1 = {
+		holder = 221734 #Wizlaw
+	}
+	1163.1.1 = {
+		holder = 221730 #Testislaw
+	}
+	1170.1.1 = {
+		liege = k_denmark
+		holder = 221735 #Jaromar
+	}
+}
+
 
 c_rostock = {
 	###867 Pommeranian tribes
@@ -891,9 +1146,9 @@ c_werle = {
 
 
 d_pomerelia = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	1155.1.1 = {
 		liege = "k_poland"
@@ -901,7 +1156,7 @@ d_pomerelia = {
 	1155.1.1 = {
 		holder = 221760 #Subislaw I
 	}
-	1187.1.29 = {
+	1177.1.1 = {
 		holder = 221750 #Sambor I
 	}
 	1207.2.7 = {
@@ -947,9 +1202,9 @@ d_pomerelia = {
 
 
 c_danzig = {
-	867.1.1 = { change_development_level = 3 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 3 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	###867 tribal times
 	500.1.1 = {
@@ -982,7 +1237,7 @@ c_danzig = {
 	1155.1.1 = {
 		holder = 221760 #Subislaw I
 	}
-	1187.1.29 = {
+	1177.1.1 = {
 		holder = 221750 #Sambor I
 	}
 	1207.2.7 = {
@@ -1040,6 +1295,110 @@ c_danzig = {
 
 }
 
+c_tczew = {
+	867.1.1 = { change_prosperity_level = 3 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 24 }
+	
+	###867 tribal times
+	500.1.1 = {
+		liege = 0
+	}
+	860.1.1 = {
+		holder = 302068
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30523
+	}
+	1092.1.1 = {
+		holder = 30524
+	}
+	1106.1.1 = {
+		holder = 221703
+	}
+	1122.1.1 = {
+		holder = 221700
+	}
+	1136.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1155.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1155.1.1 = {
+		holder = 221760 #Subislaw I
+	}
+	1177.1.1 = {
+		holder = 221750 #Sambor I
+	}
+	1178.1.1 = {
+		holder = polish_grzymislaw_1 #Grzymislaw
+	}
+	1208.1.1 = {
+		holder = 221755 #Mszczuj I
+	}
+	1219.5.1 = {
+		holder = 221751 #Subislaw II
+	}
+	1223.12.28 = {
+		holder = 30450 #Swietopelk I
+	}
+	1227.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	1294.12.25 = {
+		holder = 125977 #Przemyslaw Piast
+	}
+	1296.2.8 = {
+		holder = 471510 #Wladyslaw Piast
+	}
+	
+	###Teutonic Order
+	
+	1308.11.13 = {
+		liege = "d_teutonic_order"
+	}
+	1308.11.13 = {
+		holder = 30414 #Siegfried von Feuchtwangen
+	}
+	1311.5.3 = {
+		holder = 30415 #Karl von Trier
+	}
+	1324.2.11 = {
+		holder = 30416 #Werner von Orseln
+	}
+	1330.11.18 = {
+		holder = 30417 #Luther Welf
+	}
+	1335.4.18 = {
+		holder = 474000 #Dietrich von Altenburg
+	}
+	
+
+}
+
+
+d_slawno = {
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
+}
+
 
 c_slupsk = {
 	###867 Pommeranian tribes
@@ -1074,7 +1433,157 @@ c_slupsk = {
 	1175.1.20 = {
 		holder = 221719 #Wratislaw I
 	}
-	1182.1.1 = {
+	1190.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	
+	
+	1228.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+}
+
+c_slawno = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302069		#Jaromil Slovinci
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+	holder = 30523
+	government = feudal_government
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221723 #Swietopelk II
+	}
+	1175.1.20 = {
+		holder = 221719 #Wratislaw I
+	}
+	1190.1.1 = {
+		holder = 221720 #Bogislaw
+	}
+	1224.1.1 = {
+		holder = 221721 #Ratibor II
+	}
+	
+	
+	1228.1.1 = {
+		liege = "d_pomerelia"
+	}
+	1228.1.1 = {
+		holder = 30452 #Wartislaw I
+	}
+	1233.5.4 = {
+		holder = 30451 #Swietopelk II
+	}
+	1266.1.10 = {
+		holder = 30453 #Sambor II
+	}
+	1270.1.1 = {
+		holder = 30459 #Wartislaw II
+	}
+	1271.1.1 = {
+		holder = 30458 #Mszczuj II
+	}
+	
+	1294.12.25 = {
+		holder = 30538  #Swenzo
+	}
+	
+	1308.1.1 = {
+		holder = 30540  #Piotr
+	}
+	1308.11.13 = {
+		liege = "d_pommerania"
+	}
+	1327.1.1 = {
+		holder = 30541 #Jasko
+	}
+}
+
+c_bialogarda = {
+	###867 Pommeranian tribes
+	500.1.1 = {
+		liege = 0
+		
+		government = tribal_government
+	}
+	867.1.1 = {
+		holder = 302069		#Jaromil Slovinci
+	}
+	
+	###1066
+	1066.1.1 = {
+		liege = d_pommerania
+		holder = 30523
+		government = feudal_government
+	}
+	1092.1.1 = {
+		holder = 30524 #Gwienomir
+	}
+	
+	1106.1.1 = {
+		holder = 221703 #Swietopelk I
+	}
+	1122.1.1 = {
+		holder = 221718 #Ratibor I
+	}
+	1156.5.7 = {
+		holder = 221723 #Swietopelk II
+	}
+	1175.1.20 = {
+		holder = 221719 #Wratislaw I
+	}
+	1190.1.1 = {
 		holder = 221720 #Bogislaw
 	}
 	1224.1.1 = {
@@ -1141,17 +1650,23 @@ c_miastko = {
 	1122.1.1 = {
 		holder = 221718 #Ratibor I
 	}
-	1156.5.7 = {
-		holder = 221723 #Swietopelk II
+	1155.1.1 = {
+		liege = "d_pomerelia"
 	}
-	1175.1.20 = {
-		holder = 221719 #Wratislaw I
+	1155.1.1 = {
+		holder = 221760 #Subislaw I
 	}
-	1182.1.1 = {
-		holder = 221720 #Bogislaw
+	1177.1.1 = {
+		holder = 221750 #Sambor I
 	}
-	1224.1.1 = {
-		holder = 221721 #Ratibor II
+	1207.2.7 = {
+		holder = 221755 #Mszczuj I
+	}
+	1219.5.1 = {
+		holder = 221751 #Subislaw II
+	}
+	1223.12.28 = {
+		holder = 30450 #Swietopelk I
 	}
 	
 	
@@ -1220,11 +1735,20 @@ c_berent = {
 	1155.1.1 = {
 		holder = 221760 #Subislaw I
 	}
-	1182.1.1 = {
-		holder = 221720 #Bogislaw
+	1177.1.1 = {
+		holder = 221750 #Sambor I
 	}
-	1224.1.1 = {
-		holder = 221721 #Ratibor II
+	1178.1.1 = {
+		holder = polish_grzymislaw_1 #Grzymislaw
+	}
+	1208.1.1 = {
+		holder = 221755 #Mszczuj I
+	}
+	1219.5.1 = {
+		holder = 221751 #Subislaw II
+	}
+	1223.12.28 = {
+		holder = 30450 #Swietopelk I
 	}
 	
 	
@@ -1264,9 +1788,9 @@ c_berent = {
 
 
 d_ostmark = {
-	867.1.1 = { change_development_level = 2 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 2 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	#768.1.1 = {
 	#	holder = 168600
@@ -1282,24 +1806,30 @@ d_ostmark = {
 	#Geronen
 	926.1.1 = {
 		liege = 0
-		holder = 168562
+		holder = 168562 # Gero the Great
 	}
 	965.5.20 = {
-		holder = 168568
+		holder = 168524 # Dietrich von Haldensleben
 	}
-	979.8.3 = {
-		holder = 168573
+	983.1.1 = {
+		holder = 0
 	}
-	981.1.1 = {
+	993.1.1 = {
+		holder = 168544 # Lothar III Walbeck
 	}
-	
+	1003.1.25 = {
+		holder = 168545 # Werner Walbeck
+	}
+	1009.1.1 = {
+		holder = 0
+	}
 	#Lutici rebel against the HRE, become independant in ~985
 	##Gave Lutician territory to a single dude with no vassal to make their life easier against their behemoths of neighbours HRE & Poland
 	983.1.1 = {
 		liege = 0
 		holder = 303438	#Kornel Lutici
 	}
-	1012.11.4 = {
+	1014.11.11 = {
 		holder = 303439	#Marek Lutici
 	}
 	#1035 Lutici become tributaries to the HRE
@@ -1754,6 +2284,10 @@ c_prenzlau = {
 	1294.1.1 = {
 		holder = 451950 #Otton
 	}
+
+
+
+
 }
 
 k_sorbia = {
@@ -1761,3 +2295,4 @@ k_sorbia = {
 	1066.9.15 = { de_jure_liege = 0 }
 	1178.10.1 = { de_jure_liege = 0 }
 }
+

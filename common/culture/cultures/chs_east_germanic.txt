@@ -43,12 +43,8 @@ visigothic = {
 	}
 
 	dlc_tradition = {
-		trait = tradition_fp2_ritualised_friendship
-		requires_dlc_flag = the_fate_of_iberia
-	}
-	dlc_tradition = {
-		trait = tradition_fp2_malleable_subjects
-		requires_dlc_flag = the_fate_of_iberia
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_visigothic

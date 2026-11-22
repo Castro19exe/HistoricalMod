@@ -1,7 +1,7 @@
 k_lotharingia = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 5 }
+	1066.1.1 = { change_prosperity_level = 8 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	#Merovingians
 	481.1.1 = {
@@ -294,6 +294,51 @@ c_luxembourg = {
 
 }
 
+c_vianden = {
+	860.1.2 = {
+		liege = k_lotharingia
+		holder = 131715 #Rainier
+	}
+	890.1.2 = {
+		holder = 131714 #Sigebert
+	}
+	963.1.1 = {
+		liege = d_luxembourg
+		holder = 1250 #Siegfried
+	}
+	998.1.1 = {
+		holder = 1254 #Heinrich
+	}
+	1026.2.27 = {
+		holder = 1258 #Heinrich
+	}
+	1047.10.16 = {
+		holder = 106652 #Giselbert
+	}
+	1059.8.14 = {
+		holder = 106650 #Konrad
+	}
+	1086.8.8 = {
+		holder = 500000 #Heinrich
+	}
+	1088.1.1 = {
+		holder = vianden_bertolf #Bertolf
+		government = feudal_government
+	}
+	1096.1.2 = {
+		holder = vianden_gerhard #Gerhard
+	}
+	1124.1.2 = {
+		holder = vianden_friedrich_1 #Friedrich
+	}
+	1152.1.2 = {
+		holder = vianden_siegfried #Siegfried
+	}
+	1175.1.2 = {
+		holder = vianden_friedrich_2 #Friedrich
+	}
+}
+
 
 c_bouillon = {
 	740.1.1 = {
@@ -383,8 +428,53 @@ c_bouillon = {
 
 }
 
+c_chiny = {
+	860.1.2 = {
+		liege = k_lotharingia
+		holder = 131715 #Rainier
+	}
+	890.1.2 = {
+		holder = 131714 #Sigebert
+	}
+	963.1.1 = {
+		liege = d_luxembourg
+		holder = 1250 #Siegfried
+	}
+	998.1.1 = {
+		holder = 1254 #Heinrich
+	}
+	1026.2.27 = {
+		holder = 1258 #Heinrich
+	}
+	1047.10.16 = {
+		holder = 106652 #Giselbert
+	}
+	1052.1.1 = {
+		holder = 33137 #Walram
+	}
+	1059.9.15 = {
+		liege = d_lower_lorraine
+		holder = 161918 #Arnoul
+		government = feudal_government
+	}
+	1162.1.1 = {
+		liege = e_hre
+		holder = chiny_louis_3 #Louis
+	}
+}
+
+d_liege = {
+	1066.1.1 = {
+		de_jure_liege = k_east_francia
+	}
+	1167.8.9 = {
+		holder = 213148
+		liege = e_hre
+	}
+}
+
 c_liege = {
-	1178.1.1 = { change_development_level = 20 }
+	1178.1.1 = { change_prosperity_level = 20 }
 
 	721.1.1 = {
 		holder = 91000 #Robert Capet
@@ -492,6 +582,41 @@ c_liege = {
 		holder = 462002
 	}
 
+}
+
+c_loon = {
+	1178.1.1 = { change_prosperity_level = 20 }
+
+	858.1.1 = {
+		liege = k_lotharingia
+		holder = 163050 #Francon
+	}
+	1059.9.15 = {
+		liege = d_lower_lorraine
+		holder = 106570 #Emmo
+		government = feudal_government
+	}
+	1171.8.11 = {
+		liege = e_hre
+		holder = 206800 #Gerard
+	}
+}
+
+c_stavelot = {
+	1178.1.1 = { change_prosperity_level = 20 }
+
+	845.1.1 = {
+		liege = k_lotharingia
+		holder = stavelot_ebbo #Ebbo
+		government = ecclesiastical_government
+	}
+	1048.1.1 = {
+		liege = e_hre
+		holder = stavelot_thierry #Thierry
+	}
+	1158.1.1 = {
+		holder = stavelot_erlebald #Erlebald
+	}
 }
 
 
@@ -646,9 +771,9 @@ d_brabant = {
 
 
 c_brabant = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 14 }
 	
 	769.1.1 = {
 		holder = 194170
@@ -724,9 +849,9 @@ c_brabant = {
 
 
 c_antwerpen = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 7 }
+	1066.1.1 = { change_prosperity_level = 10 }
+	1178.1.1 = { change_prosperity_level = 24 }
 	
 	769.1.1 = {
 		holder = 194170
@@ -1026,21 +1151,73 @@ d_julich = {
 	}
 }
 
+c_avesnes = {
+	841.1.1 = {
+		liege = k_lotharingia
+		holder = 7815 #Giselbert
+	}
+	892.1.1 = {
+		holder = 7812 #Reginar
+	}
+	915.1.1 = {
+		liege = d_lower_lorraine
+		holder = 7811 #Reginar
+	}
+	932.1.1 = {
+		holder = 7810 #Reginar
+	}
+	958.1.1 = {
+		holder = 144992 #Gottfried
+	}
+	964.1.1 = {
+		holder = 144991 #Richar
+	}
+	973.1.1 = {
+		holder = 7998 #Reginar
+	}
+	1013.1.1 = {
+		holder = 106642 #Reginar
+	}
+	1020.1.1 = {
+		holder = avesnes_wedric_1 #Wédric
+		government = feudal_government
+	}
+	1065.6.2 = {
+		holder = avesnes_wedric_2 #Wédric
+	}
+	1076.1.2 = {
+		holder = avesnes_thierry #Thierry
+	}
+	1106.1.2 = {
+		holder = avesnes_gossuin #Gossuin
+	}
+	1127.1.2 = {
+		holder = avesnes_gautier_1 #Gautier
+	}
+	1147.1.2 = {
+		liege = e_hre
+		holder = 31094 #Nicolas
+	}
+	1171.10.1 = {
+		holder = 31095 #Jacques
+	}
+}
+
 c_aachen = {
-	1178.1.1 = { change_development_level = 25 }
+	1178.1.1 = { change_prosperity_level = 25 }
 
 	21.1.1 = {
-		change_development_level = 10
+		change_prosperity_level = 10
 	}
 	
 	1001.1.1 = {
-		change_development_level = 16
+		change_prosperity_level = 16
 	}
 	
 	1101.1.1 = {
-		change_development_level = 20
+		change_prosperity_level = 20
 	}
-	1178.1.1 = { change_development_level = 22 }
+	1178.1.1 = { change_prosperity_level = 22 }
 	
 	
 	740.1.1 = {
@@ -1314,10 +1491,58 @@ c_maastricht = {
 	}
 }
 
+c_taxandria = {
+	867.1.1 = {
+		liege = k_lotharingia
+		holder = 161525 #Erenfried
+	}
+	892.1.1 = {
+		holder = 7812 #Reginar
+	}
+	903.1.1 = {
+		liege = d_lower_lorraine
+		holder = 7961 #Gebhard
+	}
+	910.1.1 = {
+		holder = 31705 #Gottfried
+	}
+	949.1.1 = {
+		holder = 1306 #Konrad
+	}
+	953.1.1 = {
+		holder = 1290 #Bruno
+	}
+	959.1.1 = {
+		holder = 144992 #Gottfried
+	}
+	964.1.1 = {
+		holder = 144991 #Richar
+	}
+	973.1.1 = {
+		holder = 90121 #Charles
+	}
+	990.1.1 = {
+		holder = 30090 #Gerhard
+	}
+	1029.6.2 = {
+		holder = 20252 #Eberhard
+	}
+	1051.1.1 = {
+		holder = 20253 #Gerhard
+	}
+	1054.6.19 = {
+		holder = 106600 #Hendrik
+	}
+	1142.6.13 = {
+		liege = d_brabant
+		holder = 206850 #Godfried
+	}
+}
+
 d_upper_lorraine = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 15 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 15 }
 	
 	903.1.1 = {
 		holder = 7961 #Gebhard I Conradine
@@ -1408,9 +1633,9 @@ d_upper_lorraine = {
 
 
 c_trier = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 13 }
-	1178.1.1 = { change_development_level = 27 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 13 }
+	1178.1.1 = { change_prosperity_level = 27 }
 	
 	755.1.1 = {
 		liege = "k_lotharingia"
@@ -1474,6 +1699,25 @@ c_trier = {
 		holder = 462621 #Baldewin von Luxemburg
 	}
 
+}
+
+c_echternach = {
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 13 }
+	1178.1.1 = { change_prosperity_level = 27 }
+
+	862.11.4 = {
+		liege = k_lotharingia
+		holder = echternach_867 #Friedrich
+		government = ecclesiastical_government
+	}
+	1051.1.1 = {
+		liege = e_hre
+		holder = echternach_reginbert #Reginbert
+	}
+	1173.1.1 = {
+		holder = echternach_ludwig #Ludwig
+	}
 }
 
 
@@ -1577,9 +1821,9 @@ c_nancy = {
 
 
 c_metz = {
-	867.1.1 = { change_development_level = 9 }
-	1066.1.1 = { change_development_level = 13 }
-	1178.1.1 = { change_development_level = 30 }
+	867.1.1 = { change_prosperity_level = 9 }
+	1066.1.1 = { change_prosperity_level = 13 }
+	1178.1.1 = { change_prosperity_level = 30 }
 	
 	755.1.1 = {
 		liege = "k_lotharingia"
@@ -2043,10 +2287,25 @@ c_neufchateau = {
 	}
 }
 
+c_luxeuil = {
+	856.1.1 = {
+		liege = k_lotharingia
+		holder = luxeuil_gibert #Gibert
+		government = ecclesiastical_government
+	}
+	1049.1.1 = {
+		liege = e_hre
+		holder = luxeuil_gerard #Gerard
+	}
+	1178.1.1 = {
+		holder = luxeuil_bouchard #Bouchard
+	}
+}
+
 d_lower_lorraine = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 15 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 15 }
 	
 	903.1.1={
 		liege = "k_lotharingia"
@@ -2090,7 +2349,7 @@ d_lower_lorraine = {
 	1012.1.10={
 		holder=11036 #Gottfried II Wigeriche
 	}
-	1023.269.={
+	1023.9.26={
 		holder=11032 #Gozelo I Wigeriche
 	}
 	1024.7.13={
@@ -2136,9 +2395,9 @@ d_lower_lorraine = {
 
 
 c_cologne = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 15 }
-	1178.1.1 = { change_development_level = 32 }
+	867.1.1 = { change_prosperity_level = 10 }
+	1066.1.1 = { change_prosperity_level = 15 }
+	1178.1.1 = { change_prosperity_level = 32 }
 	
 	784.1.1 = {
 		liege = k_lotharingia
@@ -2571,7 +2830,10 @@ c_koblenz = {
 	}
 	867.1.1 = {
 		government = ecclesiastical_government
-		holder = 163051
+		holder = et_trier_867_1 # Theutgaud
+	}
+	869.1.1 = {
+		holder = 163051 # Bertolf
 	}
 	903.1.1 = {
 		liege = "d_lower_lorraine"
@@ -2786,4 +3048,10 @@ c_sayn = {
 		holder = 487017
 	}
 
+}
+
+d_bar = {
+	1066.1.1 = {
+		de_jure_liege = k_east_francia
+	}
 }

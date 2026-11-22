@@ -1,7 +1,7 @@
 ﻿k_badajoz = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 11 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = { change_prosperity_level = 8 }
+	1066.1.1 = { change_prosperity_level = 11 }
+	1178.1.1 = { change_prosperity_level = 24 }
 
 	875.1.1 = {
 		holder = 73957 # Abd al-Rahman ibn Marwan
@@ -69,9 +69,9 @@ d_beja = {
 
 
 c_lisboa = {
-	867.1.1 = {	change_development_level = 9 }
-	1066.1.1 = { change_development_level = 12 }
-	1178.1.1 = { change_development_level = 24 }
+	867.1.1 = {	change_prosperity_level = 9 }
+	1066.1.1 = { change_prosperity_level = 12 }
+	1178.1.1 = { change_prosperity_level = 24 }
  
 	840.1.1 = {
 		holder = danis0005 # Walih Adanis ibn Awsaga of Beja
@@ -209,18 +209,18 @@ c_beja = {
 		holder = 224011 # Yazid Yazidid
 		liege = k_maghreb
 	}
-	1188.1.1 = {
-		holder = 224021 # Bilal Tremecen
+	1165.1.1 = {
+		holder = 209503 # Afonso I
+		liege = k_portugal
 	}
-	1199.1.1 = {
-		holder = 73609 # Utman Tittawin
+	1185.12.6 = {
+		holder = 209500 # Sancho I de Bourgogne
 	}
-	1213.1.1 = {
-		holder = 73610 # Abdallah Utmanid
+	1212.3.26 = {
+		holder = 459560 # Afonso II de Bourgogne
 	}
 	1217.10.18 = {
 		holder = 142547 # Afonso Hermiges de Baiao
-		liege = k_portugal
 	}
 	1220.1.1 = {
 		holder = 142550 # Afonso Lopes de Baiao
@@ -573,6 +573,8 @@ d_badajoz = {
 	}
 	1150.1.1 = {
 		holder = 0
+	}
+	1212.7.16 = {
 		de_jure_liege = k_leon
 	}
 }

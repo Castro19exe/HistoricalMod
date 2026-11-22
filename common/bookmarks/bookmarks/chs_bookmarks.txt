@@ -1255,7 +1255,7 @@ bm_867_mandalas = {
 		dynasty = khmer_varman
 		dynasty_splendor_level = 3
 		type = male
-		birth = 813.1.1
+		birth = 820.1.1
 		title = d_angkor #Angkor
 		government = mandala_government
 		culture = khmer
@@ -1273,7 +1273,7 @@ bm_867_mandalas = {
 		dynasty = dayak_segara
 		dynasty_splendor_level = 3
 		type = male
-		birth = 836.1.1
+		birth = 826.1.1
 		title = d_BOR_kutai
 		government = wanua_government
 		culture = dayak
@@ -1444,7 +1444,7 @@ bm_1066_hastings = {
 		culture = norman
 		religion = roman_rite
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		position = { 830 810 }
+		position = { 740 810 }
 
 		animation = personality_callous
 
@@ -1855,6 +1855,21 @@ bm_1066_rags_to_riches = {
 			history_id = 1132
 			animation = personality_content
 		}
+	}
+
+	# Custom landless adventurer
+	character = {
+		name = "bookmark_rags_to_riches_new_adventurer"
+		character_design_type = landless_adventurer
+		title = k_france
+		dynasty = new_adventurer_dynasty
+		dynasty_splendor_level = 1
+		government = landless_adventurer_government
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		religion = "BOOKMARK_CHARACTER_ANY_FAITH"
+		position = { 600 455 }
+
+		animation = war_attacker
 	}
 }
 
@@ -2275,7 +2290,7 @@ bm_1066_laamps = {
 	start_date = 1066.9.15
 	is_playable = yes
 	group = bm_group_1066
-	requires_dlc_flag = landless_adventurer
+	requires_dlc_flag = roads_to_power
 
 	weight = {
 		value = 100
@@ -3926,6 +3941,318 @@ bm_1178_genpei = {
 			religion = mantrayana
 			history_id = japanese_minamoto_seiwa_208
 			animation = personality_zealous
+		}
+	}
+}
+
+bm_1066_merchants = {
+	start_date = 1066.9.15
+	is_playable = yes
+	group = bm_group_1066
+	requires_dlc_flag = silk_and_silver
+
+	weight = {
+		value = 100
+		if = {
+			limit = { has_dlc_feature = silk_and_silver }
+			add = 1000
+		}
+	}
+
+	# Custom Silk Road merchant
+	character = {
+		name = "bookmark_merchants_new_merchant_company"
+		character_design_type = merchant
+		title = k_transoxiana
+		dynasty = new_merchant_dynasty
+		dynasty_splendor_level = 1
+		government = merchant_government
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		religion = "BOOKMARK_CHARACTER_ANY_FAITH"
+		position = { 880 170 }
+	}
+
+	# Sun Zhong
+	character = {
+		name = "bookmark_merchants_sun_zhong"
+		dynasty = han_sun_5B6B_merchant
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1041.1.1
+		title = c_merchant_sun_5B6B
+		government = merchant_government
+		culture = han
+		religion = vinaya
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = han_sun_5B6B_merchant_1
+		position = { 300 700 }
+
+		animation = personality_bold
+	}
+
+	# Vitale Faliero, also of Venice
+	character = {
+		name = "bookmark_merchants_vitale_faliero"
+		dynasty = 514
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1038.1.1
+		title = c_merchant_faliero
+		government = republic_government
+		culture = cisalpine
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 7804
+		position = { 370 300 }
+
+		animation = personality_dishonorable
+	}
+
+	# Wuhsha al-dallala of Cairo
+	character = {
+		name = "bookmark_merchants_wuhsha_al_dallala"
+		dynasty = wuhsha_karimid_dynasty
+		dynasty_splendor_level = 1
+		type = female
+		birth = 1042.1.1
+		title = c_merchant_wuhsha
+		government = merchant_government
+		culture = mustaarabi
+		religion = rabbinism
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = bookmark_wuhsha_al_dallala
+		position = { 750 495 }
+
+		animation = map_scales
+
+		#	Hillel Salvidi (confidant) ID:greek_salvidi_1
+		character = {
+			name = "bookmark_merchants_greek_salvidi_1"
+			relation = "BOOKMARK_RELATION_CONFIDANT"
+			dynasty = salvidi_dynasty
+			dynasty_splendor_level = 1
+			type = male
+			birth = 1030.1.1
+			government = merchant_government
+			culture = greek
+			religion = rabbinism
+			history_id = greek_salvidi_1
+			animation = personality_honorable
+		}
+
+		# Abu Sa'id, son of Karima (Wuhsha)
+		character = {
+			name = "bookmark_merchants_bookmark_wuhsha_al_dallala_5"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = wuhsha_karimid_dynasty
+			dynasty_splendor_level = 1
+			type = male
+			birth = 1061.1.1
+			government = merchant_government
+			culture = mustaarabi
+			religion = rabbinism
+			history_id = bookmark_wuhsha_al_dallala_5
+			animation = frontend_left_idle
+		}
+	}
+
+	# Nattal Sahu of Yoginipur (Delhi)
+	character = {
+		name = "bookmark_merchants_nattal_sahu"
+		dynasty = hindustani_sahu
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1025.1.1
+		title = c_merchant_sahu
+		government = merchant_government
+		culture = hindustani
+		religion = svetambara
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = bookmark_nattal_sahu
+		position = { 1145 620 }
+
+		animation = personality_honorable
+	}
+}
+
+bm_1178_merchants = {
+	start_date = 1178.10.1
+	is_playable = yes
+	group = bm_group_1178
+	requires_dlc_flag = silk_and_silver
+
+	weight = {
+		if = {
+			limit = { has_dlc_feature = silk_and_silver }
+			add = 120
+		}
+	}
+
+	# Marco Sanudo, Venetian patrician ID: 31421
+	character = {
+		name = "bookmark_merchants_1178_marco_sanudo"
+		dynasty = 102020
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1153.1.1
+		title = c_merchant_sanudo
+		government = republic_government
+		culture = cisalpine
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 31421
+		position = { 1120 300 }
+
+		animation = personality_bold
+
+		# Enrico Dandolo, blind maternal uncle ID: 213601
+		character = {
+			name = "bookmark_merchants_1178_enrico_dandolo"
+			relation = "BOOKMARK_RELATION_UNCLE"
+			dynasty = 13027
+			type = male
+			birth = 1107.1.2
+			culture = cisalpine
+			religion = roman_rite
+			history_id = 213601
+			animation = personality_cynical
+		}
+	}
+
+	# Humbert III of Savoy, Duke of Savoy ID: 213110
+	character = {
+		name = "bookmark_merchants_1178_humbert_savoy"
+		dynasty = 240
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1136.8.4
+		title = d_savoie
+		government = feudal_government
+		culture = arpitan
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 213110
+		position = { 320 420 }
+
+		animation = personality_rational
+
+		# Thomas, newborn son and heir ID: 213117
+		character = {
+			name = "bookmark_merchants_1178_thomas_savoy"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 240
+			type = male
+			birth = 1178.6.26
+			culture = arpitan
+			religion = roman_rite
+			history_id = 213117
+			animation = personality_bold
+		}
+	}
+
+	# Guido Guerra III, Count of Casentino ID: guidi_1
+	character = {
+		name = "bookmark_merchants_1178_guido_guerra"
+		dynasty = 1042027
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1138.1.1
+		title = c_casentino
+		government = feudal_government
+		culture = italian
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = guidi_1
+		position = { 650 650 }
+
+		animation = personality_cynical
+
+		# Rinaldo, brother ID: guidi_29
+		character = {
+			name = "bookmark_merchants_1178_rinaldo_guidi"
+			relation = "BOOKMARK_RELATION_BROTHER"
+			dynasty = 1042027
+			type = male
+			birth = 1140.1.1
+			culture = italian
+			religion = roman_rite
+			history_id = guidi_29
+			animation = scheme
+		}
+	}
+
+	# Speronella Dalesmanni, Paduan noblewoman ID: dalesmanni_1
+	character = {
+		name = "bookmark_merchants_1178_speronella_dalesmanni"
+		dynasty = cisalpine_dalesmanni
+		dynasty_splendor_level = 1
+		type = female
+		birth = 1149.1.1
+		title = c_merchant_dalesmanni
+		government = republic_government
+		culture = cisalpine
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = dalesmanni_1
+		position = { 710 170 }
+
+		animation = personality_honorable
+
+		# Pietro III di Traversari, husband ID: 73547
+		character = {
+			name = "bookmark_merchants_1178_pietro_iii"
+			relation = "BOOKMARK_RELATION_FORMER_SPOUSE_MALE"
+			dynasty = 101851
+			type = male
+			birth = 1145.1.1
+			culture = italian
+			religion = roman_rite
+			history_id = 73547
+			animation = war_over_win
+		}
+
+		# Ezzelino II da Romano, husband ID: 70655
+		character = {
+			name = "bookmark_merchants_1178_ezzelino_ii"
+			relation = "BOOKMARK_RELATION_FORMER_SPOUSE_MALE"
+			dynasty = 13025
+			type = male
+			birth = 1150.1.1
+			culture = cisalpine
+			religion = roman_rite
+			history_id = 70655
+			animation = marshal
+		}
+	}
+
+	# Konrad von Urslingen, Duke of Spoleto ID: 213100
+	character = {
+		name = "bookmark_merchants_1178_konrad_urslingen"
+		dynasty = 12480
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1150.1.1
+		title = d_spoleto
+		government = feudal_government
+		culture = swabian
+		religion = roman_rite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 213100
+		position = { 1050 700 }
+
+		animation = war_defender
+
+		# Jutta, sister ID: urslingen_1
+		character = {
+			name = "bookmark_merchants_1178_jutta_urslingen"
+			relation = "BOOKMARK_RELATION_SISTER"
+			dynasty = 12480
+			type = female
+			birth = 1154.1.1
+			culture = swabian
+			religion = roman_rite
+			history_id = urslingen_1
+			animation = personality_honorable
 		}
 	}
 }

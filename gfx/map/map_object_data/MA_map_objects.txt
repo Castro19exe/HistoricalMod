@@ -1,14 +1,4 @@
 ﻿object={
-	name="acropolis"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="acropolis_mesh"
-	count=1
-	transform="2345.115967 -1.614502 2227.847412 0.000000 0.715900 0.000000 0.698203 1.007987 1.007987 1.007987
-"}
-object={
 	name="baghdad_sprawl"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -59,16 +49,6 @@ object={
 	transform="5386.408203 0.000000 1852.859009 0.000000 0.503513 0.000000 -0.863989 1.012402 1.012402 1.012402
 "}
 object={
-	name="mesembria"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="mesembria_mesh"
-	count=1
-	transform="2538.986084 2.407227 2601.602783 0.000000 -0.097358 0.000000 0.995250 1.296787 1.296787 1.296787
-"}
-object={
 	name="prophetic_mosque"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -79,54 +59,14 @@ object={
 	transform="3166.178711 0.109985 1578.700806 0.000000 0.000000 0.000000 0.000000 0.868384 0.868384 0.868384
 "}
 object={
-	name="sprawl_alexandria"
+	name="special_paris_building"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
 	generated_content=no
 	layer="building_layer"
-	pdxmesh="alexandria_sprawl_mesh"
+	pdxmesh="whitehorse_hill_mesh"
 	count=1
-	transform="2660.929443 -0.551636 1823.303589 0.000000 -0.243795 0.000000 0.969827 1.000000 1.000000 1.000000
-"}
-object={
-	name="sprawl_antioch"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_antioch_mesh"
-	count=1
-	transform="3000.730225 -0.955566 2160.907715 0.000000 -0.130666 0.000000 0.991427 1.163625 1.163625 1.163625
-"}
-object={
-	name="sprawl_bruges"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_bruges_mesh"
-	count=1
-	transform="1131.122925 0.000000 3258.248779 0.000000 -0.144391 0.000000 0.989521 1.093665 1.093665 1.093665
-"}
-object={
-	name="sprawl_cologne"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_cologne_mesh"
-	count=1
-	transform="1324.824585 0.000000 3240.690186 0.000000 0.173395 -0.000000 -0.984852 0.552686 0.552686 0.552686
-"}
-object={
-	name="sprawl_cordoba"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_cordoba_mesh"
-	count=1
-	transform="680.888245 -0.136475 2280.296387 0.000000 -0.026769 0.000000 0.096350 0.817784 0.817784 0.817784
+	transform="1061.774658 0.179687 3079.062988 0.000000 0.134681 0.000000 0.990889 0.000000 0.000000 0.000000
 "}
 object={
 	name="sprawl_dali"
@@ -149,16 +89,6 @@ object={
 	transform="4511.996094 0.000000 2202.098633 0.000000 0.066844 0.000000 0.997763 0.897897 0.897897 0.897897
 "}
 object={
-	name="sprawl_jerusalem"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_jerusalem_mesh"
-	count=1
-	transform="2952.745850 -0.869262 1900.161499 0.000000 0.241813 0.000000 0.970323 1.467078 1.467078 1.467078
-"}
-object={
 	name="sprawl_kyiv"
 	render_pass=MapUnderWater
 	clamp_to_water_level=no
@@ -167,16 +97,6 @@ object={
 	pdxmesh="sprawl_kyiv_mesh"
 	count=1
 	transform="2513.028320 0.000000 3152.147461 0.000000 0.531029 0.000000 0.847354 0.735391 0.735391 0.735391
-"}
-object={
-	name="sprawl_london"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_london_mesh"
-	count=1
-	transform="948.126648 -3.797607 3311.016846 0.000000 0.016997 0.000000 -0.999856 1.554501 1.554501 1.554501
 "}
 object={
 	name="sprawl_mahdia"
@@ -207,14 +127,4 @@ object={
 	entity="sprawl_toledo_entity"
 	count=1
 	transform="732.452759 0.000000 2417.891602 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000
-"}
-object={
-	name="sprawl_zadar"
-	render_pass=MapUnderWater
-	clamp_to_water_level=no
-	generated_content=no
-	layer="building_layer"
-	pdxmesh="sprawl_zadar_mesh"
-	count=1
-	transform="1822.807739 0.000000 2666.224609 0.000000 0.305862 0.000000 0.952076 0.787036 0.787036 0.787036
 "}

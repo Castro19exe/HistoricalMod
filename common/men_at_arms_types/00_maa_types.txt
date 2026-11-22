@@ -27,6 +27,8 @@ light_footmen = {
 	pursuit = 10
 	screen = 16
 	
+	control_value = 2
+	
 	terrain_bonus = {
 		forest = { damage = 4 toughness = 6 }
 		taiga = { damage = 4 toughness = 6 }
@@ -38,10 +40,7 @@ light_footmen = {
 	}
 
 	can_recruit = {
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
-		}
+		NOT = { government_has_flag = government_is_in_steppe }
 	}
 
 	should_show_when_unavailable = {
@@ -78,6 +77,8 @@ bowmen = {
 	pursuit = 0
 	screen = 0
 	
+	control_value = 2
+	
 	terrain_bonus = {
 		hills = { damage = 10 toughness = 4 }
 		forest = { toughness = 4 screen = 4 }
@@ -90,8 +91,8 @@ bowmen = {
 
 	can_recruit = {
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 
@@ -131,6 +132,8 @@ light_horsemen = {
 	pursuit = 30
 	screen = 30
 	
+	control_value = 4
+	
 	terrain_bonus = {
 		plains = { damage = 15 }
 		drylands = { damage = 15 }
@@ -147,8 +150,8 @@ light_horsemen = {
 
 	can_recruit = {
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 
@@ -197,6 +200,8 @@ pikemen_unit = {
 	pursuit = 0
 	screen = 0
 	
+	control_value = 4
+	
 	terrain_bonus = {
 		mountains = { toughness = 12 }
 		desert_mountains = { toughness = 12 }
@@ -212,8 +217,8 @@ pikemen_unit = {
 
 	can_recruit = {
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 
@@ -254,6 +259,8 @@ armored_footmen = {
 	pursuit = 0
 	screen = 0
 	
+	control_value = 4
+	
 	counters = {
 		pikemen = 1
 		peasant_militia = 2
@@ -267,8 +274,8 @@ armored_footmen = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 	
@@ -315,15 +322,11 @@ onager = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_catapult
-			NOR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_korean
-				has_cultural_pillar = heritage_japonic
-			}
+			culture_uses_eastern_siege_weapons_trigger = no
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 	
@@ -349,6 +352,8 @@ armored_horsemen = {
 	pursuit = 20
 	screen = 0
 	
+	control_value = 8
+	
 	terrain_bonus = {
 		plains = { damage = 30 }
 		drylands = { damage = 30 }
@@ -368,8 +373,8 @@ armored_horsemen = {
 			has_innovation = innovation_arched_saddle
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 		NOT = {
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
@@ -424,15 +429,11 @@ mangonel = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_mangonel
-			NOR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_korean
-				has_cultural_pillar = heritage_japonic
-			}
+			culture_uses_eastern_siege_weapons_trigger = no
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 	
@@ -459,6 +460,8 @@ crossbowmen = {
 	pursuit = 0
 	screen = 0
 	
+	control_value = 4
+	
 	terrain_bonus = {
 		hills = { damage = 10 }
 		plains = { toughness = -8 }
@@ -477,8 +480,8 @@ crossbowmen = {
 			has_innovation = innovation_advanced_bowmaking
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 
@@ -524,15 +527,11 @@ trebuchet = {
 	can_recruit = {
 		culture = {
 			has_innovation = innovation_trebuchet
-			NOR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_korean
-				has_cultural_pillar = heritage_japonic
-			}
+			culture_uses_eastern_siege_weapons_trigger = no
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 
 	}
@@ -566,15 +565,11 @@ bombard = {
 	can_recruit = {
 		culture = {
 			has_cultural_parameter = unlock_late_medieval_gunpowder_units
-			NOR = {
-				has_cultural_pillar = heritage_chinese
-				has_cultural_pillar = heritage_korean
-				has_cultural_pillar = heritage_japonic
-			}
+			culture_uses_eastern_siege_weapons_trigger = no
 		}
 		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
+			government_has_flag = government_is_in_steppe
+			government_has_flag = government_is_merchant
 		}
 	}
 	
@@ -600,9 +595,12 @@ handgunners = {
 	pursuit = 0
 	screen = 5
 
+	control_value = 4
+
 	can_recruit = {
 		gunpowder_raise_limit_existing_gunpowder_units < gunpowder_raise_limit_existing_gunpowder_buildings	# one powder magazine must be owned to support three handgunner regiments, regardless of maa size
 		culture = { has_cultural_parameter = unlock_late_medieval_gunpowder_units }
+		NOT = { government_has_flag = government_is_merchant }
 	}
 
 	terrain_bonus = {
@@ -636,16 +634,19 @@ house_guard = {
 		dynasty ?= {
 			has_dynasty_perk = warfare_legacy_5
 		}
-		NOT = {
+		NOR = {
+			government_has_flag = government_is_merchant
 			culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
 		}
 	}
-	
+
 	damage = 40
 	toughness = 32
 	pursuit = 0
 	screen = 24
-	
+
+	control_value = 4
+
 	counters = {
 		pikemen = 2
 		peasant_militia = 4
@@ -682,6 +683,8 @@ pikemen_militia = {
 	toughness = 16
 	pursuit = 10
 	screen = 0
+	
+	control_value = 4
 
 	terrain_bonus = {
 		mountains = { toughness = 8 }
